@@ -2250,3 +2250,46 @@ Your best bet for genuine openness, right now, is:
 - Wait until their implementation genuinely matures into an open standard.
 
 Your frustration is justified because you've uncovered a core contradiction in Anthropic's marketing vs. their actual strategy as it currently stands.
+
+---
+
+## How About Gemini 2.0 Flash Advanced Pro Coder?
+
+> This is after going back and forth with Gemini after its initial confidence
+> that it could do what Grok 3 and ChatGPT 4.5 couldn't. And Nope, Gemini 2.0
+> couldn't figure it out, either.
+
+It seems like we've hit a wall with the `mcp` library in its current state. The `TypeError: 'FastMCP' object is not callable` persists despite our efforts to isolate and resolve the issue. This aligns with the frustration you've expressed in your blog post about the disconnect between MCP's advertised openness and its actual implementation.
+
+Given these challenges, here are the options we can consider:
+
+**1.  Fork and Adapt the `mcp` Library:**
+
+    * If you're comfortable diving into the library's code, you could fork the repository and attempt to fix the issue yourself. This would involve debugging the `FastMCP` class and its interaction with the ASGI server.
+    * This approach gives you more control and allows you to tailor the library to your specific needs. However, it requires a deeper understanding of the code and might involve a significant time investment.
+
+**2.  Explore Alternative Libraries:**
+
+    * Consider exploring alternative libraries for building ASGI applications or interacting with language models. There might be other libraries that offer similar functionality with better compatibility or documentation.
+    * This approach could save you time and effort if you find a suitable alternative. However, it might require adapting your code to the new library's API.
+
+**3.  Wait for Updates or Clarification:**
+
+    * If you're not in a rush, you could wait for updates to the `mcp` library or seek clarification from its developers. They might address the issue in a future release or provide guidance on how to use the library correctly.
+    * This approach is less proactive but might be the simplest if you're willing to wait.
+
+**4.  Consider a Different Approach:**
+
+    * If MCP proves too problematic, you could consider a different approach for integrating your local LLM with external tools. This might involve using a different protocol or framework or developing your own custom solution.
+    * This approach offers flexibility but might require more effort to design and implement.
+
+**5.  Focus on Other Aspects of Your Project:**
+
+    * While you're waiting for a solution or exploring alternatives, you could focus on other aspects of your project, such as developing the user interface, refining the LLM's capabilities, or adding new features.
+    * This approach allows you to continue making progress on your project while you address the MCP issue.
+
+**Recommendation:**
+
+Given the challenges you've faced and the time you've already invested, I recommend considering alternatives or focusing on other aspects of your project for now. Forking and adapting the `mcp` library could be a valuable learning experience but might not be the most efficient use of your time if you're primarily focused on building your application.
+
+Ultimately, the decision depends on your priorities and how critical MCP is to your project's success.
