@@ -10,13 +10,17 @@ sort_order: 2
 
 **FAIR WARNING**: This is going to be a really long discussion of ***why MCP***
 (Anthropic's new proposed standard for LLM microservices) before it becomes that
-fixing of the Anthropic QuickStart guide, which is way down at the bottom. Also,
-this is not for folks who just want to plug things together and build fast. This
-is me breaking through my hype-shields. I'm both skeptical of MCP, and exactly
-the type of person who I think might be able to benefit from it. I hate
-microservices, but I have parts talking to each other, some of which are LLMs.
-Parts talk to parts, and some of those parts are LLMs. So, this is a deep dive
-into principles of my function-executing local-LLM project called Pipulate.
+fixing of the [Anthropic QuickStart
+guide](https://modelcontextprotocol.io/quickstart/server), which is way down at
+the bottom. Also, this is not for folks who just want to plug proprietary things
+together and build fast in a no-code but pay-a-lot way-- the direction MCP
+appears to be aiming.
+
+Instead, this is me breaking through my hype-shields. I'm both skeptical of MCP,
+and exactly the type of person who I think might be able to benefit from it. I
+hate microservices, but I have parts talking to each other, some of which are
+LLMs.  Parts talk to parts, and some of those parts are LLMs. So, this is a deep
+dive into principles of my function-executing local-LLM project called Pipulate.
 
 ---
 
