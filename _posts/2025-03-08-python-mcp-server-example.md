@@ -1178,6 +1178,375 @@ The bare minimum MCP server and client, as designed, meet the user’s request f
 - [MCP PyPI Package Installation Guide](https://pypi.org/project/mcp/)  
 - [Uvicorn ASGI Server Documentation](https://www.uvicorn.org/)
 
+---
+
+## Creating a Cross-Platform MCP Example
+
+Alright. That's fair enough. But now, I want to set up an MCP example that
+anyone in the world, whether they're on a Mac, Windows or Linux machine can just
+pull up and run. I propose doing this in the most radical sort of way.
+
+### Learning from Electron's Cross-Platform Success
+
+Have you heard of Electron apps? You know, like the way VSCode, Discord, Zoom
+and the like are programmed. If all you need is the Web user interface for your
+software, you don't really need the native UI API like Cocoa for Mac, WinUI for
+Windows, or Qt for Linux. Instead, you can use web technologies to create
+cross-platform desktop applications that run consistently across different
+operating systems. 
+
+### Browser-Based Local Apps Like Jupyter
+
+For example, the way Jupyter Notebooks and JupyterLab are regularly run locally,
+but their user interface comes up in the web browser. I know it takes a little
+bit for the user to get used to the fact that a `localhost` or `127.0.0.1`
+address is being served from their own local machine, and that's not the way
+Electron exposes the app to the user (they use custom packaging and installer),
+but if you just accept that the app is served to your default local browser, it
+can use all your profile settings like your saved passwords.
+
+### Using Nix for True Cross-Platform Compatibility 
+
+What's further, if you use the `nix` packaging manager and Nix Flakes in
+particular to assemble your local ***code as infrastructure*** environment, the
+identical code, that can travel around as a self-contained git repo, can run on
+any host machine, be it Windows (via WSL), Mac or Linux (whether NixOS or not).
+To achieve this, you would first use the [Determinate Systems Nix
+Installer](https://determinate.systems/posts/determinate-nix-installer/) to
+ensure a clean 1-command install, which is both reversible capable of wholly and
+completely deleting any "cruft" off your machine (one of the pain points of
+local software installs), and be capable of surviving macOS upgrades. The
+default nix installer could be used, but the Determinate Systems one provides a
+bit more reversibility and durability. And that command is:
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
+```
+
+## Installing Nix Package Manager
+
+Once nix is installed on your machine, you really want to work out of a single
+directory "per app". Each of these directories, or folders if you prefer, can be
+made self-contained and portable. In particular, if you drop a file called a
+`flake.nix` in the directory, you can use the nix package manager to assemble
+your app's dependencies. This is a really powerful way to make your app's
+dependencies really portable. This is the premise of the [Nix
+Flakes](https://nix.dev/learn-nix/tutorials/flakes) system. It fixes the "works
+on my machine" problem, aka "dependency hell".
+
+### Understanding Nix Through Normalization Layers
+
+One way to understand this is through the laying down of a "normalization layer".
+Web developers might know this as the old "normalize.css" or "reset.css" that
+gets dropped into the root of a project to make sure all the different browsers
+look the same. It's the same idea. But for the whole machine.
+
+### Nix as a Portable Linux Subsystem
+
+Think of Nix as a portable (Linux) subsystem that works superbly well out of and
+contained with the folder of a Mac or Windows machine. And for technical reasons I'll spare you right now, it's even better than than working out of a folder (the nix store), but it's what enables such dramatic uninstalls and prevention of "cruft" accumulation.
+
+### The Revolutionary Impact of Nix
+
+Yes, Nix is a game changer. At least as big as VMs and Containers
+(VMWare/VirtualBox and Docker/LXD). It makes VMs and containers unnecessary, in
+fact. It's a much cleaner, efficient, lower learning curve (for running the
+apps) and generally accessible by the masses way of normalizing a system.
+
+### Setting Up Our Development Environment
+
+So enough cheerleading. I suppose if you got this far, you may have run the
+installer, or are willing to. The next step is the Nix Flake. Well, for these
+purposes, I'm going to want to run an instance of JupyterLab, so you can play
+around with the code in a great learning environment.
+
+### Planning the MCP Server Architecture
+
+But because MCP is a microservice (blech!), I'm also going to run certain parts
+of the app as a MCP server. So, likely the MCP client will live in a Jupyter
+Notebook (an `.ipynb` file), where you can press a button and have it call the
+MCP server. But the MCP server will be in a separate file, likely a `server.py`
+file.
+
+### Implementing the Darwinix Flake
+
+Let's start with my standard
+***[Darwinix](https://github.com/miklevin/darwinix)*** Python Nix flake:
+
+```nix
+#       ____                      _       _                        .--.      ___________
+#      |  _ \  __ _ _ ____      _(_)_ __ (_)_  __    ,--./,-.     |o_o |    |     |     |
+#      | | | |/ _` | '__\ \ /\ / / | '_ \| \ \/ /   / #      \    |:_/ |    |     |     |
+#      | |_| | (_| | |   \ V  V /| | | | | |>  <   |          |  //   \ \   |_____|_____|
+#      |____/ \__,_|_|    \_/\_/ |_|_| |_|_/_/\_\   \        /  (|     | )  |     |     |
+#                                                    `._,._,'  /'\_   _/`\  |     |     |
+#      Solving the "Not on my machine" problem well.           \___)=(___/  |_____|_____|
+
+# Most modern development is done on Linux, but Macs are Unix. If you think Homebrew and Docker
+# are the solution, you're wrong. Welcome to the world of Nix Flakes! This file defines a complete,
+# reproducible development environment. It's like a recipe for your perfect workspace, ensuring
+# everyone on your team has the exact same setup, every time. As a bonus, you can use Nix flakes on
+# Windows under WSL. Plus, whatever you make will be deployable to the cloud.
+
+{
+  # This description helps others understand the purpose of this Flake
+  description = "A flake that reports the OS using separate scripts with optional CUDA support and unfree packages allowed.";
+  
+  # Inputs are the dependencies for our Flake
+  # They're pinned to specific versions to ensure reproducibility
+  inputs = {
+    # nixpkgs is the main repository of Nix packages
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    # flake-utils provides helpful functions for working with Flakes
+    flake-utils.url = "github:numtide/flake-utils";
+  };
+
+  # Outputs define what our Flake produces
+  # In this case, it's a development shell that works across different systems
+  outputs = { self, nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        # We're creating a custom instance of nixpkgs
+        # This allows us to enable unfree packages like CUDA
+        pkgs = import nixpkgs {
+          inherit system;
+          config = {
+            allowUnfree = true;  # This is necessary for CUDA support
+          };
+        };
+
+        # These helpers let us adjust our setup based on the OS
+        isDarwin = pkgs.stdenv.isDarwin;
+        isLinux = pkgs.stdenv.isLinux;
+
+        # Common packages that we want available in our environment
+        # regardless of the operating system
+        commonPackages = with pkgs; [
+          python313Full                # Python 3.13 interpreter
+          python313Packages.virtualenv # Tool to create isolated Python environments
+          figlet                       # For creating ASCII art welcome messages
+          tmux                         # Terminal multiplexer for managing sessions
+          zlib                         # Compression library for data compression
+          git                          # Version control system for tracking changes
+          curl                         # Command-line tool for transferring data with URLs
+          wget                         # Utility for non-interactive download of files from the web
+          cmake                        # Cross-platform build system generator
+          htop                         # Interactive process viewer for Unix systems
+        ] ++ (with pkgs; pkgs.lib.optionals isLinux [
+          gcc                          # GNU Compiler Collection for compiling C/C++ code
+          stdenv.cc.cc.lib             # Standard C library for Linux systems
+        ]);
+
+        # This script sets up our Python environment and project
+        runScript = pkgs.writeShellScriptBin "run-script" ''
+          #!/usr/bin/env bash
+          
+          # Activate the virtual environment
+          source .venv/bin/activate
+
+          # Create a fancy welcome message
+          REPO_NAME=$(basename "$PWD")
+          PROPER_REPO_NAME=$(echo "$REPO_NAME" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')
+          figlet "$PROPER_REPO_NAME"
+          echo "Welcome to the $PROPER_REPO_NAME development environment on ${system}!"
+          echo 
+
+          # Install Python packages from requirements.txt
+          # This allows flexibility to use the latest PyPI packages
+          # Note: This makes the environment less deterministic
+          echo "- Installing pip packages..."
+          if pip install --upgrade pip --quiet && \
+            pip install -r requirements.txt --quiet; then
+              package_count=$(pip list --format=freeze | wc -l)
+              echo "- Done. $package_count pip packages installed."
+          else
+              echo "Warning: An error occurred during pip setup."
+          fi
+
+          # Check if numpy is properly installed
+          if python -c "import numpy" 2>/dev/null; then
+            echo "- numpy is importable (good to go!)"
+            echo
+            echo "To start JupyterLab, type: start"
+            echo "To stop JupyterLab, type: stop"
+            echo
+          else
+            echo "Error: numpy could not be imported. Check your installation."
+          fi
+
+          # Create convenience scripts for managing JupyterLab
+          # Note: We've disabled token and password for easier access, especially in WSL environments
+          cat << EOF > .venv/bin/start
+          #!/bin/sh
+          echo "A JupyterLab tab will open in your default browser."
+          tmux kill-session -t jupyter 2>/dev/null || echo "No tmux session named 'jupyter' is running."
+          tmux new-session -d -s jupyter 'source .venv/bin/activate && jupyter lab --NotebookApp.token="" --NotebookApp.password="" --NotebookApp.disable_check_xsrf=True'
+          echo "If no tab opens, visit http://localhost:8888"
+          echo "To view JupyterLab server: tmux attach -t jupyter"
+          echo "To stop JupyterLab server: stop"
+          EOF
+          chmod +x .venv/bin/start
+
+          cat << EOF > .venv/bin/stop
+          #!/bin/sh
+          echo "Stopping tmux session 'jupyter'..."
+          tmux kill-session -t jupyter 2>/dev/null || echo "No tmux session named 'jupyter' is running."
+          echo "The tmux session 'jupyter' has been stopped."
+          EOF
+          chmod +x .venv/bin/stop
+        '';
+
+        # Define the development shell for Linux systems (including WSL)
+        linuxDevShell = pkgs.mkShell {
+          # Include common packages and conditionally add CUDA if available
+          buildInputs = commonPackages ++ (with pkgs; pkgs.lib.optionals (builtins.pathExists "/usr/bin/nvidia-smi") cudaPackages);
+          shellHook = ''
+            # Set up the Python virtual environment
+            test -d .venv || ${pkgs.python311}/bin/python -m venv .venv
+            export VIRTUAL_ENV="$(pwd)/.venv"
+            export PATH="$VIRTUAL_ENV/bin:$PATH"
+            # Customize the prompt to show we're in a Nix environment
+            # export PS1='$(printf "\033[01;34m(nix) \033[00m\033[01;32m[%s@%s:%s]$\033[00m " "\u" "\h" "\w")'
+            export LD_LIBRARY_PATH=${pkgs.lib.makeLibraryPath commonPackages}:$LD_LIBRARY_PATH
+
+            # Set up CUDA if available
+            if command -v nvidia-smi &> /dev/null; then
+              echo "CUDA hardware detected."
+              export CUDA_HOME=${pkgs.cudatoolkit}
+              export PATH=$CUDA_HOME/bin:$PATH
+              export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+            else
+              echo "No CUDA hardware detected."
+            fi
+
+            # Run our setup script
+            ${runScript}/bin/run-script
+          '';
+        };
+
+        # Define the development shell for macOS systems
+        darwinDevShell = pkgs.mkShell {
+          buildInputs = commonPackages;
+          shellHook = ''
+            # Set up the Python virtual environment
+            test -d .venv || ${pkgs.python311}/bin/python -m venv .venv
+            export VIRTUAL_ENV="$(pwd)/.venv"
+            export PATH="$VIRTUAL_ENV/bin:$PATH"
+            # Customize the prompt to show we're in a Nix environment
+            # export PS1='$(printf "\033[01;34m(nix) \033[00m\033[01;32m[%s@%s:%s]$\033[00m " "\u" "\h" "\w")'
+            export LD_LIBRARY_PATH=${pkgs.lib.makeLibraryPath commonPackages}:$LD_LIBRARY_PATH
+
+            # Run our setup script
+            ${runScript}/bin/run-script
+          '';
+        };
+
+      in {
+        # Choose the appropriate development shell based on the OS
+        devShell = if isLinux then linuxDevShell else darwinDevShell;  # Ensure multi-OS support
+      });
+}
+```
+
+You will also want a starter `requirements.txt` file. Here's mine:
+
+```python
+httpx
+jupyter-ai[all]
+jupyterlab
+mcp[cli]
+numpy
+pandas
+requests
+```
+
+## Managing Python Dependencies in requirements.txt
+
+Yeah, it seems a bit redundant to have `httpx` and `requests` in the
+`requirements.txt` file, but it's just a simple example.
+
+## Understanding Nix Flakes and Python Environment Management 
+
+Now there's so much to say here. I wrote a seperate article yesterday about all
+the lovely things going on in this Python Nix Flake. But for the sake of the new
+reader and the LLM I'm about to send this as a prompt to, let's just point out
+that the deterministic nature of Nix Flakes is not the Data Scientist's best
+friend. They like `conda`, but conda is a mess now, and unnecessary since pip
+started supporting "wheels". So, we're favoring the pip way of doing things.
+Even when Anthropic tries to compel us to use `uv` over `pip`, it's really stil
+the pip way of doing things.
+
+### The Power of Virtual Environments in Python
+
+Technically, it's the `pip` + `virtualenv` way of doing things, which is the
+right way in Python. So, what does it do? It gives you a "virtual environment"
+that is self-contained in a very similar way to nix, however all the traditional
+Python tooling works, so you can loosey goosey `pip install` things as you go,
+and as you lock-down versions you can pin them in the `requirements.txt` file
+with `pip freeze > requirements.txt`.
+
+### Combining Nix and Virtual Environments
+
+So we're using `nix` to "normalize" the Python environment so that whatrever you
+build will be portable across all OSes, but then we're using the `virtualenv`
+tool to create a comfy familiar Python environment where Data Scientists and the
+like can `pip install` instead of having to edit a `flake.nix` file and do a
+`nix flake rebuild`. 
+
+### Benefits of Nested Virtual Environments
+
+So yes, it is ***nested virtual environments***, but then, isn't everything
+these days? Difference being that with this approach, it doesn't have the file
+bloat of containers like Docker or the performance hit of vitualization like
+VirtualBox. I'm cherry picking the best of all worlds for this particular use
+case.
+
+## Next Steps: Creating the MCP Server Implementation
+
+Next step? Well, it's to create the code of the MCP server that will go into a
+`server.py` file and the code that will go into a Jupyter Notebook (an `.ipynb`
+file). I will take the `flake.nix` file exactly as is, add whatever new things I
+discover I need to the `requirements.txt` file, and then I'll plop it all into a
+git repo and publish it on my account at GitHub.
+
+Got all that, Grok 3? Do your thing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
