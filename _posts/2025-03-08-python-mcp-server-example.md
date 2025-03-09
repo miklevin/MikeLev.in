@@ -207,7 +207,7 @@ just generally know how to do this stuff -- my mere virtue of the fact that
 in". I see this happening with HTMX, a similar "protocol"-like thing. To a
 lesser degree, I see it happening with FastHTML (versus FastAPI). It happens. It
 happens slowly. Old biases need to be overcome. The overwhelming preponderance
-of evidence for dying old best practices needs to be overridden -- and that's
+of evidence for dying old best practices needs to be overwritten -- and that's
 not done fast nor easily. I mean Google's top Gemini frontier model still
 doesn't know who the president of the United States is!
 
