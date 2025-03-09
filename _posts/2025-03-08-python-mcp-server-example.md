@@ -222,10 +222,14 @@ suddenly, everything will be able to connect-with and control everything.
 And you better be speaking that language by then. We humans still add context.
 If you think you don't need to code anymore because the machines will be doing
 all of that for us, you are so wrong. That's what's said to shake people off the
-trail of what's becoming really important, which is a human who has both the
-extreme intimate context of the subject-matter and domain expertise in play with
-the automation, and the syntax the machines are using to express that
-automation. 
+trail of what's becoming really important. It's like the first year shaking out
+of engineers in college to keep those who can't do math from building bridges.
+
+Coding is extreme real-life context plus code, now. It's like new player pianos
+and knitting looms are just now being invented. The valuable future-proofed
+human has the extreme intimate familiarity with the subject-matter, the domain
+expertise, plus a good grasp on how it could be automated through programming.
+It's about workflow and process -- ***expressing*** automation.
 
 ### The Evolution of Machine Communication
 
