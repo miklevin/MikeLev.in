@@ -104,7 +104,7 @@ ToDo list, it can do it!
 To achieve this, I actually monitor the chat stream. So for example, for the
 ToDo list, the local LLM can do things like execute CRUD operations against a
 database, Create, Read, Update and Delete records. I've trained it to do those
-operations. Or more accurately, I ***just-in-time-train**** it on how to do
+operations. Or more accurately, I ***just-in-time-train*** it on how to do
 those operations ***right at the moment it needs to do them***.
 
 It's like Neo getting the Kung Fu download, just in time to fight. This takes
