@@ -27,7 +27,7 @@ Anthropic's (Model Context Protocol) released late last year, which is only just
 taking the world by storm now. Why are people telling me it's ideal for my
 current project?
 
-### The Architecture of Pipulate: Local LLMs and Web Frameworks
+## The Architecture of Pipulate: Local LLMs and Web Frameworks
 
 Okay, so my current project Pipulate is a web framework based on FastHTML and
 HTMX that has an embedded local LLM speaking through websockets, server side
@@ -35,12 +35,36 @@ events (SSE) and the like. It can use these connections to do clever stuff
 beyond just chatting with the user. For example, edit a database or do steps for
 you in a workflow that involve site crawling. 
 
+### Single File Architecture for LLM Integration
+
+I do this is a monolithic single file, so that everything is tightly coupled and
+I can easily copy/paste the entire friggin thing into an LLM chat window. I'm
+not relegated to Cursor AI and other AI assisted code editors. I can plop my
+whole codebase comfortably (currently about 2.5K lines) into the prompt window,
+and that's all. No big git repository to digest. No directory diving to round up
+files. One file... BAM! The LLM knows everything. So deconstructing such an app
+into separate files is already not appealing to be, but further deconstructing
+it to separate running servers is antithetical to my way of working.
+
+### Preparing for the Age of AI Agents
+
+But the agents are coming, the agents are coming! We must prepare. And if you're
+building something with parts that can talk to each other, you might as well
+decouple them and turn it into a big bunch of Legos, right? That's the promise
+of microservices. A bunch of connectable components, but now it can be anything
+because of a new IPC protocol (inter-process communication) that sort of casts
+everything as either a user using a browser (client) or the website the browser
+is connecting to (server). It mimics humans using browsers.
+
+### Local LLM Integration vs Traditional Approaches
+
 This is all common enough with those agentic visions like OpenAI Orchestrator.
-Difference being, I'm baking it into a local web framework with pluggable apps.
-It's almost as if it's an LLM riding shotgun with you in the app, totally clued
-into your every move -- use of menus and forms being inserted into the
-discussion history! But it's local, so it's 100% private. So when you ask it to
-add something to the ToDo list, it can do it! 
+Difference being with my Pipulate app, I'm baking the LLM itself into a local
+web framework with pluggable apps -- so tight coupling is an option. It's almost
+as if it's an LLM riding shotgun with you in the app, totally clued into your
+every move -- use of menus and forms being inserted into the discussion history!
+But it's local, so it's 100% private. So when you ask it to add something to the
+ToDo list, it can do it! 
 
 ### Just-in-Time Training for LLM Operations
 
