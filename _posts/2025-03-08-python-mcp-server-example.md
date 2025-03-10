@@ -1773,12 +1773,12 @@ warning: creating lock file '/home/mike/repos/mcp_ai_agent/flake.lock':
     'github:NixOS/nixpkgs/[ugly-long-hash]' (2025-03-07)
 warning: Git tree '/home/mike/repos/mcp_ai_agent' is dirty
 CUDA hardware detected.
- __  __                    _                           _   
-|  \/  | ___ _ __     __ _(_)    __ _  __ _  ___ _ __ | |_ 
-| |\/| |/ __| '_ \   / _` | |   / _` |/ _` |/ _ \ '_ \| __|
-| |  | | (__| |_) | | (_| | |  | (_| | (_| |  __/ | | | |_ 
-|_|  |_|\___| .__/___\__,_|_|___\__,_|\__, |\___|_| |_|\__|
-            |_| |_____|    |_____|    |___/                
+#  __  __                    _                           _   
+# |  \/  | ___ _ __     __ _(_)    __ _  __ _  ___ _ __ | |_ 
+# | |\/| |/ __| '_ \   / _` | |   / _` |/ _` |/ _ \ '_ \| __|
+# | |  | | (__| |_) | | (_| | |  | (_| | (_| |  __/ | | | |_ 
+# |_|  |_|\___| .__/___\__,_|_|___\__,_|\__, |\___|_| |_|\__|
+#             |_| |_____|    |_____|    |___/                
 Welcome to the Mcp_ai_agent development environment on x86_64-linux!
 
 - Installing pip packages...
