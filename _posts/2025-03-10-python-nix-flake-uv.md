@@ -11,15 +11,15 @@ sort_order: 1
 This article is me adapting my older technique of creating a Python virtual
 environment under Nix using the more traditional `pip` and `virtualenv` programs
 to the cool new `uv` program, a re-write in Rust, that's appearing in all the
-new AI tools like MCP and Manus. If you're just here to grab the code, you can
-get it at my [Python Nix Flake repo on
-GitHub](https://github.com/miklevin/python_nix_flake).
+new AI tools like MCP and Manus. If you're just here to grab the code so you can
+bottle up your own multi-platform AI packages, you can get the Nix Flake at my
+[Python Nix Flake repo on GitHub](https://github.com/miklevin/python_nix_flake).
 
 ### Simplifying Complex Installations
 
-It's really just a starting point for
-bottling-up these difficult installs into 2 commands (one to install nix and
-another to activate the app. This article documents the conversion.
+It's really just a starting point for bottling-up these difficult installs into
+2 commands (one to install nix and another to activate the app. This article
+documents the conversion.
 
 ## Lessons from MCP: When Going Against the Grain Goes Wrong
 
