@@ -12,7 +12,7 @@ sort_order: 1
 
 **In a world** where tools are gradually turning into employees, they're going
 to be able to do any Internet information-based work faster than you. Whether or
-not ***AI can do research "better than you"*** is a yet unresolved question, but
+not ***AI can do research "better than you"*** is a yet to be determined, but
 the idea that their quality right now is the worst they're ever going to be
 comes to mind. Humans, even reaching the peak of their skills and their game are
 still going to... well, **peak**, and then eventually decline (but not if I can
