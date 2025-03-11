@@ -16,6 +16,8 @@ so successful. My lesson? Early versions of stuff is full of frustrating bugs
 and don't work as advertised -- unless you reproduce their setup almost
 precisely. I need more mature software, and so I'm doing some deep research.
 
+## Deep Research, You Don't Say?
+
 The DeepResearch feature is showing up everywhere now. Ironically, that's not to
 dissimilar to the very features I'm looking for in something local. I see
 DeepResearch in Grok 3, DeepSeek R1, ChatGPT 4.5 and Gemini 2.0. I only use
@@ -167,6 +169,8 @@ make any model capable of executing functions, but there's something out there
 with a model, presumably through its response format, something in the OpenAI
 API Syntax I presume, that deliberately means: execute this function.
 
+## Reflecting on Chain of Reasoning and Agent Frameworks
+
 Okay, good to keep in mind. But none-the-less, I can see that this dynamic
 back-and-forth chain of reasoning that I saw Goose AI do last month and see
 Manus.im doing over the past few days is what I want to use or build. It's a
@@ -176,12 +180,16 @@ frontier models, especially after DeepSeek R1 did it in open source. Now they
 all have to do it to stay competitive, and we see it trickling into free and
 open source packages too.
 
+### The Reality of Current AI Tooling
+
 All of this stuff has the feeling of magic hand-waving. Yes, it's definitely
 great for deep research where the end product is organized information. And we
 see that because it can code, it can make a variety of dashboards. The term
 Artifacts became popular since Anthropic rolled out such a feature in Claude.
 And the dream is these things doing soup-to-nuts coding for you, getting all the
 nuances and details of your context correct.
+
+### Avoiding the Hamster Wheel of Moving Targets
 
 But I feel that being dangled much like a carrot today, with the libraries and
 packages and vendor products and APIs powering it all, all just being
@@ -190,12 +198,16 @@ experimentally hopped on it over the weekend with MCP and OpenManus, and was
 immediately sorry. So the above research was into the more established agentic
 frameworks. Perhaps those are what I want.
 
+### Python as the Consistent Foundation
+
 But really maybe it's just Python that is the consistent thing that runs through
 it all? There is only one framework that rules them all, and that framework is
 Python. And Python's horse is JavaScript and the web browser. Python is the
 automator and the browser is the automated. Everything else is in flux and
 subject to ridiculous change. But you can't wait for it to settle down, or else
 you lose the game. You've got to be in the game to win.
+
+### Seeking Simple, Local Browser Automation
 
 And so... and so... maybe what I'm looking for is the easiest path to local
 browser automation, that doesn't go through Browser-Use or any of these gotcha
