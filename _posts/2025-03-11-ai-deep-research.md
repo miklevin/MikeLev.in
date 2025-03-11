@@ -20,25 +20,41 @@ can help it 😉).
 
 ## The Inevitable Growth Curve of AI Capabilities
 
-But AIs on the other hand, it's just going to be a steady hockey-stick shaped
-curve up. First, they're going to gain extreme mastery over the web browser,
-giving them their initial robot bodies. Who needs a clumsy body made of levers
-and pulleys when a svelte app body gives you instant worldwide access to
-everything? You don't even need the Nvidia Omniverse to practice your moves. You
-just practice them on the Internet proper! That's what's going on with the new
-wave of ***Deep Research*** features popping up in the frontier LLM AI ChatBot
-models, and now in the agentic frameworks like Manus.
+But the performance of AIs on the other hand is just going to follow a steady
+hockey-stick shaped curve up, getting forever better and faster. First, they're
+going to gain ***extreme mastery over the web browser***, giving them their
+initial robot bodies. Who needs a clumsy body made of levers and pulleys when a
+svelte app body gives you instant worldwide access to everything? 
+
+You don't even need the Nvidia Omniverse to practice your moves. You just
+practice them on the Internet proper! That's what's going on with the new wave
+of ***Deep Research*** features popping up in the frontier LLM AI ChatBot
+models, and now in the agentic frameworks like Manus. Once learnings can really
+wrap back in without a big multi-million dollar retraining process on the core
+models, the process accelerates (as if it didn't feel overwhelmingly fast
+already).
 
 ## Rethinking at Machine Speed
 
-Things are becoming re-thought through because the things doing the thinking can
-work at this relentless, tireless, breakneck speed. Just to give a tiny example,
-I went into Google Trends to just poke around and look at what's going on in the
-world, search-trend wise. It's always interesting to go into Google Trends with
-just an open exploratory mind and re-sync-up with the zeitgeist of the world.
-There's a whole article on just this, given that Google Trends only gives trend
-lines and relative search volumes and not absolute numbers, so much of the value
-is in comparing term A to term B.
+Almost all processes and systems are becoming re-thought through because the AIs
+do the re-thinking relentlessly, tirelessly, and at breakneck speed. You can see
+traces of this when you hear Jensen Huang say that the NVidia IC designs are
+being optimized during the night when the engineers go home to sleep. He further
+says that today's designs simply couldn't be done without AI. Now that's coming
+from the company that designs the chips that enable it. They're feeling the
+strange feedback loop first.
+
+But it trickles down to all of us from here. And Deep Research is one of the
+first places it is being felt. AIs can google Google better than you. They can
+search, research and re-research a zillion times faster. And I don't mean that
+metaphorically. They literally can.
+
+Just to give a tiny example, I went into Google Trends to just poke around and
+look at what's going on in the world, search-trend wise. It's always interesting
+to go into Google Trends with just an open exploratory mind and re-sync-up with
+the zeitgeist of the world. There's a whole article on just this, given that
+Google Trends only gives trend lines and relative search volumes and not
+absolute numbers, so much of the value is in comparing term A to term B.
 
 ### A Case Study in AI Research: SEO Trends Analysis
 
@@ -261,6 +277,34 @@ All these AI search agents strive to help users research effectively, but they h
 **Sources:** Each model’s capabilities are based on official documentation and reviews: OpenAI’s plugin and Search announcements ([ChatGPT plugins &#124; OpenAI](https://openai.com/index/chatgpt-plugins/#:~:text=Our%20browsing%20plugin%20shows%20websites,overall%20health%20of%20the%20ecosystem)) ([Introducing ChatGPT search &#124; OpenAI](https://openai.com/index/introducing-chatgpt-search/#:~:text=Get%20fast%2C%20timely%20answers%20with,links%20to%20relevant%20web%20sources)), Microsoft Bing Chat reviews ([Microsoft Bing Chat - Review 2023 - PCMag Middle East](https://me.pcmag.com/en/ai/18699/microsoft-bing-chat#:~:text=Bing%20Chat%20is%20worth%20trying,toward%20a%20typical%20search%20engine)) ([Microsoft Bing Chat - Review 2023 - PCMag Middle East](https://me.pcmag.com/en/ai/18699/microsoft-bing-chat#:~:text=Microsoft%20has%20updated%20its%20Bing,continue%20researching%20on%20your%20own)), Anthropic’s Claude documentation ([Introducing Citations on the Anthropic API \ Anthropic](https://www.anthropic.com/news/introducing-citations-api#:~:text=Today%2C%20we%27re%20launching%20Citations%2C%20a,to%20more%20verifiable%2C%20trustworthy%20outputs)) ([Anthropic's Claude AI to Battle Google with New Web Search Feature &#124; AI News](https://opentools.ai/news/anthropics-claude-ai-to-battle-google-with-new-web-search-feature#:~:text=model,remains%20eager%20for%20upcoming%20updates)), Google’s Gemini promo materials ([Gemini Advanced - get access to Google's most capable AI models with Gemini 2.0](https://gemini.google/advanced/?hl=en#:~:text=Get%20past%20the%20blank%20page)) and Bard analyses ([Microsoft Bing Chat - Review 2023 - PCMag Middle East](https://me.pcmag.com/en/ai/18699/microsoft-bing-chat#:~:text=match%20at%20L328%20being%20the,essay%20about%20a%20historical%20figure)), Perplexity AI commentary ([Perplexity AI: A Game Changer for AI Web Search — Better Than ChatGPT, Google, and Bing.](https://generator-hub.com/blog/1308#:~:text=Perplexity%20AI%20is%20faster%20with,for%20users%20to%20consume%20information)), and xAI’s Grok details ([What Is Grok 3? &#124; Built In](https://builtin.com/artificial-intelligence/grok-3#:~:text=DeepSearch%20allows%20Grok%203%20to,Unlike%20standard%20language)) ([Bringing Grok to Everyone &#124; xAI](https://x.ai/blog/grok-1212#:~:text=Grok%20leverages%20the%20platform%20to,the%20information%20provided%20by%20Grok)). These highlight how each system tackles real-time search, citing sources, formatting output, using tools, and what’s on the horizon in this fast-moving space.
 
 ---
+
+## The Evolution from Mobile-First to AI-First Design
+
+So where does that take us from here? Well, SEOs have some thinking to do. The
+rise of Mobile had us modestly redesign all our sites with "responsive" in mind.
+That was merely the removal of the desktop and Adobe Flash biases in our designs
+in favor of single code-bases that could display on the increasingly
+multi-platforms. It wasn't just phones. It was also tablets. And Google social
+engineered us all to come around with the AMP protocol that taught us best
+practices. We got the message. We adapted.
+
+### AI as the New Platform: Small World Theory in Action
+
+And so too is it with AI. It's a lot like another platform. But it's a platform
+that can surf into your website without a human there, look around, make
+intelligent inferences, and perchance continue clicking, drilling down with its
+own real-time "small world theory" crawl. According to those six degrees of
+Kevin Bacon, all your answers should be a surprisingly few number of clicks off
+whatever first wayfaring page the pre-trained models know about for your brand
+(homepages?)
+
+### Evidence of AI's Deep Research Capabilities
+
+This article itself is the first evidence of that. Now I don't think that I'm
+trained into the base models, but when ChatGPT 4.5 went deep researching on the
+topic of small-world-theory crawls, it did find me, and this is possibly a sign
+of things to come. Incumbents can't shut out outliers and newcomers if the AIs
+are doing their job... deep researching.
 
 ## Gemini's Take
 
