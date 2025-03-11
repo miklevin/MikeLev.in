@@ -278,11 +278,11 @@ All these AI search agents strive to help users research effectively, but they h
 
 ---
 
+## The Evolution from Mobile-First to AI-First Design
+
 > Well, that wraps up the deep research on deep research. I'll close with my
 > thoughts on what this means for SEO and website design. It's not too
 > dissimilar to what we went through with mobile.
-
-## The Evolution from Mobile-First to AI-First Design
 
 So where does that take us from here? Well, SEOs have some thinking to do. The
 rise of Mobile had us modestly redesign all our sites with "responsive" in mind.
