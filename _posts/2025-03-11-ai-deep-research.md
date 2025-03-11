@@ -10,7 +10,7 @@ sort_order: 1
 
 **Deep research**–or the ability for AI to *actively investigate* a topic using live web data and tool-assisted analysis–is emerging across several AI systems. These tools go beyond static knowledge, employing real-time web browsing (often performing multi-hop “small-world” style crawls across links ([Peak Data? Why the Future of Search Hinges on Outlier Information &#124; Mike Levin on Linux, Python, vim & git (LPvg)](https://mikelev.in/futureproof/peak-data-musk-sutskever-wrong/#:~:text=LLM,was%20a%20keyword%20of%20yore))) and providing users with source-backed answers. Below we compare key players—OpenAI’s ChatGPT, Microsoft’s Bing Chat, Anthropic’s Claude, Google’s Gemini (Bard), Perplexity AI, and xAI’s Grok—focusing on their web browsing abilities, citation transparency, output format, coding/API tools, and forward-looking features.
 
-**In a world where tools are gradually turning into employees**, they're going
+**In a world** where tools are gradually turning into employees, they're going
 to be able to do any Internet information-based work faster than you. Whether or
 not ***AI can do research "better than you"*** is a yet unresolved question, but
 the idea that their quality right now is the worst they're ever going to be
