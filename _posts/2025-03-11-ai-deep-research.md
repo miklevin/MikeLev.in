@@ -306,6 +306,8 @@ topic of small-world-theory crawls, it did find me, and this is possibly a sign
 of things to come. Incumbents can't shut out outliers and newcomers if the AIs
 are doing their job... deep researching.
 
+---
+
 ## Gemini's Take
 
 **Titles and Headlines:**
