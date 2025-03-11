@@ -37,7 +37,7 @@ Could you confirm if these are your primary requirements? Also, do you have a pr
 
 **ChatGPT 4.5**: Got it! I'll look into agentic frameworks that run locally, use Python, automate browsers via Puppeteer, Playwright, or Selenium, and integrate with Ollama or similar local AI models for chain-of-thought reasoning. I'll find options that are not tied to cloud-based vendor solutions and get back to you shortly.
 
-# Local Agentic Frameworks for Browser Automation
+## Local Agentic Frameworks for Browser Automation
 
 Below are several **Python-centric agent frameworks** that run entirely **locally** (no cloud required) and support **browser automation** (via tools like Puppeteer, Playwright, or Selenium). Each framework integrates with **local AI models** (e.g. via Ollama or Hugging Face) and enables chain-of-thought reasoning for autonomous decision-making. We’ve prioritized well-maintained projects with strong documentation and community support.
 
@@ -404,7 +404,7 @@ back to you with what I find.
 
 Got it! I’ll dig deep into open-source Python-based browser automation tools that focus on **DOM simplification** while working with **real browsers** (not just headless automation). The focus will be on **interaction, not just extraction**, with an emphasis on using Playwright or Puppeteer to avoid Selenium's HTTP header limitations. I'll prioritize **mainstream, actively maintained** projects while also scouting promising niche solutions. I'll get back to you with what I find.
 
-# Open-Source Python Tools for High-Level Browser Automation
+## Open-Source Python Tools for High-Level Browser Automation
 
 Several actively maintained Python libraries simplify browser automation by offering high-level, semantic APIs on top of real web browsers. These tools abstract away raw DOM selectors (CSS/XPath) and let you interact with pages more naturally. They often leverage modern browser engines (Playwright/Puppeteer) for robust network control (e.g. HTTP headers), and focus on comprehensive web interactions (clicking, typing, form-filling, navigation). Below are some notable tools that meet these criteria, with their key features and references to their repositories and documentation.
 
