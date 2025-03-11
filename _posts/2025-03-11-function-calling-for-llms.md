@@ -183,6 +183,24 @@ In conclusion, building a flexible function execution framework requires **caref
 
 ---
 
+## Absorbing The Implications
+
+> Wow, this really puts in perspective what I did. My implementation is very
+> much like the Community Agent Frameworks referenced above -- what was done
+> before more structured standards, at the expense of reliability.
+
+While it was a neat trick to live in the frontier of LLM function calling, I've
+got to get myself ready to embrace one protocol or another as they formalize and
+reign supreme. Unfortunately, the one that looks best (MCP) also looks like
+Microservices with lots of overhead -- multiple servers running.
+
+But it will formalize the sort of training-on-the-fly that doesn't require all
+the know-how particularly baked into the model. It can have a light training
+session on a universal protocol in its system prompt, which you can re-inject
+from time-to-time for a refresher course.
+
+---
+
 ## Gemini's Take
 
 I've been working on my own method for executing functions with LLMs, but now I realize there are more standard ways to do this. I've researched OpenAI's function calling API, Anthropic's Model Context Protocol (MCP), and other approaches to understand how they work and what their strengths and weaknesses are. I want to improve my system to be more compatible with these standards while still being able to use my own prompt-injection training method for models that don't explicitly support function calling. I've learned about the different ways LLMs can interact with external tools and data, and I'm considering how to incorporate these standards into my system. I'm also thinking about the best practices for building a flexible and secure function execution framework that can work with different LLM architectures and protocols.
