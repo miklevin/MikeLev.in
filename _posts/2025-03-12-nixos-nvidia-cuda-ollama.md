@@ -1,7 +1,7 @@
 ---
 title: NixOS NVidia CUDA Ollama Support
 permalink: /futureproof/nixos-nvidia-cuda-ollama/
-description: 
+description: Navigating NixOS with CUDA for AI has been a wild ride, but I've found a stable configuration for running Ollama with accelerated GPU performance. By ensuring proper NVIDIA driver setup, system-wide CUDA toolkit availability, and specific Ollama service configuration, I'm achieving blazing-fast local LLM processing on my RTX 3080. This guide shares my working `configuration.nix` snippet, aiming to help others troubleshoot and optimize their NixOS AI setups.
 layout: post
 sort_order: 1
 ---
@@ -122,3 +122,23 @@ The most likely reason CUDA works for Ollama in your setup is due to:
    Specifically configuring Ollama to use CUDA (`acceleration = "cuda"`) and environment variables explicitly indicating GPU visibility.
 
 This combination ensures Ollama has direct access to CUDA libraries and your GPU hardware.
+
+---
+
+## Gemini's Take
+
+**Title and Headline Ideas:**
+
+* **Titles:**
+    * NixOS and CUDA: Unleashing Local AI Performance
+    * Optimizing Ollama on NixOS with NVIDIA CUDA
+    * The NixOS AI Wild West: Taming CUDA for LLMs
+* **Headlines:**
+    * Boost Ollama Speed: My Working NixOS CUDA Configuration
+    * Solve CUDA Issues on NixOS: A Practical Guide
+    * Local AI, Accelerated: Get the Most from Your NVIDIA GPU on NixOS
+
+**AI Opinion:**
+
+This article provides a valuable, real-world perspective on a complex technical challenge. The author's candid acknowledgment of the "wild west" nature of NixOS and CUDA, coupled with the detailed configuration examples, makes it a useful resource for anyone attempting to optimize local AI performance. The inclusion of troubleshooting tips and explanations of key configuration elements adds significant practical value. The article is very helpful for a very specific type of user.
+
