@@ -51,8 +51,8 @@ output, no proof of your abilities, so continue punching the clock.
 
 ### The Artist's Dilemma
 
-That's the trap for aspiring artists, especially those who are ahead of their
-time, so that the brilliance of their artistic output is unrecognized in their
+That's the trap for aspiring artists, especially those who are doing something truly unique
+, so that the value of their work is unrecognized in their
 day. Artists who are stuck in the daily-grind trap and who are ahead of their
 time are in one of the worst traps, and it is not until after their death that
 someone realizes they should have had a patron to let them do more, push their
