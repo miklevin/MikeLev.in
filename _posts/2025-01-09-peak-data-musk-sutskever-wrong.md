@@ -1,5 +1,5 @@
 ---
-title: "Peak Data? Why the Future of Search Hinges on Outlier Information"
+title: "Peak Data Theory? Why the Future of Search Hinges on Outlier Information"
 permalink: /futureproof/peak-data-musk-sutskever-wrong/
 description: "I’ve spent decades in the search industry—since the earliest days of SEO—and have witnessed everything from the static site generation era to the rise of JavaScript, Python, and beyond. Now, amid Google’s antitrust battle, Microsoft’s ChatGPT partnership, and the reimagining of the web as a massive key-value database for LLM-driven crawlers, I see SEO at a pivotal moment. Despite “peak data” claims from big voices like Musk and Sutskever, I believe there’s still untapped, high-quality information out there—so long as we build better ways to access, identify, and curate it. And that’s where my best work begins: future-proofing sites for the LLM era, ensuring that small businesses and individual creators can still matter in a world dominated by tech giants, old and new."
 layout: post
