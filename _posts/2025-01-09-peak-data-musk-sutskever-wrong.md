@@ -678,6 +678,10 @@ by it. Anyway, onward!
 
 Can you guess where this article is going to go from here? I bet you can't.
 
+## Some Outlying Coding Work (FastHTML is an Outlier)
+
+## Porting a Jupyter Notebook with New Assumptions
+
 I need to port a Jupyter Notebook, but it was created under the assumptions one
 has when using a Jupyter Notebook, and those assumptions have changed and I can
 do so much more. I can do so much differently. I can do it so much better.
@@ -687,6 +691,8 @@ stealing this second work-day after a nice run of good night's sleep. This is
 how our ancestors worked. Feast and famine. The caveman nomad rhythm. Good times
 when you rest. Hard times when yo pick up and travel, facing the harsh realities
 and the unknown.
+
+## Today's Hunt: Browser Automation Goals
 
 Today I hunt.
 
@@ -698,6 +704,8 @@ My quarry is popping up web browsers, for 1 of 2 purposes:
    the user instructions to go download something.
 
 Everything else falls in place after this.
+
+### Automation Approaches and Trade-offs
 
 The former is a potential rabbit hole, involving Puppeteer, Playwright or
 Selenium &#151; any of which would open a browser under some sort of automation
@@ -713,6 +721,8 @@ just the Python `webbrowser` package that comes with the standard library.
 
 And so that is where we will begin.
 
+## Managing Rabbit Holes and Dependencies
+
 Rabbit holes are hard to resist, because many things you realize need to be done
 feel like chained dependencies, where before you do that you have to do this.
 
@@ -723,6 +733,8 @@ your experience is, but that's what I find. It's shiny object syndrome. The dog
 drops the bone it's burying because it sees some other bone. It's
 self-defeating, no matter how much the infusion of motivation because you are
 deeply interested in that other thing might help. 
+
+### The Art of Deferring Non-Critical Tasks
 
 Ultimately, "would be nice" dependencies that can be deferred until later so you
 can get what you already deemed most important done are detrimental and
@@ -738,6 +750,8 @@ gear back up. Setting the threshold on that system is a practiced skill.
 Sometimes you can be in-and-out of those rabbit holes accomplishing just what
 you want. Other times, they can derail your project and your life. Practice!
 
+## Serendipity and Technical Journaling
+
 Anyhow, this tech journal itself could be seen as one of those rabbit holes, but
 for the fact it's a serendipity-to-deliberateness machine, like HitTail.
 Deliberateness is another way of saying exercising free-will and agency. Take
@@ -745,11 +759,15 @@ paths you would have otherwise not taken if you didn't stop to dredge-up and
 process your ideas and notice new little details or ways of thinking about
 things you haven't before.
 
+### Time Management and Project Planning
+
 There's a couple that come to mind at this point in the project. First we gauge
 time. It's coming up on 8:00 PM. Not bad. If I go to 3 or 4 AM, that's into a
 Friday, which is into a weekend, and if I konk myself out, that's fine. I won't
 have to be in front of clients again for a few days. So, my timing is perfect. I
 can coffee-up and bear down on this work.
+
+## Understanding Jupyter Notebooks and Linear Workflows
 
 The next thing to come to mind is the Jupyter-Pipulate connection. Juptyer is
 about linear workflows and pipelines, although most people don't think about
@@ -757,6 +775,8 @@ them or talk about them that way, because they like executing things out of
 order learning and experimenting, taking advantage of the very powerful
 ***REPL*** (read, eval, print, loop) environment, but giving Notebooks a bad
 name. 
+
+### The REPL Environment and Data Persistence
 
 For people not familiar with Jupyter Notebooks, the code never really stops
 running secretly in the background, stuck in a quiet loop so that if you set `a
@@ -769,6 +789,8 @@ science*** where you're dealing with data structures like Pandas DataFrames
 is mostly going to be about, once we get past the browser automation bits to
 download the CSVs.
 
+### The Politics of Notebook Naming
+
 So you build up a program cell-by-cell in Jupyter Notebooks. Microsoft and
 Google will try to get you to stop calling them Jupyter Notebooks because they
 don't like the free and open source (FOSS) branding on something they can just
@@ -779,6 +801,8 @@ Jupyter](https://jupyter.org/about)***, which just happens to be appealing
 enough to be lifted and repackaged by all the big vendors to inject themselves
 as a Notebook dependency. 
 
+### The Altruistic Nature of Open Source
+
 Project Jupyter organization is one of the truly altruistic good guys in
 free-as-in-freedom software movement of tech, like Debian and GNU. Many people
 say if you don't pay for the product than you are the product. That's actually
@@ -787,6 +811,8 @@ are occasionally surprisingly generous and altruistic people in this world who
 want to just help you to improve your life, feel good about themselves and make
 the world a better place.
 
+## Best Practices for Notebook Usage
+
 When you use a Notebook, the goal should be to get the code into the correct
 prescribed linear order, cells arranged top-down so you can choose ***Reset
 Kernel and Run All Cells...*** This both resets the Python code execution
@@ -794,12 +820,16 @@ environment which was previously storing all the global variables, and runs it
 exactly as it would if you typed `python some_file.py` into the command-line. It
 runs beginning-to-end.
 
+### The Function Scope Challenge
+
 Now of course you can program things to be non-linear and to jump around. But if
 you're doing that, you probably shouldn't be using a Notebook which is so
 conducive to top-down execution. I often observe how counter-intuitively, the
 introduction of functions to a Jupyter Notebook actually makes things harder
 than easier, because all your function-scoped variables go away when the
 function is exited. You can only inspect global variables REPL-style.
+
+## User Interaction and Input Collection
 
 The top-down beginning-to-ending execution I described also dodges talking about
 interacting with the user to acquire input, even if the flow does remain linear.
@@ -812,8 +842,12 @@ something in and hit `Enter`. But sometimes it's more sophisticated like giving
 them a pop-up file requester to select a file, or to give a slider, or even to
 click somewhere on a data visualization.
 
+### Linear Flow with Variable Inputs
+
 The flow is still linear. You're just collecting variable input values (aka
 arguments) for input-fields (aka parameters) along the way. 
+
+## Unix Pipes and Jupyter Parallels
 
 And this is where the concept of Unix pipes rears its head to assert itself as
 an infrequently noticed parallel between how Jupyter Notebooks work and how one
@@ -822,6 +856,8 @@ of the oldest tech tricks in the book work: chaining the output of one command
 some fancy transformation occurred that you can call a product. Or a
 deliverable. Or something that adds value and you can show the client and be a
 proud SEO.
+
+### From Notebooks to Applications
 
 Jupyter Notebooks are Unix pipes, but the excessively flexible and intimidating
 environment that exposes the code and insufficiently tightly controlled
@@ -833,10 +869,14 @@ doesn't expose the Python code and puts it all on tighter rails&#151; asking the
 user for input when it needs it, and explaining steps along the way when it
 should. That's Pipulate. That's pipulating.
 
+## The Challenge of Notebook Migration
+
 And the ports from Jupyter Notebooks to Pipulate should be ridiculously easy.
 The problem right now is that they're not. This is the early-stages outlier
 stuff where nothing is obvious, until it is. And then you can hardly imagine it
 being done any other way.
+
+### Balancing Client Work and Development
 
 And ***that's why taking this next step*** got drawn out for days for me and
 easily drowned out by the more urgent client-work of the day &#151; as well, it
@@ -847,6 +887,8 @@ and probably for the good of the project makes it forged in the crucible of the
 working stiff's reality. I won't be architecture astronaut waddling in Conway's
 Law of the sort Joel Spolsky warns against. That is my tendency and I know I
 project that, but I can not allow myself to be that.
+
+## Practical Implementation Steps
 
 This is where I pull on the rabbit hole rappelling rig and haul my awareness
 back up to practical next-steps where it should be. Taking the nap and
@@ -859,12 +901,16 @@ database, and respun into various versions of the future-proofing FOSS book. So
 lucky you, if you're here reading this, are in the LLM-training and RAG-content
 fodder. Woot!
 
+### Feature Prioritization
+
 I am sorely tempted to make the first Card of GapAnalysisFlow "put in your most
 primary keyword" in order to pop open a browser to a Google search on that
 keyword under Puppeteer/Playwright to grab the DOM, parse out the competitors
 and pre-populate the textarea I already have showing in the freshly started
 flow. But that alone could blow my whole time-window, so it's interesting but
 not critical. It can be deferred, maybe to never come back to again. Who knows?
+
+## Managing Development Energy
 
 I'm in a race against running out of steam. These articles pump me up and give
 me clarity of purpose, but then that head of steam has to be intelligently used
@@ -873,6 +919,8 @@ pivotal. Think efficiency of keystrokes. Adjust things to make it as easy to
 code in the Botifython project as it is write here...
 
 Close all tabs but those you need. Done.
+
+### Environment Setup Challenges
 
 Oh, this is an interesting one and a hard to articulate obstacle I've struggled
 with. I've recently given up the Electron-based standalone desktop version of
@@ -886,6 +934,8 @@ going to be under Pipulate, it opens the door to formally supporting the
 older... no, no, no! Rabbit hole! JupyterLab is the future. Don't regress. And
 don't do the double damage of distracting yourself with a regression.
 
+### Repository Organization
+
 The obstacle is that I've been launching Jupyter in the same folder as Pipulate,
 so all the notebooks go into the Botifython folder, but I've been hesitant to do
 that because I don't want to pollute the repo. But the magic fairy dust that
@@ -893,6 +943,8 @@ turns any repo into an isolated JupyterLab data science environment is the nix
 flake, where I only need copy into a new folder, and type `nix develop`! And so
 go type `stop` to get the default tmux-hosted Pipulate JupyterLab instance out
 of memory. Check `localhost:8888`, okay, it's gone.
+
+### Environment Configuration
 
 And now copy the `flake.nix` file from the current repo you're working out of
 and over into the repo that holds the Notebook you're porting tonight... okay,
@@ -906,6 +958,8 @@ for data science work, or the other approach which is to create a traditional
 Python `.venv` virtual environment so you have the freedom to `pip install`
 anything you like. And then there's a `requirements.txt` file where you list,
 and optionally pin, the packages and their versions.
+
+### Implementation Strategy
 
 And so now, actually perform a Gap Analysis under the new system as you go. Get
 it in sufficient order to demo.
