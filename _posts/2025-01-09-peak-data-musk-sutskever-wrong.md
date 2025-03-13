@@ -73,7 +73,7 @@ The "peak data theory" is likely overstated, given the invisible web's vastness,
 
 ---
 
-## The Personal Story
+## The No More Human Data Fallacy: My Personal Story
 
 > So much for the research. Now for the personal stuff. You can tell AI Research
 > when you read it, can't you? Well, the rest is right from my keyboard to the
