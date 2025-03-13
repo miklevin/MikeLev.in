@@ -14,12 +14,28 @@ group: home
 
 ## The Flask Foundation
 
-Flask is the Python web microframework that set the standard on Python. Most
-things in the Python web framework arena has been copying Flask ever since,
-making their own little spin on it (CherryPy, Pylons, etc). The basic Flask
-trick is to use `@decorators` at the top of functions to route web requests from
-a server into that Python function. Both FastAPI and FastHTML do this. That's
-where the similarity ends.
+Flask is a Python microframework that has profoundly influenced the development
+of web frameworks in Python since its release in April 2010. Created by Armin
+Ronacher as part of the Pocoo project, Flask was initially conceived as an April
+Fool's joke but quickly gained traction due to its simplicity, flexibility, and
+minimalist design philosophy. Unlike full-stack frameworks, Flask does not
+impose specific tools or libraries, allowing developers to choose their
+components. It is built on the Werkzeug WSGI toolkit and Jinja2 template engine,
+both of which were also developed by the Pocoo team.
+
+Flask introduced a key innovation: the use of Python decorators for routing web
+requests to specific functions. This approach simplified web development by
+allowing developers to define routes directly above their view functions using
+the `@route` decorator. This feature became a defining characteristic of Flask
+and has been widely adopted by other frameworks such as FastAPI and CherryPy,
+albeit with their own variations.
+
+Since its debut, Flask has set a standard for Python web frameworks, inspiring
+many others to follow its lightweight and extensible approach. Frameworks like
+CherryPy and Pylons have integrated similar routing mechanisms while adding
+their unique spins. FastAPI, for example, builds on Flask's decorator-based
+routing but enhances it with asynchronous capabilities and type validation using
+Python type hints.
 
 ## The Rise of FastAPI
 
@@ -50,11 +66,15 @@ applications requiring high concurrency and I/O-heavy operations.
 
 ### A Different Path with FastHTML
 
-That is an important itch to scratch, for sure. However, it does not suit my
-vibe, particularly in how it requires the optional static typing. However, Flask
-with mere asynchronous behavior wouldn't have been enough to get me back into
-WebDev. I want to strip things out towards greater simplicity, and not layer
-them on for complexity.
+While FastAPI addresses important performance needs, its approach doesn't align
+with my vision for web development. The requirement for optional static typing,
+in particular, diverges from my preferred style. Simply adding asynchronous
+capabilities to Flask wouldn't have been sufficient to reignite my interest in
+web development. Instead, my goal is to strip away complexity and move towards
+greater simplicity. Rather than layering on additional features, I aim to
+distill web development to its essence while still being Python. I hungered for
+a framework that embodies simplicity and ease of use without sacrificing
+functionality.
 
 ## The Radical Simplicity of FastHTML
 
