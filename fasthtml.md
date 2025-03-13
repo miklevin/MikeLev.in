@@ -78,15 +78,53 @@ functionality.
 
 ## The Radical Simplicity of FastHTML
 
-Enter FastHTML. But before you can appreciate how radically different FastHTML
-is, you need to know a bit about HTML templating languages like jinja2 (the one
-included with Flask), and something called HTMX which greatly reduces the need
-for JavaScript. FastHTML strips away a lot of the cognitive overhead and
-friction of using Python for web development by:
+Enter FastHTML, a framework that revolutionizes Python web development by
+stripping away complexity and embracing simplicity. FastHTML takes a radically
+different approach compared to its predecessors, focusing on streamlining the
+development process and reducing cognitive overhead. Here's how FastHTML
+achieves this:
 
-- Eliminating the need for a templating language like jinja2
-- Eliminating most of the need JavaScript using HTMX
-- Eliminating most of the need for CSS using PicoCSS (and things like it)
+### Eliminating the Need for Templating Languages
+
+FastHTML does away with traditional templating languages, allowing developers to
+work directly with Python objects to generate HTML. This approach simplifies the
+development process by removing the need to learn and use a separate templating
+syntax. Instead, developers can leverage their existing Python knowledge to
+create dynamic web content.
+
+### Minimizing JavaScript Dependency with HTMX
+
+By incorporating HTMX, FastHTML significantly reduces the need for custom
+JavaScript code. HTMX is a lightweight library that allows for dynamic,
+AJAX-powered web applications using simple HTML attributes. This integration
+enables developers to create interactive web applications using primarily Python
+and HTML, without extensive JavaScript knowledge.
+
+### Simplifying Styling with PicoCSS
+
+FastHTML embraces minimalist CSS frameworks like PicoCSS to streamline the
+styling process. These lightweight CSS solutions provide a set of sensible
+defaults and utility classes, allowing developers to create visually appealing
+websites with minimal custom CSS. This approach reduces the complexity of
+managing styles while still offering flexibility for customization.
+
+### Streamlined Development Experience
+
+FastHTML's design philosophy centers around providing a straightforward,
+Python-centric development experience. By eliminating the need for multiple
+languages and complex toolchains, FastHTML allows developers to focus on
+building functionality rather than juggling different syntaxes and technologies.
+
+### Powerful Yet Simple
+
+Despite its emphasis on simplicity, FastHTML remains powerful enough to build
+advanced, interactive web applications. It leverages the full power of the
+Python ecosystem while providing a more intuitive and streamlined development
+process.
+
+By addressing these key areas, FastHTML offers a refreshing alternative to
+traditional web frameworks, making Python web development more accessible and
+efficient for developers seeking a simpler, more Python-centric approach.
 
 ### FastHTML Minimal Example 
 
