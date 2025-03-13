@@ -5,6 +5,19 @@ description: I explore the complexities of the FastHTML framework and its layere
 layout: post
 ---
 
+**GOOD NEWS EVERYONE!** If you're just here to learn the basics of FastHTML
+without all my rambling about rediscovering the love for webdev, visit my
+[Introduction to FastHTML](/fasthtml/) page. It covers:
+
+- The elimination of the need for a template language like jina2
+- The elimination of the need for JavaScript in most cases (using HTMX)
+- The elimination of the need for CSS style and class bloat
+- The elimination of the need for complex databases stuff
+
+Everyone else who is actually interested in the journey it took to rewire my
+brain to accept Python as a first-class citizen in web development again, by all
+means, please continue reading...
+
 ## Getting Back into Web Development with FastHTML Framework
 
 I dove deep into FastHTML building a framwork on a framwork on a framework, as
