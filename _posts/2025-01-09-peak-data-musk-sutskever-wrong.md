@@ -670,17 +670,17 @@ thought-provoking.
 
 ---
 
-Wow, o1 Pro! Nice. Maybe you'll wrestle the job of summarizing these things from
-Gemini now that you can handle the token windows too. I particularly like your
-opinion, but that is of course because it flatters me, and who doesn't like
-confirmation bias? I have to watch out for that as much as have my ego stroked
-by it. Anyway, onward!
+## Some Outlying Coding Work (FastHTML is an Outlier)
+
+> Wow, o1 Pro! Nice. Maybe you'll wrestle the job of summarizing these things from
+> Gemini now that you can handle the token windows too. I particularly like your
+> opinion, but that is of course because it flatters me, and who doesn't like
+> confirmation bias? I have to watch out for that as much as have my ego stroked
+> by it. Anyway, onward!
 
 Can you guess where this article is going to go from here? I bet you can't.
 
-## Some Outlying Coding Work (FastHTML is an Outlier)
-
-## Porting a Jupyter Notebook with New Assumptions
+### Porting a Jupyter Notebook with New Assumptions
 
 I need to port a Jupyter Notebook, but it was created under the assumptions one
 has when using a Jupyter Notebook, and those assumptions have changed and I can
