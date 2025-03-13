@@ -206,7 +206,7 @@ Oh yeah, and the GitHub repos are here:
 - [GitHub repo for Python Nix Flake using `uv`](https://github.com/miklevin/python_nix_flake)
 
 > And Now back to the regularly scheduled article. If you got what you need,
-> surf away! Below is the history that led up to this awesome nix flake.
+> surf away! Below is the history that led up to this awesome Python nix flake.
 
 ---
 
