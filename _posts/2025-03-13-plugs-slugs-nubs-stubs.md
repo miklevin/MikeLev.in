@@ -24,7 +24,7 @@ become one of the long, rambling articles.
 
 ## Morning Flow State and Productivity
 
-The best, most focuses energy for me is in the morning. The slack notifications
+The best, most focused energy for me is in the morning. The slack notifications
 haven't started yet. With working from home cutting out the commute on certain
 days, you can plan a nice 4-hour block from an early wake-up to before the
 hustle bustle of the day and flow-state derailers set in. That's not
@@ -44,7 +44,7 @@ At the same time, there's another line drawing how much autonomy and agency you
 can have over how your time is spent, and your life in general. In other words,
 if you're someone who benefits from quiet focused time to achieve the flow state
 or get into the zone like an artist, then you're not going to get it unless
-you're so good at your art that someone people are willing to leave you alone to
+you're so good at your art that people are willing to leave you alone to
 get your output. Anything shy of that, then you need to hold a day-job to pay
 the bills and thus get locked into a self-defeating cycle. No focus, no inspired
 output, no proof of your abilities, so continue punching the clock.
