@@ -63,9 +63,11 @@ vision, and bring more of their value to the world during their time.
 Anyhoo, I am not one of those. I do have the artistic bug, but mine is a more modest lot. 
 I am an enthusiastic user of new tools
 that really suit my vibe. HTMX is one of those, and I recognized new artistic
-materials when I saw it. The paintbrushes and canvases of web development became
-these asinine Rube Goldberg machines, with these intermediary frameworks between
-you and your canvas like React and Syntactically Awesome Stylesheets (SASS)
+materials when I saw it.
+
+The paintbrushes and canvases of web development became
+compelx Rube Goldberg machines, with intermediary frameworks between
+you and your canvas that make your paintbrush feel 100 feet long — like React and Syntactically Awesome Stylesheets (SASS)
 which require these long build procedures like Redux to make Web Assemblies
 (WASM) in these massive directory structures and all this special tooling. Ugh!
 New paintbrushes hit the scene in thr form of HTMX through Python through FastHTML. 
