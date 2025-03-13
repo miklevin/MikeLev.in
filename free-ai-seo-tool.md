@@ -6,6 +6,8 @@ permalink: /free-ai-seo-tool/
 group: home
 ---
 
+# Free AI SEO Tool
+
 ## AI SEO Site Crawler That Thinks as It Crawls
 
 **Meet your new AI-driven site auditor.** This free, open-source SEO tool uses a Large Language Model (LLM) to crawl your website *slowly and intelligently*, providing real-time insights as it goes. In an SEO landscape being reshaped by artificial intelligence, this tool offers a fresh approach to site crawling and auditing. It’s like having an expert “site whisperer” examine every page of your site, as opposed to a high-speed spider that only collects data. The result? A deeper, narrative understanding of your site that can uncover opportunities and issues traditional crawlers might miss.
