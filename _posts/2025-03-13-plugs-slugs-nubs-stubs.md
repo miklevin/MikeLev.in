@@ -60,7 +60,8 @@ vision, and bring more of their value to the world during their time.
 
 ## Modern Web Development and HTMX
 
-Anyhoo, I am not one of those. I am however an enthusiastic user of new tools
+Anyhoo, I am not one of those. I do have the artistic bug, but mine is a more modest lot. 
+I am an enthusiastic user of new tools
 that really suit my vibe. HTMX is one of those, and I recognized new artistic
 materials when I saw it. The paintbrushes and canvases of web development became
 these asinine Rube Goldberg machines, with these intermediary frameworks between
