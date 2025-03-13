@@ -14,12 +14,12 @@ group: home
 
 ## The Flask Foundation
 
-Flask is the Python web microframework set the standard on Python. Most things
-in the Python web framework arena has been copying Flask ever since, making
-their own little spin on it (CherryPy, Pylons, etc). The basic Flask trick is to
-use `@decorators` at the top of functions to route web requests from a server
-into that Python function. Both FastAPI and FastHTML do this. That's where the
-similarity ends.
+Flask is the Python web microframework that set the standard on Python. Most
+things in the Python web framework arena has been copying Flask ever since,
+making their own little spin on it (CherryPy, Pylons, etc). The basic Flask
+trick is to use `@decorators` at the top of functions to route web requests from
+a server into that Python function. Both FastAPI and FastHTML do this. That's
+where the similarity ends.
 
 ## The Rise of FastAPI
 
