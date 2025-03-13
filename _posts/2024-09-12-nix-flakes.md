@@ -196,14 +196,19 @@ environment and installing all the PyPI requirements with pip.
 
 All the cool kids are using `uv` today instead of pip, and if you want that
 version, you can check the article: [Replacing `pip` In Python Nix Flake With
-`uv`](/python-nix-flake-uv/). And more yabbering on why all this works so well
-can be found at the article: [Nix Flake Python Solution: Venv, Cuda,
-macOS/Windows, Etc.](/nix-flake-python/).
+`uv`](/python-nix-flake-uv/). And if you want more yabbering about why all this
+works so well, travel into the future to this article: [Nix Flake Python
+Solution: Venv, Cuda, macOS/Windows, Etc.](/nix-flake-python/).
 
 Oh yeah, and the GitHub repos are here: 
 
 - [GitHub repo for Python Nix Flake using `pip`](https://github.com/miklevin/darwinix)
 - [GitHub repo for Python Nix Flake using `uv`](https://github.com/miklevin/python_nix_flake)
+
+> And Now back to the regularly scheduled article. If you got what you need,
+> surf away! Below is the history that led up to this awesome nix flake.
+
+---
 
 ## Introduction
 
