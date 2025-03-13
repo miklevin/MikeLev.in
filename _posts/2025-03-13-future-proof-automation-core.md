@@ -105,7 +105,7 @@ I'd love to see that 2K-line workflow if you're willing to share it. It sounds l
 
 What specific aspects are you looking to refine or externalize next?
 
-Me: This also includes some supporting functions:
+**Me**: This also includes some supporting functions:
 
 [Pastes ~2K line workflow]
 
