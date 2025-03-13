@@ -5,21 +5,17 @@ description: This article describes my journey to integrate Nix Flakes into my N
 layout: post
 ---
 
-The article that was originally here was pushed down a bit for what you're
-probably here for. Here's a Python Nix Flake that works on macOS, Windows (with
-WSL) and with your NVIDIA card if you've got it, for CUDA support.
+## A Cross-Platform Python Nix Flake with CUDA Support
+
+**LUCKY YOU:** The article that was originally here was pushed down a bit for
+what you're probably here for. Here's a Python Nix Flake that works on macOS,
+Windows (with WSL) and with your NVIDIA card if you've got it, for CUDA support.
+
+### Solving Common Python Nix Environment Issues
 
 What's more, it addresses the ***inflexibility*** and often ***out-of-date pip
 packages*** of a traditional Python nix flake by creating a Python virtual
 environment and installing all the PyPI requirements with pip.
-
-All the cool kids are using `uv` today instead of pip, and if you want that
-version, you can check the article: [Replacing `pip` In Python Nix Flake With
-`uv`](/python-nix-flake-uv/). And more yabbering on why all this works so well
-can be found at the article: [Nix Flake Python Solution: Venv, Cuda,
-macOS/Windows, Etc.](/nix-flake-python/).
-
-Enjoy!
 
 ```nix
 #       ____                      _       _                        .--.      ___________
@@ -195,6 +191,19 @@ Enjoy!
       });
 }
 ```
+
+### Related Resources
+
+All the cool kids are using `uv` today instead of pip, and if you want that
+version, you can check the article: [Replacing `pip` In Python Nix Flake With
+`uv`](/python-nix-flake-uv/). And more yabbering on why all this works so well
+can be found at the article: [Nix Flake Python Solution: Venv, Cuda,
+macOS/Windows, Etc.](/nix-flake-python/).
+
+Oh yeah, and the GitHub repos are here: 
+
+- [GitHub repo for Python Nix Flake using `pip`](https://github.com/miklevin/darwinix)
+- [GitHub repo for Python Nix Flake using `uv`](https://github.com/miklevin/python_nix_flake)
 
 ## Introduction
 
