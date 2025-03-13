@@ -52,7 +52,7 @@ group: home
 
 ## LPvg Stack (Linux, Python, vim & git)
 
-> **[LPvg](/LPvg/)** is a time-tested tech stack that gives you superpowers. It's four simple tools that work together: Linux, Python, vim and git. I use them daily to build AI and automation systems, but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts.
+> **LPvg** is a time-tested tech stack that gives you superpowers. It's four simple tools that work together: Linux, Python, vim and git. I use them daily to build AI and automation systems, but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts.
 
 <ul class="lpvg-list">
   <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The universal foundation that runs beneath it all</li>
