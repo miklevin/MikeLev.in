@@ -51,28 +51,27 @@ output, no proof of your abilities, so continue punching the clock.
 
 ### The Artist's Dilemma
 
-That's the trap for aspiring artists, especially those who are doing something truly unique,
-so that the value of their work is unrecognized in their
-day. Artists who are stuck in the daily-grind trap and who are out in new territoty
+That's the trap for aspiring artists, especially those who are doing something
+truly unique, so that the value of their work is unrecognized in their day.
+Artists who are stuck in the daily-grind trap and who are out in new territoty
 are in one of the worst traps, and it is not until after they're gone that
 someone realizes they should have had a patron to let them do more, push their
 vision, and bring more of their value to the world during their time.
 
 ## Modern Web Development and HTMX
 
-Anyhoo, I am not one of those. I do have the artistic bug, but mine is a more modest lot. 
-I am an enthusiastic user of new tools
-that really suit my vibe. HTMX is one of those, and I recognized new artistic
-materials when I saw it.
+Anyhoo, I am not one of those. I do have the artistic bug, but mine is a more
+modest lot. I am an enthusiastic user of new tools that really suit my vibe.
+HTMX is one of those, and I recognized new artistic materials when I saw it.
 
-The paintbrushes and canvases of web development became
-compelx Rube Goldberg machines, with intermediary frameworks between
-you and your canvas that make your paintbrush feel 100 feet long — like React and Syntactically Awesome Stylesheets (SASS)
-which require these long build procedures like Redux to make Web Assemblies
-(WASM) in these massive directory structures and all this special tooling. Ugh!
-New paintbrushes hit the scene in thr form of HTMX through Python through FastHTML. 
-No builds. No JavaScript, No CSS. No template. Just rapid change, check, change, check
-rapid iteration goodness.
+The paintbrushes and canvases of web development became compelx Rube Goldberg
+machines, with intermediary frameworks between you and your canvas that make
+your paintbrush feel 100 feet long — like React and Syntactically Awesome
+Stylesheets (SASS) which require these long build procedures like Redux to make
+Web Assemblies (WASM) in these massive directory structures and all this special
+tooling. Ugh! New paintbrushes hit the scene in the form of HTMX through Python
+through FastHTML. No builds. No JavaScript, No CSS. No template. Just rapid
+change, check, change, check rapid iteration goodness.
 
 ### Balancing Morning Energy and Work
 
