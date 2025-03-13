@@ -8,7 +8,7 @@ sort_order: 2
 
 **Me**: Tell me what you think of this codebase:
 
-[Pastes ~2.5 line codebase]
+[Pastes ~2.5 line codebase](/futureproof/python-htmx-llm-seo/)
 
 **ChatGPT o3-mini-high**: This is quite an impressive codebase that wears its design decisions on its sleeve. Here are some thoughts:
 
