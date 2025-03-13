@@ -73,13 +73,17 @@ The "peak data theory" is likely overstated, given the invisible web's vastness,
 
 ---
 
-## Setting the Stage
+## The Personal Story
 
-I am here to do the best work of my life. That is the reason I am at where I am
-working where I'm working now. The enterprise crawling problems my employer
-solves have are complementary to the ones I'm addressing with LLM-guided
-crawling. They do vastly large crawls, on the order of millions of pages,
-executing JavaScript all the way. I do shallow crawls with an LLM riding
+> So much for the research. Now for the personal stuff. You can tell AI Research
+> when you read it, can't you? Well, the rest is right from my keyboard to the
+> Web -- the candid genuine sort of stuff that's becoming rarer and rarer.
+
+I am at my current place of employment to do the best work of my life. My intent
+to do this is the reason I am there. The enterprise crawling problems my
+employer solves have are complementary to the ones I'm addressing with
+LLM-guided crawling. They do vastly large crawls, on the order of millions of
+pages, executing JavaScript all the way. I do shallow crawls with an LLM riding
 shotgun, commenting along the way like Statler and Waldorf. Or perhaps like the
 mystery science theater 3000 peanut gallery. But that's the present. Let's talk
 about the past and why peak data theory is bullshit.
