@@ -68,6 +68,9 @@ these asinine Rube Goldberg machines, with these intermediary frameworks between
 you and your canvas like React and Syntactically Awesome Stylesheets (SASS)
 which require these long build procedures like Redux to make Web Assemblies
 (WASM) in these massive directory structures and all this special tooling. Ugh!
+New paintbrushes hit the scene in thr form of HTMX through Python through FastHTML. 
+No builds. No JavaScript, No CSS. No template. Just rapid change, check, change, check
+rapid iteration goodness.
 
 ### Balancing Morning Energy and Work
 
