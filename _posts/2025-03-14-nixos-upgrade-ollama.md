@@ -21,6 +21,8 @@ rebuilding your system from scratch with a fresh install, but with all the new
 versions. Now the way `/nix/store` works, all the old versions are technically
 still on your storage device taking up space, but only un-linked. 
 
+![NixOS Upgrade Ollama](/images/nixos-upgrad-ollama.png)
+
 ## Understanding the Nix File System Architecture
 
 For the nix uninitiated, the miracles of this system are pulled off by forsaking
