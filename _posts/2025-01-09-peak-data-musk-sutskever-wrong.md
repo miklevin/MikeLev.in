@@ -21,7 +21,7 @@ internet.
 - The evidence leans toward synthetic data as a supplement, not a replacement, offering privacy benefits but potentially lacking real-world complexity.
 
 ### Introduction
-The "peak data theory," suggesting we've hit the limit of useful data for AI training, has been debated by industry leaders like Elon Musk and Ilya Sutskever. However, this idea seems flawed when considering the vast amount of untapped data in the invisible web, the continuous generation of new data, and the potential of synthetic data. This article reworks the original to highlight these points upfront, ensuring a clearer understanding of why "peak data" is likely a myth.
+The "peak data theory," suggesting we've hit the limit of useful data for AI training, has been debated by industry leaders like Elon Musk and Ilya Sutskever. However, this idea seems flawed when considering the vast amount of untapped data in the invisible web, the continuous generation of new data, and the potential of synthetic data. This article explains why "peak data" is likely a myth.
 
 ### The Invisible Web: A Hidden Resource
 The invisible web, or deep web, includes data not indexed by standard search engines, such as dynamic content and databases. Estimates suggest it's several times larger than the visible web, offering a treasure trove for AI training. Web scraping, especially with tools that execute JavaScript, can access this data, providing a rich source for models. For example, [Ryte Wiki](https://en.ryte.com/wiki/Invisible_Web/) notes that the invisible web is vast and often more focused, while [Wikipedia](https://en.wikipedia.org/wiki/Deep_web) highlights its unindexed nature, including paywalled services and private databases.
