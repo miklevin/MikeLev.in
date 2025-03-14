@@ -199,6 +199,8 @@ default) only to realize 0.5.13 didn't support it yet. But this time:
 
 ...resulted in the screenshot you see at the top of the article. Great success!
 
+---
+
 ## Gemini's Take
 
 **Title and Headline Ideas:**
