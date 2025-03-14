@@ -6,6 +6,8 @@ layout: post
 sort_order: 3
 ---
 
+## Summary
+
 Having achieved "peak data" is a myth. This article chronicles my journey
 through the evolving landscape of search, from early SEO tactics to the current
 AI-driven revolution. I delve into the technical intricacies of web crawling,
