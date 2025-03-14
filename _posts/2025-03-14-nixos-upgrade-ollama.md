@@ -183,6 +183,22 @@ NixOS update where you also upgrade all your software is like building your
 system from scratch. So just to go from Ollama 0.5.13 to Ollama 0.6.0 (to run
 Gemma 3), I was able to write this whole article waiting for the build, haha!
 
+## To Reboot Or Not To Reboot?
+
+After one of these long NixOS system upgrades, there's some stuff that's not
+going to be active until after a real hard reboot, because of recompiled drivers
+and such. But nonetheless, before restarting my machine, I decided to:
+
+    ollama --version
+
+...and got the 0.6.0 version reported successfully! Also I ran the model (which
+I previously pulled with `ollama pull gemma3` (which pulls the 4b version by
+default) only to realize 0.5.13 didn't support it yet. But this time:
+
+    ollama run gemma3
+
+...resulted in the screenshot you see at the top of the article. Great success!
+
 ## Gemini's Take
 
 **Title and Headline Ideas:**
