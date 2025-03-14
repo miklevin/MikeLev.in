@@ -153,7 +153,11 @@ Even to this day, the HitTail algorithm still holds half the formula. If
 something is ***nearly working for you***, you need only push it over the edge.
 It's like those penny arcade games in skee-ball joints and Chuck E Cheese where
 the quarters (or tokens) are hanging over the edge and you drop a coin in to see
-how many you can get to topple over the edge. That's HitTail. Or was.
+how many you can get to topple over the edge. That's HitTail. Or was. 
+
+The outlier data is the part you often want to overlook, clean, filter or
+normalize away. But outliers are trying to tell you something. Data at the edge
+that's normally missed is a huge reason why the peak data theory is wrong.
 
 #### The Concept of Striking Distance
 
@@ -162,7 +166,9 @@ If the data shows that a page of yours is in the search results &#151;
 positioning, but not positioning well (page 2 or lower) &#151; then the data is
 trying to tell you something. It's like having a new content-topic
 suggestion-box built into your website. Just follow the data! HitTail was a
-serendipity to deliberateness engine.
+serendipity to deliberateness engine. Coincidence to higher click-through. The
+systematic identification of outliers, the small tweak it takes to mainstream
+it, and lather, rinse, repeat.
 
 #### The Power of Incremental Improvement
 
