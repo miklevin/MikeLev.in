@@ -34,6 +34,10 @@ Synthetic data, generated to mimic real-world patterns, addresses privacy and sc
 
 ---
 
+# Peak Data Theory
+
+## Detailed Analysis
+
 ### Survey Note: Detailed Analysis on Peak Data Theory and AI Training Data
 
 This section provides a comprehensive exploration of why the "peak data theory" is likely overstated, integrating research and detailed insights into the availability and utilization of data for AI training. The analysis begins with an overview of the theory, followed by an examination of the invisible web, continuous data generation, data curation, and synthetic data, ensuring a thorough understanding of the topic.
