@@ -126,11 +126,14 @@ While these XSL stylesheet transformations were a really awesome secret weapon
 in SEO, especially during the era of the long-tail when such precise control of
 link construction could win you visits, it didn't last. JavaScript matured and
 JSON replaced XML as the interoperable language of choice. NodeJS wasn't on the
-scene yet, so the concept of the full stack wasn't a thing. I actually
-investigated JavaScript on the server before Node hit the scene, and there was
-nothing viable. This is when I opened my mind to other programming languages,
-tried Ruby to see what the big deal was about, but then got bitten by the Python
-bug.
+scene yet, so the concept of the full stack wasn't a thing.
+
+I actually investigated JavaScript on the server before Node arrived, and there
+was nothing viable at the time -- although the history of server-side JS goes
+back longer than people think to Netscape Enterprise Server and Microsoft ASP.
+But at the time, there was only Helma and Rhino. This is when I opened my mind
+to other programming languages, tried Ruby to see what the big deal was about,
+but then got bitten by the Python bug.
 
 ### The Move to New York
 
