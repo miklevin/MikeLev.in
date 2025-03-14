@@ -120,7 +120,7 @@ multiple transformation passes. I used a novel and kooky tech called XSLT (XML
 style-sheet transformation), which were supposed to be my path to
 future-proofing.
 
-They weren't.
+They weren't. But my general thinking was correct. 
 
 While these XSL stylesheet transformations were a really awesome secret weapon
 in SEO, especially during the era of the long-tail when such precise control of
