@@ -14,12 +14,13 @@ to:
 
     sudo nixos-rebuild switch --upgrade
 
-Now unlike `sudo apt update && sudo apt upgrade`, this is going to do a pretty
-intensive rebuild of your system. That's because NixOS is deterministic and
-isn't going to pollute your system with old versions. In essence, it's like
-rebuilding your system from scratch with a fresh install, but with all the new
-versions. Now the way `/nix/store` works, all the old versions are technically
-still on your storage device taking up space, but only un-linked. 
+Now unlike `sudo apt update && sudo apt upgrade` on Ubuntu/Debian Linux distros,
+this is going to do a pretty intensive rebuild of your system. That's because
+NixOS is deterministic and isn't going to pollute your system with old versions.
+In essence, it's like rebuilding your system from scratch with a fresh install,
+but with all the new versions. Now the way `/nix/store` works, all the old
+versions are technically still on your storage device taking up space, but only
+un-linked. 
 
 ![NixOS Upgrade Ollama](/images/nixos-upgrad-ollama.png)
 
