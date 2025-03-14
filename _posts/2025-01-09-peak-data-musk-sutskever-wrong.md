@@ -85,14 +85,17 @@ The "peak data theory" is likely overstated, given the invisible web's vastness,
 > when you read it, can't you? Well, the rest is right from my keyboard to the
 > Web -- the candid genuine sort of stuff that's becoming rarer and rarer.
 
-I am at my current place of employment to do the best work of my life. My intent
-to do this is the reason I am there. The enterprise crawling problems my
-employer solves have are complementary to the ones I'm addressing with
-LLM-guided crawling. They do vastly large crawls, on the order of millions of
-pages, executing JavaScript all the way. I do shallow crawls with an LLM riding
-shotgun, commenting along the way like Statler and Waldorf. Or perhaps like the
-mystery science theater 3000 peanut gallery. But that's the present. Let's talk
-about the past and why peak data theory is bullshit.
+I am at my current place of employment to do the best work of my life. That's
+why I am there. The huge challenge of enterprise SEO crawling exceeds my
+home-grown DIY SEO ethos, and that's where the big challenges (and the money) is
+at. Enterprises have to adapt to the age of AI... and I'm there! They execute
+JavaScript over millions of pages. I don't, and probably never will, haha!
+
+However, my scrappy approach is where outlier innovation resides. With my own
+[free AI SEO tool](https://mikelev.in/free-ai-seo-tool/), I do shallow crawls
+with an LLM riding shotgun, commenting along the way like Statler and Waldorf.
+Or perhaps like the mystery science theater 3000 peanut gallery. But that's the
+present. Let's talk about the past and why peak data theory is bullshit.
 
 ## The Early Days of Search
 
