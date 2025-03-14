@@ -94,8 +94,9 @@ JavaScript over millions of pages. I don't, and probably never will, haha!
 However, my scrappy approach is where outlier innovation resides. With my own
 [free AI SEO tool](https://mikelev.in/free-ai-seo-tool/), I do shallow crawls
 with an LLM riding shotgun, commenting along the way like Statler and Waldorf.
-Or perhaps like the mystery science theater 3000 peanut gallery. But that's the
-present. Let's talk about the past and why peak data theory is bullshit.
+Or perhaps like the Mystery Science Theater 3000 peanut gallery. Now go away
+before I taunt your website again! But that's the present. Let's talk about the
+past and why peak data theory is bullshit.
 
 ## The Early Days of Search
 
