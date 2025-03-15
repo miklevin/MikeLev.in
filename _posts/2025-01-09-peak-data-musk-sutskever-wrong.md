@@ -6,7 +6,7 @@ layout: post
 sort_order: 3
 ---
 
-**LUCKY YOU**: You found the long article where I rambled and researched. What you may be looking for is the summarized version where I debunk [peak data theory](https://mikelev.in/peak-data-theory).
+> **LUCKY YOU**: You found the long article where I rambled and researched. What you may be looking for is the summarized version where I debunk [peak data theory](https://mikelev.in/peak-data-theory).
 
 ## Summary
 
