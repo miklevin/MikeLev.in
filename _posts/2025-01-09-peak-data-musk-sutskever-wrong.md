@@ -6,6 +6,8 @@ layout: post
 sort_order: 3
 ---
 
+**LUCKY YOU**: You found the long article where I rambled and researched. What you may be looking for is the summarized version where I debunk [peak data theory](https://mikelev.in/peak-data-theory).
+
 ## Summary
 
 Having achieved "peak data" is a myth. This article chronicles my journey

@@ -1,12 +1,14 @@
 ---
 title: Free AI SEO Tool
-description: 
+description: Discover a free, open-source AI SEO tool that crawls your site with intelligence, not just speed. Get real-time insights and a deeper understanding of your content.
 author: Mike Levin AI SEO
 permalink: /free-ai-seo-tool/
 group: home
 ---
 
 # Free AI SEO Tool
+
+> Discover a free, open-source AI SEO tool that crawls your site with intelligence, not just speed. Get real-time insights and a deeper understanding of your content.
 
 ## AI SEO Site Crawler That Thinks as It Crawls
 
