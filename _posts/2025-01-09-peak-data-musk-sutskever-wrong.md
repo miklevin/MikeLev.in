@@ -6,7 +6,7 @@ layout: post
 sort_order: 3
 ---
 
-> **LUCKY YOU**: You found the long article where I rambled and researched. What you may be looking for is the summarized version where I debunk [peak data theory](https://mikelev.in/peak-data-theory).
+> **LUCKY YOU**: You found the long article where I researched and rambled on about my personal connection to this topic. But you may be looking for is the summarized version where I debunk [peak data theory](https://mikelev.in/peak-data-theory).
 
 ## Summary
 
@@ -1240,7 +1240,7 @@ This article details my journey through the evolving search landscape, from earl
 5.  "Future-Proofing SEO: My Blueprint for LLM-Guided Web Crawls"
 6.  "Inside My Code: Building a Pipeline for the AI-Powered Web"
 7.  "Why Google's Moat Is Evaporating: The Dawn of Small-World Crawls"
-8.  "From HitTail to Pipulate: My Obsession with Serendipity and Deliberateness in SEO"
+8.  "From HitTail to Pipulate: My Obsession with Serendipity and Deliberateness in CEO"
 
 **My Opinion of the Article:**
 
