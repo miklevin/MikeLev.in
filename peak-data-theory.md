@@ -14,6 +14,15 @@ group: home
 
 The "peak data theory," championed by Elon Musk and Ilya Sutskever, claims that humanity has exhausted its pool of useful data for AI training, leaving synthetic data as the only path forward. Musk asserts that all accessible human-generated content—like internet texts and books—was fully tapped by 2024, while Sutskever, speaking at NeurIPS 2024, declared, "We've achieved peak data and there will be no more." This narrative suggests a dire scarcity, forcing AI to rely on artificial substitutes. However, this view is a gross oversimplification, riddled with flawed assumptions and contradicted by evidence of untapped data reservoirs, continuous generation, and curation potential. Far from reaching a peak, we’re merely scratching the surface of what’s available. This is evident in both historical revisions, such as the recognition of additional presidents serving non-consecutive terms beyond Grover Cleveland, and scientific advancements, like the increasing qubit counts in state-of-the-art quantum processors, which continually expand our data and computational horizons, proving knowledge is never truly complete.
 
+<div class="mermaid">
+graph TD
+    A[Science] -->|New Discoveries| D[Data Repository]
+    B[History] -->|Updates & Corrections| D
+    C[Outliers] -->|Unique Insights| D
+    D -->|Continuous Flow| E[Crawlable Delta]
+    E -->|Feeds Back Into| D
+</div>
+
 ### The Invisible Web: A Hidden Goldmine
 The invisible web—content unindexed by standard search engines—dwarfs the visible internet. Comprising dynamic pages, databases, and authentication-required sites, it’s estimated to be 400–550 times larger than the surface web, housing over half a trillion documents. Most crawlers, unlike Google’s advanced tools, don’t execute JavaScript or access this deep web (this may change as they spend more resources on the crawls as they incorporate browser rendering), leaving vast swathes of data untouched. Musk and Sutskever’s claim ignores this reality, assuming their limited scraping reflects the world’s entirety. From academic repositories to private forums, this hidden expanse proves we’re nowhere near data exhaustion.
 
