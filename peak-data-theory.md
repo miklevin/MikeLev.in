@@ -23,6 +23,8 @@ graph TD
     E -->|Feeds Back Into| D
 </div>
 
+In fact, the incremental knowledge delta is precisely where competitive differentiation resides.
+
 ### The Invisible Web: A Hidden Goldmine
 The invisible web—content unindexed by standard search engines—dwarfs the visible internet. Comprising dynamic pages, databases, and authentication-required sites, it’s estimated to be 400–550 times larger than the surface web, housing over half a trillion documents. Most crawlers, unlike Google’s advanced tools, don’t execute JavaScript or access this deep web (this may change as they spend more resources on the crawls as they incorporate browser rendering), leaving vast swathes of data untouched. Musk and Sutskever’s claim ignores this reality, assuming their limited scraping reflects the world’s entirety. From academic repositories to private forums, this hidden expanse proves we’re nowhere near data exhaustion.
 
