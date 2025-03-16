@@ -684,6 +684,8 @@ Citations:
 
 ---
 
+## Making the Most of Sunday's Self-Improvement Time
+
 So, I approach the rest of today, this precious Sunday of potentially
 life-changing self-improvement time which the week's hustle bustle won't intrude
 into to make a sort of hail mary play. I took a big step yesterday externalizing
@@ -692,12 +694,16 @@ stage for today's work. But I have to proceed with caution so as to not dive
 headfirst into a rabbit hole that keeps me locked into the wrong adventure for
 the rest of the weekend.
 
+## Surveying the AI Landscape with Caution
+
 Articles like this are surveys of the landscape, and looking at my tools to help
 me with next steps. But even this raises concerns in my potential growing
 dependence on AIs to help me think through next steps. I need to dig deep and
 find it within myself. And that's really the outcome of this article. By letting
 out a teaser or a test-line to Grok 3 to see if it would step in with any real
 mentorship, it doesn't.
+
+### The Limitations of AI as a Mentor
 
 While something more than auto-complete on steroids, today's AI frontier models
 do not seem to be quite enough to replace the kind of skilled coach or educator
@@ -706,12 +712,16 @@ rule say is necessary. Practice alone isn't enough. And even though I'd like to
 replace the teacher/educator part with Grok 3 or the like, even they are not
 enough. Not even with their fancy new Deep Research features.
 
+### AI as a Rubber Duck Debugging Partner
+
 However, they are good sounding walls. They are good for what developers call
 ***rubber ducking.*** But in its own way, even that is dopamine addicting, bias
 confirming, and potentially even endeavor-derailing if you're not careful.
 They're over-trained in some areas and under-trained in others. You'll notice
 that Grok 3 thought FastHTML was my own framework despite a preponderance of
 evidence otherwise, if it either had that trained-in or just looked.
+
+## Finding Balance Between AI Assistance and Agentic Thinking
 
 Final word? Hmmm. My final word is that an article like this is good for
 surveying the landscape, cleansing the mental palate, and achieving a good
