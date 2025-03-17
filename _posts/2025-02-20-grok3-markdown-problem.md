@@ -6,6 +6,10 @@ layout: post
 sort_order: 2
 ---
 
+> NOTE: I have figured out that the actual domain [grok.com](https://grok.com/)
+> is handling markdown correctly. This article was written when I thought Grok
+> was only reachable through [X.com](https://x.com/).
+
 This is carried over from the previous entry. I got some excellent guidance from
 Grok 3 of the sort that o3 struggled with. But the problem is copying the
 formatted markdown from Grok 3 with the "Copy Text" button for the response. It
