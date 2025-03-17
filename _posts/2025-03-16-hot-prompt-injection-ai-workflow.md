@@ -117,12 +117,12 @@ think ***hot prompt injection*** really captures the spirit and could help make
 the system more memetic. You know Pipulate? Oh yeah, isn't that that FastHTML
 local web app framework with hot prompt injection? Yes!
 
-Ugh, don't let me go off on a tangent, but there's so much to talk about. I'm
-going to Before we proceed, take a peek at the @README.md and @.cursorrules now
-that you have this latest context, and give me some feedback. I may not
-necessarily edit those things right now as I want to get as much actual coding
-done, but I do want to capture these electric moments when you have really good
-project context. I'll put it in an article I can work from later.
+Ugh, don't let me go off on a tangent, but there's so much to talk about. Before
+we proceed, take a peek at the @README.md and @.cursorrules now that you have
+this latest context, and give me some feedback. I may not necessarily edit those
+things right now as I want to get as much actual coding done, but I do want to
+capture these electric moments when you have really good project context. I'll
+put it in an article I can work from later.
 
 **Claude 3.7**: 
 
