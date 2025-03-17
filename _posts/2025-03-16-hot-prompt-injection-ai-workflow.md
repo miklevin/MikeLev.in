@@ -744,14 +744,18 @@ This approach gives you some immediate cleanup without risk of breaking anything
 
 ---
 
-Me: 
+## Let Them See HTMX Calls
 
-Well then, if that's all you can find then I'm calling it a night. Or at least a
-few hours. Can you tell why? It's the HTMX `hx_` attribute calls. I'm not going
-to obfuscate a single HTMX attribute call. The whole idea is that lets you get
-terse, but that it's so new that it has to be forced to be learned. Repeated
-exposure, especially the part that causes the chain reaction, has to be exposed
-to the user. 
+> This is so friggin telling. First, there's no obvious picks. There's a few
+> empty wrappers for future-work. And then there's stuff that has critical HTMX
+> actions, which I don't want to hide from the user.
+
+**Me**: Well then, if that's all you can find then I'm calling it a night. Or at
+least a few hours. Can you tell why? It's the HTMX `hx_` attribute calls. I'm
+not going to obfuscate a single HTMX attribute call. The whole idea is that lets
+you get terse, but that it's so new that it has to be forced to be learned.
+Repeated exposure, especially the part that causes the chain reaction, has to be
+exposed to the user. 
 
 Also, the landing page only occurs once per workflow and could be such a
 critical spot for customization and lays so much of the context for everything
