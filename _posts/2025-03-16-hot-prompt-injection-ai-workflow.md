@@ -770,7 +770,7 @@ its based on, and which can still get refined over time.
 
 So even though there's going to be potential copy/paste hell because of no
 superclass inheritance, at the same time there will be a lot of codebase
-cycling. Old workflows will be abandoned and new and better ones created based
+cycling. Old workflows will be abandoned and new and better ones cycled in based
 on the assumption I'll be getting better and better at it, and the ports from
 Jupyter Notebooks to this will get easier and easier.
 
