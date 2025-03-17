@@ -1,7 +1,7 @@
 ---
 title: Grok 3 Markdown Problem
 permalink: /futureproof/grok3-markdown-problem/
-description: I'm cautiously optimistic about Grok 3, but this broken markdown problem is a show stopper for me. Hopefully they notice and fix it.
+description: I'm cautiously optimistic about Grok 3, but this broken markdown problem is a show stopper for me. Hopefully they notice and fix it. (FIXED! At least on grok.com)
 layout: post
 sort_order: 2
 ---
