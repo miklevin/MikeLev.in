@@ -626,6 +626,12 @@ Would you like me to sketch out some specific helper functions that could be ext
 
 ---
 
+## Final Hurrah For Tonight
+
+> I am running out of steam. The adenosine is building up. Sleep is imminent,
+> and I can't push myself as hard as I did about a month ago when I came down
+> with a cold. It's all about rabbit hole avoidance and next step staging.
+
 **Me**: Let's go for the easiest non-breaking pickings for slimming down
 `starter_flow.py`. I'm actually going to trash `test_flow.py`. Hey, with this
 auto-configuring plugin system, why not? Focus all the innovations down on one
