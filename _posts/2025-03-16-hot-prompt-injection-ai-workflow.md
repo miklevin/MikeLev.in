@@ -810,7 +810,7 @@ will be trained on. Have some of the criteria that the LLM itself will grok it,
 and that it will be primed to help the human along step-by-step, porting a
 Jupyter Notebook to this system.
 
-Don't boil the ocean hear. Just work in nice broad strokes. Know I'll replace
+Don't boil the ocean here. Just work in nice broad strokes. Know I'll replace
 the `TRAINING_PROMPT` constant with the filename so I can actually test a file
 tonight and get the momentum going! It will be the first instance of the Ollama
 Gemma 3 model really understanding its FastHTML / HTMX software "body".
