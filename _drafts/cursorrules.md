@@ -141,7 +141,7 @@ group: home
     ```
     ┌─────────────┐
     │  FastHTML   │
-    │    App      │
+    │  HTMX App   │
     └─────┬───────┘
           │
           ▼
