@@ -10,7 +10,7 @@ Alright, there are so many tiny little projects now that collectively will
 finish and polish this project... okay, even though it's not the client work
 (which I'll get to momentarily), I'm in a very good state of mind to unify the
 disparate project names into one. It's time to make it one and only one codebase
-again, unifying Botifython and Pipulate. 
+again, unifying Botifython and [Pipulate](https://github.com/miklevin/pipulate). 
 
 First, I have to control the name of the app. The thing is going to default to
 being called Pipulate, unless the folder it's in contains "botify" or there's a
@@ -68,8 +68,8 @@ default. But if people don't like it, they can change the contents of
 `app_name.txt` and it will use that. Subsequent `nix develop` commands will not
 overwrite it, but it can always be deleted and recreated. Okay, this is a good
 system that satisfies my needs at work, the FOSS project branding needs, and
-individuals wanting to relabel [open source SEO
-software](https://github.com/miklevin/pipulate) as their own. Good!
+individuals wanting to relabel [open source SEO software](https://github.com/miklevin/pipulate)
+as their own. Good!
 
 That's huge towards codebase reunification. Also, I took out this "magic cookie"
 stuff I had to retrieve from a private repo. The proprietary stuff that uses
