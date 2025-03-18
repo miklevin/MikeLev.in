@@ -830,6 +830,150 @@ You can adjust the thresholds as needed to fine-tune your selection.
 
 ---
 
+## Parameter Buster Deployed
+
+> I talked with ChatGPT about obfuscating the JavaScript above. I don't think
+> it's a big deal, but it's erring on the side of caution. But now, the ad hoc
+> crawl with the parameter buster deployed is done, and it's time to check...
+
+**Me**: Okay this is awesome, thank you. Okay, now you remember the parameter
+buster JavaScript? Well, we just did a crawl of the site. And now I can download
+another csv, let's call it new.csv, and it has the same columns and data
+structure as not-indexable.csv. My question to you is can you produce for me the
+Python code to check and confirm that the filtered set of parameters are not
+used?
+
+It should take as input the list of parameters that were just used in the
+JavaScript, selected as a result of those thresholds. It probably should load
+the new csv as a dataframe and use the old dataframes or counters (or whatever
+approach you think is best) to see if any of the filtered parameters are in the
+URLs from the new CSV.
+
+**ChatGPT**: Below is a Python Notebook cell that loads your new CSV file (with the same structure as not-indexable.csv), extracts and counts the query parameters, and then checks the filtered set (i.e. the list of parameters used in your JavaScript) to see if any appear in the new data.
+
+This snippet assumes you have already computed a list named `selected_params` (from your thresholds) and that the new CSV is named `"new-not-indexable.csv"`.
+
+```python
+# %% [code]
+import pandas as pd
+from collections import Counter
+from urllib.parse import urlparse, parse_qs
+
+def extract_query_params(url):
+    """
+    Extract query parameter keys from a URL.
+    """
+    parsed = urlparse(url)
+    if not parsed.query:
+        return []
+    params_dict = parse_qs(parsed.query)
+    return list(params_dict.keys())
+
+# Load the new CSV (adjust skiprows if needed, e.g., if there is a "sep=," row)
+df_new = pd.read_csv("new.csv", skiprows=1)
+
+# Count the query parameters in the new CSV
+new_counter = Counter()
+for url in df_new["Full URL"].dropna():
+    new_counter.update(extract_query_params(url))
+
+# Now, selected_params is our filtered list of parameters from before.
+# Let's check how many occurrences each of these parameters has in the new CSV.
+filtered_counts = {param: new_counter.get(param, 0) for param in selected_params}
+
+print("Occurrences of filtered parameters in new.csv:")
+for param, count in filtered_counts.items():
+    print(f"{param}: {count:,}")
+
+total_occurrences = sum(filtered_counts.values())
+if total_occurrences == 0:
+    print("\nClean bill of health: None of the filtered parameters were found in the new CSV.")
+else:
+    print(f"\nTotal occurrences of filtered parameters: {total_occurrences:,}")
+```
+
+### Explanation
+
+- **Extracting Query Parameters:**  
+  The `extract_query_params` function parses each URL and returns a list of query parameter keys.
+- **Counting Occurrences:**  
+  We iterate over the `"Full URL"` column of the new CSV and update a `Counter` with the parameters found.
+- **Filtering Check:**  
+  For each parameter in `selected_params` (your filtered list from the thresholds), we look up its count in the new data.
+- **Output:**  
+  The code prints each parameter and its occurrence (formatted with commas), plus a summary indicating if any of the filtered parameters are still present.
+
+Adjust the file path and any CSV-specific parameters (like `skiprows`) as needed for your environment.
+
+---
+
+**Me**: This is awesome! But make it take as an input parameter the actual list that was used in the JavaScript so I know it will be accurate:
+
+["foo", "bar", "baz"]
+
+Also, call the file new.csv (because I'm not constraining it to just non-indexable). 
+
+**ChatGPT**: Below is the updated Python Notebook cell that accepts a hardcoded list of parameters (the ones used in your JavaScript) and loads "new.csv" to verify if any of those parameters appear in the URLs. It prints out the count for each parameter in a clear, comma-formatted style.
+
+```python
+# %% [code]
+import pandas as pd
+from collections import Counter
+from urllib.parse import urlparse, parse_qs
+
+# Input: List of parameters used in the JavaScript
+js_param_list = ["foo", "bar", "baz"]
+
+def extract_query_params(url):
+    """
+    Given a URL, extract and return a list of query parameter keys.
+    """
+    parsed = urlparse(url)
+    if not parsed.query:
+        return []
+    return list(parse_qs(parsed.query).keys())
+
+# Load the new CSV file (new.csv)
+df_new = pd.read_csv("new.csv")  # Adjust parameters if needed
+
+# Count the query parameters in the "Full URL" column of new.csv
+new_counter = Counter()
+for url in df_new["Full URL"].dropna():
+    new_counter.update(extract_query_params(url))
+
+# Check and print the occurrences of each parameter from the JavaScript list
+print("Occurrences of the selected JavaScript parameters in new.csv:")
+for param in js_param_list:
+    count = new_counter.get(param, 0)
+    print(f"{param}: {count:,}")
+
+# Optional: Summarize overall if none of the parameters are present
+total_occurrences = sum(new_counter.get(param, 0) for param in js_param_list)
+if total_occurrences == 0:
+    print("\nGood news: None of the selected parameters were found in new.csv!")
+else:
+    print(f"\nTotal occurrences of selected parameters: {total_occurrences:,}")
+```
+
+### Explanation
+
+- **Input List:**  
+  The variable `js_param_list` holds the list of parameters you used in your JavaScript.
+
+- **Function `extract_query_params`:**  
+  This function parses a URL to extract the query parameter keys.
+
+- **Data Loading:**  
+  The code loads "new.csv" into a DataFrame. Adjust the file path or parameters if necessary.
+
+- **Counting:**  
+  It iterates over the `"Full URL"` column of the DataFrame, counts the query parameters using `Counter`, and then reports the counts for each parameter in your list.
+
+- **Output:**  
+  The cell prints each parameter with its corresponding count, formatted with commas. It also provides a summary message.
+
+This cell ensures you can verify that the filtered set of parameters are indeed not in use in the new data set.
+
 ## An AI's Take
 
 Alright, let's get this done!
