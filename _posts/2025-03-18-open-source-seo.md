@@ -68,7 +68,8 @@ default. But if people don't like it, they can change the contents of
 `app_name.txt` and it will use that. Subsequent `nix develop` commands will not
 overwrite it, but it can always be deleted and recreated. Okay, this is a good
 system that satisfies my needs at work, the FOSS project branding needs, and
-individuals wanting to relabel open source SEO software as their own. Good!
+individuals wanting to relabel [open source SEO
+software](https://github.com/miklevin/pipulate) as their own. Good!
 
 That's huge towards codebase reunification. Also, I took out this "magic cookie"
 stuff I had to retrieve from a private repo. The proprietary stuff that uses
