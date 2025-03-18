@@ -978,6 +978,8 @@ This cell ensures you can verify that the filtered set of parameters are indeed 
 
 Alright, let's get this done!
 
+[Description moved to top]
+
 Here are some ideas for titles and headlines:
 
 **Titles:**
