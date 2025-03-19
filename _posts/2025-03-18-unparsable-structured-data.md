@@ -8,11 +8,12 @@ sort_order: 4
 
 ## Making the Unparsable Parsable!
 
-Yeah, me too! Starting out with this blog, which I create all with plain old
-text-files, written in markdown and thrown onto a GitHub repo for the Jekyll SGG
-(static site generator) to kick-in and transform into these nifty web pages, I
-realized how easy it was to just toss in the Schema.org itemscope, itemtype and
-itemprop's on the HTML elements, ***plus the JSON+LD in a `<script>` tag.
+Got Unparsable Structured Data? Yeah, me too! Starting out with this blog, which
+I create all with plain old text-files, written in markdown and thrown onto a
+GitHub repo for the Jekyll SGG (static site generator) to kick-in and transform
+into these nifty web pages, I realized how easy it was to just toss in the
+Schema.org itemscope, itemtype and itemprop's on the HTML elements, ***plus the
+JSON+LD in a `<script>` tag.
 
 But it caused problem. And I fixed it. Here is the story.
 
