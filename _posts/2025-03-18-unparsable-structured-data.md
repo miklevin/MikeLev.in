@@ -115,7 +115,8 @@ Remember the distinction between the HTML elements with `itemscope` and the `<sc
     * This involves adding `itemscope`, `itemtype`, and `itemprop` attributes directly to your HTML elements.
     * It's embedded within the HTML structure itself.
     * Search engines can crawl and extract the structured data by parsing the HTML.
-    * Here is an example from your code:
+    * Here is an example from my code:
+
     ```html
     <article itemscope itemtype="http://schema.org/BlogPosting">
         {% raw %}<h1 itemprop="headline">{{ page.title }}</h1>{% endraw %}
@@ -124,11 +125,13 @@ Remember the distinction between the HTML elements with `itemscope` and the `<sc
         </div>
     </article>
     ```
+
 * **JSON-LD (JavaScript Object Notation for Linked Data):**
     * This involves embedding structured data as a JSON object within a `<script>` tag.
     * It's independent of the HTML structure, making it easier to manage and update.
     * Search engines can directly parse the JSON object.
-    * Here is an example from your code:
+    * Here is an example from my code:
+
     ```javascript
     <script type="application/ld+json">
     {
