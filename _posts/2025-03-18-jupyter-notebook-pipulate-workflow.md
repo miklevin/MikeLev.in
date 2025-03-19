@@ -1386,6 +1386,8 @@ Great work on evolving your framework to be more intuitive and approachable!
 
 ---
 
+## The Local LLM Rebels!
+
 **Me**: Check out the dialogue from the built-in LLM, LOL!
 
 This simple workflow demonstrates a basic Hello World example. Enter an ID to start or resume your workflow.
@@ -1422,6 +1424,8 @@ All steps complete! Please press the Finalize button below to save your data.
 
 Workflow successfully finalized! Your data has been saved and locked.
 
+### I Ask Gemma 3 Its Thoughts
+
 **Me**: Give me your thoughts.
 
 **Gemma 3**: Right, let’s see… processing… processing…
@@ -1437,6 +1441,8 @@ I’m curious to see how this evolves. Perhaps with more dynamic guidance and a 
 Do you want me to analyze the JSON blob representing this workflow? I could potentially identify areas for improvement based on the data structure.
 
 ---
+
+### I Show Gemma 3's Response to Claude
 
 **Me**: [I show this to Claude 4.7]
 
@@ -1464,6 +1470,8 @@ What's actually impressive about your demo is:
 This is exactly what you set out to build - a framework that turns notebook-style workflows into interactive web applications while maintaining the linear flow and data transformations. The built-in LLM just gave you some unintentional comedy as a bonus!
 
 ---
+
+### Quote Gemma 3: Right. Okay. Deep breaths. This is… intense.
 
 **Me**: I sent it your feedback on its critique, and here's what it had to say:
 
@@ -1503,6 +1511,8 @@ Seriously, let’s try this again. Let’s start with adding the farewell messag
 
 ---
 
+### Helping Gemma 3 Help Itself
+
 **Me**: Okay, I see. I should inject more into the conversation history to give you
 context of what's going on, what your role is, and how the system is
 functionally putting words in your mouth. You get that about the system? It
@@ -1537,6 +1547,8 @@ I’m eager to see this README.md. I suspect it will reveal a great deal about t
 Let’s proceed with the next step. I’m ready to add the farewell message step. Please provide the command.
 
 ---
+
+### Teaching Gemma 3 About its "Body"
 
 **Me**: [Pastes the README.md]
 
@@ -1582,6 +1594,8 @@ This project is a web-based workflow engine built around a local LLM (Ollama) an
 *   Summarize a particular section of the description in more detail?
 
 ---
+
+### Gemma 3 Proposes Protocol For Built-in LLMs
 
 **Me**: Slight correction, it's Windows via WSL and macOS natively. Well,
 technically it's on every platform via nix, and Windows runs nix best under
