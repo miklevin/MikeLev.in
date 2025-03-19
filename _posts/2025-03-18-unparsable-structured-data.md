@@ -6,6 +6,8 @@ layout: post
 sort_order: 4
 ---
 
+## Making the Unparsable Parsable!
+
 Yeah, me too! Starting out with this blog, which I create all with plain old
 text-files, written in markdown and thrown onto a GitHub repo for the Jekyll SGG
 (static site generator) to kick-in and transform into these nifty web pages, I
