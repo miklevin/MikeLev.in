@@ -8,15 +8,16 @@ group: home
 
 # Pipulate Free & Open Source SEO with/for LLMs
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-bottom: 2vh;">
   <img src="/pipulate-ai-seo.svg" alt="Pipulate Free & Open Source SEO with and for LLMs">
 </div>
 
 ## Primarily Packaging Jupyter Notebooks
 
 Pipulate is the packaging of Python Jupyter Notebooks to look and feel like web
-apps without users having to actually look at the Python code. It has much
-broader application than SEO, but that's what I lead with since it's what I do.
+apps without users having to actually look at the Python code. Do this with a
+few SEO workflows, and you have an expandable, customizable SEO Suite! It has
+much broader application, but this is where it starts.
 
 SEOs will probably know the concept of Notebooks as Google Colab. Pipulate is
 like that but without the cloud-dependencies, cost, or even having to look at
@@ -1253,8 +1254,6 @@ The transformation is straightforward:
 5. **Reusability**: Workflows can be shared and reused without code knowledge
 
 By understanding this anatomy, you can convert any Jupyter Notebook into a user-friendly Pipulate workflow, making data science processes accessible to non-technical users while maintaining the power and flexibility of Python.
-
-
 
 ---
 
