@@ -123,3 +123,94 @@ Do *not* to fabricate information beyond the scope of the provided context.
 OMG, that's a game changer on Mac. I wonder how long that's been there?
 
 [Mac Virtual Desktops Fixed Positions](/images/mac-virtual-desktops-fixed-positions.png)
+
+OMG, I just got Jekyll live-serve working on the Mac from the nix flake that's
+tied to my blogging folder! I simply had to `nix develop`, and I got the
+message:
+
+```bash
+Run `bundle install` to install missing gems.
+```
+
+...which I did, after which live-serve started working! But there was a bunch of
+stuff that printed out that I should take note of. Recording here for making
+sure I remember to address these things at some point in the future...
+
+```bash
+PSA: I18n will be dropping support for Ruby < 3.2 in the next major release (April 2025), due to Ruby's end of life for 3.1 and below (https://endoflife.date/ruby). Please upgrade to Ruby 3.2 or newer by April 2025 to continue using future versions of this gem.
+Post-install message from dnsruby:
+Installing dnsruby...
+  For issues and source code: https://github.com/alexdalitz/dnsruby
+  For general discussion (please tell us how you use dnsruby): https://groups.google.com/forum/#!forum/dnsruby
+Post-install message from sass:
+
+Ruby Sass has reached end-of-life and should no longer be used.
+
+* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+  primary implementation: https://sass-lang.com/install
+
+* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+  sassc gem: https://github.com/sass/sassc-ruby#readme
+
+* For more details, please refer to the Sass blog:
+  https://sass-lang.com/blog/posts/7828841
+
+Post-install message from html-pipeline:
+-------------------------------------------------
+Thank you for installing html-pipeline!
+You must bundle Filter gem dependencies.
+See html-pipeline README.md for more details.
+https://github.com/jch/html-pipeline#dependencies
+-------------------------------------------------
+Post-install message from rubyzip:
+RubyZip 3.0 is coming!
+**********************
+
+The public API of some Rubyzip classes has been modernized to use named
+parameters for optional arguments. Please check your usage of the
+following classes:
+  * `Zip::File`
+  * `Zip::Entry`
+  * `Zip::InputStream`
+  * `Zip::OutputStream`
+
+Please ensure that your Gemfiles and .gemspecs are suitably restrictive
+to avoid an unexpected breakage when 3.0 is released (e.g. ~> 2.3.0).
+See https://github.com/rubyzip/rubyzip for details. The Changelog also
+lists other enhancements and bugfixes that have been implemented since
+version 2.3.0.
+```
+
+Okay, now I can set up my 7 traditional virtual screens on Mac and use similar
+muscle memory I develop on GNOME. I don't have to collapse everything down into
+single terminals. That's a relief. But Mac does require one of your virutal
+desktops to be a Mac Desktop. Apps opened full screen don't really have a
+desktop mapped underneath the way GNOME does. Okay, this is the multi-language
+OS nuance. So screen 1 will never be used here the way I do at home with a
+personal journal. All writing while I'm on the Mac either goes here for web
+publishing or into a client notebook (middle screen). I know this comes across
+like so much talking out loud, but really that's what it is to help me learn.
+Somebody's got to be talking about this Mac/Windows/Linux future-proofing thing,
+getting the best of the proprietary platforms while planning for an independent
+future. You've got to be able to run with the pack, and you've got to be able to
+run alone. And it takes some time to work out those skills.
+
+When doing one of these types of articles from the office, simply hold back
+publishing. If in doubt, I can always move it to the Jekyll `_draft` folder.
+
+Wow what a relief, just 3-finger swooshing all the way left to get to this.
+Fixed positions make such a huge difference!
+
+Okay, next...
+
+Pipulate is a packaging of Python Jupyter Notebooks for popular use. They look
+and feel like web apps, without you having to actually look at Python code.
+
+SEOs will probably know the concept of Notebooks as Google Colab. Pipulate is
+like that but without the cloud-dependencies, cost, or even having to look at
+any Python code. It also uses the power of your local machine for web browsing,
+running a local private AI to do your crawls, audits and stuff.
+
+Pipulate takes processes that you perfect in a Notebook -- ***processes*** that
+usually ***populate*** using ***Python Pandas,*** and other ***pip*** installed
+***packages***... That's what it is to Pipulate! That's what Pipulate is.

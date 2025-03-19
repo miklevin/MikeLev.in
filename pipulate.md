@@ -12,7 +12,23 @@ group: home
   <img src="/pipulate-ai-seo.svg" alt="Pipulate Free & Open Source SEO with and for LLMs">
 </div>
 
-A **local-first, single-tenant desktop app framework** built with FastHTML, MiniDataAPI, and local LLM integration (via Ollama). Designed to run like an Electron app—with full server-side state, minimal complexity, and reproducible environments using Nix Flakes. by [Mike Levin](https://mikelev.in/)
+Pipulate is a packaging of Python Jupyter Notebooks for popular use. They look
+and feel like web apps, without you having to actually look at Python code.
+
+SEOs will probably know the concept of Notebooks as Google Colab. Pipulate is
+like that but without the cloud-dependencies, cost, or even having to look at
+any Python code. It also uses the power of your local machine for web browsing,
+running a local private AI to do your crawls, audits and stuff.
+
+Pipulate takes processes that you perfect in a Notebook -- ***processes*** that
+usually ***populate*** using ***Python Pandas,*** and other ***pip*** installed
+***packages***... That's what it is to Pipulate! That's what Pipulate is.
+
+---
+
+## Architecture & AI Introduction
+
+Pipulate is a **local-first, single-tenant desktop app framework** built with FastHTML, MiniDataAPI, and local LLM integration (via Ollama). Designed to run like an Electron app—with full server-side state, minimal complexity, and reproducible environments using Nix Flakes. by [Mike Levin](https://mikelev.in/)
 
                  ┌─────────────┐ Like Electron, but full Linux subsystem 
                  │   Browser   │ in a folder for macOS and Windows (WSL)
