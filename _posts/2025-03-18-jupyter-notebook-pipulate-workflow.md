@@ -1645,9 +1645,7 @@ apps. Well, that'll be a different article. Over to you, Gemini!
 
 ---
 
-**Gemini Advanced 2.0 Flash Brainstormer**:
-
-Alright, here's a summary, titles, and my opinion on your article:
+**Gemini Advanced 2.0 Flash Brainstormer**: Alright, here's a summary, titles, and my opinion on your article:
 
 **Summary (1st Person Author Perspective):**
 
