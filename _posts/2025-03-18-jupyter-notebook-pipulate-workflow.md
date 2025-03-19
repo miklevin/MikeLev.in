@@ -305,3 +305,158 @@ all directly from your own local machine, so you can have that old webmaster
 feeling again, where you can understand, and thus control and customize
 everything! Ugh, there I go rambling again. Precious time, remember? 1, 2, 3...
 1?
+
+Honestly, I think I'm facing a mental block here. I wrote a whole other article
+on fixing the unparsable structure data issue I was having on my website, right
+as I got down to 1 in the countdown, haha!
+
+What it is, is that I'm about to spend a lot of decision-juice. I'm going to
+have to do a lot of expensive thinking. And it's late and I don't wanna. But my
+world changes forever if I do, and these are precisely the types of hurdles you
+get yourself over to change the world forever for yourself moving forward. It is
+a demonstration and exercising of agency and autonomy. It is what it is to be
+human. So let's get this show on the road!
+
+There are many web frameworks, but there are none like mine. Armin Ronacher got
+it started with Flask in 2010, routing web requests into Python through function
+`@decorators`. Carson Gross made the web less gross with intercooler.js in 2013,
+which eventually became HTMX -- reducing the world's need for JavaScript. And
+then Jeremy Howard came out with FastHTML to connect the dots between Flask and
+HTMX just in time for my birthday, August of last year (2024). Sometimes
+everything just has to fall in place just-so, before a love-worthy framework
+like mine can spring into existence.
+
+Now, the code is still a bit ugly, mixing traditional procedural Python coding
+style with the object oriented programming style (OOP). Sometimes I use the new
+MyPy strict data typing conventions, and sometimes I don't. I use quite a few
+global variables, and I'm not doing a lot of error checking, and there's no test
+coverage. Some of this is intentional because of anti-enterprise-concerns and
+seeking the local-first advantage. But some of it is not, and is just in
+desperate need of a cleanup. But in typical Python style, pragmatic concerns of
+just getting the work done win, so I'm not going to let any of that stop me --
+hahaha!
+
+So, this is all really a starting point. Working in my advantage is that the
+codebase is really small. The core is 2.5K lines of code, coincidentally also
+25K tokens, per the OpenAI token size reporting tool, tiktoken. The context
+window for even local LLMs like Gemma 3 is up to that 128K window that Google's
+Gemini set the standard for in code-assistant AIs. And so the core codebase only
+takes up 1/4 of the context window. So, with more time the core codebase will
+become smaller and cleaner. This is different from most frameworks. Not only
+have I connected some of the best dots to connect out there right now (Python,
+HTMX, local host & local LLM), but the codebase is poised to shrink!
+
+That being said, a certain part not in core (anymore, as of very recently) is
+designed to grow VERY LONG, VERY FAST.
+
+Most people in my situation would inherit the default behavior for workflows
+part of a plugin system from an OOP superclass, and then selectively override
+the default behaviors when and where you have to customize.
+
+Nosirree! Not me. Well, I mean I did try that but the complexity of overriding
+superclasses in Python blew my mind -- right at the time when I was trying to
+learn HTMX in the most straightforward fashion I could. I had this image of
+looking at the HTMX sheet music. Unfortunately, straightforward fashion in
+programming can mean...
+
+> Verbose and verbatim -- a style forboden.  
+> Pedantics insist you get DRY.  
+> But it turns out that WET  
+> is as clear as you get.  
+> And here, I will show you just why.  
+
+## Porting a Notebook to Pipulate
+
+First, you have a Jupyter Notebook. Maybe you have a Colab Notebook. But then
+all your files are going to disappear in 24 hours, or you have to hardware it to
+Google services to get your data residing in a Google Suite product and your
+cloud handcuffs are slapped on, and you're paying at least $10/mo for the
+privilege of being able to do Notebook stuff, which is free and open source in
+nature. So, you should be using plain vanilla Jupyter Notebooks. Pipulate will
+install an easy peasy local JupyterLab environment for you on macOS or
+Windows/WSL. It's multi-platform and future-proof Linux, so there's no excuse.
+
+Okay, next you understand that ***Cells*** in a Jupyter Notebook execute from
+top-to-bottom. Sure, some people run them out-of-order, but those people are
+***out of order.*** We're going for reproducibility here -- not some magical
+unreproducible spell-casting incantation that only the original Data Scientist
+who set it up knows. In a lot of ways, what we're doing is spell incantation
+distillation! We're packing up the ingredients and hiding them from the
+spellcaster (not showing the user of the Notebook the Python code).
+
+But I'm not making some auto-porting software that parses out the `.ipynb` file
+and magically turns it into some schedulable task. No, that would be way too
+easy. Instead, we're going to copy cell-by-cell the Python code from the
+Notebook into the currently undecipherable even to me Pipulate system, and I
+invented it! Promising, right!
+
+Okay, so let's decipher a workflow and do the first port.
+
+The best starting place currency is the [Pipulate page on
+GitHub](https://github.com/miklevin/pipulate). That has to change. I have to
+update the Pipulate.com domain, this website MikeLev.in and even the PyPI
+location where you were once able to pip install an old version. All those
+locations need to be updated, but right now my focus in on the Pipulate repo
+itself, so that's where the best instructions reside.
+
+And those instructions start with installing the nix repo system, if you haven't
+already. Then you can start Jupyter by opening a terminal and:
+
+```bash
+nix develop
+start
+```
+
+Simple as that. This is now going to be a commonly recurring pattern for me, and
+anyone jumping on the Pipulate bandwagon. Sure, you can just try to code
+something directly into Pipulate, but it's purpose is not to replace the well
+established, battle-hardened Notebook way of doing things. Still mock-up your
+ideas in Notebooks. Hmmm. We use the word mock-up, but really Notebooks are so
+much more than that. They're fully functioning versions! Not mock-up's at all.
+But they do expose an awful lot of messy details -- how the sausage is made --
+that's going to intimidate a lot of your potential intended audience. These
+workflows would serve you much better if they were just a web app -- a web-app
+without any web hosting headache! Complete cloud independence! Own your soul and
+slap those hands of your wallet.
+
+Slap, slap, slap! Ah, the sound of independence. Now for the price of
+independence.
+
+Get a pipulate directory on your local machine. Those already on the git/GitHub
+bandwagon can:
+
+```bash
+git clone git@github.com:miklevin/pipulate
+```
+
+Those not on this bandwagon yet (no GitHub account, `.ssh` keys not set up,
+etc.) can just [download the `.zip` from
+GitHub](https://github.com/miklevin/pipulate) (pressing the bright green `<>
+Code` button and pressing "Download ZIP".
+
+Once you've unarchived that on your machine, you can open a terminal, `cd` into
+that directory and:
+
+```bash
+nix develop
+start
+```
+
+See? Jupyter Notebook pops up. No? Well, then you need `nix` on your machine. Go
+back to the [Pipulate page on GitHub](https://github.com/miklevin/pipulate) and
+look read the install instructions more carefully. Or alternatively, go read
+about the [Determinate Systems Nix
+Installer](https://determinate.systems/posts/determinate-nix-installer/).
+
+Everything has a price. And the price of cloud independence is being able to use
+a universal Linux subsystem on any host system, be it macOS, Windows/WSL or some
+other Linux. And today, that universal Linux subsystem is called `nix`. It's
+been around since 2013 and is quite battle-hardened and used by the most
+innovative defense contractor of our time, Anduril. So get some experience using
+nix, and don't work for Anduril.
+
+Pshwew! Okay... 1, 2, 3... 1? We're always at step 1. Now that you have
+JupyterLabs popping up in your browser in one of the best ways you can run
+Notebooks, go do a hello world program. It should look something like this:
+
+![JupyterLab on nix](/images/jupyuterlab-on-nix.png)
