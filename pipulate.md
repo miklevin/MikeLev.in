@@ -26,7 +26,7 @@ running a local private AI to do your crawls, audits and stuff.
 
 Pipulate takes processes that you perfect in a Notebook -- ***processes*** that
 usually ***populate*** using ***Python Pandas,*** and other ***pip*** installed
-***packages***... That's what it is to Pipulate! That's what Pipulate is.
+***packages***... That's what it is to **Pipulate!** That's *what Pipulate is.*
 
 ---
 
