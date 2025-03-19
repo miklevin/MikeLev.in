@@ -6,6 +6,8 @@ layout: post
 sort_order: 3
 ---
 
+## Starting With Enterprise Botify Workflow Automation
+
 Okay, so I've got the first SEO workflow I want to automate, and it's purely
 Botify! There's so much I'd love to do for the unwashed SEO masses, but think of
 this enterprise crawling company employer of mine as something like my art
@@ -15,6 +17,8 @@ where the customers really are. Established companies need to make the
 transition into the new AI SEO realities as much as everyone else. And so that's
 where our first workflow conversion begins.
 
+### Future Plans for Interactive SEO Tools
+
 Over time I'll do the smaller, and frankly more fun and broader appeal stuff,
 like real-time crawls where you chitchat with the LLM as you go, and it shows
 you the live link-graph of the site, building it up page-by-page. Ugh! I have to
@@ -22,6 +26,8 @@ consider myself almost in a race to get to that stuff by getting through this
 stuff, which is frankly easier and pays the bills. And the particulars of the
 workflow are for the first time in awhile laid out so crystal clear, because of
 the Jupyter Notebook I had to do for today's work. Just port that into Pipulate!
+
+### History of SEO Workflow Automation Attempts
 
 My first attempt ages ago at one of these automated SEO workflows wasn't really
 so easy. It combined the visualized link-graph (drawn from the Botify data) with
@@ -40,11 +46,15 @@ port.
 - The accompanying visualizations are only ***optional,*** which I could
   incorporate but they're not critical to the value of the output
 
+### Setting Up the Development Environment
+
 Okay, one of the important discoveries was that making a client folder inside of
 Pipulate is key, because that makes it share the Python virtual environment, and
 thus I'm working off of a common set of pip-installed tools. And JupyterLab runs
 side-by-side with Pipulate as just a plain matter of course, so I'm never
 struggling for a Notebook environment.
+
+### Late Night Development Session
 
 Tue Mar 18 08:31:15 PM EDT 2025
 
@@ -55,6 +65,8 @@ so I might end up a little tired. If I time this right I can get one more nap
 before I go in tomorrow. I can't bail and do another work-from-home day like I
 did today because I accepted an in-person meeting with a co-worker, and that
 will put just the right pressure on me to get this work now done.
+
+### Setting Up Git Repository for Client Work
 
 Okay, so Jupyter Notebooks are actually in the picture now for the port, and I
 have a folder within the pipulate folder which is hidden from the git repo (and
@@ -72,6 +84,8 @@ git remote add origin git@github.com:miklevin/client.git
 git push -u origin main
 ```
 
+### Installing nbstripout for Clean Git Diffs
+
 Okay, while I'm at it, it's time to put the `nbstripout` package into use again,
 which cleans notebook metadata before it gets into git repos, thus polluting the
 clean `git diff`s with all this JSON notebook meta garbage. For example, the
@@ -80,6 +94,8 @@ open the Notebook, you see the exact last state (cell output and all). While
 this is a really useful feature Notebook-wise, it wreaks havoc on the git
 repository -- messing up the ***git diff*** feature that let you easily see only
 the "delta" or differential changes between one commit and the next.
+
+#### Adding to Requirements.txt
 
 Okay, I put it in the Pipulate `requirements.txt`, which currently is:
 
@@ -208,16 +224,22 @@ Diff Attributes:
 [mike@nixos:~/repos/pipulate/client]$
 ```
 
+## Nested Git Repos with Clean Jupyter Integration
+
 ...and now I have nested git repos, using `.gitignore` to keep the outer one
 from including the inner one in its own repo. And the inner one just doesn't
 care because it has no idea - git scope is from the init'ed folder inward. And I
 can use Jupyter Notebooks in either without the Notebook's JSON meta data
 polluting the git repos. Neat!
 
+### The Importance of Technical Details
+
 It may seem pedantic and ridiculous to do all this, and even more so to cover it
 all in a blog. But it's these little details that make all the difference. You
 might think of the Pipulate repo folder as my new ***home,*** because so much of
 the work I'm going to do now is going to be directly in there.
+
+### Simplifying Path Management in Local-First Applications
 
 There's a bit of an anti-pattern here, having to do with local-first concerns --
 meaning, I'm setting up a single application on my local machine, as if someone
@@ -227,7 +249,9 @@ I don't have to do all these ***operating system dependent*** paths using the
 Python `os` or even `pathlib` libraries. Paths breaking is a big problem with
 multi-platform applications. OS-dependent paths are brittle. But if you keep all
 your paths relative to the same directory your Python program is installed (and
-`cd`d to when run), everything just works.
+`cd`'d to when run), everything just works.
+
+### Managing Data Files in Git Repositories
 
 Of course, this means keeping your data files inside your git repo folder, and
 putting those data folders in your `.gitignore` to keep them from ever getting
@@ -235,6 +259,8 @@ committed into the repo itself. And if you want those other data files backed up
 (what I'm doing with the client folder here), you're going to have to do it some
 other way (like making your data its own repo). But the payoff is so much
 simplification, it's totally worth it.
+
+### Reducing Complexity Through Strategic Organization
 
 It might sound a bit complicated, but it's actually the least complicated thing
 with all these corollary benefits. Over time, it reduces cognitive overhead and
@@ -252,3 +278,30 @@ too:
    other words, the `git diff`s will be clean and useful.
 5. My Jupyter Notebooks will be sharing the same pip installed dependencies as
    my Pipulate workflows!
+
+Okay, that cleared my mind and clarified my vision. But from here forward
+(tonight), I have to put that creative energy directly into the Notebook port,
+and not into thinking through the big picture. We switch from big sweeping
+pitures, and the ***daily habit*** stuff of reducing cognitive overhead and
+decision fatigue (one git repo to rule them all, one `.venv` to bind them, yadda
+yadda), to the scalpel-like precision of the Jupyter port.
+
+I have a drop-in plugin framework for SEO workflows! I might as well call it
+Data Science workflows at this point. If I'm actually attracting an SEO audience
+looking for the crawl stuff here, you're a few weeks too early. Unfortunately,
+we are in a sprint and not a marathon, which is why I'm sort of knocking myself
+out plowing through this, as [Goose AI](https://github.com/block/goose),
+[Cline](https://github.com/cline/cline),
+[OpenManus](https://github.com/mannaandpoem/OpenManus) and the like are bursting
+oonto the scene, making buzz. Stop overpaying for your AI infrastructure? Ha!
+***Stop paying for your AI infrastructure!***
+
+But my message is a bit different. This is not chain-of-thought recursive
+self-prompting, with browser-use thrown in for willy nilly results. This is
+rigid workflows. This is AI-on-Rails! But using Python and HTMX instead of Ruby,
+so you get all that lovely Python back-end power, and end-run having to do any
+of that React stuff by painting directly into the browser DOM -- and doing it
+all directly from your own local machine, so you can have that old webmaster
+feeling again, where you can understand, and thus control and customize
+everything! Ugh, there I go rambling again. Precious time, remember? 1, 2, 3...
+1?
