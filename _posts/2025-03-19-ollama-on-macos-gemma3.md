@@ -219,3 +219,6 @@ Okay, the Pipulate page is updated with a bit better of an introduction.
 
 I'm receiving the questions about the agenda for tomorrow. Let's really connect
 these dots!
+
+Alright, I just put my nixos repo folder in location on my Mac so that even my
+publishing hotkeys work. Test...
