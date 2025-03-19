@@ -221,4 +221,22 @@ I'm receiving the questions about the agenda for tomorrow. Let's really connect
 these dots!
 
 Alright, I just put my nixos repo folder in location on my Mac so that even my
-publishing hotkeys work. Test...
+publishing hotkeys work. Test... ahh, the absolute paths are different between
+Linux and GNOME, with the Mac using `/Users` instead of `/home`. Yuck! Okay,
+80/20-rule. No rabbit holes, even here at the office and on the Mac. Next
+steps... 1, 2, 3... 1?
+
+Okay, I made that system prompt edit that I started the morning with, haha!
+
+Lunch is almost here, then it will be an our of "tinker time" with the coworker.
+I'm going to want to show him this stuff I've built and try to convey the vision
+and the excitement. He may be the ideal candidate to test this stuff with if I
+coordinate being here in person in the office with him. This is a really good
+first step to get me social again, haha! But the idea is to plan the rest of the
+day. Really, the agenda is so big! And the general unified roadmap for all
+clients. A lather, rinse and repeat process that always makes sure there's at
+least two 2-week projects going on, overlapping and offset by 1-week. One thing
+at bat being delivered every week, and one on deck that we talk about and plan.
+This "keeps tension in the machinery".
+
+Okay, I did lunch. I am so not a small talk person. 

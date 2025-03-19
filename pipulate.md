@@ -12,8 +12,11 @@ group: home
   <img src="/pipulate-ai-seo.svg" alt="Pipulate Free & Open Source SEO with and for LLMs">
 </div>
 
-Pipulate is a packaging of Python Jupyter Notebooks for popular use. They look
-and feel like web apps, without you having to actually look at Python code.
+## Primarily Packaging Jupyter Notebooks
+
+Pipulate is the packaging of Python Jupyter Notebooks to look and feel like web
+apps without users having to actually look at the Python code. It has much
+broader application than SEO, but that's what I lead with since it's what I do.
 
 SEOs will probably know the concept of Notebooks as Google Colab. Pipulate is
 like that but without the cloud-dependencies, cost, or even having to look at
