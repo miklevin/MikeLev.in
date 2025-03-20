@@ -6,33 +6,13 @@ permalink: /pipulate/
 group: home
 ---
 
-# Pipulate Free & Open Source SEO with/for LLMs
+# Pipulate Free & Open Source SEO with and for LLMs
 
-<div style="text-align: center; margin-bottom: 2vh;">
+<div style="text-align: center;">
   <img src="/pipulate-ai-seo.svg" alt="Pipulate Free & Open Source SEO with and for LLMs">
 </div>
 
-## Primarily Packaging Jupyter Notebooks
-
-Pipulate is the packaging of Python Jupyter Notebooks to look and feel like web
-apps without users having to actually look at the Python code. Do this with a
-few SEO workflows, and you have an expandable, customizable SEO Suite! It has
-much broader application, but this is where it starts.
-
-SEOs will probably know the concept of Notebooks as Google Colab. Pipulate is
-like that but without the cloud-dependencies, cost, or even having to look at
-any Python code. It also uses the power of your local machine for web browsing,
-running a local private AI to do your crawls, audits and stuff.
-
-Pipulate takes processes that you perfect in a Notebook -- ***processes*** that
-usually ***populate*** using ***Python Pandas,*** and other ***pip*** installed
-***packages***... That's what it is to **Pipulate!** That's *what Pipulate is.*
-
----
-
-## Architecture & AI Introduction
-
-Pipulate is a **local-first, single-tenant desktop app framework** built with FastHTML, MiniDataAPI, and local LLM integration (via Ollama). Designed to run like an Electron app—with full server-side state, minimal complexity, and reproducible environments using Nix Flakes. by [Mike Levin](https://mikelev.in/)
+A **local-first, single-tenant desktop app framework** built with FastHTML, MiniDataAPI, and local LLM integration (via Ollama). Designed to run like an Electron app—with full server-side state, minimal complexity, and reproducible environments using Nix Flakes. by [Mike Levin](https://mikelev.in/)
 
                  ┌─────────────┐ Like Electron, but full Linux subsystem 
                  │   Browser   │ in a folder for macOS and Windows (WSL)
@@ -298,7 +278,7 @@ Designed to be ultimately simple. No directory-diving! Most things remain static
 
 ### Layout & User Interface
 
-The app's UI is divided into clear, distinct regions:
+The app’s UI is divided into clear, distinct regions:
 
     ┌─────────────────────────────┐
     │        Navigation           │
@@ -394,12 +374,12 @@ For workflow developers, it's a rapid no-build environment that's fully observab
 
 ## Key Design Guidelines & Speedbumps
 
-The documentation below outlines critical do's and don'ts—speedbumps embedded throughout the app. They serve as reminders to keep the code simple and the state management robust.
+The documentation below outlines critical do’s and don’ts—speedbumps embedded throughout the app. They serve as reminders to keep the code simple and the state management robust.
 
 ### Local vs. Enterprise Mindset
 
 - **Do:** Embrace server-side state, use DictLikeDB for persistent state management, and keep logic in one file.
-- **Don't:** Attempt client-side state management using React, Redux, JWT tokens, or complex service workers.
+- **Don’t:** Attempt client-side state management using React, Redux, JWT tokens, or complex service workers.
 
 ### JSON State Management
 
@@ -418,7 +398,7 @@ The documentation below outlines critical do's and don'ts—speedbumps embedded 
       "updated": "2024-01-31T..."
   }
   ```
-- **Don't:** Rely on over-engineered classes with explicit step tracking (like `current_step` fields).
+- **Don’t:** Rely on over-engineered classes with explicit step tracking (like `current_step` fields).
 
 ### Database and MiniDataAPI
 
@@ -427,22 +407,22 @@ The documentation below outlines critical do's and don'ts—speedbumps embedded 
   ```python
   app, rt, (tasks, Task), (profiles, Profile) = fast_app("data/data.db", task={...}, profile={...})
   ```
-- **Don't:** Use heavyweight ORMs (like SQLAlchemy) with complex session management.
+- **Don’t:** Use heavyweight ORMs (like SQLAlchemy) with complex session management.
 
 ### Pipulate for Workflows
 
 - **Do:** Design workflows as a series of self-contained steps stored in a JSON blob, ensuring interruption-safe progression (just follow the established patterns).
-- **Don't:** Chain asynchronous tasks using patterns like Celery without clear state ownership.
+- **Don’t:** Chain asynchronous tasks using patterns like Celery without clear state ownership.
 
 ### UI Rendering with FastHTML Components
 
 - **Do:** Render components directly with Python functions and HTMX attributes—no templating engines needed.
-- **Don't:** Rely on string templates (like Jinja) for rendering dynamic UI components.
+- **Don’t:** Rely on string templates (like Jinja) for rendering dynamic UI components.
 
 ### WebSocket Handling
 
 - **Do:** Use a dedicated Chat class to manage WebSocket connections, message handling, and command processing.
-- **Don't:** Use raw WebSocket endpoints without proper connection management.
+- **Don’t:** Use raw WebSocket endpoints without proper connection management.
 
 ---
 
@@ -462,7 +442,7 @@ The documentation below outlines critical do's and don'ts—speedbumps embedded 
 
 ### BaseApp
 
-A central class for creating application components, **BaseApp** provides the foundation for CRUD operations, route registration, and rendering items. It's designed for extensibility—allowing developers to subclass and override methods such as `render_item`, `prepare_insert_data`, and `prepare_update_data`.
+A central class for creating application components, **BaseApp** provides the foundation for CRUD operations, route registration, and rendering items. It’s designed for extensibility—allowing developers to subclass and override methods such as `render_item`, `prepare_insert_data`, and `prepare_update_data`.
 
 ### render_profile
 
@@ -484,7 +464,7 @@ This helper function builds a fully rendered HTML list item for a user profile. 
 # *******************************
 ```
 
-**FastHTML's Mantra:**
+**FastHTML’s Mantra:**
 - Use `rt` (router decorator) inside classes instead of `app.route()`.
 - Keep the server-side on the right side; HTMX handles only the UI updates.
 - Maintain transparency and simplicity with local, single-tenant state management.
@@ -1254,6 +1234,8 @@ The transformation is straightforward:
 5. **Reusability**: Workflows can be shared and reused without code knowledge
 
 By understanding this anatomy, you can convert any Jupyter Notebook into a user-friendly Pipulate workflow, making data science processes accessible to non-technical users while maintaining the power and flexibility of Python.
+
+
 
 ---
 
