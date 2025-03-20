@@ -37,11 +37,17 @@
 
           # Set environment variables for native gem compilation
           shellHook = ''
+            export GEM_HOME=$PWD/.gem
+            export GEM_PATH=$GEM_HOME
+            export PATH=$GEM_HOME/bin:$PATH
+
+            # Configure bundler to install gems locally to .gem directory
+            bundle config set --local path "$GEM_HOME"
+
             export BUNDLE_BUILD__EVENTMACHINE="--with-cflags=-I${pkgs.openssl.dev}/include"
             export PKG_CONFIG_PATH="${pkgs.openssl.dev}/lib/pkgconfig"
             
             # Set LD_LIBRARY_PATH to include gcc libs
-            # This is crucial for Ruby native extensions (like EventMachine) that need libstdc++
             export LD_LIBRARY_PATH="${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH"
             
             # macOS-specific symlink setup for Neovim
@@ -86,24 +92,13 @@
               cd "$current_dir"
             }
 
-            # Display Jekyll and Bundler instructions
             echo "Jekyll and Rouge environments are ready."
             echo "Instructions:"
-            echo "1. Use: bundle install       # To install Ruby gems defined in Gemfile"
-            echo "2. Use: jes"
-            echo "   - Starts a Jekyll development server (with livereload if available)"
-            echo "3. Use: rougify style monokai.sublime > assets/css/syntax.css"
-            echo "   - Generates Rouge syntax highlighting styles in your CSS."
+            echo "1. Run: bundle install"
+            echo "2. Run: jes"
+            echo "3. Generate Rouge styles: rougify style monokai.sublime > assets/css/syntax.css"
             echo ""
-            echo "If you encounter issues, check the Gemfile and run 'bundle install'."
-
-            # Notes on Ruby Native Extensions in Nix:
-            # 1. Native extensions (like EventMachine) require C/C++ libraries at runtime
-            # 2. These libraries must be both:
-            #    - Listed in buildInputs (for compilation)
-            #    - Added to LD_LIBRARY_PATH (for runtime)
-            # 3. Common issues include missing libstdc++.so.6, which is provided by gcc-libs
-            # 4. The error "pure Ruby reactor" often indicates a missing library path
+            echo "Note: Gems will now install into $GEM_HOME"
           '';
         };
       });
