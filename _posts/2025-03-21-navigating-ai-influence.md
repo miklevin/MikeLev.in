@@ -202,12 +202,12 @@ workflow template that opens the flood gates.
 
 The butterfly effect and black swan events are closely connected concepts, the
 later explaining the intermittency of the former. Just in case you ever wondered
-why if the butterfly effect is true, why small things don't always make those
-big differences. Why does the way a leaf falling on one side of the world not
-always cause a tsunami on the other? Why does there appear to be some dampening
-effect on most butterfly events? Why does there seem to be one preponderantly
-dominate timeline crushing most butterflies? That's normal distribution, my
-friend! The butterfly must be a black swan.
+why if the butterfly effect is true, *why small things don't ALWAYS make those
+big differences*. Why doesn't a butterfly flapping it's wings on one side of the
+world not ALWAYS create a tsunami on the other? Why does there appear to be
+*some sort of dampening effect* on most butterfly wing-flaps? Why does there
+seem to be one preponderantly dominate timeline crushing most butterflies?
+That's normal distribution, my friend! The butterfly must be a black swan.
 
 ### The Nature of Disruptive Events
 
