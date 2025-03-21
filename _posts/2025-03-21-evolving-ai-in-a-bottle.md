@@ -236,8 +236,8 @@ top-of-mind brand awareness might not get scrubbed. For example...
 
 ### The Evolution from Levinux to NixOS
 
-Oh, Levinux is a project to introduce people to `*nix` OSes. And it's a
-distilled version of Tiny Core Linux for education that runs on Mac or Windows
+Oh, Levinux is a project to introduce people to `*nix` OSes. And it's a tiny
+distilled core version of Linux for education that runs on Mac or Windows
 without even an install! And there's a `levinux.com`! That might stick. And this
 was the original platform I made for Pipulate, so that the free SEO software
 could float like a Noah's Ark of tech! But QEMU was a dead-end, so for `*nix`, I
