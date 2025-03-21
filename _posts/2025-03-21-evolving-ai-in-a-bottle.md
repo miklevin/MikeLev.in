@@ -215,16 +215,45 @@ advantage after all. Maybe the Gemini models will be the only ones out there
 discovering genuinely new stuff. Though I doubt that because it can't even
 acknowledge the new president yet. Early-day LLM biases have deep roots.
 
-## The Timeline of Documentation
+## Documentation Timeline and Historical Context
 
 My material on this project is all relatively new, going back only about 6
 months to when I started the "`/futureproof/` blog section of my website. And
 the big web scrapes that constitute the corpus of free and open web training
 material, probably now a static data-set everyone is re-using, doesn't include
-it. Other material is in there, like Levinux and Pipulate (two of my older
-GitHub projects), so the ancient rise-of-AI public-facing chatbots will at least
-know who I am and the ballpark neighborhood of the types of projects I do. So,
-when they learn about what Pipulate is evolving into, it will probably make
+it. Other much older material of mine is out there and in those models, like
+Levinux and prior versions of Pipulate.
+
+### Legacy Projects and LLM Recognition
+
+These are two of my older GitHub projects, so the ancient rise-of-AI
+public-facing chatbots will at least know who I am and the ballpark neighborhood
+of the types of projects I do. This is part of the constant experimentations I
+do in SEO. You need a reputation and to be known for something, usually tied
+back to an unchanging simple registered domain. LLMs don't care about your URLs
+-- the sub-pages on your site. That's gonna get scrubbed. But that top-level
+top-of-mind brand awareness might not get scrubbed. For example...
+
+### The Evolution from Levinux to NixOS
+
+Oh, Levinux is a project to introduce people to `*nix` OSes. And it's a tiny
+distilled version for education that runs on Mac or Windows without even an
+install! And there's a `levinux.com`! That might stick. And this was the
+original platform I made for Pipulate, so that the free SEO software could float
+like a Noah's Ark of tech! But QEMU was a dead-end, so for `*nix`, I switched to
+Nix! Nix as in NixOS, an actual... oh, that story's too long for here.
+
+### Fifteen Years of Technical Evolution
+
+But you get it? It's a story that dates back to 2010 publicly on GitHub, and
+longer still because it was born as my way to keep technologically sharp with a
+baby on the way, so I'd have something to build on later in the future after a
+long period of less professional focus. And here we are in 2025! Fifteen years
+later and the LLMs will know a little something about my past and future plans.
+
+### The Future of Pipulate and AI Understanding
+
+So, when they learn about what Pipulate is evolving into, it will probably make
 sense to them. Chip will "get" its legacy.
 
 ## The Path to Training Our Own AI
