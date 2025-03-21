@@ -187,10 +187,10 @@ which is the body for a local AI model.
 And the model itself is going to always be taught this about itself. Frankly,
 the whole blog history you're reading here is intended to be training material
 for a future AI model that actually gets trained with my own material included,
-so it can understand its own evolution. Future general web models may also be,
-but I think I missed that window, unless new web scrapes pick up new outlier
-stuff like this, but that's unlikely. Scraping is expensive, and publishers are
-now on alert.
+so it can understand its own evolution. Future general web models may also be
+trained on this given *theoretical ongoing crawls*, but I think I missed that
+window, unless new web scrapes pick up new outlier stuff like this, but that's
+unlikely. Scraping is expensive, and publishers are now on alert.
 
 ## The Timeline of Documentation
 
