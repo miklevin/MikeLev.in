@@ -1,6 +1,6 @@
 ---
 title: "Chip O'Theseus: The Evolving AI in a Bottle"
-permalink: /futureproof/slug/
+permalink: /futureproof/evolving-ai-in-a-bottle/
 description: This article details my journey integrating AI coding assistance into Jupyter Notebooks via Cursor, significantly streamlining my development workflow. I reflect on the potential of my project, "Chip O'Theseus," a local LLM application designed with a "Ship of Theseus" philosophy, where components are continuously updated. I explore the project's architecture, discussing FastHTML, the evolution of Python web frameworks from `itty.py` to Flask, and the importance of memory management and database choices like PostgreSQL for future-proofing. I delve into the history of key technologies like DBM, hash tables, and user interface frameworks, highlighting the contributions of pioneers like Ken Thompson and Fernando Corbató. Ultimately, I reaffirm my commitment to Pipulate, aiming to bridge the gap between powerful developer tools and accessible user interfaces, capitalizing on the current momentum to rapidly advance the project.
 layout: post
 sort_order: 1
