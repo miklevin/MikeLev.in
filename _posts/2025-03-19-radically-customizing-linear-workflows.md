@@ -6,7 +6,7 @@ layout: post
 sort_order: 2
 ---
 
-**Me:**: I've got a question for you. Do you see the problem in this pattern when it comes to radical customization beyond using standard web form input fields for the cells? This works great for Hello World and Mad-Libs style data collection where every input field is 1-line text. But what about textareas, dropdown menus, checkboxes, radio buttons or even custom interfaces of any sort?
+**Me**: I've got a question for you. Do you see the problem in this pattern when it comes to radical customization beyond using standard web form input fields for the cells? This works great for Hello World and Mad-Libs style data collection where every input field is 1-line text. But what about textareas, dropdown menus, checkboxes, radio buttons or even custom interfaces of any sort?
 
 How would you adjust this? Don't try to reproduce all the code. You'll just drop stuff like usual. Talk it out with abstractions and code snippets. Show what's wrong that "locks it in" too rigidly. And show what you would do to expose more surface area for customization, given a step 2, step 3, and step 4 all which did something different form-wise.
 
