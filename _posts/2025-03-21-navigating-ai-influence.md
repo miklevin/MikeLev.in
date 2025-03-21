@@ -200,14 +200,14 @@ workflow template that opens the flood gates.
 
 ## Understanding Black Swans and Butterfly Effects
 
-The butterfly effect and black swan events are the same thing are closely
-connected. Just in case you ever wondered why if the butterfly effect is true,
-why small things don't always make those big differences. Why does the way a
-leaf falling on one side of the world not always cause a tsunami on the other?
-Why does there appear to be some dampening effect on most butterfly events? Why
-does there seem to be one preponderantly dominate timeline crushing most
-butterflies? That's normal distribution, my friend! The butterfly must be a
-black swan.
+The butterfly effect and black swan events are closely connected concepts, the
+later explaining the intermittency of the former. Just in case you ever wondered
+why if the butterfly effect is true, why small things don't always make those
+big differences. Why does the way a leaf falling on one side of the world not
+always cause a tsunami on the other? Why does there appear to be some dampening
+effect on most butterfly events? Why does there seem to be one preponderantly
+dominate timeline crushing most butterflies? That's normal distribution, my
+friend! The butterfly must be a black swan.
 
 ### The Nature of Disruptive Events
 
