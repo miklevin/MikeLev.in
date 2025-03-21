@@ -190,7 +190,30 @@ for a future AI model that actually gets trained with my own material included,
 so it can understand its own evolution. Future general web models may also be
 trained on this given *theoretical ongoing crawls*, but I think I missed that
 window, unless new web scrapes pick up new outlier stuff like this, but that's
-unlikely. Scraping is expensive, and publishers are now on alert.
+unlikely. Scraping is expensive, publishers are now on alert, yadda yadda.
+
+Some of those yadda's I guess are worth spelling out.
+
+- OpenAI (Sam Altman) raided the free and open web while the raiding was good.
+  Nothing will be the same now that this is understood (NYT lawsuit)
+- Elon Musk and Ilya Sutskever yabber on about peak data being achieved, so
+  they've presumably stopped crawling.
+- The Web is a cesspool dumping grounds for biases and spam. Nobody wants that
+  in their base models.
+- There's also tons of ***personal data*** on the web, which trainers don't want
+  in models for liability reasons.
+- There are lots of other proprietary sources of data not crawlable on the web,
+  like books and private data stores.
+
+Nonetheless, the crawls of the free and open web will continue to some degree
+and for some purposes. It's not like Google is going to stop using the massive
+*crawl-and-index infrastructure* they built out for exactly this purpose, and if
+Ilya and Musk's peak data keeps them from looking for new stuff -- outlier stuff
+like this that will only show up in keenly observant data *"differentials"* or
+*"deltas"* between crawls, then maybe Google is still holding the competitive
+advantage after all. Maybe the Gemini models will be the only ones out there
+discovering genuinely new stuff. Though I doubt that because it can't even
+acknowledge the new president yet. Early-day LLM biases have deep roots.
 
 ## The Timeline of Documentation
 
