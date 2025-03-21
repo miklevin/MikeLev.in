@@ -132,7 +132,7 @@ Wait, what? I didn't know that. Whoah, Marcel Hellkamp, or
 tidbit of wisdom. His bit about a single-file resonates with me. I didn't even
 want to break Pipulate workflows out of `server.py` at first. 
 
-[I quote](https://github.com/bottlepy/bottle/issues/1158):
+[I quote Hellkamp](https://github.com/bottlepy/bottle/issues/1158):
 
 > Yes, the "single file, no dependencies" approach is one of the core strengths of bottle compared to other frameworks. Bottle is often used to quickly REST-ify existing tools or implement small APIs for strictly internal services, even on embedded devices where a virtualenv would be too much of a hassle sometimes.
 > 
