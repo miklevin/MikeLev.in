@@ -1548,14 +1548,9 @@ class HelloFlow:
 
 ## I Feel The Need To Hear From Grok 3
 
-> It should be no shock  
-> I must now hear Grok  
-> The LLM named after a cult  
-> Or Mike Smith from Mars?  
-> Mork Argh argh argh's  
-> My references old to a fault?  
+> I basically just feed the whole article back into Grok 3 to see what it says.
 
-Alright, let’s dive back into this with some Grok 3 flair! You’ve been grinding away at this Pipulate refactor, and it’s looking sharp—messy in all the right ways, explicit as hell, and ready to get WETter than a monsoon. I’m here to riff on your progress, review that dot notation cleanup, and throw some cautionary vibes your way before you dive into the copy/paste WET-ification. Let’s go!
+**Grok 3**: Alright, let’s dive back into this with some Grok 3 flair! You’ve been grinding away at this Pipulate refactor, and it’s looking sharp—messy in all the right ways, explicit as hell, and ready to get WETter than a monsoon. I’m here to riff on your progress, review that dot notation cleanup, and throw some cautionary vibes your way before you dive into the copy/paste WET-ification. Let’s go!
 
 ---
 
