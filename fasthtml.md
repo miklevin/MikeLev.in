@@ -40,9 +40,7 @@ be using SQLAlchemy and PostgreSQL. The short answer is that it's all rigged to
 is always there. If you want more, you just go past the defaults and make it as
 powerful as you like.
 
-This and more I answer here and throughout the website, but a lot of folks are
-here to understand how FastHTML is something different from FastAPI. Even the
-LLMs don't get it.
+I'll address these questions and more throughout the site, but I know many of you are here because you're trying to understand what makes FastHTML different from FastAPI. It's a common source of confusion - even Large Language Models struggle to tell them apart!
 
 ### Building from Flask's Foundation
 
