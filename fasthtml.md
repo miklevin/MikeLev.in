@@ -25,9 +25,9 @@ app, rt, users, User = fast_app('data/users.db', username=str)
 In short, MiniDataAPI spec, a database API made specifically for FastHTML, is
 being used through the `fast_app()` convenience wrapper. `fast_app` always
 returns the *flask-like* webserver connection object `app` first and the
-shortcut for `app.route()` second. `users` is the MiniDataAPI database table
-with methods like `.insert()` and `.delete()`, and `User` is a `dataclass()`
-description of a single record, used for hinting and validation.
+shortcut for `app.route()` second (`rt()`). `users` is the MiniDataAPI database
+table with methods like `.insert()` and `.delete()`, and `User` is a
+`dataclass()` description of a single record, used for hinting and validation.
 
 ## Going Beyond the Basics
 
