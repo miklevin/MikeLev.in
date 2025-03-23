@@ -17,7 +17,7 @@ group: home
 I know you're curious about FastHTML databases. Here's how they work:
 
 ```python
-app, rt, users, User = fast_app('data/users.db', username=str)
+app, rt, users, User = fast_app('data/data.db', users=dict(username=str))
 ```
 
 ## Understanding the MiniDataAPI Spec
@@ -29,7 +29,7 @@ shortcut for `app.route()` second. The returned `users` object is a MiniDataAPI
 database table with methods like `.insert()` and `.delete()`, and `User` is a
 `dataclass()` description of a single record used for hinting and validation.
 That's it. There's no special setup. A whole table schema can go as a Python
-`dict` where `username=str` appears. That's databases in FastHTML.
+`dict` where `dict(username=str)` appears. That's databases in FastHTML.
 
 ## Going Beyond the Basics
 
@@ -271,7 +271,7 @@ database tasks like this...
 from fasthtml.common import *
 
 # Setting up FastHTML with a SQLite database to store usernames
-app, rt, users, User = fast_app('data/users.db', username=str)
+app, rt, users, User = fast_app('data/data.db', users=dict(username=str))
 
 @rt('/')
 def get():
