@@ -25,18 +25,24 @@ app, rt, users, User = fast_app('data/users.db', username=str)
 In short, MiniDataAPI spec, a database API made specifically for FastHTML, is
 being used through the `fast_app()` convenience wrapper. `fast_app` always
 returns the *flask-like* webserver connection object `app` first and the
-shortcut for `app.route()` second. `users` is the MiniDataAPI database table
-with methods like `.insert()` and `.delete()`, and `User` is a `dataclass()`
-description of a single record, used for hinting and validation.
+shortcut for `app.route()` second. The returned `users` object is a MiniDataAPI
+database table with methods like `.insert()` and `.delete()`, and `User` is a
+`dataclass()` description of a single record used for hinting and validation.
+That's it. There's no special setup. A whole table schema can go as a Python
+`dict` where `username=str` appears. That's databases in FastHTML.
 
 ## Going Beyond the Basics
 
-That's it! It goes deeper like how to set up more tables, or how to do this
-without the helper-class, or why use a simple database API connected to SQLite
-by default when you could be using SQLAlchemy and PostgreSQL. This and more I
-answer here and throughout the website, but a lot of folks are here to
-understand how FastHTML is something different from FastAPI. Even the LLMs don't
-get it.
+Yes, of course it goes deeper like how to set up more tables, or how to do this
+without the helper-class, or why use such a simple database API when you could
+be using SQLAlchemy and PostgreSQL. The short answer is that it's all rigged to
+"just work", leaning into powerful defaults that leverage the fact that SQLlite
+is always there. If you want more, you just go past the defaults and make it as
+powerful as you like.
+
+This and more I answer here and throughout the website, but a lot of folks are
+here to understand how FastHTML is something different from FastAPI. Even the
+LLMs don't get it.
 
 ### Building from Flask's Foundation
 
