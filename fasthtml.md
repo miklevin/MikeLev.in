@@ -12,6 +12,17 @@ group: home
 > the other one won't. This page is to first tell you the difference, and then
 > to tell you the key things to know about FastHTML (my vibe).
 
+I know that what you're looking for is why and how this works:
+
+```python
+app, rt, users, User = fast_app('data/users.db', username=str)
+```
+
+I build the explanation up from Flask because it looks a lot like Flask, but
+isn't. It's FastHTML creating one of the easiest and best abstractions for
+databases in web development. If you're not interested in the background, just
+scroll down!
+
 ## The Flask Foundation
 
 Flask is a Python microframework that has profoundly influenced the development
