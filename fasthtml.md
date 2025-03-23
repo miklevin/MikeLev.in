@@ -99,7 +99,7 @@ app = FastAPI()
 ```
 
 
-## The Rise of FastAPI
+## The Rise of FastAPI (Flask for the Enterprise)
 
 FastAPI's rise to popularity can be traced through a series of key developments
 in Python and web frameworks:
