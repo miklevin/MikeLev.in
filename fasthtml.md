@@ -138,7 +138,7 @@ distill web development to its essence while still being Python. I hungered for
 a framework that embodies simplicity and ease of use without sacrificing
 functionality.
 
-## The Radical Simplicity of FastHTML
+## The Radical Simplicity of FastHTML (Flask for the Webmaster)
 
 Enter FastHTML, a framework that revolutionizes Python web development by
 stripping away complexity and embracing simplicity. FastHTML takes a radically
