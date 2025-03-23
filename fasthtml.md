@@ -154,6 +154,70 @@ development process by removing the need to learn and use a separate templating
 syntax. Instead, developers can leverage their existing Python knowledge to
 create dynamic web content.
 
+#### FastAPI Example
+
+Jinja templates or equivalent are required for FastAPI. Here's how it works:
+
+1. You create regular HTML files in a "templates" directory.
+2. In these HTML files, you can use Jinja2 syntax for dynamic content. For example:
+
+```html
+{% raw %}<html>
+<head>
+    <title>Item Details</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h1><a href="{{ url_for('read_item', id=id) }}">Item ID: {{ id }}</a></h1>
+</body>
+</html>{% endraw %}
+```
+
+3. In your FastAPI application, you set up Jinja2Templates and use it to render these templates:
+
+```python
+from fastapi import FastAPI, Request
+from fastapi.templating import Jinja2Templates
+
+app = FastAPI()
+templates = Jinja2Templates(directory="templates")
+
+@app.get("/items/{id}")
+async def read_item(request: Request, id: str):
+    return templates.TemplateResponse("item.html", {"request": request, "id": id})
+```
+
+The Flask/FastAPI claim is that this approach allows you to separate your HTML
+presentation from your Python logic, making your code more maintainable and
+easier to understand. But yuck! So first you have one file. Then you have a
+second file, which is sort of HTML. But it's actually yet another language
+blended in in mixed context. The cognative overhead between the directory-diving
+and the language-mixing is off the charts. No thanks.
+
+FastHTML on the other hand, is just Python. No mixed context. No directory
+diving. It looks like this:
+
+#### FastHTML Example
+
+```python
+from fasthtml.common import *
+app, rt = fast_app()
+
+@rt('/')
+def get():
+    return Div(
+        H1("Hello, World!"),
+        P("This is a simple page.")
+    )
+
+serve()
+```
+
+That's it. As an added bonus, I made it a complete program throwing in
+`serve()`, hahaha! What's more, unlike traditional frameworks, FastHTML
+integrates HTMX for interactivity, which you can see in more complex examples,
+but our simple example focuses on static content for clarity.
+
 ### Minimizing JavaScript Dependency with HTMX
 
 By incorporating HTMX, FastHTML significantly reduces the need for custom
