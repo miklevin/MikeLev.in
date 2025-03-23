@@ -34,7 +34,17 @@ impose specific tools or libraries, allowing developers to choose their
 components. It is built on the Werkzeug WSGI toolkit and Jinja2 template engine,
 both of which were also developed by the Pocoo team.
 
-Flask introduced a key innovation: the use of Python decorators for routing web
+The massively popular way that Flask creates an `app` object is why the FastHTML
+example above looks so familiar.
+
+```python
+from flask import flask
+
+
+app = flask(__name__)
+```
+
+Flask popularized a key innovation: the use of Python decorators for routing web
 requests to specific functions. This approach simplified web development by
 allowing developers to define routes directly above their view functions using
 the `@route` decorator. This feature became a defining characteristic of Flask
@@ -47,6 +57,16 @@ CherryPy and Pylons have integrated similar routing mechanisms while adding
 their unique spins. FastAPI, for example, builds on Flask's decorator-based
 routing but enhances it with asynchronous capabilities and type validation using
 Python type hints.
+
+You can see Flask's influence on frameworks such as FastAPI, which create an
+`app` object in a very similar way.
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+```
+
 
 ## The Rise of FastAPI
 
