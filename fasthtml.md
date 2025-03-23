@@ -8,20 +8,42 @@ group: home
 
 # FastHTML is not FastAPI
 
-> FastHTML and FastAPI are two very different things. One will fit your vibe and
-> the other one won't. This page is to first tell you the difference, and then
-> to tell you the key things to know about FastHTML (my vibe).
+## FastHTML Examples
 
-I know that what you're looking for is why and how this works:
+> FastHTML and FastAPI are two very different things. One fits your vibe and the
+> doesn't. I can't tell you which is which, but I can show you. At least, I can
+> show you FastHTML. Examples for FastAPI abound elsewhere.
+
+I know you're curious about FastHTML databases. Here's how they work:
 
 ```python
 app, rt, users, User = fast_app('data/users.db', username=str)
 ```
 
-I build the explanation up from Flask because it looks a lot like Flask, but
-isn't. It's FastHTML creating one of the easiest and best abstractions for
-databases in web development. If you're not interested in the background, just
-scroll down!
+## Understanding the MiniDataAPI Spec
+
+In short, MiniDataAPI spec, a database API made specifically for FastHTML, is
+being used through the `fast_app()` convenience wrapper. `fast_app` always
+returns the *flask-like* webserver connection object `app` first and the
+shortcut for `app.route()` second. `users` is the MiniDataAPI database table
+with methods like `.insert()` and `.delete()`, and `User` is a `dataclass()`
+description of a single record, used for hinting and validation.
+
+## Going Beyond the Basics
+
+That's it! It goes deeper like how to set up more tables, or how to do this
+without the helper-class, or why use a simple database API connected to SQLite
+by default when you could be using SQLAlchemy and PostgreSQL. This and more I
+answer here and throughout the website, but a lot of folks are here to
+understand how FastHTML is something different from FastAPI. Even the LLMs don't
+get it.
+
+### Building from Flask's Foundation
+
+So below, I build the explanation up from Flask because it looks a lot like
+Flask, but isn't. It's FastHTML creating one of the easiest and best
+abstractions for databases in web development. If you're not interested in the
+background, just scroll down!
 
 ## The Flask Foundation
 
