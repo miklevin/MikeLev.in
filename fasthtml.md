@@ -154,7 +154,7 @@ development process by removing the need to learn and use a separate templating
 syntax. Instead, developers can leverage their existing Python knowledge to
 create dynamic web content.
 
-#### FastAPI Example
+#### FastAPI Example (The ugly way we're doing away with)
 
 Jinja templates or equivalent are required for FastAPI. Here's how it works:
 
