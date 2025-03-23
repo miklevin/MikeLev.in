@@ -64,11 +64,23 @@ app = flask(__name__)
 ```
 
 Flask popularized a key innovation: the use of Python decorators for routing web
-requests to specific functions. This approach simplified web development by
-allowing developers to define routes directly above their view functions using
-the `@route` decorator. This feature became a defining characteristic of Flask
-and has been widely adopted by other frameworks such as FastAPI and CherryPy,
-albeit with their own variations.
+requests to specific functions. Instead of maintaining a separate routing table,
+developers could simply add a `@route` decorator above any function to specify
+which URL path should trigger that function. This elegant approach made the
+connection between URLs and their handling functions immediately clear in the
+code.
+
+Here's a simple example:
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Hello, World!"
+```
 
 Since its debut, Flask has set a standard for Python web frameworks, inspiring
 many others to follow its lightweight and extensible approach. Frameworks like
