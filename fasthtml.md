@@ -162,8 +162,8 @@ create dynamic web content.
 
 Jinja templates or equivalent are required for FastAPI. Here's how it works:
 
-1. You create regular HTML files in a "templates" directory.
-2. In these HTML files, you can use Jinja2 syntax for dynamic content. For example:
+1. You create regular HTML files in a "templates" directory (cognitive overhead).
+2. In these HTML files, you can use Jinja2 syntax for dynamic content (mixed context). For example:
 
 ```html
 {% raw %}<html>
@@ -177,7 +177,7 @@ Jinja templates or equivalent are required for FastAPI. Here's how it works:
 </html>{% endraw %}
 ```
 
-3. In your FastAPI application, you set up Jinja2Templates and use it to render these templates:
+3. In your FastAPI application, you set up Jinja2Templates (more noise) and use it to render these templates:
 
 ```python
 from fastapi import FastAPI, Request
