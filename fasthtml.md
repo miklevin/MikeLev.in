@@ -40,7 +40,6 @@ example above looks so familiar.
 ```python
 from flask import flask
 
-
 app = flask(__name__)
 ```
 
