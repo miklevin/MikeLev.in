@@ -45,9 +45,13 @@ I'll address these questions and more throughout the site, but I know many of yo
 ### Building from Flask's Foundation
 
 So below, I build the explanation up from Flask because FastHTML looks a lot
-like Flask, but isn't. It's FastHTML creating one of the easiest and best
-abstractions for databases in web development. If you're not interested in the
-background, just scroll down!
+like Flask, but isn't. Fast***HTML*** starts where Flask left off, but goes in a
+different direction than Fast***API*** -- elevating Python to a 1st-class web
+development platform for the first time. Python might even be a better choice
+for web development now than JavaScript.
+
+If you're not interested in the history lesson and are just here for the
+FastHTML examples, then scroll down!
 
 ## The Flask Foundation
 
