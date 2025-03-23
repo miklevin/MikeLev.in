@@ -753,6 +753,12 @@ Yup.
 
 I'm on the right path.
 
+## A Notebook That Teaches You How To Port Itself
+
+> Last thing of the night: capture the thought of a notebook that teaches you
+> how to port itself! Notebooks can have embedded markdown documentation, after
+> all!
+
 **Me**: Think about how you would express all this as documentation in a Jupyter Notebook Hello World example so that it would instruct you on how to port it over to this environment, if that makes sense. Essentially...
 
 ```python
