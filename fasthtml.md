@@ -44,24 +44,18 @@ I'll address these questions and more throughout the site, but I know many of yo
 
 ### Building from Flask's Foundation
 
-So below, I build the explanation up from Flask because it looks a lot like
-Flask, but isn't. It's FastHTML creating one of the easiest and best
+So below, I build the explanation up from Flask because FastHTML looks a lot
+like Flask, but isn't. It's FastHTML creating one of the easiest and best
 abstractions for databases in web development. If you're not interested in the
 background, just scroll down!
 
 ## The Flask Foundation
 
-Flask is a Python microframework that has profoundly influenced the development
-of web frameworks in Python since its release in April 2010. Created by Armin
-Ronacher as part of the Pocoo project, Flask was initially conceived as an April
-Fool's joke but quickly gained traction due to its simplicity, flexibility, and
-minimalist design philosophy. Unlike full-stack frameworks, Flask does not
-impose specific tools or libraries, allowing developers to choose their
-components. It is built on the Werkzeug WSGI toolkit and Jinja2 template engine,
-both of which were also developed by the Pocoo team.
+Flask is a Python microframework that has profoundly influenced web development since its release in April 2010. Created by Armin Ronacher as part of the Pocoo project, Flask began as an April Fool's joke but quickly gained widespread adoption due to its elegant simplicity and flexibility. While inspired by Ruby's Sinatra framework (which itself was a response to Rails' complexity), Flask brought these minimalist principles to Python, building on earlier microframeworks like `itty` and `bottle.py`.
 
-The massively popular way that Flask creates an `app` object is why the FastHTML
-example above looks so familiar.
+What set Flask apart was its thoughtful balance between minimalism and functionality. While other microframeworks like itty and bottle were extremely bare-bones, Flask provided just enough structure through the Werkzeug WSGI toolkit and Jinja2 templating engine (both also from the Pocoo team) without imposing unnecessary constraints. This "batteries included but removable" philosophy proved to be exactly what developers needed.
+
+The way Flask creates an `app` object became so influential that you'll see its echo in many modern frameworks, including FastHTML as shown in the example above. This simple but powerful pattern demonstrates Flask's lasting impact on Python web development.
 
 ```python
 from flask import flask
