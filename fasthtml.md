@@ -17,7 +17,7 @@ group: home
 I know you're curious about FastHTML databases. Here's how they work:
 
 ```python
-app, rt, users, User = fast_app('data/data.db', users=dict(username=str))
+app, rt, users, User = fast_app('folder/filename.db', users=dict(username=str))
 ```
 
 ## Understanding the MiniDataAPI Spec
@@ -271,7 +271,7 @@ database tasks like this...
 from fasthtml.common import *
 
 # Setting up FastHTML with a SQLite database to store usernames
-app, rt, users, User = fast_app('data/data.db', users=dict(username=str))
+app, rt, users, User = fast_app('folder/filename.db', users=dict(username=str))
 
 @rt('/')
 def get():
