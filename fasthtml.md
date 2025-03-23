@@ -162,8 +162,8 @@ create dynamic web content.
 
 Jinja templates or equivalent are required for FastAPI. Here's how it works:
 
-1. You create regular HTML files in a "templates" directory (cognitive overhead).
-2. In these HTML files, you can use Jinja2 syntax for dynamic content (mixed context). For example:
+1. You create regular HTML files in a "templates" directory *(cognitive overhead)*.
+2. In these HTML files, you can use Jinja2 syntax for dynamic content *(mixed context)*. For example:
 
 ```html
 {% raw %}<html>
@@ -177,6 +177,9 @@ Jinja templates or equivalent are required for FastAPI. Here's how it works:
 </html>{% endraw %}
 ```
 
+Now, we're up to ***three*** languages, all mishmashed together.
+
+{:start="3"}
 3. In your FastAPI application, you set up Jinja2Templates (more noise) and use it to render these templates:
 
 ```python
@@ -191,6 +194,9 @@ async def read_item(request: Request, id: str):
     return templates.TemplateResponse("item.html", {"request": request, "id": id})
 ```
 
+And you're going to need JavaScript and CSS, making languages 4 and 5. It's no
+wonder so many people throw up their arms and say "just use JavaScript!"
+
 The Flask/FastAPI claim is that this approach allows you to separate your HTML
 presentation from your Python logic, making your code more maintainable and
 easier to understand. But yuck! So first you have one file. Then you have a
@@ -198,8 +204,21 @@ second file, which is sort of HTML. But it's actually yet another language
 blended in in mixed context. The cognative overhead between the directory-diving
 and the language-mixing is off the charts. No thanks.
 
-FastHTML on the other hand, is just Python. No mixed context. No directory
-diving. It looks like this:
+You weigh this against hopping on the JavaScript bandwagon, where you get
+one-language-to-rule them all: JavaScript client-side and server-side using
+NodeJS. Then you get the super-optimized performance of Web Assembly (WASM) and
+the all the developer pushed by Google and Microsoft! The strongest argument for
+Python as a web development platform prior to FastHTML was that people just love
+using Python.
+
+Well, what if I told you that there is a better way? What if I told you with one
+light little magic trick, Python is not merely as good for Web development as
+JavaScript, but better?
+
+FastHTML has no templates. FastHTML has no mixed context. There's no directory
+diving. And even though JavaScript and CSS are really still in the picture, you
+never have to look at it. So what does this miracle spin on webdev in Python
+look like?
 
 #### FastHTML Example
 
