@@ -1,7 +1,7 @@
 ---
 title: template
 description: 
-permalink: /template/
+permalink: /futreproof/replace/
 group: home
 ---
 
