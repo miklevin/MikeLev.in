@@ -6,69 +6,30 @@ layout: post
 sort_order: 2
 ---
 
-CONTEXT:
-You are learning about a system that converts Jupyter Notebooks into web applications.
+# Pipulate Workflow Template Guide
 
-QUESTION:
-What is Pipulate and how does it convert Jupyter Notebooks into web applications?
+## Core Concepts
 
-ANSWER:
-Pipulate is a system that transforms Jupyter Notebooks into web applications with the following key characteristics:
+Pipulate transforms Jupyter Notebooks into web applications by:
+- Converting each notebook cell into a workflow step
+- Maintaining state between steps
+- Providing a consistent UI pattern
+- Allowing data to flow from one step to the next
 
-1. Conversion Capabilities:
-- Any functionality expressible in a Jupyter Notebook can be converted to a web app
-- The underlying Python code remains hidden from end users
-- Each Notebook cell becomes a step in the web app workflow
+## Structure of a Workflow
 
-2. Technical Architecture:
-- Web apps run locally with full system access
-- Integrates with a local LLM running under Ollama
-- LLM maintains context of the entire web app in its discussion history
-- Built using FastHTML and HTMX
-- Uses a strict template-based approach
+Each workflow consists of:
+1. A class with configuration constants (APP_NAME, DISPLAY_NAME, etc.)
+2. Step definitions using the Step namedtuple
+3. Route handlers for each step
+4. Helper methods for workflow management
 
-3. Design Philosophy:
-- Manual conversion process following a template
-- Template does not use inheritance (no superclass)
-- Uses WET (Write Everything Twice) approach instead of DRY
-- Prioritizes customization flexibility over code reuse
-- Avoids override complexity
+## Key Components
 
 4. Implementation Details:
 - Each Notebook cell maps to two methods:
   - step_xx: Handles the step logic
   - step_xx_submit: Processes step submissions
-
----
-
-CONTEXT:
-You are learning about how Pipulate workflows differ from standard Jupyter Notebooks.
-
-QUESTION:
-How does a basic Jupyter Notebook workflow get transformed into a Pipulate workflow and what key differences are there?
-
-ANSWER:
-Let's compare a basic Jupyter Notebook workflow with how it would be handled in Pipulate:
-
-1. Standard Jupyter Notebook Version:
-
-```python
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-a = input("Enter Your Name:")
-
-# In[2]:
-
-print("Hello " + a)
-
-# In[ ]:
-```
-
-{:start="2"}
-2. Pipulate Workflow Version (`workflows/workflow_template.py`):
 
 ## From Jupyter Notebook to Web App
 
@@ -162,5 +123,3 @@ class HelloFlow:
    - State is persisted between sessions
 
 The full implementation includes UI rendering with FastHTML, form handling, validation, and state management - all working together to create a web application from what was originally a simple Jupyter Notebook.
-
-
