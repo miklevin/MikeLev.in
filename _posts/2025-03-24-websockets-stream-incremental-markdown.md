@@ -374,9 +374,9 @@ The article provides a solid foundation for streaming Markdown in FastHTML, and 
 
 > You know what? I've been shutting goodl o' Gemini out of the discussion so
 > much, only letting it summarize what the other AIs have been having all the
-> fun doing, haha! So I desided to flip that Brainstormer over to the Google's
-> Gemini Advanced 2.0 Pro Experimential and let it have a crack at this tricky
-> question.
+> fun doing, haha! So I desided to flip that Gemini Brainstormer role over to
+> the Google's Gemini Advanced 2.0 Pro Experimential and let it have a crack at
+> this tricky question.
 
 **Me**: If you, Gemini 2.0 Experimental were in the discussion, what would you do?
 
