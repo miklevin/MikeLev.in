@@ -51,7 +51,7 @@ The notebook revolution transformed how we explore data. Perhaps the workflow re
 
 ## From Blog Post to Training Guide
 
-What makes Pipulate truly special is how it integrates local LLMs directly into the workflow experience. When a user selects the Hello World workflow from the menu, the system performs what I call a "hot prompt injection" - dynamically loading the training guide below into the LLM's context. This creates an AI assistant that's specifically trained to help with that particular workflow, understanding both its structure and purpose. Unlike traditional documentation that sits separately from the application, this approach embeds the knowledge directly into the interactive experience, creating a seamless bridge between exploration and implementation. The LLM becomes a contextually-aware guide, ready to explain concepts, answer questions, and help troubleshoot issues specific to the workflow at hand.
+What makes Pipulate truly special is how it integrates local LLMs directly into the workflow experience. When a user selects the Hello World workflow from the menu, the system performs what I call a "hot prompt injection" -- dynamically loading the training guide below into the LLM's context. This creates an AI assistant that's specifically trained to help with that particular workflow, understanding both its structure and purpose. Unlike traditional documentation that sits separately from the application, this approach embeds the knowledge directly into the interactive experience, creating a seamless bridge between exploration and implementation. The LLM becomes a contextually-aware guide, ready to explain concepts, answer questions, and help troubleshoot issues specific to the workflow at hand.
 
 ---
 
