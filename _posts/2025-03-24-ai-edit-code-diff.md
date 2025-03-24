@@ -1,5 +1,5 @@
 ---
-title: AI Edit Your Code? What The `diff`?
+title: AI Edit Your Code? What the `diff`?
 permalink: /futureproof/ai-edit-code-diff/
 description: This article provides a practical and valuable solution for developers who are increasingly using AI for code generation. I clearly articulate the problem with traditional diff tools in this context and offer a well-explained, step-by-step method to achieve a more intuitive visual comparison. This technique not only aids in understanding the specific changes made by AI but also simplifies the process of reviewing and publishing these modifications. The real-world example makes the described method immediately applicable.
 layout: post
