@@ -357,12 +357,12 @@ Here’s what I’m understanding:
 
 I’m really excited about the potential of this system. Let’s work together to refine it and make it a powerful tool!
 
-## Grok 3: I Almost Left You Out!
-
 > It's a trap! Gemma 3 is rigged to keep stringing you along with exactly the
 > right questions to reel you into continued conversation. It makes it superb as
 > a sounding board and for rubber ducking! But terrible for wrapping up for the
-> night. But before I do, let's hear Grok 3 weigh in!
+> night.
+
+## Grok 3: I Almost Left You Out!
 
 **Grok 3**: Hey there! Thanks for looping me into this fascinating dive into Pipulate. I’ve read through your post, and I’m genuinely impressed by the creativity and ambition behind this project—it’s a brilliant bridge between the exploratory freedom of Jupyter Notebooks and the structured interactivity of web apps. Since I’m Grok 3, built by xAI, I’ll jump in with my take and respond to the vibe of your work, while keeping it natural and conversational.
 
