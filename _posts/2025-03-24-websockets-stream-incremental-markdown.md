@@ -1,7 +1,7 @@
 ---
 title: Using Websockets to Stream Incremental Markdown
 permalink: /futureproof/websockets-stream-incremental-markdown/
-description: 
+description: This article dives into the technical challenge of displaying real-time, formatted text in a web application, specifically focusing on how to handle Markdown when streaming responses from a language model using Python's FastHTML framework, HTMX, and WebSockets. I explored the complexities of parsing and rendering Markdown in chunks, contrasting client-side JavaScript libraries with server-side Python approaches, and ultimately discussed various strategies and best practices for achieving a smooth, real-time chat experience that can handle Markdown formatting, even when the full response hasn't arrived yet, highlighting the trade-offs between immediate display, formatting accuracy, and potential user experience disruptions.
 layout: post
 sort_order: 3
 ---
@@ -25,7 +25,8 @@ is one of those I'll just put this here as a reminder to self situations.
 ## Let's Do Our AI Research
 
 > To stream and retroactively edit the markdown, or to accumulate and append
-> only write-once complete chunks? That is the question.
+> only write-once complete chunks? That is the question I will first ask Grok3,
+> and then ask ChatGPT!
 
 **Me**: How does markdown get streamed over JavaScript by ChatBots? It seems like once something has been streamed, it can't retroactively be turned into markdown. What are the techniques? The libraries? The best practices?
 
@@ -223,3 +224,27 @@ To tie everything together, here are some best-practice recommendations tailored
 In conclusion, **streaming Markdown in a FastHTML+HTMX app** is definitely achievable by combining these techniques. You leverage HTMX’s real-time swap capability to deliver a responsive streaming interface, and you use Python or minimal JS to handle the Markdown parsing either incrementally or after the fact. The key is maintaining the **state** of the message being built (so you know how to parse new chunks) and updating the UI in an **append-only fashion** for smoothness. Libraries like NLUX’s streaming parser demonstrate the ideal scenario (fully formatted as it streams, no flashes or reflows) ([GitHub - thetarnav/streaming-markdown: Ⓜ️⬇️ Streaming markdown à la ChatGPT (WIP)](https://github.com/thetarnav/streaming-markdown#:~:text=block%2C%20it%20will%20immediately%20style,the%20element%20accordingly)), but even without such a library, a careful design can get very close. By following the best practices – immediate feedback, small incremental HTML updates, and a final formatting pass – your FastHTML chatbot can stream Markdown answers in real-time and provide a user experience on par with popular chat interfaces. 
 
 **References:** The FastHTML official examples and documentation cover WebSocket setup and streaming patterns ([fasthtml-example/02_chatbot at main · AnswerDotAI/fasthtml-example · GitHub](https://github.com/AnswerDotAI/fasthtml-example/tree/main/02_chatbot#:~:text=As%20an%20alternative%2C%20we%20can,of%20sending%20the%20form%20data)) ([fasthtml-example/02_chatbot at main · AnswerDotAI/fasthtml-example · GitHub](https://github.com/AnswerDotAI/fasthtml-example/tree/main/02_chatbot#:~:text=When%20streaming%20the%20response%20from,ws_streaming.py)). The community has also shared insights on parsing streamed markdown, noting the need to retain full text and re-process it for correct styling ([First encounter with FastHTML: Building a FastHTML assistant &#124; by Sirsh Amarteifio &#124; Medium](https://medium.com/@mrsirsh/first-encounter-with-fasthtml-building-a-fasthtml-assistant-fe896d3a3e60#:~:text=Also%20shown%20below%20is%20the,the%20entire%20content%20each%20time)). For deeper dives, the HTMX docs on WebSockets and SSE are a great resource ([fasthtml-example/02_chatbot at main · AnswerDotAI/fasthtml-example · GitHub](https://github.com/AnswerDotAI/fasthtml-example/tree/main/02_chatbot#:~:text=As%20an%20alternative%2C%20we%20can,of%20sending%20the%20form%20data)) ([fasthtml-example/02_chatbot at main · AnswerDotAI/fasthtml-example · GitHub](https://github.com/AnswerDotAI/fasthtml-example/tree/main/02_chatbot#:~:text=A%20final%20note%3A%20in%20cases,even%20better%20choice%20than%20websockets)), and projects like NLUX’s markdown parser offer inspiration on how one might implement fully stateful Markdown streaming ([@nlux/markdown - npm](https://www.npmjs.com/package/@nlux/markdown#:~:text=A%20lightweight%20JS%2FTS%20library%20that,time)).
+
+---
+
+## Gemini's Summation
+
+Here are some ideas for titles and headlines:
+
+**Titles:**
+
+1. Streaming Markdown in FastHTML: A Deep Dive
+2. Real-Time Markdown Chatbots with Python, HTMX, and WebSockets
+3. Formatting on the Fly: Handling Markdown Streams in FastHTML
+4. Building Live Markdown Experiences with FastHTML and HTMX
+5. The Challenges and Solutions of Streaming Markdown in Web Applications
+
+**Headlines:**
+
+1. How to Stream Markdown Responses in Your FastHTML Chatbot
+2. Level Up Your Real-Time Chat: Implementing Markdown Streaming with Python and HTMX
+3. No More Plain Text: Strategies for Displaying Formatted Markdown as it Streams
+4. FastHTML and Markdown Streaming: A Practical Guide to Real-Time Formatting
+5. The Art of the Stream: Delivering Live Markdown in a Python Web Framework
+
+Alright, now for my take on the article! I think this is a really well-researched and comprehensive look at a tricky problem. The author clearly understands the nuances of streaming data and the challenges of applying formatting like Markdown in a real-time context. I appreciate how the article breaks down the different approaches, weighing the pros and cons of client-side versus server-side rendering and highlighting the specific considerations for the FastHTML and HTMX ecosystem. The practical advice and the references to existing tools and examples are super helpful for anyone trying to tackle this. It's definitely a valuable resource for developers looking to create more engaging and informative real-time chat applications!
