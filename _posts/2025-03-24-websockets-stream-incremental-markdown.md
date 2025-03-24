@@ -154,8 +154,8 @@ Streaming Markdown in chatbots using JavaScript involves using specialized libra
 
 > Yes, I know that ChatGPT 4.5 is an option, but o3 appears to be the highest
 > reasoning capability. It also has a larger token-window (currently) that 4.5,
-> and all that combined with Deep research makes it my favorite OpenAI model
-> currently.
+> and all that combined with Deep research makes it my favorite OpenAI model at
+> the moment.
 
 **Me**: [Feeds Grok3's full research]
 
