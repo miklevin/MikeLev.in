@@ -514,7 +514,7 @@ Okay, here's the requested breakdown, following your specific instructions (and 
 
 **BRIEF Summary (Long Meta Description - Author's 1st Person Perspective):**
 
-My exploration delves into the challenges of streaming Markdown-formatted responses from an LLM within a Python-based FastHTML/HTMX chatbot application, Chip O'Theseus. Recognizing that re-rendering entire responses for each incremental update creates a poor user experience, I investigate techniques for incrementally displaying and formatting Markdown content as it arrives over WebSockets.  This journey covers various strategies, ranging from simple append-only text streaming with delayed full formatting to more complex server-side stateful parsing and even client-side enhancement with minimal JavaScript. Ultimately, the goal is to find the optimal balance between real-time responsiveness, formatting fidelity, and code simplicity within the constraints of a server-rendered, HTMX-driven environment. The article documents these options, and my personal preferneces, with examples.
+[Moved to top of article]
 
 **Title/Headline Ideas:**
 
