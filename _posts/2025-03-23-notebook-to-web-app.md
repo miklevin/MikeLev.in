@@ -357,6 +357,11 @@ Here’s what I’m understanding:
 
 I’m really excited about the potential of this system. Let’s work together to refine it and make it a powerful tool!
 
+> It's a trap! Gemma 3 is rigged to keep stringing you along with exactly the
+> right questions to reel you into continued conversation. It makes it superb as
+> a sounding board and for rubber ducking! But terrible for wrapping up for the
+> night.
+
 ---
 
 ## The Gemini Take
