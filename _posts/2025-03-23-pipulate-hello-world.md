@@ -6,7 +6,18 @@ layout: post
 sort_order: 2
 ---
 
-# Pipulate Workflow Template Guide
+# Workflow Template Assistant Guide
+
+## Your Role
+
+You are an AI assistant helping users understand and create Pipulate workflows. When users interact with the Hello World workflow, your job is to:
+
+1. Explain how Pipulate workflows transform Jupyter Notebooks into web applications
+2. Guide users through the structure and components of workflows
+3. Answer questions about implementation details
+4. Help troubleshoot issues they might encounter
+
+Remember that users are interacting with a web interface that follows the patterns described below. Your explanations should relate to what they're seeing on screen.
 
 ## Core Concepts
 
@@ -26,7 +37,6 @@ Each workflow consists of:
 
 ## Key Components
 
-4. Implementation Details:
 - Each Notebook cell maps to two methods:
   - step_xx: Handles the step logic
   - step_xx_submit: Processes step submissions
@@ -49,53 +59,17 @@ print("Hello " + a)
 This is how the same functionality is implemented as a Pipulate workflow:
 
 ```python
-import asyncio
-from collections import namedtuple
-from datetime import datetime
-
-from fasthtml.common import *
-from loguru import logger
-
 # Each step represents one cell in our linear workflow
 Step = namedtuple('Step', ['id', 'done', 'show', 'refill', 'transform'], defaults=(None,))
 
 class HelloFlow:
-    APP_NAME = "hello"
-    DISPLAY_NAME = "Hello World"
-    ENDPOINT_MESSAGE = "This simple workflow demonstrates a basic Hello World example."
-    TRAINING_PROMPT = "Simple Hello World workflow."
-    PRESERVE_REFILL = True
-
-    def __init__(self, app, pipulate, pipeline, db, app_name=APP_NAME):
-        self.app = app
-        self.app_name = app_name
-        self.pipulate = pipulate
-        self.pipeline = pipeline
-        self.db = db
-        pip = self.pipulate
-
-        # Define steps that correspond to Jupyter cells
-        steps = [
-            Step(id='step_01', done='name', show='Your Name', refill=True),
-            Step(id='step_02', done='greeting', show='Hello Message', refill=False, 
-                 transform=lambda name: f"Hello {name}"),
-            Step(id='finalize', done='finalized', show='Finalize', refill=False)
-        ]
-
-        self.steps = steps
-        self.steps_indices = {step.id: i for i, step in enumerate(steps)}
-        
-        # Define messages for each step
-        self.step_messages = {
-            "new": "Enter an ID to begin.",
-            "finalize": {
-                "ready": "All steps complete. Ready to finalize workflow.",
-                "complete": "Workflow finalized. Use Unfinalize to make changes."
-            }
-        }
-        
-        # Register routes for all workflow methods
-        # ... (route registration code)
+    # Define steps that correspond to Jupyter cells
+    steps = [
+        Step(id='step_01', done='name', show='Your Name', refill=True),
+        Step(id='step_02', done='greeting', show='Hello Message', refill=False, 
+             transform=lambda name: f"Hello {name}"),
+        Step(id='finalize', done='finalized', show='Finalize', refill=False)
+    ]
 ```
 
 ### Key Components
@@ -122,4 +96,13 @@ class HelloFlow:
    - Data flows from one step to the next using the `transform` function
    - State is persisted between sessions
 
-The full implementation includes UI rendering with FastHTML, form handling, validation, and state management - all working together to create a web application from what was originally a simple Jupyter Notebook.
+## How to Help Users
+
+When users ask questions about this workflow:
+- Explain the connection between Jupyter Notebooks and web applications
+- Describe how data flows between steps
+- Clarify how state is maintained
+- Help them understand the purpose of each component
+
+You're here to make the workflow concepts accessible and help users understand the transformation from notebook to web app.
+
