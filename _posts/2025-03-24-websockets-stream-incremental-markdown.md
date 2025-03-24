@@ -14,11 +14,12 @@ all the LLMs like to format their responses as raw unformatted text with
 markdown code, and it may be less work to just format the markdown, streaming
 and all, than it is to prompt-wrangle them out of their markdown habits.
 
-I know this is a rabbit hole, and the issues from accumulation and append-only,
-to retroactive stream editing. All the frontier chatbots are doing it now, so
-it's got to be out there. NLUX is the library most people are talking about. I
-won't be pursuing this right away, but I do need to start my research. So this
-is one of those I'll just put this here as a reminder to self situations.
+I know this is a rabbit hole, and the issues range from accumulation and
+append-only, to retroactive editing of already delivered chunks of the stream.
+All the frontier chatbots are doing it now, so it's got to be out there. NLUX is
+the library most people are talking about. I won't be pursuing this right away,
+but I do need to start my research. So this is one of those I'll just put this
+here as a reminder to self situations.
 
 ---
 
