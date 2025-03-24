@@ -24,8 +24,8 @@ is one of those I'll just put this here as a reminder to self situations.
 
 ## Let's Do Our AI Research
 
-> To stream and retroactively edit, or to accumulate and append-only. That is
-> the question.
+> To stream and retroactively edit the markdown, or to accumulate and append
+> only write-once complete chunks? That is the question.
 
 **Me**: How does markdown get streamed over JavaScript by ChatBots? It seems like once something has been streamed, it can't retroactively be turned into markdown. What are the techniques? The libraries? The best practices?
 
