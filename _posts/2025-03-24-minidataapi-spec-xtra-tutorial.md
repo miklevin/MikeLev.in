@@ -9,7 +9,9 @@ sort_order: 1
 Yes, this article was made as a result of AI research, ChatGPT o3-mini-high Deep
 Research, in particular (credit where it's due). But I immediately needed it to
 override Grok3's over-training on SQLAlchemy and complex ORMs! So I slammed this
-out and used it a prompt you will find in the following article.
+out and used it a prompt you will find in the following article. I plan on using
+this, and distilled down variations of this again and again as I wrangle LLM
+over-training on SQLAlchemy, and getting it to comply with the FastHTML way.
 
 ## MiniDataAPI Spec Documentation Overview
 
