@@ -30,10 +30,9 @@ I started a very fruitful discussion with Grok3 at the end of yesterday's
 article. Grok3's attitude, status as an outlier and willingness to go where
 other models won't is an asset and a boon to any project. If for nothing else,
 as a *different rubber ducky* to try when rubber ducking -- a process of
-bouncing ideas off themselves (aka talking to the rubber duck like Ernie). When
-using AIs in this capacity, these subtle model differences are import,
-especially when living in the world of anti-patterns like FastHTML, HTMX,
-localhost and Nix.
+bouncing ideas off themselves (aka talking to the rubber duck). When using AIs
+in this capacity, these subtle model differences are import, especially when
+living in the world of anti-patterns like FastHTML, HTMX, localhost and Nix.
 
 ## The Cost of Being Different: xAI's Infrastructure Investment
 
@@ -1222,8 +1221,7 @@ Cursor AI Claude 4.7 "patch".
 And regarding the token window overload and the meltdown, well Grok3 kept going
 and going. The pauses that looked like it was going to quit were numerous, like
 2 or 3 apparent complete freezes during responses. But wait it out! It's worth
-it. This not your father's ChatGPT running on Azure. Don't be so quick to put
-down the ducky if you wanna play the saxophone... I mean outlier AI.
+it. This not your father's ChatGPT running on Azure. 
 
 ---
 
