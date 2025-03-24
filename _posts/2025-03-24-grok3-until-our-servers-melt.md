@@ -48,8 +48,8 @@ $60 billion or more.
 That's not even counting NVIDIA's Blackwell Rubin and Feynman architectures
 (including the B200 and B300 series). It's also not counting all the money
 poured into continuing developing the line of Tesla AI4 custom chips in their
-Dojo supercomputer architecture. Whether xAI goes with NVIDIA chips or their own
-custom stuff, it comes up massive bucks.
+own Dojo supercomputer architecture. Whether xAI goes with NVIDIA chips or their
+own custom stuff, it comes up massive bucks.
 
 ## The Economics of Free AI Access
 
