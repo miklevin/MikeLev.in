@@ -45,7 +45,7 @@ I see Pipulate as part of a broader trend toward more narrative-driven applicati
 
 This approach also democratizes web development. Data scientists and analysts who are comfortable in notebooks can now create interactive web applications without learning entirely new paradigms. Domain expertise can be bottled and made reproducible, while also keeping it proprietary and private, and yet still be deeply leveraged by your workforce.
 
-As we continue to blur the lines between development environments and production applications, frameworks like Pipulate show us a path forward - one where the tools we use for exploration and the tools we use for production share the same fundamental DNA.
+As we continue to blur the lines between development environments and production applications, frameworks like Pipulate show us a path forward -- one where the tools we use for exploration and the tools we use for production share the same fundamental DNA.
 
 The notebook revolution transformed how we explore data. Perhaps the workflow revolution will transform how we build applications.
 
