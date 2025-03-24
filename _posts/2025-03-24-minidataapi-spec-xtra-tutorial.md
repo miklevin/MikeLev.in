@@ -14,11 +14,14 @@ this, and distilled down variations of this again and again as I wrangle LLM
 over-training on SQLAlchemy, and getting it to comply with the FastHTML way.
 
 And yes, it worked like a charm. With a sufficiently well-crafted super-prompt
-such as this, smart AIs like Grok3 can do single-shot coding wins without having
-to be built into your editor as an AI coding assistant, nor need fancy agentic
-frameworks like Goose AI, Manus or Cline. YOU bring to the picture what those
-frantic agentic self-prompters do. Get your rubber ducks in a row with research
-like this and work it into your prompts to get perfect code.
+like this, smart AIs like Grok3 can do single-shot coding wins without having to
+be built into your editor as an AI coding assistant, nor need fancy agentic
+frameworks like Goose AI, Manus or Cline. **YOU** bring to the picture what
+those franticagentic self-prompters do. In other words, get your rubber ducking
+in a row with research like this, working it into your prompts to get perfect
+code.
+
+[You gotta put down the agents if you wanna keep control of your code.](https://www.youtube.com/watch?v=acBixR_JRuM)
 
 ## MiniDataAPI Spec Documentation Overview
 
