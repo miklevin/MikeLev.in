@@ -45,10 +45,11 @@ world was built for xAI in Memphis, Tennessee. They're reportedly to ~200K GPUs
 but are aiming for a million. 1 million H100 GPUs plus infrastructure could be
 $60 billion or more. 
 
-That's not even counting NVIDIA's Blackwell architecture (including the B200 and
-B300 series), Rubin and Feynman architectures. Or alternatively, the equally
-massive resources that would go into developing their own Tesla processing units
-(TPUs?).
+That's not even counting NVIDIA's Blackwell Rubin and Feynman architectures
+(including the B200 and B300 series). It's also not counting all the money
+poured into continuing developing the line of Tesla AI4 custom chips in their
+Dojo supercomputer architecture. Whether xAI goes with NVIDIA chips or their own
+custom stuff, it comes up massive bucks.
 
 ## The Economics of Free AI Access
 
