@@ -13,15 +13,11 @@ out and used it a prompt you will find in the following article. I plan on using
 this, and distilled down variations of this again and again as I wrangle LLM
 over-training on SQLAlchemy, and getting it to comply with the FastHTML way.
 
-And yes, it worked like a charm. With a sufficiently well-crafted super-prompt
-like this, smart AIs like Grok3 can do single-shot coding wins without having to
-be built into your editor as an AI coding assistant, nor need fancy agentic
-frameworks like Goose AI, Manus or Cline. **YOU** bring to the picture what
-those franticagentic self-prompters do. In other words, get your rubber ducking
-in a row with research like this, working it into your prompts to get perfect
-code.
+Unfortunately, even with this super-prompt teaching Grok3 all the nuances of
+MiniDataAPI Spec, it didn't nail the bug fix. I'm going to have to put down the
+AI and do it the old fashioned way.
 
-[You gotta put down the agents if you wanna keep control of your code.](https://www.youtube.com/watch?v=acBixR_JRuM)
+[You gotta put down the AI if you wanna keep control of your code.](https://www.youtube.com/watch?v=acBixR_JRuM)
 
 ## MiniDataAPI Spec Documentation Overview
 
