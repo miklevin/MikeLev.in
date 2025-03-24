@@ -22,14 +22,15 @@ app, rt, users, User = fast_app('folder/filename.db', users=dict(username=str))
 
 ## Understanding the MiniDataAPI Spec
 
-In short, MiniDataAPI spec, a database API made specifically for FastHTML, is
-being used through the `fast_app()` convenience wrapper. `fast_app` always
-returns the *flask-like* webserver connection object `app` first and the
-shortcut for `app.route()` second. The returned `users` object is a MiniDataAPI
-database table with methods like `.insert()` and `.delete()`, and `User` is a
-`dataclass()` description of a single record used for hinting and validation.
-That's it. There's no special setup. A whole table schema can go as a Python
-`dict` where `dict(username=str)` appears. That's databases in FastHTML.
+In short, [MiniDataAPI spec](/futureproof/minidataapi-spec-xtra-tutorial/), a
+database API made specifically for FastHTML, is being used through the
+`fast_app()` convenience wrapper. `fast_app` always returns the *flask-like*
+webserver connection object `app` first and the shortcut for `app.route()`
+second. The returned `users` object is a MiniDataAPI database table with methods
+like `.insert()` and `.delete()`, and `User` is a `dataclass()` description of a
+single record used for hinting and validation. That's it. There's no special
+setup. A whole table schema can go as a Python `dict` where `dict(username=str)`
+appears. That's databases in FastHTML.
 
 ## Going Beyond the Basics
 
