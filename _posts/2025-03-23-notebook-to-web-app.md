@@ -41,7 +41,7 @@ This creates a living document that combines the best of notebooks (narrative fl
 
 ## The Future of Workflow Development
 
-I see Pipulate as part of a broader trend toward more narrative-driven application development. Rather than thinking in terms of the open-ended agentic willy nilly workflows like a silly GooseAI or raging Manus, we think in terms of steps and transformations -- a more natural way to express business logic.
+I see Pipulate as part of a broader trend toward more narrative-driven application development. Rather than thinking in terms of the open-ended agentic willy nilly workflows like a silly GooseAI or raging Manus, we think in terms of expertly controlled steps and transformations -- a more natural way to express business logic.
 
 This approach also democratizes web development. Data scientists and analysts who are comfortable in notebooks can now create interactive web applications without learning entirely new paradigms. Domain expertise can be bottled-up and kept proprietary and private, yet still deeply leveraged by your workforce.
 
