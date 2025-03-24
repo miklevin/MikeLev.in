@@ -165,10 +165,10 @@ You're here to make the workflow concepts accessible and help users understand t
 
 A note before reading the transcript. This rigid linear workflow system
 literally puts words into the LLMs mouth and inserts it into the discussion
-history just as if the LLM said it, but it didn't! It's like a telemarketing
-script compelling the interaction forward along a prescribed path. But when you
-chat with the LLM in free-form (which is possible at any time), it needs to
-understand that or else it's going to get really weirded out. Ain't AI
+history just ***as if the LLM said it, but it didn't!*** It's like a
+telemarketing script compelling the interaction forward along a prescribed path.
+But when you chat with the LLM in free-form (which is possible at any time), it
+needs to understand that or else it's going to get really weirded out. Ain't AI
 development a kick?
 
 **Script**: HelloFlow app is where you manage your workflows.
