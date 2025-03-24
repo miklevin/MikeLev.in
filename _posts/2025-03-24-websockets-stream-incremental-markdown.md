@@ -148,6 +148,15 @@ Streaming Markdown in chatbots using JavaScript involves using specialized libra
 - [Streaming markdown à la ChatGPT WIP](https://github.com/thetarnav/streaming-markdown)
 - [Markdown component for React](https://github.com/remarkjs/react-markdown)
 
+---
+
+## And Over to ChatGPT o3-mini-high
+
+> Yes, I know that ChatGPT 4.5 is an option, but o3 appears to be the highest
+> reasoning capability. It also has a larger token-window (currently) that 4.5,
+> and all that combined with Deep research makes it my favorite OpenAI model
+> currently.
+
 **Me**: [Feeds Grok3's full research]
 
 **ChatGPT o3-mini-high Deep Research**: Just to confirm—would you like me to turn this into a more polished article, or are you looking for something else like additional examples, implementation guides, or deeper comparisons between the libraries mentioned? Let me know how you'd like to build on this.
