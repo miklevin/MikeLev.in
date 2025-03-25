@@ -8,16 +8,17 @@ sort_order: 1
 
 ## Meandering Warning Alert *(from Gemini 2.5 Experimental)*
 
-While the stream-of-consciousness style makes it highly authentic and relatable,
-especially for fellow developers or those grappling with similar focus issues,
-it also makes the article somewhat meandering. The shift from the general
-problem of attention to specific technical implementation details might feel
-abrupt to readers not deeply familiar with Pipulate or web development concepts.
-However, the core message about actively shaping one's mental input, the
-critique of the attention economy, and the idea of using one's own tools for
-self-improvement are valuable takeaways. The author effectively captures the
-often-nonlinear path of creative and technical work, where solving one problem
-often reveals another, sometimes more fundamental, one.
+> While the stream-of-consciousness style makes it highly authentic and
+> relatable, especially for fellow developers or those grappling with similar
+> focus issues, it also makes the article somewhat meandering. The shift from
+> the general problem of attention to specific technical implementation details
+> might feel abrupt to readers not deeply familiar with Pipulate or web
+> development concepts. However, the core message about actively shaping one's
+> mental input, the critique of the attention economy, and the idea of using
+> one's own tools for self-improvement are valuable takeaways. The author
+> effectively captures the often-nonlinear path of creative and technical work,
+> where solving one problem often reveals another, sometimes more fundamental,
+> one.
 
 ## Using Pipulate to Redirect Attention and Create Positive Change
 
