@@ -780,7 +780,7 @@ print("Hello " + a)
 
 I'm not asking for the full blown out thing. Just think about it. We can build it up in multiple passes. I already have the @hello_world.ipynb to which you have access, for context.
 
-**Claude 4.7**: I understand what you're looking for - a Jupyter Notebook that serves as both a simple workflow example and documentation for how to port it to your Pipulate HTMX environment. Here's how I'd approach structuring this documentation:
+**Claude 3.7**: I understand what you're looking for - a Jupyter Notebook that serves as both a simple workflow example and documentation for how to port it to your Pipulate HTMX environment. Here's how I'd approach structuring this documentation:
 
 # Hello World Workflow: From Notebook to Pipulate
 

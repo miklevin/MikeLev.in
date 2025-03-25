@@ -519,7 +519,7 @@ I lost a bit of faith in the step-by-step guide because already the first step
 that was supposed to be non-breaking broke the app. When I looked at what it was
 doing, I figured out a better alternative approach myself. There's no reason to
 extend the routes when you can just register them correctly in the first place.
-But I had Claude 4.7 built into Cursor actually do the work, and it worked.
+But I had Claude 3.7 built into Cursor actually do the work, and it worked.
 
 The transparent pass-through for the next step in the guide look okay, so I try
 those, and they work! That's just a matter of adding this code:
@@ -584,7 +584,7 @@ steps, which might have multiple instances and thus customized for each
 instance. The WET-ification we're doing for steps I don't think is necessary for
 finalize, and it shouldn't have the extra shim.
 
-**Claude 4.7**: You're absolutely right. The `finalize_explicit` method is unnecessary and doesn't fit the pattern we're establishing. Unlike the step handlers which might have multiple instances with different customizations, the finalize functionality is singular and already has its dedicated method.
+**Claude 3.7**: You're absolutely right. The `finalize_explicit` method is unnecessary and doesn't fit the pattern we're establishing. Unlike the step handlers which might have multiple instances with different customizations, the finalize functionality is singular and already has its dedicated method.
 
 Let's remove the `finalize_explicit` method and update the route registration to point directly to the existing `finalize` method:
 
@@ -632,7 +632,7 @@ Good catch! This is a perfect example of knowing when to apply the WET principle
 
 **Me**: Okay, excellent. Review where I'm at and tell me if there isn't anything more than copy/pasting the `handle_step` and `handle_step_submit` code into the shims (and accompanying hardwiring)?
 
-**Claude 4.7**: Let's review where you're at in the refactoring process:
+**Claude 3.7**: Let's review where you're at in the refactoring process:
 
 ### What you've accomplished:
 1. ✅ Explicitly registered routes for each step instead of using a loop
@@ -692,7 +692,7 @@ example) is to change the line:
 The initial required customization per copy/pasted WET block is just that 1 line
 of code per block?
 
-**Claude 4.7**: Yes, you've got it exactly right! The initial required customization is minimal - just hardcoding the step ID in each handler.
+**Claude 3.7**: Yes, you've got it exactly right! The initial required customization is minimal - just hardcoding the step ID in each handler.
 
 For each step handler (like `step_01`), you'd change:
 ```python
@@ -722,7 +722,7 @@ This approach gives you a working system at each stage while allowing you to inc
 
 **Me**: Okay, before I do this copy/paste job, how can I reduce the cognitive overhead of the long dot.path notation? The biggest offender appears to be self.pipulate, but there's plenty of others. Give me some ideas.
 
-**Claude 4.7**: 
+**Claude 3.7**: 
 
 # Reducing Cognitive Overhead from Long Dot Notation
 
@@ -865,7 +865,7 @@ as a Pipulate helper function. Do you think I decided to not do that because it
 has `hx_` attributes, and I'm trying to keep all the HTMX actions exposed? That,
 and do you see the chain reaction?
 
-**Claude 4.7**: You're right to notice that `generate_step_placeholders()` seems like a good candidate for externalization. Let's analyze why it might have been kept in the workflow class:
+**Claude 3.7**: You're right to notice that `generate_step_placeholders()` seems like a good candidate for externalization. Let's analyze why it might have been kept in the workflow class:
 
 ### Why `generate_step_placeholders()` Might Be Internal
 
@@ -909,7 +909,7 @@ This is a good example of knowing when to apply DRY principles and when to embra
 
 **Me**: This is all carefully balanced, but very confusing with the different uses of steps. Comment on it.
 
-**Claude 4.7**: You're right - there's a lot of complexity here with different uses of "steps" that can be confusing. Let me break this down:
+**Claude 3.7**: You're right - there's a lot of complexity here with different uses of "steps" that can be confusing. Let me break this down:
 
 ## The Multiple "Steps" Concepts
 
@@ -997,7 +997,7 @@ This careful balancing act maintains flexibility while providing structure, but 
 
 **Me**: Okay, I took both of your clearer naming recommendations. But now I'm thinking that just plain steps here in `__init__` should be workflow_steps. I plan on using the local method variable trick to shorten `self.workflow_steps` all over the place. I think it will be easy but have to take extra care in `__init__` where it is created.
 
-**Claude 4.7**: You're absolutely right. Renaming the local variable `steps` to `workflow_steps` in the `__init__` method would make the code more consistent and clearer. Here's how that section should look:
+**Claude 3.7**: You're absolutely right. Renaming the local variable `steps` to `workflow_steps` in the `__init__` method would make the code more consistent and clearer. Here's how that section should look:
 
 ```python
     def __init__(self, app, pipulate, pipeline, db, app_name=APP_NAME):
@@ -1038,7 +1038,7 @@ This naming consistency will make the code more maintainable and easier to under
 `workflow_steps` is too long and that I should search and replace it to just
 `steps` again.
 
-**Claude 4.7**: I understand your concern about the length of `workflow_steps`. While clarity is important, brevity also matters for readability, especially for variables used frequently.
+**Claude 3.7**: I understand your concern about the length of `workflow_steps`. While clarity is important, brevity also matters for readability, especially for variables used frequently.
 
 Here's my recommendation:
 
@@ -1072,7 +1072,7 @@ The key is to be consistent throughout your codebase - if you choose `steps`, us
 
 **Me**: Okay, I'm getting close to that WET-ifying copy/paste step. Give me a review. Check out how I did on the long.dot.notation.shortening. An anything else you think is relevant for keeping myself from shooting myself in the foot on this step.
 
-**Claude 4.7**: Let me review your current state before you proceed with the WET-ification copy/paste step:
+**Claude 3.7**: Let me review your current state before you proceed with the WET-ification copy/paste step:
 
 ### Dot Notation Shortening
 You've made excellent progress by:

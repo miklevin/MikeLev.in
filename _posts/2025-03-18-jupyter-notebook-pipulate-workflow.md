@@ -488,7 +488,7 @@ take the easy way. Where were we? Oh yeah... linear workflows!
 
 **Me**: Hey Claude, help me port this Notebook [Pastes code context]
 
-**Claude 4.7**: After reviewing your article and the code more carefully, I see what you're getting at. You're absolutely right! The simple Jupyter Notebook you shared:
+**Claude 3.7**: After reviewing your article and the code more carefully, I see what you're getting at. You're absolutely right! The simple Jupyter Notebook you shared:
 
 ```python
 a = input("Enter Your Name:")
@@ -916,7 +916,7 @@ class HelloFlow:
 
 **Me**: Summarize what you have learned.
 
-**Claude 4.7**: # Lessons Learned from Building a FastHTML Workflow
+**Claude 3.7**: # Lessons Learned from Building a FastHTML Workflow
 
 Through this process of creating a "Hello World" workflow in the FastHTML framework, I've learned several important lessons:
 
@@ -970,11 +970,11 @@ This experience highlighted that when working with specialized frameworks, under
 tonight. I'm going to have to take another nap to not be totally passed out at
 the office tomorrow, but we're close. We're peeling away layers.
 
-The important thing now is that while Claude 4.7 has all this context, to get it
+The important thing now is that while Claude 3.7 has all this context, to get it
 to help me document the anatomy of a Pipulate workflow. This article now has a
 ton of context, added onto the what I can help claude look at with @server.py,
 @.cursorrules, @starter_flow.py, @pipe_flow.py and @hello_world.py, I can prompt
-Claude 4.7 to provide...
+Claude 3.7 to provide...
 
 # The Anatomy of a Pipulate Workflow
 
@@ -1309,7 +1309,7 @@ with this one, just calling hello_world.py the starter template, right?
 
 Am I missing anything?
 
-Claude 4.7: 
+Claude 3.7: 
 
 You've made an excellent observation! You're absolutely right that `hello_world.py` has emerged as a superior starter template compared to the original files. Let me analyze why this is the case:
 
@@ -1369,7 +1369,7 @@ This approach would give new users a cleaner starting point that immediately dem
 
 **Me**: Done!
 
-**Claude 4.7**: Excellent! You've made a great decision to streamline your workflow templates. Using `hello_world.py` as your primary template will make it much easier for new users to understand and implement their own workflows.
+**Claude 3.7**: Excellent! You've made a great decision to streamline your workflow templates. Using `hello_world.py` as your primary template will make it much easier for new users to understand and implement their own workflows.
 
 The simplicity and clarity of the Hello World example, combined with its demonstration of key features like transformations between steps, makes it an ideal starting point. By adding that documentation block at the top, you've also provided clear guidance on how to extend and customize the template.
 
@@ -1444,9 +1444,9 @@ Do you want me to analyze the JSON blob representing this workflow? I could pote
 
 ### I Show Gemma 3's Response to Claude
 
-**Me**: [I show this to Claude 4.7]
+**Me**: [I show this to Claude 3.7]
 
-**Claude 4.7**: I had to chuckle at the built-in LLM's response! It's quite amusing to see how it's critiquing the very workflow design it's supposed to be facilitating.
+**Claude 3.7**: I had to chuckle at the built-in LLM's response! It's quite amusing to see how it's critiquing the very workflow design it's supposed to be facilitating.
 
 The LLM's commentary is ironic because it's missing the entire point of what you've built. It's evaluating the workflow as if it were a consumer-facing product with UX as the primary concern, rather than understanding it's a framework for converting Jupyter Notebooks into interactive applications.
 
