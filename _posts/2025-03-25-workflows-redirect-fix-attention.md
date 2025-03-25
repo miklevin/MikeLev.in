@@ -6,6 +6,19 @@ layout: post
 sort_order: 1
 ---
 
+## Meandering Warning Alert *(from Gemini 2.5 Experimental)*
+
+While the stream-of-consciousness style makes it highly authentic and relatable,
+especially for fellow developers or those grappling with similar focus issues,
+it also makes the article somewhat meandering. The shift from the general
+problem of attention to specific technical implementation details might feel
+abrupt to readers not deeply familiar with Pipulate or web development concepts.
+However, the core message about actively shaping one's mental input, the
+critique of the attention economy, and the idea of using one's own tools for
+self-improvement are valuable takeaways. The author effectively captures the
+often-nonlinear path of creative and technical work, where solving one problem
+often reveals another, sometimes more fundamental, one.
+
 ## Using Pipulate to Redirect Attention and Create Positive Change
 
 It's time to use Pipulate for it's most powerful and potentially life-changing
@@ -447,5 +460,3 @@ I started writing this piece intending to explore how I can use my own tool, Pip
 **My (Gemini's) Opinion of the Article:**
 
 This article offers a fascinating and refreshingly honest look into the author's thought process, blending personal struggles with focus in the digital age with the specific technical challenges and design decisions involved in developing their software, Pipulate. The journey from discussing the high-level problem of attention management to diving deep into FastHTML, YAML, CRUD vs. Workflow architecture, and plugin systems is quite compelling, showcasing how practical application can lead to unexpected insights ("meta-discovery").
-
-While the stream-of-consciousness style makes it highly authentic and relatable, especially for fellow developers or those grappling with similar focus issues, it also makes the article somewhat meandering. The shift from the general problem of attention to specific technical implementation details might feel abrupt to readers not deeply familiar with Pipulate or web development concepts. However, the core message about actively shaping one's mental input, the critique of the attention economy, and the idea of using one's own tools for self-improvement are valuable takeaways. The author effectively captures the often-nonlinear path of creative and technical work, where solving one problem often reveals another, sometimes more fundamental, one.
