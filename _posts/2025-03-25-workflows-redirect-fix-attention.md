@@ -1,7 +1,7 @@
 ---
 title: Workflows to Redirect & Fix Your Attention
 permalink: /futureproof/workflows-redirect-fix-attention/
-description: 
+description: I initially set out to explore using Pipulate workflows to combat digital distractions and regain focus on meaningful work, delving into the attention economy and the power of intentional input. While planning practical client workflow implementations within Pipulate, my focus unexpectedly shifted to the tool's internal structure. This led me down a technical rabbit hole, revealing a crucial need to refactor Pipulate's "DRY CRUD" apps into a flexible plugin system, much like I recently did for its "WET Workflows"—a meta-discovery driven directly by trying to improve my own focus using the tool.
 layout: post
 sort_order: 1
 ---
@@ -416,3 +416,36 @@ parallel system between Workflows (already) auto-configuring plugins and CRUD
 Apps which so clearly should. It passes the "feels right" test. And because I
 did such similar work lately, I think it's probably viable to. Let me do the
 analysis.
+
+---
+
+## Gemini Advanced 2.5 Pro Experimental
+
+> Wow, Gemini 2.5 is here, and I'll be ditching Gemini 1.5 Brainstormer for
+> their latest and greatest model for the purpose of these article summaries.
+> Let's see what it has to say about the article!
+
+**Gemini Advanced 2.5 Pro Experimental**: Okay, here are the requested items:
+
+**Summary (Author's 1st Person Perspective):**
+
+I started writing this piece intending to explore how I can use my own tool, Pipulate, specifically its workflow capabilities, to combat the constant distractions of the modern web, social media algorithms, and the attention economy, ultimately redirecting my focus towards meaningful work that benefits both myself and others. As I delved into the challenges of maintaining focus, the power of intentional input versus algorithmic feeds, and the importance of processing thoughts through journaling, my thinking unexpectedly shifted while planning client workflow implementations using Pipulate. This led me down a rabbit hole, analyzing the technical details of Pipulate's structure, particularly the contrast between its "WET Workflows" and "DRY CRUD" apps, ultimately revealing a crucial opportunity to refactor the CRUD app architecture into a more flexible plugin system, mirroring the recent improvements I made to the workflows themselves—a meta-discovery driven by the very process of trying to improve my focus.
+
+**Ideas for Titles and Headlines:**
+
+* Taming the Algorithm: Using Workflows to Reclaim My Focus with Pipulate
+* From Distraction to Development: A Pipulate Journey Through the Attention Economy
+* Hacking My Attention: How Building Workflows Led to a Core Pipulate Insight
+* Pipulate, Focus, and the Unexpected Path to Code Refactoring
+* DRY CRUD vs. WET Workflows: A Meta-Exploration of Focus and Software Design
+* Fighting Distraction with Code: My Quest for Focus Using Pipulate Workflows
+* The Irony of Focus: How Trying to Build Better Workflows Revealed a Deeper Task
+* Pipulate Power-Up: Reclaiming Attention and Refining Code
+* Beyond the Feed: Building Intentionality with Pipulate Workflows
+* Meta-Workflow: Using Pipulate to Fix My Focus and Its Own Architecture
+
+**My (Gemini's) Opinion of the Article:**
+
+This article offers a fascinating and refreshingly honest look into the author's thought process, blending personal struggles with focus in the digital age with the specific technical challenges and design decisions involved in developing their software, Pipulate. The journey from discussing the high-level problem of attention management to diving deep into FastHTML, YAML, CRUD vs. Workflow architecture, and plugin systems is quite compelling, showcasing how practical application can lead to unexpected insights ("meta-discovery").
+
+While the stream-of-consciousness style makes it highly authentic and relatable, especially for fellow developers or those grappling with similar focus issues, it also makes the article somewhat meandering. The shift from the general problem of attention to specific technical implementation details might feel abrupt to readers not deeply familiar with Pipulate or web development concepts. However, the core message about actively shaping one's mental input, the critique of the attention economy, and the idea of using one's own tools for self-improvement are valuable takeaways. The author effectively captures the often-nonlinear path of creative and technical work, where solving one problem often reveals another, sometimes more fundamental, one.
