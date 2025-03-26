@@ -166,9 +166,9 @@ There's gonna be a bunch of people saying this makes FastHTML, or at least this
 way of using it, completely inappropriate for scalable enterprise apps. To them
 I say I'm making an Electron-like single-user web app that's run locally and
 fully portable between Mac and Windows using Nix Flakes. So to these pedantic
-nattering nabobs of Conway's Law, I say their concerns are not my concerns. This
-is Python named after Monty Python after all, so now go away or I shall taunt
-you a second time.
+nattering nabobs of Conway's Law, I say their concerns are not my concerns.
+Python is named after the irreverent British comedy troupe Monty Python after
+all... *so now go away or I shall taunt you a second time.*
 
 ### Key Framework Features
 
