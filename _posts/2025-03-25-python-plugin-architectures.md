@@ -14,7 +14,13 @@ The key takeaway – the pivot from attempting a separate, complex registry to a
 
 Overall, it's a well-documented journey combining technical depth (exploring FastHTML, MiniDataAPI, plugin patterns) with relatable development struggles and the satisfaction of finding an elegant solution. It serves as an insightful case study for developers facing similar challenges with framework limitations or designing extensible systems. The inclusion of code snippets and the clear explanation of the final `CompetitorPlugin` make the achieved solution concrete and understandable.
 
+---
+
 ## CRUD is Dry & Workflows are WET
+
+> There is no doubt about it, I am hitting above my weight class due to AI
+> coding assistance, however the key is not having it code for you. The key is
+> having it pound into your thick noggin what's going on and why.
 
 ### Dry CRUD
 
