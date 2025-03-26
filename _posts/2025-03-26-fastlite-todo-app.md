@@ -124,10 +124,11 @@ if __name__ == "__main__":
 ## The Ugly Parts of Traditional FastHTML Setup
 
 But this is not how it's done in FastHTML because there's too much ugly stuff
-there. It's not lovely. It's not brief. It requires ***just have to know***
-Python indoctrination stuff. There's that ugly `if __name__ == "__main__":` ugh!
-And what's a uvicorn? And why all the `@app.route()` noise when `@rt()` would
-suffice? HTML tags? I thought we only had to look at Python with FastHTML!
+there. It's not lovely. It's not brief. It requires you to ***just have to
+know*** certain Python indoctrination stuff. The greatest example of all time,
+that ugly `if __name__ == "__main__":` is here! And what's a uvicorn? And why
+all the `@app.route()` noise when `@rt()` would suffice? HTML tags? I thought we
+only had to look at Python with FastHTML!
 
 ## Introducing the Helper Function Pattern
 
