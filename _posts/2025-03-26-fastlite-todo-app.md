@@ -177,7 +177,7 @@ Framework features layered-in at this point include:
 - Database support
 - WebSocket support
 - Live re-load (for development)
-- A bunch of *default* 3rd-party JavaScript libraries loaded through CDNs
+- A bunch of *default* 3rd-party JavaScript libraries (plus PicoCSS) loaded through CDNs
 - A chance to insert your own standard HTML header tags
 
 ### Integrated Database Support Made Simple
@@ -186,9 +186,9 @@ And I use all of them in this example! And when I say databases support, I mean
 the whole friggn schema. It takes some time to wrap your head around the
 integrated database support in FastHTML, but when I put these database schemas
 in the same statement that crates the `app` object, it will CREATE the database,
-TABLES and all if they're not there yet. And in either case, it will give you a
-couple of objects per table to let you do all your Create, Read, Update and
-Delete (CRUD) options super-duper easy. Way easier than SQLAlchemy.
+TABLES if they're not there yet. And in either case, it will give you a couple
+of objects per table to let you do all your Create, Read, Update and Delete
+(CRUD) options super-duper easy. Way easier than SQLAlchemy.
 
 ```python
 from fasthtml.common import *
