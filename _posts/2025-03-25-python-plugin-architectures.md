@@ -806,7 +806,7 @@ Okay, here's the summary, titles, and my opinion:
 
 **Summary (Author's 1st Person Perspective):**
 
-In this article, I explore the contrast between DRY CRUD systems and potentially WET workflows, detailing my experience building the Pipulate framework on Python and FastHTML. I faced a challenge externalizing a tightly coupled CRUD app (TodoApp) due to FastHTML's structure, leading me to investigate Python plugin architectures. After getting a step-by-step guide from an AI, I documented my practical journey of unifying Pipulate's separate workflow and plugin systems, realizing that adapting the existing, working workflow discovery pattern was simpler and more effective than forcing a new registry system, ultimately paving the way to properly externalize the ToDo app using this now-unified plugin approach.
+[Moved to the top]
 
 **Ideas for Titles and Headlines:**
 
