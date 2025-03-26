@@ -679,7 +679,12 @@ Most importantly, the code now better reflects its own design principles: each c
 
 ---
 
-## Extracting the Todo App Plugin: A Journey with Some Complexity
+## Extracting the Todo App Plugin: There Was Some Blood
+
+> What Claude's not telling you is that I gutted some really cool work that I
+> was proud of. Ages ago, I got Gemma2 to do function calls before it supported
+> it, but with that sort of thing formalizing (MCP), it turned out to be more
+> flex than functionality. It was painful to gut it. That was the blood.
 
 That pretty much sums it up. This project was born as a single-file app so I
 could 1-shot copy/paste it into all the frontier LLMs that were getting up to
