@@ -50,7 +50,7 @@ around in my head as I get underway.
 So, what's that work?
 
 I'm ***extracting a Todo app*** from a FastHTML app that did things Jeremy's way
--- through the `[fast_app](https://raw.githubusercontent.com/AnswerDotAI/fasthtml/refs/heads/main/fasthtml/fastapp.py)` convenience factory constructor class. There's so much
+-- through the [fast_app](https://raw.githubusercontent.com/AnswerDotAI/fasthtml/refs/heads/main/fasthtml/fastapp.py) convenience factory constructor class. There's so much
 to absorb here that's covered in other articles, I would I guess suggest you
 look at how a typical Python Flask web micro-framework app creates its
 connection to the webserver, often Uvicorn these days:
