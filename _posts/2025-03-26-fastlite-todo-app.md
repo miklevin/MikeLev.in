@@ -353,6 +353,14 @@ This approach has several benefits:
 
 ---
 
+## Dumps Code Context on Claude 3.7
+
+> All that above stuff was really me just storytelling to establish context with
+> an article. The AI hadn't even really looked at the specific files we're
+> working yet, or the `.curorrules` and `README.md` that with tons more
+> exposition. I don't give any prompt instructions to go along with the files to
+> see whether Claude can infer it.
+
 &lt;think&gt;
 This message contains a lot of exposition about Python frameworks, FastHTML, and programming philosophy. Let me extract the key points:
 
