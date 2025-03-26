@@ -499,12 +499,18 @@ The plugin approach gives you exactly what you described - the ability to easily
 
 ## Todo: Externalize Todo
 
-I think you've got it right, Claude! However, I will not be taking any sample
-generated code risking changes, drift and regression. Instead, I will always be
-copy/pasting now from an established template, sort of locking down the patterns
-for a guaranteed success methodology, only making modifications consistent with
-a non-breaking policy and avoiding downward spirals of cascading unintended
-consequences. And don't worry about data migration. I'm nuking the `.db` file.
+> Once bitten, twice shy. Projects like this will be 1-day (or less) projects.
+> Chasing rabbits down rabbit holes are forbodden! There's something about
+> non-breaking methodology, and even a binary-search diagnostic procedure when
+> things go unexpected... but that's for another article.
+
+**Me**: I think you've got it right, Claude! However, I will not be taking any
+sample generated code risking changes, drift and regression. Instead, I will
+always be copy/pasting now from an established template, sort of locking down
+the patterns for a guaranteed success methodology, only making modifications
+consistent with a non-breaking policy and avoiding downward spirals of cascading
+unintended consequences. And don't worry about data migration. I'm nuking the
+`.db` file.
 
 So we're ready to externalize the Todo app? `(tasks, Task)` no longer part of the `fast_app` return?
 
