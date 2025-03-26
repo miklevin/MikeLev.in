@@ -523,14 +523,6 @@ In both cases, the `task` table has the same schema (id, name, done, priority, p
 
 # MiniDataAPI Spec
 
----
-title: MiniDataAPI Spec `.xtra()` Tutorial
-permalink: /futureproof/minidataapi-spec-xtra-tutorial/
-description: "This tutorial covers the essentials of MiniDataAPI, a minimalist Python API for straightforward CRUD database operations, explicitly designed without the complexity of advanced ORM features. Learn table setup, data insertion, record retrieval, updates, deletions, and how to leverage `.xtra()` for scoped data access in multi-tenant or permission-restricted applications."
-layout: post
-sort_order: 1
----
-
 ## What is MiniDataAPI Spec?
 
 MiniDataAPI is a minimalist persistence API for cross-database CRUD operations,
