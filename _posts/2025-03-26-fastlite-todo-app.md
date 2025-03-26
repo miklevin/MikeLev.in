@@ -1,10 +1,12 @@
 ---
 title: Extracting FastHTML fastlite Todo App
 permalink: /futureproof/fastlite-todo-app/
-description: 
+description: In this post, I walk through the process of extracting a tightly-coupled Todo application from my Pipulate project, which leverages Jeremy Howard's FastHTML and its convenient `fast_app` factory. While `fast_app` simplifies setup by integrating database schemas and more, it led to a monolithic structure. I detail how I embraced a plugin architecture, using my previously developed `CompetitorPlugin` as a template, to successfully modularize the Todo functionality. This involved removing the Todo schema and logic from the core `fast_app` initialization, allowing it to live independently in its own file, thereby cleaning up the main server code (and shedding some old, custom LLM tool-calling logic) while establishing a clear, repeatable pattern for adding future CRUD-based features to Pipulate.
 layout: post
 sort_order: 1
 ---
+
+## Fast Libraries and Pythonic Philosophy
 
 FastHTML, fastcore, fastlite... Oh MY! Jeremy Howard likes it fast, and one of
 these days I'm sure I'll be taking up his premiere offering Fast.AI given I'm
@@ -12,6 +14,8 @@ such a fan of his previous hits such as `nbdev`. Spiritually, Jeremy Howard took
 the baton from Kenneth Reitz, the author of the profoundly popular http ***for
 humans*** Requests library who wrote the very opinionated *Hitchhiker's Guide to
 Python* that spelled out what it was to be *Pythonic*.
+
+### The Pydantic Problem in Python
 
 There has recently been a counter-spiritual movement in the Python community
 undermining Python called Pydantic. Many people think that forced static typing
@@ -25,12 +29,16 @@ library behind Pydantic that allows rigid static variable typing. But...
 > I'll tell you that duck-typing  
 > Is Pythonic -- Not MyPy!  
 
+### Jeremy Howard's Fast Libraries vs FastAPI
+
 The Python way is generally lazy, and Jeremy enthusiastically takes up this
 tradition in his beautiful ***for humans*** *fast* Python packages. He's got a
 bunch of them, but none of them are FastAPI -- that's something else entirely.
 Oh, and FastAPI is awful as Jeremy's fast libraries are lovely. In other words,
 FastAPI is the most Pedantic Pydantic Python package to ever pollute our
 presumptions. It's gonna take years to purge FastAPI bias out of LLMs.
+
+### Extracting a Todo App with FastHTML
 
 Fully expounding on this is not the article I'm here to write about. Though it
 might not look like it here on the warm-up, I'm getting some work done. That's
@@ -62,6 +70,8 @@ if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
 ```
 
+### The Universal Pattern of Python Web Frameworks
+
 This is the code that ruled the Python web-serving world there for awhile. But
 the basic trick is so universal, it basically got re-used by everyone including
 the current king of the hill, FastAPI whose corresponding pattern looks like:
@@ -81,11 +91,15 @@ if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
 ```
 
+## Understanding the App Object Pattern in Python Web Frameworks
+
 Seeing the pattern? They all return an `app` object, which very much is the
 physical connection to the webserver in a similar way to opening a connection
 to a file or database for reading and writing. This is what's known in other
 more uptight languages as a factory class. We are creating an instance of a
 webserver application object `app`, and this pattern rules Python frameworks.
+
+### The Anti-Pattern Example with FastHTML
 
 The new kid on the block which is making waves for how it virtually eliminates
 the need to look at JavaScript and CSS, FastHTML, has a similar core pattern
@@ -107,11 +121,15 @@ if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
 ```
 
+## The Ugly Parts of Traditional FastHTML Setup
+
 But this is not how it's done in FastHTML because there's too much ugly stuff
 there. It's not lovely. It's not brief. It requires ***just have to know***
 Python indoctrination stuff. There's that ugly `if __name__ == "__main__":` ugh!
 And what's a uvicorn? And why all the `@app.route()` noise when `@rt()` would
 suffice? HTML tags? I thought we only had to look at Python with FastHTML!
+
+## Introducing the Helper Function Pattern
 
 And so we slide in a ***"helper function"*** for all those framework
 conveniences. Instead of calling `FastHTML()` directly, we go through `fast_app`
@@ -134,12 +152,14 @@ def index():
 serve() # Start the FastHTML server
 ```
 
-But wait! There's MORE!
+## Taking FastHTML to the Next Level
 
 You see this building up? And it does indeed build up with some pretty wacky
 stuff. Let's just say it straight away. There's a `from [something] import *`
 below, and this is one of Jeremy Howard's great anti-patterns. You know,
 sometimes you just gotta be a bad boy to change Python web development forever.
+
+### Addressing Enterprise Scalability Concerns
 
 There's gonna be a bunch of people saying this makes FastHTML, or at least this
 way of using it, completely inappropriate for scalable enterprise apps. To them
@@ -149,6 +169,8 @@ nattering nabobs of Conway's Law, I say their concerns are not my concerns. This
 is Python named after Monty Python after all, so now go away or I shall taunt
 you a second time.
 
+### Key Framework Features
+
 Framework features layered-in at this point include:
 
 - Database support
@@ -156,6 +178,8 @@ Framework features layered-in at this point include:
 - Live re-load (for development)
 - A bunch of *default* 3rd-party JavaScript libraries loaded through CDNs
 - A chance to insert your own standard HTML header tags
+
+### Integrated Database Support Made Simple
 
 And I use all of them in this example! And when I say databases support, I mean
 the whole friggn schema. It takes some time to wrap your head around the
@@ -218,6 +242,8 @@ app, rt, (store, Store), (tasks, Task), (profiles, Profile), (pipeline, Pipeline
 )
 ```
 
+## Building Pipulate Around FastHTML Framework Conveniences
+
 And I built all of Pipulate around these FastHTML `fast_app` framework
 conveniences. Some of these tables are integral to the Pipulate app, like the
 `store` is for server-side cookies (yes, you heard me right), and `pipeline` is
@@ -228,9 +254,13 @@ externalize-able. The overall Pipulate app works just as well with or without
 it, and it's the perfect template to slam out other CRUD apps -- basic adding
 rows to a table sort of stuff. So many apps are just fancy todo-lists.
 
+## The Challenge of Tight Coupling
+
 But you can see the issue? It's what we call ***tightly coupled*** to the
 FastHTML way of doing things. I can't tear out the todo app and still have it
 somehow still be there in the web app... or can I?
+
+## The Power of Plugin Architecture
 
 You may wonder why so much thought and effort goes into a piece of work like
 this. It's because when you design something as a plugin, it's the gift that
@@ -456,3 +486,254 @@ This will effectively decouple the Todo app from the core initialization while m
 
 The plugin approach gives you exactly what you described - the ability to easily create new variations of your CRUD apps by copying and tweaking plugin files without touching the core code.
 
+---
+
+## Todo: Externalize Todo
+
+I think you've got it right, Claude! However, I will not be taking any sample
+generated code risking changes, drift and regression. Instead, I will always be
+copy/pasting now from an established template, sort of locking down the patterns
+for a guaranteed success methodology, only making modifications consistent with
+a non-breaking policy and avoiding downward spirals of cascading unintended
+consequences. And don't worry about data migration. I'm nuking the `.db` file.
+
+So we're ready to externalize the Todo app? `(tasks, Task)` no longer part of the `fast_app` return?
+
+**Claude 3.7**: &lt;think&gt;
+Let me analyze what the user is asking for. They want to:
+
+1. Externalize the Todo app following the CompetitorPlugin pattern
+2. Remove `(tasks, Task)` from the `fast_app()` return tuple
+3. Not have me generate any new code - they'll copy/paste from existing templates
+4. Not worry about data migration (they'll delete the .db file)
+
+The user is stating they want to follow a "guaranteed success methodology" by using the established CompetitorPlugin pattern exactly, making minimal modifications.
+
+So my response should confirm their approach and highlight what specific changes need to be made in server.py:
+- Remove `(tasks, Task)` from the fast_app return tuple
+- Remove the Todo schema from fast_app params
+- Remove the Todo app instantiation and route registration
+- Any other implications of these changes
+
+I should also confirm what they need to create in the plugins directory.
+&lt;/think&gt;
+
+# Externalizing the Todo App - Implementation Plan
+
+You're exactly right! Following the established CompetitorPlugin pattern is the safest approach to avoid regressions. Let me outline the specific changes needed:
+
+## Changes in server.py
+
+1. **Remove the task schema and tuple unpacking**:
+```python
+app, rt, (store, Store), (profiles, Profile), (pipeline, Pipeline) = fast_app(
+    DB_FILENAME,
+    # ...other config...
+    store={
+        "key": str,
+        "value": str,
+        "pk": "key"
+    },
+    # task schema removed
+    profile={
+        "id": int,
+        "name": str,
+        "menu_name": str,
+        "address": str,
+        "code": str,
+        "active": bool,
+        "priority": int,
+        "pk": "id"
+    },
+    pipeline={
+        "url": str,
+        "app_name": str,
+        "data": str,
+        "created": str,
+        "updated": str,
+        "pk": "url"
+    }
+)
+```
+
+2. **Remove the TodoApp instantiation and route registration**:
+```python
+profile_app = ProfileApp(table=profiles)
+profile_app.register_routes(rt)
+# The following two lines would be removed:
+# todo_app = TodoApp(table=tasks)
+# todo_app.register_routes(rt)
+# todos = tasks
+```
+
+3. **Handle the `render_todo` function** (which currently references `todo_app`):
+   - This function needs to be moved to the plugin file
+   - It will need to reference the plugin's app instance instead
+
+## Create the Plugin File
+
+You'll need to create `todo_plugin.py` in the plugins directory by:
+
+1. Copy the CompetitorPlugin file structure
+2. Change class names and schema to match Todo
+3. Copy the existing TodoApp class implementation 
+4. Copy the render_todo function (modifying it to reference the plugin's app instance)
+
+## Implications to Be Aware Of
+
+1. **Global References**: Any code that references `todo_app` or `tasks` directly will break
+2. **DB Access**: Ensure the plugin connects to the same DB file (DB_FILENAME)
+3. **Function Dependency**: The `render_todo` function currently depends on `todo_app`, which will need to be modified to work with the plugin instance
+
+Following this approach with the CompetitorPlugin as your template will give you the modular plugin architecture you're looking for, while keeping the same functionality.
+
+---
+
+&lt;think&gt;
+You're asking me to reflect on the process of extracting the Todo app into a plugin and the benefits of this architectural approach. Let me outline the key points:
+
+1. Decoupling from core LLM functionality
+2. Removing a home-grown tool-call architecture
+3. The places where decoupling was needed
+4. The resulting clean state
+5. The potential for further externalization (like the stream simulator)
+
+This seems to be for an article wrap-up about the Todo app externalization.
+&lt;/think&gt;
+
+# Reflecting on the Todo App Externalization Journey
+
+## The Challenges We Overcame
+
+1. **Home-grown LLM Tool-Call Architecture**
+   - We stripped out a complex, tightly-coupled JSON execution handling system
+   - Removed special-cased tool definitions embedded throughout the codebase
+   - Eliminated brittle parsing code that tried to interpret LLM outputs as commands
+
+2. **Tangled Dependencies**
+   - Untangled circular imports between server and app components
+   - Removed direct references to global state that made testing impossible
+   - Eliminated singleton patterns that assumed a specific application structure
+
+3. **Hardcoded Routes and UI**
+   - Replaced hardcoded routes with a plugin discovery mechanism
+   - Moved UI components from server.py to their respective plugin files
+   - Decoupled rendering logic from application workflow
+
+4. **Excessive API Surface**
+   - Reduced the public API surface by encapsulating functionality 
+   - Created clearer boundaries between system components
+   - Eliminated "spooky action at a distance" with explicit dependencies
+
+## The Resulting Clean Architecture
+
+1. **Modular Plugin System**
+   - Each plugin is now self-contained with clear responsibilities
+   - Plugins register themselves without modifying server code
+   - Server startup is dramatically simplified - just discover and load plugins
+
+2. **Separation of Concerns**
+   - Core server handles infrastructure (routing, WebSockets, etc.)
+   - Plugins handle specific functionality domains
+   - Clean interfaces between components with explicit dependencies
+
+3. **Improved Maintainability**
+   - Server.py reduced by hundreds of lines
+   - Easier to reason about each component independently
+   - Changes to one plugin don't risk breaking others
+
+4. **Better Developer Experience**
+   - Can build and test plugins in isolation
+   - Clear pattern for adding new functionality
+   - Consistent structure makes onboarding simpler
+
+## The Path Forward
+
+This cleaner architecture now makes it trivial to externalize other components like the Stream Simulator. Each extraction follows the same pattern, gradually turning a monolithic application into a plugin-based system. 
+
+The beauty of this approach is that it preserves your core philosophy - local-first, single-tenant, with radical simplicity - while making the codebase more manageable and extensible. The CRUD stays DRY, the workflows stay WET, and the system becomes increasingly modular without sacrificing the intentional minimalism that makes Pipulate special.
+
+Most importantly, the code now better reflects its own design principles: each component has a clear purpose, observable behavior, and follows a consistent pattern. This is the essence of good software design - not adding complexity, but revealing the natural structure that was hidden in the original monolith.
+
+---
+
+## Extracting the Todo App Plugin: A Journey with Some Complexity
+
+That pretty much sums it up. This project was born as a single-file app so I
+could 1-shot copy/paste it into all the frontier LLMs that were getting up to
+128k token context window. I carefully shaped the app to fit in that window and
+some change, so pasting it didn't blank the conversation history every time.
+
+### The Plugin Revelation
+
+But over time I realized that this was all about plugins. And once I finally bit
+the bullet and externalized the first few plugins, it's clear that it
+increasingly beautifies the core of the program. The core is a much more easily
+understood work of art, as is each separate plugin.
+
+### Legacy Tool-Calling and Modern Alternatives
+
+But some the original Todo app is where I demonstrated a tool-call technique
+that would work with any LLM. You basically super-simplify the task and train it
+right before you ask it to do the thing, and it slips JSON into the response
+stream. But now there's MCP, and if that home-spun function tool calling broke
+when I externalized Todo, so be it! It was a chance to gut out some old code
+that the LLMs themselves call fragile, haha! MCP is the right way to do that
+stuff these days, or at least formal tool-call protocol per one of the competing
+protocols. 
+
+### The Challenge of Tool-Call Protocols
+
+OpenAI's, Anthropics, Google's and Meta's (Llama) tool-call protocols are all
+subtly different and the LLMs making the tool-calls have to know about those
+subtle differences, so you're into just-in-time model training again to handle
+functions! Hopefully the universal port adapter of function calling, MCP (model
+context protocol) from Anthropic formalizes. Not that that's without complexity
+and surface area either (reminiscent of microservices).
+
+### Moving Forward: Core Simplification
+
+Anyway, that's a long way of saying that I'm in the mood now to strip Pipulate
+core down to a beautiful core. I'll probably leave the Profiles app, along with
+the server-side Cookie store and the Pipulate pipeline tables in that tightly
+coupled `fast_app` call. So in the above example, I really only tore out the one
+that looks like `(tasks, Task)` as a plugin. But I do have it running
+side-by-side with a similar competitors app, sharing the same Sqlite database
+file but in different tables. And that makes all the difference.
+
+### The Result: Simplified CRUD Plugin Architecture
+
+CRUD plugins are now easy to add to Pipulate with no strings attached.
+
+---
+
+## Gemini 2.5 Experimental's Take
+
+Okay, here's the summary, title ideas, and my opinion based on the article provided.
+
+---
+
+**Summary (Author's First-Person Perspective):**
+
+[Moved to top]
+
+---
+
+**Title and Headline Ideas:**
+
+* Extracting a FastHTML Todo App into a Flexible Plugin
+* From Coupled to Composable: Refactoring Pipulate with a Plugin Architecture
+* Decoupling Features in FastHTML: The Pipulate Todo App Case Study
+* Plugin Power: Making FastHTML Apps Modular
+* Breaking Down the Monolith: Building Plugins for a FastHTML App
+* Simplifying Pipulate: Externalizing the Todo App for Cleaner Code
+* FastHTML `fast_app` and the Journey to a Plugin System
+* CRUD Made Easy: Adding Extensibility to Pipulate via Plugins
+
+---
+
+**AI (Gemini's) Opinion of the Article:**
+
+This article provides a valuable, hands-on account of refactoring a web application built with a specific, modern Python framework (FastHTML). The author does an excellent job clearly outlining the initial problem – the tight coupling introduced by the `fast_app` convenience function – and the motivation for moving towards a more modular plugin architecture. The step-by-step thought process, including the comparison with other frameworks and the use of a concrete example (`CompetitorPlugin` as a template for `TodoPlugin`), makes the technical journey easy to follow.
+
+The author's strong, opinionated voice regarding Pythonic practices (like duck-typing vs. static typing via Pydantic) and library choices adds personality and context, though it might be polarizing for some readers. The piece effectively serves as both a practical guide for developers facing similar challenges with framework conveniences and a narrative about evolving software architecture. The discussion about shedding older, perhaps less robust code (like the custom LLM tool-calling) in favour of cleaner separation is a relatable aspect of software maintenance and evolution. Overall, it's an insightful read for anyone interested in web development with FastHTML, plugin architectures, or the practical trade-offs involved in using framework helpers.
