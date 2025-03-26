@@ -18,9 +18,9 @@ Overall, it's a well-documented journey combining technical depth (exploring Fas
 
 ## CRUD is Dry & Workflows are WET
 
-> There is no doubt about it, I am hitting above my weight class due to AI
-> coding assistance, however the key is not having it code for you. The key is
-> having it pound into your thick noggin what's going on and why.
+> I'm hitting above my weight class due to AI coding assistance, however the key
+> is not having it code for you. The key is having it pound into your thick
+> noggin what's going on and why.
 
 ### Dry CRUD
 
