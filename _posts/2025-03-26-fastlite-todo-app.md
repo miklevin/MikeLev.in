@@ -670,11 +670,9 @@ The elegance of fastlite is how it allows this direct table creation with minima
 
 ### The Result: Simplified CRUD Plugin Architecture
 
-CRUD plugins are now easy to add to Pipulate with no strings attached.
-
-## FastHTML vs Plugin Tables: The Connection
-
-To complete the picture, let me clarify how the fastlite objects in the plugin directly parallel what's returned from `fast_app()`:
+CRUD plugins are now easy to add to Pipulate with no strings attached. To
+complete the picture, let me clarify how the fastlite objects in the plugin
+directly parallel what's returned from `fast_app()`:
 
 ```python
 # In main app initialization with fast_app():
