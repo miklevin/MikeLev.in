@@ -347,9 +347,9 @@ something like 12 books in, but laid out quite a positive vision for the future.
 
 Anyhow, this site is a very deliberate aligning of what I love to do, what I
 *have to get better at,* what I can get paid for... and what I think the world
-needs -- explicit examples of doing exactly this. A positive vision for the
-future. Future-proofing one's own technical skills. Becoming that figurative
-lightning bruiser video game trope character-type. And turning a love for
+needs -- *explicit examples* of doing exactly this. A positive vision for the
+future. Future-proofing one's own technical skills. Becoming that lightning
+bruiser character trope from video games (figuratively). And turning a love for
 getting into the flow state solving problems and riddles, into a livelihood.
 
 ---
