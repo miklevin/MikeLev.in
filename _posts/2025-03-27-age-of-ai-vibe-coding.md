@@ -249,26 +249,45 @@ certainly not dead.
 
 #### The Power of Small Victories
 
-Sometimes correlation does mean causation -- numbers being small as they were.
-But no matter. If you can levitate a rock, you can levitate an X-Wing out of the
-swamps of Dagobah.
+Sometimes correlation does mean causation. The numbers may be small, but no
+matter. If you can levitate a rock, you can levitate an X-Wing out of the swamps
+of Dagobah. Do or do not. There is no try.
 
 #### Rejecting Artificial Traffic
 
 So yes, I still had it. Problem is, I didn't want it -- at least not this cheap
-test-traffic I was generating with not-my-audience. That was around this time
-last year. So I pulled back, shifted topics and caused another little traffic
-spike, but *I didn't want that traffic either!* 
+test-traffic I was generating with not-my-audience. I justified it because with
+a blog site, you can pretty much ramble on any topic. But no. 2-years into
+ChatGPT is long enough. I've had a sample. I have good data and make some big
+sweeping directional adjustments. 
+
+That was around this time last year. But after causing a little traffic pop,
+could I pull back content, adjust topical focus and still cause the gradual
+traffic-building snowball effect? So I pulled back, shifted topics and caused
+another little traffic spike, but *I didn't want that traffic either!* 
+
+So, I constricted my vanity site back down to 1-page and thought. What's going
+on here? What's this site about? What am I about? What can I pour my passion
+into every day that helps me, adds to my economic value and feeds my soul?
 
 ### The ChatGPT Revolution and SEO Ethics
 
 What as going on was that as of ChatGPT's release on November of 2022, Sci-Fi
-had caught up with reality. We were talking with AIs now and could take on
-endeavors that were previously excessively challenging, but now no problem.
-Doorway-page generator spam cannons that already existed in my industry became
-infinite-spam doorway page generators, and as appealing as the thought may be,
-NO! Just no. I may be an SEO, but I have something like personal integrity as an
-artist. 
+had caught up with reality. This is heady stuff when you grew up with the Atari
+2600, the first massively popular digital computer in people's homes. When you
+grew up reading comic books and Asimov's *I, Robot* and *Foundation* series.
+
+We were talking with AIs now and could take on endeavors that were previously
+excessively challenging, but now no problem. We in the information economy were
+suddenly enabled to hit above our weight class and tackle projects that were
+previously unachievable.
+
+In the field of SEO? The writing was on the wall -- or perhaps more accurately
+the AI-generated writing was all over WordPress automation sites. Doorway-page
+generator spam cannons which already existed in SEO became infinite-spam doorway
+page generators! Ugh, gag! As appealing as the traffic-grab that I knew this
+made possible may be -- still, just NO! I may be an SEO, but I have something
+like personal integrity as something like an artist. 
 
 #### Finding My True Direction
 
