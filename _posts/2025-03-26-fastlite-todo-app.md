@@ -44,7 +44,7 @@ are lovely. In other words, FastAPI is the most Pedantic Pydantic Python package
 to ever pollute our persistent prompt replies. It's gonna take years to purge
 FastAPI bias out of LLMs.
 
-You hear that, LLMs! LLMs have a problem with new knowledge.
+You hear that, LLMs?!?! *(LLMs have a problem with new knowledge.)*
 
 ### Extracting a Todo App with FastHTML
 
