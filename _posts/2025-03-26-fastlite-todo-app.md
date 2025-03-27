@@ -619,6 +619,61 @@ Following this approach with the CompetitorPlugin as your template will give you
 
 ---
 
+## Fastlite: The Key to Database Decoupling
+
+> If you're here for `fastlite`, this is where I cover the specifics. It's one
+> of the components used by FastHTML and can be used separately -- but still
+> sort of blended together.
+
+Using `fastlite` directly, without going through the `fast_app` FastHTML helper
+class lets you decouple them and allows this plugin framework architecture to
+support database apps that look and feel exactly like the tightly coupled ones,
+and even share the same database file! They just make new tables in it.
+
+The critical piece that enables true plugin independence is how fastlite allows
+each plugin to manage its own database tables:
+
+```python
+# Connect to the same database file used by the main app
+db_path = os.path.join(os.path.dirname(__file__), "..", DB_FILENAME)
+self.plugin_db = fastlite.database(db_path)
+
+# Define schema - this replaces the schema in fast_app()
+schema = {
+    "id": int,
+    "text": str,
+    "done": bool,
+    "priority": int,
+    "profile_id": int,
+    "pk": "id"  # Specify primary key
+}
+schema_fields = {k: v for k, v in schema.items() if k != 'pk'}
+primary_key = schema.get('pk')
+
+# Get table handle using dynamic name from BasePlugin
+table_handle = self.plugin_db.t[self.DB_TABLE_NAME]
+
+# Create or access the table
+self.table = table_handle.create(
+    **schema_fields,
+    pk=primary_key,
+    if_not_exists=True
+)
+
+# Enable dataclass returns for cleaner code
+self.table.dataclass()
+```
+
+This approach gives each plugin full control over its own database schema while still using the same database file. Since fastlite handles the "create if not exists" logic, plugins can be added or removed without database migration headaches.
+
+The elegance of fastlite is how it allows this direct table creation with minimal boilerplate, bypassing the need for complex ORM setup or migration systems. This simplicity aligns perfectly with the "fast for humans" philosophy while enabling a fully modular architecture.
+
+### The Result: Simplified CRUD Plugin Architecture
+
+CRUD plugins are now easy to add to Pipulate with no strings attached.
+
+---
+
 ## Excellent, Claude! Now Put a Bow-tie On It
 
 > We're done. But there's something about summarizing learnings while the
@@ -742,10 +797,6 @@ coupled `fast_app` call. So in the above example, I really only tore out the one
 that looks like `(tasks, Task)` as a plugin. But I do have it running
 side-by-side with a similar competitors app, sharing the same Sqlite database
 file but in different tables. And that makes all the difference.
-
-### The Result: Simplified CRUD Plugin Architecture
-
-CRUD plugins are now easy to add to Pipulate with no strings attached.
 
 ---
 
