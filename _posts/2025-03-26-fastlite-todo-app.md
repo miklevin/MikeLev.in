@@ -725,8 +725,8 @@ discovery infers everything that controls the back-end and endpoints from the
 plugin's filename.
 
 So in other words, I choose whichever case I want to control what the endpoints
-(URLs) will become (http://localhost:5001/competitor vs.
-http://localhost:5001/competitors). 
+(URLs) become (http://localhost:5001/**competitor** vs.
+http://localhost:5001/**competitors**). 
 
 You can of course still override what the user sees (the UX) in the user
 interface (UI) by opening the file and customizing.
