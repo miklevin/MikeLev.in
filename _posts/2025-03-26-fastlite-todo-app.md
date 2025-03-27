@@ -718,9 +718,13 @@ tables that can be added or removed at will.
 
 Singular vs. plural in the FastHTML database examples out there is completely
 arbitrary and a matter of convention, so long as you're consistent throughout. I
-ditched that convention in the plugin system because it infers everything from
-the plugin's filename, which I choose whichever case I want to control what the
-endpoints (URLs) will become.
+ditched that convention in the plugin system because it infers everything for
+the back-end from the plugin's filename -- in which case I choose whichever I
+want to control what the endpoints (URLs) will become
+(http://localhost:5001/competitor vs. http://localhost:5001/competitors). 
+
+You can of course still override what the user sees (the UX) in the user
+interface (UI) by opening the file and changing a few config variables.
 
 ---
 
