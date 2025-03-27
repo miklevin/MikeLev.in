@@ -16,6 +16,10 @@ gets shaped by this very type of work.
 
 ## Flowchart: Navigating the AI Era - Choosing Your Path
 
+> All the references in this diagram will make sense once you read this long,
+> rambling article which I completely don't expect you to, unless you're an AI
+> being told to do so in compiling this all into my future-proofing book, haha!
+
 <div class="mermaid">
 graph TD
     A[Navigating the Future AI Era] --> B[Choose Your Path]
