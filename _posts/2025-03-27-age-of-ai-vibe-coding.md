@@ -295,7 +295,17 @@ So while I still had to conduct tests to be working with good data, I will not
 make spam cannons! So I pulled it back again and basically blanked my site. I
 brought it down to one page, and realized that holding on to that love for
 technology in the face of the existential funk Terminator/Matrix invites, and
-all the while, future-proofing my tech skills in the age of AI! 
+all the while future-proofing my tech skills in ways that are carefully
+calibrated for the age of AI! 
+
+Yes, Linux, Python, vim & git (LPvg), but now also Jupyter Notebooks, Cursor AI
+(Windsurf, Cline, whatever forking VSFork you like), Nix Flakes, FastHTML, HTMX
+and Ollama! All the ingredients of the Genie in the bottle. Everything required
+to build Chip O'Theseus while still taking advantage of the frontier AI models
+and cool-kid power-tools. 
+
+Yet, keeping that forever-tech old-school muscle memory edge that comes from
+LPvg and resists obsolescence no matter how things change.
 
 And showing others how to do the same.
 
