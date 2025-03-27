@@ -741,6 +741,13 @@ CRUD plugins are now easy to add to Pipulate with no strings attached.
 > To slam out standard plugin lists  
 > Renaming file's what I missed!  
 
+Why load a file and edit configuration variables when one CRUD app and the next
+are possibly so similar (todo vs tasks vs reminders vs competitors, or wutnot)
+that all you need is a new filename? You can infer the endpoint name (for the
+URLs) and the tablename for the database! No muss, no fuss. Rename plugin, new
+app! Of course it can be highly customized from there, but this is what struck
+me and this is what I did. Done.
+
 **Me**: Describe the round of work we just did so that I can add an extra
 paragraph to this article: [Pastes this entire article]
 
