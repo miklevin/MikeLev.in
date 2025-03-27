@@ -672,6 +672,43 @@ The elegance of fastlite is how it allows this direct table creation with minima
 
 CRUD plugins are now easy to add to Pipulate with no strings attached.
 
+## FastHTML vs Plugin Tables: The Connection
+
+To complete the picture, let me clarify how the fastlite objects in the plugin directly parallel what's returned from `fast_app()`:
+
+```python
+# In main app initialization with fast_app():
+app, rt, (store, Store), (tasks, Task), (profiles, Profile), (pipeline, Pipeline) = fast_app(
+    "data/data.db",
+    # ... configuration ...
+    task={  # Schema definition for Task table
+        "id": int,
+        "name": str,
+        "done": bool,
+        "priority": int,
+        "profile_id": int,
+        "pk": "id"
+    },
+    # ... other schemas ...
+)
+
+# tasks - lowercase variable is the table handle for queries
+# Task - capitalized variable is the dataclass for that table
+
+# In the plugin's initialization:
+table_handle = self.plugin_db.t[self.DB_TABLE_NAME]  # Equivalent to 'tasks'
+self.table = table_handle.create(
+    **schema_fields,
+    pk=primary_key,
+    if_not_exists=True
+)
+self.table.dataclass()  # Creates equivalent of 'Task' dataclass
+```
+
+This is the key insight: the plugin manually creates the exact same objects (`table` handle and its dataclass) that would normally be returned from `fast_app()`. By doing so, it bypasses the need to include its schema in the main app initialization.
+
+The plugin's table connects to the same database file but operates independently, mirroring the pattern established by the convenience factory but without requiring changes to the core app. This approach gives you the best of both worlds - FastHTML's convenience for core tables and independent plugin tables that can be added or removed at will.
+
 ---
 
 ## Excellent, Claude! Now Put a Bow-tie On It
