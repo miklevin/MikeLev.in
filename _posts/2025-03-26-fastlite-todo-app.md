@@ -293,9 +293,11 @@ done.
 
 ## Super-prompt Complete! Over to Claude 3.7!
 
-> And so there you have it. That's the super-prompt. All the big-thinking is
-> done. I tapped Grok3, ChatGPT o3 and even Gemini 2.5 there at the end. The
-> rest is up to Claude 3.7 that's built into Cursor AI. Let's get it thinking...
+> All that above stuff was really me just storytelling to establish context with
+> an article. The AI hadn't even really looked at the specific files we're
+> working yet, or the `.curorrules` and `README.md` that with tons more
+> exposition. Before I even feed this article to Claude, I feed it a bunch of
+> related code that I want in context.
 
 &lt;think&gt;
 I'm looking at code and documentation for a project called "Pipulate", which appears to be a local-first, single-tenant web application framework built with FastHTML, MiniDataAPI, and local LLM integration via Ollama.
@@ -368,13 +370,12 @@ This approach has several benefits:
 
 ---
 
-## Dumps Code Context on Claude 3.7
+## Dumps This Article on Claude 3.7
 
-> All that above stuff was really me just storytelling to establish context with
-> an article. The AI hadn't even really looked at the specific files we're
-> working yet, or the `.curorrules` and `README.md` that with tons more
-> exposition. I don't give any prompt instructions to go along with the files to
-> see whether Claude can infer it.
+> Having primed the pump, laying down context with Claude showing it the code it
+> was going to be dealing with, and a lot of philosophical and architectural
+> stuff from `.cursorrules` and `README.md`, it's time for the big reveal! I
+> show it this article (thus far)...
 
 &lt;think&gt;
 This message contains a lot of exposition about Python frameworks, FastHTML, and programming philosophy. Let me extract the key points:
