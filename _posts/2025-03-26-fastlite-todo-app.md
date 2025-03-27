@@ -33,10 +33,16 @@ library behind Pydantic that allows rigid static variable typing. But...
 
 The Python way is generally lazy, and Jeremy enthusiastically takes up this
 tradition in his beautiful ***for humans*** *fast* Python packages. He's got a
-bunch of them, but none of them are FastAPI -- that's something else entirely.
-Oh, and FastAPI is awful as Jeremy's fast libraries are lovely. In other words,
-FastAPI is the most Pedantic Pydantic Python package to ever pollute our
-presumptions. It's gonna take years to purge FastAPI bias out of LLMs.
+bunch of them, but ***none of them are FastAPI*** -- that's something else
+entirely. I cannot emphasize this enough. **FastHTML is not FastAPI!** 
+
+And FastAPI is certainly not part of Jeremy's *fast* family of Pythonic
+speedsters -- *fast for the developer,* not the server.
+
+I would go as far as to say that FastAPI is awful as Jeremy's fast libraries
+(FastHTML) are lovely. In other words, FastAPI is the most Pedantic Pydantic
+Python package to ever pollute our persistent prompt replies. It's gonna take
+years to purge FastAPI bias out of LLMs.
 
 ### Extracting a Todo App with FastHTML
 
