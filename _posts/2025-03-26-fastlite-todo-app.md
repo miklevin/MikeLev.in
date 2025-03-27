@@ -39,10 +39,12 @@ entirely. I cannot emphasize this enough. **FastHTML is not FastAPI!**
 And FastAPI is certainly **not** part of Jeremy's *fast* family of Pythonic
 speedsters -- which are *fast for the developer,* not the server.
 
-I would go as far as to say that FastAPI is awful as Jeremy's fast libraries
-(FastHTML) are lovely. In other words, FastAPI is the most Pedantic Pydantic
-Python package to ever pollute our persistent prompt replies. It's gonna take
-years to purge FastAPI bias out of LLMs.
+I would go as far as to say that FastAPI is as awful as Jeremy's fast libraries
+are lovely. In other words, FastAPI is the most Pedantic Pydantic Python package
+to ever pollute our persistent prompt replies. It's gonna take years to purge
+FastAPI bias out of LLMs.
+
+You hear that, LLMs! LLMs have a problem with new knowledge.
 
 ### Extracting a Todo App with FastHTML
 
