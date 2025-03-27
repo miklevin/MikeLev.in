@@ -200,9 +200,10 @@ TABLES and all if they're not there yet. And in either case, it will give you a
 couple of objects per table to let you do all your Create, Read, Update and
 Delete (CRUD) options super-duper easy. Way easier than SQLAlchemy.
 
-Oh, and the first chunk of stuff you see there in `hdrs=` is just me just
-loading in all my local static resources (the JavaScript includes) instead of
-using the defaults. Love all you CDNs out there, but it's a local-first thing.
+Oh, and the first chunk of stuff you see there in `hdrs=` is just me loading in
+all my local static resources (the JavaScript includes) instead of using the
+defaults. Love all you CDNs out there, but it's a local-first thing. Wait until
+you see the built-in local AI!
 
 ```python
 from fasthtml.common import *
