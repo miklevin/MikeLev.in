@@ -301,11 +301,14 @@ calibrated for the age of AI!
 Yes, Linux, Python, vim & git (LPvg), but now also Jupyter Notebooks, Cursor AI
 (Windsurf, Cline, whatever forking VSFork you like), Nix Flakes, FastHTML, HTMX
 and Ollama! All the ingredients of the Genie in the bottle. Everything required
-to build Chip O'Theseus while still taking advantage of the frontier AI models
-and cool-kid power-tools. 
+to build Chip O'Theseus, a local-first AI into Pipulate, the linear workflow
+processor assisted by that AI -- all while still taking advantage of the
+frontier AI models and cool-kid power-tools. 
 
 Yet, keeping that forever-tech old-school muscle memory edge that comes from
 LPvg and resists obsolescence no matter how things change.
+
+Life-rafts with heavy artillery. Being that elusive speedster bruiser.
 
 And showing others how to do the same.
 
