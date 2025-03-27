@@ -676,7 +676,7 @@ directly parallel what's returned from `fast_app()`:
 
 ```python
 # In main app initialization with fast_app():
-app, rt, (store, Store), (tasks, Task), (profiles, Profile), (pipeline, Pipeline) = fast_app(
+app, rt, (tasks, Task), (profiles, Profile) = fast_app(
     "data/data.db",
     # ... configuration ...
     task={  # Schema definition for Task table
@@ -703,9 +703,24 @@ self.table = table_handle.create(
 self.table.dataclass()  # Creates equivalent of 'Task' dataclass
 ```
 
-This is the key insight: the plugin manually creates the exact same objects (`table` handle and its dataclass) that would normally be returned from `fast_app()`. By doing so, it bypasses the need to include its schema in the main app initialization.
+This is the key insight: the plugin manually creates the exact same objects
+(`table` handle and its dataclass) that would normally be returned from
+`fast_app()`. By doing so, it bypasses the need to include its schema in the
+main app initialization.
 
-The plugin's table connects to the same database file but operates independently, mirroring the pattern established by the convenience factory but without requiring changes to the core app. This approach gives you the best of both worlds - FastHTML's convenience for core tables and independent plugin tables that can be added or removed at will.
+The plugin's table connects to the same database file but operates
+independently, mirroring the pattern established by the convenience factory but
+without requiring changes to the core app. This approach gives you the best of
+both worlds - FastHTML's convenience for core tables and independent plugin
+tables that can be added or removed at will.
+
+#### Singluar vs. Plural
+
+Singular vs. plural in the FastHTML database examples out there is completely
+arbitrary and a matter of convention, so long as you're consistent throughout. I
+ditched that convention in the plugin system because it infers everything from
+the plugin's filename, which I choose whichever case I want to control what the
+endpoints (URLs) will become.
 
 ---
 
