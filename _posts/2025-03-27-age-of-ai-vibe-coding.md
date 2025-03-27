@@ -293,8 +293,13 @@ like personal integrity as something like an artist.
 
 So while I still had to conduct tests to be working with good data, I will not
 make spam cannons! So I pulled it back again and basically blanked my site. I
-brought it down to one page, and realized that future-proofing in the age of AI
-was my thing.
+brought it down to one page, and realized that holding on to that love for
+technology in the face of the existential funk Terminator/Matrix invites, and
+all the while, future-proofing my tech skills in the age of AI! 
+
+And showing others how to do the same.
+
+Yeah, that was my thing!
 
 ## Finding Purpose in the Age of AI
 
