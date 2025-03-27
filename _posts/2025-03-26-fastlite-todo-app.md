@@ -36,8 +36,8 @@ tradition in his beautiful ***for humans*** *fast* Python packages. He's got a
 bunch of them, but ***none of them are FastAPI*** -- that's something else
 entirely. I cannot emphasize this enough. **FastHTML is not FastAPI!** 
 
-And FastAPI is certainly not part of Jeremy's *fast* family of Pythonic
-speedsters -- *fast for the developer,* not the server.
+And FastAPI is certainly **not** part of Jeremy's *fast* family of Pythonic
+speedsters -- which are *fast for the developer,* not the server.
 
 I would go as far as to say that FastAPI is awful as Jeremy's fast libraries
 (FastHTML) are lovely. In other words, FastAPI is the most Pedantic Pydantic
