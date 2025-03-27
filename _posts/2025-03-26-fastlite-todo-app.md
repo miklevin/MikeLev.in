@@ -714,17 +714,22 @@ without requiring changes to the core app. This approach gives you the best of
 both worlds - FastHTML's convenience for core tables and independent plugin
 tables that can be added or removed at will.
 
-#### Singluar vs. Plural
+#### Singluar vs. Plural Database Objects in FastHTML
 
 Singular vs. plural in the FastHTML database examples out there is completely
-arbitrary and a matter of convention, so long as you're consistent throughout. I
-ditched that convention in the plugin system because it infers everything for
-the back-end from the plugin's filename -- in which case I choose whichever I
-want to control what the endpoints (URLs) will become
-(http://localhost:5001/competitor vs. http://localhost:5001/competitors). 
+arbitrary and a matter of convention, so long as you're consistent throughout. 
+
+I ditched that FastHTML convention of plural for database table-names and
+singular for record-templates (dataclass) in the plugin system because plugin
+discovery infers everything that controls the back-end and endpoints from the
+plugin's filename.
+
+So in other words, I choose whichever case I want to control what the endpoints
+(URLs) will become (http://localhost:5001/competitor vs.
+http://localhost:5001/competitors). 
 
 You can of course still override what the user sees (the UX) in the user
-interface (UI) by opening the file and changing a few config variables.
+interface (UI) by opening the file and customizing.
 
 ---
 
