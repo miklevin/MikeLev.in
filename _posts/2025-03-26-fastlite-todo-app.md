@@ -293,11 +293,11 @@ done.
 
 ## Super-prompt Complete! Over to Claude 3.7!
 
-> All that above stuff is me build up to a coding challenge through storytelling
-> to put before the AI coding assistant. But before I even feed it this article,
-> I feed it the `cursorrules.txt` and `README.md` that go with Pipulate's repo
-> along with `CompetitorPluign`, my own first crack at the solution. No other
-> prompt!
+> All that above stuff is me building up to a coding challenge through
+> storytelling to put before the AI coding assistant. But before I even feed it
+> this article, I feed it the `cursorrules.txt` and `README.md` that go with
+> Pipulate's repo along with `CompetitorPluign`, my own first crack at the
+> solution. No other prompt!
 
 &lt;think&gt;
 I'm looking at code and documentation for a project called "Pipulate", which appears to be a local-first, single-tenant web application framework built with FastHTML, MiniDataAPI, and local LLM integration via Ollama.
