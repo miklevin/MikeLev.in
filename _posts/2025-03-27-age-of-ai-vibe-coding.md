@@ -1,7 +1,7 @@
 ---
 title: "Future-Proofing in the Age of AI: Beyond Vibe Coding"
 permalink: /futureproof/age-of-ai-vibe-coding/
-description: Facing a day of client calls, I use this early morning reflection to explore how I'm managing my time and future-proofing my skills in the age of AI. I argue against the superficiality of 'vibe coding,' emphasizing that lasting value comes from deep technical expertise, problem-solving in a flow state, and developing systems like Pipulate, ensuring I remain a skilled 'Carpenter' rather than a dependent 'Oyster' by aligning my passion, skills, and livelihood while navigating the complexities and potential pitfalls highlighted in classic sci-fi.
+description: Facing a day of client calls and system development, I'm using this early morning window to reflect on managing my time and future-proofing my skills amidst the rapid AI shift. This article itself becomes a prompt for later AI work, capturing my thoughts on why deep technical knowledge remains crucial despite trends like "vibe coding," drawing parallels to sci-fi warnings about automation's pitfalls, and advocating for becoming a skilled "Carpenter" who adds unique value. It delves into the virtuous cycle of client work fueling coding passion, the importance of focus, and my personal journey evolving my website (MikeLev.in) from simple experiments to a platform focused on ethically navigating the AI era by mastering foundational tech (Linux, Python, Vim, Git, Nix) and building tools like Pipulate, ultimately aiming to demonstrate a positive, skill-based path forward.
 layout: post
 sort_order: 1
 ---
@@ -360,7 +360,7 @@ Okay, here are the requested pieces based on the article provided:
 
 **Summary (From the Author's First-Person Perspective):**
 
-Facing a day of client calls and system development, I'm using this early morning window to reflect on managing my time and future-proofing my skills amidst the rapid AI shift. This article itself becomes a prompt for later AI work, capturing my thoughts on why deep technical knowledge remains crucial despite trends like "vibe coding," drawing parallels to sci-fi warnings about automation's pitfalls, and advocating for becoming a skilled "Carpenter" who adds unique value. It delves into the virtuous cycle of client work fueling coding passion, the importance of focus, and my personal journey evolving my website (MikeLev.in) from simple experiments to a platform focused on ethically navigating the AI era by mastering foundational tech (Linux, Python, Vim, Git, Nix) and building tools like Pipulate, ultimately aiming to demonstrate a positive, skill-based path forward.
+[Moved to top]
 
 **Title and Headline Ideas:**
 
