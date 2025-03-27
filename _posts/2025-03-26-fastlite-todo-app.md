@@ -293,7 +293,7 @@ done.
 
 ## Super-prompt Complete! Over to Claude 3.7!
 
-> And so there you have it. That's the super-prompt. All the bit-thinking is
+> And so there you have it. That's the super-prompt. All the big-thinking is
 > done. I tapped Grok3, ChatGPT o3 and even Gemini 2.5 there at the end. The
 > rest is up to Claude 3.7 that's built into Cursor AI. Let's get it thinking...
 
