@@ -45,16 +45,22 @@ Sure, we could go directly to Reddit, perform direct searches on GitHub and
 StackOverflow. We could switch Google to academic-mode. There is the
 ***verbatim*** search tool still hiding in Google, and more recently the
 ***Web*** option hidden under "...More". I mean think about that! Google can
-still perform a Web search, but you have to go looking for it! Hahaha. Point
-being, actual research became a hodgepodge of nothing great...
+still perform a Web search, but you have to go looking for it! Hahaha. And if
+push comes to shove, you could reach out on Twitter or join the appropriate
+Discord. Point being, actual research became a hodgepodge of nothing great...
 
 ### The Limitations of 1st Generation AI Search Solutions
 
-...especially in the landscape changing so quickly by ChatGPT, Bing and
-Perplexity who are all now pushing the chat interface on us as
+...especially now in the changing landscape brought about so suddenly by
+ChatGPT, Bing and Perplexity -- who all push the chat interface on us as
 *Google-disrupting* ***general search***. We intuitively feel LLMs should be a
-game-changer, but all these service's 1-web-search citations powered by
-Microsoft's Bing API, that get layered in as footnotes are not enough.
+game-changer in search, but all these service's 1-web-search citations powered
+by Microsoft's Bing API, that get layered in as footnotes are not enough.
+
+And Google's AI Overviews? Everything about them is designed to not cut into
+Google Ads revenue. Classic innovators dilemma. Nothing about the AI-enhanced
+search experience lives up to the advancements that our guts tell us should be
+there.
 
 We know that it has to... it has to... it has to... go deeper! More than 1
 search. It needs to re-search!
