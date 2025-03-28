@@ -54,7 +54,7 @@ Discord. Point being, actual research became a hodgepodge of nothing great...
 ...especially now in the changing landscape brought about so suddenly by
 ChatGPT, Bing and Perplexity -- who all push the chat interface on us as
 *Google-disrupting* ***general search***. We intuitively feel LLMs should be a
-game-changer in search, but all these service's 1-web-search citations powered
+game-changer in search, but all these services' 1-web-search citations powered
 by Microsoft's Bing API, that get layered in as footnotes are not enough.
 
 And Google's *AI Overviews?* Everything about them is designed to not cut into
