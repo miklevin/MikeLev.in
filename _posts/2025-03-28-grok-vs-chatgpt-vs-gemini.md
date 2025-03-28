@@ -79,10 +79,10 @@ for the more formal **R**esearch while ChatGPT uses the understated
 
 Also, you have to be logged in on Google to use the feature, which I believe
 they started making available to non-paying logged in products. Remember, if
-you're not paying for the product, you are the product when advertisers are in
-the picture. So while performing research might be free, the topics you're
-researching are almost certainly becoming part of your profile or dossier for
-advertisers. 
+you're not paying for the product, you are the product -- *specifically and
+especially when advertisers are in the picture!* So while performing research
+might be free, the topics you're researching are almost certainly becoming part
+of your profile or dossier for advertisers. 
 
 Think about that for a moment. Your research is being paid-for by ad subsidies,
 which is how Google can deliver you such services for free. And the results of
