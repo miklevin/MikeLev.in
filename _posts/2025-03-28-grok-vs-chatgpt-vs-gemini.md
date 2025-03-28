@@ -152,9 +152,9 @@ search* (because he could), it kicked off the competition, and you now get 3
 expensive I'm guessing such services are (normal search x 1000, at least).
 
 Perplexity labels theirs ***Deep Research,*** *In-depth reports on complex
-topics.* I've used up my 3 *genie wishes* for today, and it's only 6:30 AM, haha!
-So to carry through on this super-prompt, I'm going to have to use a different
-login with Perplexity.
+topics.* I've used up my 3 ***genie wishes*** for today, and it's only 6:30 AM,
+haha! So to carry through on this super-prompt, I'm going to have to use a
+different login with Perplexity.
 
 ## Setting Up The Research Challenge
 
