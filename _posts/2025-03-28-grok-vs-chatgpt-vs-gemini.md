@@ -137,8 +137,8 @@ We forget, but the Charles Manson family was influenced by the concept of grok,
 reframing it to support his ideas of total unity, control, and a distorted sense
 of enlightenment within his death-cult. The word itself is powerful, both a noun
 and a verb. It rolls off the tongue more smoothly *to grok something* than it
-does *to google it* -- by precisely 1-syllable. And grokking is so much less of
-a baby-word than goo-goo, gah-gah google.
+does *to google it* -- by precisely 1-syllable. And *grokking* is so much less
+of a baby-word than goo-goo, gah-gah *googling.*
 
 ## Branding Wars in AI Search
 
