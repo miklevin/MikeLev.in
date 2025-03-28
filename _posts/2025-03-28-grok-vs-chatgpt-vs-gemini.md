@@ -160,13 +160,27 @@ different login with Perplexity.
 
 Super-prompt, you ask? Why yes, of course. You didn't think I was merely writing
 an article, did you? No my friend, this is just the deep breath and warm-up for
-the... you guessed it! So, whatever LLM I'm feeding this to, because you know
-it's going to Google Gemini Deep Research (which doesn't put a Gemini version
-number on it anymore) paid for under the $100/yr GoogleOne service, Grok 3 under
-the free tier. I'm not even paying for the $32/yr X.com subscription and
-certainly not the $300/yr Super-Grok membership. I do have access to the $200/mo
-ChatGPT Pro plan (woot!). And I'll be using one of the 3/day Perplexity free
-account genie wishes.
+the... you guessed it! Did you? This whole article is a deep research prompt.
+
+It's the background. It's the context I'm giving each AI to perform the research
+I'm asking for. This is no problem, given the 128K token context window these
+things generally have nowadays. That can all be research background! Fleshing
+out the story. Laying the foundation for whatever LLM I feed this to.
+
+Which LLMs?
+
+Google Gemini Deep Research doesn't put a Gemini version number on it
+anymore. They don't want you to know it's 1.5 handling Deep Research while they
+have 2.5 Experimental out there. The number-difference is too big for
+credibility, but the model is probably plenty able for research. And I have
+access to it under the $100/yr GoogleOne service.
+
+I'll use Grok 3 under the free tier becuse I'm not even paying for the $32/yr
+X.com subscription for the blue checkmark, and certainly not the $300/yr
+Super-Grok membership unless and until it knocks my socks off. 
+
+I do have access to the $200/mo ChatGPT Pro plan (woot!). And I'll be using one
+of the 3/day Perplexity free account genie wishes.
 
 Anyway, whichever of you I'm talking to right now, the research request is this.
 
