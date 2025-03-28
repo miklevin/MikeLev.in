@@ -120,14 +120,16 @@ at his expense, but to differentiate his services.
 
 ## The Deep History of "Grok"
 
-I know this is difficult to grok, but grokking ain't easy. It's not at all what
-it's dumbed-down to for the public. Grok is a Martian word meaning to understand
-something so deeply and intuitively that you have internalized everything about
-it -- consumed its essence -- merging with it on a spiritual level; deeply
-personal and not done lightly. I.e. cannibalism. It is the *soup made from a
-dead person* in Robert Heinlein's 1961 *Stranger in a Strange Land*, every bit
-as lightheartedly gory as the *Sweeney Todd: The Demon Barber of Fleet Street*
-musical. 
+I know this is difficult to grok, but grokking ain't easy. Even the term *grok*
+itself is not at all what it's dumbed-down to for the public. Amongst us Sci-Fi
+nerds, Grok is a Martian word meaning to understand something so deeply and
+intuitively that you have internalized everything about it. And I really mean
+internalized -- consumed its essence -- merging with it on a spiritual level.
+
+I.e. cannibalism. In this profoundly influential Sci-Fi classic, to grok someone
+fully is to consume the *soup made from them* after their passing. Robert
+Heinlein's 1961 *Stranger in a Strange Land* is every bit as lightheartedly gory
+as the *Sweeney Todd: The Demon Barber of Fleet Street* musical. 
 
 ### The Cultural Impact of Grok
 
