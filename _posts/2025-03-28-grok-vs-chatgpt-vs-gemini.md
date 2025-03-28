@@ -148,11 +148,11 @@ overlapping branding. Least we forget the underdog and uncredited original:
 Perplexity! I'm not on their $20/mo Perplexity Pro program so I never really
 knew much about their service, but when Elon Musk started giving away *Deep
 search* (because he could), it kicked off the competition, and you now get 3
-"enhanced searches" per-day from Perplexity -- the limit validating how
+***"enhanced searches"*** per-day from Perplexity -- the limit validating how
 expensive I'm guessing such services are (normal search x 1000, at least).
 
 Perplexity labels theirs ***Deep Research,*** *In-depth reports on complex
-topics.* I've used up my 3 genie wishes for today, and it's only 6:30 AM, haha!
+topics.* I've used up my 3 *genie wishes* for today, and it's only 6:30 AM, haha!
 So to carry through on this super-prompt, I'm going to have to use a different
 login with Perplexity.
 
@@ -1308,7 +1308,7 @@ they've actually been doing it the longest and are the unsung hero of Web
 research. Their research finished exceptionally fast, but was correspondingly
 shallow compared to the others. They're clearly being forced to give away the
 first dose free. Or more accurately, 3 dosses per day free. Or as I like to
-think of it as the 3 genie wishes per-day free, because it's always using one
+think of it as the *3 genie wishes per-day free*, because it's always using one
 having me screaming: No, that wasn't a wish!
 
 ### Grok: The Balanced Disruptor
