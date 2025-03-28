@@ -84,6 +84,8 @@ the picture. So while performing the search might be free, the topics you're
 searching on are almost certainly becoming part of your profile or dossier for
 advertisers. I've been getting pretty good Gemini services from the start
 because I'm on the $100/year GoogleOne plan for enhanced Google Photos and such.
+And even Google's paid services I'm guessing doesn't get us off the hook for
+their ad-delivery profiling systems.
 
 ## The Economics of Deep Research Features
 
