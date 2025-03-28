@@ -17,9 +17,9 @@ potato. Search suffered but hung on because the browser address bar triggers it.
 That's right. Search was already disrupted by social media but because the Web
 browser *address bar* became the combined **address + search** bar, briefly
 called the ***omni bar***, search hung on. I mean, it hung on as a multi-billion
-dollar business because of **Google Ads.** Plain and simple, right? It's way
-more expensive to crawl, index and serve of the massive Net and it needs ad
-revenue to pay for that infrastructure. 
+dollar business because of **Google Ads.** It's way more expensive now to crawl,
+index and serve of the massive Net and it needs ad revenue to pay for that
+infrastructure. Plain and simple, right?
 
 ## The Evolution of Web Search Infrastructure and Costs
 
