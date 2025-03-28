@@ -33,9 +33,9 @@ value proposition not so excellent!
 
 ### The Decline of Traditional Web Search
 
-Few people think of it that way, but Google displaced by social media as they
-were hung on in the edges ***amongst the lazy*** who use search really just for
-web-navigation and ***not real resarch.*** Hard core searchers like me who have
+Few people think of it that way but Google, displaced by social media as they
+were, hung on in the edges ***amongst the lazy*** who use search really just for
+web-navigation and ***not real research.*** Hard core searchers like me who have
 to get shit done using new knowledge they didn't have just a moment ago were out
 in the cold, in a wilderness of ads.
 
