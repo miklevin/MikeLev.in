@@ -66,35 +66,33 @@ author: Mike Levin
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "{{ page.title }}",
+  "headline": {{ page.title | jsonify }},
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
   "author": {
     "@type": "Person",
-    "name": "{{ page.author | default: site.author }}"
+    "name": {{ page.author | default: site.author | jsonify }}
   },
-  "description": "{{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+  "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }},
   "url": "{{ site.url }}{{ page.url }}",
-  "abstract": "{{ page.description | default: page.excerpt | strip_html | strip_newlines }}",
+  "abstract": {{ page.description | default: page.excerpt | strip_html | strip_newlines | jsonify }},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ site.url }}{{ page.url }}"
-  },
-  {% if page.image %}
+  }{% if page.image %},
   "image": {
     "@type": "ImageObject",
     "url": "{{ site.url }}{{ page.image }}"
-  },
-  {% endif %}
+  }{% endif %},
   "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.title }}",
+    "@type": "Organization", 
+    "name": {{ site.title | jsonify }},
     "logo": {
       "@type": "ImageObject",
       "url": "{{ site.url }}/assets/logo.png"
     }
   },
-  "keywords": "{{ page.tags | join: ', ' }}",
+  "keywords": {{ page.tags | join: ', ' | jsonify }},
   "wordCount": "{{ content | number_of_words }}"
 }
 </script>
@@ -104,25 +102,28 @@ author: Mike Levin
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
+    {% assign position = 1 %}
     {% if page.previous %}
     {
       "@type": "ListItem",
-      "position": 1,
-      "name": "{{ page.previous.title }}",
+      "position": {{ position }},
+      "name": {{ page.previous.title | jsonify }},
       "item": "{{ site.url }}{{ page.previous.url }}"
     },
+    {% assign position = position | plus: 1 %}
     {% endif %}
     {
-      "@type": "ListItem",
-      "position": 2,
+      "@type": "ListItem", 
+      "position": {{ position }},
       "name": "Home",
       "item": "{{ site.url }}"
-    },
-    {% if page.next %}
+    }
+    {% if page.next %},
+    {% assign position = position | plus: 1 %}
     {
       "@type": "ListItem",
-      "position": 3,
-      "name": "{{ page.next.title }}",
+      "position": {{ position }},
+      "name": {{ page.next.title | jsonify }},
       "item": "{{ site.url }}{{ page.next.url }}"
     }
     {% endif %}
