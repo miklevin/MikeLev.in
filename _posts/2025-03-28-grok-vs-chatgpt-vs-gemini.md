@@ -92,10 +92,10 @@ is that you are being researched by advertisers right as you research!
 
 I've been using Gemini AI right from the start because it is included in my
 $100/year GoogleOne plan that I have for more Google Photos so when research
-first showed up, I was all over it. I was all over it before that too, with
-[Bard](https://moz.com/blog/bing-and-bard-feature-timeline). However, I'm
-guessing that even being a customer for Google's paid services doesn't get us
-off the hook from their ad-delivery profiling systems.
+first showed up, I was all over it at Moz with
+[Bard](https://moz.com/blog/bing-and-bard-feature-timeline) before that.
+However, I'm guessing that even being a customer for Google's paid services
+doesn't get us off the hook from their ad-delivery profiling systems.
 
 ## The Economics of Deep Research Features
 
