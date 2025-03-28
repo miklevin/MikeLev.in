@@ -67,13 +67,13 @@ search. It needs to re-search!
 
 ## The Rise of Deep Research in AI Search
 
-So we wait for disruptors, and it has come along in the concept of **Deep
-Research.** Implicit in the concept is the idea that ads are not going to be
-slipped in. Also implicit in the concept is searching, searching and searching
-again. In other words, re-searching... or research! Both Google in where the
-feature first appeared in Gemini 1.5 and ChatGPT where the feature just appeared
-in their Pro product, they've branded it Deep Research. Google uses a capital R
-in **R**esearch while ChatGPT goes with the more subdued **r**search.
+And so we waited for disruptors, which arrived in the form of **Deep Research.**
+The concept implicitly promises an ad-free experience and multiple layers of
+iterative searching - searching, and searching again. In other words, true
+research! Both Google's Gemini 1.5, where the feature first appeared, and
+ChatGPT's Pro product have branded this capability as Deep Research. Google opts
+for the more formal **R**esearch while ChatGPT uses the understated
+**r**esearch.
 
 ## The Cost and Access Models of AI Search Services
 
