@@ -112,7 +112,7 @@ Microsoft ain't giving that away to a "partner".
 Grok3 on the other hand runs on Mr. Musk's own private colossal xAI datacenter
 in Memphis Tennessee, appropriately codenamed Colossus. If Elon wants to give
 you a search that goes on for 20-minutes or 20-hours, hey that's his to give
-out. There's no Microsoft slap-down on resources allocated to a user-request of
+away. There's no Microsoft slap-down on resources allocated to a user-request of
 a second-tier $20/mo ChatGPT Pro paying customer. In fact, it's in Microsoft's
 interest to cap-off OpenAI resource allocation, while it's in Musk's interest to
 let Grok3 grok away on your question, grokking every last bit it can grok... all
