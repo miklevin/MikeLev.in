@@ -1,5 +1,5 @@
 ---
-title: "Proof SEO: Thriving with Nix & Quality Content"
+title: "Future-Proof SEO: Thriving with Nix & Quality Content"
 permalink: /futureproof/future-proof-seo-nix/
 description: In this piece, I delve into the seismic shifts AI and LLMs are bringing to SEO, arguing that this evolution favors genuine expertise and quality content, much like earlier search transformations I witnessed firsthand. I share my personal journey at the intersection of programming and SEO, detailing how my passion for intellectual puzzles led to unique projects like Levinux and now Pipulate, which leverages a future-proof, vendor-independent tech stack I call LPvgn (Linux, Python, vim, git, and Nix). My aim isn't just to adapt but to thrive by creating trackable, meritorious value and open-source tools, allowing me to connect authentically with discerning researchers and technical minds who are tired of the tech churn and looking for sustainable skills and substance in an AI-curated world.
 layout: post
