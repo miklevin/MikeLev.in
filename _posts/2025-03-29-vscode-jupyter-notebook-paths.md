@@ -80,7 +80,7 @@ notebook than native in JupyterLab? JupyterLab appears to use wherever the
 notebook you're running resides, whereas Cursor is using wherever the running
 instance of the kernel was started from.
 
-ChatGPT: Yes, there's a specific reason for this behavior, and it comes down to how kernels are managed by different notebook environments:
+**ChatGPT**: Yes, there's a specific reason for this behavior, and it comes down to how kernels are managed by different notebook environments:
 
 ### Why the difference?
 
@@ -414,7 +414,7 @@ packages like `notebook` given this kind of thing is likely what they're for.
 I don't like the sound of `ipywidgets` given the fragility I've encountered with
 them in the past.
 
-ChatGPT: Great. I’ll dig into whether a reliable, cross-platform Python method exists to determine the absolute path of the currently running Jupyter notebook—covering JupyterLab, VSCode, and Cursor AI. I’ll evaluate all known solutions, including those using built-in Python, `IPython`, and commonly accepted packages like `notebook`, while avoiding fragile or overly complex tools.
+**ChatGPT**: Great. I’ll dig into whether a reliable, cross-platform Python method exists to determine the absolute path of the currently running Jupyter notebook—covering JupyterLab, VSCode, and Cursor AI. I’ll evaluate all known solutions, including those using built-in Python, `IPython`, and commonly accepted packages like `notebook`, while avoiding fragile or overly complex tools.
 
 I’ll get back to you with a clear summary, working examples, and pros/cons of each method.
 
