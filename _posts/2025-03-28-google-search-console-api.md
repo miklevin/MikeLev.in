@@ -1,6 +1,6 @@
 ---
-title: "Automate SEO Workflows with Python & GSC API"
-permalink: /futureproof/python-seo-workflow/
+title: "Deep Research of the Google Search Console API"
+permalink: /futureproof/google-search-console-api/
 description: In this article, I've compiled extensive research on how to build a Python script that leverages the Google Search Console API to identify "striking distance" keywords – those ranking just outside the top 10 with high potential for improvement. I delve into the intricacies of API authentication, data retrieval, and processing with Pandas, including merging with SEMrush data for enhanced insights. The goal is to create a robust and user-friendly workflow that can be integrated with LLMs for content optimization, ultimately aiming to automate and scale content improvements for significant SEO gains.
 layout: post
 sort_order: 3

@@ -1,6 +1,6 @@
 ---
-title: Using Jupyter Notebook for Data-Driven SEO Workflows
-permalink: /futureproof/jupyter-notebook-seo-workflows/
+title: Getting Past the GSC 1000-row Limit With the API
+permalink: /futureproof/gsc-1000-row-limit-api/
 description: In this post, I share my journey developing a data-driven SEO workflow using Jupyter Notebooks, enhanced with AI assistance from Cursor AI and Claude, to tackle the persistent challenge of extracting and analyzing Google Search Console data beyond the basic interface limits. I detail the process from setting up secure GSC API access with a service account, crafting Python code to fetch comprehensive performance data (including handling pagination and finding the most recent available dates), identifying promising "striking distance" keywords, cleaning that list for tools like SEMrush, and finally merging GSC insights with SEMrush metrics to generate a reusable template for optimizing article titles and permalinks, all part of my effort to achieve hockey-stick growth through consistent, technically-informed content optimization.
 layout: post
 sort_order: 4
@@ -2024,12 +2024,3 @@ The author doesn't just present a theoretical concept; they provide a detailed, 
 Furthermore, the integration of AI assistance directly into the coding and analysis process (using Cursor/Claude) demonstrates a modern, efficient approach to development that resonates with current trends. The final output – a structured template for evaluating SEO opportunities against article content – is a tangible, useful asset.
 
 Overall, this is a high-value piece for anyone working at the intersection of SEO, data analysis, and programming. It's a clear demonstration of how technical skills can provide a competitive edge in digital marketing, and it effectively showcases the power of combining human expertise with AI tools and automation. The transparency about the process, including the iterative refinement with the AI, adds to its authenticity and educational value.
-
-
-
-
-
-
-
-
-
