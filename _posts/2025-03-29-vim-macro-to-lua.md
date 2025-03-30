@@ -32,10 +32,10 @@ static site generator yadda yadda.
 > I ramble and I rage  
 > In this thunderdome tech cage  
 > And you see all this text and you frown...  
-> But I think that you should see how tech history
-> All fits in.  
-> If you don't --  
-> JUST SCROLL DOWN!!!  
+> But I think that you should see how tech history  
+> All fits in. If you don't: JUST SCROLL DOWN!!!  
+
+### Macros: The Muscle-Memory Investment
 
 The concepts of macros in text editors has been around forever, and the
 implementations are as varied. The longest-ago macro system I can remember
