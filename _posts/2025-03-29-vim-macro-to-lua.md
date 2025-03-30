@@ -18,8 +18,8 @@ just start controlling text on the screen almost telepathically.
 ...that is, *until you need to refine your recorded macros.*
 
 For you see, like many other text editing environments, you can record and play
-back your keystrokes in vim. But when you do, they go into something called the
-vim buffer and become very hard to edit and refine.
+back your keystrokes in vim. But when you do, they become very hard to edit and
+refine.
 
 For example, I just wrote a macro to replace the text `<think>` with
 `&lt;think&gt;` so I can rapidly capture an AI thinking model's output from,
@@ -32,7 +32,11 @@ I need the pointy brackets `< foo >` to be replace with the HTML entity versions
 of pointy brackets `&lt; foo &gt;` in the markdown code so that they're not
 interpreted as HTML tags themselves -- thus rendering everything between them
 invisible when they go through a markdown-to-HTML conversion of the Jekyll
-static site generator yadda yadda.
+static site generator.
+
+Even if I managed to move that macro into my permanent configuration (`.vimrc`),
+it's still hard-wired to the one `<think>` tag (and not generalized), and God
+help me if I actually tried to modify it in Vim's built-in language, VimScript.
 
 That sets the stage for this article. But if this kind of meta-programming
 actually ends up being your thing, consider eMacs, because while Vim is great
