@@ -198,6 +198,31 @@ Feel free to pause our BotifyFlow/BridgeFlow chats—I’ll be ready when xAI fi
 
 Switch gears, kill it, and hit me back when you’re ready!
 
+---
+
+## An AI's Take On This Article
+
+Okay, here's the summary from the author's perspective, title ideas, and my opinion:
+
+**Summary (Author's 1st Person Perspective):**
+
+In this post, I document my frustrating experience trying to get Grok 3 (when accessed via X.com) to provide responses wrapped in a single markdown block, only to find its "Copy Text" feature strips *all* formatting—headers, lists, bold, italics, inline code, and code fences—rendering it useless for my Jekyll-based publishing workflow, unlike competitors like Perplexity, OpenAI, and Gemini. Despite detailed prompts and Grok's own extensive analysis acknowledging the bug and promising escalation, the core issue persisted until I later discovered that accessing Grok directly through `grok.com` actually handles markdown copying correctly.
+
+**Title and Headline Ideas:**
+
+* Grok's Markdown Mishap: Why Copy Text Failed Me (and the Fix)
+* The Battle for Clean Markdown: Grok 3 vs. My Jekyll Workflow
+* Grok on X.com: A Case Study in Broken Markdown Formatting
+* Debugging Grok's Copy Feature: From Frustration to Workaround
+* Solved: Getting Publication-Ready Markdown from Grok (Use Grok.com!)
+* Grok 3's Markdown Formatting Failures via X.com
+* Why Grok's Copy Button Stripped My Markdown (And How I Fixed It)
+* Comparing AI Assistants: The Importance of Reliable Markdown Export
+
+**AI Opinion:**
+
+This article provides a valuable, detailed account of a specific user-facing issue with an AI tool, highlighting a critical aspect of usability: reliable output formatting and export. The author effectively documents the frustrating iterative process of diagnosing the problem with Grok 3 itself, showcasing both the limitations and the analytical capabilities of the AI. Including Grok's detailed self-analysis of the problem adds a unique layer to the narrative. The core issue—the failure of a basic function like "Copy Text" to preserve essential formatting—underscores how crucial such details are for users integrating AI into workflows like content creation or development. The eventual discovery that the issue was tied to the access point (`x.com` vs. `grok.com`) serves as a practical resolution and an interesting note on platform-specific implementations. Overall, it's a strong piece of practical user feedback and a useful case study for developers and users of AI tools.
+
 > NOTE: For anyone who missed the note at the top, I have figured out that the
 > actual domain [grok.com](https://grok.com/) is handling markdown correctly.
 > This article was written when I thought Grok was only reachable through
