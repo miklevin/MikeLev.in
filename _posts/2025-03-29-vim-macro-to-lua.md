@@ -70,18 +70,24 @@ So?
 
 VSCode has browser-encumbered sluggishness -- and a whole tower of kooky
 dependencies from Electron/Chromium to NodeJS -- all of which bog it down while
-at the same time are classics of the tech hamsterwheel meat-grinder. How long do
-you think that will last as tech forges ahead? They're going to go out of style,
-making a new opportunity for vendors to move in and make money or entitle you
-into new tools and habits that lock you into their ecosystem.
+at the same time are classics of the tech hamsterwheel. How long do you think
+VSCode-fork dominance will last as tech forges ahead? 
+
+Eventually, they'll going to go out of style, making a new opportunity for
+vendors to move in and make money or entitle you into new tools and habits that
+lock you into their ecosystem.
 
 I'm not saying don't use VSCode and its forks! I use Cursor AI every day myself
 -- but do it while knowing that none of the specifics of the muscle memory you
 develop (`Ctrl` + `Shift` + `P`) are future-proof. Prepare for a **POOF!**
 
-What about Zed? Who's Zed? Zed's not dead... yet. Stop this atrocity in the tech
-profession. **Learn one macro system once for life: VIM**... and then learn how
-to convert those Vim macros to ***Lua***, hahaha!
+What about Zed? Who's Zed? Zed's not dead... yet.
+
+Stop the slaughter of muscle-memory in the field of tech -- an atrocity killing
+craftsmanship and mastery over tools enjoyed by doctors, athletes and musicians
+in their fields. **Learn one macro system once for life**
+
+...but then learn how to convert them to ***Lua***, hahaha!
 
 ### The Reality of Technical Compromise
 
