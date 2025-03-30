@@ -40,7 +40,7 @@ static site generator yadda yadda.
 The concepts of macros, recording and playing-back your keystrokes in text
 editors has been around forever, and the implementations are as varied. The
 longest-ago macro system I can remember learning was on `CygnusEd` (ced) on the
-Amiga computer back in the 80s. Yes, in the age of mohawks and *Back To The
+Amiga computer back in the 80s. Yes, in the age of Mohawks and *Back To The
 Future* before most of you reading this were born, I was committing keystrokes
 to habit. Then, **POOF!** The Amiga disappears.
 
@@ -49,10 +49,11 @@ to habit. Then, **POOF!** The Amiga disappears.
 When I switched to Windows, I took up `pfe`, the *Programmer's File Editor*. But
 it didn't do programming language color-syntax highlighting, so I switched to
 `EditPlus`. Switch, switch, switch! Fatigue, fatigue, fatigue. Muscle memory
-betrayed. Automaticity lost. There is no greater offender in tech churn than the
-loss of hard-won keyword recording and playback habits. Macro phantom limbs are
-a thing, and some of them associated with long-dead editors persist today! You
-think this can't happen to you? Can you say TextEdit? Sublime? Atom? 
+betrayed. Automaticity lost. Fluency forgotten. There is no greater offender in
+tech churn than the loss of hard-won keyword recording and playback habits.
+Macro phantom limbs are a thing, and some of them associated with long-dead
+editors persist today! You think this can't happen to you? Can you say TextEdit?
+Sublime? Atom? 
 
 ### The False Security of Modern Editors
 
