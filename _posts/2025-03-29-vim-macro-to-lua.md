@@ -85,7 +85,7 @@ What about Zed? Who's Zed? Zed's not dead... yet.
 
 Stop the slaughter of muscle-memory in the field of tech -- an atrocity killing
 craftsmanship and mastery over tools enjoyed by doctors, athletes and musicians
-in their fields. **Learn one macro system once for life**
+in their fields. ***Learn one macro system once for life!!!***
 
 ...but then learn how to convert them to ***Lua***, hahaha!
 
