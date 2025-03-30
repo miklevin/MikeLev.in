@@ -438,11 +438,26 @@ in my arsenal just as I do old-school `vi`.
 
 ### The Spectrum of Text Editor Mastery
 
-You can sit down on anything and be productive. Your vast vim wizarding skills
--- not nearly as vast as an eMacs wizard, but still quite vast -- while still
-present, get incrementally reduced as you switch from NeoVim to vim to vi... and
-finally to `ed`, the single-line editor from which this whole text-editor
-lineage sprung. How's that for some arcane tech knowledge for ya!
+The point is to be able to sit down on on anything and be productive. Your vast
+vim wizarding skills -- not nearly as vast as an eMacs wizard, but still quite
+vast -- while still present, get incrementally reduced as you switch from NeoVim
+to vim to vi... and finally to `ed`, the single-line editor from which this
+whole text-editor lineage sprung. How's that for some arcane tech knowledge for
+ya!
+
+Wth vim, your text-wizardy gracefully degrades, That's one advantage of
+nvim/vim/vi over emacs: wizards who have customized their magical beasts beyond
+recognition can't just sit down at any other emacs and be productive. All their
+magical transformations need to travel with them, or they're a fish our of
+water.
+
+Not so with vimmers. Sit down at anything vi-like and your muscle-memory kicks
+in, and you easily compensate for the small differences (like a lack of undo
+haha). NeoVim is Vim is vi, more or less. And vi can fit on a grain of sand
+sized processor. I'm not saying that learning vim will necessarily qualify you
+to be an embedded system programmer for NASA or the spooks. It's just that
+logging into almost anything and being able to edit text there will be second
+nature.
 
 ### The Enduring Relevance of Command-Line Editors
 
