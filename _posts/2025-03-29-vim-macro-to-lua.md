@@ -71,7 +71,7 @@ phantom limbs* are a thing, and some of them associated with long-dead editors
 persist today! You think this can't happen to you? Can you say TextEdit?
 Sublime? Atom? 
 
-### The False Security of Modern Editors
+### The False Security of VSCode
 
 And you think VSCode and all its VSCodium, Cursor, Windsurf forks are safe
 harbor? Remember Eclipse? No? You're not as old as me. It was the totally
