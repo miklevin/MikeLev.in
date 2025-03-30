@@ -15,11 +15,18 @@ just start controlling text on the screen almost telepathically.
 
 ### The Challenge of Refining Vim Macros
 
-Until you need to refine your recorded macros. For you see, like many other text
-editing environments, you can record and play back your keystrokes. And when you
-do, they go into something called in vim buffer. I just wrote a macro to
-replace `<think>` with `&lt;think&gt;`, so I can rapidly capture the thinking
-model's output from Cursor AI when I make articles like this. 
+...that is, *until you need to refine your recorded macros.*
+
+For you see, like many other text editing environments, you can record and play
+back your keystrokes in vim. But when you do, they go into something called the
+vim buffer and become very hard to edit and refine.
+
+For example, I just wrote a macro to replace the text `<think>` with
+`&lt;think&gt;` so I can rapidly capture an AI thinking model's output from,
+such as Cursor AI when I make articles exactly like this one. This chore has
+become common, but remarkably tedious causing publishing friction. The art is in
+removing friction forever-forward -- *to bind the procedure to a keystroke
+combination!*
 
 I need the pointy brackets `< foo >` to be replace with the HTML entity versions
 of pointy brackets `&lt; foo &gt;` in the markdown code so that they're not
