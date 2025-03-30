@@ -64,9 +64,11 @@ use. Too large of a user-base to switch. But then licensing changed. Proprietary
 versions like IntelliJ came undermining. Then what once felt like acceptable
 performance became perceived as Java-encumbered sluggishness.
 
+So?
+
 ### The Inevitable Tech Churn
 
-So? VSCode has browser-encumbered sluggishness -- and a whole tower of kooky
+VSCode has browser-encumbered sluggishness -- and a whole tower of kooky
 dependencies from Electron/Chromium to NodeJS -- all of which bog it down while
 at the same time are classics of the tech hamsterwheel meat-grinder. How long do
 you think that will last as tech forges ahead? I'm not saying don't use them. I
