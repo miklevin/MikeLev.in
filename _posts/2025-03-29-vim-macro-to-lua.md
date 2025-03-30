@@ -80,8 +80,8 @@ I'm not saying don't use VSCode and its forks! I use Cursor AI every day myself
 develop (`Ctrl` + `Shift` + `P`) are future-proof. Prepare for a **POOF!**
 
 What about Zed? Who's Zed? Zed's not dead... yet. Stop this atrocity in the tech
-profession. Learn one macro system once for life: **VIM**... and then learn how
-to convert those Vim macros to **Lua**, hahaha!
+profession. **Learn one macro system once for life: VIM**... and then learn how
+to convert those Vim macros to ***Lua***, hahaha!
 
 ### The Reality of Technical Compromise
 
