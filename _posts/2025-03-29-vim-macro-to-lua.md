@@ -463,8 +463,11 @@ nature.
 
 You think how's that even relevant today? You'd be surprised. Not everything has
 (or should have) enough resources in it to run a graphical desktop. These things
-get BusyBox, ToyBox or some other teensy-weensy Unix-like thing shoe-horned into
-it, plus `vi`. Plus of course remote cloud computers. 
+get the mini-\*nix command-set of BusyBox, ToyBox or some other teensy-weensy
+Unix-like thing that usually has `vi` in it shoe-horned in. Plus of course
+remote cloud computers that don't always have graphical desktops but where at
+least `vi` or `vim` is always present (Unix-standard and rarely left off in
+Linux).
 
 The skills of using vi/vim, while not exactly the same as the that of using
 using TTY (tele-type) style terminals, are closely related. The whole *"logging
@@ -477,6 +480,10 @@ desktop* user interface for computers, and non-secure terminal programs like
 Telnet or secure ones like SSH (PuTTY, OpenSSH, Terminus, etc.). So if you can
 log in and connect over a text-only terminal connection, you can use usually at
 least find vi on that computer and start editing text-files.
+
+Terminal connections to computers has been around longer than graphical desktop
+connections, and will be around longer still by virtue of being both less
+resource intensive and more suitable to scaling and automation.
 
 ### The Timeless Value of Text Manipulation Skills
 
