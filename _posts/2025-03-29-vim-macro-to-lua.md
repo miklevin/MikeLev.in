@@ -34,6 +34,10 @@ interpreted as HTML tags themselves -- thus rendering everything between them
 invisible when they go through a markdown-to-HTML conversion of the Jekyll
 static site generator yadda yadda.
 
+That sets the stage for this article. But if this kind of meta-programming
+actually ends up being your thing, consider eMacs, because while Vim is great
+for this sort of thing occasionally, eMacs people *live in this eMac[ro]s space.*
+
 ## The Long History of Text Editor Macros
 
 > I ramble and I rage  
