@@ -466,6 +466,18 @@ You think how's that even relevant today? You'd be surprised. Not everything has
 get BusyBox, ToyBox or some other teensy-weensy Unix-like thing shoe-horned into
 it, plus `vi`. Plus of course remote cloud computers. 
 
+The skills of using vi/vim, while not exactly the same as the that of using
+using TTY (tele-type) style terminals, are closely related. The whole *"logging
+into remote servers"* and *"connecting over serial"* things are not covered here
+in this article, suffice to say remote-typewriters (TTY) used devices called
+Terminals, thus the language of *Terminal* used today. 
+
+Terminals provide a text-only alternative to a fully featured *graphical
+desktop* user interface for computers, and non-secure terminal programs like
+Telnet or secure ones like SSH (PuTTY, OpenSSH, Terminus, etc.). So if you can
+log in and connect over a text-only terminal connection, you can use usually at
+least find vi on that computer and start editing text-files.
+
 ### The Timeless Value of Text Manipulation Skills
 
 It's hard to describe exactly, but there's something about skills never being
