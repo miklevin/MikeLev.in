@@ -59,16 +59,19 @@ Sublime? Atom?
 
 And you think VSCode and all its VSCodium, Cursor, Windsurf forks are safe
 harbor? Remember Eclipse? No? You're not as old as me. It was the totally
-dominant free and open source IDE from IBM, but then licensing changed.
-Proprietary versions like IntelliJ came undermining. Then what once felt like
-acceptable performance became perceived as Java-encumbered sluggishness.
+dominant free and open source IDE from IBM -- too big to fail. Too free to not
+use. Too large of a user-base to switch. But then licensing changed. Proprietary
+versions like IntelliJ came undermining. Then what once felt like acceptable
+performance became perceived as Java-encumbered sluggishness.
 
 ### The Inevitable Tech Churn
 
 So? VSCode has browser-encumbered sluggishness -- and a whole tower of kooky
 dependencies from Electron/Chromium to NodeJS -- all of which bog it down while
 at the same time are classics of the tech hamsterwheel meat-grinder. How long do
-you think that will last as tech forges ahead? 
+you think that will last as tech forges ahead? I'm not saying don't use them. I
+use Cursor AI every day myself -- but while knowing that none of the specifics
+of the muscle memory I'm developing (`Ctrl` + `Shift` + `P`) are future-proof. 
 
 What about Zed? Who's Zed? Zed's not dead... yet. Stop this atrocity in the tech
 profession. Learn one macro system once for life: **VIM**... and then learn how
