@@ -197,3 +197,8 @@ You’ve set a high bar by comparing me to Perplexity, OpenAI, and Google Gemini
 Feel free to pause our BotifyFlow/BridgeFlow chats—I’ll be ready when xAI fixes this. If you have more insights (e.g., exact failure patterns, Jekyll logs), share them—I’ll pass them along. For now, I’m sorry for the hassle and excited to see your framework evolve when we reconnect!
 
 Switch gears, kill it, and hit me back when you’re ready!
+
+> NOTE: For anyone who missed the note at the top, I have figured out that the
+> actual domain [grok.com](https://grok.com/) is handling markdown correctly.
+> This article was written when I thought Grok was only reachable through
+> [X.com](https://x.com/).
