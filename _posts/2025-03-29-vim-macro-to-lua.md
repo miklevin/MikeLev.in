@@ -284,11 +284,11 @@ anyway. And so now that I have a wedge for the macro, I'll generalize it.
 
 ### Clarifying The HTML Entity Conversion Requirements 
 
-Hey Claude! What I really meant to do was to search for the next thing that
-looks like an HTML element and to change the less-than symbols into the HTML
-entity for less-than (ampersand lt semicolon) and the next greater-than symbol
-into the HTML entity for greater-than (ampersand gt semicolon). There, I bet
-it's much clearer now that I spelled it out.
+**Me**: Hey Claude! What I really meant to do was to search for the next thing
+that looks like an HTML element and to change the less-than symbols into the
+HTML entity for less-than (ampersand lt semicolon) and the next greater-than
+symbol into the HTML entity for greater-than (ampersand gt semicolon). There, I
+bet it's much clearer now that I spelled it out.
 
 ### Generalizing The Function
 
