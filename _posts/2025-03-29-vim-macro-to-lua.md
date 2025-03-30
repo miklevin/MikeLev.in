@@ -288,10 +288,11 @@ vim.api.nvim_set_keymap('n', '<leader>c', '<cmd>lua escape_html_tags()<CR>', { n
 
 ---
 
-## Success!
-
-
 ## Converting Vim Macros: A Real-World Example
+
+> Success! I ended up changing my leader-key to `h` instead of `c`, but the
+> above macro is what I use whenever I see a tag like `<think>` in my markdown
+> from an AI's response while I'm publishing like this.
 
 And that pretty much did it. This is another one of those wonderful meta
 examples because the progress I made was put to work directly on the article I
