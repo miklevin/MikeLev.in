@@ -50,9 +50,9 @@ When I switched to Windows, I took up `pfe`, the *Programmer's File Editor*. But
 it didn't do programming language color-syntax highlighting, so I switched to
 `EditPlus`. Switch, switch, switch! Fatigue, fatigue, fatigue. Muscle memory
 betrayed. Automaticity lost. Fluency forgotten. There is no greater offender in
-tech churn than the loss of hard-won keyword recording and playback habits.
-Macro phantom limbs are a thing, and some of them associated with long-dead
-editors persist today! You think this can't happen to you? Can you say TextEdit?
+tech churn than the loss of hard-won keyboard record/playback habits. *Macro
+phantom limbs* are a thing, and some of them associated with long-dead editors
+persist today! You think this can't happen to you? Can you say TextEdit?
 Sublime? Atom? 
 
 ### The False Security of Modern Editors
