@@ -71,11 +71,11 @@ So?
 VSCode has browser-encumbered sluggishness -- and a whole tower of kooky
 dependencies from Electron/Chromium to NodeJS -- all of which bog it down while
 at the same time are classics of the tech hamsterwheel. How long do you think
-VSCode-fork dominance will last as tech forges ahead? 
+VSCode-fork dominance will last as tech forges ahead? Eventually, even they will
+go out of style, making a new opportunity for vendors to move in and make money
+or entitle you into new tools and habits that lock you into their ecosystem.
 
-Eventually, they'll going to go out of style, making a new opportunity for
-vendors to move in and make money or entitle you into new tools and habits that
-lock you into their ecosystem.
+Only vim and eMacs users will remain standing.
 
 I'm not saying don't use VSCode and its forks! I use Cursor AI every day myself
 -- but do it while knowing that none of the specifics of the muscle memory you
