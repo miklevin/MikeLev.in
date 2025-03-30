@@ -406,8 +406,9 @@ Emacs is a great operating system, lacking only a decent text editor.
 ### Choosing Your Text Editor Philosophy
 
 If you're in the text wars deciding which side you fall on, if riding a magical
-beast that adapts to your thoughts appeals to you, you might be an eMacs wizard.
-If that sounds exhausting and you'd rather just a really responsive vehicle,
+beast that adapts to your thoughts while you fly it appeals to you, you might be
+an eMacs wizard. If that sounds exhausting and you'd rather just a really
+responsive vehicle that hugs the road and performs better *as you adapt to it,*
 you're probably in the vim camp.
 
 ### Making Chain-of-Thought Reasoning Visible in Markdown
