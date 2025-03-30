@@ -8,6 +8,8 @@ sort_order: 1
 
 ## The Unshakeable Foundation: Why Terminal Skills and Vi(m) Endure
 
+> Deja vu? Why, yes! This article is an extraction of the prior one where my tangent on the enduring value of terminal skills and vi/vim clearly deserved its own spotlight, separate from the nitty-gritty of macro conversion.
+
 In the relentless churn of the tech industry, where tools and frameworks rise and fall like empires, where muscle memory built over years can be rendered obsolete overnight, there's a bedrock layer of skill that remains remarkably resistant to the tides of change: mastery of the text-only terminal and the ubiquitous vi/vim editor.
 
 You might hear that when you *really* commit to the Vim text editor, it's the only one you'll need for the rest of your life, capable of replacing cumbersome word processors and fleeting IDEs alike. There's truth in that. The keyboard commands, designed to eliminate the need for a mouse, eventually "get into your fingers," allowing you to manipulate text on the screen with an almost telepathic fluency. But the real value isn't just the immediate efficiency; it's the *longevity* of that investment.
