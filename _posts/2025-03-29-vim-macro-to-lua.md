@@ -299,6 +299,20 @@ examples because the progress I made was put to work directly on the article I
 am working on. The "think" tags you see at the beginning of every one of
 Claude's replies was made visible here in this blog with that macro.
 
+### The Meta-Programming Philosophy of Text Editors
+
+While this is fun editing your editor, it's only something I occasionally do to
+add some convenience. But you hear me talk about the extreme wizarding ways of
+eMacs users? They live in this meta space, writing their own personal dream
+operating system that adapts to them as they work.
+
+### Choosing Your Text Editor Philosophy
+
+If you're in the text wars deciding which side you fall on, if riding a magical
+beast that adapts to your thoughts appeals to you, you might be an eMacs wizard.
+If that sounds exhausting and you'd rather just a really responsive vehicle,
+you're probably in the vim camp.
+
 ### Making Chain-of-Thought Reasoning Visible in Markdown
 
 And just so that it's 100% clear what the heck's going on here, that whole
