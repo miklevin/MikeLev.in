@@ -30,13 +30,14 @@ combination!*
 
 I need the pointy brackets `< foo >` to be replace with the HTML entity versions
 of pointy brackets `&lt; foo &gt;` in the markdown code so that they're not
-interpreted as HTML tags themselves -- thus rendering everything between them
-invisible when they go through a markdown-to-HTML conversion of the Jekyll
-static site generator.
+interpreted as HTML tags themselves -- without doing so makes everything between
+them disappear during the markdown-to-HTML conversion of the Jekyll static site
+generator. Follow?
 
-Even if I managed to move that macro into my permanent configuration (`.vimrc`),
-it's still hard-wired to the one `<think>` tag (and not generalized), and God
-help me if I actually tried to modify it in Vim's built-in language, VimScript.
+Even if I managed to move the recorded macro into my permanent configuration
+(`.vimrc`), it's still hard-wired to just the one `<think>` tag (and not
+generalized), and God help me if I actually tried to modify it in Vim's built-in
+language, VimScript. I haven't even told you about he `^M` codes yet.
 
 That sets the stage for this article. But if this kind of meta-programming
 actually ends up being your thing, consider eMacs, because while Vim is great
