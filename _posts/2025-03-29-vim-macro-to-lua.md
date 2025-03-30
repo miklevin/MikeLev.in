@@ -400,6 +400,9 @@ add some convenience. But you hear me talk about the extreme wizarding ways of
 eMacs users? They live in this meta space, writing their own personal dream
 operating system that adapts to them as they work.
 
+The old joke goes while Vi is an excellent text editor on any operating system,
+Emacs is a great operating system, lacking only a decent text editor.
+
 ### Choosing Your Text Editor Philosophy
 
 If you're in the text wars deciding which side you fall on, if riding a magical
