@@ -413,19 +413,21 @@ you're probably in the vim camp.
 
 ### Making Chain-of-Thought Reasoning Visible in Markdown
 
-And just so that it's 100% clear what the heck's going on here, that whole
-movement in LLMs where you get to see the chain-of-thought reasoning which
-improves their performance, you can't get a clean formatted markdown copy/paste
-in any of the Web UIs, but you can in Cursor AI! So when I publish these
-wonderful little coding interactions, I get to keep it intact for just the cost
-of making a few HTML tags visible. And that's what this macro does.
+And just so that it's 100% clear what the heck's going on here, I'm actually
+writing a macro in this article. I'm doing this so that I can more easily
+copy/paste AI responses that include their ***chain-of-thought*** reasoning,
+which often is surrounded by `<think>`thoughts`</think>` tags. The macro is to
+keep them from messing up formatting when I publish!
 
 ### Finding Unexpected Value in NeoVim's Modern Features
 
-However in a greater sense, this article is about one of those strange benefits
-you get from switching from vim to NeoVim, which has almost no appeal for
-someone who's on the vim platform for timelessness -- and not for the
-plugin-worshiping, fuzzy-finding, nerd-treeing, key-slamming brogramming.
+However, it's also about an unexpected benefit of switching from vim to NeoVim.
+NeoVim has almost no appeal to me, someone who is perfectly happy on the vim
+platform by virtue of its timelessness -- and not for the fancy bells and
+whistle that seem to attract the brogrammers on YouTube. Not for the plugin
+managing, tree-telescoping, fuzzy-finding, auto-completing, tag-closing,
+code-folding plugin nonsense. That stuff's not future-proof. I don't want it in
+my fingers.
 
 ### When Old-School Meets Pragmatism
 
