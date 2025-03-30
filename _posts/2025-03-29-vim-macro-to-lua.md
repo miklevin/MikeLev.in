@@ -141,7 +141,7 @@ hate that environment, so double up on the crap and keep vim pure, I figure.
 Anyway, when it came time to switch back from NeoVim to good ol' vim, I asked
 myself: Hey Mike, it's always been hard to edit those vim macros in VimScript.
 But I bet Lua is both easier to type (because none of that `^M`
-control-character mess, and the AI coding assistants can help me out with Lua!
+control-character mess), and the AI coding assistants can help me out with Lua!
 So I tried, and it did! 
 
 ### Understanding VimScript's Origins
