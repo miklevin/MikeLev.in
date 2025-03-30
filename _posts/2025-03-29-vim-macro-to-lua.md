@@ -170,12 +170,20 @@ So I said goodbye to my long-beloved VimScript `~/.vimrc` and hello to the new
 `~/.config/nvim/init.lua`.
 
 I'm an old-school Luddite, but I don't hold onto my old tech with a death-grip.
-I don't actually use `vi`, after all. I mean the taking up vim was a lot easier
-because Bram Moolenaar wrote it on the Amiga and I first got exposed to it there
-back in '91 from Fred Fish public domain software disk #591, the [birth of
-vim](https://sites.radford.edu/~nokie/vim/amigavim/). I use almost not a single
-feature that the *brogrammers* love about NeoVim. But I do like getting AI
-assistance on macros. So anyhow...
+I don't actually use the original Unix standard `vi`, after all. Taking up vim
+was easier for me because Bram Moolenaar wrote it on the Amiga computer! So I
+first got exposed to it there back in '91 from Fred Fish public domain software
+disk #591, the [birth of vim](https://sites.radford.edu/~nokie/vim/amigavim/).
+
+In other words, I like vim and don't need NeoVim's bells and whistles such as
+those fuzzyfinding nerdtree plugins that draw *brogrammers* to it. But I do like
+getting AI assistance on macros.
+
+## The Vim-to-Lua Prompt
+
+> As usual, I copy/paste this whole article into Cursor AI to give Claude
+> super-prompt context. You will be amazed how how effective such a technique
+> is. As an *actual intelligence,* all these little storytelling details help.
 
 **Me**: The macro is this:
 
@@ -186,7 +194,7 @@ c  "a   /<think>^Mv/>^Mc&lt;think&gt;^[j0
 ...with those weird control characters. I need to convert it to lua like my
 leader s command for spelling.
 
-Claude: <think>
+**Claude**: &lt;think&gt;
 The user has a macro recorded in register "a" and wants to convert it to a Lua function with a mapping similar to their spelling command. The macro content is:
 
 `/<think>^Mv/>^Mc&lt;think&gt;^[j0`
@@ -198,12 +206,12 @@ Let me break down what this macro does:
 4. `/>` - Searches for ">"
 5. `^M` - Presses Enter
 6. `c` - Change the selected text
-7. `&lt;think&gt;` - Types "<think>" (with HTML entities: &lt; for < and &gt; for >)
+7. `&lt;think&gt;` - Types "`<think>`" (with HTML entities: `&lt;` for `<` and `&gt;` for >)
 8. `^[` - Escape key (exits insert mode)
 9. `j0` - Move down one line and to the beginning of the line
 
-This appears to be a macro that finds text between <think> tags and replaces it with just the tags. I need to convert this into a Lua function and set up a key mapping for it.
-</think>
+This appears to be a macro that finds text between `<think>` tags and replaces it with just the tags. I need to convert this into a Lua function and set up a key mapping for it.
+&lt;/think&gt;
 
 I'll convert your macro to a Lua function and add a mapping for it. This function will search for "<think>" tags, select the content between them, and replace it with just the tags.
 
