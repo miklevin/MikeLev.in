@@ -155,7 +155,9 @@ the way back to ex which vi was based on and used its language. Fine for 1991.
 
 But today, there's a handful of languages that get embedded into everything. Of
 course ECMAScript in the browser which we know as JavaScript. But there's also
-Python, TCL and Lua. I think it's their size and licensing or something.
+Python, TCL and Lua. I think it's their size and licensing or something that
+makes these languages so popular for embedding. You see them built into software
+all over the place, like DaVinci Resolve, Blender, InkScape, FreeCAD, etc.
 
 Oh, how I wish NeoVim chose Python. But they chose the Scheme-like Lua. Nothing
 wrong with it. Better than JavaScript, I guess. Point being, you can actually
