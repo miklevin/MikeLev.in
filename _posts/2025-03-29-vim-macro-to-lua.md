@@ -448,7 +448,7 @@ ya!
 Wth vim, your text-wizardy gracefully degrades, That's one advantage of
 nvim/vim/vi over emacs: wizards who have customized their magical beasts beyond
 recognition can't just sit down at any other emacs and be productive. All their
-magical transformations need to travel with them, or they're a fish our of
+magical transformations need to travel with them, or they're a fish out of
 water.
 
 Not so with vimmers. Sit down at anything vi-like and your muscle-memory kicks
