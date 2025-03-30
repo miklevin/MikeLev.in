@@ -78,7 +78,7 @@ or entice you into new tools/habits that lock you into their ecosystem.
 *Only Vim and eMacs users will remain standing.*
 
 I'm not saying don't use VSCode and its forks! I use Cursor AI every day myself
--- but do it while knowing that none of the specifics of the muscle memory you
+-- but do so while knowing that none of the specifics of the muscle memory you
 develop (e.g. `Ctrl` + `Shift` + `P`) are future-proof. Prepare for a **POOF!**
 
 What about Zed? Who's Zed? Zed's not dead... yet.
