@@ -37,12 +37,12 @@ static site generator yadda yadda.
 
 ### Macros: The Muscle-Memory Investment
 
-The concepts of macros in text editors has been around forever, and the
-implementations are as varied. The longest-ago macro system I can remember
-learning was on `CygnusEd` (ced) on the Amiga computer back in the 80s. Yes, in
-the age of mohawks and *Back To The Future* before most of you reading this were
-born, I was committing keystrokes to habit. Then, **POOF!** The Amiga
-disappears.
+The concepts of macros, recording and playing-back your keystrokes in text
+editors has been around forever, and the implementations are as varied. The
+longest-ago macro system I can remember learning was on `CygnusEd` (ced) on the
+Amiga computer back in the 80s. Yes, in the age of mohawks and *Back To The
+Future* before most of you reading this were born, I was committing keystrokes
+to habit. Then, **POOF!** The Amiga disappears.
 
 ### The Painful Cycle of Editor Switching 
 
