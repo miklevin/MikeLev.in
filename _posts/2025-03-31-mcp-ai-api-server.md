@@ -574,10 +574,11 @@ The Model Context Protocol represents a significant advancement in the quest to 
 
 > I start ChatGPT 4.5 Deep research first and it finishes last, but I'm not sure
 > that's a bad thing. You wouldn't want your researcher giving up before it was
-> done, would you? It's just blatantly obvious OpenAI's infrastructure is not
-> the same as being Google. Video-game tropes endlessly come to mind. Gemini is
-> the Lightning Bruiser while ChatGPT is the Determinator -- the scrappy
-> beginner who won't give up. You can tell by its language... *Awesome!*
+> done, would you? It's just blatantly obvious OpenAI's infrastructure rented
+> from Microsoft is not the same as actually *being Google.* Video-game tropes
+> endlessly come to mind. Gemini is the Lightning Bruiser while ChatGPT is the
+> Determinator -- the scrappy beginner who won't give up. You can tell by its
+> language... *Awesome!*
 
 **ChatGPT 4.5 Deep research**: Awesome. I’ll dig deep into the current state of the Model Context Protocol (MCP), especially in the context of how AI-assisted development environments like Claude Desktop, Cursor AI, and others are using it. I’ll map out the components, plugin ecosystem, and how local clients like your Ollama-powered Pipulate can adopt MCP.
 
