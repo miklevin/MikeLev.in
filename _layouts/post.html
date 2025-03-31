@@ -73,7 +73,7 @@ author: Mike Levin
     "@type": "Person",
     "name": {{ page.author | default: site.author | jsonify }}
   },
-  "description": {% assign desc = page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 %}{{ desc | jsonify }},
+  "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }},
   "url": "{{ site.url }}{{ page.url }}",
   "abstract": {{ page.description | default: page.excerpt | strip_html | strip_newlines | jsonify }},
   "mainEntityOfPage": {
