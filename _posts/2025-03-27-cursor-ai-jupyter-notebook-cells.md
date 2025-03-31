@@ -171,7 +171,7 @@ flibbertigibbet and the line containing Thingamajig? Given what you know about
 Jupyter Notebooks, are there any inferences you might be able to make about what
 makes them different, aside from the words themselves?
 
-Claude: &lt;think&gt;
+**Claude**: &lt;think&gt;
 Let me carefully examine the two cells:
 
 Cell 1 (execution count 1): `# flibbertigibbet`
@@ -207,7 +207,7 @@ Another inference is that both cells contain only comments (they start with `#`)
 
 Is there another distinction between these cells that you're thinking of?
 
-Me: 
+**Me**: 
 
 That is totally incorrect to the point of hallucinating. First of all, I haven't
 executed any of the cells other than the first one which I executed twice.
@@ -311,7 +311,7 @@ given VSCode Workspace contexts.
 
 **Me**: Can you see what I just did? And can you see its output?
 
-Claude: &lt;think&gt;
+**Claude**: &lt;think&gt;
 Let me look at the recent changes to the file. The most recent state of the file you shared is:
 
 ```pipulate/client/test/Untitled.ipynb
