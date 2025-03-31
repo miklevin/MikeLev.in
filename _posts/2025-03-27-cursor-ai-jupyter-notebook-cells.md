@@ -473,7 +473,7 @@ there.
 
 ---
 
-### The Promise and Peril of AI Tool Integration
+### Let The Research Begin: How Can Cursor AI See Notebook Cell Output
 
 > I focus on visibility of Jupyter Notebook cells to speed up the simple manual
 > copy/paste feedback loop. The whole actual agentic solution inside a Notebook
