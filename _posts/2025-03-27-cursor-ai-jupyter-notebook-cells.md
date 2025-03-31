@@ -425,25 +425,54 @@ Citations:
 
 ---
 
-## The Looming Feedback Loop of Autonomous AI Development
+## What You All Want: Agentic Loops In Notebooks
 
-For those wondering, there is a strange feedback loop this is on the verge of.
+> Yeah, yeah, I get it. That stuff you see in Goose AI, Cline and Manus. You
+> want it in your Notebook and you want it NOW! Maybe it's possible. Let's do
+> some Deep Research!
+
+### The Perfect Marriage of Notebooks and Agentic Systems
+
+We are in the verge of that same strange feedback loop we see in self-prompting
+agentic systems, but in the exploratory environment of a Jupyter Notebook.
+That's going to be cool! It's a match made in heaven.
+
+### Understanding Modern Agentic AI Capabilities
+
 It's not too far off from what Goose AI, Manus and Cline which are all agentic,
-meaning they operates autonomously within development environments, doing
-whatever buzzword you want to slap on it: self-prompting, chain-of-thought
-reasoning, plan/act mode, auto-debugging, recursive self-improvement, autonomous
-tool invocation, memory-based task continuity, modular task execution, and
-context-aware decision-making, yadda yadda.
+chain-of-thought reasoning, plan/act mode, auto-debugging, recursive
+self-improvement, autonomous tool invocation, memory-based task continuity,
+modular task execution, context-aware decision-making... whatever the heck you
+want to call taking the output and feeding it back into the input.
 
-### The Promise and Peril of AI Tool Integration
+### The Challenge of Controlling Agentic Processes
+
+But you don't want the agentic things running away from you. They're not going
+to make it to the end of the process perfectly most of the time. But re-running
+them from the beginning of the chore and hoping they take all those same
+steps... ugh! It screams Notebooks.
+
+### Safety First: Sandboxing and Control Mechanisms
 
 Taking the output of one process and feeding it into the input of another, and
 giving individual steps the ability to tool-call with protocols like MCP (model
-context protocol). That's what all of this stuff is going, but it's pretty scary
-and all the live versions are heavily sandboxed so they can't fubar your
-machine. It's no different with these AI-assisted IDEs. You can feel the siren's
-song of letting them take the ball and run with it. But a modest first step is
-letting it at least see the output of your code ***when you want it to.***
+context protocol) is pretty scary and all the live versions are heavily
+sandboxed so they can't fubar your machine. Aside from this sandboxing, the
+modest first step is wrangling this potentially runaway self-prompting beast is
+getting them to love doing their Agentic work inside a Notebook environment.
+
+### The Vision: Interactive AI Development in Notebooks
+
+Can you imagine Markdown documenting as you go, having that mid-execution frozen
+state of a Notebook but with Agentic process interrupted and frozen awaiting
+your fine-tuning directional prompts? Yeah, I get why you want Claude to be able
+to see your Notebook cell output. Let me assure you, you are not alone.
+
+So, I'll do some research beyond a quick Perplexity ping to see what else is out
+there.
+
+### The Promise and Peril of AI Tool Integration
+
 
 **Me**: Hey ChatGPT 4.5 Deep Research, what are the techniques people are using
 today to make the cell output of a Jupyter Notebook in Cursor AI visible to the
