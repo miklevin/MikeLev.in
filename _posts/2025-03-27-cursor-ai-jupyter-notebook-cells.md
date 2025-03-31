@@ -386,7 +386,14 @@ Notebook cell output is not in the AI prompt context.
 
 ![Jupyter Notebook Cursor AI](/images/jupyter-notebook-cursor-ai.png)
 
-Let's double-check with Perplexity. 
+---
+
+## Let's double-check with Perplexity. 
+
+> First-hand knowledge is best. Learn through testing directly. While sure
+> someone may have answered it on the net, and it got into the search results or
+> the training data, are you really gonna trust that? I don't, but I still can't
+> resist checking what the answer would be.
 
 **Me**: Can Cursor AI read the output of Jupyter Notebook cells?
 
