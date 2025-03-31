@@ -117,7 +117,13 @@ So to answer your question, the secret word you placed in the second cell is "fl
 
 I can see both cells in the context you provided, and I appreciate you testing my ability to properly parse the notebook format!
 
-### Testing Live File Updates Between JupyterLab and Cursor
+## Testing Live File Updates Between JupyterLab and Cursor
+
+> If you're using Notebooks in Cursor AI, chances are you have a copy of
+> JupyterLab or transitional Jupyter Notebooks running somewhere else on your
+> machine, because these VSCode-forks have to get the running kernel from
+> somewhere. This is an experiment how soon Claude can "see" stuff after a
+> file-save over on the JupyterLab side.
 
 **Me**: That's a big ol' confirmation. I didn't even do that typing in Cursor
 AI. I actually did that over in JupyterLab in the browser and saved it, coming
