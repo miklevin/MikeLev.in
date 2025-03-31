@@ -471,8 +471,13 @@ to see your Notebook cell output. Let me assure you, you are not alone.
 So, I'll do some research beyond a quick Perplexity ping to see what else is out
 there.
 
+---
+
 ### The Promise and Peril of AI Tool Integration
 
+> I focus on visibility of Jupyter Notebook cells to speed up the simple manual
+> copy/paste feedback loop. The whole actual agentic solution inside a Notebook
+> I think is deserving of a separate article in the future.
 
 **Me**: Hey ChatGPT 4.5 Deep Research, what are the techniques people are using
 today to make the cell output of a Jupyter Notebook in Cursor AI visible to the
