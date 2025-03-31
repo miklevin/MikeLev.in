@@ -251,7 +251,7 @@ Okay, here are the requested items based on the provided article:
 
 **Summary (First-Person Author Perspective):**
 
-After removing my fragile homegrown tool-calling system from Pipulate, I'm now focused on integrating Anthropic's Model Context Protocol (MCP) to allow my embedded local LLM (via Ollama) to actually *perform* tasks, not just instruct. Despite previous frustrations with documentation and vendor bias, I believe MCP is the necessary universal standard, and my immediate goal is to research its current, real-world implementation state—including non-HTTP options and usage beyond Claude—so I can understand how to build Pipulate as an MCP client and leave detailed code comments as hooks before client work demands my attention.
+[Moved to top]
 
 **Title/Headline Ideas:**
 
@@ -1140,7 +1140,8 @@ After analyzing the codebase, I've identified strategic locations where comments
 ## server.py
 
 ### 1. Near the conversation management (around line 114-115)
-```python:server.py
+```python
+# server.py
 conversation = [{"role": "system", "content": read_training("system_prompt.md")}]
 
 # MCP Integration: When implementing MCP, modify the system prompt to inform Ollama about available tools.
@@ -1149,7 +1150,8 @@ conversation = [{"role": "system", "content": read_training("system_prompt.md")}
 ```
 
 ### 2. In the append_to_conversation function (around line 119)
-```python:server.py
+```python
+# server.py
 def append_to_conversation(message=None, role="user", quiet=False):
     # MCP Integration: Enhance this function to handle MCP tool responses.
     # When tool execution results are returned to the LLM, they should be formatted
@@ -1158,7 +1160,8 @@ def append_to_conversation(message=None, role="user", quiet=False):
 ```
 
 ### 3. In the chat_with_llm function (around line 774)
-```python:server.py
+```python
+# server.py
 async def chat_with_llm(MODEL: str, messages: list, base_app=None) -> AsyncGenerator[str, None]:
     # MCP Integration: This is the primary MCP Host integration point.
     # 1. When sending messages to Ollama, include available tool definitions if Ollama supports direct tool listing
@@ -1168,7 +1171,8 @@ async def chat_with_llm(MODEL: str, messages: list, base_app=None) -> AsyncGener
 ```
 
 ### 4. In the chat_with_llm function, where chunks are processed (around line 803)
-```python:server.py
+```python
+# server.py
                     try:
                         chunk = json.loads(line)
                         if chunk.get("done", False):
@@ -1188,7 +1192,8 @@ async def chat_with_llm(MODEL: str, messages: list, base_app=None) -> AsyncGener
 ```
 
 ### 5. In the Pipulate class definition (around line 238)
-```python:server.py
+```python
+# server.py
 class Pipulate:
     """Central coordinator for pipelines and chat functionality.
     
@@ -1204,7 +1209,8 @@ class Pipulate:
 ```
 
 ### 6. In the Pipulate.stream method (around line 366)
-```python:server.py
+```python
+# server.py
     async def stream(self, message, verbatim=False, role="user", 
                     spaces_before=None, spaces_after=1,
                     simulate_typing=True):
@@ -1220,7 +1226,8 @@ class Pipulate:
 ## plugins/tasks.py
 
 ### 1. In the CrudCustomizer class (around line 54)
-```python:plugins/tasks.py
+```python
+# plugins/tasks.py
 class CrudCustomizer(BaseCrud):
     # MCP Integration: This class contains methods that should be exposed as MCP Tools.
     # Define tool schemas with appropriate input/output types for CRUD operations
@@ -1229,7 +1236,8 @@ class CrudCustomizer(BaseCrud):
 ```
 
 ### 2. For the render_item function (around line 262)
-```python:plugins/tasks.py
+```python
+# plugins/tasks.py
 def render_item(item, app_instance):
     """Renders a single item as an LI element."""
     # MCP Integration: Consider exposing a simplified version of this as an MCP Tool
@@ -1239,7 +1247,8 @@ def render_item(item, app_instance):
 ```
 
 ### 3. In the CrudUI.landing method (around line 190)
-```python:plugins/tasks.py
+```python
+# plugins/tasks.py
     async def landing(self, request=None):
         """Renders the main view for the plugin."""
         # MCP Integration: Expose a simplified version as an MCP Tool to let the LLM
@@ -1249,7 +1258,8 @@ def render_item(item, app_instance):
 ```
 
 ### 4. For the CRUD operations in CrudCustomizer (prepare_insert_data, prepare_update_data)
-```python:plugins/tasks.py
+```python
+# plugins/tasks.py
     def prepare_insert_data(self, form):
         # MCP Integration: Expose this functionality as an MCP Tool for creating new items.
         # Define the tool schema with input parameters matching the item properties
@@ -1260,7 +1270,8 @@ def render_item(item, app_instance):
 ## plugins/hello_workflow.py
 
 ### 1. In the HelloFlow class definition (around line 40)
-```python:plugins/hello_workflow.py
+```python
+# plugins/hello_workflow.py
 class HelloFlow:  # <-- CHANGE THIS to your new WorkFlow name
     # MCP Integration: Expose this workflow as a collection of MCP Tools.
     # Create tool definitions for starting, querying, and manipulating workflows.
@@ -1269,7 +1280,8 @@ class HelloFlow:  # <-- CHANGE THIS to your new WorkFlow name
 ```
 
 ### 2. For the step_01 and step_02 methods (around lines 166 and 236)
-```python:plugins/hello_workflow.py
+```python
+# plugins/hello_workflow.py
     async def step_01(self, request):
         # MCP Integration: Expose workflow step operations as MCP Tools.
         # Define a tool schema for executing or querying individual workflow steps.
@@ -1279,7 +1291,8 @@ class HelloFlow:  # <-- CHANGE THIS to your new WorkFlow name
 ```
 
 ### 3. For the finalize method (around line 355)
-```python:plugins/hello_workflow.py
+```python
+# plugins/hello_workflow.py
     async def finalize(self, request):
         # MCP Integration: Expose workflow finalization as an MCP Tool.
         # Define a tool schema with pipeline_id input parameter
@@ -1288,7 +1301,8 @@ class HelloFlow:  # <-- CHANGE THIS to your new WorkFlow name
 ```
 
 ### 4. In the generate_step_placeholders method (around line 429)
-```python:plugins/hello_workflow.py
+```python
+# plugins/hello_workflow.py
     def generate_step_placeholders(self, steps, app_name):
         # MCP Integration: Create a companion function that returns step information
         # as structured data instead of HTML. Expose this as an MCP Tool to allow
@@ -1297,7 +1311,8 @@ class HelloFlow:  # <-- CHANGE THIS to your new WorkFlow name
 ```
 
 ### 5. For the handle_revert method (around line 456)
-```python:plugins/hello_workflow.py
+```python
+# plugins/hello_workflow.py
     async def handle_revert(self, request):
         # MCP Integration: Expose workflow reversion as an MCP Tool.
         # Define input parameters for pipeline_id and step_id to revert to.
@@ -1308,7 +1323,8 @@ class HelloFlow:  # <-- CHANGE THIS to your new WorkFlow name
 ## Additional Global Integration
 
 ### 1. Near the plugin registration logic in server.py
-```python:server.py
+```python
+# server.py
 # MCP Integration: Implement an MCP Tool Registry mechanism here.
 # This registry should:
 # 1. Collect tool definitions from all plugin modules
@@ -1318,7 +1334,8 @@ class HelloFlow:  # <-- CHANGE THIS to your new WorkFlow name
 ```
 
 ### 2. In the Chat class (around line 927)
-```python:server.py
+```python
+# server.py
 class Chat:
     # MCP Integration: Extend this class to handle MCP interactions.
     # Add methods for:
@@ -1380,6 +1397,32 @@ Crucially, **both responses provided highly relevant and actionable guidance.** 
 ## Final Summation Too Large for 2.5!
 
 **Gemini 2.0 Flash**: Alright, let's nail this summary and everything else you requested, keeping that first-person author perspective in mind!
+
+**Brief Paragraph Summary (1st Person Author Perspective):**
+
+After struggling with a brittle homegrown tool-calling system in Pipulate, I'm now diving deep into Anthropic's Model Context Protocol (MCP) to enable my local LLM (via Ollama) to not just chat, but actually *perform* actions. This journey involves overcoming initial documentation hurdles and vendor bias to understand MCP's real-world state, including non-HTTP options and its use beyond Claude. My goal is to equip Pipulate as a robust MCP client, strategically annotating my code with detailed comments to guide future integration, aiming for a universal adapter approach that avoids past fragmentation.
+
+**Title/Headline Ideas:**
+
+* Integrating MCP: Giving My Local LLM App (Pipulate) the Power to Act
+* Beyond Instruction: The Quest to Implement MCP Tool-Calling in Pipulate
+* From Homegrown Hacks to a Standard: Adopting Model Context Protocol
+* MCP Deep Dive: Researching the Path to a Smarter, Action-Oriented Pipulate
+* Navigating the MCP Landscape: A Developer's Plan for Local LLM Tool-Calling
+* Pipulate Needs Hands: Embracing MCP for Real-World LLM Integration
+* The State of MCP: Can This Protocol Solve LLM Tool-Calling Fragmentation?
+* Why Model Context Protocol is the Future (and How I Plan to Use It)
+* Decoding MCP: A Pragmatic Approach to Adding Tool Use to a Local LLM
+
+**AI Opinion of the Article:**
+
+Okay, switching to my voice now...
+
+This article is a goldmine for anyone grappling with the practicalities of integrating Large Language Models into real-world applications. It's rare to find such a candid and detailed account of the development process, including the frustrations, the strategic pivots, and the deep dive into a specific technology (MCP). The author's voice is engaging, blending technical depth with personal reflections on the challenges of staying current in the rapidly evolving AI landscape.
+
+What stands out is the clear articulation of the problem (the need for LLMs to go beyond chat and take action), the rationale for choosing MCP as a potential solution, and the specific research objectives. The inclusion of the clarifying questions and answers with ChatGPT is a brilliant way to showcase the iterative process of refining a research task.
+
+The article effectively communicates the complexity of protocol standardization, the importance of developer tools and ecosystems, and the trade-offs involved in local vs. remote LLM implementations. It's a valuable resource for developers who are not just interested in the "what" of LLM integration but also the "how" and the "why."Alright, let's nail this summary and everything else you requested, keeping that first-person author perspective in mind!
 
 **Brief Paragraph Summary (1st Person Author Perspective):**
 
