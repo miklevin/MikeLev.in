@@ -298,12 +298,13 @@ Thank you for pointing out this distinction - it's an important aspect of Jupyte
 
 ## Can Cursor AI See the Output of Jupyter Notebook Cells?
 
-> And now probably the moment you've been reading for. Can it see your cell
-> output? No. It's just like the Terminal in that regard. Can you imagine the
-> privacy violation faux pas that would mean? Both for Terminal and Notebook
-> cell output. Same issue. They're being conservative first, respecting privacy.
-> Yes, this cuts of Agentic Kung Fu, but that will come in time, the way async
-> under notebooks did with `nest_asyncio`. Give it time.
+> And now the moment you all came reading for. Can Claude see your Jupyter
+> Notebook cell output in Cursor AI? No. It's just like the Terminal in that
+> regard. Can you imagine the privacy violation faux pas that would mean? Both
+> for Terminal and Notebook cell output. Same issue. They're being conservative
+> first, respecting privacy. Yes, this cuts of Agentic Kung Fu, but that will
+> come in time, the way async under notebooks did with `nest_asyncio`. Give it
+> time.
 
 Alright, so now I know. This is very much off the beaten track. While these LLMs
 have been trained on coding, and even by now know quite a bit about the types of
