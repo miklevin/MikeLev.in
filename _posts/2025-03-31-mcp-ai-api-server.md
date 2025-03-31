@@ -6,7 +6,7 @@ layout: post
 sort_order: 1
 ---
 
-## MCP AI API Server
+## Replacing Homegrown AI Server Tool-Calling with MCP
 
 Having gutted Pipulate of its homegrown tool-call feature that worked with any
 LLM model, even back to `gemma2:2b` which is the 2 billion quantized model on
@@ -16,6 +16,8 @@ real-time injected domain expertise -- but not actually *reach out and perform
 the steps for you.* That's the goal with the `mcp` (*Model Context Controller*)
 here -- an official new *protocol* to do just that.
 
+## The Journey from Tightly Coupled to Plugin Architecture
+
 Admittedly, even with my hacked together ***JSON executer,*** it could only
 CREATE records in the Todo CRUD (Create, Read, Update, Delete) database app that
 was built into core -- *tightly coupled* with the core-app, as they say. But
@@ -23,6 +25,8 @@ since I yanked it out into a plugn when implemented a auto-discovery plugin
 system (for both the CRUD db plugin apps and the Notebook Workflows), it lost
 even the ***specification ability*** I left for myself as a sort of to-do item I
 could not forget because of how big of a chunk of code it was.
+
+## Real-Time LLM Training Through Navigation
 
 Well, the good news is that it will shed this homegrown tool-call aspect that
 even the LLMs themselves who were real-time trained to use it called a brittle
@@ -32,6 +36,8 @@ That's right: site navigation controls prompts, priming the pump for
 LLM-expertise in whatever area of the program you just navigated to! LLMs aren't
 just for chat-boxes anymore. You're welcome.
 
+## Racing Against Client Work Deadlines
+
 But here we are 6:45 AM on a Monday, and in extremely short order the client
 work takes precedent. So this is going to be a rapid documentation of next-step
 process, and unlikely to go into implementation at all. I will drop a few
@@ -39,6 +45,8 @@ reminders to myself directly into the code ***where the MCP wedge will go.*** So
 I shall set myself a little race as the sun rises to get to a good
 task-switching point, changing focus satisfied that I left off at a better place
 and with a deeper understanding of the state of MCP in the world today.
+
+## Documentation Challenges and Vendor Bias
 
 When last I tried to do the [MCP QuickStart guide off of the Anthropic
 site](https://www.anthropic.com/news/model-context-protocol) [GitHub
@@ -48,6 +56,8 @@ libraries, and all the examples out there were heavily vendor-biased. This is
 understandably a technology for vendors, mostly AI Assisted editor vendors like
 Cursor AI, Windsurf, Cline and most important of all -- Anthropic's standaline
 Claude Coder! Brilliant!
+
+## The Brilliance of MCP Branding
 
 Oh, a word on Anthropic and their brilliant branding. MCP?!?! I mean come on, in
 one fell swoop you step into the web-traffic path on both *Microsoft Certified
@@ -59,6 +69,8 @@ about being similar to MVC (model view-controller) made popular by Ruby on
 Rails? Or MVP which everyone uses for *minimum viable product* these days? The
 use of MCP for *model context protocol* is ***feature-branding brilliance!***
 
+## The Need for Protocol Standardization
+
 I must also add that as a new protocol, ***this must be as branding success!***.
 The unspoken joke here is that there is a schism between the API function
 tool-calling specifications from OpenAI (who pioneered it), Google and Meta
@@ -66,6 +78,8 @@ tool-calling specifications from OpenAI (who pioneered it), Google and Meta
 functions (albeit indirectly, for security). The rub is that the LLMs themselves
 need to understand each schism of the function tool-calling protocols to
 construct well-formed and valid replies. 
+
+## Historical Parallels with XML and EDI
 
 Few people reading this will remember when XML burst onto the scene for similar
 reasons (replacing EDI - electronic data interchange). EDI came even before the
@@ -76,6 +90,8 @@ had to be ***both well-structured and valid*** -- well-formed according to the
 XML protocol in general, and valid according to the application's particular
 schema, or else the XML parser would choke (not use the data and hopefully
 return an error).
+
+## The Challenge of Training LLMs on New Protocols
 
 Similarly today, LLMs need to return JSON-structured responses that are both
 well-formed and valid according to whatever response-processing tool they're
@@ -88,6 +104,8 @@ and drill that fact into the models themselves. See? ***MCP has to be a
 marketing success!*** Everyone has to adopt standard protocols for them to
 become standards and today everyone especially has to include LLMs themselves.
 
+## The Cost of Protocol Implementation
+
 But it is a multi-billion dollar proposition to drill-into the models all the
 new rules! Retroactively editing history so that the new stuff overrules the old
 is not easy. Grover Cleveland has the unique distinction of being the only
@@ -98,6 +116,8 @@ default response the core static model would produce, or the core static models
 themselves need to be retrained or fine-tuned. Expensive! And doing this for
 protocols you're just now inventing for the sake of competition is shooting
 yourself and everyone else in the foot.
+
+## The Case for Universal Protocol Adoption
 
 Why have multiple tool-call protocols when you could drill-in only one
 *universal-adapter* version (as Anthropic calls it) and have all the models just
@@ -110,6 +130,8 @@ surrounding this topic. Your model must support them, or else your model won't
 be chosen from within the editors and it won't be your cloud cash register going
 ka-ching on every code completion.
 
+## Early Adoption Challenges with Claude Desktop
+
 Oh yeah, [Claude Desktop](https://claude.ai/download)! It's funny how certain
 topics jog your memory. When I first tried this out, I got tremendously
 frustrated and thought it only worked there. The cash-register must go ka-ching
@@ -120,6 +142,8 @@ MCP fine-tuning looks really good. MCP works! It works on Claude Desktop with
 the Claude model... and the documentation gets out-of-sync for other use cases,
 haha!
 
+## Embracing Change Despite Resistance
+
 That's where I left off, heckling the MCP state of affairs like Statler and
 Waldorf. Those are the 2 old-guy Muppets hating on everything in the memes, for
 you youngin's here. I'm a curmudgeonly old Luddite who loves craft and my tools
@@ -127,6 +151,8 @@ to last forever, but knows they can't and am determined to reinvent. Thus
 articles like this, because it goes against the grain of my nature. But writing
 about it and actually eventually adapting to the problem doesn't. So, we
 re-examine the state of MCP... finally!
+
+## Research Objectives for MCP Implementation
 
 Hey you researching AI-madman: do your research! Your objective is to derive my
 objective from this full article, which I'm sure goes something like scouring
@@ -137,6 +163,8 @@ money to be made because of the plugin ecosystem environments, surely they've
 adapted better than I've been able to. Also, they're in the sweet spot of
 publishing MCP... what, exactly? 
 
+## Understanding MCP Client-Server Architecture
+
 If your AI assisted code editor like Cursor AI, Cline and Claude Desktop are the
 clients, which is my understanding, and they consume resources either on your
 machine that you make available as an MCP server like database access or an
@@ -144,6 +172,8 @@ automated web browser, then what are the plugins in the marketplaces? Extensions
 to the client to let them know how to make MCP requests of servers which are
 things elsewhere? And why are they popping up all over the place apparently so
 easily?
+
+## Pipulate as an MCP Client
 
 In my use-case I'm making the equivalent of an MCP client. That's my web
 framework that has a local LLM embedded through Ollama. It is definitely the
@@ -154,11 +184,15 @@ destined to become an MCP client. It's going to have API function tool-call
 abilities almost like OpenAI's original API feature, but through slightly
 different terminology and procedure in order to be that universal adapter.
 
+## Exploring Non-HTTP MCP Implementation
+
 Making servers seems straight forward enough, especially over http where you can
 just use Uvicorn or the http server built natively into Python. But if you don't
 want the performance hit and complexity overhead of all these multiple servers
 running all over the place (echos of microservices), there must be some way to
 simplify it. MCP without HTTP? This is another part of what to research.
+
+## Final Implementation Goals
 
 So, I guess it comes down to documenting MCP well according to the ***ACTUAL***
 state of affairs that you can gather from Anthropic, GitHub, PyPI, Reddit and
@@ -389,7 +423,7 @@ By implementing MCP in Pipulate, you’ll enable your framework to leverage a st
 
 ---
 
-## Gemini's Deep Research Next, Because It's FAST!
+## Google Gemini's Deep Research Next, Because It's FAST!
 
 > I have to say, even though Gemini is a pleasure to watch research and looks at
 > sources 100-at-a-time versus the other engine's 1-at-a-time, I'm still full of
@@ -534,4 +568,229 @@ The Model Context Protocol represents a significant advancement in the quest to 
 24. MCP Server Development Protocol - Cline Documentation, accessed March 31, 2025, [https://docs.cline.bot/mcp-servers/mcp-server-from-scratch](https://docs.cline.bot/mcp-servers/mcp-server-from-scratch)  
 25. Model Context Protocol (MCP): A Guide With Demo Project - DataCamp, accessed March 31, 2025, [https://www.datacamp.com/tutorial/mcp-model-context-protocol](https://www.datacamp.com/tutorial/mcp-model-context-protocol)
 
+---
 
+## The Little Deep research Engine That Could: ChatGPT
+
+> I start ChatGPT 4.5 Deep research first and it finishes last, but I'm not sure
+> that's a bad thing. You would want your researchers spending the time a topic
+> deserves researching, would you not? It's just blatantly obvious their
+> infrastructure is not Google Gemini's infrastructure, haha!
+
+**ChatGPT 4.5 Deep research**: Awesome. I’ll dig deep into the current state of the Model Context Protocol (MCP), especially in the context of how AI-assisted development environments like Claude Desktop, Cursor AI, and others are using it. I’ll map out the components, plugin ecosystem, and how local clients like your Ollama-powered Pipulate can adopt MCP.
+
+I’ll include:
+- A breakdown of MCP: its format, discovery mechanisms, and schema definition
+- What’s officially documented vs what’s de facto implemented
+- How MCP clients are structured and how they call MCP servers
+- Plugin marketplace ecosystem (especially in Claude and Cursor)
+- Viable no-HTTP options for embedding tool-calling locally
+- Best practices for embedding MCP into a plugin-based app with linear workflows and CRUD apps
+
+I’ll get back to you shortly with a full breakdown and annotated action steps you can use to start wiring MCP into your codebase.
+
+# Model Context Protocol (MCP): Architecture, Adoption, and Integration
+
+**Model Context Protocol (MCP)** is an open standard (introduced by Anthropic in late 2024) that connects large language models to external data sources and tools. MCP defines a **client-server architecture** using a JSON-RPC 2.0 message protocol. In this architecture, **MCP servers** expose specific capabilities (data or actions), and **MCP clients** (built into host applications like IDEs or chatbots) connect to those servers to let an AI model use the capabilities. Below, we break down MCP’s structure and schema, current industry adoption, the plugin ecosystem, zero-HTTP (in-process) transport options, and how to embed MCP support into a local app like Pipulate.
+
+## 1. What Exactly is MCP?
+
+**MCP is to AI what USB is to peripherals**: it standardizes how LLM-powered apps interface with external systems ([Introduction - Model Context Protocol](https://modelcontextprotocol.io/introduction#:~:text=MCP%20is%20an%20open%20protocol,different%20data%20sources%20and%20tools)). Instead of custom integrations for each tool or database, MCP offers a uniform protocol. Key aspects include:
+
+- **Protocol Structure:** MCP uses **JSON-RPC 2.0** messages for all communication between clients and servers. This means requests, responses, and notifications are all JSON objects following JSON-RPC format (with fields like `jsonrpc`, `id`, `method`, etc.). The protocol is *stateful* – clients maintain persistent connections to servers, allowing ongoing interactions (similar to how an IDE might keep a language server running) ([Introduction - Model Context Protocol](https://modelcontextprotocol.io/introduction#:~:text=At%20its%20core%2C%20MCP%20follows,can%20connect%20to%20multiple%20servers)). 
+
+- **Roles:** An **MCP Host** (e.g. Claude Desktop or an AI IDE) contains an MCP *client component* that manages connections to one or more MCP *servers* ([Introduction - Model Context Protocol](https://modelcontextprotocol.io/introduction#:~:text=,MCP%20servers%20can%20connect%20to)). The host’s LLM (the AI model) is essentially the “brain” that decides when to use a tool, while the client and server handle the mechanics of executing that tool call and returning results. This separation is analogous to the Language Server Protocol (LSP) in developer tools – where the editor (host) communicates with language servers to provide features like autocomplete. In MCP’s case, the host (LLM app) communicates with context/tool servers to provide the LLM with extra capabilities.
+
+- **Schema Definition:** MCP formally defines message schemas and data structures in its specification (the authoritative source is a TypeScript schema file ([Model Context Protocol specification – Model Context Protocol Specification](https://spec.modelcontextprotocol.io/specification/2025-03-26/#:~:text=connect%20LLMs%20with%20the%20context,they%20need))). Tools and other capabilities are described in JSON Schema. For example, each **Tool** exposed by a server has an `inputSchema` (a JSON Schema for expected parameters), a `name`, and a `description`. The use of JSON Schema means both humans and the LLM can understand what inputs a tool expects and validate them. The **Tool Result** returned by a server includes a content payload, which can be text, images, or other media types, and a flag indicating if it’s an error.
+
+- **Discovery Mechanisms:** Discovery in MCP happens at two levels:
+  1. **Discovering Servers:** Currently, finding available MCP servers is done via configuration or emerging registries. There isn’t yet an automatic network discovery in the protocol. Instead, users or developers point the MCP client to server endpoints (or commands to run them). For instance, Claude Desktop reads a config file (`claude_desktop_config.json`) where you list servers to use ([For Claude Desktop Users - Model Context Protocol](https://modelcontextprotocol.io/quickstart/user#:~:text=%7B%20,filesystem%22%2C%20%22%2FUsers%2Fusername%2FDesktop%22%2C%20%22%2FUsers%2Fusername%2FDownloads%22)). Tools like Windsurf (Codeium’s AI IDE) have UI settings to add MCP servers by URL or command. A community-driven package index (e.g. **mcp-get** or “MCP Server Directory”) is also evolving to help discover servers. In the future, Anthropic has signaled an official registry to streamline this, analogous to a plugin marketplace.
+  2. **Discovering Tools (at runtime):** Once a client connects to a server, it must learn what tools or data that server offers. MCP defines a **`tools/list`** request that the client sends over JSON-RPC to get a list of available tools and their schemas. The server responds with an array of tool definitions. The client can call this periodically or rely on a **`tools/list_changed`** notification if the server supports it (indicated by a `listChanged` flag in capabilities). Similarly, for other feature types: there are analogous list/look-up methods for **Resources** (contextual data items) and **Prompts** (predefined prompt templates or workflows), if those features are supported by the server.
+
+- **Tool Invocation (Function Calls):** To invoke a tool, the client sends a **`tools/call`** request with the tool name and JSON arguments. The server executes the action and returns a result (often a text snippet or data blob) that the client can relay back to the LLM. Crucially, MCP is *two-way*: not only can the LLM (via the client) call the server’s tools, but some servers can also initiate requests back to the client in special cases. For example, an advanced server can use the **Sampling** feature to ask the client’s LLM to perform a sub-completion (essentially letting the server *query the LLM* to elaborate or make a decision). This is akin to the server saying “I need the model to help with this part of the task,” and it’s done in a controlled, user-consented way.
+
+- **MCP Workflow:** The typical flow of an MCP interaction is:
+  1. **Connection & Capability Negotiation:** The host (client) starts the connection, often by launching the server (locally) or opening a socket to it. They exchange an **initialize** message where the client and server advertise their supported features (e.g. server says “I have tools and resources”, client says “I can handle roots and sampling” if applicable). This is similar to handshakes in LSP. 
+  2. **Tool/Resource Discovery:** The client calls `tools/list` (and `resources/list` if using contextual data) to get the inventory of what’s available. 
+  3. **LLM Prompting:** The client then incorporates the available tools into the LLM’s context. *How exactly?* The MCP spec leaves it open, but in practice the host might inject a system prompt listing the tools and how to invoke them, or use the model’s function-calling API. The idea is the model “knows” what tools exist and can decide to use them. For example, Claude Desktop automatically allows Claude (the model) to choose tools; Cursor IDE uses OpenAI’s function calling by mapping MCP tools to function-callable definitions, etc. 
+  4. **Model Decides to Use Tool:** During a conversation or task, if the model determines a tool is needed, it will respond (in whatever format the host expects) indicating a tool action. In Claude Desktop, the model might directly say (in hidden output) which tool to run; with OpenAI models it could return a function call JSON. Either way, the MCP client intercepts this.
+  5. **Tool Execution:** The client receives the model’s tool request and issues a `tools/call` to the server. The server executes the operation (e.g. query a database, fetch a file, run a command) and returns the result data or error.
+  6. **Return Results to LLM:** The client takes the server’s response and feeds it back to the model. Again, the mechanism can vary: it might inject the result as a system message or as the next user prompt. In many implementations, the model is asked to “continue the answer incorporating this result,” enabling a final answer to the user. This closed-loop continues until the model finishes the task. 
+
+> **Example:** Suppose an MCP server provides a `get_weather` tool. The user asks, “What’s the weather in New York?”. The flow would be: The MCP client lists tools (sees `get_weather` exists) → The model, seeing this tool is available, responds with an intention to use it → The client sends `tools/call` to the server with `{"name": "get_weather", "arguments": {"location": "New York"}}` → The server returns weather info text → The client gives that info to the model which then replies to the user with the weather report, possibly quoting the fetched data. All of this happens seamlessly, with the user only seeing the end result after approving any tool use.
+
+- **Prompts and Resources:** Beyond tools, MCP servers can also supply **Resources** (like documents, database entries, code files) that serve as *context* for the model, and **Prompts** which are reusable prompt templates or multi-step workflows. For instance, a “filesystem” server could expose a text file as a Resource; a “git” server might expose a commit history as a Resource or offer a Prompt workflow for summarizing recent changes. These are accessed via similar JSON-RPC methods (`resources/list`, `resources/lookup`, etc.). The LLM might not call these directly like tools; instead, the client might pre-fetch relevant resources and include them in the conversation. For example, Continue (an open-source IDE assistant) uses the Resources feature to attach code context from files to the prompt. Tools, Prompts, and Resources are the three pillars of MCP’s feature set. 
+
+- **Security Model:** MCP is powerful – tools can be arbitrary code execution – so the protocol emphasizes a **human-in-the-loop** and explicit consent model. Clients (hosts) are expected to **ask the user for permission** before running potentially dangerous tool actions, and to clearly show what data is being accessed. For example, Claude Desktop will prompt “The assistant wants to run a terminal command `rm -rf /photos`. Allow?” and won’t execute unless you approve. The spec outlines principles: user consent, data privacy, tool safety, etc., and leaves implementation details to the client. For local integrations like Pipulate, this means you should build confirmation dialogs or other safeguards around tool usage.
+
+In summary, MCP provides a structured way for LLMs to use tools: a JSON-RPC pipeline for listing and calling functions with well-defined schemas, plus a framework for sharing data context. It’s designed to be model-agnostic – any LLM (cloud or local) that can follow the right prompting or function-call format can leverage MCP servers to gain new abilities ([Using the Model Context Protocol (MCP) With a Local LLM &#124; by Ashraff Hathibelagal &#124; Predict &#124; Mar, 2025 &#124; Medium](https://medium.com/predict/using-the-model-context-protocol-mcp-with-a-local-llm-e398d6f318c3#:~:text=Any%20large%20language%20model%20that,make%20use%20of%20those%20tools)).
+
+## 2. Current State of MCP Adoption
+
+Since its introduction, MCP has rapidly gained **adoption in AI coding and assistant tools**. Anthropic’s own **Claude 3.5/3.7** models and the **Claude Desktop** app set the reference implementation, and many others have followed. Here’s the current landscape of MCP support (as of early 2025):
+
+- **Claude Desktop (Anthropic)** – *Full reference client.* Claude Desktop (the downloadable app) was launched with native MCP support and is considered the gold standard. It supports all major MCP features: Tools, Resources (e.g. attaching local files), and Prompts. Users can configure Claude Desktop to run local servers by editing the JSON config file as mentioned earlier. Claude Desktop will automatically spawn those servers as subprocesses on launch and allow Claude (the model) to call them. Notably, this is local-first (no data leaves your machine unless the server itself calls an external API). *Claude.ai (web version) does not support MCP yet* – this limitation underscores MCP’s initial focus on local integration. Anthropic also open-sourced ~10 official servers (e.g. for Slack, GitHub, filesystems, web browsing via Puppeteer, etc.) and highlighted early enterprise adopters like Block using MCP.
+
+- **Cursor AI (Cursor IDE)** – *AI coding IDE with MCP tools.* Cursor (an AI-assisted code editor) added MCP support to its “Agent” feature. It allows integration of external tools via MCP, primarily focusing on Tools (not Resources) ([Example Clients - Model Context Protocol](https://modelcontextprotocol.io/clients#:~:text=Continue%E2%9C%85%E2%9C%85%E2%9C%85%E2%9D%8C%E2%9D%8CFull%20support%20for%20all%20MCP,Goose%E2%9D%8C%E2%9D%8C%E2%9C%85%E2%9D%8C%E2%9D%8CSupports%20tools)). For example, you can connect Cursor’s agent to a “Zapier” MCP server to get access to thousands of app actions, or to a database MCP server. Cursor’s documentation states you can connect to **100+ MCP servers** in minutes. Under the hood, Cursor likely maps MCP tools to the OpenAI function-calling interface (since Cursor can use models like GPT-4). This means it reads the `tools/list` info and then dynamically registers those as functions for the model. This approach leverages GPT-4’s strong function-calling ability while adhering to the MCP standard for the server side. As a result, even though Cursor’s UI treats them as “MCP tools”, the model itself is just doing function calls. This is an example of bridging official spec and emergent practice: the MCP spec doesn’t dictate how an OpenAI model should be used, but developers found a way to combine them. Cursor’s support is growing; community forums show many are using it to extend the IDE with custom commands via MCP.
+
+- **Cline (VS Code Extension)** – *Autonomous coding agent* that uses Claude or other models. Cline is an open-source VS Code extension that implements an agent (“Cline”) capable of complex coding tasks. It supports MCP for both Tools and Resources. Cline’s documentation notes that it “can even use MCP to create new tools and extend his own capabilities”. In practice, this means Cline’s agent can, if needed, spin up or utilize an MCP server. Remarkably, the phrasing suggests Cline might programmatically generate an MCP server (for example, writing a small server script on the fly) if it decides a new function is needed. This is experimental, but it shows how MCP is enabling *self-extension*: an AI agent adding capabilities at runtime via the standard interface. Cline’s primary model is Claude 3.7 (which is well-suited for tool use), and it emphasizes human approval for each action, aligning with MCP’s safety guidelines.
+
+- **Continue (Open-source IDE agent)** – Continue is another IDE assistant (for VS Code and others). It reportedly has **full MCP support (tools, prompts, resources)**. This means it can use MCP to fetch context (e.g. load project files as Resources) and execute Tools. Continue’s integration likely uses open models or OpenAI, similar to Cursor. By supporting *Prompts*, it can incorporate workflow templates from servers – for example, a “code review” prompt provided by a server to guide the model.
+
+- **Windsurf (Codeium’s Cascade)** – *AI-powered code editor.* Codeium’s Windsurf (previously codenamed Cascade) has integrated MCP to bring in more tools for its agent called “Cascade”. Windsurf initially supported just local tools, but recent updates (Wave 3 and 4) mention *“MCP support: bring in more tools for Cascade to access”* and improved **MCP discoverability**. They’re making it easier for users to identify and connect useful MCP servers, possibly via a UI or curated list. Windsurf appears focused on Tools as well, allowing things like database queries (Neon DB example) to be done through MCP. Codeium’s integration of MCP indicates that even companies with their own AI solutions see value in a common protocol for extending with third-party capabilities.
+
+- **Other Notable Adopters:** Many other projects are adding MCP:
+  - **Fast-Agent** (by community) claims “full multimodal MCP support” including the experimental *Sampling* feature (meaning the server can ask the agent to do sub-tasks via the LLM – not common yet).
+  - **Microsoft** has shown interest: *Copilot Studio* lists support for MCP tools, and there’s an emerging pattern in the VS Code ecosystem to incorporate MCP servers for things like browsing or terminal control in a standardized way. Microsoft’s “GenAI Script” and **OpenSumi IDE** also have basic tool support.
+  - **OpenAI’s perspective:** OpenAI recently added MCP support in their experimental Agents SDK, indicating a convergence of ideas. They had their own plugin system (the `.well-known/ai-plugin.json` manifest with OpenAPI specs), but MCP is more general and multi-directional. One advantage noted is that MCP’s *Streamable HTTP transport* no longer requires an always-on WebSocket for remote servers – it can work with simple HTTP requests and server-sent events for streaming. This shows openAI acknowledging MCP as an industry-wide effort, not just an Anthropic project.
+
+Overall, **Claude Desktop remains the most fully-featured MCP client** (covering all spec aspects except Sampling) and is often used as the testbed for new servers. **Cursor, Cline, Windsurf, Continue, and others focus on the Tools aspect**, integrating with coding workflows. The community is rapidly iterating: since MCP is open, independent developers have built clients for Emacs, chat UIs like LibreChat, and even a command-line MCP client for testing. 
+
+**Official vs. Reverse-Engineered:** Because MCP was open-sourced from the start (with documentation and SDKs), there’s less need for reverse-engineering. Early on (late 2024), before documentation was thorough, projects like Cursor and Cline may have experimented with partial info from Claude Desktop’s behavior. But now the **official spec and SDKs** (Python, TypeScript, Java, etc.) ([Model Context Protocol · GitHub](https://github.com/modelcontextprotocol#:~:text=,SDK))are available, and Anthropic runs an official community forum. That said, some *practices are emergent*: for example, how to best prompt the model with available tools is learned by trial – developers share prompt strategies on forums and Reddit. Another emergent practice is mapping MCP to other frameworks (like converting MCP tool schema to an OpenAPI spec for OpenAI function calling). These are not “official” but are common in the community, effectively bridging MCP with other AI ecosystems. The **MCP spec is still evolving** too (revisions are numbered by date), often informed by community feedback. Features like **Roots** (scoping what part of a filesystem or project a server should operate on) exist in spec but few clients support them yet – they may gain traction as use-cases arise. **Sampling**, as mentioned, is powerful but not yet enabled in Claude Desktop due to the need for careful UX, so only experimental clients play with it. In summary, the core protocol is documented, but *how it’s used* in practice is being refined through real-world usage.
+
+## 3. MCP Plugin Ecosystem and Marketplace
+
+One of MCP’s promises is a **universal plugin ecosystem for AI assistants**. An “MCP server” is essentially a **plugin** that any MCP-compatible client can use. The ecosystem is growing quickly:
+
+- **Official and Community Servers:** Anthropic kickstarted a repository of **open-source MCP servers**. These include connectors to common tools: e.g. **Filesystem** (read/write local files), **Terminal/Process** execution, **Web Browser** (controlled browsing), **GitHub** (repo and issue queries), **Slack** (fetch messages), **Google Drive**, **Notion**, **Postgres DB**, etc. Many are simple and meant as reference implementations for others to build on. Beyond Anthropic’s list, the community has contributed dozens more:
+  - **“Awesome MCP Servers” lists** on GitHub catalog servers for everything from Jira to Spotify.
+  - There are servers like **Zapier MCP** (giving access to 8000+ Zapier actions via one integration), **BrowserTools** (a headless browser), **DuckDB** (SQL analytics engine in-process), **Obsidian** (note-taking), and even game or creative tool integrations. Essentially, if an API or system exists, someone can wrap it in an MCP server to let AI agents use it.
+
+- **Marketplace and Discovery:** Because there are so many servers, the idea of a **marketplace or registry** is emerging. Currently:
+  - Anthropic has hinted at an **official MCP registry** (a centralized directory to discover and perhaps auto-install servers). This would function like an app store for AI plugins, ensuring security and quality. Some in the community are wary of centralization, wanting to ensure it remains open, but a registry could address trust and versioning issues (similar to npm or PyPI, but for AI tools).
+  - Meanwhile, independent efforts have stepped in. **Glama.ai** offers an **MCP Server Directory** that automatically *introspects* servers to list their tools, required config, and check for vulnerabilities. This helps users compare and choose servers confidently.
+  - **MCP-Get (mcp-get.com)** is another project aiming to be a package manager for MCP servers. It envisions a one-stop site to find and install servers (“the simplest way to discover, track, and manage MCP servers”). Though still in early stages, you might soon be able to do something like `mcp-get install server-filesystem` to fetch and run a server in one command.
+  - Some MCP clients have built-in marketplaces: for instance, Cursor’s website has a **“Cursor Directory”** listing MCP servers known to work well with Cursor (with one-click integration for marketing tools, database tools, etc.), and Windsurf’s UI improvements suggest a more seamless server import experience.
+
+- **Role of Plugins vs. Clients:** It’s important to clarify that **MCP servers (plugins)** are **external programs or services**. They don’t “extend the MCP client’s code” directly; rather, they expose functionality over the protocol that the client can tap into. For example, a “Google Calendar” MCP server might expose a `list_events` tool and a `add_event` tool. An MCP client (say an AI scheduling assistant) that connects to that server can now, through the LLM, list or add calendar events. So the plugin is running separately (maybe as a local process or remote API), and the MCP client is the intermediary facilitating the conversation between the LLM and that plugin.
+
+- **What Servers Expose:** Typically, an MCP server will declare one or more of:
+  - **Tools:** Most common – functions the model can call. These could be *actions* (like “send email”, “run SQL query”) or *computations* (like “solve math equation”). Each tool comes with a name, description, and JSON schema for inputs. Many servers focus solely on tools.
+  - **Resources:** Some servers also provide data context. For example, a **Git MCP server** might have a resource list of recent commits or file diffs; a **Confluence MCP server** could list knowledge base articles. Resources can often be large text blobs that the client might insert into the prompt to give the model more information. They’re typically read-only or domain data that complements the tools.
+  - **Prompts:** A smaller subset offer prompt templates or workflows. For instance, an **“Agent Workflow” server** could provide a series of steps to accomplish a task that the model can follow. Or a **“Code Review” server** might include a prompt outline for reviewing code changes (with placeholders for code diff, etc.). These are more meta, guiding the LLM’s behavior rather than performing actions in the world.
+
+- **Ecosystem Maturity:** While the **idea of a plugin marketplace is in its infancy**, the available MCP servers already cover a wide range, effectively functioning as a plugin ecosystem. The benefit is **interoperability**: a developer can write one MCP server and it can be used by multiple clients (Claude Desktop, Cursor, Pipulate, etc.), rather than writing separate plugins for each platform. This has accelerated the growth of available integrations. Many early servers are experimental, but we’re seeing movement towards production-grade ones. For example, companies like Block and Replit have been developing MCP integrations for their contexts, and Cloudflare even blogged about deploying **remote MCP servers on their edge** for performance and scalability. 
+
+- **Standards and Documentation:** Official documentation for server developers exists (including tutorials and an “MCP Inspector” tool to test servers interactively). However, not everything is fully standardized yet. Certain conventions (like how to authenticate to an API inside an MCP server, or how to handle long-running tool calls) are being worked out. Some “best practices” guides are community-driven (e.g. security hardening for servers, or how to write clear tool descriptions so models use them effectively). The ecosystem is vibrant, but developers should stay updated with forums and the MCP spec roadmap for changes.
+
+## 4. Zero-HTTP MCP: In-Process and Low-Overhead Transports
+
+MCP’s default transports use processes or HTTP, but it’s flexible by design. In contexts like a local app where performance and simplicity matter, you can implement **“zero-HTTP” communication**, meaning not relying on conventional HTTP servers at all. Options include:
+
+- **Standard I/O (STDIO) Transport:** MCP natively supports using standard input/output streams as a transport. This is how many language servers work and is ideal for local, in-process or spawned-process communication. For example, a host application can launch an MCP server as a child process and communicate via its stdin/stdout. The JSON-RPC messages flow over this pipe with minimal overhead (no HTTP parsing beyond JSON, no sockets). The **MCP TypeScript and Python SDKs** make this easy – you can instantiate a `StdioServerTransport` on the server side and have the client connect to it. This essentially treats the server as an in-process plugin from the user’s perspective. Many clients (Claude Desktop, etc.) use stdio for local servers by default. This **avoids any HTTP stack**, hence “zero-HTTP.” The trade-off is that the server is a local process, so you don’t have network latency or HTTP overhead, but you also can’t easily host it remotely (stdio is inherently local).
+
+- **Unix Domain Sockets or Named Pipes:** These are not built into MCP out-of-the-box, but **custom transports** are allowed. You could implement a transport over a Unix socket (or Windows named pipe) which avoids the TCP layer and uses OS IPC for efficiency. Practically, the performance gain over localhost TCP is minor for most use cases, but domain sockets can offer security (socket file permissions) and slight overhead reduction. A custom transport would simply need to read/write JSON strings from the socket and feed them to MCP’s Protocol handler. This is feasible if, for example, you want a separate process but don’t want to expose an HTTP port.
+
+- **In-Process Function Calls:** The most extreme “zero-HTTP” integration is to run the server *in the same process* as the client (essentially linking it as a library). Because MCP is just a protocol, if you control both client and server code (e.g. both are in Python or you can embed one in the other), you could bypass serialization entirely. For instance, using the Python MCP SDK, you can register tool functions and call them directly via the MCP client API without ever marshaling to JSON. The Spring AI SDK for Java describes an “in-process based transport” that simply calls server logic directly. However, doing this means **losing isolation** – a bug in the server could crash your app, or a malicious server plugin would have direct access to your app’s memory/state. **Security and stability trade-offs** are significant here: normally, MCP servers are meant to be sandboxed to some degree (even running a local server on stdio gives you the option to kill it if it misbehaves and it can’t directly interfere with the client’s memory). In-process integration should only be done for fully trusted, lightweight tools where the function call overhead is critical to eliminate (which is rare – JSON serialization is usually not the bottleneck compared to what the tool itself is doing like I/O or API calls).
+
+- **Server-Sent Events (SSE) Transport:** On the other end of the spectrum, if you do go with HTTP, MCP chose a simple **HTTP + SSE** mechanism rather than complex WebSockets. The SSE transport (supported in the TypeScript SDK) uses an HTTP POST endpoint for requests from client->server and an SSE stream for server->client messages, enabling streaming responses. This avoids needing a bidirectional WebSocket connection and fits easily into serverless or restricted environments. **Streamable HTTP** was a recent addition that allows remote servers to not require a persistent connection. So even if you use HTTP, it’s optimized for ease and low overhead (SSE is essentially just an HTTP response that stays open). In a local context, SSE is usually unnecessary overhead compared to stdio, but it’s there if needed (for example, if your local UI is web-based and you prefer communicating over localhost HTTP between a web front-end and a Python back-end MCP server).
+
+**Performance Considerations:** For a local application like Pipulate, using STDIO or direct function calls will offer the best performance (microsecond latency and no networking). JSON serialization cost is modest, but if you call extremely frequently or large payloads, binary or in-memory could be faster. The MCP spec allows custom transports, so one could even imagine a shared-memory or gRPC transport – but that’s likely overkill. Start with STDIO, which is proven and simple. 
+
+**Security Trade-offs:** Keeping an MCP server as a separate process (communicating via stdio or sockets) is generally safer. The OS can enforce permissions, and the host app can terminate the server if needed. If you go in-process, you must treat the MCP server code as part of your trusted codebase. A compromise could be to run certain “safe” tools in-process (like a simple math or string utility) while using separate processes for riskier ones (like shell command execution). MCP’s design is flexible enough to mix – you could have multiple servers, some over stdio (separate processes) and maybe a special internal one via a direct call.
+
+**Zero-HTTP Summary:** In essence, MCP does **not** force a web server approach. It’s transport-agnostic: *“use any transport you want as long as it uses JSON-RPC as the payload.”* This is great for local apps. The simplest is to spawn a process and use pipes (stdio), achieving near in-process speeds with isolation. Many reference servers (especially those written in Node or Python) support running in this mode out-of-the-box (Claude Desktop’s config, for example, just specifies a command and it uses stdio implicitly ([For Claude Desktop Users - Model Context Protocol](https://modelcontextprotocol.io/quickstart/user#:~:text=%7B%20,filesystem%22%2C%20%22%2FUsers%2Fusername%2FDesktop%22%2C%20%22%2FUsers%2Fusername%2FDownloads%22))). So Pipulate can leverage this to avoid any HTTP overhead and keep everything offline.
+
+## 5. Embedding MCP Support in Pipulate (Local LLM Web App)
+
+**Pipulate** is described as a local web application powered by Ollama-based LLMs, with its own plugin architecture for things like CRUD database apps and notebook-style workflows. Integrating MCP into Pipulate will allow its LLM to perform a wide range of tasks by tapping into MCP servers. Here’s a plan and best practices for adding an MCP **client** in Pipulate:
+
+### a. **Leverage Pipulate’s Existing Plugin System**
+
+First, examine how Pipulate’s plugin architecture works for its current features (CRUD, notebook operations). Ideally, you want MCP to **complement** this, not conflict. If Pipulate already has a notion of “plugins” that can execute certain actions, you might implement MCP support as another plugin module:
+- This MCP plugin would handle discovering and managing MCP server connections, and routing tool calls.
+- It can act as an abstraction layer: to the rest of Pipulate, it might present MCP tools as just additional internal plugin functions. But under the hood, those calls go out via the MCP client to the external server.
+
+However, since MCP is agentic (the LLM decides when to use tools), integration is a bit more involved than a normal plugin triggered by a user click. It ties into the **LLM inference loop**.
+
+### b. **Incorporate MCP Client at Application Startup**
+
+Identify a place in Pipulate’s startup where you can initialize connections to MCP servers. Possible steps:
+- **Select MCP Servers to Use:** You might allow configuration (just like Claude’s JSON file) where users list which MCP servers (and their parameters) they want Pipulate to use. For example, in a config: `servers: [{ name: "filesystem", command: "npx @modelcontextprotocol/server-filesystem /path1 /path2" }, { name: "postgres", command: "mcp-postgres", env: {...} }]`. Pipulate can read this and attempt to start/connect to each server.
+- **Use MCP SDK or Implement Client:** Easiest is to use the **official Python or TypeScript MCP SDK** (depending on what Pipulate is built in). These SDKs handle the JSON-RPC messaging, multi-threading, etc. For instance, the Python SDK can spawn a process and connect via stdio in a few lines. If Pipulate is Node/TypeScript, the TS SDK will do similarly. The SDK will give you a client object representing the connection.
+- **Connection Lifecycle:** For each configured server, launch it (if it’s a local command) or connect to its address (if remote). Perform an **initialize handshake** and capability negotiation (SDK likely does this when you call `client.connect()` and the server responds). Ensure the server’s advertised capabilities match what you expect (e.g. if Pipulate plans to use Tools and maybe Resources).
+- **Roots (Optional):** If Pipulate deals with specific data scopes (like a project folder), you can send a `roots` list during initialization to hint servers about context. For example, if Pipulate is working on a particular database or filesystem directory, telling the server can improve relevance. Many current servers may ignore roots if not implemented, but it’s part of being a good MCP client to send them if applicable.
+
+### c. **Expose MCP Tools to the LLM**
+
+The crux is making the LLM aware of the available tools and able to invoke them. There are two broad ways:
+
+**1. Prompt Engineering Approach:** Provide the LLM with a system or few-shot prompt detailing the tools.
+   - When a user initiates a query (or a new conversation in Pipulate’s UI), Pipulate can insert a system message like: *“You have access to the following tools through the Model Context Protocol. Use them to help answer the user’s request when needed, but only with user permission. Tools:\n1. `tool_name1` – Description...\n2. `tool_name2` – Description...\nTo use a tool, respond with the format: `<TOOL>: <JSON arguments>`.”* 
+   - This approach doesn’t require the model to have built-in function calling ability; it uses natural language cues. The model hopefully learns to output a special format when it wants to use a tool. Pipulate would need to parse the model’s outputs to detect this.
+   - You can make it robust by defining a clear pattern or even a pseudo-“function call” syntax. For example, some use `<tool_name>{"param": "value"}` as an indicator in the model output. Since local models can follow instructions, with a few examples they might comply. Ashraff Hathibelagal’s tutorial on using MCP with a local Llama 3.2 model followed a similar strategy: he gave the model knowledge of `ls`, `cat`, `echo` tools and the model would output the command name and arguments, which the script captured to call the MCP server.
+
+   - After the tool executes, Pipulate would inject the result back. E.g., *“Result from `tool_name1`: [result content]”* as the next assistant message, and then let the model continue. Maintaining the conversational consistency here is key so the model can integrate the result into its reasoning.
+
+**2. Native Function-Calling Interface:** If the Ollama LLM or whichever model backend supports a function calling API (similar to OpenAI’s), you can dynamically register MCP tools as functions:
+   - Some open-source frameworks (like LangChain or Guidance) let you define a set of “tools” and will handle prompting the model to use them by adding a special token or format. If Ollama’s API for the model supports some control, that’s ideal. (Ollama is a runtime for models like LLaMA; not sure if it has a built-in function-call mechanism, but perhaps not in a standardized way like OpenAI).
+   - Alternatively, you could swap out the model with one fine-tuned for tool use (some RAG or Agentic variants exist).
+   - Given likely limited support, the safer route is the prompt approach described above. It’s model-agnostic but may require careful tuning.
+
+In either case, **ensure user consent**: since Pipulate is local, the user is likely technical. You can have a setting to “auto-approve safe tools” vs “always prompt”. But by MCP guidelines, it’s good to at least log or display tool usage. Perhaps in Pipulate’s UI, you can show something like a notification: *“LLM wants to use `get_weather` with args X. [Allow] [Deny]”*. If denied, you feed the model a message indicating the tool was unavailable, so it can apologize or try something else.
+
+### d. **Hooking into Pipulate’s Workflow**
+
+The best point to insert MCP logic is in the loop where Pipulate takes user input and generates LLM output. Concretely:
+
+1. **After User Input:** Determine if the query might need tools. You might always allow the model to decide, or you might pre-emptively decide (less ideal – let the model figure it out). If the query is along the lines of “search the database for X” or “open a file”, clearly tools will be needed.
+2. **Prepare Model Context:** Inject the tools prompt (or set up function-call definitions) *before* generating the model’s response. Also, if you have any MCP **Resources** that are obviously relevant, you might fetch them now and provide them as context. For example, if the question is “Summarize the latest sales from our DB” and you have a Sales DB MCP server, you might proactively call a resource or simple query tool and attach the data for the model, rather than rely on the model to explicitly ask. This hybrid approach can make the model’s job easier for certain queries.
+3. **Generate Model Response:** Run the model with the user prompt plus the added system instructions. **Parse the output**. If it’s a direct answer with no tool usage, great – proceed to show it. If it indicates a tool usage:
+   - Parse which tool and the arguments (e.g. via regex or JSON parse).
+   - Find the corresponding MCP server connection and call `tools/call`. Get the result or error.
+   - If the tool action is potentially lengthy, you might want to stream partial results or show a loading indicator. MCP can support **progress** notifications and cancellations, so if using the SDK, hook into those events to update your UI (e.g. “query running... 50% done”).
+   - Once result is obtained, format it and **provide it back to the model**. You can either append it to the conversation as a user message like: “Tool result: [data]” or, since this is internal, you could also regenerate the prompt and have the model produce a final answer in one go. A simpler pattern is a two-turn approach: model asks for tool → you give result → model continues.
+
+4. **Loop / Finish:** The model might sometimes call multiple tools sequentially. Your design should handle that (the loop repeats if the model output again triggers a tool). Ensure to break out if it’s stuck in a loop or if a certain number of tool uses exceeded (to avoid infinite loops or excessive API calls). Typically, 1-3 tool calls per user query is normal in agent scenarios.
+
+5. **Present Answer:** Finally, present the model’s answer to the user along with any citations or results that were included.
+
+### e. **Potential Pitfalls and Compatibility Issues**
+
+- **Local Model Limitations:** Not all LLMs are equally good at the “agentic” style. GPT-4 and Claude excel at reading tool lists and choosing to use them. Smaller local models may not pick up the pattern immediately, or they might hallucinate tools that don’t exist. Careful prompt instruction and a few-shot example of tool use in the system prompt can help. Also, keep tool descriptions concise and unambiguous to avoid confusion (the model might see tool descriptions as part of its knowledge if not clearly delineated). In testing, be prepared to refine the wording given to the model.
+
+- **Context Window:** Listing many tools and detailed schemas can consume tokens. If Pipulate connects to a dozen MCP servers, each with multiple tools, the prompt might blow up by hundreds of lines of JSON. Use summarization: maybe just list tool names and a one-liner description to the model. You don’t necessarily need to dump full JSON Schemas into the prompt (Claude might do something like that behind the scenes, but it has a large window). For smaller models, less is more. You can have the MCP client enforce that only, say, 3–5 most relevant tools (based on the query) are shown. In future, dynamic tool selection could be a feature (some agents parse the user query, then choose which subset of tools to enable for this query).
+
+- **Mismatched Expectations:** MCP servers were largely tested with Anthropic’s Claude. If using a different model, you might encounter edge cases. For example, Claude might automatically format tool calls a certain way that servers expect (the spec is standard, so this should be fine, but e.g. content types in results like images might be tricky to handle with a model that can’t actually display images). If a server returns an image (some do, e.g. a plot or chart), Claude Desktop knows how to show it to the user. In Pipulate, you would have to handle that – perhaps by saving the image and showing a link or embedding it in the web UI for the user, since your local model can’t “see” images (unless you have multimodal capabilities).
+  
+- **Multi-turn Consistency:** When the conversation continues, ensure that the model retains knowledge of the available MCP tools (or you re-insert the list as needed). It might be wise to keep a constant system prompt or context that always contains the current tool availability, updated if you add/remove servers at runtime.
+
+- **No Cloud / Offline Mode:** Pipulate is offline, so all servers should be local or on the local network. Avoid any MCP server that would call out to cloud APIs without user knowledge. If a server does integrate with an online service (e.g. a weather API), make sure the user knows and has an API key configured, etc. Offline means you may prefer MCP servers that work with local data (or maybe a local vector DB, etc., depending on use cases).
+
+- **Concurrency and State:** If multiple users or multiple threads can use the LLM in Pipulate at once, each might have their own agent session. Be sure the MCP client instances and servers can handle that. Some MCP servers (like a filesystem server) can probably be shared, but others might expect single-client use. The JSON-RPC ID fields and message ordering should isolate simultaneous calls, but test for any race conditions. The MCP spec allows multiple requests in flight, but not all servers might implement locking correctly (e.g. a SQLite-based server might not expect two queries at the exact same time). If necessary, you can run separate server instances per session or queue calls.
+
+- **Version Compatibility:** MCP spec is evolving (there’s a version field, e.g. `2025-03-26` as a revision date). Using the official SDK usually handles compatibility. Keep an eye on the **MCP Roadmap** for any breaking changes or new features that might affect your integration. Since Pipulate is local and presumably not updated too frequently, pin your MCP SDK version and the server versions, and update them together after testing.
+
+### f. **Practical Action Steps**
+
+1. **Pick a few servers** to target first (for proof of concept). Perhaps a Filesystem server and a Web search or Database server – whatever matches Pipulate’s domain. Get those running standalone and experiment with calling them using a small script or the MCP Inspector tool. This will familiarize you with the JSON inputs/outputs.
+
+2. **Integrate the MCP Client library** into Pipulate. Write a module to manage server connections (start process, handle stdout/stdin, JSON parsing – which the SDK does for you). Have it load config and establish connections at app start. Log the tools discovered.
+
+3. **Design the prompt format** for tool usage. Since Pipulate uses an Ollama-run model, you might need trial and error. Start simple: e.g. after the user’s prompt, append: *“Tools available: [list]. If needed, respond with `ToolName(params)`.”* Provide an example: *“User: How many files are in my Downloads?\nAssistant: Tool Call -> filesystem.list_dir(`~/Downloads`)”*. Then the actual call happens, etc. This one-shot example might cue the model properly.
+
+4. **Implement the loop** where you detect tool calls and feed results. Use a robust parser – perhaps restrict the model to output a JSON or a specific delimiter to reduce ambiguity.
+
+5. **Test with various queries** – ones that require tools and ones that don’t. Tune the system prompt or parsing logic as needed. Check that the model doesn’t try to hallucinate non-existent tools (if it does, you can have a catch: “I don’t have that tool” and let it continue, or better, discourage it by clearly listing only what’s available).
+
+6. **User Interface** – Provide feedback when tools are used. For a notebook-like environment, you could even display the tool call and result in a cell. For a chat interface, a small message like “(Used *filesystem* tool to read file)” improves transparency. Also handle errors gracefully: if a tool errors (server returns `isError: true`), decide if you show that error to the user or let the model see it and apologize.
+
+7. **Security** – Since Pipulate is local, the user is effectively root over their own system, but still implement confirmation for dangerous actions. Perhaps default allow read-only actions and ask for confirm on write/delete actions, or allow users to set a policy.
+
+By following these steps, Pipulate’s local LLM will be able to **consume any MCP server** just like Claude Desktop or Cursor can, enabling a wide range of tasks (database queries, file manipulations, external API calls, etc.) all under user control. 
+
+Finally, keep in mind that **the MCP ecosystem is evolving rapidly**. New servers and client features are appearing each month. By adhering closely to the MCP spec and using the official SDKs, Pipulate will maintain compatibility. It’s wise to modularize the MCP integration so that it’s easy to update or extend (e.g. add new transports, or adjust to a new spec revision). With MCP support, Pipulate can become a powerful local “AI agent” platform, benefiting from the shared innovation in the wider AI community.
+
+**Sources:**
+
+- Anthropic, *Introducing the Model Context Protocol* – overview of MCP’s purpose and architecture.  
+- Official MCP Specification (2025-03-26) – details on protocol, JSON-RPC schema, tools listing/calling.  
+- MCP Documentation – client/server roles and security principles ([Introduction - Model Context Protocol](https://modelcontextprotocol.io/introduction#:~:text=At%20its%20core%2C%20MCP%20follows,can%20connect%20to%20multiple%20servers)).  
+- Ashraff Hathibelagal, *Understanding MCP* (Predict, 2025) – explains MCP servers vs hosts, and Claude Desktop’s role.  
+- ModelContextProtocol.io – Example clients matrix (feature support by Claude Desktop, Cursor, Cline, etc.).  
+- Hacker News discussion on MCP (2025) – community insights on transports (JSON-RPC, SSE vs WebSockets) and local vs remote use-cases.  
+- Greptime blog on MCP (2025) – real-world MCP server example and Claude Desktop config snippet for connection.  
+- Claude Desktop quickstart – how to configure local servers (filesystem example) ([For Claude Desktop Users - Model Context Protocol](https://modelcontextprotocol.io/quickstart/user#:~:text=%7B%20,filesystem%22%2C%20%22%2FUsers%2Fusername%2FDesktop%22%2C%20%22%2FUsers%2Fusername%2FDownloads%22)) ([For Claude Desktop Users - Model Context Protocol](https://modelcontextprotocol.io/quickstart/user#:~:text=)).  
+- Cursor and Codeium docs – notes on integrating multiple MCP servers quickly.  
+- MCP community directories – *Glama MCP Server Directory* motivations.  
+- MCP Python tutorial (Predict, 2025) – using a local LLM with an MCP server (tools and code examples).
