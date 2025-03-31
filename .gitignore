@@ -6,6 +6,7 @@
 *.log
 *.pyc
 *.swp
+*.lock
 .DS_Store
 .bundle/
 .gem/

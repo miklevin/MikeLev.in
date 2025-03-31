@@ -24,7 +24,6 @@
           # Include necessary packages in the PATH
           buildInputs = [
             pkgs.ruby                       # Ruby for Jekyll and Bundler
-            pkgs.bundler                    # Bundler to manage Ruby gems
             pkgs.jekyll                     # Jekyll from Nixpkgs
             pkgs.rubyPackages_3_2.rouge     # Rouge (provides rougify)
             pkgs.neovim                     # Neovim for text editing
@@ -40,6 +39,12 @@
             export GEM_HOME=$PWD/.gem
             export GEM_PATH=$GEM_HOME
             export PATH=$GEM_HOME/bin:$PATH
+
+            # Install a compatible version of bundler if not present
+            if ! gem list -i bundler > /dev/null 2>&1; then
+              echo "Installing bundler..."
+              gem install bundler
+            fi
 
             # Configure bundler to install gems locally to .gem directory
             bundle config set --local path "$GEM_HOME"
