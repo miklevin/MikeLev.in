@@ -1485,13 +1485,14 @@ These changes represent a significant architectural improvement that makes your 
 
 ## Weekend Refactoring Success: LLM Streaming in Plugins
 
+> This has been a great success, although cosmetically it looks hardly any
+> further along than before. Yet, I feel so much better about the code and feel
+> positioned for escape velocity.
+
 This has been an odd entry, and was basically my working notes from a weekend
 determined to get the final architectural refactoring issues behind me. Plugins
 now have both "scripted" and genuine LLM streaming messages, in both the
 Rails-like CRUD database apps and the Jupyter Notebook-like workflow apps.
-
-This has been a great success, although cosmetically it looks hardly any further
-along than before.
 
 ## Next Steps: Porting Notebooks to Pipulate
 
