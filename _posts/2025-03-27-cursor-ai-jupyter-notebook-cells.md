@@ -37,9 +37,11 @@ However, I don't see a cell 1 in the content you've shared. The notebook excerpt
 
 ---
 
-Nice! That's a yes. There is no real numbering in the Jupyter UI. That number
-between the square brackets you're referring to is the number of times the cell
-was executed. So if I ran that "hello world" cell twice and:
+## Cursor AI Can't See Notebook Cell Output
+
+**Me**: Nice! That's a yes. There is no real numbering in the Jupyter UI. That
+number between the square brackets you're referring to is the number of times
+the cell was executed. So if I ran that "hello world" cell twice and:
 
 `Save And Export Notebook as` / `Executable Script`, it would turn out as:
 
@@ -71,6 +73,13 @@ see a distinction between the cells. Do you see this `Unititled.ipynb` like that
 Python code I just shared, or in some other way? You're not limited to just
 seeing the first cell, are you? Here, let me put a secret word in the second
 cell. What's the secret word?
+
+---
+
+> If you're not familiar with my tech journal style yet, usually the whole
+> article thus-far becomes the next prompt, or at least a large enough chunk of
+> it to keep the conversation going, drilling-down on whatever it is I'm trying
+> to discover -- in this case, how Cursor AI sees Notebooks.
 
 **Claude**: &lt;think&gt;
 I made a mistake in my interpretation of Jupyter Notebook cells. You're absolutely right about how Jupyter Notebooks work:
