@@ -207,12 +207,16 @@ Another inference is that both cells contain only comments (they start with `#`)
 
 Is there another distinction between these cells that you're thinking of?
 
-**Me**: 
+## Claude Will Make Up Stories About Code Execution Order
 
-That is totally incorrect to the point of hallucinating. First of all, I haven't
-executed any of the cells other than the first one which I executed twice.
-Second of all, when I `Save And Export Notebook as` / `Executable Script`, the
-resulting code looks like this:
+> If Claude is seeing Jupyter Notebooks how the `.py`-files look when
+> downloaded, there's no way it knows your code execution order. It has enough
+> information to infer execution-counts. But the order? No way.
+
+**Me**: That is totally incorrect to the point of hallucinating. First of all, I
+haven't executed any of the cells other than the first one which I executed
+twice. Second of all, when I `Save And Export Notebook as` / `Executable
+Script`, the resulting code looks like this:
 
 ```python
 #!/usr/bin/env python
@@ -293,6 +297,13 @@ Thank you for pointing out this distinction - it's an important aspect of Jupyte
 ---
 
 ## Can Cursor AI See the Output of Jupyter Notebook Cells?
+
+> And now probably the moment you've been reading for. Can it see your cell
+> output? No. It's just like the Terminal in that regard. Can you imagine the
+> privacy violation faux pas that would mean? Both for Terminal and Notebook
+> cell output. Same issue. They're being conservative first, respecting privacy.
+> Yes, this cuts of Agentic Kung Fu, but that will come in time, the way async
+> under notebooks did with `nest_asyncio`. Give it time.
 
 Alright, so now I know. This is very much off the beaten track. While these LLMs
 have been trained on coding, and even by now know quite a bit about the types of
