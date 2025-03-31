@@ -12,7 +12,49 @@ group: home
   <img src="/pipulate-ai-seo.svg" alt="Pipulate Free & Open Source SEO with and for LLMs">
 </div>
 
-A **local-first, single-tenant desktop app framework** built with FastHTML, MiniDataAPI, and local LLM integration (via Ollama). Designed to run like an Electron app—with full server-side state, minimal complexity, and reproducible environments using Nix Flakes. by [Mike Levin](https://mikelev.in/)
+# Pipulate Free & Open Source SEO with/for LLMs
+
+![Pipulate Free & Open Source SEO with/for LLMs](pipulate-ai-seo.svg)
+
+> Workflows are WET as WET can be. The Crud is DRY as DRY.  
+> You do not need the Cloud because *no lock-in need apply!*  
+> Haters gonna hate because they need no reason why.  
+
+## What is Pipulate?
+
+Pipulate is the first local-first, single-tenant desktop app framework with built-in AI-assisted step-by-step workflows. It's designed to function somewhat like an Electron app but runs a full Linux subsystem within a folder (using Nix) for reproducibility on macOS, Linux, and Windows (via WSL). Its primary focus is enabling SEO practitioners and others to use AI-assisted, step-by-step workflows (ported from Jupyter Notebooks) without needing to interact directly with Python code. It also serves developers who build these workflows.
+
+### Core Philosophy & Design:
+
+* **Local-First & Single-Tenant:** The application runs entirely on the user's machine, managing its state locally. This ensures privacy, gives full access to local hardware resources (for tasks like scraping or running LLMs 24/7 at minimal cost), and avoids cloud dependencies or vendor lock-in.
+
+* **Simplicity & Observability:** It intentionally avoids complex enterprise patterns like heavyweight ORMs (uses MiniDataAPI), message queues, build steps, or complex client-side state management (like Redux/JWT). State is managed server-side using simple dictionary-like structures (DictLikeDB) and JSON blobs, making it transparent and easy to debug ("know EVERYTHING!"). It aims for the "old-school webmaster feeling" with a modern stack.
+
+* **Reproducibility:** Uses Nix Flakes to ensure the exact same development and runtime environment across different operating systems (Linux, macOS, Windows via WSL).
+
+* **Future-Proofing:** Leverages technologies seen as durable: standard HTTP/HTML (via HTMX), Python (boosted by AI), Nix (universal Linux environments), and local AI (Ollama).
+
+### Key Technologies Used:
+
+* **FastHTML:** A Python web framework (explicitly not FastAPI) that focuses on simplicity, eliminating template languages (like Jinja2) and minimizing JavaScript by generating HTML directly from Python objects. It works closely with HTMX.
+
+* **HTMX:** A JavaScript library used to create dynamic, interactive user interfaces with minimal custom JavaScript, relying on server-rendered HTML updates.
+
+* **MiniDataAPI:** A simple, type-safe way to interact with SQLite databases using Python dictionaries for schema definition, avoiding complex ORMs like SQLAlchemy.
+
+* **Ollama:** Enables integration with locally running Large Language Models (LLMs) for features like in-app chat, guidance, and potentially automating tasks via structured JSON commands. Offers privacy and avoids API key costs.
+
+* **Nix Flakes:** Manages dependencies and creates reproducible development/runtime environments across operating systems, including optional CUDA support for GPU acceleration if available.
+
+* **SQLite & Jupyter Notebooks:** Integrated tools that support the core workflow development and execution process.
+
+### Target Audience:
+
+* **End-Users (e.g., SEO Practitioners):** Individuals who want to use AI-assisted, structured workflows (derived from Python/Jupyter) without needing to write or see the underlying code.
+
+* **Developers:** Those building these workflows, likely porting them from Jupyter Notebooks into the Pipulate framework. They benefit from the simple architecture, reproducibility, and integrated tooling.
+
+A **local-first, single-tenant desktop app framework** built with FastHTML, MiniDataAPI, and local LLM integration (via Ollama). Designed to run like an Electron app—with full server-side state, minimal complexity, and reproducible environments using Nix Flakes. The CRUD is DRY and the Workflows are WET! by [Mike Levin](https://mikelev.in/)
 
                  ┌─────────────┐ Like Electron, but full Linux subsystem 
                  │   Browser   │ in a folder for macOS and Windows (WSL)
@@ -278,7 +320,7 @@ Designed to be ultimately simple. No directory-diving! Most things remain static
 
 ### Layout & User Interface
 
-The app’s UI is divided into clear, distinct regions:
+The app's UI is divided into clear, distinct regions:
 
     ┌─────────────────────────────┐
     │        Navigation           │
@@ -374,12 +416,12 @@ For workflow developers, it's a rapid no-build environment that's fully observab
 
 ## Key Design Guidelines & Speedbumps
 
-The documentation below outlines critical do’s and don’ts—speedbumps embedded throughout the app. They serve as reminders to keep the code simple and the state management robust.
+The documentation below outlines critical do's and don'ts—speedbumps embedded throughout the app. They serve as reminders to keep the code simple and the state management robust.
 
 ### Local vs. Enterprise Mindset
 
 - **Do:** Embrace server-side state, use DictLikeDB for persistent state management, and keep logic in one file.
-- **Don’t:** Attempt client-side state management using React, Redux, JWT tokens, or complex service workers.
+- **Don't:** Attempt client-side state management using React, Redux, JWT tokens, or complex service workers.
 
 ### JSON State Management
 
@@ -398,7 +440,7 @@ The documentation below outlines critical do’s and don’ts—speedbumps embed
       "updated": "2024-01-31T..."
   }
   ```
-- **Don’t:** Rely on over-engineered classes with explicit step tracking (like `current_step` fields).
+- **Don't:** Rely on over-engineered classes with explicit step tracking (like `current_step` fields).
 
 ### Database and MiniDataAPI
 
@@ -407,28 +449,28 @@ The documentation below outlines critical do’s and don’ts—speedbumps embed
   ```python
   app, rt, (tasks, Task), (profiles, Profile) = fast_app("data/data.db", task={...}, profile={...})
   ```
-- **Don’t:** Use heavyweight ORMs (like SQLAlchemy) with complex session management.
+- **Don't:** Use heavyweight ORMs (like SQLAlchemy) with complex session management.
 
 ### Pipulate for Workflows
 
 - **Do:** Design workflows as a series of self-contained steps stored in a JSON blob, ensuring interruption-safe progression (just follow the established patterns).
-- **Don’t:** Chain asynchronous tasks using patterns like Celery without clear state ownership.
+- **Don't:** Chain asynchronous tasks using patterns like Celery without clear state ownership.
 
 ### UI Rendering with FastHTML Components
 
 - **Do:** Render components directly with Python functions and HTMX attributes—no templating engines needed.
-- **Don’t:** Rely on string templates (like Jinja) for rendering dynamic UI components.
+- **Don't:** Rely on string templates (like Jinja) for rendering dynamic UI components.
 
 ### WebSocket Handling
 
 - **Do:** Use a dedicated Chat class to manage WebSocket connections, message handling, and command processing.
-- **Don’t:** Use raw WebSocket endpoints without proper connection management.
+- **Don't:** Use raw WebSocket endpoints without proper connection management.
 
 ---
 
 ## Core Concepts & Internal Components
 
-- There is a Rails-like CRUD pattern that derives from BaseApp
+- There is a Rails-like CRUD pattern that derives from BaseCrud
   - This is used for ProfileApp and TodoApp 
   - ProfileAppp lets you manage user profiles (MiniDataAPI .xtra() )
   - TodoApp demonstrates how the LLM can call the CRUD operations.
@@ -440,9 +482,9 @@ The documentation below outlines critical do’s and don’ts—speedbumps embed
   - StarterFlow is the copy/paste base class you can start from for new workflows.
   - New workflows are automatically added to the Navigation Bar.
 
-### BaseApp
+### BaseCrud
 
-A central class for creating application components, **BaseApp** provides the foundation for CRUD operations, route registration, and rendering items. It’s designed for extensibility—allowing developers to subclass and override methods such as `render_item`, `prepare_insert_data`, and `prepare_update_data`.
+A central class for creating application components, **BaseCrud** provides the foundation for CRUD operations, route registration, and rendering items. It's designed for extensibility—allowing developers to subclass and override methods such as `render_item`, `prepare_insert_data`, and `prepare_update_data`.
 
 ### render_profile
 
@@ -464,7 +506,7 @@ This helper function builds a fully rendered HTML list item for a user profile. 
 # *******************************
 ```
 
-**FastHTML’s Mantra:**
+**FastHTML's Mantra:**
 - Use `rt` (router decorator) inside classes instead of `app.route()`.
 - Keep the server-side on the right side; HTMX handles only the UI updates.
 - Maintain transparency and simplicity with local, single-tenant state management.
@@ -915,328 +957,28 @@ I soon will be able to:
   - Introspect the codebase
   - Suggest code changes and improvements
 
----
-
-# The Anatomy of a Pipulate Workflow
-
-Pipulate workflows represent a powerful approach to converting Jupyter Notebooks into interactive web applications while maintaining the linear, step-by-step nature of notebook cells. Let's examine the key components that make up a Pipulate workflow using concrete examples.
-
-## 1. Core Structure and Setup
-
-Every Pipulate workflow begins with standard imports and the definition of the `Step` namedtuple, which is the fundamental building block:
-
-```python
-from fasthtml.common import *
-from collections import namedtuple
-from datetime import datetime
-import asyncio
-from loguru import logger
-
-# Each step represents one cell in our linear workflow.
-Step = namedtuple('Step', ['id', 'done', 'show', 'refill', 'transform'], defaults=(None,))
-```
-
-The `Step` namedtuple contains:
-- `id`: Unique identifier for the step
-- `done`: The field name where the step's data is stored
-- `show`: Human-readable label for the step
-- `refill`: Whether to pre-fill with previous values
-- `transform`: Optional function to transform data from previous steps
-
-## 2. Workflow Class Definition
-
-Each workflow is defined as a class with metadata and configuration:
-
-```python
-class HelloFlow:
-    APP_NAME = "hello"
-    DISPLAY_NAME = "Hello World"
-    ENDPOINT_MESSAGE = "This simple workflow demonstrates a basic Hello World example."
-    TRAINING_PROMPT = "Simple Hello World workflow."
-    PRESERVE_REFILL = True
-    
-    def get_display_name(self):
-        return self.DISPLAY_NAME
-
-    def get_endpoint_message(self):
-        return self.ENDPOINT_MESSAGE
-        
-    def get_training_prompt(self):
-        return self.TRAINING_PROMPT
-```
-
-## 3. Initialization and Step Definition
-
-The `__init__` method sets up the workflow, defining steps and registering routes:
-
-```python
-def __init__(self, app, pipulate, pipeline, db, app_name=APP_NAME):
-    self.app = app
-    self.pipulate = pipulate
-    self.app_name = app_name
-    self.pipeline = pipeline
-    self.db = db
-    steps = [
-        Step(id='step_01', done='name', show='Your Name', refill=True),
-        Step(id='step_02', done='greeting', show='Hello Message', refill=False, 
-             transform=lambda name: f"Hello {name}"),
-        Step(id='finalize', done='finalized', show='Finalize', refill=False)
-    ]
-    self.STEPS = steps
-    self.steps = {step.id: i for i, step in enumerate(self.STEPS)}
-```
-
-This is where you define the linear flow of your workflow, mapping each Jupyter Notebook cell to a step. The `transform` parameter allows you to process data between steps, similar to how variables carry values between notebook cells.
-
-## 4. Step Messages and Route Registration
-
-The workflow defines messages for each step and registers HTTP routes:
-
-```python
-self.STEP_MESSAGES = {
-    "new": "Enter an ID to begin.",
-    "finalize": {
-        "ready": "All steps complete. Ready to finalize workflow.",
-        "complete": "Workflow finalized. Use Unfinalize to make changes."
-    }
-}
-# For each non-finalize step, set input and completion messages
-for step in self.STEPS:
-    if step.done != 'finalized':
-        self.STEP_MESSAGES[step.id] = {
-            "input": f"{self.pipulate.fmt(step.id)}: Please enter {step.show}.",
-            "complete": f"{step.show} complete. Continue to next step."
-        }
-# Register routes for all workflow methods
-routes = [
-    (f"/{app_name}", self.landing),
-    (f"/{app_name}/init", self.init, ["POST"]),
-    # More routes...
-]
-for step in self.STEPS:
-    routes.extend([
-        (f"/{app_name}/{step.id}", self.handle_step),
-        (f"/{app_name}/{step.id}_submit", self.handle_step_submit, ["POST"])
-    ])
-for path, handler, *methods in routes:
-    method_list = methods[0] if methods else ["GET"]
-    self.app.route(path, methods=method_list)(handler)
-```
-
-## 5. Step Handling
-
-The core of a workflow is how it handles each step. Here's the `handle_step` method that renders the UI for a step:
-
-```python
-async def handle_step(self, request):
-    step_id = request.url.path.split('/')[-1]
-    step_index = self.steps[step_id]
-    step = self.STEPS[step_index]
-    pipeline_id = self.db.get("pipeline_id", "unknown")
-    
-    # For finalize step, redirect to finalize endpoint
-    if step.done == 'finalized':
-        return Div(id=step_id, hx_get=f"/{self.app_name}/finalize", hx_trigger="load")
-    
-    # Get suggestion (transformed value from previous step)
-    suggestion = ""
-    if step.transform and step_index > 0:
-        suggestion = self.get_suggestion(pipeline_id, step_index)
-    
-    # Check if this step is already completed
-    step_data = self.pipulate.get_step_data(pipeline_id, step_id, {})
-    if step.done in step_data:
-        completed_value = step_data[step.done]
-        return Div(
-            self.pipulate.revert_control(step_id=step_id, app_name=self.app_name, message=f"{step.show}: {completed_value}", steps=self.STEPS),
-            Div(id=self.STEPS[step_index + 1].id, hx_get=f"/{self.app_name}/{self.STEPS[step_index + 1].id}", hx_trigger="load")
-        )
-    
-    # Render the input form for this step
-    return Card(
-        H3(f"{step.show}"),
-        Form(
-            Input(type="text", name=step.done, placeholder=f"Enter {step.show.lower()}", value=suggestion, required=True, autofocus=True),
-            Button("Submit", type="submit"),
-            hx_post=f"/{self.app_name}/{step_id}_submit",
-            hx_target=f"#{step_id}",
-            hx_swap="outerHTML"
-        ),
-        id=step_id
-    )
-```
-
-## 6. Data Transformation Between Steps
-
-A key feature is the ability to transform data between steps, mimicking how variables carry values between notebook cells:
-
-```python
-def get_suggestion(self, pipeline_id, step_index):
-    """Get a suggestion for the current step based on previous step data."""
-    current_step = self.STEPS[step_index]
-    prev_step = self.STEPS[step_index - 1]
-    
-    # Get the data from the previous step
-    prev_data = self.pipulate.get_step_data(pipeline_id, prev_step.id, {})
-    if prev_step.done in prev_data:
-        prev_value = prev_data[prev_step.done]
-        # Apply the transformation function if it exists
-        if current_step.transform:
-            return current_step.transform(prev_value)
-    return ""
-```
-
-## 7. Step Submission Handling
-
-When a user submits a step, the data is processed and stored:
-
-```python
-async def handle_step_submit(self, request):
-    step_id = request.url.path.split('/')[-1].replace('_submit', '')
-    step_index = self.steps[step_id]
-    step = self.STEPS[step_index]
-    pipeline_id = self.db.get("pipeline_id", "unknown")
-    
-    form = await request.form()
-    user_val = form.get(step.done, "")
-    is_valid, error_msg = self.validate_step(step_id, user_val)
-    if not is_valid:
-        return P(error_msg, style="color: red;")
-    
-    processed_val = await self.process_step(step_id, user_val)
-    next_step_id = self.STEPS[step_index + 1].id if step_index < len(self.STEPS) - 1 else None
-    
-    # Update state
-    state = self.pipulate.read_state(pipeline_id)
-    state[step_id] = {step.done: processed_val}
-    self.pipulate.write_state(pipeline_id, state)
-    
-    # Send confirmation
-    await self.pipulate.simulated_stream(f"{step.show}: {processed_val}")
-    
-    return Div(
-        self.pipulate.revert_control(step_id=step_id, app_name=self.app_name, message=f"{step.show}: {processed_val}", steps=self.STEPS),
-        Div(id=next_step_id, hx_get=f"/{self.app_name}/{next_step_id}", hx_trigger="load")
-    )
-```
-
-## 8. Validation and Processing
-
-Each workflow can implement custom validation and processing:
-
-```python
-def validate_step(self, step_id: str, value: str) -> tuple[bool, str]:
-    # Default validation: always valid
-    return True, ""
-
-async def process_step(self, step_id: str, value: str) -> str:
-    # Default processing: return value unchanged
-    return value
-```
-
-## 9. Finalization and State Management
-
-Workflows include finalization to lock in completed work:
-
-```python
-async def finalize(self, request):
-    pipeline_id = self.db.get("pipeline_id", "unknown")
-    finalize_step = self.STEPS[-1]
-    finalize_data = self.pipulate.get_step_data(pipeline_id, finalize_step.id, {})
-    
-    if request.method == "GET":
-        if finalize_step.done in finalize_data:
-            # Already finalized UI
-            return Card(
-                H3("All Cards Complete"),
-                P("Pipeline is finalized. Use Unfinalize to make changes."),
-                Form(
-                    Button("Unfinalize", type="submit", style="background-color: #f66;"),
-                    hx_post=f"/{self.app_name}/unfinalize",
-                    hx_target=f"#{self.app_name}-container",
-                    hx_swap="outerHTML"
-                ),
-                style="color: green;",
-                id=finalize_step.id
-            )
-        # Check if ready to finalize
-        # ...
-    else:
-        # Handle finalization POST
-        state = self.pipulate.read_state(pipeline_id)
-        state["finalize"] = {"finalized": True}
-        state["updated"] = datetime.now().isoformat()
-        self.pipulate.write_state(pipeline_id, state)
-        
-        await self.pipulate.simulated_stream("Workflow successfully finalized!")
-        # ...
-```
-
-## 10. Revert Functionality
-
-Users can revert to previous steps:
-
-```python
-async def handle_revert(self, request):
-    form = await request.form()
-    step_id = form.get("step_id")
-    pipeline_id = self.db.get("pipeline_id", "unknown")
-    
-    if not step_id:
-        return P("Error: No step specified", style="color: red;")
-    
-    await self.pipulate.clear_steps_from(pipeline_id, step_id, self.STEPS)
-    state = self.pipulate.read_state(pipeline_id)
-    state["_revert_target"] = step_id
-    self.pipulate.write_state(pipeline_id, state)
-    
-    message = await self.pipulate.get_state_message(pipeline_id, self.STEPS, self.STEP_MESSAGES)
-    await self.pipulate.simulated_stream(message)
-    
-    placeholders = self.generate_step_placeholders(self.STEPS, self.app_name)
-    return Div(*placeholders, id=f"{self.app_name}-container")
-```
-
-## Comparing Notebook Cells to Workflow Steps
-
-Let's see how a simple Jupyter Notebook translates to a Pipulate workflow:
-
-**Jupyter Notebook:**
-```python
-# Cell 1
-a = input("Enter Your Name:")
-
-# Cell 2
-print("Hello " + a)
-```
-
-**Pipulate Workflow:**
-```python
-steps = [
-    Step(id='step_01', done='name', show='Your Name', refill=True),
-    Step(id='step_02', done='greeting', show='Hello Message', refill=False, 
-         transform=lambda name: f"Hello {name}"),
-    Step(id='finalize', done='finalized', show='Finalize', refill=False)
-]
-```
-
-The transformation is straightforward:
-1. Each input cell becomes a step that collects data
-2. Each processing/output cell becomes a step with a transformation function
-3. The workflow adds a finalization step to save the completed work
-
-## Key Advantages of This Approach
-
-1. **Local-First**: Everything runs on the user's machine without cloud dependencies
-2. **Linear Flow**: Preserves the step-by-step nature of notebooks
-3. **User-Friendly**: Hides Python code behind a clean web interface
-4. **Persistence**: Automatically saves state between sessions
-5. **Reusability**: Workflows can be shared and reused without code knowledge
-
-By understanding this anatomy, you can convert any Jupyter Notebook into a user-friendly Pipulate workflow, making data science processes accessible to non-technical users while maintaining the power and flexibility of Python.
-
-
+For more detailed internal guidelines, see the [`.cursorrules`](./.cursorrules) file.
 
 ---
 
-In summary, **Pipulate** combines SEO automation with the power of reproducible development environments, creating a tool that is both practical and forward-thinking. While still in development, it represents a bold new approach to SEO tools—one that emphasizes local control, flexibility, and developer empowerment. As the project evolves, it promises to become a valuable asset to those looking to integrate Infrastructure as Code into their workflows.
+## Contributing
+
+Contributions are welcome! Please keep these principles in mind:
+
+- **Maintain Local-First Simplicity:**  
+  Do not introduce multi-tenant, ORM-based, or heavy client-side state patterns.
+
+- **Respect Server-Side State:**  
+  Ensure that all state management remains on the server using DictLikeDB and JSON workflows.
+
+- **Preserve the Pipeline Pattern:**  
+  Keep workflows forward-only and self-contained.
+
+- **Honor Integrated LLM & Data Science Features:**  
+  Do not modify the built-in LLM integration or Jupyter Notebook environment unless it enhances local observability and reproducibility.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
