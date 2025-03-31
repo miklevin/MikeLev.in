@@ -1,7 +1,7 @@
 ---
 title: AI LLM Frozen Core Conundrum
 permalink: /futureproof/frozen-core-conundrum
-description: I'm building local-first applications with Python and HTMX, avoiding complex JavaScript frameworks. I demonstrate refactoring a large single-file codebase (LinkGraphFlow) into a more general tool (BotifyFlow), battling the "Frozen Core Conundrum" – AI's bias towards outdated patterns. See how Pipulate streamlines workflows and embraces simplicity.
+description: I'm building local-first applications with Python and HTMX, avoiding complex JavaScript frameworks. I demonstrate refactoring a large single-file codebase (LinkGraphFlow) into a more general tool (BotifyFlow), battling the Frozen Core Conundrum – AI's bias towards outdated patterns. See how Pipulate streamlines workflows and embraces simplicity.
 layout: post
 sort_order: 1
 ---

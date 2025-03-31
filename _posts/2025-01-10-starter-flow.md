@@ -1,7 +1,7 @@
 ---
 title: "Refining Starter Flow: The Music of Chain Reactions"
 permalink: /futureproof/starter-flow/
-description: This article chronicles the refinement of my "Starter Flow" web framework, focusing on improving the clarity and maintainability of its core "chain reaction" mechanism. Initial attempts at implementing a persistence feature, which would allow users to see and edit previous input, led to complexity and violated the framework's design principles. With the help of my AI coding partner, Claude, we realized that the solution was to embrace my framework's server-side state management philosophy. This breakthrough dramatically reduced friction in the pipeline development process.
+description: This article chronicles the refinement of my Starter Flow web framework, focusing on improving the clarity and maintainability of its core chain reaction mechanism. Initial attempts at implementing a persistence feature, which would allow users to see and edit previous input, led to complexity and violated the framework's design principles. With the help of my AI coding partner, Claude, we realized that the solution was to embrace my framework's server-side state management philosophy. This breakthrough dramatically reduced friction in the pipeline development process.
 layout: post
 sort_order: 1
 ---
