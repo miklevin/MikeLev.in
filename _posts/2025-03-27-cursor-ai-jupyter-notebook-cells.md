@@ -117,6 +117,8 @@ So to answer your question, the secret word you placed in the second cell is "fl
 
 I can see both cells in the context you provided, and I appreciate you testing my ability to properly parse the notebook format!
 
+---
+
 ## Testing Live File Updates Between JupyterLab and Cursor
 
 > If you're using Notebooks in Cursor AI, chances are you have a copy of
@@ -158,6 +160,11 @@ This confirms that I'm able to see the updated content of your `Untitled.ipynb` 
 ---
 
 ### Examining Differences Between Jupyter Notebook Cells
+
+> Can Claude in Cursor AI distinguish between a Jupyter Markdown cell and a code
+> execution cell? Their representation in the downloadable executable `.py`
+> scripts are very similar. The pattern is hash space hash (`#` `#`) indicating
+> markdown. I have to coerce Claude into realizing.
 
 **Me**: Exactly! But do you see anything special about the line containing
 flibbertigibbet and the line containing Thingamajig? Given what you know about
