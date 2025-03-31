@@ -296,32 +296,39 @@ Thank you for pointing out this distinction - it's an important aspect of Jupyte
 
 ---
 
-## Can Cursor AI See the Output of Jupyter Notebook Cells?
+## You Don't Know Notebooks, Claude
+
+> As popular as our beloved Notebooks are, they're not what AIs have been
+> trained on. `.ipynb`-files are dirty, dirty JSON jumbles. You can bet they
+> were curated out of the training data. And if the `.py` that lurks beneath was
+> extracted, it's just going to look like Python with `in[x]` comments.
+
+While these LLMs have been trained on coding, and even by now know quite a bit
+about the types of coding environments Curser AI and Windsurf use, they know
+very little about actual Notebooks, and their strange REPL code-execution
+context. 
+
+But it does appear that they see a text-file representation somewhat similar to
+the export of the `.py`-file. The alternative of them getting the whole `.ipynb`
+file would be confusing to them resulting in a useless experience for the user.
+So it's probably `nbconvert` or something like it there in the process.
+
+Okay, one more test. I need to see if they can see the output cell. This is a
+bit of a trick because anything I put in the workspace is readable by Cursor AI,
+given VSCode Workspace contexts. 
+
+---
+
+## Testing Claude's Ability to See Jupyter Cell Output
+
+**Me**: Can you see what I just did? And can you see its output?
 
 > And now the moment you all came reading for. Can Claude see your Jupyter
 > Notebook cell output in Cursor AI? No. It's just like the Terminal in that
 > regard. Can you imagine the privacy violation faux pas that would mean? Both
 > for Terminal and Notebook cell output. Same issue. They're being conservative
 > first, respecting privacy. Yes, this cuts of Agentic Kung Fu, but that will
-> come in time, the way async under notebooks did with `nest_asyncio`. Give it
-> time.
-
-Alright, so now I know. This is very much off the beaten track. While these LLMs
-have been trained on coding, and even by now know quite a bit about the types of
-coding environments Curser AI and Windsurf use, they know very little about
-Notebooks. But it does appear that they see a text-file representation somewhat
-similar to the export of the `.py`-file. The alternative of them getting the
-whole `.ipynb` file would be confusing to them resulting in a useless experience
-for the user. So it's probably `nbconvert` or something like it there in the
-process.
-
-Okay, one more test. I need to see if they can see the output cell. This is a
-bit of a trick because anything I put in the workspace is readable by Cursor AI,
-given VSCode Workspace contexts. 
-
-### Testing Claude's Ability to See Jupyter Cell Output
-
-**Me**: Can you see what I just did? And can you see its output?
+> come in time, the way async under Notebooks did with `nest_asyncio`.
 
 **Claude**: &lt;think&gt;
 Let me look at the recent changes to the file. The most recent state of the file you shared is:
