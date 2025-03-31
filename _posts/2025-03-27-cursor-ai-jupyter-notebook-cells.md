@@ -76,6 +76,8 @@ cell. What's the secret word?
 
 ---
 
+## Claude Doesn't Understand `.ipynb` `[1]` Execution Count Brackets
+
 > If you're not familiar with my tech journal style yet, usually the whole
 > article thus-far becomes the next prompt, or at least a large enough chunk of
 > it to keep the conversation going, drilling-down on whatever it is I'm trying
