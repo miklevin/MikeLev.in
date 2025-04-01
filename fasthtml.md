@@ -401,7 +401,13 @@ def get():
             Main(
                 H1("Welcome to FastHTML with Database!"),
                 P("Creating clean web pages with minimal Python code."),
-                Input(name="username", placeholder="Enter your name", hx_post="/welcome", hx_target="#welcome-msg", hx_swap="innerHTML"),
+                Input(
+                    name="username", 
+                    placeholder="Enter your name", 
+                    hx_post="/welcome", 
+                    hx_target="#welcome-msg", 
+                    hx_swap="innerHTML"
+                    ),
                 Div(id="welcome-msg"),
                 H2("Visitors:"),
                 Ul(*[Li(user.username) for user in users()])
