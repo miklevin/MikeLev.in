@@ -217,8 +217,8 @@ JavaScript, but better?
 
 FastHTML has no templates. FastHTML has no mixed context. There's no directory
 diving. And even though JavaScript and CSS are really still in the picture, you
-never have to look at it. So what does this miracle spin on webdev in Python
-look like?
+almost never have to look at it. So what does this miracle spin on webdev in
+Python look like?
 
 #### FastHTML Example
 
