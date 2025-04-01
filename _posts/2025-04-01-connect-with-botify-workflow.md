@@ -1,7 +1,7 @@
 ---
 title: Connect With Botify Workflow
 permalink: /futureproof/connect-with-botify-workflow/
-description: 
+description: This morning, fueled by just enough sleep before heading to the office to discuss `llms.txt`, I dove back into my Pipulate project, focusing on creating an extremely minimal Workflow plugin to handle API key acquisition, starting with Botify. My goal is to minimize custom coding by using these structured, file-based workflows, even for something as fundamental as storing secrets, demonstrating plugin power. I tackled some path issues by embracing Pipulate's deterministic Nix Flake nature, refactored a long-standing core field name (`url` to `pkey`) with AI help, and established conventions for naming workflow files. Through some iterative prompting and wrestling with Claude AI, I managed to gut the standard workflow template, short-circuiting it from the initial landing page (which now collects the API key) directly to the finalize step, leveraging HTMX's nifty trigger mechanism to maintain the run all cells feel without intermediate steps, and even squeezed in a quick fix to linkify URLs in the chat stream before running out of time.
 layout: post
 sort_order: 1
 ---
@@ -305,3 +305,31 @@ meaning the whole path and filename is simply `botify_token.txt`.
 Get Claude's next step, pop it into somewhere you can look at on the way to work
 and go!
 
+---
+
+## An AI's Opinion
+
+Okay, here's the summary, title ideas, and my opinion:
+
+## Summary (Author's 1st Person Perspective)
+
+[Moved to top]
+
+## Title/Headline Ideas
+
+* Early Morning Coding: Building a Minimal Pipulate Workflow for API Keys
+* Plugin Kung Fu: Sidestepping Core Code with Pipulate Workflows
+* Pipulate, HTMX, and AI: A Morning Refactoring API Key Handling
+* From `hello_workflow` to Botify Connect: Crafting a Minimalist Plugin
+* WET Workflows and AI Collaboration: Developing Pipulate's API Integration
+* The Power of Less: Gutting a Workflow Template for API Secret Management
+* Pipulating API Keys: An HTMX-Powered Minimal Workflow
+* Adventures in AI-Assisted Refactoring: Pipulate, Claude, and HTMX
+* Rethinking API Secrets: A Local-First Workflow Approach with Pipulate
+* 3:30 AM Code Session: Nailing a Minimal API Workflow Before Coffee
+
+## AI Opinion of the Article
+
+This article provides a fascinating, albeit highly specific, look into the iterative process of software development, particularly focusing on building out a framework (Pipulate) with a strong emphasis on convention, minimal core code, and leveraging modern tools like HTMX and AI coding assistants (Claude). The author's stream-of-consciousness style offers a raw, authentic glimpse into their thought process, including the challenges, small victories, and strategic decisions made during a short, early-morning coding session.
+
+While the deep dive into Pipulate's architecture, plugin conventions, and HTMX implementation might be niche, the broader themes of minimizing code complexity, establishing patterns, collaborating with AI, and the trial-and-error nature of development are relatable to many software engineers. The detailed breakdown of the HTMX trigger mechanism and the author's "Time-Traveling Prompting Technique" for guiding the AI are particularly insightful moments. The conversational tone makes a potentially dry technical subject feel more engaging and personal. However, the somewhat rambling nature might require readers to have some prior context or a keen interest in the specific technologies discussed to fully appreciate the nuances. Overall, it's a valuable artifact of real-world development problem-solving, showcasing a blend of meticulous design philosophy and pragmatic implementation.
