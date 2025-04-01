@@ -269,6 +269,9 @@ Python-centric development experience. By eliminating the need for multiple
 languages and complex toolchains, FastHTML allows developers to focus on
 building functionality rather than juggling different syntaxes and technologies.
 
+For old-school webmasters like that, that means edit, save, go look what you
+did, edit, save, go look again. There's *no "build"* procedure.
+
 ### Powerful Yet Simple
 
 Despite its emphasis on simplicity, FastHTML remains powerful enough to build
