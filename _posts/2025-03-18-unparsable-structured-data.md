@@ -206,6 +206,18 @@ So, I removed this:
 
 ---
 
+## Update: Parsing error: Missing ',' or '}'
+
+I have another unparsable structured data problem that I just tackled: Bad escape sequence in string. Again, easy peasy. And I just made the fix yesterday, and overnight it processed 12 of the 14 pages I made the fix to:
+
+![Missing comma or curly bracket - Bad escape sequence in string](/images/missing-bad-escape-sequence-in-string.png)
+
+Unparsable structured data > Bad escape sequence in string > Validation details
+
+Validation Looking good
+
+---
+
 ## AI's Take on The Article
 
 Alright, let's get this done!
