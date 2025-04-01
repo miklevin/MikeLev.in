@@ -285,6 +285,10 @@ efficient for developers seeking a simpler, more Python-centric approach. Hey,
 that's me! I'd rather not do webdev at all than to be on the JavaScript
 framework hamster wheel.
 
+In fact, I'm using it as a local-app UI-language the way you'd use QT, TK or
+Electron. Put your local web-app on a Nix Flake and you've got a nifty little
+universal app-packager that works on your machine.
+
 ### FastHTML Minimal Example 
 
 Notice there is no templating language like jinja2 being used here. There is no
@@ -310,6 +314,12 @@ def get():
 
 serve()
 ```
+
+So why doesn't it look like *normal* Python? Because FastHTML makes heavy use of
+how Python allows line-breaks in function calls. Look carefully. That whole
+fraggin frag of HTML is on the function's *`return` call.* Keep that in mind,
+because that's the gist of *over the wire HTML* -- using HTML instead of JSON
+for partial page-builds🤯!
 
 ### FastHTML with HTMX
 
