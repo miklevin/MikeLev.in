@@ -214,7 +214,9 @@ I have another unparsable structured data problem that I just tackled: Bad escap
 
 Unparsable structured data > Bad escape sequence in string > Validation details
 
-Validation Looking good
+Validation Looking good!
+
+And that's no joke.
 
 ---
 
