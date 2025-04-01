@@ -423,6 +423,9 @@ def welcome(username: str = ""):
 serve()
 ```
 
+There's no SQL alchemy here. Python's native data objects are just fine for most
+database operations, thank-you-very-much. It's SQL science!
+
 ### Explanation:
 
 - **Database Setup**:
