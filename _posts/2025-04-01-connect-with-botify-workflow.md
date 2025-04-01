@@ -1,7 +1,7 @@
 ---
 title: Connect With Botify Workflow
 permalink: /futureproof/connect-with-botify-workflow/
-description: This morning, fueled by just enough sleep before heading to the office to discuss `llms.txt`, I dove back into my Pipulate project, focusing on creating an extremely minimal Workflow plugin to handle API key acquisition, starting with Botify. My goal is to minimize custom coding by using these structured, file-based workflows, even for something as fundamental as storing secrets, demonstrating plugin power. I tackled some path issues by embracing Pipulate's deterministic Nix Flake nature, refactored a long-standing core field name (`url` to `pkey`) with AI help, and established conventions for naming workflow files. Through some iterative prompting and wrestling with Claude AI, I managed to gut the standard workflow template, short-circuiting it from the initial landing page (which now collects the API key) directly to the finalize step, leveraging HTMX's nifty trigger mechanism to maintain the run all cells feel without intermediate steps, and even squeezed in a quick fix to linkify URLs in the chat stream before running out of time.
+description: Up early, I tackled creating a minimal Pipulate Workflow for managing API keys, starting with Botify, aiming to demonstrate how plugins can handle tasks like secret storage without core changes. I refactored a tricky field name (`url` to `pkey`) with AI help and established naming conventions for these file-based workflows. After some back-and-forth guiding Claude AI, I successfully gutted the template, connecting the landing page (which now grabs the API key) directly to the final step. This streamlined approach leverages HTMX triggers to maintain a dynamic feel, showcasing a powerful, pattern-based method for extending Pipulate's capabilities with minimal code.
 layout: post
 sort_order: 1
 ---
@@ -313,7 +313,7 @@ Okay, here's the summary, title ideas, and my opinion:
 
 ## Summary (Author's 1st Person Perspective)
 
-[Moved to top]
+This morning, fueled by just enough sleep before heading to the office to discuss `llms.txt`, I dove back into my Pipulate project, focusing on creating an extremely minimal Workflow plugin to handle API key acquisition, starting with Botify. My goal is to minimize custom coding by using these structured, file-based workflows, even for something as fundamental as storing secrets, demonstrating plugin power. I tackled some path issues by embracing Pipulate's deterministic Nix Flake nature, refactored a long-standing core field name (`url` to `pkey`) with AI help, and established conventions for naming workflow files. Through some iterative prompting and wrestling with Claude AI, I managed to gut the standard workflow template, short-circuiting it from the initial landing page (which now collects the API key) directly to the finalize step, leveraging HTMX's nifty trigger mechanism to maintain the run all cells feel without intermediate steps, and even squeezed in a quick fix to linkify URLs in the chat stream before running out of time.
 
 ## Title/Headline Ideas
 
