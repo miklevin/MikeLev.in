@@ -377,10 +377,9 @@ This example shows how FastHTML leverages HTMX to create interactive web pages w
 
 ### FastHTML Database
 
-> And here we see the third half of the genius. In other words, the elimination
-> of template languages and most need for JavaScript weren't enough, most
-> complexity of dealing with databases is eliminated in FastHTML by using sqlite
-> as the default for most things, through the radically simple MiniDataAPI spec.
+> As if the elimination of template languages and most need for JavaScript
+> weren't enough, as an extra bonus most complexity of dealing with databases is
+> eliminated through the radically simple MiniDataAPI spec and SQLite defaults.
 
 Now let's say we also wanted to define a database that keeps records of everyone
 who has entered their name. Notice the `fast_app()` convenience function we've
