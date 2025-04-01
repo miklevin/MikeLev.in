@@ -145,10 +145,9 @@ functionality.
 
 ## The Radical Simplicity of FastHTML (Flask for the Webmaster)
 
-Enter FastHTML, a framework that revolutionizes Python web development by
-stripping away complexity and embracing simplicity. FastHTML takes a radically
-different approach compared to its predecessors, focusing on streamlining the
-development process and reducing cognitive overhead. Here's how FastHTML
+Enter FastHTML, a framework that rethinks Python web development while still
+being Fask-ish by stripping away everything extra, reducing cognitive overhead
+by making just one place to look and one language to learn. Here's how FastHTML
 achieves this:
 
 ### Eliminating the Need for Templating Languages
@@ -208,9 +207,9 @@ and the language-mixing is off the charts. No thanks.
 You weigh this against hopping on the JavaScript bandwagon, where you get
 one-language-to-rule them all: JavaScript client-side and server-side using
 NodeJS. Then you get the super-optimized performance of Web Assembly (WASM) and
-the all the developer pushed by Google and Microsoft! The strongest argument for
-Python as a web development platform prior to FastHTML was that people just love
-using Python.
+the all the developer tools pushed by Google and Microsoft geared towards
+JavaScript! The strongest argument for Python as a web development platform
+prior to FastHTML was that people just love using Python.
 
 Well, what if I told you that there is a better way? What if I told you with one
 light little magic trick, Python is not merely as good for Web development as
