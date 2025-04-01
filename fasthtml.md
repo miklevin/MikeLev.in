@@ -249,6 +249,11 @@ AJAX-powered web applications using simple HTML attributes. This integration
 enables developers to create interactive web applications using primarily Python
 and HTML, without extensive JavaScript knowledge.
 
+Ah ha! A 2nd language you have to learn, you say! Ah, you caught me. But HTMX is
+almost all these `hx_[name]=value` attributes that look suspiciously like HTML
+attributes. So... yeah, another language. But it sort of fits in without much
+cognitive overhead. HTMX disappears into the Python params.
+
 ### Simplifying Styling with PicoCSS
 
 FastHTML embraces minimalist CSS frameworks like PicoCSS to streamline the
