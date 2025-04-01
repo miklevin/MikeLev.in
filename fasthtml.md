@@ -617,4 +617,19 @@ Basic CRUD examples:
 
 MiniDataAPI keeps database interactions simple and predictable—perfect when clarity and straightforward CRUD operations matter most.
 
+---
 
+## Final Word?
+
+We are all standing on the shoulders of giants. The trick is in choosing your
+giants well -- to suit both your vibe and the type of projects you do. I'd
+rather not do Web development at all than to be on the hamster wheel chasing
+shiny new toys. 
+
+I've chosen my giants, and they are predominantly Linus and Guido. But But a
+couple of guys named Carson and Jeremy have lured me back into the web fold. At
+least instead of using tools called QT and TK for building local-app UIs.
+
+It'll be a long, slow build with FastAPI eclipsing FastHTML until one day it
+doesn't, by virtue of FastHTML piggybacking on a sort of ticking timebomb of
+future-proofed webdev timelessness called HTMX.
