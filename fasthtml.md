@@ -281,7 +281,9 @@ process.
 
 By addressing these key areas, FastHTML offers a refreshing alternative to
 traditional web frameworks, making Python web development more accessible and
-efficient for developers seeking a simpler, more Python-centric approach.
+efficient for developers seeking a simpler, more Python-centric approach. Hey,
+that's me! I'd rather not do webdev at all than to be on the JavaScript
+framework hamster wheel.
 
 ### FastHTML Minimal Example 
 
