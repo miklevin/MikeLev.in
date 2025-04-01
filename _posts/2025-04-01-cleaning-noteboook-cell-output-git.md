@@ -38,7 +38,7 @@ install nbstripout` to get it on your machine, then you just `cd` into your repo
 and:
 
 ```bash
-nbstripout --install --attributes
+nbstripout --install --attributes .gitattributes
 ```
 This ensures that `nbstripout` works across different machines **without absolute paths** by using `.gitattributes` instead of `.git/config`.
 
