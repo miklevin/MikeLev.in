@@ -323,9 +323,10 @@ for partial page-builds🤯!
 
 ### FastHTML with HTMX
 
-The other half of the genius is how we eliminate the need for JavaScript. Here
-we have the above example simply adding a paragraph element welcoming you to the
-page.
+See how we eliminate the need for JavaScript? Let's chuck some HTML fragments
+over the wire and insert it into the DOM without a page-reload -- and seemingly
+without JavaScript. The magic is we make an endpoint that listens and responds
+to the HTMX attribute.
 
 ```python
 from fasthtml.common import *
@@ -339,7 +340,13 @@ def get():
             Main(
                 H1("Welcome to FastHTML!"),
                 P("Creating clean web pages with minimal Python code."),
-                Input(name="username", placeholder="Enter your name", hx_post="/welcome", hx_target="#welcome-msg", hx_swap="innerHTML"),
+                Input(
+                    name="username", 
+                    placeholder="Enter your name", 
+                    hx_post="/welcome", 
+                    hx_target="#welcome-msg", 
+                    hx_swap="innerHTML"
+                    ),
                 Div(id="welcome-msg")
             )
         )
@@ -352,6 +359,9 @@ def welcome(username: str = ""):
 
 serve()
 ```
+
+You can toss in whatever endpoints you like. Think of them like HTMX event
+listeners that just happen to be running on the server.
 
 ### Explanation:
 
