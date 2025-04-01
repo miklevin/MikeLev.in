@@ -621,10 +621,14 @@ MiniDataAPI keeps database interactions simple and predictable—perfect when cl
 
 ## Final Word?
 
+> If this seems interesting to you, go check out Pipulate, my local-first web
+> framework built on FastHTML with a built-in AI sidekick. It's bound to become
+> very pipular.
+
 We are all standing on the shoulders of giants. The trick is in choosing your
 giants well -- to suit both your vibe and the type of projects you do. I'd
-rather not do Web development at all than to be on the hamster wheel chasing
-shiny new toys. 
+rather not do Web development at all than to be on the tech hamster wheel
+chasing shiny new toys. 
 
 I've chosen my giants, and they are predominantly Linus and Guido. But But a
 couple of guys named Carson and Jeremy have lured me back into the web fold. At
