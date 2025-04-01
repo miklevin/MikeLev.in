@@ -216,6 +216,8 @@ Unparsable structured data > Bad escape sequence in string > Validation details
 
 Validation Looking good!
 
+The proof is in the putting... curly-braces where they belong to close a JavaScript JSON-LD attribute value.
+
 And that's no joke.
 
 ---
