@@ -107,6 +107,39 @@ Now, you're fully future-proofed across Mac, NixOS, or any other machine you pul
 
 ---
 
+## Double Checking WHY This Works
+
+> I confirmed that this works with a git diff, but I'm clarifying for myself
+> double-checking with Gemini 2.5 exactly why this works.
+
+Okay, let's break down how the method described in the article avoids using absolute paths for `nbstripout`:
+
+1.  **The Problem with the Old Method:**
+    * The author initially had `nbstripout` configured directly within the repository's local Git configuration file (`.git/config`).
+    * This configuration likely involved specifying the *exact path* to the `nbstripout` executable or related scripts.
+    * These paths are *absolute*, meaning they start from the root directory of the filesystem (e.g., `/Users/user/...` on Mac or `/home/user/...` on Linux).
+    * Because these paths are different on different operating systems (Mac vs. Linux), the configuration stored in `.git/config` would work on one machine but be broken on the other. The `.git/config` file is specific to that local clone of the repository and isn't typically shared or version-controlled.
+
+2.  **The Solution Using `.gitattributes`:**
+    * The command `nbstripout --install --attributes` changes *how* Git is told to use `nbstripout`.
+    * Instead of putting absolute paths into the local `.git/config`, it modifies (or creates) a file named `.gitattributes` directly within the repository.
+    * Inside `.gitattributes`, it adds a line like: `*.ipynb filter=nbstripout`
+    * **Crucially, this line does *not* contain an absolute path.** It simply tells Git: "For any file ending in `.ipynb`, apply a filter named `nbstripout`."
+
+3.  **How Git Finds `nbstripout`:**
+    * The `.gitattributes` file tells Git *which* filter to use (by name: "nbstripout"), but not *where* that filter command is located.
+    * Git finds the *actual command* for the "nbstripout" filter by looking in its configuration (often set up globally or locally by running `nbstripout --install` or `nbstripout --install --global` previously).
+    * This setup relies on the `nbstripout` command being available in the system's `PATH` on *whatever machine you are currently using*.
+    * When you run a Git command (like `git commit` or `git diff`), Git sees the instruction in `.gitattributes`, looks up the "nbstripout" filter definition, finds the `nbstripout` command in the current system's `PATH`, and executes it.
+
+4.  **Why This is Portable:**
+    * The `.gitattributes` file is part of the repository and is version-controlled, so it's identical on every machine (Mac, Linux, etc.) that clones the repo.
+    * It contains only the *name* of the filter, not a system-specific path.
+    * The responsibility of *finding* the `nbstripout` executable is shifted to the Git installation on the *local machine*, which uses the local system's `PATH`.
+    * As long as `nbstripout` is installed and accessible on each machine you work on, Git can find and run it correctly using the portable instructions from `.gitattributes`.
+
+In essence, the `.gitattributes` file provides a portable, repository-level instruction ("use the nbstripout filter"), while the actual execution relies on the `nbstripout` tool being correctly installed and findable on the specific machine where the Git commands are being run, thus avoiding hardcoded, OS-dependent absolute paths within the shared repository configuration.
+
 ## An AI's Summary
 
 Here's the summary from the author's perspective:
