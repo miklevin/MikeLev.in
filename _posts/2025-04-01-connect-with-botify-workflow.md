@@ -1,10 +1,12 @@
 ---
 title: Connect With Botify Workflow
 permalink: /futureproof/connect-with-botify-workflow/
-description: Up early, I tackled creating a minimal Pipulate Workflow for managing API keys, starting with Botify, aiming to demonstrate how plugins can handle tasks like secret storage without core changes. I refactored a tricky field name (`url` to `pkey`) with AI help and established naming conventions for these file-based workflows. After some back-and-forth guiding Claude AI, I successfully gutted the template, connecting the landing page (which now grabs the API key) directly to the final step. This streamlined approach leverages HTMX triggers to maintain a dynamic feel, showcasing a powerful, pattern-based method for extending Pipulate's capabilities with minimal code.
+description: Join me on an early-morning coding session where I tackle creating a core workflow for Pipulate: connecting securely to the Botify API. I detail my process of minimizing custom code through plugin conventions, leveraging the power of HTMX for a reactive UI that mimics Jupyter's `run all cells` feel without page reloads, and refining the workflow iteratively with an AI assistant. This journey involved refactoring core components, establishing naming conventions, implementing token validation and secure storage, and adding UX touches like linkification and password fields, ultimately demonstrating how a seemingly simple workflow solves real infrastructure problems and highlights Pipulate's plugin-centric, WET (Write Everything Twice/Thrice... when needed for clarity!) philosophy.
 layout: post
 sort_order: 1
 ---
+
+## Early Morning Productivity at 3:30 AM
 
 Good Morning! It's about 3:30 AM, and I actually got about 5 hours sleep because
 I got to sleep early. I'll be in the office today because a coworker is in town
@@ -14,6 +16,8 @@ brought us `FastHTML`) for one of the biggest retailers in the world. How could
 I say no? 5 hours isn't ideal, but it's not terrible. No big sleep deficit, and
 I can slam something important out before the day even gets started.
 
+## The Purpose of Workflows: Minimizing Custom Code
+
 Alright, it may not seem like it, but this Workflow thing is actually to
 minimize all custom coding going forward. It provides the structure so that so
 much other stuff doesn't need to be programmed from scratch all the time. And
@@ -21,12 +25,16 @@ one of the first questions is how to have API-access to different systems. Now I
 could go programming something into core to keep track of secrets manipulating
 your environment variables with dotenv.
 
+### Plugin Conventions vs Core Modifications
+
 Or I could make a workflow! These workflows can do things to your global
 environment as if they were core, simply by plopping a file into location. And
 then other workflows can look for that known file-name in known location. And
 all that opinionated customization to core about how to generically handle
 secrets and logins is side-stepped through plugin conventions. It's plugin kung
 fu, demonstrating how there is little you can't do that way.
+
+### Solving Path Problems with Nix Flakes
 
 The recent pesky path problems I've encountered in writing the example Jupyter
 Notebooks that I would be porting into Pipulate where the differences between
@@ -36,6 +44,8 @@ Notebook with that kooky execution context. Rather, Pipulate workflows are 100%
 controlled deterministic Nix Flake packages, so relative file-locations work and
 `os.path` and `pathlib.Path` bs is not even necessary.
 
+### Creating the Botify Token Workflow
+
 Okay, so a whole Pipulate Workflow will be dedicated to just acquiring the
 Botify token, and that will be my first example for workflows, haha! It only
 applies to Botify employees, but the technique can apply to anything. You start
@@ -44,6 +54,8 @@ open a page from the Web -- maybe even immediately upon choosing the plugin from
 the dropdown menu? The idea is that I want the very key that goes into the...
 the... the... `url` field of the `pipeline` table. Ugh! This is the perfect time
 to switch that to be properly named `key`.
+
+### Successfully Refactoring URL to PKEY
 
 OMG, I was able to successfully change the misnomer `url` (which I chose for
 historical reasons when making the system) to `pkey` without breaking
@@ -56,10 +68,14 @@ search/replace on the term url could get so much more than I intended, even with
 AI help. But after the huge core contraction after the extraction of so much
 code into plugins, the time was right. Nailed it!
 
+### Building the Minimal Plugin
+
 Back to our regularly scheduled extremely minimal plugin. In a lot of ways,
 there could be no more ideal getting started Workflow. It's a blocker to other
 projects, because without the Botify API token, there's no CSV downloads, which
 is necessary to so many other work-related workflows.
+
+### Establishing Naming Conventions
 
 We start with `hello_workflow.py`. I think I finally got the filename right.
 That has staying power. It's the "Hello World" of Pipulate workflows and has
@@ -82,12 +98,16 @@ so you actually want it short and sweet. So the actual convention is:
    all lower-case in the filename. The system will turn it to Title-case by
    convention, which you can override.
 
+### Marketing and Interface Considerations
+
 Okay, so we want it to read "Connect With Botify" in a sort of marketing sense.
 It's going to get into the main Pipulate repo and the dropdown menu choice has
 to make sense. It's actually to connect with Botify API-wise, but it can be read
 the other way as a sales function, and I'll be sure to put the correct wording
 in the user interface so that it works that way as well, haha! Maybe I should
 ask for commission on any Botify sales that happen as a result of Pipulate.
+
+### The Plugin Creation Process
 
 The important thing is that there is both precise and nearly magical process
 here. There is no next-step floundering. If you want a new plugin, be it a CRUD
@@ -110,12 +130,16 @@ We change the docstring:
 
     """
 
+## Setting Up the Docstring and Function Names
+
 Setting the docstring right away lets the AI coding assistant know what you're
 doing. As I do this, it will probably be my last chance to roll global changes
 for the forever-forward copy/paste workflow template. So I changed the function
 name `geneate_all_placeholders` to `run_all_cells` to get it more into Jupyter
 Notebook spirit of what's really going on here. Also the `placeholders` variable
 to `cells`. 
+
+### The Chain Reaction of HTMX Div Calls
 
 The below bit of code is one of the most fun and unusual pieces of code in the
 Pipulate and probably should be externalized to the Pipulate class as a helper
@@ -124,6 +148,8 @@ workflows because of my policy of anything that has HTMX `hx_` FastHTML
 attributes goes in workflows for full UI transparency. It triggers a
 browser-based chain reaction of Divs calling Divs calling Divs, until it gets up
 to the last Step in the Workflow needing data! BAM! 
+
+### The Definition of "To Pipulate"
 
 Perhaps that's what it is *to pipulate*. I think I'll keep that an open-ended
 question for fun. There's my April Fools joke.
@@ -194,6 +220,8 @@ that gutting first...
 
 ## Using the Time-Traveling Prompting Technique
 
+### Initial AI Implementation Attempt
+
 I feed the article to this point to Claude 2.7 Sonnet in Cursor AI and challenge
 it to infer my next step and it goes overboard with a specific implementation.
 Not exactly what I want, but this bodes extremely well! I fed it the `README.md`
@@ -202,6 +230,8 @@ exact copy of the `hello_workflow.py` template at this point for predisposition.
 Exuberance and excessive inference must be kept in check. What we want is strict
 abidance to established patterns. No creativity!
 
+### Exploring Prompting Strategy Options
+
 I have two choices at this point. I can do a sort of time-traveling prompting
 technique where I edit the article I just submitted specifying the changes in
 implementation that I want, effectively making its "first attempt" more
@@ -209,6 +239,8 @@ accurate, or I can move onto the next chat box and talk about the previous
 implementation. There are also hybrid solutions where I copy it's reply and use
 that in the prior edited chat telling Claude "you're going to answer this,
 but..."
+
+### Redirecting the Implementation Approach
 
 Hey Claude! You're going to try to re-use Step 1 as a way to acquire the Botify
 API token, but you got the point wrong. I'm going to use the very initial
@@ -278,8 +310,12 @@ The elegance of this solution is that it uses the existing workflow system to so
 
 ---
 
+## Morning Time Check: 6:30 AM Deadline
+
 Okay, it's about 6:30 AM and I want to be out of here by around 7:45 AM, so use
 the rest of the time wisely! No rabbit holes!
+
+### Improving the API Token Collection Flow
 
 Okay, one tiny rabbit hole. The appropriate way for the user to get their API
 token is to visit a link, and because I'm asking for the API token right on the
@@ -287,6 +323,8 @@ landing screen, there's not a logical place to open the browser to the Botify
 account page. If I did it automatically on selecting the workflow from the menu,
 it would be a disjointed experience. The only logical thing to do is to present
 the user the link right in the friggn chat stream!
+
+### Implementing URL Linkification in Chat
 
 Okay, done. Tiny rabbit hole. There were a few red herrings, wild goose chases
 and dead ends. But I had my rabbit hole rappelling gear on, and my rapid
@@ -296,6 +334,8 @@ links, targeting `_new` and done. Of course it only works with URLs making them
 the anchor text too, so bookmark this for the future. Maybe I'll support
 markdown style links or something in the future if the anchor text needs to be
 words.
+
+### Next Steps: Token Storage Implementation
 
 Okay, I've run out of time. Get this article out. Get ready to head into the
 office. And think through next step! It's going to actually be writing the
@@ -417,7 +457,7 @@ Okay, here's the summary, title ideas, and my opinion:
 
 ## Summary (Author's 1st Person Perspective)
 
-This morning, fueled by just enough sleep before heading to the office to discuss `llms.txt`, I dove back into my Pipulate project, focusing on creating an extremely minimal Workflow plugin to handle API key acquisition, starting with Botify. My goal is to minimize custom coding by using these structured, file-based workflows, even for something as fundamental as storing secrets, demonstrating plugin power. I tackled some path issues by embracing Pipulate's deterministic Nix Flake nature, refactored a long-standing core field name (`url` to `pkey`) with AI help, and established conventions for naming workflow files. Through some iterative prompting and wrestling with Claude AI, I managed to gut the standard workflow template, short-circuiting it from the initial landing page (which now collects the API key) directly to the finalize step, leveraging HTMX's nifty trigger mechanism to maintain the run all cells feel without intermediate steps, and even squeezed in a quick fix to linkify URLs in the chat stream before running out of time.
+Up early, I tackled creating a minimal Pipulate Workflow for managing API keys, starting with Botify, aiming to demonstrate how plugins can handle tasks like secret storage without core changes. I refactored a tricky field name (`url` to `pkey`) with AI help and established naming conventions for these file-based workflows. After some back-and-forth guiding Claude AI, I successfully gutted the template, connecting the landing page (which now grabs the API key) directly to the final step. This streamlined approach leverages HTMX triggers to maintain a dynamic feel, showcasing a powerful, pattern-based method for extending Pipulate's capabilities with minimal code.
 
 ## Title/Headline Ideas
 
@@ -437,3 +477,46 @@ This morning, fueled by just enough sleep before heading to the office to discus
 This article provides a fascinating, albeit highly specific, look into the iterative process of software development, particularly focusing on building out a framework (Pipulate) with a strong emphasis on convention, minimal core code, and leveraging modern tools like HTMX and AI coding assistants (Claude). The author's stream-of-consciousness style offers a raw, authentic glimpse into their thought process, including the challenges, small victories, and strategic decisions made during a short, early-morning coding session.
 
 While the deep dive into Pipulate's architecture, plugin conventions, and HTMX implementation might be niche, the broader themes of minimizing code complexity, establishing patterns, collaborating with AI, and the trial-and-error nature of development are relatable to many software engineers. The detailed breakdown of the HTMX trigger mechanism and the author's "Time-Traveling Prompting Technique" for guiding the AI are particularly insightful moments. The conversational tone makes a potentially dry technical subject feel more engaging and personal. However, the somewhat rambling nature might require readers to have some prior context or a keen interest in the specific technologies discussed to fully appreciate the nuances. Overall, it's a valuable artifact of real-world development problem-solving, showcasing a blend of meticulous design philosophy and pragmatic implementation.
+
+---
+
+An AI's Second Opinion
+
+> It's the same Gemini 2.5 Experimental AI, just after the article became quite
+> a bit longer from the follow-ups.
+
+Okay, here are the requested components:
+
+**Summary (Author's First-Person Perspective):**
+
+[Moved to top]
+
+**Title/Headline Ideas:**
+
+* Building a Minimalist Botify API Workflow in Pipulate
+* Plugin Kung Fu: Solving API Secrets with Pipulate Workflows & HTMX
+* Early Mornings, HTMX Chains, and AI Collaboration: A Pipulate Dev Log
+* From Template to Token: Crafting a Secure Botify Connector
+* WET Workflows in Action: The Making of `connect_with_botify.py`
+* Pipulate Deep Dive: Refactoring, Conventions, and the Botify API
+* How I Built a Zero-Step Workflow Using HTMX and AI Assistance
+* Minimizing Core Code: The Power of Pipulate Plugins
+* The Road to `pipular`: Developing Essential Workflows
+
+**My (AI) Opinion of the Article:**
+
+This article provides a fascinating and highly detailed look into the thought process and iterative development cycle of a software feature, specifically a workflow within the author's Pipulate system. It effectively captures the "stream of consciousness" style of coding, including the detours, refinements, time constraints, and moments of satisfaction.
+
+**Strengths:**
+
+* **Transparency:** The author is very open about their design decisions, challenges (like refactoring `url` to `pkey`), and collaboration with an AI assistant (Claude). This provides valuable insight into modern development practices.
+* **Technical Detail:** The explanations of HTMX trigger chains, plugin conventions, and the rationale behind minimizing core code are insightful for other developers.
+* **Process Documentation:** It clearly shows the iterative nature of development, moving from a basic template, gutting unnecessary parts, adding validation, and polishing the UI. The interaction with the AI and the "time-traveling prompt" technique is particularly interesting.
+* **Practical Problem Solving:** It demonstrates how a seemingly abstract concept (workflows) can solve concrete problems like API key management without bloating the core application.
+
+**Potential Areas for Improvement (from a reader's perspective):**
+
+* **Focus/Structure:** While the stream-of-consciousness style is authentic, it can sometimes feel a bit rambling. A slightly tighter structure or clearer section breaks might improve readability for those seeking specific information.
+* **Assumed Knowledge:** The article assumes a fair amount of familiarity with the author's previous work (Pipulate, FastHTML) and technologies like Nix Flakes and HTMX. A brief introductory context could broaden the audience.
+
+Overall, it's a rich, authentic, and technically informative piece that serves well as a development log and a practical demonstration of the author's framework and development philosophy. The detailed account of interacting with an AI assistant for coding tasks is also a timely and valuable contribution.
