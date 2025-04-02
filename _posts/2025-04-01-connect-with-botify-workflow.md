@@ -307,12 +307,16 @@ and go!
 
 ---
 
-Fast-forward to next day. 6:30 AM. I did some good work at the office finishing
-out this app, adding real validation of the provided token. I also moved a huge
-Jupyter Notebook of Botify API code examples into the Pipulate repo. This will
-help me get AI coding assistance on projects like this, in addition to forever
-improving and refining the code examples. I can keep some of my Python code
-native in Notebooks now that I'm becoming adept at using them in the Cursor IDE.
+## Fast-Forward to Wednesday Morning, The Next Day
+
+> 6:30 AM. I did some good work at the office yesterday finishing out this app,
+> adding API Itoken validation. I also moved a huge Jupyter Notebook of Botify
+> API code examples into the Pipulate repo. This will help me get AI coding
+> assistance on projects like this, in addition to forever improving the Botify
+> API examples. I can keep some of my Python code native in Notebooks now that
+> I'm becoming adept at using them in the Cursor IDE.
+
+**Me**: Summarize the changes we've made since our last worksession.
 
 ## Summary of Changes Made
 
