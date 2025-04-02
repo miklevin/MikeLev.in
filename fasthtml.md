@@ -630,9 +630,9 @@ giants well -- to suit both your vibe and the type of projects you do. I'd
 rather not do Web development at all than to be on the tech hamster wheel
 chasing shiny new toys. 
 
-I've chosen my giants, and they are predominantly Linus and Guido. But But a
-couple of guys named Carson and Jeremy have lured me back into the web fold. At
-least instead of using tools called QT and TK for building local-app UIs.
+I've chosen my giants, and they are predominantly Linus and Guido. But a couple
+of guys named Carson and Jeremy have lured me back into the web fold. At least
+instead of using tools called QT and TK for building local-app UIs.
 
 It'll be a long, slow build with FastAPI eclipsing FastHTML until one day it
 doesn't, by virtue of FastHTML piggybacking on a sort of ticking timebomb of
