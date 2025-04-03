@@ -28,7 +28,7 @@ Running ads increases visibility and brand recognition [28]. Seeing a brand in b
 
 ### Enter CrUX: The User Experience Database
 
-And how does Google get a sense of that user experience, even beyond clicks on the SERP? Enter the Chrome User Experience Report, or CrUX [3]. Using aggregated, anonymized data from opted-in Chrome users (the default!), Google collects real-world performance metrics [3, 9]. This field data powers the Core Web Vitals (CWV) – Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and Interaction to Next Paint (INP, formerly FID) – which Google explicitly states are part of its page experience ranking signal [13, 16].
+And how does Google get a sense of that user experience, even beyond clicks on the SERP? Enter the Chrome User Experience Report, or CrUX [3]. Using aggregated, anonymized data from opted-in Chrome users (the default), Google collects real-world performance metrics [3, 9]. This field data powers the Core Web Vitals (CWV) – Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and Interaction to Next Paint (INP, formerly FID) – which Google explicitly states are part of its page experience ranking signal [13, 16].
 
 Now, does more traffic (potentially from ads) automatically mean better CWV scores? Research suggests it's not that simple. One study found only weak correlations between traffic volume and specific CWV metrics, concluding CWV doesn't significantly drive traffic but rather reflects a site's ability to facilitate a good user journey, leading to conversions [1]. Another analysis of thousands of pages also found weak links between CWV and traditional UX metrics like bounce rate or time on site [2].
 
@@ -52,15 +52,13 @@ Given this landscape, how can anyone new, or even an established site undergoing
 
 **6. Leverage (and Understand) GSC:** Since Google obscured referrer keywords with the move to HTTPS around 2011-2013 [128, 129], Google Search Console (GSC) has become indispensable [135]. It provides crucial (though aggregated and sampled) data on queries, impressions, clicks, and position [135, 137]. Learn its strengths and weaknesses – data sampling, especially for long-tail terms, and limited history being key limitations [141, 142, 144]. Use it to understand broad trends and user intent, shifting focus from single keywords to topic clusters [130].
 
-### Does Merit Still Matter? My Experiment
+### Does Merit Still Matter? My Zero to Clicks Experiment
 
 It's easy to get cynical and feel like money and incumbency are everything. But I still believe that creating genuinely valuable, specific content can carve out space. To prove it to myself (and keep my skills sharp), I've been running an experiment on a personal site for the past 6 months, focusing purely on long-tail, niche topics related to my interests in AI, SEO, and Python – no ads, just content.
 
 Starting from zero, the GSC data (similar to the patterns shown in the original article's charts) shows a clear exponential growth curve, reaching over 5,000 daily impressions and around 80 daily clicks. Google Analytics confirms this trend with organic sessions nearing 100/day. These aren't massive numbers, but they represent the traffic volume of a decent single keyword, achieved by aggregating many niche queries. It demonstrates that even now, you *can* build organic traffic from scratch by finding underserved corners and providing real value. It's a grind, but it works.
 
 Ultimately, succeeding in SEO today requires a pragmatic approach. Understand the system – the defaults, the data collection, the interplay of paid and organic signals. Focus relentlessly on user experience and content quality. Adapt your strategies for AI search. And have patience. Merit alone might not be enough, but combined with smart strategy and persistence, it can still win.
-
-## My Zero to Clicks Experiment
 
 Here's my growth on my website in terms of clicks and impressions over the past 6 months as a result of the very blog you're reading.
 
