@@ -499,7 +499,10 @@ and nix repo versions.
 
 ---
 
-## Update
+## Update: 1 Day with AppImage on NixOS
+
+> After just one day, I have some findings. AppImage is good for Cursor AI, but
+> I'm having second thoughts about using it for Zoom.
 
 The very next day Cursor AI IDE incremented from `0.48.6` to `0.48.7` and I did
 the new download, dropped the file `Cursor-0.48.7-x86_64.AppImage` file in
@@ -513,6 +516,21 @@ systemctl --user start appimage-sync
 ...and it became immediately searchable on the desktop and pinnable to the
 launcher. But the old Cursor seems to still be findable from search even though
 I deleted it's file. I may still have to tweak that script.
+
+Checking with `nix search nixpkgs` still shows version `0.48.6` which it did
+yesterday but wasn't hitting my machine during an update. But even if it did, it
+would be a version behind the rest of the world today. So I'll keep going with
+the AppImage approach for Nix, for sure.
+
+```bash
+[mike@nixos:~]$ nix search nixpkgs code-cursor
+* legacyPackages.x86_64-linux.code-cursor (0.48.6)
+  AI-powered code editor built on vscode
+```
+
+Zoom on other hand, even though it's nice having the latest version, it loses
+its desktop integration. Specifically, the Zoom links in your Google calendar
+stop working, and that may be a showstopper.
 
 ---
 
