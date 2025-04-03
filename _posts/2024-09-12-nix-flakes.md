@@ -7,9 +7,11 @@ layout: post
 
 ## A Cross-Platform Python Nix Flake with CUDA Support
 
-**LUCKY YOU:** The article that was originally here was pushed down a bit for
-what you're probably here for. Here's a Python Nix Flake that works on macOS,
-Windows (with WSL) and with your NVIDIA card if you've got it, for CUDA support.
+You're probably here for is this [Python Nix Flake](https://github.com/miklevin/darwinix)
+that allows you to run Python with pip install working on macOS, Windows (with
+WSL) and with your NVIDIA card with CUDA support if you've got it. All the cool
+kids are using `uv` these days, so here's the [Python Nix Flake with uv](https://github.com/miklevin/python_nix_flake).
+Here's an article about [using pip with nix](/futureproof/nix-pip-install/).
 
 ### Solving Common Python Nix Environment Issues
 
