@@ -85,7 +85,7 @@ Here's the equivalent from Google Analytics for Organic Traffic Acquisition.
 
 ---
 
-## Google Gemini Experimental's Take
+## Google Gemini 2.5 Experimental's Take
 
 Okay, here are the requested components based on the article provided:
 
