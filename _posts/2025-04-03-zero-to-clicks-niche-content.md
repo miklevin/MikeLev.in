@@ -60,7 +60,7 @@ Starting from zero, the GSC data (similar to the patterns shown in the original 
 
 Ultimately, succeeding in SEO today requires a pragmatic approach. Understand the system – the defaults, the data collection, the interplay of paid and organic signals. Focus relentlessly on user experience and content quality. Adapt your strategies for AI search. And have patience. Merit alone might not be enough, but combined with smart strategy and persistence, it can still win.
 
-## My Current Experiment
+## My Zero to Clicks Experiment
 
 Here's my growth on my website in terms of clicks and impressions over the past 6 months as a result of the very blog you're reading.
 
