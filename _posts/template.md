@@ -1,9 +1,8 @@
 ---
-title: Becomes Title tag & H1
-permalink: /futureproof/slug/
+title: 
+permalink: /futureproof/foo/
 description: 
 layout: post
 sort_order: 1
 ---
 
-How is today going to be an adventure?
