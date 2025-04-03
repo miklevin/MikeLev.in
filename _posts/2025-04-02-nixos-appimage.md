@@ -499,6 +499,23 @@ and nix repo versions.
 
 ---
 
+## Update
+
+The very next day Cursor AI IDE incremented from `0.48.6` to `0.48.7` and I did
+the new download, dropped the file `Cursor-0.48.7-x86_64.AppImage` file in
+location without changing the name or anything. That was just moving it from
+`~/Downlods` to `~/Applications` and running:
+
+```bash
+systemctl --user start appimage-sync
+```
+
+...and it became immediately searchable on the desktop and pinnable to the
+launcher. But the old Cursor seems to still be findable from search even though
+I deleted it's file. I may still have to tweak that script.
+
+---
+
 ## Gemini 2.5 Experimental's Take
 
 Okay, here are the requested pieces:
