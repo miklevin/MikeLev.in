@@ -77,7 +77,7 @@ relative to local JupyterLab with Jupyter AI under Nix versus Google Colab.
 > while this is the research prompt itself that I end up using. I'm going from
 > Gemini 2.5 Experimental to Gemini Deep Research. 
 
-Okay, here is a draft for a Deep Research prompt designed to investigate the best notebook environment for your described scenario:
+**Gemini 2.5 Experimental**: Okay, here is a draft for a Deep Research prompt designed to investigate the best notebook environment for your described scenario:
 
 ---
 
@@ -218,10 +218,12 @@ Setting up JupyterLab on a local machine offers an alternative approach that pro
 | Moderate Use & LLM | 200 | 262.80 |
 | Heavy Use & Frequent LLM | 500 | 657.00 |
 
-    These figures are estimates and can vary based on actual usage patterns and local electricity prices.  
-*   Unlike cloud-based services, the core components of this local setup—JupyterLab, Nix, and Ollama—do not involve any direct subscription fees or API usage costs.[74] Once the software is installed, the user can utilize it without incurring recurring charges.  
-*   While the core setup is free of subscription costs, users might choose to purchase more powerful local hardware, such as a laptop with a dedicated GPU and more RAM, to improve the performance of running LLMs. This would be an optional, upfront cost.  
-*   It's worth briefly mentioning that Ollama can also be run on cloud instances, which would involve costs based on the cloud provider's pricing for virtual machines and storage.[126, 127, 140, 141] However, since the user's query specifies a local setup, these cloud-based costs for Ollama are less directly relevant.
+These figures are estimates and can vary based on actual usage patterns and local electricity prices.  
+
+* **3.3. Cost Structure (continued):**  
+  * Unlike cloud-based services, the core components of this local setup—JupyterLab, Nix, and Ollama—do not involve any direct subscription fees or API usage costs.[74] Once the software is installed, the user can utilize it without incurring recurring charges.  
+  * While the core setup is free of subscription costs, users might choose to purchase more powerful local hardware, such as a laptop with a dedicated GPU and more RAM, to improve the performance of running LLMs. This would be an optional, upfront cost.  
+  * It's worth briefly mentioning that Ollama can also be run on cloud instances, which would involve costs based on the cloud provider's pricing for virtual machines and storage.[126, 127, 140, 141] However, since the user's query specifies a local setup, these cloud-based costs for Ollama are less directly relevant.
 
 * **3.4. Persistence & Environment:**  
   * In a local JupyterLab setup, data files are directly accessed from and stored on the user's local file system.74 This provides straightforward and reliable data persistence, as the files are saved directly to the user's hard drive and are not tied to a temporary session.  
@@ -505,7 +507,7 @@ deep research tools go to town on it. Currently, I'm using Gemini for both
 parts, and in a completely meta twist, comparing tools that have Gemini built in
 against local LLM alternatives, haha!
 
-### Observations on Self-Referential Research Results
+### Observations on Self-Referential Research Results (Cited Again!)
 
 My own site, MikeLev.in, appears multiple times in the *Works Cited* section
 above and it's interesting seeing my own `.favicon` scroll by during Gemini
