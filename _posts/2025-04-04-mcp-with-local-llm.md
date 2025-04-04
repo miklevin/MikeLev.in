@@ -1,12 +1,12 @@
 ---
-title: "Beyond RAG: Integrating MCP Servers with a Local LLM"
+title: "Beyond RAG: Integrating Python MCP Servers with a Local LLM"
 permalink: /futureproof/mcp-with-local-llm/
-description: "Exploring how my project, Pipulate, could integrate the Model Context Protocol (MCP) revealed a powerful path forward: instead of just being *like* MCP, my local Ollama LLM should act as an *MCP client*. This architecture allows the LLM to intelligently request specific, processed information (like simplified web page content) from dedicated, loosely coupled MCP servers on-the-fly, significantly enhancing its capabilities without bloating the core application, perfectly aligning with Pipulate's local-first, privacy-centric philosophy and potentially enabling a new wave of user-controlled, sovereign AI tooling."
+description: "Exploring how my Python project, Pipulate, could integrate the Model Context Protocol (MCP) revealed a powerful path forward: instead of just being *like* MCP, my local Ollama LLM should act as an *MCP client*. This architecture allows the LLM to intelligently request specific, processed information (like simplified web page content) from dedicated, loosely coupled MCP servers on-the-fly, significantly enhancing its capabilities without bloating the core application, perfectly aligning with Pipulate's local-first, privacy-centric philosophy and potentially enabling a new wave of user-controlled, sovereign AI tooling."
 layout: post
 sort_order: 3
 ---
 
-## MCP With Local LLM
+## Python MCP With Local LLM
 
 The following was a discussion with Claude 3.7 Sonnet in Cursor AI IDE with the
 Pipulate codebase put into chat context about turning the built-in local LLM
@@ -21,7 +21,7 @@ when I get up to model context protocol integration.
 
 > This travels right to the end of the discussion where we talk about
 > architecture and the overarching vision for the project once Claude really
-> "got it". Scroll to the bottom if you want implementation details.
+> "got it". Scroll to the bottom if you want Python implementation details.
 
 **Claude 3.7 Sonnet**: To fully align with the Model Context Protocol and maintain consistency with Pipulate's local-first philosophy:
 
@@ -72,7 +72,7 @@ The key insight is that MCP isn't replacing Pipulate's architecture; it's enhanc
 
 > When asked to open-ended riff, Claude 3.7 Sonnet jumps very forward-looking
 > very fast! This goes well beyond my immediate actual implementation turning a
-> local Ollama LLM into an MCP client, and you've gotta love its spirit!
+> local Ollama LLM into a Python MCP client, and you've gotta love its spirit!
 
 **Me**: Excellent, Claude 3.7. Thank you. Now just open-ended riff.
 
@@ -172,8 +172,8 @@ The most exciting possibilities likely haven't even been imagined yet. That's th
 ## How The Local LLM MCP Discussion Began
 
 > This part of the discussion actually came first, but the implementation code
-> examples are a pretty dry way to introduce you to the concept of an
-> MCP-wielding local LLM, haha!
+> examples are a pretty dry way to introduce you to the concept of a Python
+> powered MCP-wielding local LLM, haha!
 
 **Me**: [Puts codebase in context] How close is this system to being mcp (Model Context Protocol) local LLM? 
 
