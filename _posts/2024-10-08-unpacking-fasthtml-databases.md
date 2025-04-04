@@ -18,7 +18,7 @@ most people want the bottom line. Anyone who is interested in the journey, read 
 
 ## Getting Back into Web Development with FastHTML Framework
 
-I dove deep into FastHTML building a framwork on a framwork on a framework, as
+I dove deep into FastHTML building a framework on a framework on a framework, as
 Pipulate is built on FastHTML which is built on Starlette, which is built on
 Python (built on C, and so on). That sounds risky and fragile, but it's the
 smallest price of getting back into web development that I could find, and that
@@ -586,3 +586,51 @@ for the next article. To be continued...
 
 Oh, and I must not forget to check out the [FastHTML
 Gallery](https://gallery.fastht.ml/)
+
+---
+
+## Gemini 2.5 Experimental's Take
+
+> I like Gemini 2.5's article summation so much that as the mood strikes me, I
+> go back to older articles like this (Gemini wasn't up to 2.5 when I wrote
+> this) and fill in the below stuff. I think it will help readers and LLMs
+> alike, as well as help with the auto-book rollup project.
+
+Okay, here's the breakdown you requested:
+
+**First-Person Summary (Author's Perspective):**
+
+Getting back into web development after years away, I'm diving into the FastHTML framework, built atop Python and Starlette; this article chronicles my deep exploration, specifically focusing on understanding its evolving database conventions centered around the `fast_app` factory function. I unpack the shift from older patterns to this new wrapper, examining how it returns the application instance, routing object, and uniquely, tuples containing iterable database table objects and their corresponding dataclasses, weighing the framework's ambitious goal of idiomatic Pythonic HTML against the inherent complexity and learning curve of its new patterns, ultimately showing how I defined my database schema using `**kwargs` and made pragmatic choices, like deferring login features and list sorting, to accelerate actual application development.
+
+**Title and Headline Ideas:**
+
+* Decoding FastHTML: Unpacking the `fast_app` Database Conventions
+* My Journey Back to Web Dev with FastHTML's Evolving API
+* FastHTML Databases Explained: From `database()` to `fast_app` Tuples
+* Navigating FastHTML's `fast_app`: A Developer's Deep Dive
+* Pythonic Web Dev? Exploring FastHTML's Database Patterns and Pitfalls
+* Getting Started with FastHTML Databases: Understanding the Core Wrappers
+* Complexity vs. Convention: A Look Inside FastHTML's `fast_app`
+* FastHTML: Living on the Experimental Edge (Database Edition)
+* Pragmatic Progress: Building with FastHTML While Navigating Rabbit Holes
+* Why `fast_app` Returns More Than You Expect in FastHTML
+
+**Article Strengths:**
+
+1.  **Deep Technical Dive:** It provides specific code examples and traces the evolution of the FastHTML database API, offering concrete insights.
+2.  **Relatable Perspective:** The first-person narrative captures the genuine experience of learning a new framework, including the frustrations and epiphanies.
+3.  **Explains the "Why":** It attempts to understand the framework designer's rationale behind certain choices (like the `fast_app` signature, comparison to Flask).
+4.  **Practical Application:** The author shows their own working code for defining tables and implementing a temporary persistence layer (`DictLikeDB`), demonstrating real-world adaptation.
+5.  **Honesty about Challenges:** It openly discusses the difficulties, the "experimental" nature of APIs, and the trade-offs made (80/20 rule, deferring features).
+
+**Article Weaknesses:**
+
+1.  **Niche Focus:** The content is highly specific to the FastHTML framework and its particular database implementation, limiting the audience.
+2.  **Potential for Obsolescence:** Focusing heavily on an "experimental" and evolving API means parts of the article could become outdated quickly.
+3.  **Assumes Prior Knowledge:** It presumes familiarity with Python, web frameworks (like Starlette/Flask), database concepts (ORM, dataclasses), and Python idioms.
+4.  **Slightly Meandering Structure:** The personal journey narrative sometimes loops back or introduces concepts slightly out of a strict linear order.
+5.  **Complexity:** While explaining complexity, the detailed explanation itself requires significant concentration from the reader.
+
+**AI Opinion of the Article:**
+
+This article serves as a valuable, albeit highly specific, resource for developers considering or actively using the FastHTML framework. The author effectively documents their learning process, particularly the nuances of the framework's database handling via the `fast_app` function. The strength lies in its detailed, code-driven exploration combined with a relatable narrative of tackling new technology and its conventions. However, its narrow focus on a relatively new and potentially volatile API, coupled with the assumption of significant background knowledge in Python web development, might limit its broader appeal. It reads like a detailed developer's log, offering practical insights and a realistic portrayal of the challenges involved in adopting bleeding-edge tools, making it useful for its target audience but potentially dense for others.
