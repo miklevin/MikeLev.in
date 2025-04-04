@@ -10,12 +10,17 @@ sort_order: 3
 
 The following was a discussion with Claude 3.7 Sonnet in Cursor AI IDE with the
 Pipulate codebase put into chat context about turning the built-in local LLM
-into the MCP client that consumes MCP server services.
+into the MCP client that consumes MCP server services. I've moved "the vision
+thing" to the top, so the discussion is a bit out of order, but I think it's
+most interesting to see the architecture first.
 
-I've moved "the vision thing" to the top, so the discussion is a bit out of
-order, but I think it's most interesting to see the architecture first.
+---
 
 ## Completing the MCP Vision for Pipulate
+
+> This travels right to the end of the discussion where we talk about
+> architecture and the overarching vision for the project once Claude really
+> "got it". Scroll to the bottom if you want implementation details.
 
 To fully align with the Model Context Protocol and maintain consistency with Pipulate's local-first philosophy:
 
