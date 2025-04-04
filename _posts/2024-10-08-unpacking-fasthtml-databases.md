@@ -290,11 +290,10 @@ something called a `render` object comes into play later to accomodate for
 
 ### CRUD Without the Cruft
 
-Anyone who has stepped through database records in a CRUD (create, record,
-update, delete) will appreciate this convenience. It's a righteous union of
-Python list comprehensions with databases. Everything you have to do, you can
-pretty much do with `todos`, the object mapped to the actual records within the
-database. 
+Anyone who has stepped through database records in a CRUD (create, read, update,
+delete) will appreciate this convenience. It's a righteous union of Python list
+comprehensions with databases. Everything you have to do, you can pretty much do
+with `todos`, the object mapped to the actual records within the database. 
 
 But what about the field types? How do you ***know*** what the fields in the
 database are?
