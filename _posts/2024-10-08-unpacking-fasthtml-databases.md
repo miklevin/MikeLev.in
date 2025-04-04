@@ -16,6 +16,8 @@ layout: post
 While this article has proven popular and I encourage you to read it, I think
 most people want the bottom line. Anyone who is interested in the journey, read on!
 
+---
+
 ## Getting Back into Web Development with FastHTML Framework
 
 I dove deep into FastHTML building a framework on a framework on a framework, as
