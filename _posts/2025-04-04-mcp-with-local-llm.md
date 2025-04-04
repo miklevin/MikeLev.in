@@ -12,7 +12,8 @@ The following was a discussion with Claude 3.7 Sonnet in Cursor AI IDE with the
 Pipulate codebase put into chat context about turning the built-in local LLM
 into the MCP client that consumes MCP server services. I've moved "the vision
 thing" to the top, so the discussion is a bit out of order, but I think it's
-most interesting to see the architecture first.
+most interesting that way. This article serves as a reminder and a blueprint for
+when I get up to model context protocol integration.
 
 ---
 
