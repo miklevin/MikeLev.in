@@ -63,7 +63,8 @@ So you see, the utility of incorporating MCP with a local model is not to replac
 
 Here's how you could implement this approach:
 
-```python:pipulate/mcp_client.py
+```python
+# pipulate/mcp_client.py
 import asyncio
 import json
 import httpx
@@ -136,7 +137,8 @@ class MCPClient:
 
 Now, you'll need to extend your Chat class to recognize and handle MCP-related requests from the LLM:
 
-```python:server.py
+```python
+# server.py
 # ... existing code ...
 
 async def handle_chat_message(self, websocket: WebSocket, message: str):
@@ -173,7 +175,8 @@ async def handle_chat_message(self, websocket: WebSocket, message: str):
 
 Next, implement a basic web page retrieval and simplification MCP server:
 
-```python:pipulate/mcp_servers/web_fetcher.py
+```python
+# pipulate/mcp_servers/web_fetcher.py
 import asyncio
 from fastapi import FastAPI, Request
 from playwright.async_api import async_playwright
@@ -261,7 +264,8 @@ if __name__ == "__main__":
 
 Now, integrate the MCP client into your main server initialization:
 
-```python:server.py
+```python
+# server.py
 # ... existing imports ...
 from pipulate.mcp_client import MCPClient
 
@@ -294,7 +298,8 @@ class Chat:
 
 Finally, update your system prompt to inform the LLM about its MCP capabilities:
 
-```markdown:training/system_prompt.md
+```markdown
+# training/system_prompt.md
 # ... existing content ...
 
 ## MCP Integration
