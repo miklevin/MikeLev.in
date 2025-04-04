@@ -184,7 +184,7 @@ And now if you look at the *return signature* of fast_app (with the
 aforementioned "Go to Definition" feature in your editor), you can see the
 reason for this...
 
-### Jeremy Splats Tables... and I *Must Care*
+### Jeremy Splats Tables... *and I Must Care*
 
 ```python
 return app,app.route,*dbtbls
