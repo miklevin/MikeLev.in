@@ -9,11 +9,17 @@ sort_order: 1
 ## From AI Insights to Python Code: The Journey Begins
 
 Okay so you're gonna get some help analyzing your data, perhaps from Gemini in
-Google Sheets, and it will outright tell you something about your data. Maybe it
-will insert some charts and graphs, but maybe also it will give you the Python
-code it used to do the analysis. And that's the first place Pipulate can help
-you. It at least gives you a local place to run your Python code that has
-unlimited local LLM help at no cost, with no API key.
+Google Sheets or CoPilot in Excel, and it will outright tell you something about
+your data. Maybe it will insert some charts and graphs, but maybe also it will
+give you the Python code it used to do the analysis. 
+
+Now you're faced with a question. Do you just rely on the AI assistants forever
+to run that Python code and do your analysis? Or do you try to run it yourself?
+
+And that's the first place Pipulate can help people out there scratching this
+itch. Without even all the fancy Notebook-to-Web App conversion, Pipulate
+immediately gives you a local place to run your Python code that has unlimited
+local LLM help at no cost, with no API key.
 
 ## The Cloud vs Local Dilemma: Exploring Our Options
 
