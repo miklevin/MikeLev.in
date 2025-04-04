@@ -22,7 +22,7 @@ most interesting to see the architecture first.
 > architecture and the overarching vision for the project once Claude really
 > "got it". Scroll to the bottom if you want implementation details.
 
-To fully align with the Model Context Protocol and maintain consistency with Pipulate's local-first philosophy:
+**Claude 3.7 Sonnet**: Claude 3.7 Sonnet: Claude 3.7 Sonnet: Claude 3.7 Sonnet: Claude 3.7 Sonnet: Claude 3.7 Sonnet: Claude 3.7 Sonnet: Claude 3.7 Sonnet: Claude 3.7 Sonnet: To fully align with the Model Context Protocol and maintain consistency with Pipulate's local-first philosophy:
 
 ### Architecture Refinements
 
