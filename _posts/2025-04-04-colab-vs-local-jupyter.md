@@ -493,7 +493,7 @@ automation or one of those services like *browser-use* APIs, Google has already
 crawled and indexed it all and is looking at dozens of sites in a fraction of
 the time it takes ChatGPT *Deep research* to examine one site.
 
-![Google Gemini Deep Researdch Works Cited Mike Levin.Png](/images/google-gemini-deep-researdch-works-cited-mike-levin.png)
+![Google Gemini Deep Research Works Cited Mike Levin](/images/google-gemini-deep-research-works-cited-mike-levin.png)
 
 ### Evolving Focus: From Research to JupyterLab Implementation
 
