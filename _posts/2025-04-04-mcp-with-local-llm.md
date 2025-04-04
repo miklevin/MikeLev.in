@@ -502,7 +502,6 @@ When a user asks about a specific web page, you can fetch simplified content usi
 ```
 
 Always use these capabilities when relevant to provide more accurate responses.
-```
 
 This implementation allows the local LLM to dynamically request resources from MCP servers without requiring tight coupling in your application code. The key advantages of this approach are:
 
