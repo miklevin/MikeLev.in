@@ -14,7 +14,6 @@ group: home
 
 > Workflows are WET as WET can be. The Crud is DRY as DRY.  
 > You need not use the Cloud because *no lock-in does apply!*  
-> Haters gonna hate because they need no reason why.  
 
 ## What is Pipulate?
 
