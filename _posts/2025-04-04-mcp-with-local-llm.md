@@ -212,7 +212,7 @@ Would you like me to elaborate on any specific aspect of how Pipulate could be a
 
 ---
 
-## Clarification & Code: The Local LLM WILL BE the MCP Client!
+## Clarification & Code: The Local LLM *Will BE* the MCP Client!
 
 > Claude didn't get at first how the MCP protocol will be wedged in to allow the
 > *local LLM be the MCP client*, tapping MCP Servers when it wishes, retrieving
