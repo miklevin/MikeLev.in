@@ -19,25 +19,25 @@ to run that Python code and do your analysis? Or do you try to run it yourself?
 And that's the first place Pipulate can help people out there scratching this
 itch. Without even all the fancy Notebook-to-Web App conversion, Pipulate
 immediately gives you a local place to run your Python code that has unlimited
-local LLM help at no cost, with no API key.
+local LLM help at no cost, with no API key or Cloud gotcha's.
+
+Let's do some research!
 
 ## The Cloud vs Local Dilemma: Exploring Our Options
 
-It's not going to be putting it on Google Colab, a place in the cloud that you
-can put your Python code, but one that is going to delete any files... well, you
-know what? Let's do some research. Okay, Gemini 2.5 Experimental. Here's the
-situation. Write me a Deep Research prompt. We get AI help such as from Gemini
-built into Google Sheets and it gives us some insight about our data, and when
-we ask it to insert it into our sheet, it ends up being Python code.
+Okay, Gemini 2.5 Experimental. Here's the situation. Write me a Deep Research
+prompt. We get AI help such as from Gemini built into Google Sheets and it gives
+us some insight about our data, and when we ask it to insert it into our sheet,
+it ends up being Python code.
 
-## Finding the Perfect Environment for Data Analysis
+### Finding the Perfect Environment for Data Analysis
 
 We want to run that Python code against our data, experimentally. This looks
 like a job for Jupyter Notebooks. But we are very used to getting AI assistance
 now with our coding. And we also don't want to incur cloud expenses or
 unintended gotcha's of being lured and locked into paid services. 
 
-## Crafting a Comprehensive Research Strategy
+### Crafting a Comprehensive Research Strategy
 
 So, articulate a prompt to research the pros and cons of Google Colab and it's
 free and paid tiers. Look at the AI assistance you can get built into both
@@ -46,7 +46,7 @@ persistence of uploaded data and pip-installed components. The goal is having an
 easy peasy long-term place where we can conduct Pandas-oriented data
 investigations against our data.
 
-## The Local Alternative: Nix Flake and JupyterLab
+### The Local Alternative: Nix Flake and JupyterLab
 
 Our alternative platform is a Nix Flake that hosts a full JupyterLab environment
 with Jupyter AI and a local Ollama LLM with whatever model is most appropriate
@@ -55,7 +55,7 @@ Macbook or Windows-laptop level hardware. The Nix Flake makes the Jupyter
 install fully deterministic on Mac, Windows or Linux, using virtualenv to create
 a local virtual environment for the freedom of pip installs even under nix.
 
-## The Final Research Challenge
+### The Final Research Challenge
 
 So the ask is to create a prompt to research the pros and cons of these two
 approaches to Notebooks for casual but ongoing data investigations like this for
@@ -64,6 +64,8 @@ only include the insofar as they provide a different set of pros and cons
 relative to local JupyterLab with Jupyter AI under Nix versus Google Colab.
 
 ---
+
+## Gemini 2.5 Experimental Drafts the Research Prompt
 
 Okay, here is a draft for a Deep Research prompt designed to investigate the best notebook environment for your described scenario:
 
@@ -110,6 +112,9 @@ Okay, here is a draft for a Deep Research prompt designed to investigate the bes
 ---
 
 # **Comparing Notebook Environments for AI-Assisted Python Data Analysis: A Guide for Beginners**
+
+> The above was the prompt for Google Deep Research, this is the final output of
+> the research.
 
 **1. Introduction: Embarking on Your Data Analysis Journey with the Right Tools**
 
