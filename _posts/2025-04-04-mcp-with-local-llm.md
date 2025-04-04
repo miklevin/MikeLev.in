@@ -52,7 +52,7 @@ The MCP integration perfectly extends Pipulate's core philosophy of "local-first
 
 In the fully realized implementation, Pipulate would become a powerful example of a local-first application leveraging MCP:
 
-1. **Chip O'Theseus Approach**: As mentioned in your README, Pipulate follows the "Chip O'Theseus" approach where components can be swapped out and improved over time. MCP provides the perfect interface for this, allowing different capability servers to be added, removed, or upgraded independently.
+1. **Chip O'Theseus Approach**: As mentioned in your [README](https://github.com/miklevin/pipulate/blob/main/README.md), Pipulate follows the "Chip O'Theseus" approach where components can be swapped out and improved over time. MCP provides the perfect interface for this, allowing different capability servers to be added, removed, or upgraded independently.
 
 2. **Autonomous Agent Capabilities**: The LLM could function as a true autonomous agent, deciding when to request additional context through MCP, planning multi-step operations across different servers, and executing complex workflows.
 
