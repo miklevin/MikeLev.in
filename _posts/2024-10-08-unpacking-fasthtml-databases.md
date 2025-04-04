@@ -8,12 +8,13 @@ layout: post
 > If you're just here to learn the basics of FastHTML without hearing about me
 > rediscovering the love for webdev, visit my [Introduction to FastHTML](/fasthtml/) page. It covers:
 
-- The elimination of the need for a template language like jina2
-- The elimination of the need for JavaScript in most cases (using HTMX)
-- The elimination of the need for CSS style and class bloat
-- The elimination of the need for complex databases stuff
+1. Eliminating template languages like Jina2
+2. Eliminating JavaScript in most cases (using HTMX)
+3. Eliminating code bloat from CSS classes
+4. Eliminating all complex databases stuff
 
-Anyone who is interested in the journey, read on!
+While this article has proven popular and I encourage you to read it, I think
+most people want the bottom line. Anyone who is interested in the journey, read on!
 
 ## Getting Back into Web Development with FastHTML Framework
 
