@@ -47,6 +47,14 @@ However, it's worth noting that Pipulate's current implementation already provid
 
 Would you like me to elaborate on any specific aspect of how Pipulate could be adapted to be more MCP-compliant?
 
+---
+
+## Clarification: The Local LLM Will be the MCP Client
+
+> Claude didn't get at first how the MCP protocol will be wedged in to allow the
+> *local LLM be the MCP client*, tapping MCP Servers when it wishes, retrieving
+> data to augment its generated response.
+
 **Me**: I want to make the Ollama powered local LLM the MCP client. It should be able to use an MCP server like a RAG (retrieval augmented generation) in order to alleviate a lot of custom tightly coupled application code. For example, if the user asks the local Ollama powered LLM about a web page, in the course of responding, the LLM should be able to request the web page from an MCP server. It shouldn't be direct Playwright browser automation because the DOM will be too large and confusing for the model, so the MCP server handles the Playwright automation, the simplification of the resulting DOM code and passes it back in a distilled-down fashion all before responding to the user.
 
 So you see, the utility of incorporating MCP with a local model is not to replace the tight coupling of functions where they are appropriate, but rather to provide a loose coupling of new capabilities the local LLM itself can tap as the client.
