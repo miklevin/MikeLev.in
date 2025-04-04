@@ -565,14 +565,19 @@ This MCP approach aligns perfectly with Pipulate's core values from the README:
 The MCP integration preserves this by keeping all processing local and maintaining the user's privacy:
 
 ```
-"One user, one instance, with all state managed server-side using a simple DictLikeDB and JSON blobs. Full access to the local hardware for free scraping and processing—have AI workflows running 24/7 for only the cost of electricity and the home bandwidth you already pay for anyway."
+"One user, one instance, with all state managed server-side using 
+a simple DictLikeDB and JSON blobs. Full access to the local hardware 
+for free scraping and processing—have AI workflows running 24/7 for 
+only the cost of electricity and the home bandwidth you already pay 
+for anyway."
 ```
 
 #### LLM Integration
 The MCP approach enhances the existing LLM integration by making it more extensible:
 
 ```
-"Integrated with a local Ollama server for free, streaming LLM support with bounded conversation history."
+"Integrated with a local Ollama server for free, streaming LLM support 
+with bounded conversation history."
 ```
 
 Now, this LLM can dynamically access a growing ecosystem of specialized tools through the standardized MCP interface.
