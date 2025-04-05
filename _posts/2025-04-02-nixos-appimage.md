@@ -377,6 +377,10 @@ I think I'll do something better in the future, but for now this is giving me
 default desktop icons for the launcher and making them findable from desktop
 search.
 
+> UPDATE: I'm ditching this solution. The fewer moving parts the better. If
+> there's a `.desktop` file in my `~/.local/share/applications]` location, it's
+> because I hand-edited it and put it there.
+
 ```nixos
   # First, define the script as a package
   systemd.user.services.appimage-sync = {
