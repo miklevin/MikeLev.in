@@ -10,8 +10,8 @@ sort_order: 2
 
 Alright, I'm practicing some *Context Foo* here. In a prior article, I describe
 how to reach into various parts of your coding project, usually a git repo, and
-to append all those parts together into one big file, which as a courtesy is
-also dumped into your OSes copy-buffer so you don't have to figure out how to do
+to append all those parts together into one big file, which as a convenience is
+also dumped into your OS' copy-buffer so you don't have to figure out how to do
 that yourself -- at the same time, layering in prompts.
 
 ### The Current State of AI Code Assistance
