@@ -543,7 +543,13 @@ venv/bin/activate` to activate the Python virtual environment. Make an addendum
 to the guide for my unique situation, and advise how I should make AI code
 assistants like you working in Agent mode aware of this.
 
-**Claude**: # Addendum: Combining Nix Flakes with Python Virtual Environments
+**Claude**: 
+
+> I noticed that Claude made a comment about Nix environments being immutable,
+> and that being an issue. But I made Python virtual environments work very
+> nicely under Nix, and the real issue is knowing about it.
+
+# Addendum: Combining Nix Flakes with Python Virtual Environments
 
 ## Understanding the Hybrid Nix + Virtualenv Approach
 
