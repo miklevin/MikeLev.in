@@ -43,7 +43,7 @@ group: home
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
-    <a href="{{ first_post.url | relative_url }}">
+    <a href="https://mikelev.in{{ first_post.url }}">
       <span>{{ first_post.title }}</span>
     </a>
     <span class="nav-label">Begin the Journey</span>
@@ -84,7 +84,7 @@ jump off the tech-churn hamster wheel and enjoy forever-improving craftsmanship.
     {% assign day_posts = day.items | sort: 'sort_order' | reverse %}
     {% for post in day_posts %}
       <li value="{{ total_posts | minus: post_counter }}"><hr />
-        <h3><a href="{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
+        <h3><a href="https://mikelev.in{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
         {% if post.description %}
           <p>{{ post.description | escape }}</p>
@@ -95,7 +95,7 @@ jump off the tech-churn hamster wheel and enjoy forever-improving craftsmanship.
           "@type": "BlogPosting",
           "headline": "{{ post.title }}",
           "datePublished": "{{ post.date | date_to_xmlschema }}",
-          "url": "{{ post.url | absolute_url }}"
+          "url": "https://mikelev.in{{ post.url }}"
         }
         </script>
       </li>
@@ -110,7 +110,7 @@ jump off the tech-churn hamster wheel and enjoy forever-improving craftsmanship.
   <div class="previous-post placeholder"></div>
   <div class="next-post">
     <span class="nav-label">Begin the Journey</span>
-    <a href="{{ first_post.url | relative_url }}">
+    <a href="https://mikelev.in{{ first_post.url }}">
       <span>{{ first_post.title }}</span>
     </a>
   </div>
@@ -123,13 +123,13 @@ These were my two main projects. Levinux has been somewhat dormant for a while, 
 
 <div class="logo-container">
     <div class="logo-item">
-        <a href="/levinux/">
-            <img src="/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
+        <a href="https://mikelev.in/levinux/">
+            <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
         </a>
     </div>
     <div class="logo-item">
-        <a href="/pipulate/">
-            <img src="/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
+        <a href="https://mikelev.in/pipulate/">
+            <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
         </a>
     </div>
 </div>
