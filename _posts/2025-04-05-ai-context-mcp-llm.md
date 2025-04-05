@@ -21,7 +21,7 @@ Code trying to make this "enhanced context" of being able to work with very big
 code bases by RAG-indexing everything. I mean Cursor RAGdexes too, but it has
 some trouble hanging onto the big picture, your coding style, anti-patterns you
 rely on, etc. I've certainly encountered this with *FastHTML is not FastAPI*
-coming off in my subconscious as *There are Four Lights.* NexGen fans will get
+coming off in my subconscious as *There are Four Lights.* TNG fans will get
 it.
 
 ### A Simpler Approach to Code Context
