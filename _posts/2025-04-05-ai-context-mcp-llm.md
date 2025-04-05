@@ -341,7 +341,7 @@ Now I'll implement a template system to store multiple prompt pairs and let you 
 > want to see the latest `context_foo.py` script, you can find it in the
 > pipulate repo. Customize to taste!
 
-[Lots of code edited out]
+[Lots of code edited out. If you're interested: [code_foo.py](https://github.com/miklevin/pipulate/blob/main/context_foo.py) ]
 
 Here's how to use the updated script:
 
