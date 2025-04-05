@@ -532,6 +532,12 @@ This guide should provide a comprehensive reference for diagnosing and fixing Fa
 
 ---
 
+## Nix That Part About Nix
+
+> I noticed that Claude made a comment about Nix environments being immutable,
+> and that being an issue. But I made Python virtual environments work very
+> nicely under Nix, and the real issue is knowing about it.
+
 **Me**: I agree with much of what you just put in that guide. But regarding the
 immutable nature of Nix Flakes and having to override dependencies explicitly in
 the `flake.nix` file, I recommend you looking at how I still use virtualenv and
@@ -544,10 +550,6 @@ to the guide for my unique situation, and advise how I should make AI code
 assistants like you working in Agent mode aware of this.
 
 **Claude**: 
-
-> I noticed that Claude made a comment about Nix environments being immutable,
-> and that being an issue. But I made Python virtual environments work very
-> nicely under Nix, and the real issue is knowing about it.
 
 # Addendum: Combining Nix Flakes with Python Virtual Environments
 
