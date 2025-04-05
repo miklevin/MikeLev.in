@@ -265,15 +265,16 @@ This implementation makes the workflow more user-friendly by automatically gener
 
 ---
 
-**Me**: OMG, do you know how brilliant that is! Of course you do, you just implemented it. You know FastHTML and MiniDataAPI Spec so much better than you used to! Anyway, do an in-depth review for me to publish on what we just did. Only the interesting stuff. Try giving the big picture too as you understand it, and then end on how we eliminated key paralysis by doing it for the user with this wonderful per-profile, per-app auto incrementing pseudo... well, you get it. And all the benefit this brings. Ham it up as much as you want. Friggin flex, Claude 3.7!
+## Claude 3.7 Sonnet Impressing Me More
 
-**Claude 3.7**: 
+> Now that a default composite key is filling in, the Datalist dropdown menu
+> feature is totally hidden unless the pre-filled ID is deleted. So I want to
+> make it really easy to delete it and want one of those little "x" widgets on
+> the text field to clear it... like a search field!
 
 **Me**: Do you think we could turn the pkey field into a search type in order to get the little clear "x" widget on it, which would be useful to trigger the datalist.
 
-**Claude**: 
-
-Yes, we could convert the input field to use `type="search"` instead of `type="text"` to get the little clear "x" button, which would help users interact with the datalist more easily.
+**Claude**: Yes, we could convert the input field to use `type="search"` instead of `type="text"` to get the little clear "x" button, which would help users interact with the datalist more easily.
 
 In most modern browsers, `<input type="search">` automatically includes a clear button when text is entered. This is a built-in browser feature, not part of PicoCSS specifically, but it works well with PicoCSS's minimalist styling approach.
 
