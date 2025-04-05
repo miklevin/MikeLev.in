@@ -8,7 +8,7 @@ sort_order: 2
 
 ## Introduction to Context Foo
 
-Alright, I'm practicing some *Context Foo* here. In this prior article, I describe
+Alright, I'm practicing some *Context Foo* here. In a prior article, I describe
 how to reach into various parts of your coding project, usually a git repo, and
 to append all those parts together into one big file, which as a courtesy is
 also dumped into your OSes copy-buffer so you don't have to figure out how to do
