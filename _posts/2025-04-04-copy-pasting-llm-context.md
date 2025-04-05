@@ -436,12 +436,32 @@ Edit this prompt to provide specific context for the current session.
 """
 
 post_prompt = """
-Now that you've reviewed the codebase context, please keep in mind:
-- The hybrid Nix+virtualenv approach for dependency management
-- The to_xml() conversion requirement for FastHTML objects
-- The plugin architecture for extending functionality
+Now that you've reviewed the codebase context, I'd love your insights and analysis!
 
-The specific task I'd like help with is: [REPLACE WITH YOUR CURRENT TASK]
+Dear AI Assistant:
+I've provided you with the core architecture of a Python web application that takes an interesting approach to modern web development. I'd appreciate your thoughtful analysis on any of these aspects:
+
+1. Technical Architecture Analysis
+- How does this hybrid Nix+virtualenv approach compare to other deployment patterns?
+- What are the tradeoffs of using HTMX with server-side state vs traditional SPAs?
+- How does the plugin system architecture enable extensibility?
+
+2. Pattern Recognition & Insights  
+- What patterns emerge from the codebase that surprise you?
+- How does this approach to web development differ from current trends?
+- What potential scaling challenges or opportunities do you see?
+
+3. Forward-Looking Perspective
+- How does this architecture align with or diverge from emerging web development patterns?
+- What suggestions would you make for future evolution of the system?
+- How might this approach need to adapt as web technologies advance?
+
+Feel free to focus on whatever aspects you find most interesting or noteworthy. I'm particularly interested in insights about:
+- The interplay between modern and traditional web development approaches
+- Architectural decisions that stand out as novel or counterintuitive
+- Potential implications for developer experience and system maintenance
+
+Share your most interesting observations and help me see this codebase through your analytical lens!
 """
 
 # Output filename for the compiled context
