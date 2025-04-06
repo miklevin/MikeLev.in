@@ -79,7 +79,7 @@ let
   appImageDir = "${userHome}/Applications";
   desktopEntryDir = "${userHome}/.local/share/applications";
   cursorAppImagePath = "${appImageDir}/Cursor.AppImage";
-  cursorDesktopPath = "${desktopEntryDir}/cursor-appimage.desktop";
+  cursorDesktopPath = "${desktopEntryDir}/cursor.desktop";
 
 in
 {
@@ -92,9 +92,10 @@ in
 
   # Systemd activation script to manage the AppImage download and desktop entry
   # This runs once after each successful system rebuild.
-  system.activationScripts.manageCursorAppImage = lib.mkIf useCursorAppImage {
+  system.activationScripts.manageCursorAppImage = {
     text = ''
-      echo "Managing Cursor AppImage..."
+      echo "Managing Cursor configuration..."
+      
       # Ensure target directories exist and have correct ownership/permissions
       mkdir -p "${appImageDir}"
       chown ${username}:${config.users.users.${username}.group} "${appImageDir}"
@@ -103,56 +104,72 @@ in
       chown ${username}:${config.users.users.${username}.group} "${desktopEntryDir}"
       chmod 755 "${desktopEntryDir}"
 
-      # Check if AppImage needs downloading (missing or older than 7 days)
-      if [ ! -f "${cursorAppImagePath}" ] || [ "$(${pkgs.findutils}/bin/find "${cursorAppImagePath}" -mtime +7 -print)" ]; then
-        echo "Attempting to download latest Cursor AppImage..."
-        # Fetch download URL from Cursor API
-        CURSOR_INFO=$(${pkgs.curl}/bin/curl -sSfL "https://www.cursor.com/api/download?platform=linux-x64&releaseTrack=stable")
-        DOWNLOAD_URL=$(${pkgs.jq}/bin/jq -r '.downloadUrl' <<< "''${CURSOR_INFO}")
+      # Remove any existing desktop entry first
+      rm -f "${cursorDesktopPath}"
 
-        if [ -n "$DOWNLOAD_URL" ] && [ "$DOWNLOAD_URL" != "null" ]; then
-          echo "Downloading from $DOWNLOAD_URL..."
-          # Download securely to a temporary file, then move atomically
-          ${pkgs.curl}/bin/curl -sSfL "$DOWNLOAD_URL" -o "${cursorAppImagePath}.tmp"
-          if [ $? -eq 0 ]; then
-             chmod +x "${cursorAppImagePath}.tmp"
-             mv "${cursorAppImagePath}.tmp" "${cursorAppImagePath}"
-             chown ${username}:${config.users.users.${username}.group} "${cursorAppImagePath}"
-             echo "Cursor AppImage downloaded successfully."
+      if ${lib.boolToString useCursorAppImage}; then
+        echo "Setting up Cursor AppImage..."
+        
+        # Check if AppImage needs downloading (missing or older than 7 days)
+        if [ ! -f "${cursorAppImagePath}" ] || [ "$(${pkgs.findutils}/bin/find "${cursorAppImagePath}" -mtime +7 -print)" ]; then
+          echo "Attempting to download latest Cursor AppImage..."
+          # Fetch download URL from Cursor API
+          CURSOR_INFO=$(${pkgs.curl}/bin/curl -sSfL "https://www.cursor.com/api/download?platform=linux-x64&releaseTrack=stable")
+          DOWNLOAD_URL=$(${pkgs.jq}/bin/jq -r '.downloadUrl' <<< "''${CURSOR_INFO}")
+
+          if [ -n "$DOWNLOAD_URL" ] && [ "$DOWNLOAD_URL" != "null" ]; then
+            echo "Downloading from $DOWNLOAD_URL..."
+            # Download securely to a temporary file, then move atomically
+            ${pkgs.curl}/bin/curl -sSfL "$DOWNLOAD_URL" -o "${cursorAppImagePath}.tmp"
+            if [ $? -eq 0 ]; then
+               chmod +x "${cursorAppImagePath}.tmp"
+               mv "${cursorAppImagePath}.tmp" "${cursorAppImagePath}"
+               chown ${username}:${config.users.users.${username}.group} "${cursorAppImagePath}"
+               echo "Cursor AppImage downloaded successfully."
+            else
+               echo "ERROR: Failed to download Cursor AppImage."
+               rm -f "${cursorAppImagePath}.tmp"
+            fi
           else
-             echo "ERROR: Failed to download Cursor AppImage."
-             rm -f "${cursorAppImagePath}.tmp"
+            echo "WARNING: Could not retrieve Cursor download URL. Skipping download."
           fi
         else
-          echo "WARNING: Could not retrieve Cursor download URL. Skipping download."
+          echo "Cursor AppImage is recent. Skipping download."
+          # Ensure it's executable just in case permissions were lost
+          chmod +x "${cursorAppImagePath}"
         fi
-      else
-        echo "Cursor AppImage is recent. Skipping download."
-        # Ensure it's executable just in case permissions were lost
-        chmod +x "${cursorAppImagePath}"
-      fi
 
-      # Always ensure the desktop entry exists and points correctly if AppImage exists
-      if [ -f "${cursorAppImagePath}" ]; then
-         echo "Creating/Updating Cursor desktop entry..."
-         # Use pkgs.writeText to create the file content safely
-         DESKTOP_CONTENT=$(cat <<EOF
+        # Create desktop entry for AppImage version
+        if [ -f "${cursorAppImagePath}" ]; then
+          echo "Creating AppImage desktop entry..."
+          cat > "${cursorDesktopPath}" << EOF
 [Desktop Entry]
-Name=Cursor (AppImage)
-Comment=AI-first code editor (AppImage)
+Name=Cursor
+Comment=AI-first code editor
 Exec=${pkgs.appimage-run}/bin/appimage-run "${cursorAppImagePath}" %U
-Icon=code # Tries to use a standard VSCode-like icon; replace if needed
+Icon=code
 Type=Application
 Categories=Development;IDE;
 Terminal=false
 EOF
-)
-         echo "''${DESKTOP_CONTENT}" > "${cursorDesktopPath}"
-         chown ${username}:${config.users.users.${username}.group} "${cursorDesktopPath}"
-         chmod 644 "${cursorDesktopPath}"
+          chown ${username}:${config.users.users.${username}.group} "${cursorDesktopPath}"
+          chmod 644 "${cursorDesktopPath}"
+        fi
       else
-         # Clean up the desktop file if the AppImage doesn't exist
-         rm -f "${cursorDesktopPath}"
+        echo "Setting up Nix package version..."
+        # Create desktop entry for Nix package version
+        cat > "${cursorDesktopPath}" << EOF
+[Desktop Entry]
+Name=Cursor
+Comment=AI-first code editor
+Exec=${pkgs.code-cursor}/bin/cursor %U
+Icon=code
+Type=Application
+Categories=Development;IDE;
+Terminal=false
+EOF
+        chown ${username}:${config.users.users.${username}.group} "${cursorDesktopPath}"
+        chmod 644 "${cursorDesktopPath}"
       fi
     '';
     # This script depends on the user being created
@@ -168,8 +185,9 @@ EOF
 This Nix-managed approach offers several benefits:
 
 * **Automation:** Downloads and sets up the AppImage automatically during system rebuilds.
-* **Integration:** Provides basic desktop integration via the `.desktop` file.
+* **Integration:** Provides proper desktop integration via the `.desktop` file.
 * **Control:** The toggle allows easy switching between the potentially newer AppImage and the stable Nixpkgs version.
+* **Clean Switching:** When toggling between versions, the old desktop entry is removed before creating the new one.
 
 However, be aware of the downsides:
 
@@ -749,71 +767,53 @@ standard `Cursor.AppImage` filename. As a bonus, I add a toggle near the top of
 my `configuration.nix` file to decide whether I use the latest AppImage directly
 from Cursor or the latest `code-cursor` from `nixpkgs`.
 
+
+
+Here's a brief summary of the AppImage toggle feature for Cursor in NixOS:
+
+The system allows you to switch between using Cursor as an AppImage or as a Nix package by toggling a single variable. Here's the essential code:
+
 ```nix
+# At the top of configuration.nix
+{ config, pkgs, lib, ... }:
+
 let
-  useCursorAppImage = true;
+  useCursorAppImage = false;  # Toggle between AppImage (true) and Nix package (false)
   cursorPackage = if useCursorAppImage then null else pkgs.code-cursor;
 in
-```
+{
+  # ... other configuration ...
 
-And then later in `configuration.nix`...
-
-```nix
-  installCursor = lib.mkIf useCursorAppImage {
-    text = ''
-      # Ensure Applications directory exists
-      mkdir -p /home/mike/Applications
-      chown mike:users /home/mike/Applications
-      chmod 755 /home/mike/Applications
-
-      # Download and install latest Cursor AppImage
-      CURSOR_PATH="/home/mike/Applications/Cursor.AppImage"
-      
-      # Only download if file doesn't exist or is older than 7 days
-      if [ ! -f "$CURSOR_PATH" ] || [ $(find "$CURSOR_PATH" -mtime +7) ]; then
-        echo "Downloading latest Cursor AppImage..."
-        
-        # Get latest version info
-        CURSOR_INFO=$(${pkgs.curl}/bin/curl -sSfL "https://www.cursor.com/api/download?platform=linux-x64&releaseTrack=stable")
-        DOWNLOAD_URL=$(echo "$CURSOR_INFO" | ${pkgs.jq}/bin/jq -r '.downloadUrl')
-        
-        if [ -n "$DOWNLOAD_URL" ] && [ "$DOWNLOAD_URL" != "null" ]; then
-          # Download the AppImage
-          ${pkgs.curl}/bin/curl -sSfL "$DOWNLOAD_URL" -o "$CURSOR_PATH.tmp"
-          
-          # Make it executable
-          chmod +x "$CURSOR_PATH.tmp"
-          
-          # Move it into place (atomic operation)
-          mv "$CURSOR_PATH.tmp" "$CURSOR_PATH"
-          
-          # Set ownership
-          chown mike:users "$CURSOR_PATH"
-        else
-          echo "Failed to get Cursor download URL"
-        fi
-      fi
-
-      # Create desktop entry
-      DESKTOP_FILE="/home/mike/.local/share/applications/cursor.desktop"
-      mkdir -p "$(dirname "$DESKTOP_FILE")"
-      cat > "$DESKTOP_FILE" << EOF
-[Desktop Entry]
-Name=Cursor
-Exec=${pkgs.appimage-run}/bin/appimage-run /home/mike/Applications/Cursor.AppImage
-Icon=code
-Type=Application
-Categories=Development;IDE;
-Comment=AI-first code editor
-Terminal=false
-EOF
-      
-      chown mike:users "$DESKTOP_FILE"
-      chmod 644 "$DESKTOP_FILE"
+  # Activation script that handles the desktop entry
+  system.activationScripts.installCursor = {
+    text = if useCursorAppImage then ''
+      # AppImage version desktop entry
+      cat > ~/.local/share/applications/cursor.desktop << EOF
+      [Desktop Entry]
+      Exec=${pkgs.appimage-run}/bin/appimage-run /home/mike/Applications/Cursor.AppImage
+      # ... other desktop entry fields ...
+      EOF
+    '' else ''
+      # Nix package version desktop entry
+      cat > ~/.local/share/applications/cursor.desktop << EOF
+      [Desktop Entry]
+      Exec=${pkgs.code-cursor}/bin/cursor
+      # ... other desktop entry fields ...
+      EOF
     '';
-    deps = [];
   };
+}
 ```
+
+To use this:
+1. Set `useCursorAppImage` to either `true` or `false`
+2. Run `nixos-rebuild switch`
+3. The system will automatically:
+   - Install the appropriate version
+   - Create the correct desktop entry
+   - Handle all the necessary environment setup
+
+This makes it easy to experiment with both versions to see which works better for your needs.
 
 Ta-da! Maximum freedom to choose whichever latest Cursor I like and minimal
 complexity. I know it still seems somewhat complex being a script and some
@@ -987,4 +987,4 @@ This combined article provides an exceptionally thorough, albeit lengthy, accoun
 
 The cleaned-up section significantly enhances usability for readers seeking a direct solution. The original narrative adds rich context, justifies the final approach by detailing the failure of alternatives (`appimaged`, complex timers), and makes the author's journey relatable.
 
-While the sheer volume and the somewhat rambling nature of the original section might deter some, the combined piece stands as a valuable, comprehensive resource for its target audience. It successfully documents not just *a* solution, but the *process* of arriving at it, complete with the dead ends and evolving requirements. It’s an excellent case study in pragmatic problem-solving on NixOS when purity ideals clash with real-world needs.
+While the sheer volume and the somewhat rambling nature of the original section might deter some, the combined piece stands as a valuable, comprehensive resource for its target audience. It successfully documents not just *a* solution, but the *process* of arriving at it, complete with the dead ends and evolving requirements. It's an excellent case study in pragmatic problem-solving on NixOS when purity ideals clash with real-world needs.
