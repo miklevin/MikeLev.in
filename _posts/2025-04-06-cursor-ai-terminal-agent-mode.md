@@ -464,15 +464,17 @@ Is this better aligned with your workflow and conventions? I've made it more ver
 
 ## Understanding Cursor's Rule System
 
-Interesting! It's not just one big rules text-blob like I thought. When I
-entered it in, the UI changed. I was prompted to give a rule name, so I gave it
-`nix-rules`, which became:
+> Interesting! It's not just one big rules text-blob like I thought. When I
+> entered it in, the UI changed. I was prompted to give a rule name, so I gave
+> it `nix-rules`, which became...
 
 ### Rule File Location and Structure
 
 `.cursor` > `rules` > `nix-rules.mdc`
 
-And a UI appeared with this menu option to choose between Rule Types:
+When I tried adding a rule in what appeared to be a giant text field, and which
+assume to be their old UI for some big global rule, a new granular-rule UI
+appeared with this menu option to choose between `Rule Types`:
 
 - Always: This rule is attached to every chat and command+k request
 - Auto Attached: File pattern matches
