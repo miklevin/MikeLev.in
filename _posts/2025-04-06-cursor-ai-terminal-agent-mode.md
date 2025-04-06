@@ -476,10 +476,10 @@ When I tried adding a rule in what appeared to be a giant text field, and which
 assume to be their old UI for some big global rule, a new granular-rule UI
 appeared with this menu option to choose between `Rule Types`:
 
-- Always: This rule is attached to every chat and command+k request
-- Auto Attached: File pattern matches
-- Agent Requested: Description of the task this rule is helpful for...
-- Manual: This rule needs to be mentioned to be included
+- **Always:** This rule is attached to every chat and command+k request
+- **Auto Attached:** File pattern matches
+- **Agent Requested:** Description of the task this rule is helpful for...
+- **Manual:** This rule needs to be mentioned to be included
 
 ...so I put it under `Agent Requested` with the description: Use for anything that requires terminal
 
