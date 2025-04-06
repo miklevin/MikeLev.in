@@ -286,6 +286,12 @@ Based on these findings, it is recommended that users encountering issues with C
 
 ---
 
+## Feeds Research Back Into Claude in Cursor
+
+> The whole point of this research is for the AI assistant within Cursor itself
+> to better understand its terminal environment when trying to execute stuff in
+> `Agent` mode, so who better to distil it down into key findings?
+
 **Me**: Extract some findings summarized in a way most useful for you: [Pastes research to Claude in Cursor]
 
 **Claude**: Based on the research findings, here are the key insights about Cursor's terminal environment that are most relevant to our work:
