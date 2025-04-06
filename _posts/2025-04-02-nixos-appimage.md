@@ -885,6 +885,11 @@ Would you like me to help you create a proper Nix package for Cursor instead? Th
 
 ## Gemini 2.5 Experimental's Take (Before)
 
+> Since I actually took Gemini's opinion regarding the article's weaknesses
+> (which I agreed with), I decided to keep the before and after. Below is the
+> "before" opinion which resulted in me having it do the summarized version you
+> see at the top.
+
 Okay, here are the requested elements based on the article:
 
 **Summary (First-Person Perspective)**
@@ -935,6 +940,10 @@ However, the article's structure could be improved. Integrating the AI chat logs
 ---
 
 ## Gemini 2.5 Experimental's Take (After)
+
+> And here's Gemini's opinion after having seen the rewrite incorporated that it
+> itself produced. It seems like it does like it better now, but doesn't let me
+> off the hook for my verbosity and rambling, haha!
 
 Okay, here's the analysis of the *entire* article content provided (the cleaned-up version followed by the original "sausage factory").
 
