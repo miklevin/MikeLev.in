@@ -418,7 +418,7 @@ This should help future-me understand the environment constraints and make bette
 
 ### Making Version References More Generic and Adding Nix Environment Context
 
-**Me**: Okay, but this is tied a little too much to particular versions. You can use version .4x which I think is specific enough. I'll change it when it rev's. Also, you should allow yourself to execute terminal commands, but you should always `nix develop` to get the correct nix environment. That will also handle getting the correct `system .venv/bin/activate` Python virtual environment, which is built into my `nix develop` flakes by (my) convention.
+**Me**: Okay, but this is tied a little too much to particular versions. You can use version .4x which I think is specific enough. I'll change it when it rev's. Also, you should allow yourself to execute terminal commands, but you should always `nix develop` to get the correct nix environment. That will also handle getting the correct `source .venv/bin/activate` Python virtual environment, which is built into my `nix develop` flakes by (my) convention.
 
 **Claude**: Ah, perfect! Let me revise to be more version-agnostic and include the Nix development environment context:
 
