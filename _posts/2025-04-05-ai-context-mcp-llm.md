@@ -379,6 +379,8 @@ The script still maintains all the core functionality:
 
 Would you like me to make any additional improvements to the template system?
 
+**Me**: OMG, that's awesome! Let's see what Gemini designed me for MCP integration!
+
 ---
 
 ## The Gemini 2.5 Experimental Challenge
@@ -386,8 +388,6 @@ Would you like me to make any additional improvements to the template system?
 > Gemini already responded to the 1st system analysis prompt, so this is part 2
 > of the challenge: MCP. Part 1 is now a System Analysis challenge and Part 2 is
 > an MCP integration challenge.
-
-**Me**: OMG, that's awesome! Let's see what Gemini designed me for MCP integration!
 
 ### Gemini Drafts Me an MCP Proposal
 
@@ -2009,6 +2009,10 @@ differentiation, but I will. My path forward on the MCP front surely lies in
 here, and this sort of planning is exactly the reason I made the one-shot
 `context_foo.py` prompt generator! I will be able to use it to affect great
 effect surely and shortly.
+
+---
+
+Write a story in the tradition of *If You Give a Mouse a Cookie* but: *If You Give a Local LLM MCP Servers*
 
 ---
 
