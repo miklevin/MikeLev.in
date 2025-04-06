@@ -6,7 +6,15 @@ layout: post
 sort_order: 1
 ---
 
+If you're using Cursor AI's Agent mode, especially on environments like NixOS, and encountering unexpected terminal behavior or restricted access to system files (e.g., `/etc/nixos`), this analysis explains the underlying reasons. We investigate Cursor's integrated terminal, finding it often operates within a specialized, isolated environment (related to `cursor-*.fhsenv` and `APPDIR` variables, particularly in Nix packages). This setup deliberately limits visibility of certain system paths and prioritizes bundled tools, causing differences from a standard system terminal. Understanding this isolated nature—a result of packaging and environment design rather than simple sandboxing—is key to effectively using the Agent. We also explore configuring Cursor's "Rules" feature to provide the AI with crucial context about these environmental constraints and necessary workflow steps (like using `nix develop`).
+
+---
+
 ## Exploring Cursor AI's Agent Mode and Future IDE Choices
+
+> That's all you really need to read. The rest is my usual rambling style, a lot
+> of backstory and research. The idea is using Nix to future-proof without
+> shooting yourself in the foot because most modern tooling is Mac/Windows-centric.
 
 I am being lured into the sirens song of `Agent` mode in Cursor AI, a habit
 which I am sure will carry over to other environments, whatever turns out being
