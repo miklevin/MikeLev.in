@@ -1,7 +1,7 @@
 ---
 title: "NixOS Bleeding Edge: Using AppImage When Repos Fall Behind"
 permalink: /futureproof/nixos-appimage/
-description: After decades chasing the next best thing in computing, I've settled on NixOS for its stability and deterministic builds, but staying truly current with fast-moving apps like Cursor AI or Zoom proved tricky when the official Nix repositories lagged behind. This piece chronicles my real-world journey using AppImage as a necessary workaround, detailing the frustrating trials of desktop integration – from failed attempts with `appimaged` to overly complex custom scripts – before finally landing on a more streamlined Nix configuration trick that automatically fetches the latest AppImage during system rebuilds, letting me balance my need for the newest features with NixOS's solid, reproducible foundation.
+description: "While I rely on NixOS for its rock-solid stability, keeping essential bleeding-edge apps like Cursor updated faster than Nixpkgs allows required some real workarounds. This article presents my practical solution: using vendor-provided AppImages managed directly through a Nix activation script for automatic fetching during rebuilds and basic desktop integration, complete with a toggle to switch back to the repo version when needed. To give the full picture, I've shared both the refined how-to guide for this approach and the complete, messy backstory of trial-and-error—the 'sausage factory'—that got me here, detailing all the steps, missteps, and thinking along the way."
 layout: post
 sort_order: 1
 ---
@@ -889,7 +889,7 @@ Okay, here are the requested elements based on the article:
 
 **Summary (First-Person Perspective)**
 
-[Moved to top]
+After decades chasing the next best thing in computing, I've settled on NixOS for its stability and deterministic builds, but staying truly current with fast-moving apps like Cursor AI or Zoom proved tricky when the official Nix repositories lagged behind. This piece chronicles my real-world journey using AppImage as a necessary workaround, detailing the frustrating trials of desktop integration – from failed attempts with `appimaged` to overly complex custom scripts – before finally landing on a more streamlined Nix configuration trick that automatically fetches the latest AppImage during system rebuilds, letting me balance my need for the newest features with NixOS's solid, reproducible foundation.
 
 **Title and Headline Ideas**
 
@@ -940,7 +940,7 @@ Okay, here's the analysis of the *entire* article content provided (the cleaned-
 
 **Summary (First-Person Perspective)**
 
-While I rely on NixOS for its rock-solid stability, keeping essential bleeding-edge apps like Cursor updated faster than Nixpkgs allows required some real workarounds. This article presents my practical solution: using vendor-provided AppImages managed directly through a Nix activation script for automatic fetching during rebuilds and basic desktop integration, complete with a toggle to switch back to the repo version when needed. To give the full picture, I've shared both the refined how-to guide for this approach and the complete, messy backstory of trial-and-error—the 'sausage factory'—that got me here, detailing all the steps, missteps, and thinking along the way.
+[Moved to top]
 
 **Title and Headline Ideas**
 
