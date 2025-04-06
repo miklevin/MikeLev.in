@@ -538,6 +538,98 @@ stop working, and that may be a showstopper.
 
 ---
 
+## Update From a Few Days Later
+
+The very act of downloading the latest AppImage is annoying! And the system
+service to detect the change is even more annoying. So I scrapped both in favor
+of a simpler auto-detection of a new image on a NixOS `nixos-rebuild`. 
+
+The funny thing is that the download link from cursor.com is to this json
+routing file file: https://www.cursor.com/api/download?platform=linux-x64&releaseTrack=stable
+
+```json
+{"version":"0.48.7","downloadUrl":"https://downloads.cursor.com/production/1d623c4cc1d3bb6e0fe4f1d5434b47b958b05876/linux/x64/Cursor-0.48.7-x86_64.AppImage","rehUrl":"https://cursor.blob.core.windows.net/remote-releases/1d623c4cc1d3bb6e0fe4f1d5434b47b958b05876/vscode-reh-linux-x64.tar.gz"}
+```
+
+...and with being able to figure out the latest Cursor AppImage on every NixOS
+rebuild, I can simply grab that latest image and drop it in `~/AppImage` with a
+standard `Cursor.AppImage` filename. As a bonus, I add a toggle near the top of
+my `configuration.nix` file to decide whether I use the latest AppImage directly
+from Cursor or the latest `code-cursor` from `nixpkgs`.
+
+```nix
+let
+  useCursorAppImage = true;
+  cursorPackage = if useCursorAppImage then null else pkgs.code-cursor;
+in
+```
+
+And then later in `configuration.nix`...
+
+```
+  installCursor = lib.mkIf useCursorAppImage {
+    text = ''
+      # Ensure Applications directory exists
+      mkdir -p /home/mike/Applications
+      chown mike:users /home/mike/Applications
+      chmod 755 /home/mike/Applications
+
+      # Download and install latest Cursor AppImage
+      CURSOR_PATH="/home/mike/Applications/Cursor.AppImage"
+      
+      # Only download if file doesn't exist or is older than 7 days
+      if [ ! -f "$CURSOR_PATH" ] || [ $(find "$CURSOR_PATH" -mtime +7) ]; then
+        echo "Downloading latest Cursor AppImage..."
+        
+        # Get latest version info
+        CURSOR_INFO=$(${pkgs.curl}/bin/curl -sSfL "https://www.cursor.com/api/download?platform=linux-x64&releaseTrack=stable")
+        DOWNLOAD_URL=$(echo "$CURSOR_INFO" | ${pkgs.jq}/bin/jq -r '.downloadUrl')
+        
+        if [ -n "$DOWNLOAD_URL" ] && [ "$DOWNLOAD_URL" != "null" ]; then
+          # Download the AppImage
+          ${pkgs.curl}/bin/curl -sSfL "$DOWNLOAD_URL" -o "$CURSOR_PATH.tmp"
+          
+          # Make it executable
+          chmod +x "$CURSOR_PATH.tmp"
+          
+          # Move it into place (atomic operation)
+          mv "$CURSOR_PATH.tmp" "$CURSOR_PATH"
+          
+          # Set ownership
+          chown mike:users "$CURSOR_PATH"
+        else
+          echo "Failed to get Cursor download URL"
+        fi
+      fi
+
+      # Create desktop entry
+      DESKTOP_FILE="/home/mike/.local/share/applications/cursor.desktop"
+      mkdir -p "$(dirname "$DESKTOP_FILE")"
+      cat > "$DESKTOP_FILE" << EOF
+[Desktop Entry]
+Name=Cursor
+Exec=${pkgs.appimage-run}/bin/appimage-run /home/mike/Applications/Cursor.AppImage
+Icon=code
+Type=Application
+Categories=Development;IDE;
+Comment=AI-first code editor
+Terminal=false
+EOF
+      
+      chown mike:users "$DESKTOP_FILE"
+      chmod 644 "$DESKTOP_FILE"
+    '';
+    deps = [];
+  };
+```
+
+Ta-da! Maximum freedom to choose whichever latest Cursor I like and minimal
+complexity. I know it still seems somewhat complex being a script and some
+logic, but it's relatively very simple a powerful pattern that will serve me
+forever forward. I may make Zoom togglable in the same way.
+
+---
+
 ## Gemini 2.5 Experimental's Take
 
 Okay, here are the requested pieces:
