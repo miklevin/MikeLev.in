@@ -1,7 +1,7 @@
 ---
 title: "From Rabbit Holes to Roadmaps: Using LLMs for SEO Software Dev"
 permalink: /futureproof/llm-seo-software-development/
-description: I reflect on finding focus amidst life's cycles, diving into what I hoped would be an epic coding day for my Pipulate project, but finding myself wrestling with potential rabbit holes like MCP integration versus simpler approaches and complex workflows. After getting lost in the weeds and deep-diving into technical research on browser automation specifics using Playwright and Python's standard `webbrowser` library, I decided to leverage multiple AI assistants (Gemini, Grok, ChatGPT, and even an agentic Claude) via a custom-built context prompt to help me crystallize the most crucial, non-rabbit-hole next step – implementing vector embeddings to finally give Pipulate's AI persona, Chip O'Theseus, a persistent memory – ultimately gaining vital clarity on the immediate path forward for the project even as my Sunday coding session wound down.
+description: During an ambitious coding session for my Pipulate project, I found myself stuck between multiple technical approaches and potential rabbit holes. Rather than getting lost in endless research, I consulted multiple AI assistants (Gemini, Grok, ChatGPT, and Claude) through a custom context prompt to help prioritize my next steps. This collaborative process helped me identify implementing vector embeddings as the crucial next feature to give my AI assistant persistent memory, providing clarity on the immediate path forward despite limited coding time.
 layout: post
 sort_order: 2
 ---
