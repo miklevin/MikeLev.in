@@ -1279,11 +1279,9 @@ Would you like me to make any adjustments to either the script modifications or 
 
 ---
 
-And here's Gemini's final output:
+## And here's Gemini's final output:
 
-Gemini 2.5 Experimental:
-
-Okay, here is the comprehensive information architecture and book outline based on the analysis of Mike Levin's blog posts provided in `blog_analysis.txt`.
+**Gemini 2.5 Experimental**: Okay, here is the comprehensive information architecture and book outline based on the analysis of Mike Levin's blog posts provided in `blog_analysis.txt`.
 
 ## 1. Content Mapping: The Evolution of Ideas
 
@@ -1822,6 +1820,13 @@ However, its very thoroughness contributes to its main weakness: density and len
 Overall, it's a powerful demonstration of how current AI capabilities, combined with thoughtful scripting and persistent prompt engineering, can be used to extract structure, meaning, and new potential from large volumes of unstructured text, effectively turning a personal blog archive into a queryable, reorganizable dataset and the foundation for new creative works.
 
 ---
+
+### Iterating Based on Gemini's Feedback
+
+> You can see the original summarizing of the article above which focused too
+> much on the local LLM aspect which I put aside pretty quickly so as to avoid
+> jumping down an excessively deep rabbit hole in favor of one-shot prompting
+> with the frontier models that have massive token windows.
 
 **Me**: The introduction implies this is a local LLM based journey, but I can see from your opinion at the end you get that it's not. Can you provide a new 1st person summarized description that more accurately represents the article? And also create an introductory paragraph to the whole affair that frames it from the transition of thinking I would local RAG my blog article directory to realizing frontier models have a large enough token window to handle it, if I just preparte the context foo correctly.
 
