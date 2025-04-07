@@ -526,6 +526,16 @@ context is... well, as big as the MCP part, and central to creating this
 todo-list that should have almost the ability to reach out, grab me by the
 scruff of the neck and say **DO THIS NEXT!!!**
 
+---
+
+## Distilling Down a Todo List
+
+> I could really go in so many directions with Pipulate next, it's an endless
+> field of rabbit hole wonderlands to explore. But I made an app for that
+> recently, ***Context Foo*** so I decide to craft a new prompt to help me tap 3
+> of the giant frontier models: Gemini, Grok & ChatGPT with the next-step
+> identification challenge.
+
 ### Dialogue with AI Assistant
 
 **Me**: I need a 3rd prompt in @context_foo.py  to help me define my todo list
