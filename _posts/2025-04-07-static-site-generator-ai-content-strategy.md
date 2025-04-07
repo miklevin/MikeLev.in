@@ -111,14 +111,6 @@ The result? A completely reimagined information architecture that made both intu
 
 This wasn't just a mechanical organization — the LLM understood the conceptual relationships between posts that I hadn't explicitly recognized myself, despite being the author!
 
-### 2. Content Gap Analysis with Historical Context
-
-After reviewing my blog analytics, I noticed traffic had plateaued. Rather than just looking at keywords, I fed my entire blog history into an LLM and asked it to identify not just what topics I was missing, but how my coverage had evolved over time.
-
-The analysis revealed something fascinating: I had gradually shifted from practical advice to industry news, abandoning the very content types that had built my audience in the first place.
-
-This wouldn't have been apparent from a traditional SEO analysis looking only at current content and competitors. It required understanding the site's content evolution over years — something LLMs excel at when given the right context.
-
 ### 2. Striking Distance Analysis with GSC Data
 
 After noticing a traffic plateau in my blog analytics, I decided to go beyond basic keyword research. I exported my Google Search Console data using a custom Python script (`gsc_page_query.ipynb`) and fed it alongside my blog content into Claude.
