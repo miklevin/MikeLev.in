@@ -392,7 +392,7 @@ CURSOR ENVIRONMENT CONTEXT:
 - Terminal has restricted filesystem access due to FHS environment setup
 - Cannot directly access /etc/nixos from integrated terminal
 - NixOS config structure:
-  - Source of Truth: /home/mike/repos/nixos/configuration.nix (repo)
+  - Source of Truth: /home/mike/repos/nixos/*
   - System Access: /etc/nixos -> /home/mike/repos/nixos (directory symlink)
   - Additional Symlinks: ~/.config/nvim/init.lua -> /home/mike/repos/nixos/init.lua
 
@@ -438,7 +438,7 @@ CURSOR ENVIRONMENT CONTEXT:
 - Terminal has restricted filesystem access due to FHS environment setup
 - Cannot directly access /etc/nixos from integrated terminal
 - NixOS config structure:
-  - Source of Truth: /home/mike/repos/nixos/configuration.nix (repo)
+  - Source of Truth: /home/mike/repos/nixos/*
   - System Access: /etc/nixos -> /home/mike/repos/nixos (directory symlink)
   - Additional Symlinks: ~/.config/nvim/init.lua -> /home/mike/repos/nixos/init.lua
 
@@ -472,10 +472,6 @@ Is this better aligned with your workflow and conventions? I've made it more ver
 
 ---
 
-## Understanding Cursor's Rule System
-
-> Interesting! I discovered there are actually two types of rules in Cursor - User Rules and Project Rules. The User Rules are what you see first - a big text field for global rules that apply everywhere. But there's also a more granular Project Rules system that I initially thought was a UI change, but is actually a separate feature for project-specific rules.
-
 ## Understanding the NixOS Configuration Structure
 
 Our initial assumption about hard links between the repository and system configuration files was incorrect. Investigation revealed a cleaner symlink architecture:
@@ -488,6 +484,37 @@ Our initial assumption about hard links between the repository and system config
 This discovery actually makes our workflow cleaner, as we can focus entirely on the repository location without worrying about synchronizing multiple copies of files.
 
 The symlink architecture means that even though Cursor's terminal can't directly access `/etc/nixos`, it doesn't matter - we can work entirely within `/home/mike/repos/nixos` and let the system-level symlinks handle the rest. This turns what initially seemed like a limitation into an advantage, enforcing a clean separation between our development environment and system configuration.
+
+## Simplified Rules for AI Assistant
+
+This understanding led to a much cleaner set of rules for the AI coding assistant. Instead of trying to handle multiple file locations and complex filesystem access patterns, we can provide these straightforward guidelines:
+
+```markdown
+# NixOS Configuration Access Rules
+
+## Source Location
+- PRIMARY: /home/mike/repos/nixos/*
+- All edits should target the repo location directly
+- Never attempt to modify /etc/nixos/* from Cursor
+
+## Environment Setup
+- Always run 'nix develop' first
+- Work exclusively in ~/repos/nixos
+- Use relative paths from repo root
+
+## System Updates
+- Save changes in repo location
+- Run system rebuilds in external terminal
+- Let symlinks handle system-level access
+
+## Important Notes
+- Cursor's restricted filesystem access is now an advantage
+- Focus on repo location maintains clean separation
+- System symlinks handle propagation automatically
+- No need to verify both locations - repo is source of truth
+```
+
+This simplified ruleset gives the AI assistant clear boundaries and actually turns what initially seemed like limitations into advantages. By focusing exclusively on the repository location and letting the system handle the symlink relationships transparently, we avoid potential synchronization issues and maintain a clean separation of concerns.
 
 ### Rule Types and Structure
 
