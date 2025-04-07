@@ -80,7 +80,7 @@ Let's talk numbers. I recently ran an experiment comparing the token usage betwe
 | WordPress HTML | 50 articles | 657,482 | 1:2.3 |
 | Jekyll Markdown | 50 articles | 285,843 | 1:1.1 |
 
-That's not a small difference — it's more than double the efficiency. With today's LLMs supporting context windows of 3M+ tokens (Claude), 2M tokens (Gemini 1.5), or even 128K tokens (GPT-4), this efficiency means you can analyze more content in a single pass.
+That's not a small difference — it's more than double the efficiency. With today's LLMs supporting context windows of 3M+ tokens (Claude), 2M tokens (Gemini 2?), or even 128K tokens (GPT-4), this efficiency means you can analyze more content in a single pass.
 
 Let's look at how we account for these different context windows in code:
 
