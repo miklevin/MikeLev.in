@@ -388,15 +388,19 @@ Would you like me to explain any of these settings in more detail?
 
 ```
 CURSOR ENVIRONMENT CONTEXT:
-- Running in cursor-0.48.6-fhsenv (Nix package version)
+- Running in cursor-.4x-fhsenv (Nix package version)
 - Terminal has restricted filesystem access due to FHS environment setup
 - Cannot directly access /etc/nixos from integrated terminal
-- NixOS config exists in both:
-  /etc/nixos/configuration.nix (system)
-  /home/mike/repos/nixos/configuration.nix (repo)
-  These are hard-linked, not symlinked
+- NixOS config structure:
+  - Source of Truth: /home/mike/repos/nixos/configuration.nix (repo)
+  - System Access: /etc/nixos -> /home/mike/repos/nixos (directory symlink)
+  - Additional Symlinks: ~/.config/nvim/init.lua -> /home/mike/repos/nixos/init.lua
 
 TERMINAL BEHAVIOR:
+- ALWAYS run 'nix develop' first for correct environment
+- This activates both:
+  - Nix development environment
+  - Python virtual environment (.venv/bin/activate) by convention
 - Use relative paths when possible
 - Prefer /home/mike/repos/nixos for NixOS config access
 - System-level operations better handled in external terminal
@@ -406,8 +410,14 @@ TERMINAL BEHAVIOR:
 FILESYSTEM ACCESS:
 - Full access to project directories
 - Limited access to system directories
-- APPDIR points to /nix/store/...-cursor-0.48.6-extracted/
+- APPDIR points to Nix store location
 - Working directory typically /home/mike/repos
+
+DEVELOPMENT WORKFLOW:
+1. Start with 'nix develop' in any new terminal session
+2. Environment will be properly configured per project flake
+3. Execute commands in the resulting environment
+4. Python virtualenv activation is automatic via flake
 
 This is not a sandbox limitation but a design choice in how Cursor sets up its terminal environment.
 ```
@@ -427,10 +437,10 @@ CURSOR ENVIRONMENT CONTEXT:
 - Running in cursor-.4x-fhsenv (Nix package version)
 - Terminal has restricted filesystem access due to FHS environment setup
 - Cannot directly access /etc/nixos from integrated terminal
-- NixOS config exists in both:
-  /etc/nixos/configuration.nix (system)
-  /home/mike/repos/nixos/configuration.nix (repo)
-  These are hard-linked, not symlinked
+- NixOS config structure:
+  - Source of Truth: /home/mike/repos/nixos/configuration.nix (repo)
+  - System Access: /etc/nixos -> /home/mike/repos/nixos (directory symlink)
+  - Additional Symlinks: ~/.config/nvim/init.lua -> /home/mike/repos/nixos/init.lua
 
 TERMINAL BEHAVIOR:
 - ALWAYS run 'nix develop' first for correct environment
@@ -466,6 +476,19 @@ Is this better aligned with your workflow and conventions? I've made it more ver
 
 > Interesting! I discovered there are actually two types of rules in Cursor - User Rules and Project Rules. The User Rules are what you see first - a big text field for global rules that apply everywhere. But there's also a more granular Project Rules system that I initially thought was a UI change, but is actually a separate feature for project-specific rules.
 
+## Understanding the NixOS Configuration Structure
+
+Our initial assumption about hard links between the repository and system configuration files was incorrect. Investigation revealed a cleaner symlink architecture:
+
+1. The entire `/etc/nixos` directory is a symlink to `/home/mike/repos/nixos`
+2. This means there's a single source of truth in the repository
+3. Additional configuration files like `init.lua` follow the same pattern
+4. This structure simplifies our mental model - we only need to think about one location
+
+This discovery actually makes our workflow cleaner, as we can focus entirely on the repository location without worrying about synchronizing multiple copies of files.
+
+The symlink architecture means that even though Cursor's terminal can't directly access `/etc/nixos`, it doesn't matter - we can work entirely within `/home/mike/repos/nixos` and let the system-level symlinks handle the rest. This turns what initially seemed like a limitation into an advantage, enforcing a clean separation between our development environment and system configuration.
+
 ### Rule Types and Structure
 
 For Project Rules, which live in:
@@ -487,6 +510,8 @@ changing with this agentic stuff, and either you grab the reins or get thrown of
 the horse! The only thing that bothers me is that all these rules are going to
 vary from agentic IDE to IDE. Just document as you go and be able to throw all
 your rules and a working environment together no matter what.
+
+The revelation about the symlink structure simplified our mental model of the system configuration. What initially appeared to be a complex hard-link relationship turned out to be a cleaner, more straightforward symlink architecture. This understanding helps us work more effectively with Cursor's agent mode, focusing our attention on the repository location while letting the system handle the symlink relationships transparently.
 
 ---
 
