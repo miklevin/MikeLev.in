@@ -18,24 +18,29 @@ Here's the deal: Static site generators like Jekyll, Hugo, and Gatsby aren't jus
 
 This might seem like a minor technical detail, but it changes everything about how you can leverage AI for content analysis.
 
-When I first realized this, I was working with a client who had migrated from WordPress to Jekyll. They asked me to analyze their content strategy and identify gaps. With their WordPress site, I would have needed to:
+When I first realized this, I was working on my own site after migrating from WordPress to Jekyll. I wanted to analyze my content strategy and identify gaps. With my old WordPress site, I would have needed to:
 1. Export the database
 2. Write queries to extract content
 3. Clean HTML markup
 4. Process content in chunks due to API limits
 5. Hope I didn't miss anything important
 
-Instead, I ran a simple script (similar to the `context_foo.py` you see referenced in the title) that collected all their markdown files, extracted the front matter metadata, and fed everything directly into Claude with a 3 million token context window.
+Instead, I ran a simple script (similar to the `context_foo.py` you see referenced in the title) that collected all my markdown files, extracted the front matter metadata, and fed everything directly into Claude with a 3 million token context window.
 
 The conversation went something like:
 
 ```
-Me: Here are 212 blog posts from the last 5 years. What are the main themes, how have they evolved, what topics are we missing, and what should be our content strategy for next quarter?
+Me: Here are 212 blog posts from the last 5 years. What are the main themes,
+how have they evolved, what topics are we missing, and what should be our
+content strategy for next quarter?
 
-Claude: [Proceeds to deliver comprehensive analysis that would have taken a human team weeks]
+Claude: [Proceeds to deliver comprehensive analysis that would have taken a
+human team weeks]
 ```
 
 This isn't just faster — it's a fundamentally different approach to content analysis.
+
+Yes, you could technically get this data through a website crawl, but that creates a broken feedback loop. When the LLM suggests changes based on crawled content, you're stuck with the tedious task of manually implementing those changes back into your CMS. With a static site generator, the LLM can work directly with your actual content files — the same files you'll be editing — creating a much tighter and more efficient workflow between analysis and implementation.
 
 ## The Context Kung Fu Advantage
 
