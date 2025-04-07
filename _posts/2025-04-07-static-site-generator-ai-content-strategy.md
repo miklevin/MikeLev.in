@@ -113,9 +113,9 @@ This wasn't just a mechanical organization — the LLM understood the conceptual
 
 ### 2. Content Gap Analysis with Historical Context
 
-A finance blog came to me asking why their traffic had plateaued. Rather than just looking at keywords, I fed their entire blog history into an LLM and asked it to identify not just what topics they were missing, but how their coverage had evolved over time.
+After reviewing my blog analytics, I noticed traffic had plateaued. Rather than just looking at keywords, I fed my entire blog history into an LLM and asked it to identify not just what topics I was missing, but how my coverage had evolved over time.
 
-The analysis revealed something fascinating: they had gradually shifted from practical advice to industry news, abandoning the very content types that had built their audience in the first place.
+The analysis revealed something fascinating: I had gradually shifted from practical advice to industry news, abandoning the very content types that had built my audience in the first place.
 
 This wouldn't have been apparent from a traditional SEO analysis looking only at current content and competitors. It required understanding the site's content evolution over years — something LLMs excel at when given the right context.
 
