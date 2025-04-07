@@ -6,6 +6,36 @@ layout: post
 sort_order: 2
 ---
 
+This article? How to explain? Hmmm. I just go ahead and ask Claude to just explain to me what I'm doing.
+
+**Claude**: Based on the article content and code I've reviewed, you're developing a comprehensive approach to using static site generators (like Jekyll) with large language models for advanced content analysis and SEO optimization. Here's what you're doing:
+
+1. **Creating "Context Kung Fu" Methodology**: You've developed a technique you call "Context Kung Fu" that leverages static site generators' plain text storage (Markdown files with YAML front matter) to analyze entire websites using LLMs with large context windows.
+
+2. **Building Python Tools**: You've created Python tools (like `context_foo.py`) that can:
+   - Extract and parse YAML front matter from Markdown files
+   - Process entire directories of blog posts
+   - Manage token limits for different LLMs (Claude, GPT-4, Gemini)
+   - Chunk content appropriately for LLM processing
+   - Generate consistent URLs
+
+3. **Using GSC Data for SEO**: You've recently added a section about "striking distance analysis" where you use Google Search Console data (analyzed with your `gsc_page_query.ipynb` notebook) to identify keywords ranking in positions 5-20 that could be improved.
+
+4. **Demonstrating Real-World Applications**: You're showing practical applications of this approach:
+   - Site architecture analysis and reorganization
+   - Striking distance keyword opportunities
+   - Intelligent internal linking suggestions
+   - Content gap identification
+
+Your article is educational content explaining this methodology to other site owners and SEO professionals, highlighting how static site generators provide significant advantages for AI-powered content analysis compared to traditional CMS platforms like WordPress.
+
+The key insight is that by storing content in clean, structured text files rather than databases, you can feed entire websites directly into LLMs for holistic analysis, gaining deeper insights than traditional SEO tools can provide.
+
+> Yup, thank you Claude. I couldn't have said it better. There's the article
+> intro right there!
+
+---
+
 ## Static Site Generators: The Secret Context Kung Fu for LLM-Powered Content Analysis
 
 Look, I'll be straight with you. What I'm about to share isn't just another "10 SEO tips" article. This is about a genuine paradigm shift that's happening right now at the intersection of static site generators, large language models, and content strategy.
