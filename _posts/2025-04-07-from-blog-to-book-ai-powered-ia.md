@@ -24,7 +24,6 @@ these powerful frontier models in a single shot (or a few large chunks)? This
 article chronicles that transition, detailing the development of the necessary
 tooling and the subsequent experiments using large context models for site
 analysis and restructuring. 
-.
 
 ---
 
