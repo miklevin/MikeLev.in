@@ -1380,6 +1380,11 @@ These riffs take the core vector embedding idea and spin it into different flavo
 
 ## Avoiding the Agentic Coding Abyss
 
+> Okay, I've got the 3 opinions on next steps from Gemini, Grok and ChatGPT, and
+> I have Claude's synthesis of the 3 and an over-enthusiastic attempt to jump in
+> and carry them out which I might have taken had it 1-shot worked. I used to
+> read a lot of SciFi. Now, I live it.
+
 **Me**: I had to reject the automatic `Agent` changes because:
 
 ```bash
