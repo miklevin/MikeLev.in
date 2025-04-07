@@ -50,15 +50,16 @@ group: home
   </div>
 </div>
 
-## LPvg Stack (Linux, Python, vim & git)
+## LPvgn Stack: Linux, Python, vim & git — *now with nix!*
 
-> **LPvg** is a time-tested tech stack that gives you superpowers. It's four simple tools that work together: Linux, Python, vim and git. I use them daily to build AI and automation systems, but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts.
+> **LPvgn** is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git, and Nix. I use them daily to build AI and automation systems, but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts.
 
 <ul class="lpvg-list">
   <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The universal foundation that runs beneath it all</li>
   <li><code class="language-plaintext highlighter-rouge">`Python`</code>: The elegant language that automates the tedious</li>
   <li><code class="language-plaintext highlighter-rouge">`vim`</code>: Where muscle memory meets programming artistry</li>
   <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
+  <li><code class="language-plaintext highlighter-rouge">`nix`</code>: The declarative package manager for reproducible environments</li>
 </ul>
 
 ### Pipulate Free Open Source SEO Tool
