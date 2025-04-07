@@ -119,6 +119,18 @@ The analysis revealed something fascinating: I had gradually shifted from practi
 
 This wouldn't have been apparent from a traditional SEO analysis looking only at current content and competitors. It required understanding the site's content evolution over years — something LLMs excel at when given the right context.
 
+### 2. Striking Distance Analysis with GSC Data
+
+After noticing a traffic plateau in my blog analytics, I decided to go beyond basic keyword research. I exported my Google Search Console data using a custom Python script (`gsc_page_query.ipynb`) and fed it alongside my blog content into Claude.
+
+I asked: "Based on my content and GSC data, identify keywords where I'm ranking positions 5-20 that align with my core topics, and recommend content updates to improve these positions."
+
+The LLM analyzed both my content evolution and ranking data, revealing something I hadn't spotted: I had several articles ranking just outside the first page for high-intent keywords related to Python automation, but these posts lacked specific code examples that searchers were looking for.
+
+What made this analysis powerful wasn't just identifying "striking distance" keywords (positions 5-20), but understanding the relationship between my existing content and what users wanted. The LLM could pinpoint exactly which posts should be updated and how, rather than suggesting I create new content from scratch.
+
+This approach would have been nearly impossible with traditional SEO tools alone. It required synthesizing my actual content, ranking data, and user intent - something LLMs excel at when given both the content and structured data for context.
+
 ### 3. Intelligent Internal Linking
 
 Internal linking is one of the most powerful and underutilized SEO techniques. But doing it manually is tedious, and automated solutions often create forced, unnatural connections.
