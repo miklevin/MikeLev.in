@@ -1823,10 +1823,10 @@ Overall, it's a powerful demonstration of how current AI capabilities, combined 
 
 ### Iterating Based on Gemini's Feedback
 
-> You can see the original summarizing of the article above which focused too
-> much on the local LLM aspect which I put aside pretty quickly so as to avoid
-> jumping down an excessively deep rabbit hole in favor of one-shot prompting
-> with the frontier models that have massive token windows.
+> The original summarizing of the article focused too much on the local LLM RAG
+> approach which I put aside quickly to avoid jumping down an excessively deep
+> rabbit hole in favor of one-shot prompting with the frontier models that have
+> massive token windows using context foo.
 
 **Me**: The introduction implies this is a local LLM based journey, but I can see from your opinion at the end you get that it's not. Can you provide a new 1st person summarized description that more accurately represents the article? And also create an introductory paragraph to the whole affair that frames it from the transition of thinking I would local RAG my blog article directory to realizing frontier models have a large enough token window to handle it, if I just preparte the context foo correctly.
 
