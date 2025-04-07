@@ -12,7 +12,7 @@ This article? How to explain? Hmmm. I just go ahead and ask Claude to just expla
 
 1. **Creating "Context Kung Fu" Methodology**: You've developed a technique you call "Context Kung Fu" that leverages static site generators' plain text storage (Markdown files with YAML front matter) to analyze entire websites using LLMs with large context windows.
 
-2. **Building Python Tools**: You've created Python tools (like `context_foo.py`) that can:
+2. **Building Python Tools**: You've created Python tools (like [`context_foo.py`](https://github.com/miklevin/pipulate/blob/main/context_foo.py)) that can:
    - Extract and parse YAML front matter from Markdown files
    - Process entire directories of blog posts
    - Manage token limits for different LLMs (Claude, GPT-4, Gemini)
@@ -55,7 +55,7 @@ When I first realized this, I was working on my own site after migrating from Wo
 4. Process content in chunks due to API limits
 5. Hope I didn't miss anything important
 
-Instead, I ran a simple script (similar to the `context_foo.py` you see referenced in the title) that collected all my markdown files, extracted the front matter metadata, and fed everything directly into Claude with a 3 million token context window.
+Instead, I ran a simple script (similar to the [`context_foo.py`](https://github.com/miklevin/pipulate/blob/main/context_foo.py) you see referenced in the title) that collected all my markdown files, extracted the front matter metadata, and fed everything directly into Claude with a 3 million token context window.
 
 The conversation went something like:
 
@@ -362,7 +362,7 @@ Like any martial art, Context Foo has its principles:
 3. **Adapt to change**: As LLMs evolve, so should your techniques
 4. **Practice mindfully**: Each analysis teaches you something new about your content
 
-The script I reference at the beginning, `context_foo.py`, embodies these principles. It's not just a utility — it's a way of thinking about content that respects its inherent structure and flow.
+The script I reference at the beginning, [`context_foo.py`](https://github.com/miklevin/pipulate/blob/main/context_foo.py), embodies these principles. It's not just a utility — it's a way of thinking about content that respects its inherent structure and flow.
 
 ## Final Thoughts: The New Information Craft
 
