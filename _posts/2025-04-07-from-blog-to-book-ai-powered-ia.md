@@ -1828,9 +1828,9 @@ Overall, it's a powerful demonstration of how current AI capabilities, combined 
 > rabbit hole in favor of one-shot prompting with the frontier models that have
 > massive token windows using context foo.
 
-**Me**: The introduction implies this is a local LLM based journey, but I can see from your opinion at the end you get that it's not. Can you provide a new 1st person summarized description that more accurately represents the article? And also create an introductory paragraph to the whole affair that frames it from the transition of thinking I would local RAG my blog article directory to realizing frontier models have a large enough token window to handle it, if I just preparte the context foo correctly.
+**Me**: The introduction implies this is a local LLM based journey, but I can see from your opinion at the end you get that it's not. Can you provide a new 1st person summarized description that more accurately represents the article? And also create an introductory paragraph to the whole affair that frames it from the transition of my thinking from local LLM with RAG to analyze my blog's article directory to just using frontier models that have such a large token window that they can handle it single-shot -- if I just prepare the content correctly (Content Foo).
 
-You are absolutely right to point that out! While the journey *started* with investigating local tools, the core of the work described involved leveraging frontier models for the heavy lifting of analysis due to their large context windows.
+**Gemini**: You are absolutely right to point that out! While the journey *started* with investigating local tools, the core of the work described involved leveraging frontier models for the heavy lifting of analysis due to their large context windows.
 
 Here are the revised summary and introductory paragraph:
 
