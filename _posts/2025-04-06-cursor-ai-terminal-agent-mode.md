@@ -464,24 +464,21 @@ Is this better aligned with your workflow and conventions? I've made it more ver
 
 ## Understanding Cursor's Rule System
 
-> Interesting! It's not just one big rules text-blob like I thought. When I
-> entered it in, the UI changed. I was prompted to give a rule name, so I gave
-> it `nix-rules`, which became...
+> Interesting! I discovered there are actually two types of rules in Cursor - User Rules and Project Rules. The User Rules are what you see first - a big text field for global rules that apply everywhere. But there's also a more granular Project Rules system that I initially thought was a UI change, but is actually a separate feature for project-specific rules.
 
-### Rule File Location and Structure
+### Rule Types and Structure
 
+For Project Rules, which live in:
 `.cursor` > `rules` > `nix-rules.mdc`
 
-When I tried adding a rule in what appeared to be a giant text field, and which
-assume to be their old UI for some big global rule, a new granular-rule UI
-appeared with this menu option to choose between `Rule Types`:
+The Project Rules interface provides these rule types:
 
 - **Always:** This rule is attached to every chat and command+k request
 - **Auto Attached:** File pattern matches
 - **Agent Requested:** Description of the task this rule is helpful for...
 - **Manual:** This rule needs to be mentioned to be included
 
-...so I put it under `Agent Requested` with the description: Use for anything that requires terminal
+For my terminal-related rules, I put them under `Agent Requested` with the description: Use for anything that requires terminal
 
 ### Adapting to Agent-Based Development
 
