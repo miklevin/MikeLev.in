@@ -101,15 +101,15 @@ Enough theory — let's talk about what you can actually do with this approach:
 
 ### 1. One-Shot Site Architecture Analysis
 
-I recently worked with a tech blog that had accumulated over 500 posts across 7 years. They knew their navigation was a mess but couldn't see the forest for the trees.
+My blog has 6 months worth of posts, and I was struggling to organize them effectively. The navigation was becoming unwieldy, and I couldn't see the forest for the trees.
 
-Using Context Kung Fu, I fed their entire blog into Claude and asked:
+Using Context Kung Fu, I fed my entire blog into Claude and asked:
 
 "Analyze these posts and propose a coherent site architecture with no more than 7 main categories and 3 levels of hierarchy. Identify the 20 most important posts that should serve as 'hub pages' for key topics."
 
 The result? A completely reimagined information architecture that made both intuitive and business sense, with clear paths between related topics and natural entry points for new readers.
 
-This wasn't just a mechanical organization — the LLM understood the conceptual relationships between posts that even the authors hadn't explicitly recognized.
+This wasn't just a mechanical organization — the LLM understood the conceptual relationships between posts that I hadn't explicitly recognized myself, despite being the author!
 
 ### 2. Content Gap Analysis with Historical Context
 
