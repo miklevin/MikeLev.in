@@ -1,7 +1,7 @@
 ---
 title: "From Blog Chaos to Book Outline: An AI-Powered Information Architecture Journey"
 permalink: /futureproof/from-blog-to-book-ai-powered-ia/
-description: This article documents my journey to restructure my blog's information architecture and generate a book outline using AI analysis. While I initially explored local tools like Ollama and RAG via Open WebUI, I quickly pivoted to harnessing the massive multi-million token context windows offered by frontier models like Google's Gemini. I detail the iterative development of Python scripts (`context_foo.py`), heavily assisted by Claude, to precisely chunk and prepare my entire blog content for these large models. I then share my experiments feeding these large context files to Gemini 2.0 Flash and Gemini 2.5 Experimental, culminating in successfully generating a detailed, linked site topology map and book outline, showcasing a practical approach of using frontier AI's capabilities for large-scale content analysis.
+description: I document my journey to restructure my blog's information architecture and generate a book outline using AI. Initially exploring local tools like Ollama and RAG, I pivoted to using frontier models with massive token windows like Google's Gemini. With Claude's help, I developed Python scripts to prepare my blog content for these large models. My experiments with Gemini 2.0 Flash and 2.5 Experimental successfully generated a detailed site map and book outline, demonstrating how frontier AI can effectively analyze large-scale content.
 layout: post
 sort_order: 1
 ---
@@ -19,11 +19,12 @@ chunking, and overlap started to look complex.
 Around the same time, frontier models like Gemini began boasting massive,
 multi-million token context windows. This sparked a strategic shift: what if,
 instead of intricate local RAG, I could simply prepare my *entire* blog's
-content using a tool like `context_foo.py` and feed it directly into one of
+content using a tool like [`context_foo.py`](https://github.com/miklevin/pipulate/blob/main/context_foo.py) and feed it directly into one of
 these powerful frontier models in a single shot (or a few large chunks)? This
 article chronicles that transition, detailing the development of the necessary
 tooling and the subsequent experiments using large context models for site
-analysis and restructuring.
+analysis and restructuring. 
+.
 
 ---
 
@@ -1819,6 +1820,8 @@ However, its very thoroughness contributes to its main weakness: density and len
 
 Overall, it's a powerful demonstration of how current AI capabilities, combined with thoughtful scripting and persistent prompt engineering, can be used to extract structure, meaning, and new potential from large volumes of unstructured text, effectively turning a personal blog archive into a queryable, reorganizable dataset and the foundation for new creative works.
 
+There are also other variations of this which may end up being more effective.
+
 ---
 
 ### Iterating Based on Gemini's Feedback
@@ -1828,7 +1831,7 @@ Overall, it's a powerful demonstration of how current AI capabilities, combined 
 > rabbit hole in favor of one-shot prompting with the frontier models that have
 > massive token windows using context foo.
 
-**Me**: The introduction implies this is a local LLM based journey, but I can see from your opinion at the end you get that it's not. Can you provide a new 1st person summarized description that more accurately represents the article? And also create an introductory paragraph to the whole affair that frames it from the transition of my thinking from local LLM with RAG to analyze my blog's article directory to just using frontier models that have such a large token window that they can handle it single-shot -- if I just prepare the content correctly (Content Foo).
+**Me**: The introduction implies this is a local LLM based journey, but I can see from your opinion at the end you get that it's not. Can you provide a new 1st person summarized description that more accurately represents the article? And also create an introductory paragraph to the whole affair that frames it from the transition of my thinking from local LLM with RAG to analyze my blog's article directory to just using frontier models that have such a large token window that they can handle it single-shot -- if I just prepare the content correctly [`context_foo.py`](https://github.com/miklevin/pipulate/blob/main/context_foo.py).
 
 **Gemini**: You are absolutely right to point that out! While the journey *started* with investigating local tools, the core of the work described involved leveraging frontier models for the heavy lifting of analysis due to their large context windows.
 
