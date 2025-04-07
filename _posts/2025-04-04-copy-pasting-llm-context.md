@@ -1,14 +1,14 @@
 ---
 title: "Stop Copy-Pasting: A Simple Python Script for Managing LLM Code Context"
 permalink: /futureproof/copy-pasting-llm-context/
-description: To tackle the challenge of feeding large code contexts from a repository into LLMs without endless copy-pasting, I conceived a simple Python script, context_foo.py. Working iteratively with Gemini, we developed this script to concatenate specified files, adding custom prompts and clear markers, into a single foo.txt file easily usable as LLM input or attachment. The script now includes token counting and a manifest system to help LLMs understand the context they're about to receive. This process not only yielded a practical tool tailored to my workflow but also provided insights into effectively collaborating with AI for utility development.
+description: To tackle the challenge of feeding large code contexts from a repository into LLMs without endless copy-pasting, I conceived a simple Python script, context_foo.py. Working iteratively with Gemini, we developed this script to concatenate specified files, adding custom prompts and clear markers, into a single foo.txt file easily usable as LLM input or attachment. The script now includes token counting, a manifest system, and customizable templates to help LLMs understand and work with different types of context. This process not only yielded a practical tool tailored to my workflow but also provided insights into effectively collaborating with AI for utility development.
 layout: post
 sort_order: 3
 ---
 
 So you want to prompt an LLM to provide you some coding assistance, but there's a whole git repo of potential context to consider. You may or may not be using Cursor, Windsurf, Cline, Augment or one of the many Web-based UIs like ChatGPT, DeepSeek or Gemini directly. How do you get all that repo code in context? That's an awful lot of copy/pasting!
 
-No worries! You can list those files, can't you? Well if you can list those files, you can shove all their context into a single `foo.txt` file for sending it as an attachment, or just to make copy/pasting the whole thing easier. Plus, we'll add token counting and a manifest system to help the LLM understand what it's about to receive.
+No worries! You can list those files, can't you? Well if you can list those files, you can shove all their context into a single `foo.txt` file for sending it as an attachment, or just to make copy/pasting the whole thing easier. Plus, we'll add token counting, a manifest system, and customizable templates to help the LLM understand what it's about to receive.
 
 > The complete and latest version of this script is available on GitHub at:  
 > [github.com/miklevin/pipulate/blob/main/context_foo.py](https://github.com/miklevin/pipulate/blob/main/context_foo.py)
@@ -69,7 +69,7 @@ class AIAssistantManifest:
         }
 ```
 
-The script has evolved to include two major enhancements:
+The script has evolved to include several major enhancements:
 
 1. **Token Counting**: Keep track of how many tokens each file uses and estimate costs based on GPT-4 rates. This helps you:
    - Monitor context window usage
@@ -81,6 +81,28 @@ The script has evolved to include two major enhancements:
    - Environment information
    - Project conventions
    - Critical patterns that shouldn't be modified
+
+3. **Template System**: A new command-line interface for selecting different context templates:
+   ```bash
+   # List available templates
+   python context_foo.py -l
+   
+   # Use a specific template
+   python context_foo.py -t 1
+   
+   # Specify output file
+   python context_foo.py -t 0 -o custom_output.txt
+   ```
+
+   Current templates include:
+   - **General Codebase Analysis**: For understanding and analyzing code architecture
+   - **MCP Integration Challenge**: For designing Model Context Protocol integrations
+   - **Custom Template**: A starter template for your own use cases
+
+4. **MCP Integration Template**: A specialized template for working with Model Context Protocol:
+   - Helps LLMs understand how to integrate MCP with existing code
+   - Provides structured requirements and design considerations
+   - Maintains focus on local-first and simplicity principles
 
 The manifest appears at the start of the generated context, looking something like this:
 
@@ -116,6 +138,27 @@ This manifest helps the LLM:
 2. Know important conventions and patterns upfront
 3. Track token usage for context window management
 4. Make informed decisions about how to process the content
+
+When using the MCP Integration template, you get specialized context focused on that challenge:
+
+```
+# Context for Understanding Pipulate's MCP Integration Challenge
+
+This codebase uses a hybrid approach with Nix for system dependencies and virtualenv for Python packages.
+I'm looking to enhance the Pipulate application by integrating the Model Context Protocol (MCP) to empower
+the local Ollama-powered LLM to execute actions directly rather than just generating text about them.
+
+Key points about the current system:
+- The app uses local Ollama models via HTTP API calls in the chat_with_llm() function
+- The Pipulate class serves as a central coordinator for plugins and functionality
+...
+```
+
+This template system makes the script more versatile, allowing you to:
+1. Maintain different context templates for different tasks
+2. Provide specialized guidance for specific challenges
+3. Create your own templates for recurring needs
+4. Share templates with your team or the community
 
 [Rest of original article continues...]
 
