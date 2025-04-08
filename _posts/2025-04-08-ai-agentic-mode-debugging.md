@@ -32,9 +32,14 @@ made to capture the last working state. In the course of doing so, it executed a
 lot of `terminal` commands. I noticed it looked at a *Cursor Rule* I set up for
 it when using terminal, and it miraculously found and solved the problem. 
 
+## Training AI to Navigate Your Terminal Environment
+
 Over the past few days, I added rules for Claude to look at whenever it tried to
 execute terminal commands on my system to deal with the nuances of the Python
-virtual environment and NixOS. It 
+virtual environment and NixOS. It's not just you. Every terminal environment is
+weird with all its environment variables, `.venv`'s, restricted permissions,
+sandboxing or whatever. That doesn't keep the AI from being helpful by using hte
+terminal on your behalf. It just means you gotta train it a bit.
 
 ### Avoiding Painful Git Resets
 
