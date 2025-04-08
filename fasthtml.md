@@ -6,7 +6,7 @@ permalink: /fasthtml/
 group: home
 ---
 
-# FastHTML is not FastAPI
+# FastHTML vs. FastAPI
 
 ## FastHTML Examples
 
