@@ -10,14 +10,16 @@ group: home
 
 ## FastHTML Examples
 
-> FastHTML and FastAPI are two very different things. One fits your vibe and the
-> doesn't. I can't tell you which is which —— but I can show you why I love
-> FastHHTML and how it has put the love back in webdev for me.
+> FastHTML is not FastAPI. One will fit your vibe and the won't. I can't tell
+> you which is which, but I can show you why I love FastHTML and how it has put
+> the love back in webdev for me.
 
-I know you're curious about FastHTML databases. Here's how they work:
+Let's say you need a web framework with a built-in database. Here's how get a
+table named `users` with a field named `username` of type `str`. That's how a
+FastHTML database works. FastHTML is *web frameworks for humans.*
 
 ```python
-app, rt, users, User = fast_app('folder/filename.db', users=dict(username=str))
+app, rt, users, User = fast_app('folder/filename.db', users={'username': str})
 ```
 
 ## Understanding the MiniDataAPI Spec
@@ -29,7 +31,7 @@ webserver connection object `app` first and the shortcut for `app.route()`
 second. The returned `users` object is a MiniDataAPI database table with methods
 like `.insert()` and `.delete()`, and `User` is a `dataclass()` description of a
 single record used for hinting and validation. That's it. There's no special
-setup. A whole table schema can go as a Python `dict` where `dict(username=str)`
+setup. A whole table schema can go as a Python `dict` where `{'username': str}`
 appears. That's databases in FastHTML.
 
 ## Going Beyond the Basics
@@ -391,7 +393,7 @@ database tasks like this...
 from fasthtml.common import *
 
 # Setting up FastHTML with a SQLite database to store usernames
-app, rt, users, User = fast_app('folder/filename.db', users=dict(username=str))
+app, rt, users, User = fast_app('folder/filename.db', users={'username': str})
 
 @rt('/')
 def get():
