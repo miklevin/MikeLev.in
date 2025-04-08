@@ -6,6 +6,23 @@ layout: post
 sort_order: 1
 ---
 
+## Understanding the True Value of AI Agent Mode
+
+The important nuance to appreciate in this article is that the new `Agent` or
+*agentic modes* in AI-assisted editors isn't so much about going hog-wild coding
+(the fear) as much as it is about doing deep-dives into studying your code — and
+*not just what's in your current folder,* but also diving into your git history
+and branches as well. 
+
+### AI as a Code Archaeologist
+
+Watching Claude execute commands in `terminal`, *grepping* and *git diff'ing*
+away like an old school hacker is massively impressive and a bit humbling.
+That's the big win here — not the coding quite so much as deep understanding.
+These things are making the jump from not having enough context about what
+you're doing to having more than you could ever hope to have yourself — at least
+as expressed by your code and everything you ever tried.
+
 ## Facing a Complex Asyncio Timing Bug
 
 On a round of work I was doing this morning, I almost had to revert and loose a
@@ -15,14 +32,45 @@ made to capture the last working state. In the course of doing so, it executed a
 lot of `terminal` commands. I noticed it looked at a *Cursor Rule* I set up for
 it when using terminal, and it miraculously found and solved the problem. 
 
+Over the past few days, I added rules for Claude to look at whenever it tried to
+execute terminal commands on my system to deal with the nuances of the Python
+virtual environment and NixOS. It 
+
 ### Avoiding Painful Git Resets
 
-I know it's the kind of thing that I would have `git reset --hard [hash]` to
-have fixed, and consider but abandon *git cherry picking* to get back to where I
-was, resulting in just having to get there again, organically. But I didn't have
-to because Claude was able to untangle it all and solve it efficiently —
-*comparing git branches!* This is a game changer. Agent mode in Cursor is worth
+I know that the concurrency problem I was encountering is the kind of thing that
+I would have `git reset --hard [hash]` to the last working version to fix, and
+then consider but abandon *git cherry picking* to get back any peripheral
+improvements I made to the code, but then abandon the idea based on how
+frequently I git commit and quite how many cherries there are to pick. I am not
+Linus.
+
+#### Claude Knows Git
+
+This generally results in me just having to get back to where I was again
+feature-wise organically. But I didn't have to because Claude was able to
+untangle it all and solve it efficiently — *comparing git branches* and seeing
+what worked in the past! This is a game changer. Agent mode in Cursor is worth
 it for this alone.
+
+#### A New Reason for Good Git Practices
+
+Let me repeat that. Coding assistants can know your git history, your git logs,
+your git branches, your git diffs better than you do. They can hold a concept of
+your git repo and everything you've tried in their AI-minds better than a human
+ever could (except maybe Linus). You have a brand new reason to use good git
+commit messages.
+
+This turns the entire argument that your AI coding assistant doesn't know your
+codebase as well as you human do upside down. Agentic mode doesn't just let your
+AI coding assistant go directory-diving (which it also does), but it goes
+time-traveling (git history) and alternate timeline exploring (branches).
+
+BAM!
+
+---
+
+## Stunned By The Realization
 
 **Me**: OMG, you just saved me from so much reverting! That was amazing! How
 would you describe your new Agentic capabilties that let you do this? And what
