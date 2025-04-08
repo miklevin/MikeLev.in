@@ -13,7 +13,7 @@ heard me right. WebSocket messages can directly manipulate the DOM when properly
 formatted. And as you know, browsers can execute JavaScript. Shhhhh! Don't say
 that too loud. Skynet might hear. A billion browsers suddenly became an
 extension of its body... but no, I kid, I kid... he says as he rolls up his
-sleeves and gives his modest little local ***gemma:2b*** (or not 2b?)&#151;
+sleeves and gives his modest little local ***gemma:2b*** (or not 2b?)—
 *precisely... that... ability.*
 
 Technically, I layered in another command-and-control SSE communication channel
@@ -50,7 +50,7 @@ any page it hosts on localhost, because you control all those page and can
 quickly re-initialize all the communication apparatus.
 
 Oh, and finally of course we're going to want the LLM to be able to change
-URLs&#151;effectively browse the Web. Although of course without a Chrome plugin
+URLs—effectively browse the Web. Although of course without a Chrome plugin
 assist, the first surf away from its own pages will cut it off. Still,
 LLM-initiated URL redirects are on our todo-list.
 
@@ -2058,7 +2058,7 @@ Keep that feeling. It's what separates code that merely works from code that... 
 ## Success! There's an LLM In My Browser
 
 ***Insert apple into task using json!***... (in the voice of Captain Picard to
-the tune of "there are four lights")&#151; and **\*BAM**\*, an apple appears in
+the tune of "there are four lights")— and **\*BAM**\*, an apple appears in
 task-list resulting from a just-trained-on an JSON-api-syntax LLM answering...
 well, with some JSON that causes the insert to occur. Like magic.
 

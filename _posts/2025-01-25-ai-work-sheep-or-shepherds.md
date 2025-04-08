@@ -113,7 +113,7 @@ ability to transmit information and ideas across the generations improves. But
 it takes a special skill and artistry and discipline to be able to do this. but
 the payoff is often worth it because unlocking these ideas is to unlock power.
 You know how to build better weapons, predict the seasons, heal the sick and
-such. And so scribes become the technical elite &#151; not the big-boss, mind
+such. And so scribes become the technical elite — not the big-boss, mind
 you. It's always someone bigger and stronger. But those bigger and stronger
 types now need scribes. Scribes know techniques. Scribes are technology. Scribe
 tech.
@@ -302,7 +302,7 @@ long to be owned even by Microsoft (similar to Linux). But having Guido on the
 Microsoft payroll does help them control the narrative and make Python look like
 a Microsoft technology. The truth is it's one of those great paths to
 future-proofing and making your vendors interchangeable. Write your stuff in
-Python to sit on Linux, and you pretty much don't need any vendor &#151; a huge
+Python to sit on Linux, and you pretty much don't need any vendor — a huge
 component of future-proofing. All components become interchangeable and you are
 beholden to no one.
 

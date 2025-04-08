@@ -66,7 +66,7 @@ standalone topic and article. Some include:
 
 That last one is what I was up to before I sat down to think through today's
 article and next steps. There's just a few scattering of notes I want to capture
-here before planning one of the biggest coding days of my life&#151;gluing
+here before planning one of the biggest coding days of my life—gluing
 together the parts of what I built into something bigger and designed to
 accelerate. 
 
@@ -285,7 +285,7 @@ environment (or production server, for that matter) with just the pedantically
 controlled Nix components. Nix pins down all its versions so that these
 collaborative, tradable tech infrastructures are highly reproducible. In the
 popular parlance, parts are ***pinned***. They're so firmly pinned in fact that
-you can't pip install&#151;because nothing's really where you think it is. But
+you can't pip install—because nothing's really where you think it is. But
 that's okay, because the only Pythonic responsibility the **"parent"** nix
 environment has to do is build a Python `.venv` virtualenv or virtual
 environment. 
@@ -309,7 +309,7 @@ itself. So that's our second ingredient, the `requirements.txt`...
 And that brings us to the code base itself. This is one giant plop-down of a
 piece of code, but let me assure you this is not really that long at all for
 what it does. Probably nearly 1/3 of it is debugging output and comments. The
-actual code code is probably about 2,000 lines or so&#151;not much for a whole
+actual code code is probably about 2,000 lines or so—not much for a whole
 CRUD-style web framework. You might be asking yourself where's the CSS file.
 There is none beyond the PicoCSS standard built into FastHTML. You might ask
 yourself where's the JavaScript. 
@@ -363,7 +363,7 @@ just ordered the profoundly cool retro computer platform as a gift for someone.
 
 So onto today... think! I've taken so many rapid deep dives into rabbit holes
 and come back mostly unscathed, I'm feeling both inflated confidence and
-trepidation for what comes next. I am on the cusp of something big&#151;standing
+trepidation for what comes next. I am on the cusp of something big—standing
 at the intersection of mastery and uncertainty, fueled by the momentum of
 exploration. The next steps could solidify my vision or open a new rabbit hole.
 They must propel you forward and not get me trapped in some quagmire. List what
@@ -452,7 +452,7 @@ be further along by the end of the day than just that.
 
 I need to have the hook for that. I need to be able to point to something and
 go, look! That's where file uploads occur, that's how the indexing
-happens&#151;or whatever it's called in the vector emedding world. Oh, file
+happens—or whatever it's called in the vector emedding world. Oh, file
 uploads! And the particular 2 apps I need to plug in pronto. Let me talk about
 those as I evaluate today.
 
@@ -581,7 +581,7 @@ deferred for now.
 I do have to be thoughtful about not renaming tables and fields on people if
 they start working with the system before those decisions are locked down. In
 other words, if I recycle TodoApp as a Competitor-list, then make a real
-Competitor table later on, I've broken reverse compatibly&#151;especially
+Competitor table later on, I've broken reverse compatibly—especially
 disruptive considering the auto-git-deploy system.
 
 ### The Obsolescence of Python APIs Is Rarely Actually Obsolete

@@ -204,7 +204,7 @@ emphatically point out Ken Thompson as a better example. While OSes and design
 philosophies existed before Ken (and Dennis Ritchie) created Unix, such as
 Fernando Corbató's Multics and Douglas McIlroy who invented the concept of
 piping data, Ken blended it all together into a portable viral meme universal
-operating system called Unix. Ken is the Einstein-level genius of tech&#151;very
+operating system called Unix. Ken is the Einstein-level genius of tech—very
 rare. Much more rare than the clever copycats whose names we all know, like
 Steve and Bill. Steve and Bill are much more like Mr. Smithers than Morbo.
 
@@ -376,7 +376,7 @@ be guaranteed to make money on, because software and alluring of the appeal of
 selling something intangible with no material costs but potentially huge
 margins, people like Richard Matthew Stallman who think all software should be
 free (for he's actually a software freedom advocate and not a FOSS
-advocate&#151;**NOT** the same thing), margins will erode. Hardware decays.
+advocate—**NOT** the same thing), margins will erode. Hardware decays.
 Software margins erode. These are truism. Don't fall in love with your hardware
 because it ***will*** let you down. And don't think any software tycoon is going
 to be laughing all the way to the bank forever. Their moneymaker is going to be
@@ -388,8 +388,8 @@ the day. In the future, all their fancy hardware will just be a virtualized and
 commoditized component of some other product. Apple resists this reality, but
 only with lawyers, not with any realistically effective proof against pirating
 copycats. We Amiga computer lovers know this because we always used to take joy
-in saying the Amiga could emulate both Macs and PCs&#151;sometimes at the same
-time&#151;, but because of all that special hardware stuff, a Mac or PC could
+in saying the Amiga could emulate both Macs and PCs—sometimes at the same
+time—, but because of all that special hardware stuff, a Mac or PC could
 never emulate an Amiga. And now Raspberry Pi's and keychain computers can
 emulate the Amiga! This is the way it is and forever always will be with
 hardware. Today's Nvida rack servers will dangle from keychains in a decade or

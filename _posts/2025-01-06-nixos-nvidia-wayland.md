@@ -7,7 +7,7 @@ sort_order: 1
 ---
 
 > I do not like the bleeding edge.  
-> I cringe when I unearth it&#151;  
+> I cringe when I unearth it—  
 > But if you were to ask me so,  
 > NixOS is worth it.  
 
@@ -34,7 +34,7 @@ popular projects.
 
 But Levinux died on the vine but for some strange fan-base who love the
 no-install / no admin rights needed Noah's Ark of content floating between host
-machines in a 20MB package magic trick that it was. Levinux was &#151; and
+machines in a 20MB package magic trick that it was. Levinux was — and
 really is and is unique in that characteristic to this day. It runs on the
 desktop of a Mac, Windows or other Linux desktop with an unarchive and
 double-click. 
@@ -68,7 +68,7 @@ that's kept it alive and of interest to some audience over all these years.
 
 Add to that that it's a perfectly viable platform for an initial `*nix` terminal
 command-line interface experience. `*nix` is `*nix`. What you learn one place
-ports other places, and that's the port that's actually important &#151; not the
+ports other places, and that's the port that's actually important — not the
 specific development environment or your code. Code will always float these
 days, because distributed version control systems (DVCS) and git in particular.
 The safety and longevity of your code is no longer in question if you can figure
@@ -193,7 +193,7 @@ it's ***so much better.*** You'll see.
 
 And so, that brings us up to the bleeding edge discussion I started out with. I
 don't really like being on the bleeding edge. I just want what I want, which
-which is a floating software development home for life &#151; that Noah's Ark
+which is a floating software development home for life — that Noah's Ark
 such as it were, but so much more powerful than the mere Noah's Ark metaphor,
 because in the digital world there's way more room than just 2 of every animal.
 You can have a virtual running copy of the entire world, plus all their DNA and
@@ -246,7 +246,7 @@ immediately closed it realizing it wasn't on their end. What's further, the
 problem didn't happen in Netscape, but it DID happen in Chrome and every
 variation I tried of Chrome including Chromium and the developer build. It was
 nuts. I couldn't believe this could be an Nvidia driver / Wayland problem, but
-upon investigating, that was the inevitable conclusion&#151; something about
+upon investigating, that was the inevitable conclusion— something about
 Wayland lack of global coordinates in the vector-to-bitmap conversions.
 
 #### The Mysterious Screen Artifacts
@@ -360,8 +360,8 @@ This is the minimal configuration needed to get NVIDIA working properly with Way
 ## The Devil in the Details
 
 So if you look at the pedantic mind-bending detail of what went into the above
-configuration settings &#151; and I don't think that you should &#151; it is
-beyond mortal fathoming &#151; at least this mortal's. Why? I mean imagine just
+configuration settings — and I don't think that you should — it is
+beyond mortal fathoming — at least this mortal's. Why? I mean imagine just
 having the knowledge to work all this out on your own. And then once having the
 knowledge, trying all the iterations until something works. And then there's the
 syntax alone of all the parameter arguments and environment variables, doing
@@ -388,7 +388,7 @@ thought.
 I scratched my head and was like, okay if the BLOB's you're compiling in a
 system rebuild are put in those magic locations that get loaded first when the
 hardware is turned on, like MBR (master boot records) of yore, then absolutely
-&#151; head-smack! Software low-level configures hardware!
+— head-smack! Software low-level configures hardware!
 
 Of course talking to an artificial intelligence to trouble shoot a problem like
 this seems equally implausible, but there I was doing it. Open minds and pushing

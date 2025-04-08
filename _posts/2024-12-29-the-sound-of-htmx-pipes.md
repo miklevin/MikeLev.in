@@ -55,9 +55,9 @@ before through the luck of their upbringing, education, and the people that they
 by chance happened into in life. You know how even the most determined attribute
 a lot of their success to luck (even though that's only a half-truth)? Well, the
 luck component as a factor in success is being dialed-down, because AI. Common
-wisdom and best practices&#151;in other words, ***the conventional way of doing
-things***&#151;is being bottled-up and brought to a device near you in the
-modern-day functional analogue of a genie in a magic lamp&#151; backfiring
+wisdom and best practices—in other words, ***the conventional way of doing
+things***—is being bottled-up and brought to a device near you in the
+modern-day functional analogue of a genie in a magic lamp— backfiring
 wishes and all!
 
 ### The Power of Names
@@ -1805,7 +1805,7 @@ From here, you can flesh out each “Card #X” with fancy forms, embedded file 
 > At this point I love to invite Gemini 2.0 Experimental into the process. I
 > didn't think I was going to be using Gemini, not buying into the Google Cloud
 > Platform Vertex AI lock-in. But they're including Gemini access in my
-> $100/year bottom-feeder 2TB Google One subscription&#151;reduced from the 5TB
+> $100/year bottom-feeder 2TB Google One subscription—reduced from the 5TB
 > level as I break my cloud dependencies. Its token window size is appealing
 > for digesting and summarizing articles like this.
 

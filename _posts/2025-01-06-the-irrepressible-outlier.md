@@ -123,7 +123,7 @@ no robots.txt or copyright owners' intentions that can technically prevent that.
 They can prevent subsequent money-making use if it goes through the legal system
 and they can prove it and overcome all the counter-arguments. But there's a
 pragmatic discussion here about if it can be done, it will be done by someone
-&#151; and really multiple someones until it's an unwinnable battle of
+— and really multiple someones until it's an unwinnable battle of
 attrition. The only solutions are technical.
 
 ## The Age of Infinite Content
@@ -159,7 +159,7 @@ the base model from which it instantiates a new copy of itself on every request.
 There's a big sub-discussion here about what ChatBots REALLY are (an ephemeral
 new-every-request thing) versus what they appear to be (continuous entities and
 the *same thing in memory* you just interacted with). Discussion histories are
-something that get ***posted-back in whole*** on every request &#151; at least
+something that get ***posted-back in whole*** on every request — at least
 right now, the way the Cloud Web AI infrastructures are designed for
 scalability, productization and safety. Point being, these undifferentiated
 being-like intelligences have the ability to turn around and check other
@@ -238,7 +238,7 @@ Shockwave `.flv`, `.swf` days came to an end when Steve Jobs killed them with
 the iPhone. Everyone jumping on mobile made Google cook the frog us into
 adopting a responsive mobile first design strategy (vs. reactive). With good
 cascading style sheets (CSS) that used such things as `@media` styles, you could
-have one `.html` file to rule them all &#151; so long as it imports a
+have one `.html` file to rule them all — so long as it imports a
 `.styles.css` file. This is what the AMP `.amp` movement was about. It was
 Google cooking the frog, teaching us how to design that way. It's better for
 Google, and it's better all around. Then deprecate AMP itself, and all the good
@@ -328,7 +328,7 @@ The jury is not in yet on precisely how unforgiving, hyper-critical,
 1-chance-only in-life holier-than thou we should all be when judging and
 condemning others in life. That holier-than-thou feeling feels really good. That
 righteousness gets a lot of juicy enjoyable neurotransmitter chemicals coursing
-through the veins, and maybe that is all humanity really needs &#151; a new-age
+through the veins, and maybe that is all humanity really needs — a new-age
 variety of Bible-thumping wokeness, and that the death of edgy risk-taking humor
 is just a inevitable side effect. Part of evolution. Maybe it's right to
 cancel-now and let the sheep mentality last-normies-standing sort it all out in
@@ -354,7 +354,7 @@ a beacon. So be that genuinely new. Easier said then done, you say? No, not
 really. Not when all your life you have felt the frustration of going against
 that normative grain, and nobody "got you" because your ideas were scary to the
 status quo in the don't upset the apple cart sort of way, and were thus
-marginalized and ignored &#151; or worse-still, gaslighted to make you believe
+marginalized and ignored — or worse-still, gaslighted to make you believe
 your outlying ideas really aren't as new or brilliant or potentially world
 transforming as they actually are. Most good new ideas die on the vine like
 that. That's just human nature. It's in the Pareto principle, Zipf's law and the

@@ -17,7 +17,7 @@ This project is the application of artificial intelligence. While the need for
 coding ostensibly goes away because machines can do that now, simultaneously the
 demand for managing that exact same process goes up. Machines aren't going to
 code for themselves unsupervised. They're coding for people to accomplish things
-with various quality assurance processes tightly integrated &#151; and these
+with various quality assurance processes tightly integrated — and these
 processes amount to a human having their hands firmly on the wheel steering that
 process.
 
@@ -76,8 +76,8 @@ language, and that choice has for the most part been made: Python.
 
 ## The Journey of AI-Assisted Code
 
-Yesterday I changed code AIs helped write &#151; which still had some mysteries
-in it &#151; into something that I felt truly belonged to me. Now it feels as if
+Yesterday I changed code AIs helped write — which still had some mysteries
+in it — into something that I felt truly belonged to me. Now it feels as if
 I wrote it myself in the first place, and when I go in to add new features, it
 is both easier for me to do things myself and I can prompt more clearly to the
 AIs for additional help.
@@ -102,7 +102,7 @@ articles are exactly that sort of context, especially as the AIs advance from
 just barely being able to code better than a human (today), to general
 intelligence, to super-intelligent. We have this image of them staying these
 cloud-based ChatGPT-like assistants as they undergo that transformation, but I
-think that will be just one variety&#151; the LLM-type OpenAI made sure the
+think that will be just one variety— the LLM-type OpenAI made sure the
 pubic was getting exposed to when they released ChatGPT. 
 
 ## Physical Embodiment and Experience
@@ -143,14 +143,14 @@ engineering. He talks about how ChatGPT is his companion during the course of
 the day, always open during the course of the day. Currently, there's a
 disconnect between that daily constant exposure to a human which could fuel some
 sort of persistence of thought we desire in our robot-buddies and what it
-actually is &#151; reset every time.
+actually is — reset every time.
 
 ## The Future of LLM Memory
 
 But as these token-windows get larger and their supplementary database systems
 that can index and make real-time searchable to the LLM (separate from
 conversation history) for real-time prompt augmentation and availability during
-chain-of-reasoning, LLMs are going to piece together bigger pictures&#151;
+chain-of-reasoning, LLMs are going to piece together bigger pictures—
 storytelling! If you're not explicitly story-telling to the LLM, it will be
 storytelling to itself in the background to create that super-context and truly
 understand what you mean in your requests. 
@@ -222,7 +222,7 @@ Unique competitive advantage arises from that last track. Got an idea to
 reproduce Renaissance Technologies Medallion Fund privately? You've got to have
 some sort of generalized private framework to do that on. Everything agentic is
 born as a linear workflow process first, as you work things out. There's a
-process of dredging-up what's really important in a process&#151; working with
+process of dredging-up what's really important in a process— working with
 the domain experts and putting B after A before you can have the whole alphabet
 happen at once. 
 
@@ -1523,7 +1523,7 @@ background RAG processes are up-to-date, so we go into:
 ...and we update what we must assume is a database Cursor AI editor can hit in
 the background to add context to your prompt. Ever wonder why Cursor AI has such
 a larger apparent context window than the model's currently advertised
-capabilities imply? This is one of the reasons why&#151; real-time background
+capabilities imply? This is one of the reasons why— real-time background
 indexing of all new content put into the VSCode-like Workspace (the folder you
 originally opened).
 
@@ -1535,7 +1535,7 @@ much more focused on the pipeline features versus the overarching web framework.
 These seem like such shallow words tapping them out into this article, but what
 I'm saying here runs deep. There is a full Neo in the Matrix Kung Fu-style
 download here. It's a deep education on the system that should result in some
-fairly granular results&#151; good implementations. Let's see...
+fairly granular results— good implementations. Let's see...
 
 **Me**: Yes please. But first have a look at all of Pipulate. And here also is
 the `get_state_message` you ask for, along with the entire `StarterFlow` class.
@@ -1726,7 +1726,7 @@ Okay, these are the strong visual models I need in my head to both complete the
 next round of copy/paste templating source, and to perform that copy/pasting
 (and modifications) of new workflows.
 
-I'm probably designing my next 2 to 10 years of work, easily&#151; which is why
+I'm probably designing my next 2 to 10 years of work, easily— which is why
 I'm putting so much thought-work into it now.
 
 ### Evolutionary Design
@@ -1804,7 +1804,7 @@ AI is transformative, no doubt. It's going to live up to the hype and far beyond
 with that slow cooking of the frog metaphor. There will be a dampening effect
 due to enormous hardware infrastructure upgrade costs and human nature resisting
 change. So a generation has to die off. Technically, two generations have to die
-off &#151; a full 40-years must pass for a full generational worldview shift to
+off — a full 40-years must pass for a full generational worldview shift to
 occur, because one of the generations always has to provide the gap. The
 farmer's child might not move to the city, but the farmer's child's child is
 much more likely to.
@@ -1837,7 +1837,7 @@ This work, all this pipeline workflow stuff I'm talking about, and the web
 framework it fits into, and the local LLM that inhabits that software framework
 and knows about those pipeline workflows, that's all about job security and
 skills, and perchance loving what you too all the while. In other words, it's
-about survival &#151; but more that living & thriving on the fault-line sort of
+about survival — but more that living & thriving on the fault-line sort of
 survival. Yeah, I know. It's a lot of Geoffrey Moore, Malcolm Gladwell buzzword
 salad, but there's a lot of crunchy croutons of truth in that buzzword salad. We
 have to be outliers to cross the chasm inside the tornado to live on that
@@ -1948,8 +1948,8 @@ standard packages from PyPI and the following static JavaScript/CSS libraries:
 ### Single File Philosophy
 
 There is no custom JavaScript file. There is no `styles.css` file. It's all in
-`pipulate.py`&#151; web framework, its plugins and customized workflow pipelines
-&#151; and it's all still under 10,000 lines of code, which fits nicely in the
+`pipulate.py`— web framework, its plugins and customized workflow pipelines
+— and it's all still under 10,000 lines of code, which fits nicely in the
 context window of many modern frontier model LLMs. Surreal, huh? 
 
 ### Multiple App Identities
@@ -2041,7 +2041,7 @@ appealing, especially with Google's uber-optimization of Chrome and the rise of
 Web Assembly Wasm for compiled-C-like performance. But isn't sticking close to
 the HTML spec and squeezing it for all its worth nice too? You can stick close
 to the HTML specification without a ziggurat of virtual machine abstractions
-&#151; React virtual DOM, Wasm virtual machine. 
+— React virtual DOM, Wasm virtual machine. 
 
 ### The Cost of Abstraction
 
@@ -2062,7 +2062,7 @@ will future-proof you for sure. Sprinkling in HTMX on top of HTML, which may or
 may not become part of the future HTML specification upgrades, won't invalidate
 everything you're going to learn about the native DOM in the native browser with
 FastHTML. No, instead this core spec know-how of, say HTML5 for example, should
-serve you well for another 20 years or so &#151; no matter how AI takes over.
+serve you well for another 20 years or so — no matter how AI takes over.
 
 ### Bringing It Local
 

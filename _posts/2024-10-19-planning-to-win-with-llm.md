@@ -142,7 +142,7 @@ well for the sort of learner you are, ask again or switch AI services. This is
 why Anthropic Claude introduced ***artifacts***. While yes, artifacts are for
 running actual code (React, mostly it seems), it's also simply for visual
 learners. Ask it for mermaid diagrams. I expect it will soon be able to do
-animated SVG diagrams&#151;one of the most useful but elusive illustration
+animated SVG diagrams—one of the most useful but elusive illustration
 formats on the Internet. If you want to look for an area off that normal
 distribution curve of covered ground, look at animated SVGs.
 

@@ -23,7 +23,7 @@ about.
 
 Think of this project as a personal Magnum Opus of local web frameworks that
 just so happens to violate just about every principle enterprise architects hold
-dear&#151;but that's perfectly okay, and thus this article/endeavor. And it is
+dear—but that's perfectly okay, and thus this article/endeavor. And it is
 thus quite difficult to enlist the help of LLMs to push things forward. This
 article is about fixing that once and for all with a sort of conceptual
 framework to decorate and embellish all things surrounding it, from its inline

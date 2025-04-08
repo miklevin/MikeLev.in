@@ -1794,7 +1794,7 @@ So I've got the memetic viral spreading planned. I've taken care of the easy
 multi-platform install, though it does need WSL on Windows. I could try to make
 it work native Windows-side given Nix works there too, but I just want to
 control variables as much as possible, and Nix under WSL is better than Nix
-under Windows for controlling variables &#151; at least, I think so as that has
+under Windows for controlling variables — at least, I think so as that has
 been my experience so far with my limited testing.
 
 ### Focusing on Immediate Tasks

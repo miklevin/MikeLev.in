@@ -55,7 +55,7 @@ now... methinks App #1 in the app placeholder section is... set token!
 I'm not going to make the same mistakes I made getting to this point, which is
 leaving choices too open-ended for the AI. In the state they're in today, they
 are only too anxious to lead you down deep, winding rabbit holes from which
-there is no return&#151;at least not in the same night and not without
+there is no return—at least not in the same night and not without
 frustration and exhaustion. To keep frustration and exhaustion at bay by not
 going rabbithole-diving, one must attach some rappelling rope at the top of the
 abyss and be ready to pull yourself up at a moment's notice. And so we do that.

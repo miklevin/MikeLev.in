@@ -221,7 +221,7 @@ mind-to-bit control over text. No, I am only advocating good enough. All the
 work you're going to put into the text-controlling muscle memory that can never
 be taken away from you again by the next software company forced upgrade cycle
 that moves things around on the menu, changes hotkeys, goes out of business,
-fades into oblivion as fads shift, whatever&#151;I'm not even saying use the
+fades into oblivion as fads shift, whatever—I'm not even saying use the
 best thing out there. There are vim-jockeys like me, and then there are true
 Wizards. You might think so because I can pull some cool levers behind the
 curtain, but no. For the likes of those, look to a small handful of folks of
@@ -300,7 +300,7 @@ what's inside? There's gotta be some satisfaction in that.
 So get a few hours of sleep, and hit it again. Finish out the Link-Graph work
 once and for all as the master... uh, I mean main pattern of the new Pipulate
 secret weapon, which opens the floodgates of endless workflows to
-follow&#151;each of which a deliverable, each of which unbelievable on how
+follow—each of which a deliverable, each of which unbelievable on how
 readily it's designed, implemented, and released and put to work in a tapestry
 of day-to-day momentum building snowballs, to keep with the Buffett theme.
 
@@ -310,7 +310,7 @@ Okay, this was an excellent exercise in getting my ideas together. For the
 record, this was a result of literally appending my ideas together all into one
 big file. Gemini-Advanced is supposed to be able to take these huge token
 windows, so I it to the test by appending together all my blog posts and
-creating one big file out of it &#151; just like the old days when I really
+creating one big file out of it — just like the old days when I really
 managed the content that way so I only had 1 file to load, and sliced and diced
 it based on YAML headers between each post. But those days are over, and I just
 organize Jekyll-friendly blog format posts under a `_posts` folder. But now I
@@ -519,7 +519,7 @@ The open-sourcing of the Raspberry Pi's GPU code demonstrates that even in the f
 
 Right, so text. Text is behind it all. Control the text and have control. Every
 last video, every last pic, every last program on USB stick, is text you can
-save&#151; except outlayer... the analog wave on some old vinyl player.
+save— except outlayer... the analog wave on some old vinyl player.
 
 The hardware generating the data may very well be analog. There are even analog
 computers that do some of the most interesting things in the world. Do we live
@@ -845,7 +845,7 @@ This expanded outline incorporates a broader theme of questioning everything and
 
 > There once was a webmaster who wrote  
 > And knew not where to keep his next note;  
-> Learned Python and vim but to unshackle him&#151;  
+> Learned Python and vim but to unshackle him—  
 > Leapt on the `jekyll serve --livereload` boat!  
 
 All right, all right. I get it. It's time for a MikeLev.in homepage update.

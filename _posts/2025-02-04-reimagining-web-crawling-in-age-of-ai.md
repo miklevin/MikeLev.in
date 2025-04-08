@@ -304,7 +304,7 @@ story.
 
 I am crafting and telling one story about a system that can craft and tell
 another story. It's about compelling certain behaviors where the habits don't
-exist yet, but rote behaviors don't exist yet &#151; that martial arts
+exist yet, but rote behaviors don't exist yet — that martial arts
 ***kata*** concept again. If you don't have the muscle memory yet, compel
 someone to walk through the moves using rote memorization, but in modern
 processes, it's too much to ask for people to know what to do next and why, or

@@ -1297,7 +1297,7 @@ In short, we achieved a dream: a pipeline so clean and simple that it might just
 
 Welcome to the future we’ve quietly built—one card, one step, one JSON blob at a time.
 
-> Well, o1 is quite eloquent, if nothing else. &#151;Mike
+> Well, o1 is quite eloquent, if nothing else. —Mike
 
 ---
 

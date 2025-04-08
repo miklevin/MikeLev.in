@@ -36,7 +36,7 @@ So yeah, that's a lot more being dumped into Python's file.py-level global
 namespace. This is not a bad thing. The nattering nabobs of namespaces plus
 their linting cohorts will repeatedly tell you it is a bad thing. I'm with
 Jeremy on this. This is one anti-pattern to embrace with gusto because it gets
-us nothing less the demise of the age of ReactJS&#151;I kid you not. You're just
+us nothing less the demise of the age of ReactJS—I kid you not. You're just
 seeing the beginning of all this play out.
 
 ## HTMX Delivers Web Dev Superpowers To Python Community
@@ -48,7 +48,7 @@ while everyone resists it. There's no taking back HTMX and FastHTML is how it's
 delivered like a virux into the under-powered Python community clammoring for
 their webdev superpowers. Shaving off the liquid template JSX moustaches in
 favor of a nice clean shaven Python function that looks just like an `HTML()`
-tag is it&#151;but that one's already taken, so expect to see more inner ones
+tag is it—but that one's already taken, so expect to see more inner ones
 like `P()` and `Div()`. That's what `import *` gives you.
 
 ## Understanding FastHTML Import Hierarchy in `core.py` and `common.py`
@@ -217,7 +217,7 @@ Just like with the `Flask` web microframework after which almost everything like
 this is patterned, you have choice. If you're a Pythonic wizard able to play
 whack-a-mole with some interesting framework decisions overriding the defaults
 of factory class instantiations, you have choice. All frameworks give you their
-own way of overriding opinions and customizing&#151;or as the cool kids are
+own way of overriding opinions and customizing—or as the cool kids are
 saying these days, making it ***bespoke***.
 
 ## FastHTML: Opinionated Conventions in Action

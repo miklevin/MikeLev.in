@@ -377,7 +377,7 @@ sense, Linux already won. If you have any doubts, look at how Microsoft had to
 add Linux (WSL) to Windows to remain a viable choice for developers. And Apple
 only dodged the bullet from having switched the Mac from a proprietary
 underlying OS to Unix circa 2007, which is close enough to Linux that a few
-tools like Homebrew bridge the gap&#151;providing the kind of free and open
+tools like Homebrew bridge the gap—providing the kind of free and open
 source software repository that's common on Linux but not so much on Unix.
 
 Yup, Linux won.
@@ -547,7 +547,7 @@ so what? This is my daily tech journal! This is where I ramble about the
 actually important things just like this. This is the fodder for the book on
 future-proofing yourself in the world of tech and the emerging landscape
 dominated by AI. This is like taking a deep breath and reminding myself why I'm
-doing it all&#151;to remain a valid, legit and relevant craftsman in the field
+doing it all—to remain a valid, legit and relevant craftsman in the field
 of tech as I become a decrepit old man. I'm one of those people who can tell you
 why when this sort of thinking that asserted itself asserted itself with XML, it
 didn't pan out. But then JSON did. And why YAML's more popular than TOML and how
@@ -654,7 +654,7 @@ exhaustion I have been conditioned to expect.
 
 ### Finding The Love
 
-That's when you back up and mentally refactor&#151; to find the love.
+That's when you back up and mentally refactor— to find the love.
 
 It's not about powering through large chunks of code risking breaking
 everything, which is what it feels like at first.
@@ -1475,7 +1475,7 @@ of it out tomorrow. You've got the basic integration. Loading the job onto o1
 Pro worked out. It's plan was flawless and it put it back on the same level as
 Claude 3.5 Sonnet in my estimation. Claude has the inside track on coding right
 now because it being the default in Cursor AI I think counts for a
-lot&#151;enough that it made o1's attempts loop pretty poor in comparison. But
+lot—enough that it made o1's attempts loop pretty poor in comparison. But
 it's a "big thinker", and that's what it excelled at when I stress tested it. I
 had to push and push and push to get it to drill down to the same level of
 implementation details that Claude is all over.

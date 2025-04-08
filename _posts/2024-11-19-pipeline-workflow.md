@@ -144,7 +144,7 @@ back to making clients feel like they're all I ever think about.
 > All is done.  
 > All is right.  
 > I just need some light.  
-> I shed it on what I have wrought &#151; all based on FOSS, so nothing's bought!  
+> I shed it on what I have wrought — all based on FOSS, so nothing's bought!  
 > From \*nix to nix, from OS to FOSS, the gits and flakes flex nos o' loss.  
 
 You don't have to understand. Perplexity does:

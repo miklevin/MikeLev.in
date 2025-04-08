@@ -412,7 +412,7 @@ house from straw. We build our house from sticks. We build our house from
 bricks! You'd think bricks is best, right? Well, bricks is extremely committal
 to some fixed location, way, and probably some vendor selling you the bricks,
 concrete and other construction materials when you can just forage sticks from
-the environment and lead a nomadic life that eludes the wolf&#151;all the more
+the environment and lead a nomadic life that eludes the wolf—all the more
 so if your sticks are somehow future-proofed and guaranteed to be everywhere at
 all times. That's the point of the Linux, Python, vim & git (LPvg) stack.
 

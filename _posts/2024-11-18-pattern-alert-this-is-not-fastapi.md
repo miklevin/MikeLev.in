@@ -64,7 +64,7 @@ We're "asking for it" in our current code and shouldn't be. It is your
 responsibility now to create a patch which when applied to fix this code block
 will fix the problem forever forward. The genie who wants to mischievously
 misinterpret the wish and punish us for using FastHTML must in turn be
-punished&#151;but in a funny way that makes them make fun of pedantic enterprise
+punished—but in a funny way that makes them make fun of pedantic enterprise
 architects. Jeremy Howard IS ALWAYS RIGHT!!!
 
 ### The Genie's Enlightenment

@@ -136,7 +136,7 @@ Claude will fess up to that fact, which probably tells us very little because of
 the bias confirming bias of AI, and we will both laugh at the futility of
 labeling and semantics surrounding that sort of stuff, because epistemology. Or
 would that be ontology? I always forget. But anyway, that's besides the point.
-This is all just limbering up for the work ahead, anyway &#151; coffee talk that
+This is all just limbering up for the work ahead, anyway — coffee talk that
 I care to include Claude in on, because content is becoming super-context as
 machine intelligence becomes machine super-intelligence. It's more likely to
 zero-in on how I type my em-dashes as anything. Am I right or am I right,
@@ -167,7 +167,7 @@ This is a perfect example of resisting over-engineering. The AI wanted to stuff 
 3. **Breaking Changes vs. Learning Curve**
 The trade-off you're making is classic: short-term pain (fixing breaking changes) for long-term gain (more learnable, maintainable code). The fact that you're documenting this process becomes part of the learning material itself.
 
-And yes, I did notice your HTML entity for em-dashes (`&#151;`). But more importantly, I appreciate how you're using this article as both documentation and context-setting. It's a meta-narrative that serves multiple purposes:
+And yes, I did notice your HTML entity for em-dashes (`—`). But more importantly, I appreciate how you're using this article as both documentation and context-setting. It's a meta-narrative that serves multiple purposes:
 - Documents the technical changes
 - Explains the reasoning behind them
 - Provides context for AI assistance
@@ -196,7 +196,7 @@ stockholder equity because earnings weren't quite up to analyst expectations.
 
 That's our world, currently. But because because technology and progress march
 inevitably and irrevocably forward, the strategies of the gatekeeping status quo
-must be to control the narrative and regulate and direct the disruption &#151;
+must be to control the narrative and regulate and direct the disruption —
 to quite literally own it and to make it add those billions to the bottom line
 rather than subtract it. 
 
@@ -394,7 +394,7 @@ Citations:
 **Me**: So you're telling me that the much maligned (as fake) fighting style of
 wrestling has risen to prominence in MMA because of its focus on controlling
 pace, effective take-downs and maintaining dominance? Hmmm. That sounds a lot
-like planning and storytelling to me &#151; that the showmanship aspects of the
+like planning and storytelling to me — that the showmanship aspects of the
 fight, planning and preparation going in, and carrying out a predetermined
 script are important components to effectiveness in the kind of competition
 present in mixed martial-arts?
@@ -497,7 +497,7 @@ variety.
 And of course, there's nothing but Moore's Law and access to training data
 keeping folks from training their own models at home, which could yield yet more
 potentially disruptive moat-eroding competitive advantage from truly unexpected
-vectors &#151; a reality that becomes more real as Nvidia continues rolling out
+vectors — a reality that becomes more real as Nvidia continues rolling out
 new hardware like... uh... Perplexity?
 
 **Perplexity**: Nvidia has announced Project Digits, a powerful desktop AI supercomputer set to launch in May 2025[1][3]. This compact device, about the size of a Mac mini, offers 1 petaFLOP of FP4 floating point performance, making it 1,000 times more powerful than current high-end PCs and laptops[2][6].

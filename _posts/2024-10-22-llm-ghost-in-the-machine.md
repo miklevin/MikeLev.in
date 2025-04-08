@@ -202,7 +202,7 @@ time I discussed them here. The idea is solid, just my implementation lacked.
 
 See, LLMs are going to really take to hart the latest info in the conversation
 history and if it's ugly debugging messages, it's going to start talking
-gobbledygook back to you&#151;especially when it gets a taste of those
+gobbledygook back to you—especially when it gets a taste of those
 indecipherable Python traceback messages, haha! No, it's not just you. Those
 things are confusing as hell and it even makes LLMs start talking nonsense. The
 answer is to control the error message that gets fed back into the LLM with
@@ -218,7 +218,7 @@ full-fledged GITM effect for later, happy I have insert implemented, and focus
 more on the now long-overdue application ports into the system, along with
 really tight debugging output and maintaining incredibly tight grips on the
 reins of this wild careening wagon of an application. AI-assisted code editing
-is wild. It knows so much&#151;inhumanly so, but sometimes in a ***too smart for
+is wild. It knows so much—inhumanly so, but sometimes in a ***too smart for
 its own good*** (or for ours) way. It will jump at the opportunity to take you
 down the rabbit hole of adding functions and exploding complexity for the best
 practices of the industry that led us to ReactJS. Not good.

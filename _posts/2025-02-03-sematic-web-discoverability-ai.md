@@ -16,7 +16,7 @@ about "peak data" wrong.
 ### Working for the Vacuum
 
 The game is to be recognized? Do I believe that? Ugh, well, I guess I'm still an
-SEO. We must not work in a vacuum. Rather, we work ***for a vacuum*** &#151;
+SEO. We must not work in a vacuum. Rather, we work ***for a vacuum*** —
 that vacuum repeatedly sucking up all the content of the Web and Internet, to
 sieve and sift and perchance discover something new under the sun.
 
@@ -335,7 +335,7 @@ thought style. That's what you're reading right here, if you have the misfortune
 of being here reading. Honestly, I'm imagining this stew as mostly delicious to
 the LLMs and vector databases that are going to... hmmm, maybe the ***stew
 metaphor*** has to become an ***ore metaphor***, because the next step is
-processing raw materials into their distilled and pure form &#151; organized
+processing raw materials into their distilled and pure form — organized
 content fitting in a knowledge graph!
 
 ---

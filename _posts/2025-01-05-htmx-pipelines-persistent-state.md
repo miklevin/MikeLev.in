@@ -104,7 +104,7 @@ Poetry like Unix pipes and Cells of Jupyter
 Solving post-jquery AJAX framework vibe disputes
 With hypermedia head-smacks of `hx_attributes`
 Sprinkled into browser DOM to liberate it well.
-Jumping off the hamster wheel &#151; FastHTML.
+Jumping off the hamster wheel — FastHTML.
 
 ### Testing the Premise
 

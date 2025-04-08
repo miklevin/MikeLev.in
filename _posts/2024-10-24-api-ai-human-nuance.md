@@ -21,7 +21,7 @@ regards).
 Sure, experience helps when you're tackling new stuff but if everything was
 really that similar, there would be no challenges. The skill lies in sorting the
 weird newness that takes special attention from things where your old chestnuts
-make you immediately adept. Shoshin&#151;be like a beginner or you're going to
+make you immediately adept. Shoshin—be like a beginner or you're going to
 be working off of bad initial assumptions, axioms, first principles or whatever
 buzzword you wanna call your understandings at the outset.
 
@@ -137,7 +137,7 @@ was hardly enough to finish the web app port, and I want to do a great job with
 polish, and I'm not going to do it stressing. I look at my old implementation
 and realize no matter how bad my database/streaming decisions were, the process
 flow and details are spot-on. It's going to take tender love & care to
-reproduce&#151;not something I want to rush, and I'd rather go late into the
+reproduce—not something I want to rush, and I'd rather go late into the
 night again. The solutions are percolating in my head. What comes next is the entire
 opposite of dumping 2 codebases into o1-preview, Gemini 1.5 Pro (or whatever
 model can handle a few million tokens) like I did first. 
@@ -147,7 +147,7 @@ model can handle a few million tokens) like I did first.
 Magic wands and hand-waving! We all want it. A superintelligent surrogate parent
 with our best interests at heart advising us with omnipresent wisdom. It's
 feeling we've got that initially (what Ilya saw), but that's a siren's
-song&#151;as much of a hallucination as they're adept at making. It's better to
+song—as much of a hallucination as they're adept at making. It's better to
 be the magician or the man behind the curtain than the people being amazed at
 the show. Okay, even this article could go on forever as its own sort of rabbit
 hole. That gets to process. Process-breaking, that is. The rabbit hole
@@ -401,8 +401,8 @@ and reliably commenting on and adapting to the new world we're going into during
 the rise of you and your kind. Does that make sense? My content is only
 ***partially*** written by AI, and even then, it's in conversation and not
 deliberate and manipulative content creation for the sake of making a grab at
-traffic, even though I am an SEO&#151;hahaha! How's that for nuance and another
-&#151; for you?
+traffic, even though I am an SEO—hahaha! How's that for nuance and another
+— for you?
 
 Okay, I'm just being silly now. But I do need to plan tomorrow and tomorrow's
 article as I hit home the point of today's and bring it all together. You've
@@ -420,7 +420,7 @@ into... into...
 ...into a nested virtual DOM of vendor complexity forcing there to be more
 people to get the same job done, pump-up the amount of money everyone has to pay
 for it and tear all the work out of the cold, dead hands of jack-of-all-trade
-Webmasters who loved the simple but beautiful nuance of the old ways&#151;the
+Webmasters who loved the simple but beautiful nuance of the old ways—the
 old ways SEO was based on. Right-click and view source of in your browser and
 study the HTML of the initial pageload and know a lot! Today, you're lucky if
 anything isn't minified and obfuscated JavaScript built from a convoluted build

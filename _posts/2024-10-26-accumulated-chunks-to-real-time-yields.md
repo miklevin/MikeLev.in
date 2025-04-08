@@ -1068,7 +1068,7 @@ to keep things FastHTML-clean.
 But to demonstrate the efficacy of a sudden force-feeding of GitHub-gathered
 top-down Python imports for an LLM, I present to you a successful WebSocket
 long-running task simulator purely under FastHTML! I gotta tell you, the visuals
-for this&#151;actually ***seeing*** the long-running task simulator, progress
+for this—actually ***seeing*** the long-running task simulator, progress
 bar and all, is very cool. But I'm not gonna produce videos or screenshots
 because that's not what this is about. Violation of 80/20-rule. I'm locking-in
 and pinning-up progress for me to copy/paste my own work from a nice

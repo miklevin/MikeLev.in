@@ -63,7 +63,7 @@ That's what I'm interested in here. Books coming alive. But they can't in their
 own stand-alone context. That's the amazing thing about all these LLM models
 being distributed all over the place. They give a sort of universal or global
 human context as a starting-point, so that the next piece of information that
-you present them with is already in context of some larger picture &#151; that
+you present them with is already in context of some larger picture — that
 picture being some static snapshot of the world as it existed and the data was
 fed to it at the time of its training.
 

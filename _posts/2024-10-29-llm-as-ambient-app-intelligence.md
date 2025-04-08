@@ -358,7 +358,7 @@ agentic swarming, but a solid and more pragmatic stepping stone to bridge the
 gap between the RoR/Django-CRUD apps of our day-to-day existence with the
 paradigm-busing revolution that AI is thrusting upon us. There has to be a happy
 middle grown with lot of ripe secret weapon fruit for folks like me who are
-excited to pick the fruit&#151;the fruit of hitting above our weight class and
+excited to pick the fruit—the fruit of hitting above our weight class and
 doing things we never could before. ***Us*** doing them, and not the AIs in our
 stead. They are extensions of us. I must not get bogged down in what Joel
 Spolsky once called... uh... Perplexity?

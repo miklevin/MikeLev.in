@@ -16,7 +16,7 @@ mental rappelling equipment.
 You don't know. That hole could be much deeper than you think.
 
 You might think that whatever little task you're setting out to do is but mere a
-chisel-strike project, but the reality is it's a deep, deep rabbit hole &#151;
+chisel-strike project, but the reality is it's a deep, deep rabbit hole —
 and before you know it, you're deep in Wonderland, wondering what the heck
 happened.
 
@@ -432,5 +432,5 @@ done. I gotta get onto something productive. Dropping a new meme in the
 Noosphere, "***The Mindful Mirror Modeling Effect***" (MMME), a process of using
 ChatBot LLM AI to overcome the Dunning-Kruger Effect (DKE) is not enough. Sure,
 it might plant a memetic virus in the heads of millions if it's ever really
-recognized for whiat it is&#151; but a talking frog... ***I mean real Python
+recognized for whiat it is— but a talking frog... ***I mean real Python
 code that does something...*** that's cool.

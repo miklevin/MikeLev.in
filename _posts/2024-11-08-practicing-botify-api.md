@@ -28,7 +28,7 @@ Python Notebook is hardly even a thing. There's no debate.
 ### The Case for Python Notebooks
 
 Of course it has to be a Python notebook, unless you're going to be doing Google
-Sheets AppScript development&#151; which is always a possibility. But then it's
+Sheets AppScript development— which is always a possibility. But then it's
 not really a ***just use Google Sheets instead*** discussion anymore. It's
 developer environment versus developer environment, and when it comes down to
 modern VisualBasic for Applications (VBA) versus the language that is taking

@@ -20,7 +20,7 @@ minimal to reduce the complexity and mysteries of base class inheritance, such
 as with a new journal entry where it's a minimal time/datestamp.
 
 Alternatively, in no-code visual situations, it's like a new page in an artist's
-notebook &#151; a true "blank page" for drawing. AKA starting with a blank page
+notebook — a true "blank page" for drawing. AKA starting with a blank page
 or a fresh slate, as the saying goes. And in this case, the movements you make
 to express ideas onto the page are the more visual abstract symbolic gestures of
 hand-waving-like movements, more reminiscent of no-code visual interfaces. 
@@ -30,7 +30,7 @@ between the written-word incantations of typing at the keyboard versus the more
 wavy and stroking movements of drawing. There are also menus to deal with. The
 visual point-and-click interface has been layered into most typing software like
 Word and Docs so that you have to take your hand away from the keyboard and work
-the menus &#151; except of course in the case of vim users.
+the menus — except of course in the case of vim users.
 
 In either case, the above scenarios reflect the two great splits of getting
 started fresh on expressing yourself onto media, and more specifically today,
@@ -41,7 +41,7 @@ become part of a prompt.
 And so, journaling like this can become part of a super-prompt if you will.
 Machines will be able to follow along. They will be able to "get you". There is
 almost nothing to abstract for them to at least absorb and respond to in some
-way &#151; some way which can somehow help guide and direct and focus you,
+way — some way which can somehow help guide and direct and focus you,
 helping you improve your work.
 
 The advent of writing, books and the printing press brought about literacy, the
@@ -205,7 +205,7 @@ not the type to do that very well, because something gets lost in production
 between the author of the book's head and my head. The head-to-head transmission
 of ideas has challenges. I'm not the greatest receiver-device for books. Nor for
 videos. But for something sitting (or standing) there with me interacting,
-answering my questions, letting me rapidly try and test and iterate &#151; well,
+answering my questions, letting me rapidly try and test and iterate — well,
 now you're getting somewhere. Well, now I'm getting somewhere.
 
 And get somewhere I did. Even the system in its current broken state is better
@@ -236,14 +236,14 @@ buck the trends and override the program.
 
 And so, let's capture those system thoughts. It goes something like this.
 
-I have very strong core notions about what constitutes my system &#151; how it
+I have very strong core notions about what constitutes my system — how it
 operates, the way it behaves, and the way people interact with it. It's a
 particular invention or device which happens to manifest as a running program on
 a computer. But all things are like this. Anything turing complete machine can
 do anything, including simulate reality itself, but that doesn't invalidate the
 importance of the machines and inventions you make within such a system. 
 
-Your own new take on things is actually important &#151; maybe the most
+Your own new take on things is actually important — maybe the most
 important thing. Originality and patterns that never occurred exactly like that,
 but which are still useful, are the new currency. That's how you create new
 value from out of nothingness. And so subtlety and nuance count &151; especially
@@ -293,7 +293,7 @@ Why? Because Python wouldn't be as popular as it is and growing still, if it
 weren't somehow superior to JavaScript. Think about it. JavaScript should
 hands-down rule the world now, between being the only native language officially
 supported by browser &&151; the only one (monopolistically) sanctioned by the
-consortium of browser vendors &#151; and the rise of WebAssembly Wasm which
+consortium of browser vendors — and the rise of WebAssembly Wasm which
 brings compiled-C native code performance to the browser, and NodeJS on the
 server to complete the picture of full stack one-language-to-rule-them-all
 dominance... well, there's no choice, really. And there's no chance or room for
@@ -344,8 +344,8 @@ mapping from server-side concepts, tools, mental-models and abstractions, the
 better.
 
 Enter FastHTML. FastHTML zips together, as a sort of glue, the things living
-server-side &#151; where you have almost telepathic vimmy control over every
-byte that goes into your app &#151; with convenient happy little FT-components
+server-side — where you have almost telepathic vimmy control over every
+byte that goes into your app — with convenient happy little FT-components
 that look and act just like HTML elements, but they're Python functions! What
 you don't have is `jinja2` templates, or any other templating language that
 looks like PHP short-codes, Shopify Liquid templates, nunchuks, mustaches or any
@@ -400,7 +400,7 @@ perfection.
 
 So, let's just generally run with that theme and lower the cognitive overhead of
 what you're looking at. Along with less curly-braces, the next big offender
-&#151; which I'm currently violating myself and have to get under control &#151;
+— which I'm currently violating myself and have to get under control —
 is long dot-notations. The scavenger-hunt of `this.that.this.again.and.again`.
 Perhaps not as bad as the `public static void main(String[] args)` function
 signature that curses the same language that mainstreamed long dot-paths (Java),
@@ -463,7 +463,7 @@ LangChan that don't necessarily thrust concurrent, and thus
 hard-to-think-through behavior on you. You have to learn to chain-things-up
 before you can swarm. Swarming requires individual components able to be
 decoupled from each other, taken out of synchronized harmony, and thus require
-some amount of agency &#151; yes, agency that AI is supposed to be able to
+some amount of agency — yes, agency that AI is supposed to be able to
 provide, but that's putting the cart before the horse.
 
 I'm focusing on linear workflows. I'm doing it in the least imperfect most

@@ -13,12 +13,12 @@ When the programming technique called ***AJAX*** hit over 10 years ago, I was
 both like "oh shit, here comes the enshitification of the Web," (even though
 that term didn't even exist back then that was the spirit). The Web was about to
 take a turn for the worse as everything became a singe-page-application (SPA)
-and blew up SEO as we know it&#151;and not in a good way.
+and blew up SEO as we know it—and not in a good way.
 
 But also as an amateur developer and old-school Webmaster, I jumped all over
 that using a free and open source library called
 [`rico`](https://sourceforge.net/projects/openrico/), one of the original rich
-ajax frameworks&#151;irrelevant by today's standard, but the fastest way onto
+ajax frameworks—irrelevant by today's standard, but the fastest way onto
 that bandwagon then... and made HitTail, and SEO product in the industry that
 had a 15-year run. Sheesh, this story must have started almost ***two decades
 ago***. How time flies.
@@ -58,7 +58,7 @@ days), and it's just a form of expressing yourself. And if you enjoy talking as
 so many people do to hear their own voices (guilty as charged), you might also
 like typing, starting out with journaling to vomit your ideas up onto the page
 and sort out what you think by actually giving yourself a chance to do so, and
-then applying all those skills over to professional coding&#151;just another
+then applying all those skills over to professional coding—just another
 form of expressing yourself.
 
 ## I Changed My Mind About Ruby on Rails as a Blogger
@@ -85,7 +85,7 @@ but the level of support for Hyde has come and gone over the years, and I'd
 rather be on something built into GitHub as the default than to be out in the
 wilderness over a part of the tech I'm not even going to be seeing, because you
 see, you never even have to look at the engine behind your static site
-generator. You only have to look at your super-simple Markdown code&#151;which
+generator. You only have to look at your super-simple Markdown code—which
 gets automatically transformed into beautiful HTML websites.
 
 ## The Purity of Programming Languages Is Rarely Achievable Always
@@ -377,7 +377,7 @@ See, there like that. Oops, I did it again.
 
 The rest of your work spaces get sandwiched between these two writing spaces.
 One space in from the right is seeing what what you are publishing looks
-like&#151;always an important thing. One space in from the left is another
+like—always an important thing. One space in from the left is another
 important place, because it's another easy place to get to. Go all the way left,
 then reverse one. Bounce off the ends. Bounces off the end right, and you're
 seeing your voice to the world. Bounce off the end left, and... well, what? What
@@ -485,7 +485,7 @@ belongs in configuration.nix. The more subsystem-esque, like the ruby jekyll
 server I use for publish-previewing, which is tied to a particular git repo
 folder, the more likely it is to have a `flake.nix` file in the
 folder/directory/repo that makes it carry around it's IaC infrastructure with
-it&#151;the nix script required to build a machine that can run it.
+it—the nix script required to build a machine that can run it.
 
 You can think of your `configuration.nix`-defined NixOS "parent" system, off of
 which you flake your `flake.nix`-defined subsystems as... as... what do you...

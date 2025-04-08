@@ -314,7 +314,7 @@ du jour, if the NodeJS churn itself wasn't hamster-wheelish enough for you.
 I evaluate my Wonderland's carefully. I don't take them up easily, and I don't
 take kindly to breaking changes. I use the `vim` text editor, and it took a
 decade for me to finally switch to `nvim` because I like the language available
-in its configuration file (LUA &#151; that LISP-story again) more than
+in its configuration file (LUA — that LISP-story again) more than
 VimScript. And even then, I make sure it's really the whole vi/vim/nvim camp
 that I'm aligned with. Sure you lose having more than 1 undo and you don't get
 syntax color-coding of your code, but in a pinch I could use the `vi` program
@@ -477,7 +477,7 @@ unsatisfying upgrade form PHP's short tags `<?= foo ?>`.
 
 Ultimately, Flask (or something pedantically copying it) became something you
 ***had to use***; that web swiss army knife you carried around, but ***now you
-had two languages***&#151;Python plus whatever messy curly-brace vomiting
+had two languages***—Python plus whatever messy curly-brace vomiting
 template language you had to suffer. It's like you finally got away from
 gratuitous over-littering curly-braces by switching to Python in the first
 place, and now you had to get them back just because Web? No! But there was no
@@ -519,7 +519,7 @@ it was couldn't be the entire story, so I dug and I dug and I dug. Finally
 through process of elimination I realized that by editing out the `ws_hdr=True`
 parameter, the error changed! And the error was a SQLite error that I was trying
 to use a Boolean for a field name. And it clicked! So I searched on ***fasthtml
-ws_hdr*** and found the changelog&#151;and headsmacked and learned my lesson.
+ws_hdr*** and found the changelog—and headsmacked and learned my lesson.
 
 Lesson being? Lesson being that when you feel the future being made on the
 bleeding edge bandwagon beneath you, beware of breaking changes, because they
@@ -575,8 +575,8 @@ only take you so far... and I got there.
 You can't trade sophisticated dashboard-like applications with coworkers that
 just work every time with a Jupyter Notebook. Colab fans chime in here, but it's
 a long-running persistent costly joke why it isn't. I tried JupyterLab so I
-could do ipywidgets and Dash/Plotly-like dashboards built from them&#151;and
-that ***almost got me there***&#151; oh, so close! And of course StreamLit which
+could do ipywidgets and Dash/Plotly-like dashboards built from them—and
+that ***almost got me there***— oh, so close! And of course StreamLit which
 is totally lit, but *excessively railed*. It's not a general framework that lets
 you go off-rails, which I pretty much have to do right out of the gate. So
 there's this exhaustive exploration of the alternatives that made me recognize

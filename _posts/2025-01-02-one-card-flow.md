@@ -108,7 +108,7 @@ have a strong sense of "if it ain't broken, don't fix it". I have other fish to
 fry tonight, and this is exactly the kind of rabbit hole that needlessly burns
 up all your decision fatigue energy, which ends up making you defer the work
 that you really wanted to do in the first place (the work that ***could make all
-the difference***) to another day&#151;and which is ultimately, self-defeating.
+the difference***) to another day—and which is ultimately, self-defeating.
 
 ## Late Night Realizations 
 
@@ -320,7 +320,7 @@ be if all your deferential decisions were not actually right there still on the
 surface of the wood that you're whittling, the fuzz and the spurs that you're
 not going to forget. They have to be left there on the surface in such a way
 that they are reminders to your future self to come sand them down and smooth
-them out&#151; later.
+them out— later.
 
 ## The Case for Simple Solutions
 
@@ -330,7 +330,7 @@ card app right now is going to be a textarea app. I mean, actually think of the
 long-term flexible utility of this as one of the generic card widget types I can
 forever tap. For example, I really want to make some sort of markdown-to-HTML
 converter for copy/pasting meeting agendas without volunteering that data to
-some anonymous web hosted app that offers such services for free&#151;at the
+some anonymous web hosted app that offers such services for free—at the
 mere cost of your data! Take that in-house!
 
 ### The Pipeline Philosophy
@@ -340,7 +340,7 @@ don't have to think about user interface issues beyond the single card.
 Data-in/data-out in that Unix pipe flow. You don't have to "build an app" for
 that. You just... well, you just port it from how you would implement it in a
 Jupyter Notebook, for that was the genesis of this workflow pipeline project
-after all&#151;fast Notebook ports.
+after all—fast Notebook ports.
 
 ## The New Age of AI Prompting
 
@@ -709,7 +709,7 @@ This bodes very well for a single-file self-modifying system. All context is
 right there in front of the LLM. The file you're in is the only one it needs to
 look at for full context. Yes, the file can then grow quite large, but if you're
 good at navigating large files, it's way better for flow-state than jumping
-between files&#151; the mental equivalent to taking your hands off the keyboard
+between files— the mental equivalent to taking your hands off the keyboard
 for the mouse.
 
 Next, I went on to actually fix it and make it work per my vision. This was no

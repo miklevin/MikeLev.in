@@ -78,7 +78,7 @@ they're only 2-letters off. Bad design!
 Anyhow, I've watched the equivalents of AeroSnap on Linux over the years, never
 really taking the plunge because I was not on Linux day-to-day enough to make
 the investment of habit and muscle memory into something that was
-screen-subdividing&#151;not really my thing. I'm a fall-screen app person. So if
+screen-subdividing—not really my thing. I'm a fall-screen app person. So if
 and when I do take up some Linux AeroSnappy thing, I want it to be like learning
 to ride a bike. I want to it once and just have the habit serve me well from
 then foreword. Virtual screens met that criteria because they mostly work the
@@ -132,8 +132,8 @@ Wow, I can only imagine when I screen share clients and folks into my Hyperland
 machine. Oh, this is part of the magic show! So much more to say about how much
 of what I do now involves a local LLM which people will just assume it's
 something special that can only run on a machine like this, but then I'll be
-like no, here's a command to type and Chip O'Theseus&#151;that's what I call my
-local LLM&#151;can jump over to your Macbook and run there just as well.
+like no, here's a command to type and Chip O'Theseus—that's what I call my
+local LLM—can jump over to your Macbook and run there just as well.
 
 ### The Point of No Return
 
@@ -230,7 +230,7 @@ Would you like me to start preparing some witty commentary for the other side, o
 
 > So here I am editing my daily tech journal entry under Hyprland. I am of
 > course editing it in nvim in a terminal, so I had no real challenges, unless
-> you consider pulling up the terminal in the first place a challenge&#151;which
+> you consider pulling up the terminal in the first place a challenge—which
 > you know, it really could have been, had they not made a message at the top of
 > this fabulously barebones desktop they provide telling you:
 

@@ -329,7 +329,7 @@ class Pipulate:
 
 > I've got a lot of work from yesterday's session do do ***ADDING*** to
 > Pipulate, but before we make it bigger, I think I ought to make it
-> smaller&#151; and more consistent abiding by common Python conventions.
+> smaller— and more consistent abiding by common Python conventions.
 
 And I ask Claude if there are any redundancies in this?
 
@@ -712,7 +712,7 @@ because of historical context and the awesome metaphors it provides for those
 becoming too dependent on AI like me here, and the Luddites who stay on the
 surface. But that's for another article. And I do have a time-travel prompt
 technique I use here a lot, but if you look at it, you'll see it's purely linear
-video-scrubbing style&#151;not this multiverse crap.
+video-scrubbing style—not this multiverse crap.
 
 Suffice to say, I need to embrace a kooky time-travel scenario of the sort I
 instinctively deplore in order to get the benefit of cross-branch
@@ -1675,7 +1675,7 @@ No merges, no confusion about polluting `main` with a bug-laden commit. You **fu
 > convenient thought-clarifying illusion. I keep trying concurrency in Python,
 > but you know it's telling that `async` and `await` are paired-up right out of
 > the gate. You don't have one without the other waiting on it. Concurrency is
-> best when it's a momentary, fleeting thing&#151;bursty with aggregating the
+> best when it's a momentary, fleeting thing—bursty with aggregating the
 > results ASAP back to a single thread. In my mind is the git equivalent.
 
 **Me**: Okay, so what I did was this:
@@ -2131,7 +2131,7 @@ Alright, I'm done with this git rabbit hole for now, except for the fact that
 I'll never really be done with it ***from now***. I have taken the red pill of
 branching and checkouts, and I must get my practice in and get it into my
 fingers. Git is one of those *"get it into your mental model of the world"*
-foundational sort of tools, one that touches everything &#151; a swiss army
+foundational sort of tools, one that touches everything — a swiss army
 knife that's so much more than the one thing it's touted for (being a
 distributed version control system, aka DVCS). Yet its really so difficult to
 get a handle on. 

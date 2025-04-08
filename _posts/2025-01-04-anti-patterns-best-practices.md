@@ -113,13 +113,13 @@ the cognitive fatigue.
 ### The Bookmarklet Era
 
 I had done several iterations of Pipulate by that time, including building tiny
-localhost servers to connect to a Bookmarklet click&#151; yeah, these were these
+localhost servers to connect to a Bookmarklet click— yeah, these were these
 little JavaScript snippets you could set up as browser bookmarks/favorites so
 that when you clicked them, they could do stuff. It was the age of InstaPaper,
 Pocket and ReadItLater. This was before such features were built into iPhone
 Safari, essentially killing the product category. But those bookmarklets were
 cool, and I made it so that clicking one crawled whatever site you were on
-directly into Google Sheets&#151; back when nobody was doing such things. Yeah,
+directly into Google Sheets— back when nobody was doing such things. Yeah,
 that was an old version of Pipulate. But then AngularJS and BoostrapJS and
 ReactJS and EverythingJSJSJS. ***And I hated JS*** after having taking up Python
 seeing how greener the grass really was on the other side.
@@ -166,7 +166,7 @@ head ahead of time, and you just release it out onto the screen when you sit
 down, because it's so strongly visualized. That was the case with creating
 something that blended the Cells of Jupyter Notebooks with the command-line Unix
 pipe concept, all under something that used HTMX as the API in a Python
-framework. Ugh! It was indeed like solving simultaneous equations &#151; solving
+framework. Ugh! It was indeed like solving simultaneous equations — solving
 a multi-dimensional jigsaw puzzle just to get it flat and linear again, haha!
 
 ## The Jupyter Notebook Evolution
@@ -233,7 +233,7 @@ under the surface, so making apps that way locks you into the full stack
 toolchain that I despise. It's not only Python that I prefer, but it's not
 having a build process. Just save, hit page, save, hit page. The way it used to
 be in webdev before Syntactically Awesome Style Sheets came along and made webev
-like compiling C code&#151; another thing I can't stand.
+like compiling C code— another thing I can't stand.
 
 ### My Development Philosophy
 
@@ -279,7 +279,7 @@ Notebooks*** on even ***tighter rails***.
 Yet without losing that ***"run it from the top-down"*** feeling that really
 makes Notebooks shine. There's a linearity to them. I mean Notebooks are much
 maligned because you CAN run them out of sequence. But that's just part of their
-astounding flexibility &#151; a wee bit ***too much flexibility*** for
+astounding flexibility — a wee bit ***too much flexibility*** for
 distributing SEO tools to your peers.
 
 ## Planning the Next Steps
@@ -309,7 +309,7 @@ be just the right type of work that I'm really chomping at the bit to do.
 
 And that's the HTMX search feature that will dramatically enhance the feel of
 using the pipeline workflows. It's one of those signature features that gives it
-its signature feeling&#151; or so I believe and am planning. I think so because
+its signature feeling— or so I believe and am planning. I think so because
 it's both one of the primary examples on the htmx.org site, and it's implemented
 on the FastHTML documentation site. It's a primary example and it's deployed
 live somewhere useful, and it's the exact feature that really improves usability

@@ -68,7 +68,7 @@ when you have that fresh day energy, and at night when you've run out of it.
 There is your automatic daily behavior that keeps you alive through habits, but
 then there is the occasional expensive overrides.
 
-Don't stop when you're tired; stop when you're done &#151; but not all the time
+Don't stop when you're tired; stop when you're done — but not all the time
 or you will burn out. This is an intermittent override mode of behavior.
 
 ### LLM Training and Resource Management
@@ -82,7 +82,7 @@ one of the largest, most important and risky decisions in all things.
 ### Adaptation and Survival
 
 "Good enough" static resources put into action by habits, muscle memory and
-heuristics will keep you alive most of the time &#151; until things change.
+heuristics will keep you alive most of the time — until things change.
 
 When the landscape changes and new competitors appear competing for the same
 resources for example, it may be too late for that slow, deliberate process.
@@ -340,7 +340,7 @@ Your text draws parallels between human cognitive strategies (habit-based decisi
 
 The text seems to be a journal entry or essay exploring these concepts. Would you like me to focus on any particular aspect or help clarify any specific concepts mentioned in the text?
 
-I notice it contains some HTML entities (&#151;) which appear to be em dashes. If this is meant for web display, we might want to either use proper em dashes (—) or ensure the HTML entities are properly rendered in the target environment.
+I notice it contains some HTML entities (—) which appear to be em dashes. If this is meant for web display, we might want to either use proper em dashes (—) or ensure the HTML entities are properly rendered in the target environment.
 
 ---
 

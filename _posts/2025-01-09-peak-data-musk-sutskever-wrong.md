@@ -164,8 +164,8 @@ that's normally missed is a huge reason why the peak data theory is wrong.
 #### The Concept of Striking Distance
 
 In SEO circles, this is often known as striking distance or low-hanging fruit.
-If the data shows that a page of yours is in the search results &#151;
-positioning, but not positioning well (page 2 or lower) &#151; then the data is
+If the data shows that a page of yours is in the search results —
+positioning, but not positioning well (page 2 or lower) — then the data is
 trying to tell you something. It's like having a new content-topic
 suggestion-box built into your website. Just follow the data! HitTail was a
 serendipity to deliberateness engine. Coincidence to higher click-through. The
@@ -430,7 +430,7 @@ is by definition creating the nodes and edges of a network graph, and is thus
 also a hierarchically oriented vector database too! And if treated that way, we
 really start to see world where LLMs can surf the web just as well as humans,
 without having to execute JavaScript, and to get answers really, really fast
-&#151; six hops and all!
+— six hops and all!
 
 ### Website Design for the LLM Era
 
@@ -729,7 +729,7 @@ Everything else falls in place after this.
 ### Automation Approaches and Trade-offs
 
 The former is a potential rabbit hole, involving Puppeteer, Playwright or
-Selenium &#151; any of which would open a browser under some sort of automation
+Selenium — any of which would open a browser under some sort of automation
 context using the API hooks Google put in there for DevTools or other
 techniques to actually control the browser.
 
@@ -886,7 +886,7 @@ environment that demands a certain level of bravery and expertise and allows
 screw-ups gets in the way. Tightening all that up is called turning it into an
 app. And that's what Pipulate does. It takes the linear workflows, or pipelines,
 and turns them into very Jupyter-like linear workflows but as webapps that
-doesn't expose the Python code and puts it all on tighter rails&#151; asking the
+doesn't expose the Python code and puts it all on tighter rails— asking the
 user for input when it needs it, and explaining steps along the way when it
 should. That's Pipulate. That's pipulating.
 
@@ -900,7 +900,7 @@ being done any other way.
 ### Balancing Client Work and Development
 
 And ***that's why taking this next step*** got drawn out for days for me and
-easily drowned out by the more urgent client-work of the day &#151; as well, it
+easily drowned out by the more urgent client-work of the day — as well, it
 should unless I had the guts to go off and do this independently. But I am not
 in the financial position or stage of life to do that. I'm punching a clock, and
 therefore doing this all on top of the daily grind and under that sort of stress
@@ -998,7 +998,7 @@ complicated when you break it up over multiple files. So let this
 `botifython.py` file get long and contain some yuck until I can step back and
 tackle beautification as a separate step.
 
-The thing about running out of steam is&#151; don't.
+The thing about running out of steam is— don't.
 
 Make yourself a coffee.
 

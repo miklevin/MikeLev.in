@@ -75,7 +75,7 @@ Develop your new muscle memory more, the kind that's going to be with you for
 life. These "virtual desktops" that scroll left and right are in all the OSes,
 even though Mac messes it up by nuking their fixed-position nature. I'm going to
 have to do something about that because the feature is too important to not tie
-your muscle memory to&#151;something critical on the first screen and something
+your muscle memory to—something critical on the first screen and something
 critical on the last screen. Here at home, all my work screens are sandwiched
 between two journals; the personal one on the left and the professional one on
 the right. I start out, even with this sort of writing here in the personal one
@@ -120,7 +120,7 @@ where it keeps breaking down because of the double whammy disruption of not
 really having the prior pieces done yet, and the lack-of-focus of the daily
 grind because of continuous slack notifications. I'm going to lower-case slack
 from now on because it doesn't deserve an upper-case `s`. It's so aptly
-named&#151;slacking off. It should be used in that form. To ***slack***.
+named—slacking off. It should be used in that form. To ***slack***.
 
 ### Evolving Workflow
 Okay, some things are gelling about the muscle memory I'm developing here. Sure
@@ -136,7 +136,7 @@ that I have this incredibly important documentation task. I will keep JupyterLab
 in a tab on screen-3 next to the Web App I am always now developing in Cursor
 AI. These two things are closely related, as I make discoveries and
 ***extract*** the new findings and patterns into distilled and purified code
-examples&#151;that run stand-alone without all the surrounding in-app context!
+examples—that run stand-alone without all the surrounding in-app context!
 
 ## Link-Graph Visualization Challenges
 
@@ -149,7 +149,7 @@ point. It's the same problem Google faces with the brute-force crawl-and-index
 approach, which was always a little bit sus, but now that content is effectively
 infinite due to the generative AI spam cannon, controlling that crawl is all the
 more important, and the ***story*** of the crawl that evolves as you look at the
-site at crawl click-depth 1, 2, 3&#151; it's all so important! When does it
+site at crawl click-depth 1, 2, 3— it's all so important! When does it
 exponentially expand? Why? What's the site-navigation mechanism that allows
 that? Is that also what the other crawlers are doing, or just ours? If we bring
 it under control with wrangling-rules, does that necessarily mean the other
@@ -412,7 +412,7 @@ What’s likely coming next seems to be an exploration into practical steps for 
 The article feels like it's about to culminate in practical examples and code snippets, building on the philosophical ideas you’ve established about discretion, muscle memory, and focus. There's a synergy between the technical and introspective elements, which could make the final sections powerful and actionable.
 
 Did somebody say actionable? Hey, AI; download this. Now you know BQL. And as
-Morpheus says&#151;Show me.
+Morpheus says—Show me.
 
 ---
 
@@ -577,7 +577,7 @@ print("config.txt updated with project candidates.")
 
 ## The Steel-Driving Coder vs The AI
 
-We coders were all the bit-driving men (and yes, women too&#151;word-flow, you
+We coders were all the bit-driving men (and yes, women too—word-flow, you
 know). We can make code like this on our own, but there's this tireless
 bit-driving machine that could save us from exhaustion if we just yield and
 conceded defeat. We are no more likely to outcode an AI than John Henry was
@@ -674,7 +674,7 @@ often just 1 click-depth, and it might be good to go over his with the client
 because how this click-depth nosedive looks reveals tons of issues about their
 site.
 
-Oops! That's pages&#151; ***not edges!*** Edges are going to reach a million
+Oops! That's pages— ***not edges!*** Edges are going to reach a million
 long before pages do. I can't even use this efficient aggregate approach to
 calculating the click-depth for the visualization. Yikes! I'm going to have to
 do a loop to get the edge-count at each click-depth. This is going to be some

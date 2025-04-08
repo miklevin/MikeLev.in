@@ -39,7 +39,7 @@ information age began firing on all cylinders in great part gave that
 opportunity, because the soul-crushing commute part of the daily-grind became
 optional. That's close to two-hours a day we can plow right back into stuff like
 this, agency-generating journaling. Journaling to fan the flame of agency. It's
-the machine that turns good ideas into implementation &#151; if you can get the
+the machine that turns good ideas into implementation — if you can get the
 tricks down. *(otherwise, it's just 2 more hours of doom-scrolling)*
 
 ## The Bridge Between Speaking and Coding
@@ -55,7 +55,7 @@ My view is to first teach one (play up mindfulness, idea-dredging, flow-state,
 etc.), and then the other. Journaling is that strange missing piece between
 deciding that you want to express yourself in a way that results in more precise
 automation, based on the premise that speaking an coding are really the same
-thing. You move from fleshing it out in the abstract, to the precise &#151;
+thing. You move from fleshing it out in the abstract, to the precise —
 knowing you'll have big-time help with the precision, if only you make yourself
 very clear. First, stories. Then code.
 
@@ -64,7 +64,7 @@ very clear. First, stories. Then code.
 Speaking encodes ideas to be played back in someone else's head, while
 programming encodes ideas to be played back in a machine, which has the
 additional useful side effect of carrying out those ideas as explicit
-instructions like a player piano &#151; genuine automation as opposed to trying
+instructions like a player piano — genuine automation as opposed to trying
 to compel people into action.
 
 ### Creative Flow in Text Editing
@@ -95,7 +95,7 @@ to weave fabric instead of sound.
 
 ## The Evolution of Programming Languages
 
-So all a coder or a programmer is, is a speaker of another language&#151; a
+So all a coder or a programmer is, is a speaker of another language— a
 language intended to be loaded into a machine for interpretation instead of
 another human's head. And like any language, the rules, syntax, nuances and
 subtitle are different, and usually very strict and unforgiving in the case of
@@ -115,7 +115,7 @@ Whether intelligence in the human sense or not, this provides stunning evidence
 of the reality, utility and value of AI. The Information Age is becoming the Age
 of AI, because the information is becoming alive. Information (the LLM / large
 language models) plus the runtime engines they're loaded into (inference
-engines), become player pianos or knitting looms &#151; not for merely the
+engines), become player pianos or knitting looms — not for merely the
 responses they give in our own spoken languages, but for their ability to
 translate into the raised bumps on the spools, or holes punched into scrolls.
 LLMs are universal translators and enablers of machine automation for those who
@@ -127,7 +127,7 @@ impact on your environment is hard.
 
 The surprise that machines could program is key to everything. It is what turns
 them into engines of economic value, because otherwise it's just filling the
-world with more inane banter and prattle &#151; entertaining and novel, but
+world with more inane banter and prattle — entertaining and novel, but
 ultimately annoying. But a talking frog... that's cool. Sorry, engineering joke
 there. But the point stands. Having a component that takes the loosey goosey
 spoken words of we biologicals and turns it into the precision words of machine
@@ -187,7 +187,7 @@ models like Meta's Llama and Google's Gemma for the price of electricity. Llama
 and Gemma can execute functions if your prompt teaches them how. It's generally
 not believed because of the less-smartness of these models and how quickly the
 system prompts fade in the discussion context window, leading to the model's
-tendency to forget. This is solved with hot prompt injections&#151; the Neo Kung
+tendency to forget. This is solved with hot prompt injections— the Neo Kung
 Fu download of The Matrix, a trick you can do just-in-time before the prompt
 request or less efficiently (memory wipingly) inline with it.
 
@@ -195,7 +195,7 @@ request or less efficiently (memory wipingly) inline with it.
 
 The idea is that once you're not inhibited by paying for every off-site giant
 http roundtrip, pennies-per-thousand queries or however cheap DeepSeek drives
-this sort of stuff &#151; cheap, but not uninhibitingly so... once you're no
+this sort of stuff — cheap, but not uninhibitingly so... once you're no
 longer inhibited and AI prompting is local and intelligence becomes ubiquitous
 and private, there's no reason that it can't be kept in the loop on every action
 you take in a piece of software. 
@@ -269,7 +269,7 @@ account. I'm waking up early and going to sleep late to get this work done,
 because I'm keenly aware I'm in a sprint and not a marathon. Things are being
 pushed ahead fast, and this sort of project has a small and shrinking moat.
 Moats are the competitive advantage head-start that makes it difficult for
-competitors to reproduce what you do &#151; a concept popularized by Warren
+competitors to reproduce what you do — a concept popularized by Warren
 Buffett as a criteria in choosing investments; "how big is their moat?"
 
 ## Open Development Philosophy
@@ -307,7 +307,7 @@ lives is 43 years old. And Unix is exactly my age, 54 years old. That's a
 half-century for what becomes the pee in the pool of tech, folks. It's not
 coming out without draining the entire pool, and AI isn't going to do that. It's
 swimming in the same Unix + TCP/IP + HTTP waters as everyone else for a good
-long while, and therein lies your future-proofing &#151; or at least resisting
+long while, and therein lies your future-proofing — or at least resisting
 obsolescence. 
 
 ### The Case Against React
@@ -582,7 +582,7 @@ of information wishing they were part of that class, but really only know
 story-telling and video editing (an important skill, but not the whole story).
 Then, there are people who have felt the resistance of that rubber ceiling like
 me. I've implemented various systems in the past along the lines of Ruby on
-Rails (even before Rails was invented)&#151; aka joyful frameworks. But I've
+Rails (even before Rails was invented)— aka joyful frameworks. But I've
 missed the boat time and time again, because I'm starting out at a disadvantage,
 completely bootstrapping myself from scratch with no real relevant schooling,
 mentoring nor guidance to speak of.

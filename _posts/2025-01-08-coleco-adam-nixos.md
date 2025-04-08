@@ -71,7 +71,7 @@ build your whole system (`nixOS` plus apps) from a script.
 
 Although technically AmigaOS was based on TRIPOS and not Unix, it was still very
 Unix-inspired and plenty of the know-how I got from my Amiga days carried over
-when I took up Linux &#151; different than the Coleco Adam's utterly proprietary
+when I took up Linux — different than the Coleco Adam's utterly proprietary
 and dead-end EOS (Elementary Operating System) and OS-7 operating systems.
 
 ## Modern System Management
@@ -117,7 +117,7 @@ Because it's just a wee bit more than an `apt`, `yum` or `brew` installable app.
 While yes, it ***can*** be fully installed that way, they call it self-hosted
 because unlike an Electron app like VSCode, Zoom or Slack, Trilium can actually
 be run from any web browser that can reach the machine you installed it on
-&#151; and all the follow-up details that entails.
+— and all the follow-up details that entails.
 
 ### Configuration Decisions
 

@@ -19,7 +19,7 @@ Two of my old comedian late night talk show host expressions are Dennis Miller's
 "Stop me before I sub-reference again" and David Letterman's "Stupid pet
 tricks". Both of these have become part of my personal vocabulary, but it's lost
 on other people in everyday life. You can't say "stupid [fill in the blank]"
-tricks and expect people to get it&#151;or worse yet, not take offense!
+tricks and expect people to get it—or worse yet, not take offense!
 
 ### Writing for Myself
 
@@ -125,7 +125,7 @@ stuff is hard.
 And so you don't really have to. There's 2 other paths: the clever thief and the
 dropout. If you want to be in the game and not work that hard at being original,
 you can always be second with a slightly better implementation that gets all the
-important little details, nuances and subtleties right&#151;plus a lot better
+important little details, nuances and subtleties right—plus a lot better
 marketing and leveraging other advantages such as exclusive distribution deals
 and unfair competitive practices. Of course I'm talking about Microsoft here,
 but also countless others. Creativity and newness isn't meritoriously rewarded.
@@ -219,7 +219,7 @@ by the natural accumulation of advantages.
 The **Pareto principle** predicts that in any given system, 20% of the
 participants will control 80% of the resources, but the distribution often
 becomes even more extreme. With enough iterations—empire-building, generational
-wealth transfer, and alliances that bolster each other's positions&#151;what
+wealth transfer, and alliances that bolster each other's positions—what
 begins as meritocratic competition devolves into entrenched hierarchies. This
 isn't just economic; it's woven into the fabric of human social dynamics. 
 
@@ -229,7 +229,7 @@ But here's the kicker: in the realm of ideas and art, the same 1/x power law
 applies, only the "currency" is attention. The loudest, most well-connected
 voices drown out the uncompressible sparks of originality. The irony of this
 race is that the rules of citation (Pagerank, Pareto, whatever you call it)
-don't just rank&#151;they repress. And yet, those soulful individuals who create
+don't just rank—they repress. And yet, those soulful individuals who create
 for the joy of it, outside the rat race, continue to defy the laws of
 empire-building, producing works that might never dominate the graph but
 illuminate the edges where true innovation happens.

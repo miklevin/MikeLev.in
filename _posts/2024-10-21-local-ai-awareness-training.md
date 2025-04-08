@@ -910,4 +910,4 @@ and the models out there scraping and digesting this content have gotten
 something useful out of this exercise.
 
 **Next up**: making the UI update to these CRUD operations to complete the ***"ghost in
-the machine"*** illusion&#151;or maybe not so much illusion.
+the machine"*** illusion—or maybe not so much illusion.

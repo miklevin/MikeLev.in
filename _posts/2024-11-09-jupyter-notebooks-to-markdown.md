@@ -89,7 +89,7 @@ plan is to swap out parts of it over the years in both a hardware and software
 perspective (including the AI models it uses), until... until, well the SciFi
 that we're living is even more SciFi that we're living. Genies in bottles become
 very important. If you don't have your own genie in a bottle, you've got to use
-someone else's&#151;at least, if you've got any wishes to fulfill. And so, it's
+someone else's—at least, if you've got any wishes to fulfill. And so, it's
 best to start raising them now.
 
 `kata.ipynb` is a Jupyter Notebook, and as such has meta-data that you don't
@@ -282,7 +282,7 @@ Citations:
 I just wish markdown numbered lists didn't restart at 1 when there's too much
 stuff going on between line items. I'd fix it, but life's too short to do
 follow-up markdown editing (except for indenting Perplexity's
-footnotes&#151;I'll do that). And so we accumulate and assimilate knowledge and
+footnotes—I'll do that). And so we accumulate and assimilate knowledge and
 forge on, now equipped with the amazing `jupytext` which is billed as a bit more
 heavyweight than I want with all the formats it supports, but what isn't? I use
 Pandas for converting things to CSVs. Same thing. And so my still lean and mean

@@ -60,7 +60,7 @@ their default Linux is Ubuntu and that gives you the Ubuntu (Debain) software
 repo. Muscle-memory undermining? Swapping the alt-key with opt-keys and their
 position to boot! Homebrew over apt and yum. But to their credit, their Rosetta
 software that squeezes more life out of their older X86 hardware is in the right
-spirit &#151; way more respectful than Microsoft's upgrade-or-die love-letter.
+spirit — way more respectful than Microsoft's upgrade-or-die love-letter.
 
 ## The NixOS Solution
 
@@ -88,7 +88,7 @@ move to Windows 11 because after many years of moving back from Mac to Windows
 because WSL, I feel let down because of a combination of the forced Windows 11
 upgrade (Windows 10 really was the last Windows OS you'll ever need), and the
 failure to ever properly support SystemD under WSL. It goes to sleep in the
-background and doesn't wake up &#151; not something you want in a service.
+background and doesn't wake up — not something you want in a service.
 Services serve. I don't care if I clicked away from the WSL terminal window. If
 Microsoft can't even put some control you can toggle-on (yes, I know it ***looks
 like they do***, but try it), then I can't stay on their platform.
@@ -101,7 +101,7 @@ VM/Container/whatever doohickey is a deal-breaker. I don't care if it's VMWare,
 VirtualBox, Docker Desktop or whatever. But especially WSL which touts Windows
 compatibility with Linux by default. That's embrace, extend, extinguish at it's
 finest. Let 'em get a taste of Linux, but never let 'em discover the joys of
-background Linux services &#151; not on a Windows system, nosiree. Oh, and hire
+background Linux services — not on a Windows system, nosiree. Oh, and hire
 Lennart Poettering the creator of `systemd` just in case. We don't want any
 magically enabling tricks to get out.
 
@@ -215,7 +215,7 @@ Manager, the standard Linux desktop of the GNU Project Free Software Foundation
 
 Ever since Ubuntu gave up on Unity, yet another Linux Desktop that Canonical
 felt they'd push in Ubuntu to make it more professional but accidentally caused
-schism and outrage &#151; well, ever since Ubuntu gave that up, the polish and
+schism and outrage — well, ever since Ubuntu gave that up, the polish and
 professionalism has been spilling over into the mainstream (insofar as anything
 is mainstream in Linux) GNOME desktop.
 

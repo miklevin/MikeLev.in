@@ -75,7 +75,7 @@ that maybe others feel, but only you have taken the initiative to articulate and
 reach. It's all about the very context that the AIs are without. They just
 wouldn't be able to imagine doing something in a creative novel new way if
 someone weren't already out there training them on how to think exactly that
-way, and apply that sort of thinking to exactly your situation &#151; at least
+way, and apply that sort of thinking to exactly your situation — at least
 in the current state of affairs.
 
 So, the humans add the unique, novel new context. The very things the AIs lack
@@ -130,7 +130,7 @@ story. In the case of clients for SEO, it often goes like:
 ## The Disintermediation Challenge
 
 We have something to sell, and we would like for people to buy it from us first
-&#151; usually, online. And often in a battle against the original manufacturers
+— usually, online. And often in a battle against the original manufacturers
 who are now realizing they can sell directly just as easily, especially with
 services like Shopify, and cut out the middleman. The term is disintermediation,
 and it has been in full-swing for awhile. It hasn't been more popular or

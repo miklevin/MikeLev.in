@@ -17,7 +17,7 @@ professor set in their ways to do the same. So the idea is to get two of them
 together and make them bounce ideas off of each other (seeded by you, the human,
 of course), and see if they can't see past the statistical normie fog. When
 you're off the beaten track, converging recommendations shows you might actually
-be on a good one nonetheless&#151;as poorly worn as it yet might be.
+be on a good one nonetheless—as poorly worn as it yet might be.
 
 ### The Challenge
 
@@ -267,7 +267,7 @@ This approach embraces the simplicity discussed at the end of the conversation, 
 ## Re-Stating Chain Reaction of Loads
 
 > Excellent, o1, really excellent! You were just released a few days ago and
-> already are seeing things Claude can't&#151;without me having to explicitly
+> already are seeing things Claude can't—without me having to explicitly
 > spell it out. Now let's ratchet-up the explicitness of the plan and make today
 > epic!
 
@@ -626,7 +626,7 @@ windows, so that they can compete with each other to give me my next step
 advice. I'm not merely going for some alternative pipeline package to celery in
 the Python ecosystem. I'm going for a full modernized localhost revolution
 fueling codebase that will only get smaller and simpler over time, enabling
-larger and more remarkable things&#151;the complete opposite of the infinite
+larger and more remarkable things—the complete opposite of the infinite
 code-bloat pouring out onto the Internet with generative AI content. My stuff
 doesn't get hosted, and the byte-count of the thing that's not getting hosted
 gets smaller, while it's capabilities and immediate readability and sensibly to

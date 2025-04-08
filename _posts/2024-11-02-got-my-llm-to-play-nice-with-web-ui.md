@@ -21,7 +21,7 @@ AI-assisted apps whose time has come.
 
 Have you asked yourself whether that pace of words being revealed when you chat
 with an LLM is the actual response-rate of the AI or a simulated effect to sell
-the chat-experience, and that it might actually be that much faster&#151;slowing
+the chat-experience, and that it might actually be that much faster—slowing
 itself down for the sake of us humans? Yeah, me too! This is especially poignant
 when you're running the LLM local on your machine and the slowness is likely to
 be genuine. Why simulate when the real response-rate of the LLM is incredibly
@@ -42,9 +42,9 @@ LLMs stream their output as fast as they think.
 
 ## Python Generators Mangle Payloads
 
-This made a previously reliable delivery mechanism for larger payloads&#151;like
+This made a previously reliable delivery mechanism for larger payloads—like
 JSON objects with embedded instructions about what to do once recognized,
-snagged from the data-stream, parsed and carried out&#151;much more difficult.
+snagged from the data-stream, parsed and carried out—much more difficult.
 The main data-stream is now a chunky yielding generator. Python terminology
 doesn't get better than this, and if you have a Ruby on Rails-lover in your
 life, it's going to get interesting when you start ***talking generators***,
@@ -174,21 +174,21 @@ patient enough to wait just a little longer to get an accurate answer regarding
 the state of the world, that product availability off the embedded schema.org of
 the site read in real-time? 
 
-### The Web is The Database&#151;Google's Index Is Not
+### The Web is The Database—Google's Index Is Not
 
 ChatGPT Search is finally out (and I'm liking the experience), but Perplexity
 still has the lead. When I think ***fresh*** model replies, I'm still thinking
 Perplexity. OpenAI's measure-twice/cut-once before taking on Google lost them
 the early mover advantage in this obvious evolution of the Internet-search
 space. Anyhoo, the way the world of search has just been turned upside down is
-the subject for another article if at all&#151;go become a Botify customer if
+the subject for another article if at all—go become a Botify customer if
 you really want AI SEO consulting on this kind of stuff.
 
 
 ## New App Combines Three Communication Methods
 
 And so I ramble and meander here in the warm-up for this article, because it'
-going to be a doozy&#151;hopefully in all the good ways. Whereas yesterday's was
+going to be a doozy—hopefully in all the good ways. Whereas yesterday's was
 long, rambling and soul-sucking, morale-draining and generally a shit-show of
 experimentation and discovery, today's ought to be a few well thought-through
 chisel-strikes to reveal the beautiful sculpture right underneath the rock's
@@ -491,7 +491,7 @@ keeps us from spiraling. Sorry folks, that's just our normal state. Settling
 into the groove where always wobbling on the verge of is collapse is merely
 called walking. Don't lose your ability to walk just because there's AI's and
 other entities all around you throwing stones trying to unbalance
-you&#151;usually because it makes them money somehow. Here's my resilience
+you—usually because it makes them money somehow. Here's my resilience
 trick. Ask yourself every day...
 
 <div class="wisdom">
@@ -512,7 +512,7 @@ me in the thick of a path-finding reset. I'm letting go of being enamored by
 may sound excessively nerd, but... but... ah hell, no Perplexity this time. If
 you get it, you get it. Just a little more distraction and evasion of really
 starting the work before I dive in. After those daily path-finding metaphors,
-there is ***the how***&#151;or ***The Way***, if you will. And that goes
+there is ***the how***—or ***The Way***, if you will. And that goes
 something like this...
 
 <div class="wisdom">

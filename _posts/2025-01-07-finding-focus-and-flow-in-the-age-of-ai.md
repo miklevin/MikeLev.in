@@ -79,7 +79,7 @@ things about myself I have to manage. I'd rather be tweaking bits all day and
 become the sort of [architecture astronaut Joel Spolsky warns
 about](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/).
 That is my predisposition, so I've got to use this journal to continuously rein
-myself back in and stay on rails &#151; those pipeline rails!
+myself back in and stay on rails — those pipeline rails!
 
 ## The Power of Public Commitment
 
@@ -1159,7 +1159,7 @@ reputation of your company, or steal the fire from the gods and go off on your
 own, playing with fire.
 
 And that's what Sam Altman and OpenAI did, under the auspices of AI safety,
-laughed at by everyone but Elon Musk and Max Shapiro&#151; uh, I mean Max
+laughed at by everyone but Elon Musk and Max Shapiro— uh, I mean Max
 Tegmark. Who's laughing now? Oh, everyone as they announce they're going from
 mere AI to AGI that can be a productive employee at your company. But the
 important point being, Sam Altman stole the fire from Prometheus to bring it to

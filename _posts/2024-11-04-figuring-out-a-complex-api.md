@@ -29,7 +29,7 @@ What's the opposite of diving deep down the rabbit hole? We turn to another
 fairy tale, the 3 little pigs. We build our hows from straw! We do so knowingly,
 understanding a visit by the wolf will be inevitable, but you can't not have
 protection from the elements, and we're talking about a good night's sleep
-tonight&#151;not long-term safety from edge cases. That will come later... soon,
+tonight—not long-term safety from edge cases. That will come later... soon,
 in fact for there is not survival without brick houses on occasion. 
 
 In the immediate-term, the skill of throwing up a temporary home trumps mortar.
@@ -310,7 +310,7 @@ Haha, nice!
 
 Fast-forward to 3:30 AM Monday morning! Ah, the best laid plans of Mice and Men
 regarding the 3 Little Pigs. I got wrapped up in polishing framework
-internals&#151;the plumbing of all the houses, if you will. The most clear
+internals—the plumbing of all the houses, if you will. The most clear
 example was the subject of the "bonus article" I threw in on ***auto-reload***.
 It's a wonderful feature that keeps you in flow state when you're working,
 because every time you do a file-save of your work, the server automatically
@@ -330,7 +330,7 @@ plunge into using this precious morning focus time.
 
 I've taken a number of other precautions lately to ensure I could enter and stay
 in the flow-state repeatedly lately, enough so that I can get some of the big
-work of my life done&#151;this deeply AI-integrated HTMX-utilizing web
+work of my life done—this deeply AI-integrated HTMX-utilizing web
 framework. Yes, the rise of AI is only going to happen once. But also the webdev
 renaissance powered by HTMX-backlash to ReactJS and overweight web frameworks...
 well, that might happen more than once, but it's getting ready to go into full
@@ -344,7 +344,7 @@ who ***get*** that if you have a firm command of the elegant and plenty
 sufficient lower-level web-stack tools that you don't need all that other
 JavaScript overhead crap. It's uncommon wisdom and an anti-pattern that requires
 a high level of AI-validated confidence to build based on. And here I am doing
-that&#151;once again that concept of hitting above my weight class because the
+that—once again that concept of hitting above my weight class because the
 tools have change sufficiently thus that they allow me to. Okay, enough warm-up
 rambling and time to get down to some straw house building.
 
@@ -362,13 +362,13 @@ case, it is...
 
 ## Building Self-Learning AI Straw Houses: An Introduction
 
-Surveying the landscape for the straw houses! We need an intro page&#151; a page
+Surveying the landscape for the straw houses! We need an intro page— a page
 with no rabbit hole potential. A page where I just use the principles of
 FastHTML, mostly with the `Card()` element to introduce and lay out the look of
 everything to follow, along with the whole elevator pitch of the self-learning
 AI infused into the system. Not so much self-learning, as learning off of you,
 the dear user, as you use the software it's built into. The actual effect of
-that is very short tern&#151;only until the next file-save/auto-load rebuild at
+that is very short tern—only until the next file-save/auto-load rebuild at
 which time the whole running AI instance gets destroyed and freshly
 re-instantiated and blip-trained on its JSON API-syntax using the system prompt.
 It gives me the chills just thinking about it. I'm using gemma:2b right now for
@@ -380,7 +380,7 @@ devices like Macbook's. Intro page in place!
 And I just introduced the comment-tag `!!!menuxx` that lets me jump between the
 3 key locations in the program by just shift+8'ing (vim: find next occurrence)
 with the cursor over top the tag-name. Sometimes you don't need AI in Cursor,
-but just intelligence using your cursor&#151;particularly in regard to using the
+but just intelligence using your cursor—particularly in regard to using the
 everyday keystroke features of vim, the big muscle-memory gift in life to
 coders. 
 
@@ -1268,7 +1268,7 @@ to `figlet` in order to survey the landscape of my own ***single file app***.
 Yes, it's always a single-file app if I can help it, because why look in more
 than one place? I don't have the cognitive capacity for all that increased
 surface area, nor the patience for the ***fuzzy-matching-nerd-tree tricks***
-that make it not seem that way&#151;just friggin more dependencies you don't
+that make it not seem that way—just friggin more dependencies you don't
 need if you have the skill to put it in one file. You may have noticed, I'm not
 like other AI SEO Programmer Consultant Unicorns.
 
@@ -1862,7 +1862,7 @@ mechanism. I can't lock and unlock the Submit button when retrieving long lists
 off the server, like for an Organization that has a long list of Projects. I
 lost a precious half hour spinning my wheels over spinning a spinner and locking
 and unlocking a button. I had it working just great in a prior app and I thought
-giving Claude a taste of the old working code and bippity boppity boo&#151; but
+giving Claude a taste of the old working code and bippity boppity boo— but
 nooooooo. Claude says take a trip down the rabbit hole and puts a firm foot on
 my butt and gives a shove. ChatGPT 4o is no better. So back off. It has the
 benefit of being it's own built-in todo list for later. I can always revisit
@@ -1870,7 +1870,7 @@ that. It's like getting stuck wiring the doorbell on the straw house. That's not
 how straw houses are built. Move on!
 
 It's now after 9:00 AM and my not being in the office today will be noticed.
-Today is really my last good coding day before MVP MOT&#151;minimum viable
+Today is really my last good coding day before MVP MOT—minimum viable
 product moment of truth. People expecting to see me will be showing up about
 now. Send in the note to our office person that I'll be in the office tomorrow.
 It will be a visit request because I went over the time-window to keep my office
@@ -2095,7 +2095,7 @@ It just happens to be in a format that's very difficult for both humans and bots
 to peruse and digest, or else the already-trained LLMs would be able to tell me
 more about programming in BQL and stuff. So be it. Here I am about to do the
 same trick for the Botify API as I did to convince all my AI coding assistant
-LLMs that FastHTML is not FastAPI&#151;not an easy thing to do, I assure you. It
+LLMs that FastHTML is not FastAPI—not an easy thing to do, I assure you. It
 had to go right down to copy/pasting what happens on `from fasthtml.common
 import *` from the GitHub source that reveals it. They don't like that very
 much, let me tell you. It's where much of my ***hot prompt injection*** concepts
@@ -3485,7 +3485,7 @@ static immovable resource.
 
 The Hoover Dam generates electricity where it's at by virtue of the nature of
 the brick house. Amazon datacenters and cloud services in general on the other
-have so abstracted away the physical details that you'd believe it's&#151;well,
+have so abstracted away the physical details that you'd believe it's—well,
 a straw house. Throw them up quick. Instantiate plenty. When the wolf comes a
 blowin, you can just instantiate out so many VMs or containers that the wolf's
 efforts are futile in comparison. Bricks not required. So the metaphor stands.

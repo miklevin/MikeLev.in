@@ -51,7 +51,7 @@ may get lost. Fortunately, its probably not lost forever. If you had a good idea
 once, you'll likely have it again. The idea is to be more prepared the next time
 by pushing whatever idea-capture tools you're using from the realm of
 unavailable or awkward to the realm of always-there and like extensions of your
-body&#151;gain, the concept of musicians or athletes with their equipment.
+body—gain, the concept of musicians or athletes with their equipment.
 
 ### The Problem with Premature Organization
 
@@ -95,7 +95,7 @@ going to be vim. We use the word ***vim*** over vi and nvim because it's the
 implementation that caused the renaissance of that camp in the great ***text
 editor war*** whose origins date back so far that it makes today's VSCode vs.
 Atom discussions... oh wait, Microsoft killed Atom... well then Sublime. Or
-Notepad++ (is that still a thing?)&#151;well, you get it. Whole text-editor and
+Notepad++ (is that still a thing?)—well, you get it. Whole text-editor and
 IDE empires rise and fall, but there in the background is still vi and emacs
 duking it out for forever-tool dominance.
 
@@ -104,7 +104,7 @@ duking it out for forever-tool dominance.
 Forever-tools exist in tech, I shit you not. That's because through a
 combination of hitting various fundamentals, getting battle-hardened and
 withstanding the test of time, they become the underpinning dependencies that
-everyone else uses&#151;and manage to avoid enshitification! Oh don't get me
+everyone else uses—and manage to avoid enshitification! Oh don't get me
 wrong, terrible versions do pop into existence here and there as they inevitably
 will when anyone can fork the codebase and do such nonsense as adding graphics
 to vim, but for the most part a kind of enshitification-proofing critical mass
@@ -441,7 +441,7 @@ And so we're talking organization now. These organization programs come and go.
 And they're incredibly focused on making the vendors you buy them from money,
 locking you in, and... well, Evernote. Microsoft OneNote. Apple Notes (and now
 Journal and everything iCloud). More recently, there's Obsidian which is open
-source but also commercial&#151;considerably more noble. Also Notion has gone
+source but also commercial—considerably more noble. Also Notion has gone
 that route. It's a good business model and I admire that and you should support
 Obsidian and Notion. But do know that they're just passing fads, and if you use
 them for the hosting and syncing, you once again don't really own your own data.

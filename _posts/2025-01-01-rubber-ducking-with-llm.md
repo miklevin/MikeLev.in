@@ -9,7 +9,7 @@ sort_order: 1
 **Me**: Good Morning, Claude! And welcome to 2025! Let's start out today, which
 is my last holiday day-off where I can really work on the discretionary stuff
 before the client work starts taking priority again, with a real Hail Mary on my
-Magnum Opus, which is this web Framework&#151;all proper-cased but Web, because
+Magnum Opus, which is this web Framework—all proper-cased but Web, because
 of the localhost angle and not The Web, get it? Okay, geek humor right away.
 
 It's 7:00 AM and we're going to jump right in by round robining between all
@@ -2005,7 +2005,7 @@ workflow examples I have working:
 ---
 
 The best laid plans. I actually decided to try to do the final refinements on
-LinkGraphFlow before tackling the next the&#151;the realization I had in earlier
+LinkGraphFlow before tackling the next the—the realization I had in earlier
 and was getting ready for as my final hurrah tonight, but that got derailed.
 
 Ugh! Okay, so this sets the stage for tomorrow. But for tonight, I'm going to

@@ -133,7 +133,7 @@ the site anyway in JavaScript. It's a good ***todo-description*** syntax, even
 if the changes are supposed to be made in a CMS template so the changes get into
 the HTML source (always better). But nonetheless, ***what*** should be done on a
 per-URL basis almost always can (and should) be expressed in JavaScript first.
-It's far more clarity than a PowerPoint or Google Slide&#151;and the JS edit can
+It's far more clarity than a PowerPoint or Google Slide—and the JS edit can
 always be shown on a slide with some visuals added anyway.
 
 ## Find Technical Satisfaction in Client Work

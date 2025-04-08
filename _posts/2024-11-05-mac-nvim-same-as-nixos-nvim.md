@@ -38,7 +38,7 @@ therefore can carry around my whole own home vim environment here. I would just
 need to also my nixos repo here and in the same relative location so that the
 helper scripts will activate. That will be a big boon even here and now as my
 new leader-key macro system will be back instead of the @buffer approach I used
-to use&#151;because vim vs. nvim and being able to get AI help on `init.lua`. Oh
+to use—because vim vs. nvim and being able to get AI help on `init.lua`. Oh
 that's a story for another time.
 
 ## Resilient Muscle Memory: Mastering Flexibility
@@ -218,7 +218,7 @@ full-screen terminal (this) and just pull it off the tab bar and **POOF**.
 
 Alright, now make it so you can see your daily work journal entry come together
 while you make it `jekyll serve --livereload`, and back to the reason for this
-entry&#151; delighting the clients! This was the "settling in" that you have to
+entry— delighting the clients! This was the "settling in" that you have to
 do after such a long stint not coming into the office and not being on Mac as
 your primary machine. Once again, it's that concept of doing kata during warm-up
 to (re-)train your muscle memory. It's just like being an AI, haha! Hot prompt

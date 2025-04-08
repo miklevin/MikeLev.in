@@ -192,7 +192,7 @@ and promise of Java. Turns out flat-packing Linux with a key/value hash store
 handled the same way on any host OS that can handle it is the answer. That means
 Macs AND Windows (through WSL) for the ultimate in whole tech infrastructures
 that flow like water between heterogeneous hardware. And now development and
-deployment is more like just development&#151;and a much simplified form of
+deployment is more like just development—and a much simplified form of
 single-tenant development at that.
 
 OMG, so many subtopics in this discussion. All to work up the clarity and the

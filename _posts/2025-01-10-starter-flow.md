@@ -891,7 +891,7 @@ class StarterFlow:
 Okay, there is now a certain sort of baton passing to maintain persistence that
 just makes me sick. It is everything that is antithetical about he system,
 passing information in invisible form fields. Yuck! There is always a single
-source of truth and it is always explicit and server-side &#151; yet how I
+source of truth and it is always explicit and server-side — yet how I
 implemented this violates my own principles and causes exactly the sort of
 confusion it's meant to avoid.
 
@@ -1322,7 +1322,7 @@ The work has been fabulously interesting today. Definitely of the 2 steps back,
 
 ### The Musical Analogy
 
-I talk a lot about this being like Unix pipes, Jupyter Notebooks&#151; and
+I talk a lot about this being like Unix pipes, Jupyter Notebooks— and
 music.
 
 Well, this is about refining the music, getting it down to the essential notes,
@@ -2554,7 +2554,7 @@ And now the chain reacting logic is easy to follow.
 2. `init` makes sure the pipeline record exists for the provided key, and then
    splats a `Div()` shim into `#<app_name>-container` for every card in the
    workflow, each equipped with their own little `hx_trigger="load"` directive
-   to load their own card by ID using `hx_get=url`... pop, pop, pop, pop&#151;
+   to load their own card by ID using `hx_get=url`... pop, pop, pop, pop—
    LMFAO! That's the chain reaction! And it's not just from init.
 
 3. Each card as it tries to draw itself in sequence, because even though it's

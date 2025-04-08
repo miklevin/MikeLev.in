@@ -390,7 +390,7 @@ and those that comprise my wacky spin on everything-independence and a
 decentralized future-proofing toolset. They're the ones that let you feel
 "craft" in tech and allow your muscle skills to improve over the years without
 the carpet being pulled out from under you by vendors trying to make money off
-you&#151;or just change for the sake of change. You'll often hear expressed
+you—or just change for the sake of change. You'll often hear expressed
 change comes so fast that you have to spend all your energy just keeping up with
 everything. Only true to a point. It's not like I think you should keep your
 head in the sand (I am using Cursor AI, after all), but you'll notice there's
@@ -519,7 +519,7 @@ deliberately obtuse or fixated on the wrong things, but it is their nature.
 ### The Matrix Moment
 
 So these prompts, like the one at https://mikelev.in/api/ can be jammed in all
-at once&#151;the hot prompt injection, with a seemingly super-human, but
+at once—the hot prompt injection, with a seemingly super-human, but
 admittedly temporary download, like Neo from The Matrix suddenly knowing Kung
 Fu. And like Morpheus you deliver the line: "Show me" and it does! It codes the
 impossible (for me), taking into account 2 or 3 interactions that eluded me.
@@ -876,7 +876,7 @@ Would you like me to show how to integrate this with your existing card componen
 dragon's breath to carve a sculpture from a block of wood. Claude doesn't now
 FastHTML! It still thinks in all my references to it, I must mean FastAPI. But
 you saw me go through stretching exercises with the @kata.md file and making it
-do a full-sweep review of my code&#151; as chunked and sampled as it may have
+do a full-sweep review of my code— as chunked and sampled as it may have
 really been behind the scenes. But none-the-less, I took away its options of the
 zillions of over-implemented versions of this that existed and it zeroed in with
 scalpel-like precision on a promising sounding solution. So let's implement!

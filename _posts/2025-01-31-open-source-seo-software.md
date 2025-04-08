@@ -93,9 +93,9 @@ development of habits and muscle memory skills sort of way.
 ## The Flask Family Tree
 
 Hmmm. Well, in a lot of ways this is really the story of Flask and all the Flask
-copycats &#151; up to the latest/greatest who just blended it with HTMX. So then
+copycats — up to the latest/greatest who just blended it with HTMX. So then
 it's also the story of another similarly named copycat, FastAPI, missing the
-mark for me &#151; terribly missing the mark. Most people think FastAPI
+mark for me — terribly missing the mark. Most people think FastAPI
 ***didn't miss the mark***, and actually hit a perfect bullseye. This is the
 reason the LLMs are egregiously over-trained on FastAPI to the point of
 sublimating all FastHTML research you try to do into "use FastAPI" coercion. 
@@ -104,7 +104,7 @@ sublimating all FastHTML research you try to do into "use FastAPI" coercion.
 
 So what's so great about FastAPI that appeals to so many people, but not to me?
 Well, first of all it doesn't actually get rid of the `jinja2` template system
-and things like it (mako, nunchucks, liquid, mustache, etc.) &#151; everything
+and things like it (mako, nunchucks, liquid, mustache, etc.) — everything
 inhereted from PHP-envy. And so that means language litter. Template systems
 make what could be pristine and beautiful to look at full of garbage. And if you
 don't want to look at the templating mess while you code, you can break it into
@@ -229,9 +229,9 @@ matter.
 
 But your choice of programming language does matter. It matters very much. It
 will either stifle your ability to express yourself, potentially for the rest of
-your life &#151; especially if it's the first one you learned. Or it will set
+your life — especially if it's the first one you learned. Or it will set
 you free, letting loose the ideas pent-up in otherwise unexpressible ways in
-your mind &#151; dying on the alter of translation.
+your mind — dying on the alter of translation.
 
 ## Python's Enduring Value
 
@@ -526,7 +526,7 @@ steel.
 ## The AI Assistant Dilemma 
 
 The trick now is that the AI coding assistant is programmed to be excessively
-helpful &#151; excessively and intrusively so. Instead of the finesse of the
+helpful — excessively and intrusively so. Instead of the finesse of the
 final-stage shaping of the system, it's trying (as usual) to impose enterprise
 scaling patterns on me from libraries I'm not using. And so, I'm going through
 the usual dance:
@@ -811,10 +811,10 @@ to be done in the wake of the ***"SEO is dead, long-live SEO"*** proclamations.
 
 ## The Open Source Advantage
 
-There will be a flurry of new products, new philosophies, new approaches &#151;
+There will be a flurry of new products, new philosophies, new approaches —
 most of them just some attempt to get your money. For the real solutions, look
-towards the free and opens source SEO software community &#151; those who are in
-it for the love of the game and the true altruism &#151; not just after your
+towards the free and opens source SEO software community — those who are in
+it for the love of the game and the true altruism — not just after your
 money. While the story of DeepSeek may be deeper that the open source story it
 presents, it nonetheless serves as a great wake-up call for the world. I mean,
 even if they ripped off OpenAI (who ripped off the world, in turn), it is still
@@ -839,7 +839,7 @@ individuals to seize it for themselves, despite technology churn.
 ### Finding Stability in Nix
 
 That's the game for me. I find the island of stability in a particular Linux
-called Nix, which is as something-special as something's can be &#151; in that
+called Nix, which is as something-special as something's can be — in that
 "if you know, you know" sort of way. It's not elitist. It's just transformative
 knowledge if you're inclined that way (declarative systems). Plus of course,
 Python running on it, as if a stand-alone web app, so you can use all the lovely
