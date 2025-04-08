@@ -11,8 +11,8 @@ group: home
 ## FastHTML Examples
 
 > FastHTML and FastAPI are two very different things. One fits your vibe and the
-> doesn't. I can't tell you which is which, but I can show you. At least, I can
-> show you FastHTML. Examples for FastAPI abound elsewhere.
+> doesn't. I can't tell you which is which —— but I can show you why I love
+> FastHHTML and how it has put the love back in webdev for me.
 
 I know you're curious about FastHTML databases. Here's how they work:
 
