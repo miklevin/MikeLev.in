@@ -8,6 +8,11 @@ sort_order: 1
 
 ## Understanding the True Value of AI Agent Mode
 
+> My mind was blown. I absorbed what it said:  
+> "You don't need to `git reset --hard HEAD`!"  
+> "Just give me hashes of a working state"  
+> "And I'll diff 'em." *Had to contemplate* 🤯   
+
 The important nuance to appreciate in this article is that the new `Agent` or
 *agentic modes* in AI-assisted editors isn't so much about going hog-wild coding
 (the fear) as much as it is about doing deep-dives into studying your code — and
@@ -76,6 +81,11 @@ BAM!
 ---
 
 ## Stunned By The Realization
+
+> My mind was blown. I absorbed what it said:  
+> "You don't need to `git reset --hard HEAD`!"  
+> "Just give me hashes of a working state"  
+> "And I'll diff 'em." *Had to contemplate* 🤯   
 
 **Me**: OMG, you just saved me from so much reverting! That was amazing! How
 would you describe your new Agentic capabilties that let you do this? And what
