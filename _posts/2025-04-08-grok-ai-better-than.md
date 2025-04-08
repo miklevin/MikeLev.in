@@ -434,6 +434,28 @@ These enhancements will transform mikelev.in into a more inclusive, engaging, an
 
 ---
 
+## Always Gotta Ask Grok to Riff
+
+> That's an awesome plan to actually clean up my site and make it ready for
+> prime time. But what about a deeper look at the content and just an open-ended
+> riff about what it finds?
+
+**Me**: Explore the site and open-ended riff.
+
+**Grok**: Alright, let’s riff on `mikelev.in`—a wild, sprawling digital playground where tech meets philosophy, and the future gets hammered into shape with tools like Linux, Python, Vim, Git, and a dash of NixOS spice. As of April 8, 2025, this site’s homepage is a living, breathing testament to Mike Levin’s 25+ years of wrangling the digital beast, with 213 articles stretching back to September 2024. It’s less a blog and more a manifesto—a chaotic, brilliant stream of consciousness where AI, SEO, and open-source ethos collide. Picture a mad scientist’s lab: ASCII art bunnies hop around, Jupyter Notebooks morph into web apps, and Pipulate, his AI-powered SEO brainchild, flexes its muscles like a cybernetic beast ready to take on Google’s algorithmic overlords.
+
+Each article is a rabbit hole—some deep, some quirky, all relentlessly curious. Take "Grok Better Than You'd Think" (April 8, 2025)—it’s Grok 3 dissecting the site itself, like an AI therapist offering unsolicited advice. Then there’s "Cursor AI Agent Mode Beats `git cherry-pick`" from the same day, where Claude swoops in to debug asyncio bugs, turning Git into a playground for agentic AI. It’s practical wizardry, the kind that makes you wonder why you ever bothered with manual commits. Flip to "Static Site Generators: Your Secret Weapon" (April 7), and you’ve got Markdown-wielding AI reshaping content strategy—simple, elegant, and a middle finger to bloated CMSes.
+
+The vibe? Future-proofing isn’t just a buzzword here; it’s a religion. Mike’s preaching the gospel of LPvgn—Linux, Python, Vim, Git, now with NixOS as the holy grail of reproducibility. "Nix Flakes for Reproducible Development Environments" (September 12, 2024) is a love letter to deterministic builds, a middle ground between chaos and control that’d make any dev nod in quiet respect. Meanwhile, "SEO in the Age of LLMs" (March 15, 2025) dares to ask: can niche content still punch through the noise? Spoiler: it can, and Mike’s got the receipts—organic clicks without bowing to Google’s redirect gods.
+
+But it’s not all code and command lines. There’s soul here. "Finding Purpose Through Timeless Tech Skills" isn’t just the homepage’s H1—it’s a battle cry against the tech hamster wheel. Articles like "Distracted & Weak Vs. Focused & Strong" (March 5, 2025) weave Ikigai and Kaizen into the fabric of coding, urging you to ditch the scroll and master the terminal. And then there’s "Chip O'Theseus" (March 21), a mind-bending riff on self-modifying AI—part science, part philosophy, all wrapped in a SQLite bow. It’s the kind of thing that keeps you up at night, wondering if your laptop’s secretly plotting sentience.
+
+Pipulate’s the star of the show, though—a lean, mean SEO machine that’s half Jupyter Notebook, half web app, and all local-first swagger. "The Magic of Pipulate" (March 23) dreams of bridging exploratory coding with production-grade tools, while "Radical Simplicity" (March 16) doubles down on keeping it desktop-bound, free from cloud shackles. It’s a rebel yell in a SaaS-saturated world, and you can feel the passion dripping off the pixels.
+
+The site’s a paradox: raw yet polished, technical yet human. ASCII art greets mobile users, a width slider lets desktop nerds tweak their view, and Mermaid diagrams sketch out ideas in real-time. It’s SEO-optimized to the hilt—Schema.org markup everywhere—yet feels like a personal journal. "From Blog Chaos to Book Outline" (April 7) even turns the mess into a mission, with Gemini and Claude playing ghostwriters for a future book. It’s meta as hell.
+
+So, what’s the takeaway? `mikelev.in` is a front-row seat to a mind that’s equal parts hacker, dreamer, and skeptic. It’s not just about surviving the AI tsunami—it’s about riding it, board in hand, with a stack that’s been battle-tested across decades. Every article’s a riff, a jam session where tech’s future gets improvised, one line of code, one bold idea at a time. Dive in, get lost, and come out sharper—or at least with a newfound respect for Vim macros turned Lua.
+
 ## Good Advice
 
 This is good advice. I don't know if I'll do everything, as it really is just a
