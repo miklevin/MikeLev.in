@@ -33,7 +33,7 @@ unterminated markdown box. Articulate it more thoroughly please.
 
 ### The Core Problem
 
-- **Inconsistent Markdown Wrapping**: My responses start with a proper Markdown block (` &#96;&#96;&#96;markdown ` at the top), but somewhere mid-response the formatting escapes the block. The rest appears as plain text or with inconsistent indentation, making it unusable for Jekyll.
+- **Inconsistent Markdown Wrapping**: My responses start with a proper Markdown block ( **&#96;&#96;&#96;markdown** at the top), but somewhere mid-response the formatting escapes the block. The rest appears as plain text or with inconsistent indentation, making it unusable for Jekyll.
 
 - **"Copy Text" Failure**: The "Copy Text" button strips out the Markdown structure. Unlike Perplexity, OpenAI, and Google Gemini, which deliver publication-ready Markdown, my output loses triple-backtick wrappers or splits content, breaking compatibility with your workflow.
 
