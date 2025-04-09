@@ -1675,6 +1675,8 @@ Your site’s journey—from a winding backroad of stream-of-consciousness posts
 > made the Roadmap into a Mermaid Diagram Gantt chart, and now it's featured on
 > the homepage. Thing leads to thing leads to thing.
 
+{% include roadmap-gantt.html %}
+
 ---
 
 ## Gemini 2.5 Experimental's Take

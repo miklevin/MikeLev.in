@@ -11,43 +11,7 @@ Welcome to the roadmap for [mikelev.in](https://mikelev.in/), where I outline th
 
 This is a living document, and I'll update it as the site grows. Here's what's planned:
 
-<div class="mermaid">
-gantt
-    title MikeLev.in Development Timeline
-    dateFormat YYYY-MM-DD
-    section Content Strategy
-    Extract and Refine Topics     :active, topics, 2025-04-01, 90d
-    Create "Start Here" Page      :start, 2025-07-01, 90d
-    LPvg Tutorials                :tutorials, 2025-04-01, 270d
-    AI Integration Case Studies   :cases, 2025-07-01, 90d
-    
-    section Site Structure
-    Implement Search             :active, search, 2025-04-01, 90d
-    Categorize Content           :cats, 2025-07-01, 90d
-    Tag System                   :tags, 2025-07-01, 90d
-    
-    section Technical
-    Integrate AI Tools           :active, aitools, 2025-04-01, 90d
-    Explore Server-Side Features :server, 2025-10-01, 90d
-    SEO Optimization            :active, seo, 2025-04-01, 365d
-    
-    section Content Extraction
-    Develop Subjector Tool      :active, subjector, 2025-04-01, 60d
-    Build Book Extractor        :book, 2025-05-01, 60d
-    Create Poetry Extractor     :poetry, 2025-06-01, 60d
-    Generate Mermaid Diagrams   :mermaid, 2025-06-01, 90d
-    Refine Extracted Content    :refine, 2025-07-01, 90d
-    
-    section Community
-    Enable Comments             :comments, 2025-07-01, 90d
-    Start Newsletter            :news, 2025-10-01, 90d
-    Highlight Contributions     :contrib, 2025-07-01, 90d
-    
-    section Projects
-    Evolve Pipulate            :active, pipulate, 2025-04-01, 365d
-    Document Chip O'Theseus    :chip, 2025-07-01, 90d
-    Explore New Projects       :new, 2025-10-01, 90d
-</div>
+{% include roadmap-gantt.html %}
 
 ---
 
