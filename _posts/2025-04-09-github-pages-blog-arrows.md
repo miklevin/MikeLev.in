@@ -1,26 +1,37 @@
 ---
 title: "GitHub Pages & Jekyll: Solving Chronological Sorting for Multiple Daily Posts"
 permalink: /futureproof/github-pages-blog-arrows/
-description: I address a navigation issue in my Jekyll blog when publishing multiple posts on the same day with a custom `sort_order` field. The "latest post" link on my homepage incorrectly pointed to the earliest post of the most recent day, and previous/next links weren't respecting the intended newest-to-oldest flow. Using refined Liquid logic with grouping, sorting, and a custom flat index, I solved both issues, ensuring all navigation properly reflects the chronological and custom-sorted sequence of posts.
+description: I address two navigation issues in my Jekyll blog when publishing multiple posts on the same day with a custom `sort_order` field. The "latest post" link on my homepage incorrectly pointed to the earliest post of the most recent day, and previous/next navigation arrows weren't properly respecting post sequence. Using refined Liquid logic and a custom flat index approach, I solved both issues, ensuring all navigation correctly reflects the chronological sequence of posts.
 layout: post
 sort_order: 1
 ---
 
-## Introduction: Fixing the "Latest Post" Link in Jekyll When Using Custom Sort Order
+## Introduction: Fixing Navigation When Using Custom Sort Order in Jekyll
 
-This article addresses a specific, yet potentially frustrating, issue encountered when managing a Jekyll blog hosted on GitHub Pages, particularly when publishing multiple posts on the same day. The standard Jekyll setup sorts posts chronologically based on the date embedded in the filename (`YYYY-MM-DD-title.md`). However, to control the precise order of posts published on the *same* date, a common practice is to add a custom `sort_order` field to each post's front matter (e.g., `sort_order: 1`, `sort_order: 2`, etc.).
+This article addresses two specific, yet potentially frustrating, issues encountered when managing a Jekyll blog hosted on GitHub Pages, particularly when publishing multiple posts on the same day. The standard Jekyll setup sorts posts chronologically based on the date embedded in the filename (`YYYY-MM-DD-title.md`). However, to control the precise order of posts published on the *same* date, a common practice is to add a custom `sort_order` field to each post's front matter (e.g., `sort_order: 1`, `sort_order: 2`, etc.).
 
-While the built-in `page.previous` and `page.next` variables used for navigation *between* individual posts can correctly utilize this `sort_order` after initial date sorting, a problem arises on index pages, such as the main homepage. A seemingly straightforward attempt to link to the "latest post" often defaults to simply finding the post with the most recent *date*, potentially linking to the *first* post published on that day (e.g., `sort_order: 1`) instead of the *last* one (e.g., `sort_order: 5`).
+I encountered two distinct but related problems with this approach:
 
-## The Core Problem: Homepage Navigation Ignoring Sort Order
+1. **The "Latest Post" Link Issue**: On the homepage, a seemingly straightforward attempt to link to the "latest post" defaulted to simply finding the post with the most recent *date*, incorrectly pointing to the *first* post published on that day (e.g., `sort_order: 1`) instead of the *last* one (e.g., `sort_order: 5`).
 
-The core problem detailed below was exactly this: the main homepage link intended to direct users to the absolute newest content was incorrectly pointing to the earliest post of the latest publication day, ignoring the crucial `sort_order`.
+2. **Navigation Arrow Direction Problem**: Jekyll's built-in `page.previous` and `page.next` variables used for post-to-post navigation weren't properly respecting my indexing system. Not only did they fail to correctly utilize the `sort_order` for posts on the same day, but the navigation direction was counter-intuitive to my blog's newest-to-oldest reading flow, where newer posts have higher index numbers.
 
-## The Solution: Refined Liquid Template Logic
+## The Solution: Refined Liquid Template Logic and Custom Flat Indexing
 
-The solution involves implementing more specific Liquid templating logic within the homepage template (`index.md` in this case). Instead of relying solely on sorting the entire `site.posts` array by date, the corrected approach first groups the posts by their full date (`YYYY-MM-DD`), identifies the group corresponding to the most recent date, sorts the posts *within that specific group* based on the `sort_order` field (in descending order), and finally selects the top item from this subgroup. This ensures the link correctly points to the post with the highest `sort_order` value for the most recent day, accurately reflecting the intended chronological sequence.
+For the homepage "Latest Post" link, the solution involved implementing more specific Liquid templating logic. Instead of relying solely on sorting the entire `site.posts` array by date, the corrected approach first groups the posts by their full date (`YYYY-MM-DD`), identifies the group corresponding to the most recent date, sorts the posts *within that specific group* based on the `sort_order` field (in descending order), and finally selects the top item from this subgroup.
 
-The fix utilizes Liquid's `group_by_exp`, `sort`, `reverse`, and `first` filters to pinpoint the true latest post. The interaction with an AI assistant (Claude) helped refine this Liquid logic. This introduction summarizes the challenge and the implemented fix; the original, more narrative article detailing the author's setup, context, and troubleshooting journey follows below.
+For the navigation arrows, we implemented a more comprehensive solution:
+
+1. Creating a flat indexed list of all posts in the correct sort order
+2. Finding the current post's position within this flat index
+3. Reversing the previous/next logic to align with our indexing system
+4. Creating custom navigation variables that replace Jekyll's built-in ones
+
+This "flat index" approach acts like an in-memory ISAM (Indexed Sequential Access Method) database that maintains the exact order we want, ensuring that posts are correctly sequenced regardless of their publication date or sort order.
+
+The implementation utilizes Liquid's powerful templating features like `group_by_exp`, `sort`, `reverse`, and array manipulation capabilities to create a navigation system that transcends Jekyll's default behavior. The fixes ensure that all navigation elements—both on the homepage and between individual posts—correctly reflect the intended chronological sequence.
+
+The following sections detail my setup, the context of these issues, and the step-by-step implementation of both solutions.
 
 ## GitHub Pages: Built-in Website Hosting
 
