@@ -3,6 +3,7 @@ title: Updating NixOS
 permalink: /futureproof/updating-nixos/
 description: I share my experience transitioning to NixOS from traditional Linux distributions like Ubuntu and Fedora, highlighting the unique aspects of NixOS's filesystem hierarchy and package management. I explain the benefits of Nix's deterministic packaging system and how it can be leveraged on macOS and Windows using Nix Flakes. I also provide a step-by-step guide for getting started with Nix Flakes and emphasize the importance of embracing the NixOS philosophy for improved productivity and simplified software management.
 layout: post
+sort_order: 1
 ---
 
 Switching to NixOS has been quite an adventure for me, and I wanted to create this article as a helpful guide for anyone else considering the leap. Coming from familiar Linux distributions like Ubuntu and Fedora, I understand how daunting NixOS can seem at first. Whether you're a seasoned Linux user or someone on Mac or Windows just exploring the power of the nix command, this guide aims to simplify the transition and highlight the incredible benefits Nix offers. By sharing my experiences and breaking down the essentials, I hope to make Nix and NixOS feel more approachable and less intimidating. Let’s dive in and discover how Nix can transform your software management and development workflows!

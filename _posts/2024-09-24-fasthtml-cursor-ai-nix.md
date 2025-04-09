@@ -3,6 +3,7 @@ title: FastHTML and Cursor AI on Linux, Mac & Windows
 permalink: /futureproof/fasthtml-cursor-ai-nix/
 description: In this article, I share my adventure setting up a cross-platform development environment with Nix, featuring FastHTML and the AI-powered code editor, Cursor. It's a journey through the challenges of integrating cutting-edge technologies, highlighting the elegance of Nix's package management. I delve into configuring NixOS, wrangling Python virtual environments, and rigorously testing the setup across Macs, Windows (using WSL), and Linux to ensure compatibility. Ultimately, it's a testament to creating a reproducible and robust development experience that bridges the latest in AI-assisted coding with the power and flexibility of Nix.
 layout: post
+sort_order: 1
 ---
 
 I'm building a **FastHTML app with Cursor AI under NixOS**. The resulting Nix flake needs to be able to run on **Macs, Windows (under WSL), or Linux**. Talk about being off the beaten track and in the tech wilderness. But I'm going to make it work because there's a big payoff here.

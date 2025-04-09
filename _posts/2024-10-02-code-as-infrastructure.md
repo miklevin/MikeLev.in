@@ -3,6 +3,7 @@ title: Code as Infrastructure
 permalink: /futureproof/code-as-infrastructure/
 description: In this article, I chronicle my journey of building a robust Nix Flake development environment that seamlessly works across macOS, Linux, and Windows WSL. I delve into the challenges of integrating CUDA support and specialized tools like JupyterLab, emphasizing the importance of a virtual environment for data science flexibility. Through a step-by-step account, I detail how I progressively enhanced the flake.nix to achieve a versatile and powerful development setup that liberates developers from hardware and platform constraints.
 layout: post
+sort_order: 1
 ---
 
 ## Learning Nix Flakes Brings True Hardware Freedom and Career Liberation

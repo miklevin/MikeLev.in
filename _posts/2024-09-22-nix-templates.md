@@ -3,6 +3,7 @@ title: Getting My Nix System Together
 permalink: /futureproof/nix-system/
 description: I detail my process of setting up a NixOS system and creating reproducible data science environments using Nix flakes. I explain my approach to configuring NixOS, including the use of a minimal configuration.nix file and the integration of essential services like Ollama and CUDA. I also discuss the benefits of using Python virtual environments within Nix flakes to manage Python dependencies and ensure flexibility for data science tasks.
 layout: post
+sort_order: 1
 ---
 
 Have you ever wished you could effortlessly recreate your entire computer setup on any machine, regardless of its operating system? Imagine a world where sharing your exact development environment with colleagues is as simple as sharing a text file. Enter Nix and NixOS, revolutionary tools that are changing the game in system management and software development. Whether you're a seasoned programmer or just starting out, this article will introduce you to a powerful approach that can save you countless hours of setup time, eliminate "it works on my machine" problems, and give you unprecedented control over your computing environment. Get ready to discover how Nix can transform the way you think about software installation, system configuration, and project reproducibility.

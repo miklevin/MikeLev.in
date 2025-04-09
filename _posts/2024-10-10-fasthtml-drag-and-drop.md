@@ -3,6 +3,7 @@ title: FastHTML and SortableJS For Sortable Todo Lists
 permalink: /futureproof/fasthtml-sortablejs-todo/
 description: In my quest to build the perfect to-do list app with FastHTML, I tackled drag-and-drop sorting with SortableJS.  After overcoming a pesky script tag issue and submitting a bug report, I dove into optimizing database updates with MiniDataAPI. By creating a batch update function and minimizing data transfer, I ensured efficient sorting. Finally, I set up a server-side endpoint to handle the updates and seamlessly integrate the front-end and back-end, resulting in a smooth and responsive user experience. This article explores how to integrate SortableJS with FastHTML for creating sortable to-do lists. It covers client-side drag-and-drop functionality, efficient backend updates using MiniDataAPI, and setting up JavaScript and Python endpoints for real-time updates.
 layout: post
+sort_order: 1
 ---
 
 ## Refining the Web Development Experience with Drag-and-Drop Functionality

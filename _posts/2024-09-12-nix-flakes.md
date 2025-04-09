@@ -3,6 +3,7 @@ title: Getting Started with Nix Flakes
 permalink: /futureproof/nix-flakes/
 description: This article describes my journey to integrate Nix Flakes into my NixOS configuration for better version control and reproducibility. Initially hesitant due to the perceived complexity, I eventually embraced Flakes for their ability to simplify git management and streamline my workflow. The article provides a step-by-step guide on implementing Nix Flakes, moving the system configuration to user space, and rebuilding the system for a more manageable and reproducible development environment.
 layout: post
+sort_order: 1
 ---
 
 ## A Cross-Platform Python Nix Flake with CUDA Support

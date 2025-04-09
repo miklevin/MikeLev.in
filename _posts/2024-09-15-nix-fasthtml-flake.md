@@ -3,6 +3,7 @@ title: Cross-Platform Nix Flake for Jupyter & FastHTML
 permalink: /futureproof/nix-fasthtml-flake/  
 description: I detail building a versatile Nix flake for a consistent development environment across different platforms, starting with a minimal setup and progressively incorporating JupyterLab, CUDA support, and a FastHTML server. I highlight the flexibility offered by a virtual environment for installing additional packages, ensuring a robust and adaptable development experience for various data science and web development tasks.
 layout: post
+sort_order: 1
 ---
 
 ## Building a Versatile flake.nix Configuration for Seamless Development

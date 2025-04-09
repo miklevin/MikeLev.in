@@ -3,6 +3,7 @@ title: "Building a Plugin-Ready Framework: A Step-by-Step Transformation"
 permalink: /futureproof/building-plugin-ready-framework/
 description: Discover how I restructured my system into a plugin-ready framework, enhancing modularity and simplifying updates. This guide outlines the transformative steps taken, highlighting the benefits of a modular design for improved scalability, maintainability, and collaborative development.
 layout: post
+sort_order: 1
 ---
 
 ## Accelerating AI Development for a New Era of Innovation

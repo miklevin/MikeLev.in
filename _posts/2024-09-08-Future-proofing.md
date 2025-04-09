@@ -3,6 +3,7 @@ title: Future-proof Your Tech Skills
 permalink: /futureproof/future-proof-tech-skills/
 description: I advocate for mastering the fundamental LPvg stack—Linux, Python, Vim, and Git—as a timeless foundation to future-proof your skills and escape the relentless 'tech hamster wheel.' My approach emphasizes combining this versatile toolkit with deep domain expertise to better serve clients, maintain independence, automate effectively, and integrate AI thoughtfully using local models and structured communication, ensuring lasting relevance without succumbing to vendor lock-in or chasing fleeting tech trends.
 layout: post
+sort_order: 1
 ---
 
 ## The LPvg Stack: A Foundation for Future-Proof Skills

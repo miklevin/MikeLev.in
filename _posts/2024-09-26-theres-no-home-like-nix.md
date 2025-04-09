@@ -3,6 +3,7 @@ title: There's No Home Like Nix
 permalink: /futureproof/theres-no-home-like-nix/
 description: In this article, I delve into building a Python web development environment within Nix, offering solutions for incorporating packages not readily available in the Nix repository. I guide you through using dotenv to securely manage environment variables and present a practical example of a simple FastHTML web application that prompts users for a secret and stores it safely. Additionally, I demonstrate the implementation of a basic chat server with Ollama, emphasizing the advantages of leveraging local LLMs for AI-assisted development.
 layout: post
+sort_order: 1
 ---
 
 Now, we embark on WebDev-style application development in Nix, moving forward in earnest. Everything so far in this blog has been akin to designing Dorothy's *"There's no place like home"* spell—a tricky thing to describe, but much like cleansing the palate or returning to a martial arts ready stance. Just as your taste buds and physical prowess shouldn't sway to the whims of vendors, neither should your technical abilities. It is the pursuit of **generic** technical skills that can future-proof you, even as AI rapidly advances.

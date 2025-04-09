@@ -3,6 +3,7 @@ title: Embracing AI-Assisted Development with Jupyter AI and Nix Flakes
 permalink: /futureproof/jupyter-ai-nix-flake/
 description: I detail the process of building a versatile flake.nix file for a consistent development environment across different platforms. Starting with a minimal setup, I progressively incorporate JupyterLab, CUDA support, and a FastHTML server, highlighting the flexibility offered by a virtual environment for installing additional packages. This approach ensures a robust and adaptable development experience for various data science and web development tasks.
 layout: post
+sort_order: 1
 ---
 
 No matter how much I want to keep things in Python Jupyter Notebooks to avoid Web development frontend work, all roads seem to lead to webdev. You can't just ask everyone to go into a Notebook and change values or interact with ipywidgets or use it like a dashboard. People expect easy self-serve web apps. What's more, when you do go into the code, people expect AI coding assistants.

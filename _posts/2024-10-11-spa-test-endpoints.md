@@ -3,6 +3,7 @@ title: Test SPA Endpoints (Single Page Applications in FastHTML)
 permalink: /futureproof/test-spa-endpoints/
 description: This article details the development of a comprehensive testing suite for a FastHTML single-page application using Python's `unittest`. It covers endpoint testing, logging enhancements, and future plans for UI automation, ensuring the application’s reliability and robustness while showcasing code snippets for clarity.
 layout: post
+sort_order: 1
 ---
 
 ## FastHTML App Plugin Framework Takes Shape

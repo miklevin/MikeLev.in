@@ -3,6 +3,7 @@ title: Forking a Flake of Infrastructure as Code
 permalink: /futureproof/forking-flake-infrastructure-as-code/
 description: I've finally cracked the code to a truly portable and reproducible development environment using Nix flakes!  It was a wild ride wrestling with different technologies, but Nix was a lifesaver for managing dependencies and keeping things consistent across my Linux and Mac machines.  I even found a way to seamlessly integrate AI-assisted coding tools like Cursor AI and Jupyter AI into the mix.  The real kicker was building a FastHTML web app that taps into the Botify API – talk about a learning curve with that BQL language!  But hey, who needs sleep when you're riding the wave of efficient and cutting-edge development?
 layout: post
+sort_order: 1
 ---
 
 Here's a refined version that maintains your voice while toning down the corniness:
