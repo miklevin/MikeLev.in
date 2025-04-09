@@ -15,7 +15,7 @@ permalink: /list/
 {% assign post_counter = 0 %}
 
 <pre style="line-height: 1.5;">
-{% for day in grouped_posts %}{% assign day_posts = day.items | sort: 'sort_order' | reverse %}{% for post in day_posts %}{% assign post_number = total_posts | minus: post_counter %}{{ post_number }}. sort_order: {{ post.sort_order | default: "N/A" }} | date: {{ post.date | date: "%Y-%m-%d" }} | {{ post.url }} | {{ post.title }}
+{% for day in grouped_posts %}{% assign day_posts = day.items | sort: 'sort_order' | reverse %}{% for post in day_posts %}{% assign post_number = total_posts | minus: post_counter %}{{ post_number }}. sort_order: {{ post.sort_order | default: "N/A" }} | date: {{ post.date | date: "%Y-%m-%d" }} | {{ post.path }} | {{ post.title }}
 {% assign post_counter = post_counter | plus: 1 %}{% endfor %}{% endfor %}
 </pre>
 
