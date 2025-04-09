@@ -1,7 +1,5 @@
 ---
-title: Mike Levin on Tech Skills, AI & SEO
-description: Mike Levin is a Technical SEO expert in NYC who shares his passion for future-proofing tech skills through Linux, Python, vim, and git. With 25+ years of experience in SEO and web development, he helps others master timeless tools while building AI-powered SEO automation systems.
-author: Mike Levin AI SEO
+title: Simple Blog List
 group: home
 permalink: /list/
 ---
@@ -13,18 +11,21 @@ permalink: /list/
 {% assign latest_posts = latest_day.items | sort: 'sort_order' | reverse %}
 {% assign latest_post = latest_posts | first %}
 
-<ol reversed>
-  {% assign total_posts = site.posts.size %}
-  {% assign post_counter = 0 %}
+{% assign total_posts = site.posts.size %}
+{% assign post_counter = 0 %}
+
+<ul style="list-style-type: none; padding-left: 0;">
   {% for day in grouped_posts %}
     {% assign day_posts = day.items | sort: 'sort_order' | reverse %}
     {% for post in day_posts %}
-      <li value="{{ total_posts | minus: post_counter }}"><hr />
+      {% assign post_number = total_posts | minus: post_counter %}
+      <li><hr />
+        <strong>{{ post_number }}. sort_order: {{ post.sort_order | default: "N/A" }}</strong> 
         <h3><a href="https://mikelev.in{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
       </li>
       {% assign post_counter = post_counter | plus: 1 %}
     {% endfor %}
   {% endfor %}
-</ol>
+</ul>
 
