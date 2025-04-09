@@ -24,8 +24,6 @@ group: home
 }
 </script>
 
-# Finding Purpose Through Timeless Tech Skills
-
 {% include daily-metaphors.html %}
 
 <div class="mermaid">
@@ -65,6 +63,8 @@ gantt
     Document Chip O'Theseus    :chip, 2025-07-01, 90d
     Explore New Projects       :new, 2025-10-01, 90d
 </div>
+
+# Finding Purpose Through Timeless Tech Skills
 
 **LPvgn** is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git & nix. I use them daily to build AI and automation systems — but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years. Whoops! You fell into a rabbit hole!
 
@@ -153,3 +153,5 @@ coming alive beneath you.
     </a>
   </div>
 </div>
+
+<br>
