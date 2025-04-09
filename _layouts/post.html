@@ -3,11 +3,20 @@ layout: default
 author: Mike Levin
 ---
 
+{% comment %}
+Change this value to switch between absolute and relative URLs:
+- true: absolute URLs with domain (for production)
+- false: relative URLs without domain (for local testing)
+{% endcomment %}
+{% assign use_absolute_urls = false %}
+
+{% capture url_base %}{% if use_absolute_urls %}https://mikelev.in{% else %}{% endif %}{% endcapture %}
+
 <nav class="post-navigation top-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
   {% if page.previous %}
     <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Previous Post</span>
-      <a href="https://mikelev.in{{ page.previous.url }}" itemprop="item">
+      <a href="{{ url_base }}{{ page.previous.url }}" itemprop="item">
         <span itemprop="name">{{ page.previous.title }}</span>
       </a>
       <meta itemprop="position" content="1" />
@@ -18,7 +27,7 @@ author: Mike Levin
   
   <div class="home-link" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
     <span class="nav-label">Blog Index</span>
-    <a href="https://mikelev.in/" itemprop="item">
+    <a href="{{ url_base }}/" itemprop="item">
       <span itemprop="name">Home</span>
     </a>
     <meta itemprop="position" content="2" />
@@ -27,7 +36,7 @@ author: Mike Levin
   {% if page.next %}
     <div class="next-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Next Post</span>
-      <a href="https://mikelev.in{{ page.next.url }}" itemprop="item">
+      <a href="{{ url_base }}{{ page.next.url }}" itemprop="item">
         <span itemprop="name">{{ page.next.title }}</span>
       </a>
       <meta itemprop="position" content="3" />
@@ -135,7 +144,7 @@ author: Mike Levin
   {% if page.previous %}
     <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Previous Post</span>
-      <a href="https://mikelev.in{{ page.previous.url }}" itemprop="item">{{ page.previous.title }}</a>
+      <a href="{{ url_base }}{{ page.previous.url }}" itemprop="item">{{ page.previous.title }}</a>
       <meta itemprop="name" content="{{ page.previous.title }}">
       <meta itemprop="position" content="1" />
     </div>
@@ -145,7 +154,7 @@ author: Mike Levin
   
   <div class="home-link" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
     <span class="nav-label">Blog Index</span>
-    <a href="https://mikelev.in/" itemprop="item">Home</a>
+    <a href="{{ url_base }}/" itemprop="item">Home</a>
     <meta itemprop="name" content="Home">
     <meta itemprop="position" content="2" />
   </div>
@@ -153,7 +162,7 @@ author: Mike Levin
   {% if page.next %}
     <div class="next-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Next Post</span>
-      <a href="https://mikelev.in{{ page.next.url }}" itemprop="item">{{ page.next.title }}</a>
+      <a href="{{ url_base }}{{ page.next.url }}" itemprop="item">{{ page.next.title }}</a>
       <meta itemprop="name" content="{{ page.next.title }}">
       <meta itemprop="position" content="3" />
     </div>
