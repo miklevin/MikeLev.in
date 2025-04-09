@@ -53,18 +53,17 @@ A more Nix-native approach is to manage the fetching and integration of the AppI
 
 Here's a strategy using Cursor AI as an example:
 
-1.  **Fetch Latest Info:** Use Nix's built-in functions or helper tools like `curl` and `jq` during the build phase to query the vendor's API (if available) for the latest version's download URL.
-2.  **Download AppImage:** Download the AppImage file during the `nixos-rebuild` process.
-3.  **Store Predictably:** Place the downloaded AppImage in a known location (e.g., `~/Applications/`).
-4.  **Create Desktop Entry:** Generate a standard `.desktop` file that uses `appimage-run` to launch the downloaded AppImage. This file goes into `~/.local/share/applications/` to integrate with your desktop environment.
-5.  **Add a Toggle:** Include a simple boolean variable in your configuration to easily switch between using the AppImage version and the version available in Nixpkgs.
+1.  **Toggle Control:** Use a simple boolean variable to switch between AppImage and Nix package versions
+2.  **Automatic Fetching:** During system rebuild, fetch the latest version from the vendor's API
+3.  **Desktop Integration:** Create proper desktop entries for seamless integration
+4.  **Error Handling:** Include robust error handling and logging
 
 **Example Nix Configuration Snippet:**
 
-This snippet defines a system activation script that downloads the latest Cursor AppImage (if it's missing or older than 7 days) and creates a desktop entry for it. It only runs if `useCursorAppImage` is set to `true`.
+This snippet defines a system activation script that downloads the latest Cursor AppImage and creates a desktop entry for it. It only runs if `useCursorAppImage` is set to `true`.
 
 ```nix
-{ pkgs, lib, config, ... }:
+{ config, pkgs, lib, ... }:
 
 let
   # Toggle to control whether to use the AppImage or Nixpkgs version
@@ -73,129 +72,97 @@ let
   # Define the standard Nixpkgs package if not using AppImage
   cursorPackage = if useCursorAppImage then null else pkgs.code-cursor;
 
-  # Define username and home directory (replace 'your_username')
-  username = "your_username";
-  userHome = "/home/${username}";
-  appImageDir = "${userHome}/Applications";
-  desktopEntryDir = "${userHome}/.local/share/applications";
-  cursorAppImagePath = "${appImageDir}/Cursor.AppImage";
-  cursorDesktopPath = "${desktopEntryDir}/cursor.desktop";
-
 in
 {
   # Include pkgs.code-cursor if the toggle is off
   environment.systemPackages = with pkgs; [
-    appimage-run # Needed regardless for AppImage execution
-    jq          # Needed for parsing JSON in the script
-    curl        # Needed for downloading in the script
+    appimage-run # Needed for AppImage execution
+    curl        # Needed for downloading
+    jq          # Needed for parsing JSON
   ] ++ lib.optionals (!useCursorAppImage) [ cursorPackage ];
 
-  # Systemd activation script to manage the AppImage download and desktop entry
-  # This runs once after each successful system rebuild.
-  system.activationScripts.manageCursorAppImage = {
-    text = ''
-      echo "Managing Cursor configuration..."
+  # System activation script to manage the AppImage download and desktop entry
+  system.activationScripts.installCursor = {
+    text = if useCursorAppImage then ''
+      # Create desktop entry for AppImage version
+      DESKTOP_FILE="/home/mike/.local/share/applications/cursor.desktop"
+      mkdir -p "$(dirname "$DESKTOP_FILE")"
       
-      # Ensure target directories exist and have correct ownership/permissions
-      mkdir -p "${appImageDir}"
-      chown ${username}:${config.users.users.${username}.group} "${appImageDir}"
-      chmod 755 "${appImageDir}"
-      mkdir -p "${desktopEntryDir}"
-      chown ${username}:${config.users.users.${username}.group} "${desktopEntryDir}"
-      chmod 755 "${desktopEntryDir}"
-
-      # Remove any existing desktop entry first
-      rm -f "${cursorDesktopPath}"
-
-      if ${lib.boolToString useCursorAppImage}; then
-        echo "Setting up Cursor AppImage..."
-        
-        # Check if AppImage needs downloading (missing or older than 7 days)
-        if [ ! -f "${cursorAppImagePath}" ] || [ "$(${pkgs.findutils}/bin/find "${cursorAppImagePath}" -mtime +7 -print)" ]; then
-          echo "Attempting to download latest Cursor AppImage..."
-          # Fetch download URL from Cursor API
-          CURSOR_INFO=$(${pkgs.curl}/bin/curl -sSfL "https://www.cursor.com/api/download?platform=linux-x64&releaseTrack=stable")
-          DOWNLOAD_URL=$(${pkgs.jq}/bin/jq -r '.downloadUrl' <<< "''${CURSOR_INFO}")
-
-          if [ -n "$DOWNLOAD_URL" ] && [ "$DOWNLOAD_URL" != "null" ]; then
-            echo "Downloading from $DOWNLOAD_URL..."
-            # Download securely to a temporary file, then move atomically
-            ${pkgs.curl}/bin/curl -sSfL "$DOWNLOAD_URL" -o "${cursorAppImagePath}.tmp"
-            if [ $? -eq 0 ]; then
-               chmod +x "${cursorAppImagePath}.tmp"
-               mv "${cursorAppImagePath}.tmp" "${cursorAppImagePath}"
-               chown ${username}:${config.users.users.${username}.group} "${cursorAppImagePath}"
-               echo "Cursor AppImage downloaded successfully."
-            else
-               echo "ERROR: Failed to download Cursor AppImage."
-               rm -f "${cursorAppImagePath}.tmp"
-            fi
-          else
-            echo "WARNING: Could not retrieve Cursor download URL. Skipping download."
-          fi
+      # Ensure Applications directory exists
+      mkdir -p "/home/mike/Applications"
+      chown mike:users "/home/mike/Applications"
+      chmod 755 "/home/mike/Applications"
+      
+      # Fetch latest Cursor AppImage
+      echo "Fetching latest Cursor AppImage..."
+      CURSOR_INFO=$(${pkgs.curl}/bin/curl -sSfL "https://www.cursor.com/api/download?platform=linux-x64&releaseTrack=stable")
+      DOWNLOAD_URL=$(${pkgs.jq}/bin/jq -r '.downloadUrl' <<< "$CURSOR_INFO")
+      
+      if [ -n "$DOWNLOAD_URL" ] && [ "$DOWNLOAD_URL" != "null" ]; then
+        echo "Downloading from $DOWNLOAD_URL..."
+        ${pkgs.curl}/bin/curl -sSfL "$DOWNLOAD_URL" -o "/home/mike/Applications/Cursor.AppImage.tmp"
+        if [ $? -eq 0 ]; then
+          chmod +x "/home/mike/Applications/Cursor.AppImage.tmp"
+          mv "/home/mike/Applications/Cursor.AppImage.tmp" "/home/mike/Applications/Cursor.AppImage"
+          chown mike:users "/home/mike/Applications/Cursor.AppImage"
+          echo "Cursor AppImage downloaded successfully."
         else
-          echo "Cursor AppImage is recent. Skipping download."
-          # Ensure it's executable just in case permissions were lost
-          chmod +x "${cursorAppImagePath}"
-        fi
-
-        # Create desktop entry for AppImage version
-        if [ -f "${cursorAppImagePath}" ]; then
-          echo "Creating AppImage desktop entry..."
-          cat > "${cursorDesktopPath}" << EOF
-[Desktop Entry]
-Name=Cursor
-Comment=AI-first code editor
-Exec=${pkgs.appimage-run}/bin/appimage-run "${cursorAppImagePath}" %U
-Icon=code
-Type=Application
-Categories=Development;IDE;
-Terminal=false
-EOF
-          chown ${username}:${config.users.users.${username}.group} "${cursorDesktopPath}"
-          chmod 644 "${cursorDesktopPath}"
+          echo "ERROR: Failed to download Cursor AppImage."
+          rm -f "/home/mike/Applications/Cursor.AppImage.tmp"
         fi
       else
-        echo "Setting up Nix package version..."
-        # Create desktop entry for Nix package version
-        cat > "${cursorDesktopPath}" << EOF
+        echo "WARNING: Could not retrieve Cursor download URL. Skipping download."
+      fi
+      
+      # Create desktop entry
+      cat > "$DESKTOP_FILE" << EOF
 [Desktop Entry]
 Name=Cursor
-Comment=AI-first code editor
-Exec=${pkgs.code-cursor}/bin/cursor %U
+Exec=${pkgs.appimage-run}/bin/appimage-run /home/mike/Applications/Cursor.AppImage
 Icon=code
 Type=Application
 Categories=Development;IDE;
+Comment=AI-first code editor
 Terminal=false
 EOF
-        chown ${username}:${config.users.users.${username}.group} "${cursorDesktopPath}"
-        chmod 644 "${cursorDesktopPath}"
-      fi
+    '' else ''
+      # Create desktop entry for Nix package version
+      DESKTOP_FILE="/home/mike/.local/share/applications/cursor.desktop"
+      mkdir -p "$(dirname "$DESKTOP_FILE")"
+      cat > "$DESKTOP_FILE" << EOF
+[Desktop Entry]
+Name=Cursor
+Exec=${pkgs.code-cursor}/bin/cursor
+Icon=code
+Type=Application
+Categories=Development;IDE;
+Comment=AI-first code editor
+Terminal=false
+EOF
     '';
-    # This script depends on the user being created
-    deps = [ "users" ];
+    deps = [];
   };
 }
 ```
 
-**Remember to replace `your_username` with your actual username.**
+**Remember to replace `mike` with your actual username.**
 
 ### Trade-offs and Considerations
 
 This Nix-managed approach offers several benefits:
 
-* **Automation:** Downloads and sets up the AppImage automatically during system rebuilds.
-* **Integration:** Provides proper desktop integration via the `.desktop` file.
-* **Control:** The toggle allows easy switching between the potentially newer AppImage and the stable Nixpkgs version.
-* **Clean Switching:** When toggling between versions, the old desktop entry is removed before creating the new one.
+* **Automation:** Downloads and sets up the AppImage automatically during system rebuilds
+* **Integration:** Provides proper desktop integration via the `.desktop` file
+* **Control:** The toggle allows easy switching between the potentially newer AppImage and the stable Nixpkgs version
+* **Error Handling:** Includes robust error checking and logging
+* **Atomic Updates:** Uses temporary files to ensure clean updates
 
 However, be aware of the downsides:
 
-* **Build Time:** Downloading files during `nixos-rebuild` increases build time and adds a network dependency.
-* **URL Stability:** Relies on the vendor's download URL structure remaining consistent.
-* **Not Purely Nix:** It manages an external binary rather than building from source with fixed hashes, deviating slightly from Nix's purity principles.
-* **Update Frequency:** Updates only happen when you run `nixos-rebuild switch`, not automatically in the background.
-* **Integration Limits:** May break specific integrations, like custom URL handlers (e.g., `zoommtg://` links might not open the Zoom AppImage automatically without further configuration).
+* **Build Time:** Downloading files during `nixos-rebuild` increases build time and adds a network dependency
+* **URL Stability:** Relies on the vendor's download URL structure remaining consistent
+* **Not Purely Nix:** It manages an external binary rather than building from source with fixed hashes, deviating slightly from Nix's purity principles
+* **Update Frequency:** Updates only happen when you run `nixos-rebuild switch`, not automatically in the background
 
 ### Alternative: The "Proper" Nix Package
 
