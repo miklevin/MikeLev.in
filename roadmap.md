@@ -11,6 +11,37 @@ Welcome to the roadmap for [mikelev.in](https://mikelev.in/), where I outline th
 
 This is a living document, and I'll update it as the site grows. Here's what's planned:
 
+<div class="mermaid">
+gantt
+    title MikeLev.in Development Timeline
+    dateFormat  YYYY-MM-DD
+    section Content Strategy
+    Extract and Refine Topics     :2025-04-01, 90d
+    Create "Start Here" Page      :2025-07-01, 90d
+    LPvg Tutorials                :2025-04-01, 270d
+    AI Integration Case Studies   :2025-07-01, 90d
+    
+    section Site Structure
+    Implement Search              :2025-04-01, 90d
+    Categorize Content            :2025-07-01, 90d
+    Tag System                    :2025-07-01, 90d
+    
+    section Technical
+    Integrate AI Tools            :2025-04-01, 90d
+    Explore Server-Side Features  :2025-10-01, 90d
+    SEO Optimization              :2025-04-01, 365d
+    
+    section Community
+    Enable Comments               :2025-07-01, 90d
+    Start Newsletter              :2025-10-01, 90d
+    Highlight Contributions       :2025-07-01, 90d
+    
+    section Projects
+    Evolve Pipulate              :2025-04-01, 365d
+    Document Chip O'Theseus      :2025-07-01, 90d
+    Explore New Projects         :2025-10-01, 90d
+</div>
+
 ---
 
 ## Content Strategy

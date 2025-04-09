@@ -729,11 +729,21 @@ header blockquote {
 }
 /* Mermaid diagram styles */
 .mermaid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    margin: 20px 0;
+    min-width: 800px;
+    margin: 2rem auto;
+}
+
+.mermaid svg {
+    max-width: none !important;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .mermaid {
+        min-width: 100%;
+        overflow-x: auto;
+    }
 }
 
 .post-navigation {

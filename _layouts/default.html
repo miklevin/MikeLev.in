@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dorsa">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel">
-    <link rel="stylesheet" href="https://mikelev.in/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="https://mikelev.in/assets/css/syntax.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaid }}"></script>
@@ -24,7 +24,23 @@
     </script>
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+        mermaid.initialize({ 
+            startOnLoad: true, 
+            theme: 'dark',
+            gantt: {
+                titleTopMargin: 25,
+                barHeight: 20,
+                barGap: 4,
+                topPadding: 50,
+                leftPadding: 150,
+                gridLineStartPadding: 150,
+                sectionHeight: 35,
+                fontSize: 11,
+                numberSectionStyles: 4,
+                axisFormat: '%b %Y',
+                viewMode: 'halfYear'
+            }
+        });
     </script>
     <style>
         /* Disable slider on mobile */
