@@ -190,8 +190,28 @@ Change this value to switch between absolute and relative URLs:
   {% endif %}
 {% endfor %}
 
-{% if total_posts_today > 1 %}
+{% comment %}
+  Calculate post number using the same approach as index.md
+{% endcomment %}
+{% assign total_posts = site.posts.size %}
+{% assign post_counter = 0 %}
+{% assign post_number = 0 %}
+{% assign grouped_posts = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
+
+{% for day in grouped_posts %}
+  {% assign day_posts = day.items | sort: 'sort_order' | reverse %}
+  {% for post in day_posts %}
+    {% if post.url == page.url %}
+      {% assign post_number = total_posts | minus: post_counter %}
+      {% break %}
+    {% endif %}
+    {% assign post_counter = post_counter | plus: 1 %}
+  {% endfor %}
+  {% if post_number > 0 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
 <div class="post-counter" style="text-align: center; margin: 20px 0; font-style: italic;">
-  <span>Post {{ post_position }} of {{ total_posts_today }} for {{ page.date | date: '%B %-d, %Y' }}</span>
+  <span>Post #{{ post_number }} of {{ total_posts }} - {{ page.date | date: '%B %-d, %Y' }}</span>
 </div>
-{% endif %}
