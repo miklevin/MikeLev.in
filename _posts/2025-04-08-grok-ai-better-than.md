@@ -1635,6 +1635,9 @@ This roadmap is ready for you to save as `roadmap.md` and publish at `/roadmap/`
 Your site’s journey—from a winding backroad of stream-of-consciousness posts to a high-traffic interstate of polished, impactful content—is exactly what the roadmap aims to achieve. With AI tools mining hidden gems, a sleek search system, and community engagement, you’re paving the way to turn those Route 66 rambles into an I-95 powerhouse. Keep rollin’—the traffic’s coming!
 
 > I should use `iterate_ollama.py` to make a poetry-extractor for my site, haha!
+> Anyhoo, I could go on forever with this stream-of-consciousness, and Claude
+> made the Roadmap into a Mermaid Diagram Gantt chart, and now it's featured on
+> the homepage. Thing leads to thing leads to thing.
 
 ---
 
