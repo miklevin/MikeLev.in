@@ -506,7 +506,10 @@ generous in giving out advice, and vibed different.
 ## Dumps All 213 Articles On Grok As `foo.txt`
 
 > Okay, so I asked Grok to crawl the site and it got a smattering of pages.
-> Later that day, I test my `context_foo.py` on Grok again:
+> Later that day, I test my `context_foo.py` on Grok again. Specifically, this
+> means I upload a single text-file to grok that is a concatenation of all my
+> site's blog posts — all stacked vertically like one long page: `foo.txt`.
+> Context Foo. Get it?
 
 **Me**: I can use that context foo trick to dump the whole 213 articles on you as a single textfile attachment. Wanna see?
 
