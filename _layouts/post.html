@@ -12,12 +12,54 @@ Change this value to switch between absolute and relative URLs:
 
 {% capture url_base %}{% if use_absolute_urls %}https://mikelev.in{% else %}{% endif %}{% endcapture %}
 
+{% comment %}
+Create a flat index of all posts in the correct sort order (same as in list.md)
+{% endcomment %}
+{% assign sorted_posts = site.posts | sort: 'date' %}
+{% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
+{% assign total_posts = site.posts.size %}
+
+{% assign flat_index = "" | split: "" %}
+{% for day in grouped_posts %}
+  {% assign day_posts = day.items | sort: 'sort_order' | reverse %}
+  {% for post in day_posts %}
+    {% assign flat_index = flat_index | push: post %}
+  {% endfor %}
+{% endfor %}
+
+{% comment %}
+Find current post's position in the flat index
+{% endcomment %}
+{% assign current_position = -1 %}
+{% for idx_post in flat_index %}
+  {% if idx_post.url == page.url %}
+    {% assign current_position = forloop.index0 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+Determine prev and next posts in the flat index
+{% endcomment %}
+{% assign custom_prev = nil %}
+{% assign custom_next = nil %}
+
+{% if current_position > 0 %}
+  {% assign prev_position = current_position | minus: 1 %}
+  {% assign custom_prev = flat_index[prev_position] %}
+{% endif %}
+
+{% if current_position < flat_index.size | minus: 1 %}
+  {% assign next_position = current_position | plus: 1 %}
+  {% assign custom_next = flat_index[next_position] %}
+{% endif %}
+
 <nav class="post-navigation top-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
-  {% if page.previous %}
+  {% if custom_prev %}
     <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Previous Post</span>
-      <a href="{{ url_base }}{{ page.previous.url }}" itemprop="item">
-        <span itemprop="name">{{ page.previous.title }}</span>
+      <a href="{{ url_base }}{{ custom_prev.url }}" itemprop="item">
+        <span itemprop="name">{{ custom_prev.title }}</span>
       </a>
       <meta itemprop="position" content="1" />
     </div>
@@ -33,11 +75,11 @@ Change this value to switch between absolute and relative URLs:
     <meta itemprop="position" content="2" />
   </div>
   
-  {% if page.next %}
+  {% if custom_next %}
     <div class="next-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Next Post</span>
-      <a href="{{ url_base }}{{ page.next.url }}" itemprop="item">
-        <span itemprop="name">{{ page.next.title }}</span>
+      <a href="{{ url_base }}{{ custom_next.url }}" itemprop="item">
+        <span itemprop="name">{{ custom_next.title }}</span>
       </a>
       <meta itemprop="position" content="3" />
     </div>
@@ -112,12 +154,12 @@ Change this value to switch between absolute and relative URLs:
   "@type": "BreadcrumbList",
   "itemListElement": [
     {% assign position = 1 %}
-    {% if page.previous %}
+    {% if custom_prev %}
     {
       "@type": "ListItem",
       "position": {{ position }},
-      "name": {{ page.previous.title | jsonify }},
-      "item": "{{ site.url }}{{ page.previous.url }}"
+      "name": {{ custom_prev.title | jsonify }},
+      "item": "{{ site.url }}{{ custom_prev.url }}"
     },
     {% assign position = position | plus: 1 %}
     {% endif %}
@@ -127,13 +169,13 @@ Change this value to switch between absolute and relative URLs:
       "name": "Home",
       "item": "{{ site.url }}"
     }
-    {% if page.next %},
+    {% if custom_next %},
     {% assign position = position | plus: 1 %}
     {
       "@type": "ListItem",
       "position": {{ position }},
-      "name": {{ page.next.title | jsonify }},
-      "item": "{{ site.url }}{{ page.next.url }}"
+      "name": {{ custom_next.title | jsonify }},
+      "item": "{{ site.url }}{{ custom_next.url }}"
     }
     {% endif %}
   ]
@@ -141,11 +183,11 @@ Change this value to switch between absolute and relative URLs:
 </script>
 
 <nav class="post-navigation bottom-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
-  {% if page.previous %}
+  {% if custom_prev %}
     <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Previous Post</span>
-      <a href="{{ url_base }}{{ page.previous.url }}" itemprop="item">{{ page.previous.title }}</a>
-      <meta itemprop="name" content="{{ page.previous.title }}">
+      <a href="{{ url_base }}{{ custom_prev.url }}" itemprop="item">{{ custom_prev.title }}</a>
+      <meta itemprop="name" content="{{ custom_prev.title }}">
       <meta itemprop="position" content="1" />
     </div>
   {% else %}
@@ -159,11 +201,11 @@ Change this value to switch between absolute and relative URLs:
     <meta itemprop="position" content="2" />
   </div>
   
-  {% if page.next %}
+  {% if custom_next %}
     <div class="next-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Next Post</span>
-      <a href="{{ url_base }}{{ page.next.url }}" itemprop="item">{{ page.next.title }}</a>
-      <meta itemprop="name" content="{{ page.next.title }}">
+      <a href="{{ url_base }}{{ custom_next.url }}" itemprop="item">{{ custom_next.title }}</a>
+      <meta itemprop="name" content="{{ custom_next.title }}">
       <meta itemprop="position" content="3" />
     </div>
   {% else %}
@@ -171,27 +213,8 @@ Change this value to switch between absolute and relative URLs:
   {% endif %}
 </nav>
 
-{% assign current_date = page.date | date: '%Y-%m-%d' %}
-{% assign posts_on_same_day = "" | split: "" %}
-{% for post in site.posts %}
-  {% assign post_date = post.date | date: '%Y-%m-%d' %}
-  {% if post_date == current_date %}
-    {% assign posts_on_same_day = posts_on_same_day | push: post %}
-  {% endif %}
-{% endfor %}
-
-{% assign posts_on_same_day_sorted = posts_on_same_day | sort: 'sort_order' %}
-{% assign post_position = 0 %}
-{% assign total_posts_today = posts_on_same_day.size %}
-
-{% for post in posts_on_same_day_sorted %}
-  {% if post.url == page.url %}
-    {% assign post_position = forloop.index %}
-  {% endif %}
-{% endfor %}
-
 {% comment %}
-  Calculate post number using the same approach as index.md
+  Calculate post number using the same approach as list.md
 {% endcomment %}
 {% assign total_posts = site.posts.size %}
 {% assign post_counter = 0 %}
