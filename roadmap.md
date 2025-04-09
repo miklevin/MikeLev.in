@@ -35,6 +35,7 @@ gantt
     Develop Subjector Tool      :active, subjector, 2025-04-01, 60d
     Build Book Extractor        :book, 2025-05-01, 60d
     Create Poetry Extractor     :poetry, 2025-06-01, 60d
+    Generate Mermaid Diagrams   :mermaid, 2025-06-01, 90d
     Refine Extracted Content    :refine, 2025-07-01, 90d
     
     section Community
@@ -115,6 +116,10 @@ gantt
 - **Create Poetry Extractor**:  
   Develop a tool to identify and extract poetic content and rhythmic passages from posts, preserving the creative elements that emerge during stream-of-consciousness writing. This will help surface and showcase the artistic side of technical content.  
   *Priority: Low* | *Timeline: Q2-Q3 2025*
+
+- **Generate Mermaid Diagrams**:  
+  Extend `iterate_ollama.py` to analyze technical content and automatically generate relevant Mermaid diagrams, enhancing posts with visual representations of workflows, architectures, and processes. This will improve content comprehension and visual appeal across the site.  
+  *Priority: Medium* | *Timeline: Q2-Q3 2025*
 
 - **Refine Extracted Content**:  
   Implement a secondary processing phase that takes extracted content and refines it using AI, ensuring consistent quality and style across automatically generated articles and segments. This includes adding proper metadata, tags, and cross-references.  

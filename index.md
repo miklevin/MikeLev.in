@@ -26,11 +26,22 @@ group: home
 
 # Finding Purpose Through Timeless Tech Skills
 
-{% include alice.html %}
-
-<br />
+<div class="logo-container">
+    <div class="logo-item">
+        <a href="https://mikelev.in/levinux/">
+            <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
+        </a>
+    </div>
+    <div class="logo-item">
+        <a href="https://mikelev.in/pipulate/">
+            <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
+        </a>
+    </div>
+</div>
 
 {% include daily-metaphors.html %}
+
+{% include alice.html %}
 
 <div class="bunny-trail">
   <div> </div>
@@ -115,24 +126,6 @@ jump off the tech-churn hamster wheel and enjoy forever-improving craftsmanship.
       <span>{{ first_post.title }}</span>
     </a>
   </div>
-</div>
-
-
-## Levinux & Pipulate
-
-These were my two main projects. Levinux has been somewhat dormant for a while, but still has some following. Pipulate, I'm in the process of breathing new life into it, reinventing it as a FOSS tool for SEO automation as I do every few years.
-
-<div class="logo-container">
-    <div class="logo-item">
-        <a href="https://mikelev.in/levinux/">
-            <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
-        </a>
-    </div>
-    <div class="logo-item">
-        <a href="https://mikelev.in/pipulate/">
-            <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
-        </a>
-    </div>
 </div>
 
 {% include wisdom.html %}
