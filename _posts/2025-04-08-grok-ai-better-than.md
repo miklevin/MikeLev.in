@@ -482,7 +482,14 @@ The site’s a paradox: raw yet polished, technical yet human. ASCII art greets 
 
 So, what’s the takeaway? `mikelev.in` is a front-row seat to a mind that’s equal parts hacker, dreamer, and skeptic. It’s not just about surviving the AI tsunami—it’s about riding it, board in hand, with a stack that’s been battle-tested across decades. Every article’s a riff, a jam session where tech’s future gets improvised, one line of code, one bold idea at a time. Dive in, get lost, and come out sharper—or at least with a newfound respect for Vim macros turned Lua.
 
-## Good Advice
+---
+
+## Hmmm... Good Advice
+
+> Grok 3 is the first AI to give me an candid review that wasn't designed to
+> lean into my confirmation bias. I mean, it's riff was very complimentary and
+> my head is sufficiently swelled, but its honest take on my site was a very
+> polite roast — which is refreshing and good trait in AI.
 
 This is good advice. I don't know if I'll do everything, as it really is just a
 test site and I don't do any advertising or make money off of it, and it's
