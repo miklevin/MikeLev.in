@@ -3,7 +3,7 @@ title: "Beyond RAG: Integrating Python MCP Servers with a Local LLM"
 permalink: /futureproof/mcp-with-local-llm/
 description: "Exploring how my Python project, Pipulate, could integrate the Model Context Protocol (MCP) revealed a powerful path forward: instead of just being *like* MCP, my local Ollama LLM should act as an *MCP client*. This architecture allows the LLM to intelligently request specific, processed information (like simplified web page content) from dedicated, loosely coupled MCP servers on-the-fly, significantly enhancing its capabilities without bloating the core application, perfectly aligning with Pipulate's local-first, privacy-centric philosophy and potentially enabling a new wave of user-controlled, sovereign AI tooling."
 layout: post
-sort_order: 3
+sort_order: 4
 ---
 
 ## Python MCP With Local LLM

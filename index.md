@@ -53,11 +53,14 @@ group: home
 {% assign sorted_posts = site.posts | sort: 'date' %}
 {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
 {% assign first_post = sorted_posts | last %}
+{% assign latest_day = grouped_posts | first %}
+{% assign latest_posts = latest_day.items | sort: 'sort_order' | reverse %}
+{% assign latest_post = latest_posts | first %}
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
-    <a href="https://mikelev.in{{ first_post.url }}">
-      <span>{{ first_post.title }}</span>
+    <a href="https://mikelev.in{{ latest_post.url }}">
+      <span>{{ latest_post.title }}</span>
     </a>
     <span class="nav-label">Begin the Journey</span>
   </div>
@@ -112,8 +115,8 @@ coming alive beneath you.
   <div class="previous-post placeholder"></div>
   <div class="next-post">
     <span class="nav-label">Begin the Journey</span>
-    <a href="https://mikelev.in{{ first_post.url }}">
-      <span>{{ first_post.title }}</span>
+    <a href="https://mikelev.in{{ latest_post.url }}">
+      <span>{{ latest_post.title }}</span>
     </a>
   </div>
 </div>

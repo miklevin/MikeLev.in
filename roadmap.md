@@ -132,3 +132,9 @@ Thanks for joining me on this journey!
 ---
 
 *Last updated: April 2025*
+
+IDEAS
+
+- Home-hosting for access to web-logs
+- Live-streaming live web-log accessing (during the rise of AI crawlers)
+
