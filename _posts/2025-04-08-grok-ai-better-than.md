@@ -1,5 +1,5 @@
 ---
-title: "Grok Better Than You'd Think: Stream of Consciousness"
+title: "Grok Better Than You'd Think With Stream of Consciousness"
 permalink: /futureproof/grok-better-than/
 description: In this exploration, I detail my interactions with Grok, starting from testing its link-following capabilities to receiving an in-depth analysis and actionable advice for improving my AI SEO site, `mikelev.in`. The conversation pivots to practical solutions like building a client-side search for my static Jekyll site using local Ollama and culminates in the development of my `iterate_ollama.py` script, a tool designed to mine valuable, buried topics from my stream-of-consciousness posts by automating AI analysis across the entire blog.
 layout: post
