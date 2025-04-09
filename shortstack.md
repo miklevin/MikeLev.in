@@ -7,6 +7,16 @@ group: home
 
 # My Perspective on the Future-Proof Short Stack: LPvgn
 
+## LPvgn Stack: Linux, Python, vim & git — *now with nix!*
+
+<ul class="lpvg-list">
+  <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The universal foundation that runs beneath it all</li>
+  <li><code class="language-plaintext highlighter-rouge">`Python`</code>: The elegant language that automates the tedious</li>
+  <li><code class="language-plaintext highlighter-rouge">`vim`</code>: Where muscle memory meets programming artistry</li>
+  <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
+  <li><code class="language-plaintext highlighter-rouge">`nix`</code>: Solves the "not on my machine" problem</li>
+</ul>
+
 I champion a philosophy centered on enduring skills and a carefully curated set of tools designed to resist the relentless churn of the tech industry. On my website, mikelev.in, I share insights into this approach, particularly focusing on what I initially termed the LPvg stack – Linux, Python, vim, and git. I see these as fundamental and future-proof technologies. More recently, I've embraced Nix, adding another powerful dimension to this toolkit, which I now refer to as LPvgn, or simply the "short technology stack." Here, I'll outline my views on this evolved stack, explaining its benefits and overall value.
 
 ## Embracing the Counter-Revolution Against Technical Obsolescence 

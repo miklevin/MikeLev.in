@@ -12,6 +12,15 @@ group: home
   <img src="/pipulate.svg" alt="Pipulate Free & Open Source SEO with & for LLMs">
 </div>
 
+I'm building something exciting: an open-source SEO tool called Pipulate that
+combines the classic LPvgn tools with modern AI. It's a simple Python framework
+that harnesses AI's power while staying lightweight and hackable. This site
+documents the journey. Each post explores the intersection of timeless tech
+skills and emerging AI capabilities. I'm creating a living knowledge base that
+grows smarter over time — and sharing everything I learn along the way.
+Let's all jump off the tech-churn hamster wheel and enjoy forever-improving
+craftsmanship.
+
 ## What is Pipulate?
 
 Pipulate is the first local-first, single-tenant desktop app framework with built-in AI-assisted step-by-step workflows. It's designed to function somewhat like an Electron app but runs a full Linux subsystem within a folder (using Nix) for reproducibility on macOS, Linux, and Windows (via WSL). Its primary focus is enabling SEO practitioners and others to use AI-assisted, step-by-step workflows (ported from Jupyter Notebooks) without needing to interact directly with Python code. It also serves developers who build these workflows.

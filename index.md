@@ -26,20 +26,58 @@ group: home
 
 # Finding Purpose Through Timeless Tech Skills
 
+{% include daily-metaphors.html %}
+
+<div class="mermaid">
+gantt
+    title Follow Along With My Development
+    dateFormat YYYY-MM-DD
+    section Content Strategy
+    Extract and Refine Topics     :active, topics, 2025-04-01, 90d
+    Create "Start Here" Page      :start, 2025-07-01, 90d
+    LPvg Tutorials                :tutorials, 2025-04-01, 270d
+    AI Integration Case Studies   :cases, 2025-07-01, 90d
+    
+    section Site Structure
+    Implement Search             :active, search, 2025-04-01, 90d
+    Categorize Content           :cats, 2025-07-01, 90d
+    Tag System                   :tags, 2025-07-01, 90d
+    
+    section Technical
+    Integrate AI Tools           :active, aitools, 2025-04-01, 90d
+    Explore Server-Side Features :server, 2025-10-01, 90d
+    SEO Optimization            :active, seo, 2025-04-01, 365d
+    
+    section Content Extraction
+    Develop Subjector Tool      :active, subjector, 2025-04-01, 60d
+    Build Book Extractor        :book, 2025-05-01, 60d
+    Create Poetry Extractor     :poetry, 2025-06-01, 60d
+    Generate Mermaid Diagrams   :mermaid, 2025-06-01, 90d
+    Refine Extracted Content    :refine, 2025-07-01, 90d
+    
+    section Community
+    Enable Comments             :comments, 2025-07-01, 90d
+    Start Newsletter            :news, 2025-10-01, 90d
+    Highlight Contributions     :contrib, 2025-07-01, 90d
+    
+    section Projects
+    Evolve Pipulate            :active, pipulate, 2025-04-01, 365d
+    Document Chip O'Theseus    :chip, 2025-07-01, 90d
+    Explore New Projects       :new, 2025-10-01, 90d
+</div>
+
+**LPvgn** is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git, and nix. I use them daily to build AI and automation systems, but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years.
+
 <div class="logo-container">
     <div class="logo-item">
-        <a href="https://mikelev.in/levinux/">
-            <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
-        </a>
+          <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
     </div>
     <div class="logo-item">
-        <a href="https://mikelev.in/pipulate/">
-            <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
-        </a>
+          <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
     </div>
 </div>
 
-{% include daily-metaphors.html %}
+{% include wisdom.html %}
 
 {% include alice.html %}
 
@@ -61,33 +99,21 @@ group: home
   </div>
 </div>
 
-## LPvgn Stack: Linux, Python, vim & git — *now with nix!*
+## Future-proof Yourself In The Age of AI!
 
-> **LPvgn** is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git, and Nix. I use them daily to build AI and automation systems, but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts.
+Here's a giant list of links to my stream-of-consciousness tech blog! Don't
+worry, I'm organizing it with AI, labeling, refnining, and all that happy
+horseshit — making it searchable and giving it a wonderful drill-down hierarchy
+for LLM-assisted small-world-theory web crawls, making a wonderful user
+experience. Find all that stuff you're going to have to know or fall behind —
+with a half-century perspective that's not just following the flocking herd. You
+found it early, so feel free to wade through the raw mess and experience it
+coming alive beneath you.
 
-<ul class="lpvg-list">
-  <li><code class="language-plaintext highlighter-rouge">`Linux`</code>: The universal foundation that runs beneath it all</li>
-  <li><code class="language-plaintext highlighter-rouge">`Python`</code>: The elegant language that automates the tedious</li>
-  <li><code class="language-plaintext highlighter-rouge">`vim`</code>: Where muscle memory meets programming artistry</li>
-  <li><code class="language-plaintext highlighter-rouge">`git`</code>: Version control that makes your work immortal</li>
-  <li><code class="language-plaintext highlighter-rouge">`nix`</code>: The declarative package manager for reproducible environments</li>
-</ul>
-
-### Pipulate Free Open Source SEO Tool
-
-I'm building something exciting: an open-source SEO tool called Pipulate that
-combines these classic tools with modern AI. It's a simple Python framework that
-harnesses AI's power while staying lightweight and hackable. This site documents
-the journey. Each post explores the intersection of timeless tech skills and
-emerging AI capabilities. I'm creating a living knowledge base that grows
-smarter over time &#151; and sharing everything I learn along the way. Let's all
-jump off the tech-churn hamster wheel and enjoy forever-improving craftsmanship.
-
-### The Tech Journal
-
-> These are stream of consciousness articles and not for the feint of heart.
-> Distilling it with the help of AI into a forever well-organized organically
-> growing book is one of the projects you're witnessing taking place here.
+> If you're ramblin and a rollin down the road out in the stix  
+> And then suddenly you realize that you're on route 66  
+> And the topics that you cover interest everyone alive  
+> Then perhaps you need more traffic like you're on I-95!  
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
@@ -127,5 +153,3 @@ jump off the tech-churn hamster wheel and enjoy forever-improving craftsmanship.
     </a>
   </div>
 </div>
-
-{% include wisdom.html %}
