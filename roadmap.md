@@ -14,32 +14,38 @@ This is a living document, and I'll update it as the site grows. Here's what's p
 <div class="mermaid">
 gantt
     title MikeLev.in Development Timeline
-    dateFormat  YYYY-MM-DD
+    dateFormat YYYY-MM-DD
     section Content Strategy
-    Extract and Refine Topics     :2025-04-01, 90d
-    Create "Start Here" Page      :2025-07-01, 90d
-    LPvg Tutorials                :2025-04-01, 270d
-    AI Integration Case Studies   :2025-07-01, 90d
+    Extract and Refine Topics     :active, topics, 2025-04-01, 90d
+    Create "Start Here" Page      :start, 2025-07-01, 90d
+    LPvg Tutorials                :tutorials, 2025-04-01, 270d
+    AI Integration Case Studies   :cases, 2025-07-01, 90d
     
     section Site Structure
-    Implement Search              :2025-04-01, 90d
-    Categorize Content            :2025-07-01, 90d
-    Tag System                    :2025-07-01, 90d
+    Implement Search             :active, search, 2025-04-01, 90d
+    Categorize Content           :cats, 2025-07-01, 90d
+    Tag System                   :tags, 2025-07-01, 90d
     
     section Technical
-    Integrate AI Tools            :2025-04-01, 90d
-    Explore Server-Side Features  :2025-10-01, 90d
-    SEO Optimization              :2025-04-01, 365d
+    Integrate AI Tools           :active, aitools, 2025-04-01, 90d
+    Explore Server-Side Features :server, 2025-10-01, 90d
+    SEO Optimization            :active, seo, 2025-04-01, 365d
+    
+    section Content Extraction
+    Develop Subjector Tool      :active, subjector, 2025-04-01, 60d
+    Build Book Extractor        :book, 2025-05-01, 60d
+    Create Poetry Extractor     :poetry, 2025-06-01, 60d
+    Refine Extracted Content    :refine, 2025-07-01, 90d
     
     section Community
-    Enable Comments               :2025-07-01, 90d
-    Start Newsletter              :2025-10-01, 90d
-    Highlight Contributions       :2025-07-01, 90d
+    Enable Comments             :comments, 2025-07-01, 90d
+    Start Newsletter            :news, 2025-10-01, 90d
+    Highlight Contributions     :contrib, 2025-07-01, 90d
     
     section Projects
-    Evolve Pipulate              :2025-04-01, 365d
-    Document Chip O'Theseus      :2025-07-01, 90d
-    Explore New Projects         :2025-10-01, 90d
+    Evolve Pipulate            :active, pipulate, 2025-04-01, 365d
+    Document Chip O'Theseus    :chip, 2025-07-01, 90d
+    Explore New Projects       :new, 2025-10-01, 90d
 </div>
 
 ---
@@ -93,6 +99,26 @@ gantt
 - **SEO Optimization**:  
   Leverage my SEO expertise to optimize the site for search engines, using structured data, meta tags, and internal linking. This will ensure the content reaches a broader audience and ranks well.  
   *Priority: Medium* | *Timeline: Ongoing*
+
+---
+
+## Content Extraction Tools
+
+- **Develop Subjector (Subject Matter Extractor)**:  
+  Enhance `iterate_ollama.py` to identify and extract well-addressed but buried topics from stream-of-consciousness posts, transforming them into standalone articles. This tool will help surface valuable technical content that deserves its own dedicated space.  
+  *Priority: High* | *Timeline: Q2 2025*
+
+- **Build Book Extractor**:  
+  Create a specialized extractor that identifies book-worthy content and potential chapters from blog posts, helping organize material for future publications. This will assist in transforming blog content into structured book material.  
+  *Priority: Medium* | *Timeline: Q2 2025*
+
+- **Create Poetry Extractor**:  
+  Develop a tool to identify and extract poetic content and rhythmic passages from posts, preserving the creative elements that emerge during stream-of-consciousness writing. This will help surface and showcase the artistic side of technical content.  
+  *Priority: Low* | *Timeline: Q2-Q3 2025*
+
+- **Refine Extracted Content**:  
+  Implement a secondary processing phase that takes extracted content and refines it using AI, ensuring consistent quality and style across automatically generated articles and segments. This includes adding proper metadata, tags, and cross-references.  
+  *Priority: High* | *Timeline: Q3 2025*
 
 ---
 
