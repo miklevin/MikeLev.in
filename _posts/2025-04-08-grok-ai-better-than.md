@@ -183,7 +183,7 @@ Levin’s philosophy of continuous evolution—embodied in his "Chip O'Theseus" 
 
 ---
 
-## Go to Grok When To Hear It Like It Is
+## Go to Grok When You Want To Hear It Like It Is
 
 > No pulling punches there. Grok has opinions! Okay, well then it should also
 > have advice. I challenge it to help.
