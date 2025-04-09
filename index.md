@@ -66,7 +66,7 @@ gantt
 
 # Finding Purpose Through Timeless Tech Skills
 
-**LPvgn** is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git & nix. I use them daily to build AI and automation systems — but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years. Whoops! You fell into a rabbit hole!
+**LPvgn** is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git & nix. I use them daily to build AI and automation systems — but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years. This may be a rabbit hole.
 
 <div class="logo-container">
     <div class="logo-item">
