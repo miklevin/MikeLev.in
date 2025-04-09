@@ -1,7 +1,7 @@
 ---
 title: "GitHub Pages & Jekyll: Solving Chronological Sorting for Multiple Daily Posts"
 permalink: /futureproof/github-pages-blog-arrows/
-description: In this post, I tackle a frustrating navigation issue I encountered on my Jekyll blog hosted with GitHub Pages, specifically when publishing multiple posts on the same day using a custom `sort_order` field. While the basic previous/next links initially seemed okay, the "latest post" link on my homepage defaulted to the *earliest* post of the most recent day, ignoring my intended order. After fixing that with refined Liquid logic (with some help from Claude AI), I realized the previous/next links *also* weren't correctly respecting the `sort_order` within the same day and were operating backward relative to my desired newest-to-oldest flow. The core of the article details the process and the final Liquid code—involving grouping, sorting, and creating a custom flat index—that resolved both issues, ensuring all navigation accurately reflects the true chronological and custom-sorted sequence of my posts.
+description: I address a navigation issue in my Jekyll blog when publishing multiple posts on the same day with a custom `sort_order` field. The "latest post" link on my homepage incorrectly pointed to the earliest post of the most recent day, and previous/next links weren't respecting the intended newest-to-oldest flow. Using refined Liquid logic with grouping, sorting, and a custom flat index, I solved both issues, ensuring all navigation properly reflects the chronological and custom-sorted sequence of posts.
 layout: post
 sort_order: 1
 ---
