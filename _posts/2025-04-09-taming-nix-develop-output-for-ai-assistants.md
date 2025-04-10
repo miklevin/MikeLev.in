@@ -986,6 +986,16 @@ cd ~/repos/pipulate && nix develop .#quiet --command bash -c "python server.py 2
 
 This is a perfect example of how Infrastructure as Code can be adapted to work better with AI tools. The multi-shell approach with `default` and `quiet` options gives you the best of both worlds - a nice interactive experience for yourself and a streamlined environment for AI assistants.
 
+---
+
+## Prompting Claude to Try What He Planned
+
+> So I took a proposal written by Gemini 2.5 and gave it to Claude 3.7 to
+> implement from within Cursor, and now that it's implemented I want it to run
+> it through its paces. And it did, very successfully. Were I to invest 100x the
+> effort, I would have screen captured it all for you. Suffice to say, it all
+> worked!
+
 **Me**: So, do some sort of test to finish out this article with glory!
 
 **Claude**: Let me demonstrate the power of the new `.#quiet` shell by running a clean test that shows the difference between the default shell and the quiet shell. I'll use Agent mode to run some real commands.
@@ -1040,12 +1050,12 @@ Your article demonstrates a practical, real-world solution to a specific challen
 
 ---
 
-I'll write an article about our work enhancing Nix flakes for AI code assistance.
-
-```bash
-cd ~/repos && ls -la
-```
 # Optimizing Nix Environments for AI Code Assistance: A Multi-Shell Approach
+
+> Somehow less than fully satisfied with that ending, and fresh after having
+> Claude update my 2 repos that maintain version of this Nix Flake, one for
+> traditional `pip` environments and one for the cool new `uv` package manager
+> manager.
 
 In modern development workflows, AI coding assistants have become invaluable tools for developers. However, these assistants face unique challenges when working in terminal environments, particularly with verbose output that can overwhelm their limited context windows. This article explores how we enhanced two Nix flake templates to create specialized environments optimized for both human developers and AI assistants.
 
