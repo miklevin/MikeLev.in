@@ -4,114 +4,138 @@ permalink: /search/
 layout: default
 ---
 
-<div id="search-container">
-  <input type="text" id="search-input" placeholder="Search blog posts...">
-  <div id="results-container"></div>
+<h1>Search Results</h1>
+
+<div id="full-search-container">
+  <input type="text" id="full-search-input" placeholder="Search blog posts..." value="{{ page.query }}">
+  <div id="full-results-container"></div>
 </div>
 
-<!-- Load lunr.js from a local path instead of CDN to avoid document.write -->
 <script>
-// Create a script element to load lunr.js
-const loadLunr = () => {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = "https://unpkg.com/lunr/lunr.js";
-    script.onload = resolve;
-    script.onerror = reject;
-    document.head.appendChild(script);
-  });
-};
-
-// Wait for DOM to be ready
-document.addEventListener('DOMContentLoaded', async function() {
-  try {
-    // Load lunr.js
-    await loadLunr();
-    
-    // Fetch the search index
-    const response = await fetch('/search.json');
-    const data = await response.json();
-    
-    // Initialize lunr with data
-    const idx = lunr(function() {
-      this.ref('url');
-      this.field('title', { boost: 10 });
-      this.field('content');
-      
-      // Only add these fields if they exist in the data
-      if (data.length > 0 && data[0].keywords) {
-        this.field('keywords', { boost: 5 });
-      }
-      
-      if (data.length > 0 && data[0].description) {
-        this.field('description', { boost: 2 });
-      }
-      
-      data.forEach(function(doc) {
-        // Add document to the index if it has required fields
-        if (doc.title && doc.url) {
-          this.add(doc);
-        }
-      }, this);
-    });
-    
-    // Store the index and data for later use
-    window.searchIndex = idx;
-    window.searchData = data;
-    
-    // Set up event listener for search input
-    document.getElementById('search-input').addEventListener('keyup', function() {
-      const query = this.value.trim();
-      const resultsContainer = document.getElementById('results-container');
-      
-      if (query === '') {
-        resultsContainer.innerHTML = '';
+document.addEventListener('DOMContentLoaded', function() {
+  // Check if lunr is already loaded from the site-wide search
+  const loadLunr = () => {
+    return new Promise((resolve, reject) => {
+      if (typeof lunr !== 'undefined') {
+        resolve();
         return;
       }
       
-      try {
-        const results = window.searchIndex.search(query);
+      const script = document.createElement('script');
+      script.src = "https://unpkg.com/lunr/lunr.js";
+      script.onload = resolve;
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
+  };
+
+  // Check for URL query parameter
+  const urlParams = new URLSearchParams(window.location.search);
+  const queryParam = urlParams.get('q');
+  
+  // Set input value from URL parameter if available
+  if (queryParam) {
+    document.getElementById('full-search-input').value = queryParam;
+  }
+
+  async function initSearch() {
+    try {
+      await loadLunr();
+      
+      // Fetch the search index
+      const response = await fetch('/search.json');
+      const data = await response.json();
+      
+      // Initialize lunr with data
+      const idx = lunr(function() {
+        this.ref('url');
+        this.field('title', { boost: 10 });
+        this.field('content');
         
-        if (results.length === 0) {
-          resultsContainer.innerHTML = '<p>No results found</p>';
-          return;
+        // Only add these fields if they exist
+        if (data.length > 0 && data[0].keywords) {
+          this.field('keywords', { boost: 5 });
         }
         
-        // Display results
-        resultsContainer.innerHTML = results
-          .map(result => {
-            const item = window.searchData.find(post => post.url === result.ref);
-            if (!item) return '';
-            
-            return `
-              <div class="search-result">
-                <h3><a href="${item.url}">${item.title}</a></h3>
-                <p class="date">${item.date}</p>
-                ${item.description ? `<p class="description">${item.description}</p>` : ''}
-                ${item.keywords ? `<p class="keywords"><small>Keywords: ${item.keywords}</small></p>` : ''}
-              </div>
-            `;
-          })
-          .join('');
-      } catch (error) {
-        console.error('Search error:', error);
-        resultsContainer.innerHTML = '<p>Search error occurred. Please try a different query.</p>';
+        if (data.length > 0 && data[0].description) {
+          this.field('description', { boost: 2 });
+        }
+        
+        data.forEach(function(doc) {
+          if (doc.title && doc.url) {
+            this.add(doc);
+          }
+        }, this);
+      });
+      
+      // Store the index and data for later use
+      window.fullSearchIndex = idx;
+      window.fullSearchData = data;
+      
+      // Set up event listener for search input
+      document.getElementById('full-search-input').addEventListener('keyup', performSearch);
+      
+      // Perform search immediately if query parameter exists
+      if (queryParam) {
+        performSearch();
       }
-    });
-  } catch (error) {
-    console.error('Failed to initialize search:', error);
-    document.getElementById('results-container').innerHTML = 
-      '<p>Search functionality could not be loaded. Please try again later.</p>';
+    } catch (error) {
+      console.error('Failed to initialize search:', error);
+      document.getElementById('full-results-container').innerHTML = 
+        '<p>Search functionality could not be loaded. Please try again later.</p>';
+    }
   }
+
+  function performSearch() {
+    const query = document.getElementById('full-search-input').value.trim();
+    const resultsContainer = document.getElementById('full-results-container');
+    
+    if (query === '') {
+      resultsContainer.innerHTML = '';
+      return;
+    }
+    
+    try {
+      const results = window.fullSearchIndex.search(query);
+      
+      if (results.length === 0) {
+        resultsContainer.innerHTML = '<p>No results found</p>';
+        return;
+      }
+      
+      // Display all results
+      resultsContainer.innerHTML = results
+        .map(result => {
+          const item = window.fullSearchData.find(post => post.url === result.ref);
+          if (!item) return '';
+          
+          return `
+            <div class="search-result">
+              <h3><a href="${item.url}">${item.title}</a></h3>
+              <p class="date">${item.date}</p>
+              ${item.description ? `<p class="description">${item.description}</p>` : ''}
+              ${item.keywords ? `<p class="keywords"><small>Keywords: ${item.keywords}</small></p>` : ''}
+            </div>
+          `;
+        })
+        .join('');
+    } catch (error) {
+      console.error('Search error:', error);
+      resultsContainer.innerHTML = '<p>Search error occurred. Please try a different query.</p>';
+    }
+  }
+
+  // Initialize search
+  initSearch();
 });
 </script>
 
 <style>
-  #search-container {
+  #full-search-container {
     margin: 20px 0;
   }
   
-  #search-input {
+  #full-search-input {
     width: 100%;
     padding: 10px;
     font-size: 16px;
@@ -120,8 +144,15 @@ document.addEventListener('DOMContentLoaded', async function() {
     margin-bottom: 20px;
   }
   
-  .search-result {
+  #full-results-container .search-result {
     margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+  
+  #full-results-container .search-result:hover {
+    background-color: rgba(0,0,0,0.02);
   }
   
   .search-result h3 {
