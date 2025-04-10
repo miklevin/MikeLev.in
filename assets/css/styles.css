@@ -750,7 +750,7 @@ header blockquote {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2em 0;
+  margin: .5em 0;
 }
 
 .previous-post,
