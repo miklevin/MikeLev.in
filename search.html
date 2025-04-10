@@ -9,50 +9,80 @@ layout: default
   <div id="results-container"></div>
 </div>
 
-<script src="https://unpkg.com/lunr/lunr.js"></script>
+<!-- Load lunr.js from a local path instead of CDN to avoid document.write -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Fetch the search index
-  fetch('/search.json')
-    .then(response => response.json())
-    .then(data => {
-      // Initialize lunr with data
-      const idx = lunr(function() {
-        this.ref('url')
-        this.field('title', { boost: 10 })
-        this.field('content')
-        this.field('keywords', { boost: 5 })
-        this.field('description', { boost: 2 })
-        
-        data.forEach(function(doc) {
-          this.add(doc)
-        }, this)
-      })
+// Create a script element to load lunr.js
+const loadLunr = () => {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = "https://unpkg.com/lunr/lunr.js";
+    script.onload = resolve;
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+};
+
+// Wait for DOM to be ready
+document.addEventListener('DOMContentLoaded', async function() {
+  try {
+    // Load lunr.js
+    await loadLunr();
+    
+    // Fetch the search index
+    const response = await fetch('/search.json');
+    const data = await response.json();
+    
+    // Initialize lunr with data
+    const idx = lunr(function() {
+      this.ref('url');
+      this.field('title', { boost: 10 });
+      this.field('content');
       
-      // Store the index and data for later use
-      window.searchIndex = idx
-      window.searchData = data
+      // Only add these fields if they exist in the data
+      if (data.length > 0 && data[0].keywords) {
+        this.field('keywords', { boost: 5 });
+      }
       
-      // Set up event listener for search input
-      document.getElementById('search-input').addEventListener('keyup', function() {
-        const query = this.value
-        const results = window.searchIndex.search(query)
-        const resultsContainer = document.getElementById('results-container')
-        
-        if (query === '') {
-          resultsContainer.innerHTML = ''
-          return
+      if (data.length > 0 && data[0].description) {
+        this.field('description', { boost: 2 });
+      }
+      
+      data.forEach(function(doc) {
+        // Add document to the index if it has required fields
+        if (doc.title && doc.url) {
+          this.add(doc);
         }
+      }, this);
+    });
+    
+    // Store the index and data for later use
+    window.searchIndex = idx;
+    window.searchData = data;
+    
+    // Set up event listener for search input
+    document.getElementById('search-input').addEventListener('keyup', function() {
+      const query = this.value.trim();
+      const resultsContainer = document.getElementById('results-container');
+      
+      if (query === '') {
+        resultsContainer.innerHTML = '';
+        return;
+      }
+      
+      try {
+        const results = window.searchIndex.search(query);
         
         if (results.length === 0) {
-          resultsContainer.innerHTML = '<p>No results found</p>'
-          return
+          resultsContainer.innerHTML = '<p>No results found</p>';
+          return;
         }
         
         // Display results
         resultsContainer.innerHTML = results
           .map(result => {
-            const item = window.searchData.find(post => post.url === result.ref)
+            const item = window.searchData.find(post => post.url === result.ref);
+            if (!item) return '';
+            
             return `
               <div class="search-result">
                 <h3><a href="${item.url}">${item.title}</a></h3>
@@ -60,12 +90,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 ${item.description ? `<p class="description">${item.description}</p>` : ''}
                 ${item.keywords ? `<p class="keywords"><small>Keywords: ${item.keywords}</small></p>` : ''}
               </div>
-            `
+            `;
           })
-          .join('')
-      })
-    })
-})
+          .join('');
+      } catch (error) {
+        console.error('Search error:', error);
+        resultsContainer.innerHTML = '<p>Search error occurred. Please try a different query.</p>';
+      }
+    });
+  } catch (error) {
+    console.error('Failed to initialize search:', error);
+    document.getElementById('results-container').innerHTML = 
+      '<p>Search functionality could not be loaded. Please try again later.</p>';
+  }
+});
 </script>
 
 <style>

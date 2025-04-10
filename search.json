@@ -7,9 +7,9 @@ layout: null
       "title": {{ post.title | jsonify }},
       "url": {{ post.url | relative_url | jsonify }},
       "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
-      "content": {{ post.content | strip_html | jsonify }},
-      {% if post.meta_keywords %}"keywords": {{ post.meta_keywords | jsonify }},{% endif %}
-      {% if post.meta_description %}"description": {{ post.meta_description | jsonify }}{% endif %}
+      "content": {{ post.content | strip_html | truncate: 5000 | jsonify }},
+      {% if post.meta_keywords %}"keywords": {{ post.meta_keywords | jsonify }}{% unless post.meta_description %} {% endunless %}{% endif %}
+      {% if post.meta_description %}{% if post.meta_keywords %},{% endif %}"description": {{ post.meta_description | jsonify }}{% endif %}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ] 
