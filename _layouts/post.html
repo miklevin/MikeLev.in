@@ -44,8 +44,9 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
 {% endcomment %}
 {% assign custom_prev = nil %}
 {% assign custom_next = nil %}
+{% assign max_index = flat_index.size | minus: 1 %}
 
-{% if current_position < flat_index.size | minus: 1 %}
+{% if current_position < max_index %}
   {% assign prev_position = current_position | plus: 1 %}
   {% assign custom_prev = flat_index[prev_position] %}
 {% endif %}
