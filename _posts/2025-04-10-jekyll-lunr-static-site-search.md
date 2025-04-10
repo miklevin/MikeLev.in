@@ -2,7 +2,7 @@
 title: Jekyll Lunr.JS Static Site Search (aka GitHub Pages Search)
 permalink: /futureproof/jekyll-lunr-static-site-search/
 description: In this piece, I walk through how I added powerful client-side search to my static Jekyll blog using Lunr.js, starting with the challenge of enriching over 200 posts with keywords and descriptions. I share my hands-on, human-in-the-middle process involving Vim macros and bouncing between Gemini, DeepSeek, and ChatGPT web UIs, detailing the quirks, quota hurdles, and the crucial role of human oversight. While navigating the hurry-up-and-wait nature of interacting with these AIs, I explore the unique cognitive demands of "flow-state multiplexing," before concluding with the successful AI-assisted implementation and debugging of the search feature itself using Claude, ultimately deciding to keep this raw chronicle intact and explore the flow-state concept further in a separate post.
-new_meta_description: Implement Lunr.js client-side search on Jekyll static sites. Details AI-assisted workflow using Claude for setup, coding, and debugging the search feature.
+meta_description: Implement Lunr.js client-side search on Jekyll static sites. Details AI-assisted workflow using Claude for setup, coding, and debugging the search feature.
 meta_keywords: Jekyll, Lunr.js, client-side search, static site search, search implementation, javascript search, search.json, AI assisted coding, Claude AI, site search setup, GitHub Pages search, blog search, human-in-the-middle AI, AI keywording, AI meta description, flow state multiplexing, Vim0
 layout: post
 sort_order: 1

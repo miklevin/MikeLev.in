@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} / {{ site.title }}</title>
-    <meta name="description" content="{{ page.description }}" />
-    <meta name="keywords" content="{{ page.keywords }}" />
+    <meta name="description" content="{{ page.meta_description | default: page.description }}" />
+    {% if page.meta_keywords %}<meta name="keywords" content="{{ page.meta_keywords }}" />{% elsif page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
     <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />
     <link rel="stylesheet" href="https://mikelev.in/assets/css/pico.classless.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">

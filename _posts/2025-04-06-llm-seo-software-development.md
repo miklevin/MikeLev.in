@@ -2,7 +2,7 @@
 title: "From Rabbit Holes to Roadmaps: Using LLMs for SEO Software Dev"
 permalink: /futureproof/llm-seo-software-development/
 description: During an ambitious coding session for my Pipulate project, I found myself stuck between multiple technical approaches and potential rabbit holes. Rather than getting lost in endless research, I consulted multiple AI assistants (Gemini, Grok, ChatGPT, and Claude) through a custom context prompt to help prioritize my next steps. This collaborative process helped me identify implementing vector embeddings as the crucial next feature to give my AI assistant persistent memory, providing clarity on the immediate path forward despite limited coding time.
-new_meta_description: Learn how LLMs guide SEO software development by prioritizing tasks, avoiding rabbit holes, and creating clear, actionable roadmaps.
+meta_description: Learn how LLMs guide SEO software development by prioritizing tasks, avoiding rabbit holes, and creating clear, actionable roadmaps.
 meta_keywords: LLM SEO, AI development, SEO software, decision-making, vector embeddings, AI-assisted coding, Pipulate, agent mode, roadmap planning, context prompts, chip O'Theseus, avoiding rabbit holes, search optimization, AI guidance
 layout: post
 sort_order: 2
