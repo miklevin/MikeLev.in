@@ -620,37 +620,37 @@ The output seen by the AI will now start *directly* with the output from `python
 
 Here's a revised set of rules incorporating these changes:
 
-# NixOS Configuration Access Rules (Revised)
+    # NixOS Configuration Access Rules (Revised)
 
-## Source Location
-- PRIMARY: `/home/mike/repos/pipulate/*`
-- All edits MUST target the repo location directly.
+    ## Source Location
+    - PRIMARY: `/home/mike/repos/pipulate/*`
+    - All edits MUST target the repo location directly.
 
-## Environment Setup & Command Execution
-- The project uses Nix flakes for environment management.
-- **For interactive use (human):** Run `nix develop` or `nix develop .#default` from `/home/mike/repos/pipulate`. This provides a user-friendly setup.
-- **For running commands via tool (AI):**
-    - Use the `quiet` development shell to avoid verbose welcome messages that obscure command output.
-    - **Template:** `cd ~/repos/pipulate && pkill -f "<process_pattern>" || true && nix develop .#quiet --command <command_to_run>`
-    - **Example (Running server):** `cd ~/repos/pipulate && pkill -f "python server.py" || true && nix develop .#quiet --command python server.py`
-    - **Process Management:** Always include `pkill -f "<process_pattern>" || true` before starting long-running processes like servers to terminate previous instances left by potentially incomplete tool runs. Replace `<process_pattern>` with the relevant command string (e.g., `"python server.py"`).
-- Work exclusively in `~/repos/pipulate`.
-- Use relative paths from the repo root (`~/repos/pipulate`).
+    ## Environment Setup & Command Execution
+    - The project uses Nix flakes for environment management.
+    - **For interactive use (human):** Run `nix develop` or `nix develop .#default` from `/home/mike/repos/pipulate`. This provides a user-friendly setup.
+    - **For running commands via tool (AI):**
+        - Use the `quiet` development shell to avoid verbose welcome messages that obscure command output.
+        - **Template:** `cd ~/repos/pipulate && pkill -f "<process_pattern>" || true && nix develop .#quiet --command <command_to_run>`
+        - **Example (Running server):** `cd ~/repos/pipulate && pkill -f "python server.py" || true && nix develop .#quiet --command python server.py`
+        - **Process Management:** Always include `pkill -f "<process_pattern>" || true` before starting long-running processes like servers to terminate previous instances left by potentially incomplete tool runs. Replace `<process_pattern>` with the relevant command string (e.g., `"python server.py"`).
+    - Work exclusively in `~/repos/pipulate`.
+    - Use relative paths from the repo root (`~/repos/pipulate`).
 
-## Output Interpretation
-- When using `nix develop .#quiet --command ...`, you will **not** see the usual welcome banner (ASCII art, pip messages).
-- You **will** see the direct standard output and standard error from the `<command_to_run>`. Prioritize analyzing this direct output.
+    ## Output Interpretation
+    - When using `nix develop .#quiet --command ...`, you will **not** see the usual welcome banner (ASCII art, pip messages).
+    - You **will** see the direct standard output and standard error from the `<command_to_run>`. Prioritize analyzing this direct output.
 
-## System Updates
-- Save code changes in the repo location (`~/repos/pipulate`).
-- System rebuilds (`nixos-rebuild switch`, etc.) must be run by the user in an external terminal. Do not attempt system rebuilds.
-- Let NixOS symlinks handle system-level access based on the user's configuration.
+    ## System Updates
+    - Save code changes in the repo location (`~/repos/pipulate`).
+    - System rebuilds (`nixos-rebuild switch`, etc.) must be run by the user in an external terminal. Do not attempt system rebuilds.
+    - Let NixOS symlinks handle system-level access based on the user's configuration.
 
-## Nix Environment Detection Guide (Keep As Is)
-* (Include the previous detection guide: env vars, PATH, prompt, `type nix`, Python paths, etc.)*
+    ## Nix Environment Detection Guide (Keep As Is)
+    * (Include the previous detection guide: env vars, PATH, prompt, `type nix`, Python paths, etc.)*
 
-## Best Practice (Keep As Is, Emphasize Quiet Shell for Tools)
-* (Include previous best practices, but reiterate using `nix develop .#quiet --command ...` for tool execution)*
+    ## Best Practice (Keep As Is, Emphasize Quiet Shell for Tools)
+    * (Include previous best practices, but reiterate using `nix develop .#quiet --command ...` for tool execution)*
 
 ---
 
