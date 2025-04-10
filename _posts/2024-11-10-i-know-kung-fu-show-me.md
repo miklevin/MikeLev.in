@@ -2,6 +2,8 @@
 title: I Know Kung Fu... Show Me!
 permalink: /futureproof/i-know-kung-fu-show-me/
 description: Explore how AI assistance and strategic prompt injection enabled mastery of complex BQL API integration, setting the stage for ambitious GPU-powered website visualization goals.
+meta_description: "Master Botify BQL API with AI help: Python script finds optimal depth & exports link graphs, enabled by prompt injection context."
+meta_keywords: Botify API, BQL, BQLv2, API Query, API Export, Link Graph, Python, Jupyter Notebook, AI Assistant, Hot Prompt Injection, Optimal Depth, Edge Count, API Rate Limit, Export Job, Polling, CSV Export, Prompt Context, Link Graph Visualization, Workflow, Muscle Memory
 layout: post
 sort_order: 1
 ---

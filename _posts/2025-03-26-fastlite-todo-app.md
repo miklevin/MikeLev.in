@@ -2,6 +2,8 @@
 title: Extracting FastHTML fastlite Todo App
 permalink: /futureproof/fastlite-todo-app/
 description: In this post, I walk through the process of extracting a tightly-coupled Todo application from my Pipulate project, which leverages Jeremy Howard's FastHTML and its convenient `fast_app` factory. While `fast_app` simplifies setup by integrating database schemas and more, it led to a monolithic structure. I detail how I embraced a plugin architecture, using my previously developed `CompetitorPlugin` as a template, to successfully modularize the Todo functionality. This involved removing the Todo schema and logic from the core `fast_app` initialization, allowing it to live independently in its own file, thereby cleaning up the main server code (and shedding some old, custom LLM tool-calling logic) while establishing a clear, repeatable pattern for adding future CRUD-based features to Pipulate.
+meta_description: Modularize your FastHTML fastlite Todo app by decoupling it from Pipulate with a flexible, plugin-based architecture.
+meta_keywords: FastHTML, fastlite, Todo app, Pipulate, plugin architecture, Python plugins, modular web apps, CompetitorPlugin, CRUD, refactoring, decoupling, Python web framework
 layout: post
 sort_order: 1
 ---

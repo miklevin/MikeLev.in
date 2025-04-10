@@ -2,6 +2,8 @@
 title: Replacing `pip` In Python Nix Flake With `uv`
 permalink: /futureproof/python-nix-flake-uv/
 description: I decided to ditch the old `pip` and `virtualenv` combo in my Python Nix Flake and embrace `uv`, the new hotness in dependency management, after seeing it pop up in AI projects like MCP and OpenManus. This article walks you through my journey of updating the Nix Flake, showing you how to streamline your Python environments for speed and efficiency, and ultimately getting JupyterLab up and running like a charm. It's all about keeping up with the latest tools and making development smoother, especially when you're diving into cutting-edge AI stuff.
+meta_description: Modernize your Python Nix Flake by replacing pip/virtualenv with uv for faster dependency management and swift JupyterLab launches—ideal for AI projects.
+meta_keywords: Python Nix Flake, uv, dependency management, virtual environments, pip replacement, JupyterLab, cross-platform, nix flakes, modern Python tooling, AI development
 layout: post
 sort_order: 1
 ---

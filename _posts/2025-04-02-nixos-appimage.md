@@ -2,6 +2,8 @@
 title: "NixOS Bleeding Edge: Using AppImage When Repos Fall Behind"
 permalink: /futureproof/nixos-appimage/
 description: "While I rely on NixOS for its rock-solid stability, keeping essential bleeding-edge apps like Cursor updated faster than Nixpkgs allows required some real workarounds. This article presents my practical solution: using vendor-provided AppImages managed directly through a Nix activation script for automatic fetching during rebuilds and basic desktop integration, complete with a toggle to switch back to the repo version when needed. To give the full picture, I've shared both the refined how-to guide for this approach and the complete, messy backstory of trial-and-error—the 'sausage factory'—that got me here, detailing all the steps, missteps, and thinking along the way."
+meta_description: Stay on the bleeding edge with NixOS by auto-fetching vendor AppImages during rebuilds for seamless desktop integration and update control.
+meta_keywords: NixOS, AppImage, bleeding edge, Nixpkgs, auto-fetch, desktop integration, activation script, vendor AppImage, system rebuild, update toggle, Linux, reproducible configuration
 layout: post
 sort_order: 1
 ---

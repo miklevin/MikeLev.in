@@ -2,6 +2,8 @@
 title: From Jupyer Notebooks to FastHTML with WebSockets
 permalink: /futureproof/jupyter-notebooks-fasthtml/
 description: I've been working in Jupyter Notebooks for years and love the flexibility they provide, but collaborating and scaling projects with them can be a challenge.  I'm excited to get back into web development with tools like FastHTML that simplify the process, and I'm particularly interested in using WebSockets to handle long-running tasks in my applications.  My goal is to create a streamlined workflow that combines the rapid prototyping of Jupyter Notebooks with the power and accessibility of web applications, all while maintaining a clean and manageable codebase.
+meta_description: Use WebSockets in FastHTML to manage long-running asynchronous tasks and stream real-time progress updates to the user interface.
+meta_keywords: FastHTML, WebSockets, long-running tasks, background tasks, streaming updates, asynchronous, asyncio, Python web framework, HTMX, Starlette, real-time communication, no-build workflow, WebSockets vs ZeroMQ, FastHTML vs JS frameworks, Jupyter Notebook migration, Nix Flake
 layout: post
 sort_order: 1
 ---

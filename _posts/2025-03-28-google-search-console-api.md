@@ -2,6 +2,8 @@
 title: "Deep Research of the Google Search Console API"
 permalink: /futureproof/google-search-console-api/
 description: In this article, I've compiled extensive research on how to build a Python script that leverages the Google Search Console API to identify "striking distance" keywords – those ranking just outside the top 10 with high potential for improvement. I delve into the intricacies of API authentication, data retrieval, and processing with Pandas, including merging with SEMrush data for enhanced insights. The goal is to create a robust and user-friendly workflow that can be integrated with LLMs for content optimization, ultimately aiming to automate and scale content improvements for significant SEO gains.
+meta_description: Harness Python and the Google Search Console API to uncover striking distance keywords—process data with Pandas and integrate SEMrush insights for optimized SEO.
+meta_keywords: Google Search Console API, Python SEO, striking distance keywords, Pandas data analysis, SEMrush integration, SEO automation, API authentication, search analytics, keyword research, content optimization
 layout: post
 sort_order: 3
 ---

@@ -2,6 +2,8 @@
 title: "NixOS Upgrade to Ollama 0.6.0: A Clean Rebuild Experience"
 permalink: /futureproof/nixos-upgrade-ollama/
 description: Alright, so I just upgraded my NixOS system to get the latest Ollama, and it's a bit of an adventure! Basically, NixOS rebuilds your entire system from scratch with each upgrade, ensuring a clean, consistent setup. It's like a fresh install every time, thanks to its unique flat file-system. While it takes longer than a typical update, the stability and rollback capabilities are totally worth it, avoiding the usual cruft and dependency issues. Plus, I got to write this whole article while waiting for the rebuild!
+meta_description: Upgrade NixOS effortlessly with Ollama 0.6.0 – experience a clean, deterministic system rebuild with robust rollback and stability.
+meta_keywords: NixOS upgrade, Ollama 0.6.0, system rebuild, flat file system, deterministic OS, rollback, clean install, reproducible system, Linux update, NixOS rebuild
 layout: post
 sort_order: 1
 ---

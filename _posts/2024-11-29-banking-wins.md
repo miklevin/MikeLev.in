@@ -2,6 +2,8 @@
 title: "Future-Proof Your Tech Career: The No Take-Back Guide to Winning in a World of Churn"
 permalink: /futureproof/banking-wins/
 description: The tech world is in constant flux, but I'm not just keeping up – I'm charting my own course. This guide is my roadmap to a future-proof tech career, where I call the shots. It's about mastering the skills that endure, building a foundation that lasts, and escaping the clutches of obsolescence. I'm diving deep into timeless technologies, personal branding, and the power of saying "no" to the trends that can derail a career. If you're ready to navigate the tech landscape with confidence and purpose, join me. This is my journey to win in tech, on my own terms.
+meta_description: "Transform endless busywork into a state of flow with an AI-powered SEO tool that turns Sisyphus’ struggle into digital innovation."
+meta_keywords: busywork trap, flow state, AI SEO, dedumbing Sisyphus, antifragility, minimalist tech, local LLMs, tech perseverance, digital innovation
 layout: post
 sort_order: 1
 ---

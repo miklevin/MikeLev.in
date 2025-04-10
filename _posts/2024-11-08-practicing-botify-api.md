@@ -2,6 +2,8 @@
 title: Practicing the Botify API
 permalink: /futureproof/practicing-botify-api/
 description: Exploring the Botify API through Python notebooks, examining key concepts like Organizations, Projects, and Collections while considering the future of SEO in an AI-driven world.
+meta_description: "Practice Botify API with Python notebooks: Fetch projects, analyses, collections, fields & run BQLv2 queries/exports for SEO data analysis."
+meta_keywords: Botify API, API Practice, Python, Jupyter Notebook, BQL, BQLv2, API Query, API Export, requests, Pandas, Fetch Projects, Fetch Analyses, Fetch Collections, Fetch Fields, API Authentication, SEO Data, API Examples, API Discovery, DevTools Network Tab, PageWorkers
 layout: post
 sort_order: 2
 date: 2024-11-07

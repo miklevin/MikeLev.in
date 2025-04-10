@@ -2,6 +2,8 @@
 title: How To Train Your LLM
 permalink: /futureproof/how-to-train-your-llm/
 description: Discover how to train your LLM to work with Botify Query Language (BQL) for efficient SEO analysis. This guide covers everything from understanding BQL's core concepts, such as collections, dimensions, and metrics, to building powerful queries, visualizing data, and integrating LLMs into your workflow with Python examples.
+meta_description: "Train LLMs like Botify BQL experts: Use curated docs (Jupyter>Markdown) & hot prompt injection for dynamic, just-in-time context."
+meta_keywords: Train LLM, LLM Training, Hot Prompt Injection, Kung Fu Download, LLM Context, Dynamic Context, Just-in-time Expertise, Botify API, BQL, BQLv2, Curated Documentation, Jupyter Notebook, Markdown, ipynb to md, jupytext, Ollama, Local LLM, AI Assistant, Python Contexts
 layout: post
 sort_order: 1
 ---

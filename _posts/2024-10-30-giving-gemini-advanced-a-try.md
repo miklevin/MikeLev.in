@@ -2,6 +2,8 @@
 title: Giving Gemini Advanced a Try
 permalink: /futureproof/giving-gemini-advanced-a-try/
 description: Exploring Gemini Advanced, I use fresh web logs each session to fine-tune API syntax and JSON commands for enhanced clarity in LLM interactions. By examining logs, adjusting placeholder syntax, and reformatting responses with real-world examples, I improve the LLM’s system prompts to support smoother CRUD operations and dynamic UI updates. Each step refines both the app and the model, helping me achieve real-time updates in the UI with precision.
+meta_description: "Debugging LLM 'Ghost In The Machine' actions in FastHTML/HTMX. Covers AI-assisted refactoring, enhanced logging via decorators & NixOS helper scripts."
+meta_keywords: LLM integration, Ghost In The Machine, command execution, debugging, AI code assist, Cursor AI, Gemini Advanced, FastHTML, HTMX, CRUD, logging decorator, functools, NixOS, helper script, writeShellScriptBin, code refactoring, Python
 layout: post
 sort_order: 1
 ---

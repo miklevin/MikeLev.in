@@ -2,6 +2,8 @@
 title: Soft Launching Botifython
 permalink: /futureproof/soft-launching-botifython/
 description: My journey upgrading Botifython's Pipulate fork with Nix flakes, transforming Jupyter Notebooks into web apps, and deploying to coworkers. From FOSS to proprietary shifts, embracing infrastructure as code, and automating SEO workflows—crafting tech with passion and precision.
+meta_description: "Soft launching Botifython: Finalizing Nix Flake config, Git auto-update via SSH, GitHub Pages deployment, and testing reproducible installation for rollout."
+meta_keywords: Botifython, soft launch, deployment, installation, Nix Flakes, Nix, reproducible environment, Determinate Systems, GitHub Pages, Git, auto-update, SSH config, FastHTML, Python, Infrastructure as Code, IaC, Jekyll, Pipulate
 layout: post
 sort_order: 1
 ---

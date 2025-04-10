@@ -2,6 +2,8 @@
 title: I Don't Know What to Do Sometimes
 permalink: /futureproof/i-dont-know-what-to-do-sometimes/
 description: "SPAs reshaped SEO, but I’ve adapted along the way. While I missed some chances, I still love coding, writing, and experimenting with tools like NixOS and GitHub Pages. Now, I’m channeling that energy into a new goal: converting my Jupyter Notebook workflow into a FastHTML-powered app, creating a seamless, interactive experience I can't wait to share."
+meta_description: "Simulate a Jupyter Notebook UI flow in FastHTML: Plan uses Card components for cell structure, aiding workflow porting from notebooks to web apps."
+meta_keywords: Jupyter Notebook, porting, FastHTML, UI simulation, Card component, workflow conversion, planning, web application, AI planning, Nix Flakes, Jekyll, GitHub Pages, Python, WET coding, SPA
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: HTML Over The Wire (vs. JSON)
 permalink: /futureproof/html-over-the-wire/
 description: Today, I took a deep dive into the world of FastHTML and HTMX, exploring their potential to revolutionize Python web development. I detailed how these tools enable the creation of dynamic web applications by sending HTML over the wire, eliminating the need for complex JavaScript frameworks and JSON APIs. Through a practical example, I demonstrated how to build a simple app that updates content dynamically with HTMX, showcasing the power of this approach for creating interactive user experiences with minimal code. I also discussed the mindset shift required to embrace this new paradigm, emphasizing clarity, explicitness, and the “WET” philosophy as keys to success.
+meta_description: Discover how FastHTML and HTMX enable dynamic web apps by sending HTML over the wire—cutting through JSON complexity with minimal JavaScript.
+meta_keywords: FastHTML, HTMX, HTML over the wire, Python web development, dynamic web apps, interactive UI, minimal JavaScript, server-side HTML, explicit rendering, web framework simplicity
 layout: post
 sort_order: 1
 ---

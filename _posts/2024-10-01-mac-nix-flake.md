@@ -2,6 +2,8 @@
 title: Melding a Mac and Linux Nix Flake
 permalink: /futureproof/mac-nix-flake/
 description: In this article, I chronicle my journey creating a versatile, cross-platform development environment using Nix flakes. I delve into the intricacies of building a system that seamlessly integrates JupyterLab, CUDA for GPU acceleration, Ollama for running large language models locally, and a FastHTML server, all while ensuring compatibility across Linux and macOS. I also discuss the challenges encountered when working with cutting-edge technologies and how Nix's robust package management system helped me overcome them.
+meta_description: Build & refine a cross-platform Nix Flake (Linux/macOS) for Python dev. Includes venv/pip setup, optional CUDA, and tmux scripting.
+meta_keywords: Nix Flake, cross-platform flake, Linux, macOS, flake.nix example, Python development environment, venv, pip install nix, CUDA, tmux, start stop scripts, shellHook, flake-utils, reproducible environment, JupyterLab, FastHTML, Ollama, Windows WSL
 layout: post
 sort_order: 1
 ---

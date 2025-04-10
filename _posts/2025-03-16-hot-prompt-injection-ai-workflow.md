@@ -2,6 +2,8 @@
 title: Hot Prompt Injection For AI Workflow Plugins
 permalink: /futureproof/hot-prompt-injection-ai-workflow/
 description: In this work session, I enhanced my web application framework by implementing hot prompt injection for workflow plugins. This allows each workflow to provide custom training to the integrated LLM, enabling contextual AI assistance. I also refined the workflow template, improved state management, and laid the groundwork for a more modular, maintainable system. Finally, I began developing a tutorial workflow to document the system itself, illustrating how to convert Jupyter Notebooks to FastHTML workflows.
+meta_description: Boost your AI workflows with hot prompt injection. Integrate custom training prompts into modular FastHTML workflows for contextual AI assistance.
+meta_keywords: hot prompt injection, AI workflow plugins, contextual AI assistance, modular web app, FastHTML, HTMX, Jupyter Notebook conversion, workflow templates, custom training prompts, pipeline automation, state management, integrated LLM
 layout: post
 sort_order: 3
 ---

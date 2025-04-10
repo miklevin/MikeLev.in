@@ -2,6 +2,8 @@
 title: BFF SEO dot BOT is Born
 permalink: /futureproof/bff-seo-dot-bot/
 description: Because I'll be best friend of LLM-directed real-time small-world-theory shallow click-depth crawlers by teaching people how to organize their sites well.
+meta_description: "BFF SEO dot BOT is born—an innovative project reimagining site organization with smart SEO, streamlined navigation, and local-first precision."
+meta_keywords: BFF SEO dot BOT, SEO, website organization, navigation, local-first, web improvement, content pipeline, server-side state, HTMX, FastHTML, RAG processes
 layout: post
 sort_order: 3
 ---

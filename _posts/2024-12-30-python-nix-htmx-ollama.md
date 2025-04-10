@@ -2,6 +2,8 @@
 title: A Single-File Local Web Framework, Powered by Python + Nix + HTMX + a Built-In LLM
 permalink: /futureproof/python-nix-htmx-ollama/
 description: It’s like an Electron app meets a local Jupyter environment, except it’s all Python + HTMX, installed by Nix, integrated with an on-device LLM for ephemeral or persistent tasks. A single user, single-file system that’s easy to hack and powerful to run—no cloud, no fuss.
+meta_description: "Discover a local-first, single-file web framework built with Python, Nix, HTMX, and an integrated on-device LLM for hackable, self-hosted apps."
+meta_keywords: Python, Nix, HTMX, local LLM, single-file framework, local-first, self-hosted, FastHTML, Unix pipes, Jupyter, DIY web framework, on-device AI, pipeline workflows
 layout: post
 sort_order: 1
 ---

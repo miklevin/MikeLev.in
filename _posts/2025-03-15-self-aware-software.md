@@ -2,6 +2,8 @@
 title: "The Self-Aware Software: A Glimpse Into Future Development"
 permalink: /futureproof/self-aware-software/
 description: This project, for me, is about crafting a future where software evolves beyond rigid frameworks. I've built a system that marries simplicity with the power of embedded LLMs, creating a local-first, transparent workflow. Each step is a self-contained cell, and an LLM actively observes and suggests improvements, fostering a kind of self-awareness. By ditching complex ORMs and client-side bloat for plain Python and HTMX, I'm aiming for agility and clarity. It's an experiment in making the invisible visible, a step towards self-evolving software, and a playground for creative, non-professional coders to explore the potential of AI.
+meta_description: Discover a groundbreaking local-first software system using embedded LLMs and minimal Python/HTMX for self-aware, self-evolving development.
+meta_keywords: self-aware software, embedded LLM, local-first development, minimal Python, HTMX, self-evolving code, AI workflow, introspective software, transparent automation, future software
 layout: post
 sort_order: 2
 ---

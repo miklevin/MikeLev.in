@@ -2,6 +2,8 @@
 title: It's About Delighting Customers
 permalink: /futureproof/its-about-delighting-clients/
 description: Through my experiences with AI and customer-focused methodologies inspired by Drucker and Deming, I've learned that technology's true worth is measured by its ability to delight clients. By prioritizing value from the customer's perspective and streamlining processes, I harness AI to create data-driven approaches that empower my clients to shine and engage their audiences effectively.
+meta_description: Prioritize customer delight (Drucker/Deming) in AI-assisted development. Refines workflow via Jupyter prototyping & structured client meeting prep.
+meta_keywords: Customer value, client focus, Peter Drucker, W. Edwards Deming, TQM, workflow optimization, Jupyter Notebook, prototyping, FastHTML, client meeting, planning, AI development, ActionBoard, PageWorkers, SEO, NixOS, Cialdini
 layout: post
 sort_order: 1
 ---

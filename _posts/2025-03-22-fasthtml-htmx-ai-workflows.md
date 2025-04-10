@@ -2,6 +2,8 @@
 title: "FastHTML HTMX AI Workflows: Embracing the WET"
 permalink: /futureproof/fasthtml-htmx-ai-workflows/
 description: I'm deep in the weeds of refactoring a workflow template for my Pipulate project. I'm moving from a DRY (Don't Repeat Yourself) approach to a WET (Write Everything Twice) one to gain more flexibility and control over individual workflow steps. This involves a lot of code cleanup, clarifying confusing naming conventions (especially around "steps"), and preparing for a big copy/paste job where I'll duplicate code to customize each step's behavior. I'm focusing on reducing cognitive overhead, especially with long dot notation, and ensuring I have a solid understanding of the existing code before I dive into the WET-ification. HTMX is key to making this all work.
+meta_description: Refactor AI workflows in Pipulate by embracing WET code with FastHTML and HTMX for explicit, customizable step-by-step development.
+meta_keywords: Pipulate, FastHTML, HTMX, WET coding, DRY vs WET, workflow refactoring, AI workflows, explicit customization, step-by-step development, code cleanup, cognitive overhead
 layout: post
 sort_order: 2
 ---

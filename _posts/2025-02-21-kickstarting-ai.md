@@ -2,6 +2,8 @@
 title: Kickstarting AI
 permalink: /futureproof/kickstarting-ai/
 description: I'm laying out a twenty-year plan to zero in on skills that'll keep me relevant, especially with AI's rapid growth. It's about balancing platform dependencies, understanding how API wrapping makes tech accessible, and seeing where AI's headed—from big data centers to local computing. I'm also thinking about wealth distribution, how history shapes our economy, and the evolving intelligence of AI, all while trying to build something truly valuable and unique that people will love. It's a lot to consider, but it's about setting a course for the long haul.
+meta_description: Chart a 20‐year plan for mastering enduring AI skills by balancing platform dependencies, API wrapping, and evolving intelligence.
+meta_keywords: twenty-year plan, AI skills, platform dependencies, API wrapping, long-term tech planning, Unix philosophy, local AI, sustainable skills, AI evolution, wealth distribution, hardware arms race, AI intelligence, distributed computing, free software, technological momentum
 layout: post
 sort_order: 1
 ---

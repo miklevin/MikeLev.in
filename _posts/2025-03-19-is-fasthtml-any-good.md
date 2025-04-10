@@ -2,6 +2,8 @@
 title: Is FastHTML Any Good?
 permalink: /futureproof/is-fasthtml-any-good/
 description: "I've built a framework leveraging FastHTML to turn Jupyter Notebooks into user-friendly web apps, hiding the Python code. This simplifies web development by using Python functions for HTML and integrating HTMX for dynamic updates without JavaScript. Pipulate, my open-source project, combines FastHTML with local LLMs and MiniDataAPI for efficient SEO automation. I aim to provide a simple, reproducible, and local-first approach, empowering users to build web apps and automate tasks without complex frameworks. FastHTML Rocks!"
+meta_description: Discover FastHTML’s Python-powered, JavaScript-free approach for building dynamic web apps with HTMX that simplify web development.
+meta_keywords: FastHTML, HTMX, Python, web development, dynamic web apps, JavaScript-free, interactive UI, workflow automation, Pipulate, local-first
 layout: post
 sort_order: 1
 ---

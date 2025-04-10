@@ -2,6 +2,8 @@
 title: "AI Stress Test: o1 Pro"
 permalink: /futureproof/ai-stress-test/
 description: This article details a collaborative coding session between the author and an AI language model, o1 Pro. The objective was to refactor a complex Python class into a more streamlined, pipeline-centric design. This involved breaking down a monolithic code structure into smaller, manageable steps, optimizing for clarity and reusability. The AI demonstrated proficiency in understanding the code's logic and iteratively refining it based on feedback, showcasing its potential as a valuable tool for software development and complex refactoring tasks.
+meta_description: Explore AI model o1 Pro in a stress test that refines a complex Python class into a modular, pipeline-based Botify API workflow.
+meta_keywords: ai stress test, o1 pro, python refactoring, pipeline workflow, botify api, modular design, pipulate, collaborative coding, fasthtml, api integration
 layout: post
 sort_order: 1
 ---

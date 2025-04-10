@@ -2,6 +2,8 @@
 title: "Refining Starter Flow: The Music of Chain Reactions"
 permalink: /futureproof/starter-flow/
 description: This article chronicles the refinement of my Starter Flow web framework, focusing on improving the clarity and maintainability of its core chain reaction mechanism. Initial attempts at implementing a persistence feature, which would allow users to see and edit previous input, led to complexity and violated the framework's design principles. With the help of my AI coding partner, Claude, we realized that the solution was to embrace my framework's server-side state management philosophy. This breakthrough dramatically reduced friction in the pipeline development process.
+meta_description: "Unlock the power of refined chain reactions in Starter Flow—a web framework using server-side state to simplify persistence and streamline pipeline workflows."
+meta_keywords: Starter Flow, chain reactions, server-side state, persistence, pipeline workflows, web framework, iterative refinement, HTMX, MiniDataAPI, AI-assisted development
 layout: post
 sort_order: 1
 ---

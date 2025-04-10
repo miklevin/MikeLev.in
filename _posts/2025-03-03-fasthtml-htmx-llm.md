@@ -2,6 +2,8 @@
 title: "Python FastHTML: The Ideal Web Framework for HTMX & LLMs"
 permalink: /futureproof/fasthtml-htmx-llm/
 description: In this entry, I'm wrestling with maintaining momentum on my Pipulate web framework project, realizing the crucial role of consistent writing and documentation in driving progress and clarity. I'm tackling mental blocks around Git branching, drafting a 'Getting Started Guide' for Pipulate, and exploring how this project aligns with my Ikigai, aiming to craft a 'loveworthy' system using HTML, Python, and HTMX. I also delve into the historical context of Python web frameworks, and experiment with making my code LLM-friendly, all while trying to stay focused and productive.
+meta_description: Discover how Python FastHTML with HTMX and LLM integration powers a loveworthy, documentation-driven web framework built on Pipulate and Ikigai principles.
+meta_keywords: Python, FastHTML, HTMX, LLM, Pipulate, web framework, Ikigai, documentation, consistent writing, developer momentum, Git branching, server-driven, local-first
 layout: post
 sort_order: 2
 ---

@@ -2,6 +2,8 @@
 title: "Function Calling for LLMs: A Deep Dive into Modern Approaches"
 permalink: /futureproof/function-calling-llms/
 description: I'm exploring how LLMs execute functions, realizing my homegrown method could benefit from industry standards. I've delved into OpenAI's API, Anthropic's MCP, and other techniques, aiming to modernize my approach while retaining flexibility for prompt-trained models. I'm focused on building a robust, secure system that bridges my current setup with emerging protocols.
+meta_description: Deep dive into LLM function calling protocols—from OpenAI's API to Anthropic's MCP—to build secure, flexible systems for external function execution.
+meta_keywords: LLM function calling, function execution, OpenAI API, Anthropic MCP, API protocol, secure integration, flexible system, external function execution, JSON schema, prompt training, tool invocation, LLM standards
 layout: post
 sort_order: 3
 ---

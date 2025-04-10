@@ -2,6 +2,8 @@
 title: Giving Grok 3 Another Chance
 permalink: /futureproof/giving-grok3-another-chance/
 description: This weekend, I tested Grok 3's ability to assist with a challenging coding project that involves converting Jupyter Notebooks into user-friendly web apps using FastHTML and HTMX. Unlike previous attempts with other LLMs, I opted for a focused approach, feeding Grok 3 curated code snippets instead of overwhelming it with the entire codebase upfront. This strategy proved effective, as Grok 3 demonstrated a remarkable ability to grasp the nuances of my project, including its unconventional, WET (Write Everything Twice) style and reliance on server-side state management. Through this iterative process, we explored the intricacies of my pipeline-based workflow system, addressed friction points, and refined a step-by-step guide for porting Notebooks into FastHTML, all while staying true to my preference for explicit, readable code and control over abstraction.
+meta_description: Tested Grok 3 for converting Jupyter Notebooks into FastHTML web apps using HTMX, achieving WET, server-driven workflows without over-engineering.
+meta_keywords: Grok 3, FastHTML, HTMX, Jupyter Notebooks, pipeline workflow, WET code, server-side state, Unix pipe, LLM assistance, iterative development, curated code
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: "Designing MCP for LLMs: A Scripted AI Context Approach"
 permalink: /futureproof/ai-context-mcp-llm/
 description: "I developed a Python script, `context_foo.py`, as my straightforward method for bundling large amounts of code and specific prompts from my projects into a single context file, easily pasted into large language models. This avoids complex RAG dependencies while letting me precisely control the context. I put it through its paces by feeding a large chunk of my Pipulate project to various frontier models (Gemini, Grok, ChatGPT, Claude), first asking for a general code analysis and then challenging them to design a Model Context Protocol (MCP) integration to empower my local Ollama LLM. The article details this process, includes the prompts and the extensive LLM responses, demonstrating the utility of this 'Context Foo' for tackling complex development planning and analysis."
+meta_description: Bundle your project code and prompts with a Python script that empowers local LLMs via MCP integration for precise AI analysis.
+meta_keywords: MCP integration, local LLM context, Python context script, context_foo, AI code analysis, model context protocol, AI development, Pipulate, token counting, manifest system
 layout: post
 sort_order: 2
 ---

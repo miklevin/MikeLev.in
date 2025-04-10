@@ -2,6 +2,8 @@
 title: "Refactoring Hell and Back: Integrating LLMs into a Plugin Architecture"
 permalink: /futureproof/integrating-llm-plugin-architecture/
 description: This weekend, I tackled a tricky refactoring challenge to get my LLM chatbot integration working correctly within my app's new plugin system. After realizing the global scope was preventing the LLM from communicating within plugins, I collaborated with Claude (an AI) to devise a plan, delving deep into Python's dependency injection patterns and confronting some confusing OOP conventions along the way. By breaking the problem into small, deliberate "chisel strikes," we successfully refactored the architecture, enabling both scripted and genuine LLM streaming across all plugin types, setting the stage for future development.
+meta_description: Refactor your plugin architecture to integrate LLMs seamlessly with robust dependency injection and improved global scope management.
+meta_keywords: refactoring, plugin architecture, LLM integration, dependency injection, global scope, Python OOP, plugin system, LLM streaming, chatbot integration, code refactoring, software architecture, AI integration
 layout: post
 sort_order: 2
 ---

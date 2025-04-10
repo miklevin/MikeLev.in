@@ -2,6 +2,8 @@
 title: LLM as Ambient App Intelligence
 permalink: /futureproof/llm-as-ambient-app-intelligence/
 description: In this article, I dive into the concept of LLMs as ambient intelligence, inspired by a conversation with Claude 3.5 through Cursor AI. I explore how integrating AI seamlessly into user interactions creates smarter workflows, allowing apps to learn and assist in real-time. As I transition from architecture to client focus, I reflect on how combining Drucker’s customer-first philosophy with Deming’s incremental improvement approach ensures AI remains a tool for delighting customers, not a distraction from what matters most.
+meta_description: "Explore ambient LLM intelligence in apps: Details streaming WebSocket chat via Python/FastHTML & prioritizing client value (Drucker/Deming) in AI dev."
+meta_keywords: Ambient intelligence, LLM integration, local LLM, user action logging, WebSocket streaming, FastHTML, Python, chat interface, client value, Peter Drucker, W. Edwards Deming, TQM, AI development, Claude 3.5 Sonnet, ASGI, incremental development, Architecture Astronaut
 layout: post
 sort_order: 1
 ---

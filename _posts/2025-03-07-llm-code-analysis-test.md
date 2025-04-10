@@ -2,6 +2,8 @@
 title: LLM Code Analysis Blind Taste Test
 permalink: /futureproof/llm-code-analysis-test/
 description: I pitted five LLMs against my unconventional single-tenant, localhost-bound Python codebase, designed for maximum developer ease and transparency. Grok 3 adapted well, ChatGPT o3-mini-high acknowledged the trade-offs, Anthropic Claude Sonnet 3.7 reframed it as a "desktop Python web shell," and DeepSeek R1 recognized the implications. This experiment highlights the importance of context in AI code analysis and the potential for human-AI collaboration in software development.
+meta_description: Explore five LLMs as they blindly test and analyze a unique single-tenant Python codebase, revealing developer insights and tradeoffs.
+meta_keywords: LLM, code analysis, blind taste test, Python, single-tenant, developer insights, AI review, code evaluation, unconventional codebase, human-AI collaboration
 layout: post
 sort_order: 2
 ---

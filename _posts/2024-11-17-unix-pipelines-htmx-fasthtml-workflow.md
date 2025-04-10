@@ -2,6 +2,8 @@
 title: Unix Pipeline Philosophy in HTMX + FastHTML Workflows
 permalink: /futureproof/unix-pipelines-htmx-fasthtml-workflow/
 description: "Unix Pipeline Philosophy in HTMX + FastHTML Workflows: Enhance your coding skills by embracing a Unix-inspired approach to building web applications with HTMX and FastHTML."
+meta_description: Embrace a Unix-inspired workflow in FastHTML and HTMX to simplify state management, persistence, and debugging in a single-tenant pipeline.
+meta_keywords: unix pipeline, htmx, fasthtml, workflow, state management, persistent logging, single-tenant, debugging, file system, progressive enhancement, agile web development, simple design
 layout: post
 sort_order: 2
 date: 2024-11-16

@@ -2,6 +2,8 @@
 title: Groking the NixOS Langauge
 permalink: /futureproof/nixos-language/
 description: This article explores the challenges a Python programmer faces when learning the NixOS system configuration language, which is based on functional programming principles. I seek to understand the declarative nature of Nix expressions, the syntax and semantics of the language, and the abstract data structures it employs. The article highlights the differences between Nix and imperative programming languages like Python, emphasizing the need for a shift in thinking to grasp the functional paradigm.
+meta_description: "Grokking the Nix language: Understand its functional syntax, attribute sets, and confusing curly brace usage, especially for Python developers."
+meta_keywords: Nix language, learn Nix, Nix syntax, functional programming, declarative language, attribute sets, Nix function arguments, pattern matching, curly braces, grok Nix, Nix tutorial, Nix for Python programmers, reproducibility, declarative configuration, configuration.nix, Python vs Nix
 layout: post
 sort_order: 1
 ---

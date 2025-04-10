@@ -2,8 +2,11 @@
 title: 80% Cost Reduction in AI Operations
 permalink: /futureproof/80-percent-cost-reduction-in-ai-operations/
 description: I'm exploring a new way to build software that uses AI to make things more efficient and cost-effective. I've created a system that combines different AI models, kind of like having a team of experts with different specialties. This system can learn and adapt over time, and I think it has the potential to change how we build software and make AI more accessible.
+meta_description: Discover how AI-native architecture with local/cloud LLM orchestration can reduce AI operational costs by 80% while enhancing privacy and scalability.
+meta_keywords: AI cost reduction, local LLM, cloud AI orchestration, dynamic prompt engineering, AI-native architecture, Ollama, FastHTML, HTMX, privacy-preserving AI, scalable AI systems
 layout: post
 sort_order: 1
+ai: deepseek
 ---
 
 ## AI Applications Get Smart and Cheaper with New Tech

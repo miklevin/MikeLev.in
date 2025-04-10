@@ -2,6 +2,8 @@
 title: "API, AI & Human Nuance: The Same Thing"
 permalink: /futureproof/api-ai-human-nuance/
 description: Explore the connections between APIs, AI, and human nuance in modern workflows. This article offers practical strategies for navigating technological subtleties, enhancing productivity, and building strong client relationships, all while balancing innovation with authentic interactions.
+meta_description: Navigating nuance in AI interactions (o1-preview), APIs (FastHTML/JS), & client work. Strategies for managing complexity & effective AI-assisted workflows.
+meta_keywords: Nuance, AI interaction, API design, human interaction, client management, workflow, productivity, AI limitations, o1-preview, FastHTML, complexity, planning, AI code assist, NixOS, Slack, Conway's Law
 layout: post
 sort_order: 1
 ---

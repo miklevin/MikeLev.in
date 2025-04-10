@@ -2,6 +2,8 @@
 title: "Escape the Tech Churn: Why Terminal and Vim Mastery Endures"
 permalink: /futureproof/tech-churn-vim-mastery/
 description: Sick of the tech hamster wheel constantly obsoleting your tools and hard-earned muscle memory? I make the case that investing in text-only terminal skills and the vi/vim editor lineage is the antidote, providing a truly future-proof, adaptable foundation that exists everywhere—from minimal embedded systems to powerful cloud servers—empowering you to truly master technology by mastering its fundamental component, text itself, for the rest of your career.
+meta_description: Master terminal and vi/vim skills to outlast tech churn—build a timeless, future-proof foundation that transcends fleeting IDE trends.
+meta_keywords: vi mastery, vim skills, terminal editing, text editor, tech churn, muscle memory, command line, future-proof, enduring skills, legacy computing, minimal interface
 layout: post
 sort_order: 1
 ---

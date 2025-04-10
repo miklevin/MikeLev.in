@@ -2,6 +2,8 @@
 title: SSE Makes Watchdog Necessary to Force Server Live-Reload
 permalink: /futureproof/sse-watchdog-force-live-reload/
 description: Waiting for connections to close? (CTRL+C to force quit?) Discover why adding SSE to FastHTML demands a more heavyweight solution for live-reloading, and how using a watchdog brings your dev environment back to life—Wile E. Coyote-style—with every file save.
+meta_description: Restore FastHTML/Uvicorn live-reload broken by SSE. Use Python watchdog to monitor files & force reliable server restarts for a smooth dev workflow.
+meta_keywords: FastHTML, live reload, auto restart, SSE, Server-Sent Events, watchdog, Uvicorn, Python, server restart, force restart, file monitoring, EventStream, fix live reload, ASGI, syntax check, dev workflow, developer productivity, ast, os.execv
 layout: post
 sort_order: 2
 ---

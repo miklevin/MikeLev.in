@@ -2,6 +2,8 @@
 title: "Solving Key Paralysis: Auto-Incrementing Composite Keys in Action"
 permalink: /futureproof/auto-incrementing-composite-keys/
 description: Working closely with my AI assistant, we tackled the 'key paralysis' problem by creating a smart, auto-incrementing composite key system (`profile-plugin-number`) specific to the user's profile and the application they're using; leveraging `MiniDataAPI` and `FastHTML`, we implemented a solution that automatically calculates and suggests the next sequential ID, significantly improving user experience with added refinements like a clearable search input and intelligent cursor positioning.
+meta_description: Eliminate key paralysis with a smart auto-incrementing composite key system that blends profile, plugin context, and sequential IDs for seamless UX.
+meta_keywords: key paralysis, auto-incrementing keys, composite keys, sequential ID, profile-plugin key, smart key generation, UX improvement, MiniDataAPI, FastHTML, database keys
 layout: post
 sort_order: 5
 ---

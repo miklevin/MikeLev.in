@@ -2,6 +2,8 @@
 title: Test SPA Endpoints (Single Page Applications in FastHTML) 
 permalink: /futureproof/test-spa-endpoints/
 description: This article details the development of a comprehensive testing suite for a FastHTML single-page application using Python's `unittest`. It covers endpoint testing, logging enhancements, and future plans for UI automation, ensuring the application’s reliability and robustness while showcasing code snippets for clarity.
+meta_description: Learn to create a comprehensive testing suite for FastHTML Single Page Application (SPA) endpoints using Python's unittest and requests library for robust backend validation.
+meta_keywords: FastHTML, SPA, Single Page Application, endpoint testing, unittest, Python testing, requests, test suite, backend testing, API testing, HTTP tests, CRUD, code quality, refactoring, rich console, loguru
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: "From Coleco Adam to NixOS: A Quest for a Deterministic System"
 permalink: /futureproof/coleco-adam-nixos/
 description: This article explores the journey of finding a stable and reliable computing environment, emphasizing the importance of deterministic systems like NixOS for long-term productivity and skill preservation. It touches upon the pitfalls of traditional approaches to system maintenance and the drawbacks of popular technologies like Docker and complex JavaScript frameworks.
+meta_description: Discover how a speed-chess mindset fuses quick habits with deliberate thought to drive smarter, rapid decision-making for both humans and AI.
+meta_keywords: speed chess, decision-making, habits, deliberate thought, AI adaptation, journaling, rapid decisions, cognitive flow, heuristics, RAG, adaptive learning
 layout: post
 sort_order: 1
 ---

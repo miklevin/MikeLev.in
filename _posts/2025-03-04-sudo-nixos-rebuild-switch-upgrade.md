@@ -2,6 +2,8 @@
 title: sudo nixos-rebuild switch --upgrade
 permalink: /futureproof/sudo-nixos-rebuild-switch-upgrade/
 description: "I've transitioned to NixOS, a game-changing OS powered by the Nix package manager, and I'm sharing my experience. Ditching the familiar worlds of Mac and Windows, I dove into Nix's deterministic system configurations, which solve the classic 'it works on my machine' headache. Learn about the essential sudo nixos-rebuild switch --upgrade command for seamless updates and explore how NixOS embodies 'Infrastructure as Code' through its configuration.nix file. I break down the Nix command structure, explaining subcommands and switches, and reveal why I believe NixOS is the future of portable and reliable software development."
+meta_description: Discover how 'sudo nixos-rebuild switch --upgrade' empowers NixOS with reproducible, portable system updates through Infrastructure as Code.
+meta_keywords: NixOS, sudo nixos-rebuild switch --upgrade, deterministic updates, Infrastructure as Code, nix, reproducible builds, configuration.nix, system upgrades, portable Linux, package management
 layout: post
 sort_order: 1
 ---

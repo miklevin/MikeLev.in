@@ -2,6 +2,8 @@
 title: Jupyter Notebooks in VSCode and Cursor AI
 permalink: /futureproof/jupyter-notebook-vscode-cursor/
 description: "I navigated the complexities of running Jupyter Notebooks within Cursor AI on NixOS, a niche setup that required a specific order of operations. By ensuring a running JupyterLab instance with an active kernel before launching Cursor, I unlocked seamless AI assistance for my notebooks. I also detailed how using Nix Flakes with Pipulate provides a robust and portable solution for running JupyterLab, even across different operating systems, overcoming the common hurdles faced by users in diverse environments."
+meta_description: Learn how to run Jupyter Notebooks in Cursor AI using Nix Flakes and Pipulate for seamless live kernel and AI-assisted coding on NixOS.
+meta_keywords: Jupyter Notebooks, Cursor AI, NixOS, Nix Flakes, Pipulate, live kernel, AI assistance, VSCode, JupyterLab, Python notebooks, notebook integration
 layout: post
 sort_order: 2
 ---

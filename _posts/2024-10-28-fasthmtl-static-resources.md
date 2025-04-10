@@ -2,6 +2,8 @@
 title: FastMTML Static Resources
 permalink: /futureproof/fasthtml-static-resources/
 description: Explore the FastHTML project, a Python-based framework embracing anti-patterns for simplicity and power. Dive into package initialization, global namespaces, and how HTMX equips the Python community with new web development superpowers, driving a unique approach that challenges conventional JavaScript frameworks like ReactJS.
+meta_description: "Manage static resources in FastHTML: Disable CDN defaults via `fast_app(default_hdrs=False)` and use `hdrs=(...)` for local JS/CSS includes."
+meta_keywords: FastHTML, static resources, local hosting, CSS, JavaScript, fast_app, hdrs parameter, default_hdrs, Script(), Link(), CDN, Python, HTMX, PicoCSS, offline app
 layout: post
 sort_order: 1
 ---

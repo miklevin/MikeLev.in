@@ -2,6 +2,8 @@
 title: "Static Site Generators: Your Secret Weapon for AI Content Strategy"
 permalink: /futureproof/static-site-generator-ai-content-strategy/
 description: Drawing on my decades in SEO and content, I reveal how static site generators fundamentally outperform traditional CMSs like WordPress for AI-powered analysis; their clean Markdown and YAML structure allows for what I call "Context Kung Fu," enabling you to feed large volumes of content directly into LLMs like Claude or Gemini far more efficiently, unlocking deep strategic insights into site architecture, content gaps, and intelligent linking that were previously impractical or impossible to achieve.
+meta_description: Unleash AI-driven content strategy with static site generators. Use clean Markdown and YAML for efficient LLM analysis and SEO breakthroughs.
+meta_keywords: static site generators, AI content strategy, LLM analysis, Markdown, YAML, SEO optimization, content gaps, site architecture, Context Kung Fu, intelligent linking, headless CMS, content strategy, digital marketing, AI analysis
 layout: post
 sort_order: 2
 ---

@@ -2,6 +2,8 @@
 title: Learning HTMX In Python For SEO
 permalink: /futureproof/learning-htmx/
 description: I'm reviving my SEO tool, Pipulate, for the LLM era, focusing on simple, linear workflows. It's about packaging the 'do-this, then-do-that' tedium of SEO tasks into a user-friendly, Python-powered experience. Think of it as a checklist that comes alive, guiding you step-by-step, without overwhelming you with code. I'm leveraging HTMX for a seamless web experience and Nix for consistent environments, making it cross-platform and powerful for both developers and users who just want a working app.
+meta_description: Revive your SEO workflow with Pipulate—a Python-powered tool using HTMX for simple, linear checklists and cross-platform automation.
+meta_keywords: HTMX, Python SEO, Pipulate, SEO workflow, linear automation, LLM integration, Nix, infrastructure as code, SEO checklist, cross-platform web apps, SEO tool
 layout: post
 sort_order: 1
 ---

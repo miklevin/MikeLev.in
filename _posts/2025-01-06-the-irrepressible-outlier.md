@@ -2,6 +2,8 @@
 title: "The Irrepressible Outlier: Finding Originality in a World of Infinite Content"
 permalink: /futureproof/irrepressible-outlier/
 description: Buckle up, because we're about to go on a wild ride through the past, present, and future of the digital world!  I'll take you behind the scenes of the biggest tech revolutions, from Atari to AI, and show you how they've shaped the way we create and consume information.  We'll dive deep into the rise of generative AI, the challenges it poses to originality, and why it's more important than ever to embrace our inner outlier.  Get ready to challenge the norm, spark your creativity, and discover how to thrive in a world of infinite content!
+meta_description: Embrace your inner outlier in the digital revolution—from Atari to generative AI—and thrive in a world overflowing with infinite content.
+meta_keywords: outlier, originality, digital revolution, generative AI, Atari, tech evolution, infinite content, creative authenticity, digital transformation, disruptive innovation, information consumption, creative disruption
 layout: post
 sort_order: 2
 ---

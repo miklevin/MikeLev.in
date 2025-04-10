@@ -2,6 +2,8 @@
 title: The Necessity of Taking Multiple Small Passes (Chisel-strikes)
 permalink: /futureproof/multiple-passes/
 description: This article explores the concept of chisel-strikes, small, consistent steps towards achieving your goals. It emphasizes balancing focused effort with rest and recovery to avoid burnout and maintain momentum. Discover how to leverage Git for efficient data management and version control, ensuring your files are always backed up and accessible.  The article also delves into different approaches to configuring your home directory in Linux and NixOS, including using Nix Home for declarative management and a simpler method of direct file-linking. Learn how to create a portable and reproducible system environment while minimizing reliance on cloud services.
+meta_description: "Unlock lasting progress with small, deliberate chisel-strikes that build digital mastery and sustained flow without burnout."
+meta_keywords: chisel strikes, incremental progress, small passes, flow state, digital mastery, Git version control, self-healing workflow, burnout avoidance, client work, digital sovereignty, NixOS
 layout: post
 sort_order: 1
 ---

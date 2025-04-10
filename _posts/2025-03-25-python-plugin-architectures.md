@@ -2,6 +2,8 @@
 title: "Python Plugin Architectures: Pipulate Worflows & Apps"
 permalink: /futureproof/python-plugin-architectures/
 description: In developing Pipulate, I faced the challenge of unifying its two extension systems – rigid CRUD apps tied to FastHTML and a separate workflow plugin system. My goal was to make CRUD apps like the built-in TodoApp fully external, but initial attempts struggled with framework constraints. After analyzing the working workflow discovery, I pivoted to adapt that pattern instead of creating a new one, unifying everything under a single 'plugin' concept. By leveraging MiniDataAPI for database independence and simple file discovery, I successfully built the external `CompetitorApp` as proof, demonstrating a clear path to a modular, extensible architecture for Pipulate.
+meta_description: Build modular, extensible Python plugins for Pipulate using unified workflows, FastHTML, and MiniDataAPI for dynamic app development.
+meta_keywords: Python plugin architecture, Pipulate, FastHTML, MiniDataAPI, workflows, CRUD apps, modular plugins, extensible system, unified plugins, plugin discovery, dynamic workflows, software modularity
 layout: post
 sort_order: 2
 ---

@@ -2,6 +2,8 @@
 title: Pattern Alert - THIS IS NOT FASTAPI!
 permalink: /futureproof/pattern-alert-this-is-not-fastapi/
 description: I detail the process of building a Python web application using the FastHTML framework, emphasizing the importance of simplicity and readability. I draw inspiration from the Unix philosophy and the design principles of ABC, Python, and FastHTML to create maintainable and user-friendly code. I also share my experiences with AI code assistants, highlighting the challenges of preventing them from introducing unnecessary complexity. Through careful prompt engineering and defensive documentation, I successfully refine the code and establish a pattern for building robust web applications with clear state management, explicit state transitions, and comprehensive error handling.
+meta_description: Discover how FastHTML’s Unix-inspired design and defensive documentation deliver simplicity over FastAPI’s complexity, with clear state management and smart prompt engineering.
+meta_keywords: FastHTML, FastAPI, Unix philosophy, defensive documentation, Python web app, simplicity, readability, state management, prompt engineering, explicit state transitions, AI code assistants
 layout: post
 sort_order: 1
 ---

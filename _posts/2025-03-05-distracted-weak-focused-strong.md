@@ -2,6 +2,8 @@
 title: Distracted & Weak Vs. Focused & Strong
 permalink: /futureproof/distracted-weak-focused-strong/
 description: In this article, I argue that cultivating focused attention, through engaging in activities that induce a flow state like reading, coding, crafting, or any skill-based pursuit, is essential for personal strength and fulfillment. I explore how distractions, such as social media and fleeting trends, erode our ability to deeply engage with our passions and develop expertise. By committing to deliberate practice and mastering a craft, we can transcend societal pressures, achieve a sense of purpose, and contribute meaningfully to the world, ultimately finding our Ikigai.
+meta_description: Discover how focused attention and deliberate practice transform distraction into strength—unlock flow state and find your Ikigai.
+meta_keywords: focused attention, deliberate practice, flow state, personal growth, Ikigai, deep work, distraction, self-discipline, productivity, mindfulness, creative process, personal agency
 layout: post
 sort_order: 1
 ---

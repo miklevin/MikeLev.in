@@ -2,6 +2,8 @@
 title: From Jupyter Notebooks to Markdown
 permalink: /futureproof/from-jupyter-notebooks-to-markdown/
 description: "From Jupyter Notebooks to Markdown: A journey through refining workflows, building muscle memory, and perfecting good form in data science. Discover tools like nb-clean and jupytext while developing a sustainable, accessible process for managing and sharing code—keeping technical depth without losing readability."
+meta_description: "Workflow to manage Jupyter Notebooks: Use nb-clean for clean git history & jupytext to convert .ipynb to Markdown for docs & LLM training."
+meta_keywords: Jupyter Notebook, ipynb, Markdown, md, jupytext, nb-clean, git, convert notebook, clean git history, version control, workflow, LLM training data, LLM context, documentation, notebook metadata, notebook output, Kata, muscle memory, shell script, awk
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: Local AI Awareness Training
 permalink: /futureproof/local-ai-awareness-training/
 description: Learn how to integrate local LLMs with FastHTML to build CRUD apps. Conversation history is logged in SQL and vector databases for insights. The LLM aids user actions and prepares for future self-sufficiency by learning app usage patterns, enhancing AI-driven workflows. 
+meta_description: Enable local LLM to execute CRUD in Python/FastHTML app. Teach JSON commands via system prompt, parse/validate LLM output & execute safely via BaseApp.
+meta_keywords: Local LLM, LLM integration, function calling, command execution, CRUD, JSON, system prompt, LLM output parsing, validation, Python, FastHTML, BaseApp, MiniDataAPI, AI awareness, WebSocket, AI safety
 layout: post
 sort_order: 1
 ---

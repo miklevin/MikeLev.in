@@ -2,6 +2,8 @@
 title: Rebooting Site
 permalink: /futureproof/rebooting-site/
 description: I'm rebooting my website to focus on future-proofing in the age of AI, which means embracing new tools and strategies while preserving valuable skills and habits. This involves a fresh start for my site, leveraging AI-powered coding assistance, and using a more streamlined content creation process. I'm also focusing on organic growth, letting my daily writing and work experiences shape the content and eventually lead to a book on future-proofing. This reboot is an experiment in adapting to the changing digital landscape, maintaining a balance between established SEO practices and innovative approaches.
+meta_description: "Rediscover timeless computing principles and reclaim simplicity amid tech hype. Embrace Unix, reproducibility, and local-first practices."
+meta_keywords: simplicity, Unix philosophy, back to basics, reproducible environments, local-first, minimalism, stable systems, tech fundamentals, future-proof, sustainable systems, no-churn
 layout: post
 sort_order: 1
 ---

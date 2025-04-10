@@ -2,6 +2,8 @@
 title: "From Blog Chaos to Book Outline: An AI-Powered Information Architecture Journey"
 permalink: /futureproof/from-blog-to-book-ai-powered-ia/
 description: I document my journey to restructure my blog's information architecture and generate a book outline using AI. Initially exploring local tools like Ollama and RAG, I pivoted to using frontier models with massive token windows like Google's Gemini. With Claude's help, I developed Python scripts to prepare my blog content for these large models. My experiments with Gemini 2.0 Flash and 2.5 Experimental successfully generated a detailed site map and book outline, demonstrating how frontier AI can effectively analyze large-scale content.
+new_meta_description: Transform your disorganized blog into a clear book outline and site map using AI frontier models and custom Python scripts.
+meta_keywords: AI information architecture, book outline, blog restructuring, frontier models, massive token windows, context_foo.py, Python scripts, site topology, content analysis, SEO, digital content strategy
 layout: post
 sort_order: 1
 ---

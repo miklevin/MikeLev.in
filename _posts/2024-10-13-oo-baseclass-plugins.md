@@ -2,6 +2,8 @@
 title: Object Oriented Base Class Plugins
 permalink: /futureproof/object-oriented-baseclass-plugins/
 description: I've built a plugin system using object-oriented programming, something I was initially hesitant about due to Python's OOP syntax. By creating a base class, `BaseApp`, I've streamlined CRUD operations and routes, improving the system's long-term flexibility. This approach reduces complexity in my single-file setup. I’ve customized the base class with wrappers like `TodoApp` and `ProfileApp` for specific functionalities. This shift to precision coding lets me add new features, like sorting, without bloating the code, making the system easier to update and maintain.
+meta_description: Implement an OOP plugin system for FastHTML using a Python BaseApp class. Covers refining CRUD operations (delete, toggle, sort, insert, update) and routing logic.
+meta_keywords: OOP, Base Class, plugin system, Python, FastHTML, BaseApp, inheritance, CRUD, refactoring, modular design, routing, SortableJS, HTMX, delete, toggle, sort, insert, update
 layout: post
 sort_order: 1
 ---

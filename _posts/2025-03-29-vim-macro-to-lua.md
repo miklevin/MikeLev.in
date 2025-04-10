@@ -2,6 +2,8 @@
 title: Vim Macro to Lua (for NeoVim Users)
 permalink: /futureproof/vim-macro-to-lua/
 description: While I'm a longtime Vim user who values its timelessness, the sheer difficulty of editing recorded macros in VimScript finally pushed me to NeoVim; I initially switched to try GitHub CoPilot (which I disliked in Vim) but stayed because NeoVim's Lua configuration, combined with AI assistance from tools like Claude, made refining complex macros—like the one I needed to escape HTML tags for my blog posts about AI interactions—significantly easier, demonstrating a rare instance where embracing newer tech enhances, rather than detracts from, core text-mastery skills essential across all tech disciplines.
+meta_description: Transform VimScript macros into Lua in NeoVim for easier macro editing and HTML escaping—enhanced with AI-assisted refinement.
+meta_keywords: vim macro to lua, neovim lua configuration, vimscript conversion, macro editing, html tag escaping, ai-assisted macros, vim modal editing, text editor macros, vimscript challenges, neovim customization
 layout: post
 sort_order: 4
 ---

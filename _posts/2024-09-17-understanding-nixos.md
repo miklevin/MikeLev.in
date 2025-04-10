@@ -2,6 +2,8 @@
 title: Updating NixOS
 permalink: /futureproof/updating-nixos/
 description: I share my experience transitioning to NixOS from traditional Linux distributions like Ubuntu and Fedora, highlighting the unique aspects of NixOS's filesystem hierarchy and package management. I explain the benefits of Nix's deterministic packaging system and how it can be leveraged on macOS and Windows using Nix Flakes. I also provide a step-by-step guide for getting started with Nix Flakes and emphasize the importance of embracing the NixOS philosophy for improved productivity and simplified software management.
+meta_description: Learn how to update NixOS using `nixos-rebuild switch` and `nix-channel --update`. Understand the `/nix/store` and deterministic updates.
+meta_keywords: Update NixOS, nixos-rebuild switch, nix-channel update, /nix/store, NixOS filesystem, deterministic package management, reproducibility, nix-collect-garbage, Nix on macOS, Nix on Windows, Nix Flakes, nix develop, FHS vs nix store, atomic upgrades, declarative configuration
 layout: post
 sort_order: 1
 ---

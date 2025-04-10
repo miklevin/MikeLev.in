@@ -2,6 +2,8 @@
 title: "Get the Big Tech Picture to Maintain Agency"
 permalink: /futureproof/big-tech-picture/
 description: I explore the historical development of key technologies like Unix, C, Python, and Nix, highlighting their role in empowering individuals in a rapidly changing tech landscape. I emphasize the importance of mastering fundamental tools and concepts to maintain agency and independence in an AI-driven world. I also discuss the enduring relevance of the Unix philosophy and the benefits of open-source software and community collaboration. By understanding the evolution of these technologies, individuals can gain a deeper appreciation for their potential and leverage them to navigate the complexities of modern computing.
+meta_description: Understand tech history from Unix to NixOS. Learn how foundational tools (Python, Vim, Git) evolved and empower user agency today.
+meta_keywords: Tech history, computing history, Unix history, Python history, Nix history, Vim history, maintain agency, tech independence, fundamental tools, timeless skills, open source history, Unix philosophy, reproducibility, declarative configuration, version control, NixOS, Git, Jupyter, LPvg stack
 layout: post
 sort_order: 1
 ---

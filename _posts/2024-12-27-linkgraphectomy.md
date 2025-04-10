@@ -2,6 +2,8 @@
 title: Linkgraphectomy
 permalink: /futureproof/linkgraphectomy/
 description: Okay, so I'm tackling these gigantic link-graph visualizations, the kind that break most tools. We're talking millions of links between hundreds of thousands of web pages.  I'm automating the whole process, pulling data from an industrial crawler API. It's a complex beast, with challenges around huge datasets and the unpredictable nature of certain visualization techniques. This whole thing has pushed me to explore new tooling, like Nix, to future-proof my skills, while at the same time helping me automate this convoluted process to extract these massive link graphs for SEO purposes. This is all part of my quest to stay on top of the tech game, and this link-graph project is a key step in that journey.
+meta_description: "Automate extraction and visualization of massive link graphs using a minimalist, single-file pipeline that harnesses industrial crawler APIs for SEO."
+meta_keywords: link graph, extraction, visualization, SEO, pipeline, single-file, industrial crawler, automation, minimalist workflow, HTMX, FastHTML, data visualization
 layout: post
 sort_order: 1
 ---

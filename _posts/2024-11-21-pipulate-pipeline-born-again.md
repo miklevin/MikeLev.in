@@ -2,6 +2,8 @@
 title: Pipulate Pipeline Born Again Now
 permalink: /futureproof/pipulate-pipeline-born-again/
 description: "This article chronicles my journey to rebuild my Pipulate SEO tool, reflecting on the evolution of SEO, the quirks of JavaScript, and the importance of developer workflow. I delve into the bring your own server model with nix and explore the Pipulate pattern: local-first pipeline processing using FastHTML, HTMX, and SQLite. It's a tale of embracing simplicity and bucking the trend of complex web app architectures."
+meta_description: "Revamp your SEO workflow with Pipulate—local-first pipeline processing with FastHTML, HTMX & SQLite for seamless server-side state management."
+meta_keywords: pipulate, local-first pipeline, SEO workflow, FastHTML, HTMX, SQLite, server-side state, workflow automation, JSON blob, FOSS SEO tool, developer workflow, local app, minimal design
 layout: post
 sort_order: 1
 ---

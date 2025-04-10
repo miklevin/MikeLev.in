@@ -2,6 +2,8 @@
 title: Getting My Nix System Together
 permalink: /futureproof/nix-system/
 description: I detail my process of setting up a NixOS system and creating reproducible data science environments using Nix flakes. I explain my approach to configuring NixOS, including the use of a minimal configuration.nix file and the integration of essential services like Ollama and CUDA. I also discuss the benefits of using Python virtual environments within Nix flakes to manage Python dependencies and ensure flexibility for data science tasks.
+meta_description: "Setting up NixOS: A practical guide using minimal global configuration and Nix Flakes with Python venvs for reproducible dev environments."
+meta_keywords: NixOS setup, NixOS configuration, configuration.nix, Nix Flakes, development environment, reproducible environment, Python virtual environment, venv, pip install nix, buildFHSUserEnv, /nix/store, reproducibility, Nvidia CUDA, Ollama, JupyterLab, data science, Nix on macOS, Nix on Windows
 layout: post
 sort_order: 1
 ---

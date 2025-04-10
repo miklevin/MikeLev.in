@@ -2,6 +2,8 @@
 title: LLM Speedbumps, Anti-pattern Vaccines & The Locahost Revolution
 permalink: /futureproof/llm-speedbumps/
 description: This article chronicles my battle against the siren song of "shiny new things" and my return to the path of pragmatic productivity. I'm ditching the rabbit holes and embracing the power of established tools and techniques to build a lean, mean, localhost-powered pipeline. Think server-side state, minimal code, and a healthy dose of anti-React antibodies. It's about finding clarity amidst the chaos and building a Foundation for future innovation, one chisel strike at a time.
+meta_description: "Explore LLM speedbumps, anti-pattern vaccines, and the localhost revolution—build lean, server-side pipeline workflows with FastHTML, HTMX & MiniDataAPI."
+meta_keywords: LLM speedbumps, anti-pattern vaccines, localhost revolution, FastHTML, HTMX, MiniDataAPI, pipeline workflow, server-side state, local-first, workflow automation, FOSS SEO, minimal code, anti-React
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: "From Printing Press to AI: A New Era of Literacy"
 permalink: /futureproof/ai-new-era-of-literacy/
 description: This article explores the evolution of literacy and technology, from the printing press to AI coding assistants. I argue that programming literacy is crucial in the age of AI and emphasize the importance of clear, human-readable code. I discusse my web framework project, highlighting its unique features like FastHTML and its focus on linear workflows inspired by Unix pipes. I advocate for a simplified, Python-centric approach to web development that prioritizes efficiency and understandability.
+meta_description: Programming literacy fuels the AI era—explore tech evolution from the printing press to Python-powered web frameworks and Unix-inspired workflows.
+meta_keywords: programming literacy, AI era, tech evolution, Python web development, Unix workflows, printing press, human-readable code, AI coding assistants, linear workflows, web frameworks
 layout: post
 sort_order: 1
 ---

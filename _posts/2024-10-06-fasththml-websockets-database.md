@@ -2,6 +2,8 @@
 title: FastHTML WebSockets & Database for Streaming & Persistence
 permalink: /futureproof/fasththml-websockets-database/
 description: I discuss the challenges and benefits of transitioning to NixOS from traditional Linux distributions, highlighting the unique aspects of NixOS's filesystem hierarchy and package management. I explain the benefits of Nix's deterministic packaging system and how it can be leveraged on macOS and Windows using Nix Flakes. I also provide a step-by-step guide for getting started with Nix Flakes and emphasize the importance of embracing the NixOS philosophy for improved productivity and simplified software management.
+meta_description: Implement FastHTML's built-in database (multiple tables via `fast_app` API) and WebSockets for persistence and streaming in Python apps.
+meta_keywords: FastHTML database, FastHTML WebSockets, multiple tables FastHTML, fast_app API, MiniDataAPI, Python web framework, persistence, streaming, SQLite, CRUD, Infrastructure as Code, IaC, Nix Flake, kwargs, tuple unpacking, live reload, render function, ZeroMQ, Windows WSL
 layout: post
 sort_order: 1
 ---

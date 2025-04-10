@@ -2,6 +2,8 @@
 title: Building a Future-proof Automation Core for AI Workflows
 permalink: /futureproof/future-proof-automation-core/
 description: I'm racing against time to refactor my app into a lean, modular system, externalizing workflows for rapid task automation. My goal is to create a future-proof, adaptable platform using minimal tech like FastHTML and HTMX, focusing on markdown documentation for resilience. I'm building a simple, yet powerful core with dynamic menus for profiles, apps, and workflows, aiming for immediate productivity and a self-fueling momentum to combat the chaos of ever-changing tech.
+meta_description: Build a future-proof automation core for AI workflows with a lean, modular design using FastHTML, HTMX, and markdown-driven plugins.
+meta_keywords: automation core, AI workflows, future-proof, modular design, plugin architecture, FastHTML, HTMX, markdown documentation, dynamic menus, agile refactoring, self-fueling automation
 layout: post
 sort_order: 2
 ---

@@ -2,6 +2,8 @@
 title: 6-Click-Ease to Serve Up Bacon
 permalink: /futureproof/6-click-ease-to-serve-up-bacon/
 description: This post rethinks the web as a dynamic, database-like system, shaped by six degrees of separation and small world theory. It delves into how SEO and AI tools streamline repetitive tasks, align with real-time search demands, and prepare content for the constant crawl and recrawl required to inform modern AI models. By viewing URLs as keys in a vast, cloud-based database, it explores the challenges of navigating a web where trusted brands and creative strategies are essential to standing out.
+meta_description: "Future web search: AI uses small world theory (6 degrees) to crawl the internet database. Structure sites for AI model training & RAG."
+meta_keywords: Web Search, AI Search, Small World Theory, Six Degrees of Separation, Internet Database, AI Crawling, Real-time Crawl, RAG, AI Model Training, Content Structure, Website Preparation, SEO for AI, Brand Authority, Infinite Content, Spam Filtering, Chip O'Theseus, AI Assistant, Hot Prompt Injection, SEO Audit Automation, Workflow
 layout: post
 sort_order: 1
 ---

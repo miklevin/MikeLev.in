@@ -2,6 +2,8 @@
 title: Workflow Script for AI / ChatGPT 4.5
 permalink: /futureproof/workflow-script-for-ai/
 description: I've been trying to create a more efficient workflow for generating client reports, and I decided to test out the latest AI coding assistants to see if they could help. I started with ChatGPT 4.5, which was just released today, and I was hopeful that it would be more adaptable to my unique project than previous models. Unfortunately, while it initially seemed promising, it still struggled to fully grasp the unconventional nature of my FastHTML framework and ended up making some incorrect assumptions. It's frustrating, but it's also highlighted the limitations of current LLMs in understanding and respecting nuanced constraints.
+meta_description: Tested ChatGPT 4.5 for an efficient workflow to generate client reports with FastHTML, exposing LLM limitations in respecting nuanced constraints.
+meta_keywords: ChatGPT 4.5, AI workflow script, client reports, FastHTML, LLM limitations, workflow automation, AI coding assistant, efficient workflow, unconventional framework, report generation, AI testing, coding efficiency
 layout: post
 sort_order: 1
 ---

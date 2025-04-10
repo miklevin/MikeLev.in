@@ -2,6 +2,8 @@
 title: Getting Started with Nix Flakes
 permalink: /futureproof/nix-flakes/
 description: This article describes my journey to integrate Nix Flakes into my NixOS configuration for better version control and reproducibility. Initially hesitant due to the perceived complexity, I eventually embraced Flakes for their ability to simplify git management and streamline my workflow. The article provides a step-by-step guide on implementing Nix Flakes, moving the system configuration to user space, and rebuilding the system for a more manageable and reproducible development environment.
+meta_description: "Getting started with Nix Flakes: Manage your NixOS configuration.nix with Git by moving it to user space for easier version control. Includes setup guide."
+meta_keywords: Nix Flakes, NixOS configuration, configuration.nix, manage NixOS config, Git, version control, user space config, reproducible environment, flakes setup, flake.nix, Python Nix Flake, cross-platform flake, CUDA Nix Flake, Nix pip install, Nix uv, dependency pinning, symlink config
 layout: post
 sort_order: 1
 ---

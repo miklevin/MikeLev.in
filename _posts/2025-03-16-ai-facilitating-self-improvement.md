@@ -2,6 +2,8 @@
 title: AI Facilitating Self-Improvement and Mastery
 permalink: /futureproof/ai-facilitating-self-improvement/
 description: I've been exploring how AI, particularly with its new Deep Research capabilities, can aid in self-improvement and web traffic growth. While it's great for research and content creation, it's not quite the mentor I hoped for. It's more of a sounding board, a rubber duck for thinking, but I'm wary of its confirmation biases and the potential for over-reliance. The key takeaway? AI is a powerful tool for surveying the landscape and sparking ideas, but true agentic thinking and direction still need to come from within.
+meta_description: Discover how AI acts as a sounding board for self-improvement and mastery, sparking ideas without replacing true personal agency.
+meta_keywords: self-improvement, AI mentorship, deep research, agentic thinking, rubber duck debugging, self-directed learning, personal mastery, content growth, web traffic, Ikigai, LLM research
 layout: post
 sort_order: 1
 ---

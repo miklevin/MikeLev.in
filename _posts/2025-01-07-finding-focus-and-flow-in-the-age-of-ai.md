@@ -2,6 +2,8 @@
 title: "Pipeline Dreams: Finding Focus and Flow in the Age of AI"
 permalink: /futureproof/finding-focus-and-flow-in-the-age-of-ai/
 description: Join me on a personal exploration of the power of pipelines, not just as technical tools, but as a philosophy for navigating the complexities of work and life in the digital age. We'll delve into the challenges of staying focused, the importance of self-management, and the delicate balance between human intuition and AI-driven automation. Get ready to discover how pipelines can help you find clarity, control, and a renewed sense of purpose in a world of ever-increasing demands.
+meta_description: Boost focus and streamline your work with AI-driven pipeline workflows for effective self-management and client organization.
+meta_keywords: pipeline, workflow, focus, flow, AI automation, self-management, digital productivity, client meetings, time management, process improvement, linear process, productivity tips
 layout: post
 sort_order: 1
 ---

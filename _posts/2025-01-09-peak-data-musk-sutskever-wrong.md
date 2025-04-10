@@ -2,6 +2,8 @@
 title: "Peak Data Theory? Why the Future of Search Hinges on Outlier Information"
 permalink: /futureproof/peak-data-musk-sutskever-wrong/
 description: I've witnessed the evolution of search firsthand, from the early days of static site generation to the rise of AI and LLMs. This article chronicles my journey through that changing landscape, challenging the 'peak data' assertions made by figures like Elon Musk and Ilya Sutskever. I argue that we haven't exhausted the world's information; instead, we need better ways to access and curate the vast, untapped potential of the invisible web and the continuous stream of new data. I delve into the technical intricacies of web crawling, the challenges posed by big tech, and my vision for open-source tools that empower individuals and small businesses to thrive in the LLM era. I believe the future of search lies in prioritizing outlier information and moving beyond the limitations of current search paradigms.
+meta_description: "Challenge peak data theory—explore how surfacing outlier information with innovative crawling and ranking methods will redefine search."
+meta_keywords: peak data theory, outlier information, web crawling, differential crawling, invisible web, search algorithms, data curation, anomaly detection, SEO innovation, future search, AI training data, digital discovery
 layout: post
 sort_order: 3
 ---

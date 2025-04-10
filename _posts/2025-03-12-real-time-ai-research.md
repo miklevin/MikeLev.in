@@ -2,6 +2,8 @@
 title: The Real-Time AI Research Revolution
 permalink: /futureproof/real-time-ai-research/
 description: "In this article, I explored the evolving AI landscape, particularly the 'arms race' between vendors for AI lock-in versus the push for open-source solutions. I delved into Meta's open-source strategy with Llama, Anthropic's MCP, and OpenAI's proprietary features, highlighting the dynamic between these key players. My focus shifted to building a future-proof local AI solution, examining Gemma 3's function-calling capabilities via Ollama. I tested deep research features in Grok 3, ChatGPT 4.5, Gemini Advanced 1.5 Pro, and Perplexity.AI, comparing their approaches and capabilities in researching AI advancements in real-time. Ultimately, I confirmed Gemma 3's function-calling support and reflected on the broader implications of these AI research frameworks."
+meta_description: Discover how real-time AI research is revolutionizing deep search with advanced function calling, challenging traditional vendor lock-in.
+meta_keywords: real-time AI research, deep research, function calling, small world search, vendor lock-in, open-source AI, AI arms race, dynamic search, Gemma 3, Anthropic MCP, OpenAI API
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: Connect With Botify Workflow
 permalink: /futureproof/connect-with-botify-workflow/
 description: "Join me on an early-morning coding session where I tackle creating a core workflow for Pipulate: connecting securely to the Botify API. I detail my process of minimizing custom code through plugin conventions, leveraging the power of HTMX for a reactive UI that mimics Jupyter's `run all cells` feel without page reloads, and refining the workflow iteratively with an AI assistant. This journey involved refactoring core components, establishing naming conventions, implementing token validation and secure storage, and adding UX touches like linkification and password fields, ultimately demonstrating how a seemingly simple workflow solves real infrastructure problems and highlights Pipulate's plugin-centric, WET (Write Everything Twice/Thrice... when needed for clarity!) philosophy."
+meta_description: Securely connect to the Botify API with Pipulate’s plugin-based workflow, leveraging HTMX for a reactive, clean UI and streamlined token management.
+meta_keywords: Botify API, Pipulate, workflow integration, secure API, HTMX, plugin conventions, reactive UI, token validation, API key management, minimal custom code
 layout: post
 sort_order: 1
 ---

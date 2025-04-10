@@ -2,6 +2,8 @@
 title: Resilience While Achieving Ikigai
 permalink: /futureproof/resilience-while-achieving-ikigai/
 description: Exploring the Japanese concept of Ikigai as a path to resilience - aligning what you love, what you're good at, what pays, and what the world needs. Finding joy and meaning in life's journey while building mental toughness.
+meta_description: Using Ikigai & resilience principles to develop AI-integrated web apps with local LLMs, prompt injection, & future-proof techniques.
+meta_keywords: Ikigai, resilience, AI integration, web framework, local LLM, prompt injection, JSON API, future-proofing, ambient intelligence, CRUD apps, HTMX, webmaster, meaning, purpose, personal growth, Dunning-Kruger, Chinese Room
 layout: post
 sort_order: 1
 ---

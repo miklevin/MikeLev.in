@@ -2,6 +2,8 @@
 title: "AI and the Future of Work: Will We Become Sheep or Shepherds?"
 permalink: /futureproof/ai-work-sheep-or-shepherds/
 description: This article explores the challenges of maintaining creativity and productivity in the age of AI. It examines the historical evolution of communication technologies, from spoken word to the internet, and argues that AI is the next major revolution. The author emphasizes the importance of critical thinking and "future-proofing" oneself by using timeless tools like Linux, Vim, and Python. The article also touches on the potential dangers of over-reliance on AI, leading to a passive consumption of information. Ultimately, it encourages readers to become "shepherds" who actively shape their own learning and creative processes, rather than "sheep" who passively follow AI-generated paths.
+meta_description: Embrace the AI era with proactive creativity—harness critical thinking and timeless tools to master work and stay ahead of passive trends.
+meta_keywords: AI future work, creative productivity, critical thinking, timeless tools, Linux, Vim, Python, active creativity, digital transformation, journaling, creative mindset
 layout: post
 sort_order: 1
 ---

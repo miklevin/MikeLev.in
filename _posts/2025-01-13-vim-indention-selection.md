@@ -2,6 +2,8 @@
 title: Vim Indention Selection (TL;DR Disappointment)
 permalink: /futureproof/vim-indention-selection/
 description: Need to select indented code blocks like Python functions in Vim without plugins? Sadly, there's no easy built-in way. This article explores practical workarounds using visual mode, searches, paragraph motions, and custom mappings to achieve this in vanilla Vim, NeoVim, or VSCode's Vim mode.
+meta_description: Optimized Lunr.js search fields boost client-side indexing with concise meta tags and focused keywords for precise search results.
+meta_keywords: Lunr.js, search fields, optimized indexing, meta tags, client-side search, keyword optimization, content indexing
 layout: post
 sort_order: 2
 ---

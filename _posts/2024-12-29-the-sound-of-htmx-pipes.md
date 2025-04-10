@@ -2,6 +2,8 @@
 title: The Sound of HTMX Pipes
 permalink: /futureproof/the-sound-of-htmx-pipes/
 description: I've successfully integrated a pipeline workflow into my web framework, allowing for a seamless and efficient way to manage multi-step processes. By combining the principles of Unix pipes with the flexibility of HTMX and the power of local LLMs, I've created a system that is both elegant and practical. The 10-card flow example demonstrates the core concepts, with each card representing a step in the pipeline. The ability to jump to any step and the synchronized finalization process further enhance the user experience. With this foundation in place, I'm excited to explore more advanced features, such as embedding interactive charts and data grids, while maintaining the musicality and minimalist aesthetic of the code.
+meta_description: "Experience the elegance of Unix pipe principles with HTMX in a 10-card pipeline workflow that streamlines web process management using local LLM integration."
+meta_keywords: HTMX, pipeline workflow, Unix pipes, local LLM integration, 10-card flow, FastHTML, Pipulate, web automation
 layout: post
 sort_order: 1
 ---

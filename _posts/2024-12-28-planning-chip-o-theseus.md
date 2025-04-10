@@ -2,6 +2,8 @@
 title: Planning Chip O'Theseus
 permalink: /futureproof/planning-chip-o-theseus/
 description: I'm pushing the boundaries of AI by incrementally adding persistent memory and self-modification to a locally-run language model, a project I've playfully dubbed "Chip O'Theseus." Using a simple key-value database like SQLite and clever prompt engineering, we're teaching the LLM to store and retrieve information, effectively giving it a "cookie" of persistent state. This allows it to learn, evolve, and potentially develop a sense of continuity across interactions.  We're exploring profound questions about consciousness and the limits of knowledge, while pragmatically building a system that exhibits increasingly complex behaviors.
+meta_description: "Discover Chip O'Theseus, a project that empowers local LLM with persistent memory and self-modification via a SQLite key-value store and prompt engineering."
+meta_keywords: Chip O'Theseus, persistent memory, local LLM, self-modification, SQLite, key-value store, prompt engineering, AI continuity, emergent AI, memory integration
 layout: post
 sort_order: 1
 ---

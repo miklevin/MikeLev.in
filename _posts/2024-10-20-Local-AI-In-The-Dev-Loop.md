@@ -2,6 +2,8 @@
 title: Local AI In The App Development Loop
 permalink: /futureproof/local-ai-in-the-dev-loop/
 description: Exploring AI-powered app development, this article covers lessons from building with HTMX, WebSockets, and local LLMs. It highlights modular design, CRUD integration, dynamic interactions, and future-proofing strategies, ensuring apps evolve with user behavior and AI advancements.
+meta_description: Implement local LLM command execution in a Python web framework. Plan covers JSON parsing, intent analysis, table lookups, and persistent LLM memory.
+meta_keywords: LLM integration, command execution, function calling, local LLM, Python framework, JSON, response parsing, intent analysis, sentiment analysis, textblob, LLM memory, key-value store, table lookup, AI code assist, HTMX, WebSocket, FastHTML, Ollama
 layout: post
 sort_order: 1
 ---

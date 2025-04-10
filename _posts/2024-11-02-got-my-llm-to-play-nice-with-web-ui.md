@@ -2,6 +2,8 @@
 title: How I Finally Got My LLM to Play Nice With the Web UI
 permalink: /futureproof/how-i-finally-got-my-llm-to-play-nice-with-the-web-ui/
 description: Embark on a journey bridging the gap between WebSockets, Server-Sent Events (SSE), and JavaScript to bring the Ghost in the Machine to life. Discover how a methodical approach, inspired by the Wright Brothers' experiments, led to a system where real-time commands and structured responses create an interactive, dynamic web experience. From initial spark to lift-off, this article shows how persistence and well-planned steps make complex integrations not just achievable, but thrilling.
+meta_description: Debugging LLM-driven UI updates in FastHTML/HTMX. Switched from WebSockets to Server-Sent Events (SSE) for reliable backend-to-frontend command triggering.
+meta_keywords: Debugging, LLM integration, UI update, Server-Sent Events, SSE, FastHTML, HTMX, WebSocket, backend events, JSON, Python, JavaScript, EventSource, AI code assist, asynchronous, asyncio.Queue, incremental debugging
 layout: post
 sort_order: 2
 ---

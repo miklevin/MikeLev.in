@@ -2,6 +2,8 @@
 title: A ChatGPT o1-Preview Code Review
 permalink: /futureproof/chatgpt-o1-preview-code-review/
 description: I detail my experience building the next generation of Pipulate, a Python-based web application, using the FastHTML framework. I highlight the challenges I faced with HTMX and real-time streaming, and express my excitement about the potential for creating powerful, easily shareable local web apps with this technology.
+meta_description: Code review of a Python FastHTML app using WebSockets & Ollama. Includes analysis of anti-patterns & prompts for AI-assisted refactoring.
+meta_keywords: Code review, FastHTML, Python, WebSockets, Ollama, chat application, AI assisted refactoring, refactoring prompts, anti-patterns, Pipulate, code quality, maintainability, global state, inline styles, error handling, input validation, ChatGPT, Cursor AI, HTMX, asynchronous
 layout: post
 sort_order: 1
 ---

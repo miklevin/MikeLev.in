@@ -2,6 +2,8 @@
 title: "Automating SEO Workflows: Parameter Buster"
 permalink: /futureproof/automating-seo-workflow/
 description: "This article details my process of switching from development to delivery mode by building an automated workflow to tackle crawl traps caused by excessive URL parameters. I walk through the strategic storytelling needed for a successful client meeting, emphasizing the importance of demonstrating process and delivering tangible results. The core of the piece then dives into a technical SEO challenge: identifying and selectively removing problematic URL parameters using data from web logs, Google Search Console, and Botify, culminating in the creation of a JavaScript solution to optimize website crawling efficiency."
+meta_description: Optimize site crawl efficiency with an automated JavaScript parameter buster that trims URL traps and boosts technical SEO.
+meta_keywords: technical SEO, automated workflow, parameter buster, URL trimming, crawl efficiency, crawl traps, JavaScript SEO, SEO automation, web logs, client delivery
 layout: post
 sort_order: 2
 ---

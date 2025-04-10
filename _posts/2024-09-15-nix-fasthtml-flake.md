@@ -2,6 +2,8 @@
 title: Cross-Platform Nix Flake for Jupyter & FastHTML  
 permalink: /futureproof/nix-fasthtml-flake/  
 description: I detail building a versatile Nix flake for a consistent development environment across different platforms, starting with a minimal setup and progressively incorporating JupyterLab, CUDA support, and a FastHTML server. I highlight the flexibility offered by a virtual environment for installing additional packages, ensuring a robust and adaptable development experience for various data science and web development tasks.
+meta_description: "Build a cross-platform Nix Flake step-by-step: Integrate Python, JupyterLab, FastHTML (via pip/venv), and optional CUDA support."
+meta_keywords: Nix Flake, flake.nix tutorial, cross-platform flake, JupyterLab, FastHTML, Python, devShell, shellHook, virtual environment, venv, pip install nix, NixOS, macOS, Linux, CUDA, PyTorch, data science, reproducible environment
 layout: post
 sort_order: 1
 ---

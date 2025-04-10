@@ -2,9 +2,12 @@
 title: Rabbit Hole Dev to Delight Clients
 permalink: /futureproof/rabbit-hole-dev-to-delight-clients/
 description: Join me on a journey through the exhilarating world of development, where I balance the addictive nature of AI-driven coding with the need to engage clients. Discover how I navigate the challenges of maintaining flow states, embracing resilience like Rocky Balboa, and leveraging small wins to drive success in a fast-paced tech landscape.
+meta_description: "Developer's reflection on balancing deep AI coding focus ('rabbit hole') with client needs. Strategies for resilience, avoiding distractions & managing workflow."
+meta_keywords: Development workflow, AI code assist, deep work, flow state, rabbit hole, client focus, client engagement, productivity, resilience, mindset, small wins, AI collaboration, focus management, Cialdini, developer psychology
 layout: post
 sort_order: 1
 ---
+
 
 From falling down the adrenaline-inducing rabbit-hole of doing development work
 that's more addictive now than ever with the rise of AI, to being on-point and

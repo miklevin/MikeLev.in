@@ -2,6 +2,8 @@
 title: Gaining Traction
 permalink: /futureproof/gaining-traction/
 description: "This article explores the changing landscape of innovation and creativity in the age of AI.  I reflect on the challenges of staying relevant when machines are outpacing humans, even in creative fields. Using personal experiences and historical examples like the John Henry story, I examine different approaches to thrive in this environment: embracing originality, iterating on existing ideas like Microsoft, or becoming an 'artisan' who uses AI tools to enhance their craft. I also delve into AI's broader impact on labor, wealth distribution, and even consciousness. Ultimately, the article emphasizes adaptability, continuous learning, and finding intrinsic motivation amidst rapid technological change. It's about finding your place in the evolving relationship between humans and AI, and recognizing the value of human creativity even as the lines between 'artificial' and 'real' intelligence blur."
+meta_description: "Master strategies for gaining traction in tech—balance AI innovation with organic growth and timeless creative principles."
+meta_keywords: gaining traction, organic growth, AI innovation, creative resilience, content strategy, digital reboot, continuous learning, tech evolution, SEO, adaptability, ikigai, website reboot, artisan coding, Unix philosophy, AI impact
 layout: post
 sort_order: 1
 ---

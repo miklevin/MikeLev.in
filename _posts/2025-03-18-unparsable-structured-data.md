@@ -2,6 +2,8 @@
 title: Psst! Got Unparsable Structured Data?
 permalink: /futureproof/unparsable-structured-data/
 description: I was wrestling with structured data errors on my blog reported by Google Search Console (GSC). I'd added Schema.org markup using both HTML attributes and JSON-LD, but kept getting unparsable structured data errors in Google Search Console, specifically bad escape sequence in string. Turns out, my `articleBody` content in the JSON-LD was causing the issue due to unescaped characters. To fix it, I simply removed the `articleBody` from the JSON-LD, relying on the HTML markup, which is more forgiving. I also realized I could use my existing article summary as the `abstract` field, simplifying things even further.
+meta_description: Fix JSON-LD structured data errors by removing problematic content and relying on HTML schema markup for error-free SEO.
+meta_keywords: JSON-LD, structured data, Schema.org, escape error, unparsable data, Google Search Console, SEO troubleshooting, HTML markup, Jekyll, articleBody fix
 layout: post
 sort_order: 4
 ---

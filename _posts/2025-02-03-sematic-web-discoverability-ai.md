@@ -2,6 +2,8 @@
 title: "Semantic Web: The Key to Discoverability in the Age of AI"
 permalink: /futureproof/sematic-web-discoverability-ai/
 description: I explore the changing landscape of SEO and web crawling in the age of AI and LLMs. I argue that traditional methods are becoming unsustainable due to the infinite nature of the web.  The focus is shifting from URLs to content, highlighting the importance of semantic web technologies. I advocate for creating a "core" website with stable URLs and structured data, even while acknowledging that many e-commerce sites create crawlable issues. I also describe my own website's organizational challenges and plans to use vector embeddings and graph databases to improve content structure.
+meta_description: Explore how semantic web technologies like Schema.org and RDF are transforming SEO by emphasizing content over URLs for improved discoverability in the AI era.
+meta_keywords: semantic web, SEO, structured data, Schema.org, RDF, microdata, web crawling, AI, LLM, discoverability, content optimization, invisible web, entity extraction
 layout: post
 sort_order: 1
 ---

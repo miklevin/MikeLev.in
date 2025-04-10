@@ -2,6 +2,8 @@
 title: Fighting Analysis Paralysis
 permalink: /futureproof/fighting-analysis-paralysis/
 description: I'm fighting analysis paralysis by pushing for action over abstract planning. I'm focusing on immediate client communication and two-week project cycles, using JavaScript SEO edits with PageWorkers. I'm ditching PowerPoint for YAML-based storytelling, aiming for structured data and streamlined workflows. I'm navigating a NixOS replatforming and learning HTMX to simplify my system, even though it's a bit painful right now. My goal is to create a future-proof system where users can install and run with just two commands, cutting through startup friction and making SEO consulting more efficient.
+meta_description: Beat analysis paralysis with agile, action-driven SEO workflows and client communication using YAML storytelling and modern tech strategies.
+meta_keywords: analysis paralysis, agile workflow, SEO consulting, client communication, YAML storytelling, iterative cycles, PageWorkers, replatforming, HTMX, JavaScript SEO edits
 layout: post
 sort_order: 2
 ---

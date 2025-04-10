@@ -2,6 +2,8 @@
 title: Embracing AI-Assisted Development with Jupyter AI and Nix Flakes
 permalink: /futureproof/jupyter-ai-nix-flake/
 description: I detail the process of building a versatile flake.nix file for a consistent development environment across different platforms. Starting with a minimal setup, I progressively incorporate JupyterLab, CUDA support, and a FastHTML server, highlighting the flexibility offered by a virtual environment for installing additional packages. This approach ensures a robust and adaptable development experience for various data science and web development tasks.
+meta_description: Integrate Jupyter AI with Ollama/local LLMs into a cross-platform Nix Flake for reproducible, AI-assisted coding in JupyterLab.
+meta_keywords: Jupyter AI, Nix Flake, AI assisted development, AI coding assistant, Ollama, Llama 3.1, local LLM, JupyterLab, reproducible AI environment, FOSS AI, FastHTML, Python, CUDA, cross-platform, NixOS, macOS, pip install nix, venv
 layout: post
 sort_order: 1
 ---

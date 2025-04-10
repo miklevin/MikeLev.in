@@ -2,6 +2,8 @@
 title: "Grok Better Than You'd Think Through Stream of Consciousness"
 permalink: /futureproof/grok-better-than/
 description: In this exploration, I detail my interactions with Grok, starting from testing its link-following capabilities to receiving an in-depth analysis and actionable advice for improving my AI SEO site, `mikelev.in`. The conversation pivots to practical solutions like building a client-side search for my static Jekyll site using local Ollama and culminates in the development of my `iterate_ollama.py` script, a tool designed to mine valuable, buried topics from my stream-of-consciousness posts by automating AI analysis across the entire blog.
+meta_description: Discover how Grok’s agentic analysis unlocks hidden topics from stream-of-consciousness blog posts, powering innovative AI SEO and static site search.
+meta_keywords: Grok, AI agent, stream-of-consciousness, hidden topics, AI SEO, static site search, Ollama, iterate_ollama.py, content mining, technical debugging, agentic analysis, blog analysis, client-side search, AI insights
 layout: post
 sort_order: 2
 ---

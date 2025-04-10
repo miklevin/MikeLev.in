@@ -2,6 +2,8 @@
 title: Getting Mac NeoVim Same as NixOS NeoVim
 permalink: /futureproof/mac-nvim-same-as-nixos-nvim/
 description: Tame the Mac! 💻  This is my journey to conquer the increasingly dreaded Macbook and make it work seamlessly with my increasingly beloved NixOS NeoVim setup.  From battling muscle memory to embracing the power of flakes, I'm crafting my ultimate cross-platform development environment. 🚀
+meta_description: Match NeoVim setup on Mac & NixOS using Nix Flakes. Configure flake.nix to install nvim, link init.lua & use unstable channel for consistency.
+meta_keywords: NeoVim, nvim, macOS, Mac, NixOS, configuration, Nix Flakes, flake.nix, init.lua, sync config, cross-platform, dev environment, shellHook, buildInputs, unstable channel, symlink config, terminal, undercurl, muscle memory, developer workflow
 layout: post
 sort_order: 1
 ---

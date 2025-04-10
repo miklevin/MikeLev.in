@@ -2,6 +2,8 @@
 title: "Beyond the Algorithm: Reclaiming the Narrative"
 permalink: /futureproof/reclaiming-the-narrative/
 description: "I argue that control over the information people see—the 'feed'—dictates public discourse. This control resides primarily with tech giants like Google, Microsoft, and Apple, who dominate operating systems and hardware. They manipulate the 'startup state' of devices, influencing what users see first. While 'super apps' like WeChat and potentially X offer alternatives, I highlight the challenges of breaking Google's dominance, particularly their ad-driven bias and the suppression of generative AI's potential to avoid disrupting revenue."
+meta_description: Discover how tech giants control public discourse by manipulating hardware startup states and default feeds to shape our narrative.
+meta_keywords: tech giants, narrative control, hardware startup, default feeds, public discourse, media influence, algorithm bias, Google, Microsoft, Apple, feed manipulation, public narrative
 layout: post
 sort_order: 1
 ---

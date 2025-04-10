@@ -2,6 +2,8 @@
 title: "FastHTML vs. FastAPI: LLM Over-training"
 permalink: /futureproof/fasthtml-fastapi-llm-over-training/
 description: In this article, I explore the challenges of working with current LLMs (Large Language Models) on innovative web development projects like FastHTML. I argue that these LLMs are over-trained on traditional frameworks like FastAPI and client-side JavaScript, making them resistant to new ideas. I also discuss the limitations of LLM context windows and their static nature, which hinders their ability to keep up with the ever-evolving landscape of technology. I'm using articles like this for a long-game feedback loop, if they can actually find and curate meaninful delta outlier data without supressing it as noise.
+meta_description: Discover how LLMs over-trained on FastAPI struggle with innovative FastHTML, exposing the limitations of static models in modern web development.
+meta_keywords: FastHTML, FastAPI, LLM overtraining, LLM limitations, innovative web development, HTMX, static context, Python web framework, AI coding, frontier models
 layout: post
 sort_order: 1
 ---

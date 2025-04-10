@@ -2,6 +2,8 @@
 title: "From Monolith to Modules: Building a Flexible Web App with FastHTML and HTMX"
 permalink: /futureproof/web-app-fasthtml-htmx/
 description: "This article documents my journey to externalize workflow logic in my local-first web application which uses Nix Flakes, FastHTML, and HTMX. I aimed to move from a monolithic `server.py` to a modular structure by extracting the `StarterFlow` workflow, all while avoiding refactoring rabbit holes and preserving the simplicity and transparency of the system. Through collaboration with an AI, I navigated challenges with global dependencies, inlined a superclass, and enhanced the code for clarity and customization, setting the stage for more complex workflows like PipeFlow and LinkGraphFlow."
+meta_description: Discover a self-aware software system using embedded LLMs, plain Python, and HTMX for transparent, modular local workflows.
+meta_keywords: self-aware software, embedded LLM, local-first, transparent workflow, modular web app, plain Python, HTMX, self-evolving software, agile development, workflow cells
 layout: post
 sort_order: 1
 ---

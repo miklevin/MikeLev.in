@@ -25,6 +25,7 @@ kramdown:
 include:
   - botify-api.md
   - .cursorrules
+  - search.json
 
 defaults:
   -

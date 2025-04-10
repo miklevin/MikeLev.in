@@ -2,6 +2,8 @@
 title: Figuring Out a Complex API
 permalink: /futureproof/figuring-out-a-complex-api/
 description: Coding like the 3 Little Pigs? Yup. Building straw houses with an eye on the future. It's about good kata, adapting to change, and the AI-powered webdev renaissance. HTMX FTW!
+meta_description: Learn to navigate the Botify API & BQLv2. Fetch projects, analyses, collections, fields & build queries for SEO data using Python & AI help.
+meta_keywords: Botify API, BQL, BQLv2, API Exploration, SEO Data, Python, JSON query, API Authentication, API Export, API Aggregate, Fetch Projects, Fetch Analyses, Fetch Collections, Fetch Fields, AI Assistant, PageWorkers, ActionBoard, Coding Philosophy, Rabbit Hole, Kata
 layout: post
 sort_order: 1
 ---

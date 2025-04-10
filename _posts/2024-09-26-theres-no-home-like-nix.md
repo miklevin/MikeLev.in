@@ -2,6 +2,8 @@
 title: There's No Home Like Nix
 permalink: /futureproof/theres-no-home-like-nix/
 description: In this article, I delve into building a Python web development environment within Nix, offering solutions for incorporating packages not readily available in the Nix repository. I guide you through using dotenv to securely manage environment variables and present a practical example of a simple FastHTML web application that prompts users for a secret and stores it safely. Additionally, I demonstrate the implementation of a basic chat server with Ollama, emphasizing the advantages of leveraging local LLMs for AI-assisted development.
+meta_description: Learn FastHTML basics for Python web apps (including HTMX SPA) and manage secrets with python-dotenv within a Nix Flake environment.
+meta_keywords: FastHTML, python-dotenv, secrets management, .env file, Nix Flake, Python web framework, web development, HTMX, SPA, reproducible environment, cross-platform, NixOS, macOS, Windows WSL, Infrastructure as Code, IaC, Python, Ollama, JavaScript frameworks
 layout: post
 sort_order: 1
 ---

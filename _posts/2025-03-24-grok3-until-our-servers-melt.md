@@ -2,6 +2,8 @@
 title: "Grok3 is Free Until Our Servers Melt"
 permalink: /futureproof/grok3-free-until-our-servers-melt/
 description: This article details my journey in creating a new workflow, Hello Webpage, by modifying a template using the WET software methodology, where I'm intentionally allowing code duplication for greater flexibility. I was genuinely impressed when xAI's Grok3 provided the exact working code I needed on its first attempt and then tried helping me identify and fix a tricky bug related to Pipeline ID collisions across different workflow applications, but came up short. Despite some moments where Grok3 seemed to freeze up during its responses, it ultimately persevered, highlighting its unique resilience compared to other AI models I've used. This experience has reinforced the potential of this new AI as a valuable partner in my coding and creative endeavors.
+meta_description: Discover how Grok3’s resilient AI built a flexible Hello Webpage workflow using a WET coding approach—free until our servers melt.
+meta_keywords: Grok3, WET coding, Hello Webpage, Pipulate workflow, AI-assisted coding, code diff, pipeline ID, flexible workflows, local AI, resilient AI, code debugging, anti-pattern
 layout: post
 sort_order: 2
 ---

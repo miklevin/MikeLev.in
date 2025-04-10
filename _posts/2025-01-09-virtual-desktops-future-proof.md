@@ -2,6 +2,8 @@
 title: "Virtual Desktops: Your Future-Proof Workflow in a World of Forced Upgrades"
 permalink: /futureproof/virtual-desktops-future-proof/
 description: I'm done with macOS and Windows. Their forced upgrades and proprietary nature are a threat to my productivity and freedom. NixOS is the answer, letting me build a clean, customizable system from scratch. But the real key to a future-proof workflow, no matter your OS, is virtual desktops. Master them. They're on every platform, the skills are transferable, and they'll save you from the tab-switching, window-shuffling chaos. GNOME does it best, but the others are usable too. Embrace the full-screen, learn the shortcuts, and break free from big tech's grip on your desktop.
+meta_description: "Unlock a robust workflow with virtual desktops—streamline window management, boost productivity, and escape forced OS upgrades."
+meta_keywords: virtual desktops, future-proof workflow, window management, forced upgrades, productivity, NixOS, open-source desktop, cross-platform, desktop organization, digital freedom, customizable OS
 layout: post
 sort_order: 2
 ---

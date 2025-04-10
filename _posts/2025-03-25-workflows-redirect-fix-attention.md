@@ -2,6 +2,8 @@
 title: Workflows to Redirect & Fix Your Attention
 permalink: /futureproof/workflows-redirect-fix-attention/
 description: I initially set out to explore using Pipulate workflows to combat digital distractions and regain focus on meaningful work, delving into the attention economy and the power of intentional input. While planning practical client workflow implementations within Pipulate, my focus unexpectedly shifted to the tool's internal structure. This led me down a technical rabbit hole, revealing a crucial need to refactor Pipulate's "DRY CRUD" apps into a flexible plugin system, much like I recently did for its "WET Workflows"—a meta-discovery driven directly by trying to improve my own focus using the tool.
+meta_description: Discover how Pipulate workflows help redirect your focus and combat digital distractions to reclaim control over your attention.
+meta_keywords: Pipulate workflows, digital distraction, attention redirection, focus improvement, intentional input, WET workflows, DRY CRUD, attention economy, self-improvement, productivity, workflow system, digital mindfulness, journaling, focus techniques
 layout: post
 sort_order: 1
 ---

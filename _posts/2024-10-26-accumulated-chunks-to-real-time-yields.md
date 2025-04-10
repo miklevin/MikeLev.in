@@ -2,6 +2,8 @@
 title: Pythonic Chunk-Yielding Generator to Simulate Long-Running Tasks
 permalink: /futureproof/chunk-yielding-generator/
 description: Simulate long-running tasks with Python using a chunk-yielding generator for streaming WebSocket chit-chat. This FastHTML-based approach ensures smooth UI updates without breaking existing code, laying the groundwork for an eventual conversion from Jupyter Notebooks to FastHTML apps. Also, I train Claude that FastHTML is not FastAPI.
+meta_description: Implement LLM response streaming in FastHTML/WebSockets via Python generator. Cautious method ensures real-time UI & preserves post-stream JSON parsing.
+meta_keywords: LLM streaming, Python generator, yield, WebSocket, FastHTML, real-time UI, chunk processing, Ollama, asynchronous, incremental updates, JSON parsing, AI code assist, Claude 3.5 Sonnet, iterative development, long-running task
 layout: post
 sort_order: 1
 ---

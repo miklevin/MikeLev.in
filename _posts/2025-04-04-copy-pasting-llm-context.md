@@ -2,6 +2,8 @@
 title: "Stop Copy-Pasting: A Simple Python Script for Managing LLM Code Context"
 permalink: /futureproof/copy-pasting-llm-context/
 description: To tackle the challenge of feeding large code contexts from a repository into LLMs without endless copy-pasting, I conceived a simple Python script, context_foo.py. Working iteratively with Gemini, we developed this script to concatenate specified files, adding custom prompts and clear markers, into a single foo.txt file easily usable as LLM input or attachment. The script now includes token counting, a manifest system, and customizable templates to help LLMs understand and work with different types of context. This process not only yielded a practical tool tailored to my workflow but also provided insights into effectively collaborating with AI for utility development.
+meta_description: Automate LLM code context management with a Python script that concatenates repo files, counts tokens, and builds a manifest for seamless AI input.
+meta_keywords: LLM code context, Python script, context aggregation, token counting, manifest system, copy-paste automation, AI coding assistant, prompt templates, repository concatenation, auto-generated context
 layout: post
 sort_order: 3
 ---

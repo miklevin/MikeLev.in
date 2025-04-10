@@ -2,6 +2,8 @@
 title: David Mayer Vs. Donald Trump (ChatGPT & Google AI ChatBot LLM Censorship)
 permalink: /futureproof/david-mayer-vs-donald-trump/
 description: This article presents a firsthand encounter with censorship in a large language model. Through a series of seemingly straightforward questions, a pattern of suppression emerges, raising concerns about transparency and bias in AI systems. This exploration delves into the potential consequences of such censorship, touching upon issues of trust, freedom of information, and the future of knowledge in an AI-driven world.
+meta_description: "Master progress with deliberate chisel-strikes—learn how incremental Git workflows and direct file-linking on Linux/NixOS build a portable, future-proof system."
+meta_keywords: chisel strikes, incremental progress, iterative improvement, banking wins, Git version control, Linux home, NixOS, Nix Home, declarative management, local environment, reproducible configuration, cloud independence, self-healing workflow
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: "Radical Simplicity: Pipulate and the Local-First Revolution"
 permalink: /futureproof/radical-simplicity-local-first/
 description: "I've built Pipulate, a local-first desktop app framework, designed to simplify web app development by integrating a local LLM, server-side state management with DictLikeDB, and a pipeline workflow system. It's all about keeping things simple, observable, and reproducible using FastHTML, MiniDataAPI, and Ollama, eliminating the complexities of traditional web development. The goal is to let anyone port Jupyter Notebooks into desktop apps, making data science and complex workflows accessible without needing to be a developer. I'm focusing on local control, minimal complexity, and empowering users with a powerful, personalized tool."
+meta_description: Pipulate is a local-first desktop framework that simplifies web development with integrated LLMs and modular pipeline workflows.
+meta_keywords: Pipulate, local-first, desktop app, web development, integrated LLM, pipeline workflow, modular workflows, FastHTML, MiniDataAPI, DictLikeDB, reproducible environment, single-tenant, Jupyter Notebook porting
 layout: post
 sort_order: 2
 ---

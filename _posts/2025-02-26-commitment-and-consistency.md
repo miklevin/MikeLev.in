@@ -2,6 +2,8 @@
 title: Commitment And Consistency
 permalink: /futureproof/commitment-and-consistency/
 description: This is a bit of a rambling post where I'm trying to get myself psyched up for work tomorrow. I'm trying to create a unified story to tell clients about why traditional SEO is still important, even in the age of AI. I'm also trying to make a commitment to myself to be more consistent with my work and to create a more streamlined process for managing client projects. I'm using the concept of Ikigai to help me find purpose and motivation in my work. I'm also exploring the use of AI assistants like Grok 3 and Claude 3.7 Sonnet to help me with my coding, but I'm finding that they can be frustrating and unreliable. I'm hoping to find a way to make my work more love-worthy and to find a balance between the old way of doing things and the new way of doing things.
+meta_description: Get psyched for work by embracing commitment and consistency in SEO, with Ikigai-inspired focus and streamlined client project processes.
+meta_keywords: commitment, consistency, traditional SEO, Ikigai, work motivation, unified client story, streamlined workflow, project management, AI assistants, Grok 3, Claude 3.7, personal development, SEO strategy
 layout: post
 sort_order: 1
 ---

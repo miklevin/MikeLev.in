@@ -2,6 +2,8 @@
 title: Botifython is Born
 permalink: /futureproof/botifython-is-born/
 description: I’m diving back into web development through Botifython, a Python framework focused on SEO and AI, driven by new technology. My setup utilizes Nix Flakes for reproducible environments and includes an automated update mechanism with SSH keys, ensuring seamless integration of new features. I’m excited to evolve this project with stable and experimental branches as I continue to enhance its capabilities.
+meta_description: "Botifython: Python framework for SEO/AI using FastHTML & Nix Flakes. Guide covers reproducible setup, OOP plugins, chatbot, and data science integration (Pandas/Bokeh)."
+meta_keywords: Botifython, Python, web framework, FastHTML, Nix, Nix Flakes, reproducible environment, SEO, AI, Data Science, plugin system, BaseApp, Pandas, Bokeh, chatbot, installation guide, Determinate Systems, auto-update, HTMX
 layout: post
 sort_order: 1
 ---

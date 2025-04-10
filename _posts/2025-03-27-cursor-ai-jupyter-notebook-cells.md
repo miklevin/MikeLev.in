@@ -2,6 +2,8 @@
 title: Can Cursor AI Read Jupyter Notebook Cells?
 permalink: /futureproof/cursor-ai-jupyter-notebook-cells/
 description: "Driven by the excitement of merging Jupyter's exploratory power with AI assistance inside Cursor, I embarked on a practical investigation, testing the AI's ability to understand notebook context and discovering its significant blind spot: it can't see cell outputs. This prompted a deeper dive using AI research tools (Perplexity, ChatGPT) to confirm the limitation and uncover community workarounds, while also leading me down related paths exploring the reactive notebook alternative Marimo, the awkwardness of Vim mode in cells, and the rich history of computational notebooks from Mathematica to Fernando Pérez's pivotal creation of IPython/Jupyter and its widespread vendor adoption today."
+meta_description: Discover why Cursor AI fails to read Jupyter Notebook cell outputs and explore workarounds and alternatives for effective AI coding assistance.
+meta_keywords: Cursor AI, Jupyter Notebook, cell output, AI coding assistance, notebook context, community workarounds, reactive notebooks, Marimo, Vim mode, IPython, computational notebooks
 layout: post
 sort_order: 2
 ---

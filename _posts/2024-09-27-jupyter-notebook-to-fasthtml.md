@@ -2,6 +2,8 @@
 title: Forking a Flake of Infrastructure as Code
 permalink: /futureproof/forking-flake-infrastructure-as-code/
 description: I've finally cracked the code to a truly portable and reproducible development environment using Nix flakes!  It was a wild ride wrestling with different technologies, but Nix was a lifesaver for managing dependencies and keeping things consistent across my Linux and Mac machines.  I even found a way to seamlessly integrate AI-assisted coding tools like Cursor AI and Jupyter AI into the mix.  The real kicker was building a FastHTML web app that taps into the Botify API – talk about a learning curve with that BQL language!  But hey, who needs sleep when you're riding the wave of efficient and cutting-edge development?
+meta_description: Fork or clone a Nix Flake template (Pipulate) to start new projects (Botifython). Guide details Git workflow and cross-platform testing via `nix develop`.
+meta_keywords: Fork Nix Flake, clone Nix Flake, Nix Flake template, start new project, reproducible environment, cross-platform setup, Infrastructure as Code, IaC, Git workflow, nix develop, NixOS, macOS, Pipulate, Botifython, FastHTML, JupyterLab, Cursor AI, venv, pip install nix
 layout: post
 sort_order: 1
 ---

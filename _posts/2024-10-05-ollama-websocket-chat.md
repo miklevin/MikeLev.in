@@ -2,6 +2,8 @@
 title: Ollama Websocket Chat
 permalink: /futureproof/ollama-websocket-chat/
 description: I detail my journey of building a reproducible development environment using Nix flakes, focusing on creating a home script to streamline setup across platforms. I discuss the challenges of managing dependencies and ensuring consistency across different operating systems, and I highlight the benefits of Nix's declarative approach and immutable store. I also share my experiences with web development frameworks and the importance of choosing the right tools for building modern web applications.
+meta_description: Build a real-time chat app using FastHTML and WebSockets, powered by a local Ollama LLM with streaming responses and context.
+meta_keywords: FastHTML, WebSockets, Ollama, chat application, local LLM, real-time chat, streaming response, asynchronous, asyncio, Python web app, HTMX, Starlette, Uvicorn, Typing effect, Chatter API, LLM context, Nix Flake, WebSockets vs ZeroMQ
 layout: post
 sort_order: 1
 ---

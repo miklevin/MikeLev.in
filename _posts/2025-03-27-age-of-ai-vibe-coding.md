@@ -2,6 +2,8 @@
 title: "Future-Proofing in the Age of AI: Beyond Vibe Coding"
 permalink: /futureproof/age-of-ai-vibe-coding/
 description: Facing a day of client calls and system development, I'm using this early morning window to reflect on managing my time and future-proofing my skills amidst the rapid AI shift. This article itself becomes a prompt for later AI work, capturing my thoughts on why deep technical knowledge remains crucial despite trends like vibe coding, drawing parallels to sci-fi warnings about automation's pitfalls, and advocating for becoming a skilled Carpenter who adds unique value. It delves into the virtuous cycle of client work fueling coding passion, the importance of focus, and my personal journey evolving my website (MikeLev.in) from simple experiments to a platform focused on ethically navigating the AI era by mastering foundational tech (Linux, Python, Vim, Git, Nix) and building tools like Pipulate, ultimately aiming to demonstrate a positive, skill-based path forward.
+meta_description: Future-proof your career by mastering deep technical skills and strategic focus—beyond the superficial allure of vibe coding in the AI era.
+meta_keywords: future-proofing, AI era, vibe coding, technical mastery, deep skills, Linux, Python, Vim, Git, Nix, attention economy, ethical coding, continuous learning
 layout: post
 sort_order: 1
 ---

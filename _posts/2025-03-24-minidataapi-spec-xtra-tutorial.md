@@ -2,6 +2,8 @@
 title: MiniDataAPI Spec `.xtra()` Tutorial
 permalink: /futureproof/minidataapi-spec-xtra-tutorial/
 description: "This piece walks you through the essentials of MiniDataAPI, a super simple Python API for basic database operations. I explained how it focuses on Create, Read, Update, and Delete (CRUD) actions without the complexity of joins or fancy query building you might find in bigger ORMs. The tutorial shows you how to set up a table, insert data, retrieve specific records or lists using different methods, update existing entries, and delete them. I also highlighted a cool feature called `.xtra()` which lets you permanently filter a table for things like multi-tenant applications or permission control, making sure you only see the data you're supposed to. The key takeaway is that MiniDataAPI is all about simplicity for straightforward data tasks, so don't go looking for those advanced ORM features here!"
+meta_description: Master MiniDataAPI's .xtra() method for simple, lightweight CRUD operations in Python. This tutorial explains permanent filtering and permission scoping.
+meta_keywords: MiniDataAPI, .xtra(), CRUD, Python database, lightweight API, permanent filtering, permission scoping, minimal ORM, simple CRUD, database tutorial
 layout: post
 sort_order: 1
 ---

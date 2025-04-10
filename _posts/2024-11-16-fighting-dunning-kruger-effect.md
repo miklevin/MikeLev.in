@@ -2,6 +2,8 @@
 title: On Fighting the Dunning-Kruger Effect
 permalink: /futureproof/fighting-dunning-kruger-effect/
 description: Fighting the Dunning-Kruger effect and trying to actually be that good while building a simple yet powerful web app with a unique architecture. Learn how AI helps combine the best of old-school desktop apps with modern web technologies.
+meta_description: Conquer overconfidence with a single-tenant web app that uses file‐based state, HTMX UI, and simple, robust workflows.
+meta_keywords: dunning-kruger, single-tenant, web app, file-based state, HTMX, FastHTML, persistent queue, error handling, anti-patterns, simple design, streaming progress, SSE, state management, AI workflow, debugging, modern web technologies
 layout: post
 sort_order: 1
 ---

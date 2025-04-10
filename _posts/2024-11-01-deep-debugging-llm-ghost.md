@@ -2,6 +2,8 @@
 title: Deep Debugging LLM Ghost
 permalink: /futureproof/deep-debugging-llm-ghost/
 description: A deep dive into the challenges of integrating LLMs with dynamic web UIs using HTMX and FastHTML. Explore the pitfalls of misusing WebSockets, the complexities of parsing assistant responses, and the eventual triumph of Server-Sent Events.
+meta_description: Debugging LLM actions causing UI updates in FastHTML/HTMX. Chronicles WebSocket issues & proposes Server-Sent Events (SSE) as a robust solution.
+meta_keywords: Debugging, LLM, Ghost In The Machine, UI update, HTMX, FastHTML, Server-Sent Events, SSE, WebSocket, JSON command, CRUD, DOM manipulation, AI code assist, Python, asynchronous, incremental debugging
 layout: post
 sort_order: 1
 ---

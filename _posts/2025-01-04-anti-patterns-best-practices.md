@@ -2,6 +2,8 @@
 title: When Anti-Patterns Become Best Practices
 permalink: /futureproof/anti-patterns-best-practices/
 description: This piece explores a Python programmer's journey through the world of web development, highlighting their love for minimalist tools like HTMX and FastHTML. It delves into the challenges of building SEO tools, the frustrations with JavaScript's complexity, and the joy of discovering elegant solutions that prioritize simplicity and developer experience. The author's unique approach challenges conventional web development practices, emphasizing the power of "anti-patterns" and the beauty of stripping away unnecessary layers of abstraction.
+meta_description: Discover how unconventional anti-patterns in web development evolve into best practices with minimalist tools like HTMX and FastHTML.
+meta_keywords: anti-patterns, best practices, web development, minimalist tools, HTMX, FastHTML, Python, SEO, developer experience, JavaScript complexity, code simplicity, workflow optimization
 layout: post
 sort_order: 2
 ---

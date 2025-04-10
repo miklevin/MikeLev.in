@@ -2,6 +2,8 @@
 title: Dedumbing Sisyphus
 permalink: /futureproof/dedumbing-sisyphus/
 description: "In my latest article, 'Dedumbing Sisyphus,' I reflect on the challenges and triumphs of building a groundbreaking AI-powered SEO tool while juggling client work and life's unexpected curveballs. I explore the importance of breaking free from the 'busywork trap' and achieving a state of flow, drawing inspiration from the myth of Sisyphus and the concept of antifragility. I delve into the technical intricacies of my project, emphasizing a minimalist approach and the power of local LLMs. Ultimately, it's a story about perseverance, innovation, and the pursuit of a meaningful legacy in the ever-evolving world of technology."
+meta_description: "Overcome busywork traps with a minimalist, AI-powered SEO approach—explore antifragility, flow state, and building a meaningful tech legacy."
+meta_keywords: AI SEO, busywork trap, minimalist workflow, antifragility, Sisyphus myth, flow state, local LLMs, tech perseverance, workflow automation, digital legacy, SEO innovation, self-improvement
 layout: post
 sort_order: 1
 ---

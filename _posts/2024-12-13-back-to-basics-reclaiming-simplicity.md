@@ -2,6 +2,8 @@
 title: "Back to Basics: Reclaiming Simplicity in a Complex Tech World"
 permalink: /futureproof/back-to-basics-reclaiming-simplicity/
 description: In an era defined by buzzwords, rapid-fire tool adoption, and the endless chase for the next shiny solution, this article urges readers to take a step back and rediscover the simple, timeless principles at the heart of computing. By highlighting the enduring power of the Unix philosophy, reproducible environments, and local-first approaches, it offers a roadmap to building sustainable, flexible systems that don’t rely on hype or vendor lock-in. Whether you’re a seasoned developer or just starting out, this piece will help you cut through the noise, focus on what truly matters, and create lasting value in your work.
+meta_description: "Cut through tech hype by embracing timeless computing principles—build reproducible, local-first systems inspired by Unix simplicity."
+meta_keywords: simplicity, Unix philosophy, reproducible environments, local-first, timeless computing, sustainable systems, back to basics, minimalism, stable tech, anti-hype, vendor lock-in
 layout: post
 sort_order: 1
 ---

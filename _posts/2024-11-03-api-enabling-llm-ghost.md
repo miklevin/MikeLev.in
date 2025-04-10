@@ -2,6 +2,8 @@
 title: API-Enabling the LLM Ghost
 permalink: /futureproof/api-enabling-llm-ghost/
 description: Unlock the hidden potential of an LLM that’s not just in the background but visibly alive in your browser. This deep dive explores the path to seamless, human-like control of CRUD operations through an HTMX-powered proof of concept, bridging the uncanny valley between human interaction and AI control, where every action could look like it’s yours.
+meta_description: Learn how an LLM can control browser DOM updates for CRUD actions via HTMX, WebSockets, and SSE, creating a seamless UI interaction mimicking user input.
+meta_keywords: LLM, HTMX, WebSocket, SSE, DOM Manipulation, CRUD, API, JavaScript, Python, FastHTML, Browser Control, UI Automation, Real-time Updates, Frontend Control, LLM Integration, Insert Task, Update DOM, System Prompt, MiniDataAPI, LLM Ghost
 layout: post
 sort_order: 1
 ---

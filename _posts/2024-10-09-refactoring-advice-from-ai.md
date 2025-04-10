@@ -2,6 +2,8 @@
 title: AI-Generated Refactoring Advice from Top LLM Models
 permalink: /futureproof/ai-generated-refactoring-advice/
 description: I detail my experience using Nix flakes to create a reproducible development environment for a Python web application built with the FastHTML framework. I discuss the challenges and benefits of using Nix for managing dependencies and ensuring consistency across different platforms, and I highlight the importance of understanding and leveraging the unique features of FastHTML for efficient web development. I also share my insights on the evolution of web development and the role of AI in shaping the future of coding practices.
+meta_description: Leveraging ChatGPT & Claude LLMs for code review and refactoring plans on a Python FastHTML application within a Nix Flake environment.
+meta_keywords: AI code review, AI refactoring, ChatGPT, Claude 3.5 Sonnet, LLM, FastHTML, Python, Nix Flake, code analysis, software architecture, refactoring plan, modular design, WebSockets, DictLikeDB, FAISS, RAG, Ollama, Botify API, Cursor AI
 layout: post
 sort_order: 1
 ---

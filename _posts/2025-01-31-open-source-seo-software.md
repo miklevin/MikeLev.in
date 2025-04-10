@@ -2,6 +2,8 @@
 title: Open Source SEO Software
 permalink: /futureproof/open-source-seo-software/
 description: My open-source SEO software, Pipulate, is evolving. I'm simplifying its core, embracing a Python-first, local-first philosophy that rejects the complexities of modern web frameworks.  This means doubling down on my FastHTML-based lightweight web framework, and building a flexible pipeline system for automating SEO tasks.  Think powerful local SEO tools, combined with the strategic injection of expert knowledge to guide AI assistance.  The goal? A powerful, adaptable, open-source alternative that puts control back in the hands of SEO practitioners, future-proofing their skills for a rapidly changing landscape. 
+meta_description: Discover Pipulate, a lightweight open source SEO tool built on Python and FastHTML that automates tasks via a flexible pipeline system.
+meta_keywords: Pipulate, open source SEO, SEO software, Python SEO, FastHTML, local-first, SEO automation, pipeline system, lightweight web framework, digital marketing
 layout: post
 sort_order: 1
 ---

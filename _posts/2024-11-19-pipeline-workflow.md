@@ -2,6 +2,8 @@
 title: Pipeline Workflow
 permalink: /futureproof/pipeline-workflow/
 description: This document details the creation of a system for managing complex workflows on a local machine, inspired by the Unix pipeline concept. It leverages a Python-based web framework (FastHTML) and a minimalist database approach (MiniDataAPI) to create a user-friendly interface for chaining together tasks, passing data between them, and managing state efficiently. This system aims to simplify and streamline complex processes, particularly those involving web scraping, data analysis, and automation, all while remaining lightweight and user-friendly.
+meta_description: Streamline complex workflows with a lightweight, Unix-inspired pipeline system using FastHTML and MiniDataAPI for local automation.
+meta_keywords: pipeline workflow, Unix pipeline, FastHTML, MiniDataAPI, local automation, state management, card-based processing, workflow automation, SEO automation, web scraping, Python, local-first design, minimal web app
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: "AI's New Deal: From Ideas to Automation"
 permalink: /futureproof/ideas-to-automation/
 description: "Open-source, locally run large language models (LLMs) like Llama are poised to revolutionize our interaction with technology. They function as universal translators, converting natural language into executable code, thereby democratizing automation and empowering individuals to realize their ideas without extensive programming expertise. This shift has the potential to trigger a societal recalibration akin to the Industrial Revolution, fostering a new class of digitally empowered individuals and challenging the dominance of established tech companies."
+meta_description: Discover how local open-source LLMs transform natural language into code, empowering innovation and democratizing automation for a new digital era.
+meta_keywords: automation, local LLM, open-source AI, language models, natural language coding, universal translator, idea automation, digital empowerment, AI revolution, executable code
 layout: post
 sort_order: 1
 ---

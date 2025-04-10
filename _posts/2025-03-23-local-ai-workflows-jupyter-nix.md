@@ -2,6 +2,8 @@
 title: "Pipulate: Local AI Workflows with Jupyter & Nix"
 permalink: /futureproof/local-ai-workflows-jupyter-nix/
 description: Sunday morning's coding session ignited a plan to leverage Jupyter Notebooks for AI-driven Pipulate workflows, aiming to bridge the gap between flexible "WET" development and automated, Nix-powered deployment. This vision incorporates local AI, swappable components, and advanced memory management, all while challenging the normalizing influence of large language models and embracing the "write once, run anywhere" dream through a portable, local-first web app ecosystem.
+meta_description: Transform Jupyter Notebooks into local, customizable AI workflows with Pipulate and Nix for flexible, portable web apps.
+meta_keywords: Pipulate, local AI workflows, Jupyter Notebooks, Nix deployment, WET coding, customizable web apps, local-first, AI-assisted development, flexible workflows, swappable components, memory management, outlier innovation
 layout: post
 sort_order: 1
 ---

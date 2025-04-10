@@ -2,6 +2,8 @@
 title: Unpacking FastHTML Databases
 permalink: /futureproof/unpacking-fasthtml-databases/
 description: I explore the complexities of the FastHTML framework and its layered architecture, built on Python and Starlette. I discuss the challenges of adapting to new conventions while developing a Pythonic API wrapper and highlight the importance of understanding evolving frameworks for effective web development. I also delve into the intricacies of FastHTML's database features, including table creation, persistence, and user data management, emphasizing the importance of understanding these concepts for building robust web applications.
+meta_description: "Understand FastHTML's database: Guide to defining multiple tables via the `fast_app` function (**kwargs) and unpacking table/dataclass objects."
+meta_keywords: FastHTML database, fast_app API, define database tables, multiple tables FastHTML, MiniDataAPI, tuple unpacking, kwargs, Python web framework, persistence, SQLite, CRUD, dataclass, render function, live reload, framework opinions, convention over configuration, Python, HTMX, Nix Flake
 layout: post
 sort_order: 1
 ---

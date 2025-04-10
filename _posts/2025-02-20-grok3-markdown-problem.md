@@ -2,6 +2,8 @@
 title: Grok 3 Markdown Problem
 permalink: /futureproof/grok3-markdown-problem/
 description: I'm cautiously optimistic about Grok 3, but this broken markdown problem is a show stopper for me. Hopefully they notice and fix it. (FIXED! At least on grok.com)
+meta_description: Grok 3’s Copy Text feature strips essential Markdown formatting, disrupting Jekyll workflows—learn why grok.com delivers clean, publication-ready Markdown.
+meta_keywords: Grok 3, Markdown formatting, Copy Text issue, Jekyll, GitHub Pages, AI code assistance, FastHTML, HTMX, markdown export, X.com, grok.com, code documentation, workflow disruption
 layout: post
 sort_order: 2
 ---

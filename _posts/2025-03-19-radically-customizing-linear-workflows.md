@@ -2,6 +2,8 @@
 title: Radically Customizing Linear Workflows
 permalink: /futureproof/radically-customizing-linear-workflows/
 description: "The initial templated approach to building Pipulate workflows, while simple for basic forms, severely limits customization for complex UI elements like textareas, dropdowns, and custom widgets. To address this, I'm shifting to a completely explicit, 'unlooped' design where each workflow step is defined by its own dedicated handler function. This approach mirrors the flexibility of Jupyter Notebook cells, allowing for radical customization without the constraints of rigid abstractions or predefined APIs."
+meta_description: Unleash radical customization in Pipulate workflows with explicit, unlooped step handlers—achieve full UI flexibility like Jupyter Notebook cells.
+meta_keywords: Pipulate, workflow customization, unlooped workflows, explicit handlers, UI customization, Jupyter Notebook, custom widgets, linear workflows, splicing system, Python web apps
 layout: post
 sort_order: 2
 ---

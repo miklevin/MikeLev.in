@@ -2,6 +2,8 @@
 title: Of Plugs, Slugs, Nubs & Stubs
 permalink: /futureproof/plugs-slugs-nubs-stubs/
 description: In this piece, I'm grappling with how to effectively capture and develop my scattered ideas, which I'm calling "nubs" or "stubs," for future articles. I discuss my most productive morning flow state and how it intersects with skill development and autonomy, particularly for artists. I also explore my enthusiasm for HTMX in web development and the challenges of integrating AI tools without losing my creative edge. Ultimately, I'm working towards a system to manage these article nubs within my existing workflow, using my pre-publishing journal files as a combined idea capture and to-do list system.
+meta_description: Capture and nurture creative idea seeds into full articles with a lean, modular workflow that blends digital journaling and modern web tools.
+meta_keywords: article nubs, idea capture, creative workflow, content stubs, digital journaling, creative productivity, morning flow, HTMX, FastHTML, artist autonomy, idea management
 layout: post
 sort_order: 1
 ---

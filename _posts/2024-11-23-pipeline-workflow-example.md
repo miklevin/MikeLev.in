@@ -2,6 +2,8 @@
 title: Pipline Workflow Example
 permalink: /futureproof/pipeline-workflow-example/
 description: This is a chronicle of my journey building a unique web application, a testament to the power of server-side simplicity.  I'm using FastHTML and HTMX to craft a localhost-first experience, deliberately avoiding client-side frameworks.  Think pipelines, persistent state, and a touch of AI magic with Ollama.  It's a deep dive into the intricacies of  JSON serialization, state management, and the often-overlooked elegance of server-side rendering.  We'll explore the MiniDataAPI Spec,  wrestle with LLMs, and ultimately create a web app that's both powerful and refreshingly straightforward.
+meta_description: "Explore a pipeline workflow built with FastHTML, HTMX, and MiniDataAPI—enabling robust server-side state management in a localhost-first web app."
+meta_keywords: pipeline workflow, FastHTML, HTMX, MiniDataAPI, server-side state, localhost-first, JSON serialization, persistent state, web app, AI integration, LLM collaboration
 layout: post
 sort_order: 1
 ---

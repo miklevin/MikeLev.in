@@ -2,6 +2,8 @@
 title: Planning to Win with LLM
 permalink: /futureproof/planning-to-win-with-llm/
 description: Planning to Win with LLM highlights how LLMs reduce planning friction by offering mentorship on common scenarios but struggle with novel insights. It emphasizes leveraging AI for SEO and using WebSockets to track user actions, blending AI strengths with adaptability for future innovations.
+meta_description: "Plan to modify Python BaseApp framework for LLM awareness: Log user CRUD actions via WebSockets (`chatq`) for real-time context & future RAG integration."
+meta_keywords: LLM integration, user action logging, WebSocket, chatq, BaseApp, Python framework, local LLM, context awareness, RAG, planning, OOP, dynamic field access, AI code assist, AI planning, AI SEO, vector database
 layout: post
 sort_order: 1
 ---

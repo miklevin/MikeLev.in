@@ -2,6 +2,8 @@
 title: Learning AI Deep Research
 permalink: /futureproof/ai-deep-research/
 description: In this exploration, I delved into the evolving landscape of AI-driven deep research, starting with a Google Trends analysis of 'SEO' versus the celebrity 'Yuk Jun-seo' to illustrate AI's analytical prowess. Then, I shifted focus to compare the deep research capabilities of leading AI models like ChatGPT, Bing Chat, Claude, Gemini, Perplexity, and Grok. I examined their web browsing styles, citation practices, output formatting, code interaction, and future potentials, highlighting the nuances that differentiate each platform. The goal was to provide a comprehensive overview of how these tools are transforming online research, emphasizing the growing importance of real-time data and transparent source attribution.
+meta_description: Discover how AI deep research transforms analysis through real-time browsing, transparent citations, and advanced multi-model comparisons.
+meta_keywords: AI deep research, online research, real-time browsing, citation transparency, chain-of-thought, ChatGPT, Bing Chat, Claude, Gemini, Perplexity, Grok, digital research, source attribution, AI research tools
 layout: post
 sort_order: 1
 ---

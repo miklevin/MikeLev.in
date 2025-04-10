@@ -2,6 +2,8 @@
 title: Brainstorming Book Titles with AI
 permalink: /futureproof/brainstorming-book-titles-ai/
 description: In this book, I'll share my personal journey from tech enthusiast to advocate for local computing and AI.  We'll explore the power of the LPvg stack (Linux, Python, vim, and git), unlock the magic of NixOS and HTMX, and delve into the world of local Large Language Models.  This is more than just a technical guide; it's a story about reclaiming your digital sovereignty, escaping the cloud, and building a future where technology empowers individuals.
+meta_description: "Unlock creative book title ideas with AI—merge local computing, the LPvg stack, and digital sovereignty for innovative, engaging concepts."
+meta_keywords: book titles, brainstorming, AI, creative titles, digital sovereignty, local computing, LPvg stack, FastHTML, HTMX, NixOS, tech inspiration, content strategy
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: SEO in the age of LLMs
 permalink: /futureproof/seo-age-of-llms/
 description: "I'm testing the limits of SEO in a post-AI world by intentionally wrecking and rebuilding my vanity site, ditching 301 redirects, and tracking the raw impact of consistent, human-written content. My goal? To see if genuine effort and niche expertise can still cut through the noise, proving that 'if you write it, they will come' – even without social media megaphones or AI-generated fluff. This isn't just about traffic; it's about understanding the evolving relationship between content, search engines, and the future of web intelligence."
+meta_description: Experiment with authentic, human-written SEO strategies on a vanity site to test if genuine content can outshine AI fluff and viral trends.
+meta_keywords: SEO experiment, human-written content, vanity site, post-AI SEO, deep research, authentic SEO, long-tail marketing, search engine optimization, controlled experiment, digital marketing
 layout: post
 sort_order: 3
 ---

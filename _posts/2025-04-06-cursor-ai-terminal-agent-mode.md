@@ -2,6 +2,8 @@
 title: "Decoding Cursor AI's Terminal: A NixOS User's Deep Dive into Agent Mode"
 permalink: /futureproof/cursor-ai-terminal-agent-mode/
 description: Drawn into Cursor AI's Agent mode, I needed to understand its terminal environment, particularly its limitations on my NixOS setup where standard paths like `/etc/nixos` weren't accessible. After researching (with AI assistance) the isolated nature stemming from its Nix packaging (using `fhsenv` and `APPDIR`), I configured Cursor's Rules feature to persistently inform the agent about these constraints and the necessity of using `nix develop` first, adapting my workflow to this new agent-driven development paradigm.
+meta_description: Discover how Cursor AI's Agent mode terminal on NixOS uses Nix packaging, fhsenv, and APPDIR to create an isolated environment—learn why 'nix develop' is essential.
+meta_keywords: Cursor AI, Agent mode, NixOS, Nix packaging, fhsenv, APPDIR, nix develop, terminal isolation, integrated terminal, sandbox environment, filesystem access, environment variables
 layout: post
 sort_order: 1
 ---

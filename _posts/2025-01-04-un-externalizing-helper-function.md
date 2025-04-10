@@ -2,6 +2,8 @@
 title: Un-Externalizing a Helper Function
 permalink: /futureproof/un-externalizing-helper-function/
 description: In this article, I'll take you on a deep dive into a refactoring journey that challenges conventional wisdom. We'll explore how un-externalizing a helper function, a move that seems counterintuitive, can actually enhance code clarity and consistency. Join me as I navigate the complexities of state management, form repopulation, and the delicate balance between abstraction and simplicity. Along the way, we'll uncover the power of minimalist web frameworks, the elegance of HTMX, and the art of "musical" code composition. Get ready for a refactoring adventure that will challenge your assumptions and inspire you to find beauty in the most unexpected places.
+meta_description: Discover how un-externalizing a helper function streamlines pipeline state management and boosts code clarity in minimalist web workflows.
+meta_keywords: un-externalizing, helper function, refactoring, pipeline state management, code clarity, minimalist web workflows, HTMX, FastHTML, Python, anti-patterns, developer experience, workflow optimization
 layout: post
 sort_order: 1
 ---

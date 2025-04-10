@@ -2,6 +2,8 @@
 title: "Cursor AI Agent Mode Beats `git cherry-pick`: Agentic Debugging"
 permalink: /futureproof/ai-agentic-mode-debugging/
 description: Facing a frustrating `asyncio` timing bug that nearly forced me to revert significant work, I used Claude's Agent mode in Cursor. It impressively navigated my git history, used the terminal following my custom rules, diagnosed the concurrency issue, and ultimately helped devise and implement a lightweight message queue to ensure proper message order without needing explicit delays or manual `git` fixes, showcasing a powerful new way to debug complex problems.
+meta_description: Learn how Cursor AI Agent Mode beats git cherry-pick by diagnosing asyncio bugs, analyzing git history, and automating message ordering for seamless debugging.
+meta_keywords: Cursor AI Agent Mode, agentic debugging, asyncio bug fix, git history analysis, lightweight message queue, terminal automation, async programming, AI-assisted debugging, concurrency fix, git cherry-pick alternative, python asyncio
 layout: post
 sort_order: 1
 ---

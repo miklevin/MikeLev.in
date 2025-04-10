@@ -2,6 +2,8 @@
 title: "Building a Plugin-Ready Framework: A Step-by-Step Transformation"
 permalink: /futureproof/building-plugin-ready-framework/
 description: Discover how I restructured my system into a plugin-ready framework, enhancing modularity and simplifying updates. This guide outlines the transformative steps taken, highlighting the benefits of a modular design for improved scalability, maintainability, and collaborative development.
+meta_description: Create a plugin-ready Python framework for FastHTML apps using a BaseApp class. Details refactoring steps, CRUD abstraction, and dynamic route registration for modularity.
+meta_keywords: plugin framework, modular design, BaseApp, inheritance, Python, refactoring, FastHTML, code reuse, DRY principle, CRUD, routing, dynamic registration, scalability, maintainability, fast_app, application architecture
 layout: post
 sort_order: 1
 ---

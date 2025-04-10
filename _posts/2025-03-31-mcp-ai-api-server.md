@@ -2,6 +2,8 @@
 title: "Integrating MCP: Giving My Local LLM App the Power to Act"
 permalink: /futureproof/mcp-ai-api-server/
 description: After removing my fragile homegrown tool-calling system from Pipulate, I'm now focused on integrating Anthropic's Model Context Protocol (MCP) to allow my embedded local LLM (via Ollama) to actually *perform* tasks, not just instruct. Despite previous frustrations with documentation and vendor bias, I believe MCP is the necessary universal standard, and my immediate goal is to research its current, real-world implementation state—including non-HTTP options and usage beyond Claude—so I can understand how to build Pipulate as an MCP client and leave detailed code comments as hooks before client work demands my attention.
+meta_description: Upgrade your local LLM app with Anthropic’s MCP to execute real tool calls—moving from homegrown hacks to a robust, standard integration.
+meta_keywords: MCP integration, Model Context Protocol, local LLM, Ollama, Pipulate, AI tool-calling, FastHTML, plugin architecture, actionable AI, Anthropic MCP, digital transformation, API integration, LLM task execution
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: Taking The NixOS Wayland Hyprland Plunge!
 permalink: /futureproof/nixos-wayland-hyprland/
 description: This article documents my ultimately unsuccessful attempt to switch from GNOME to Hyprland on NixOS. Despite Hyprland's speed and customizability, I found that its modular nature and lack of integrated features like workspace overviews made it less suitable for my fullscreen-focused workflow. The experiment helped me appreciate GNOME's polished user experience and Wayland's performance benefits, while also providing a deeper understanding of my own desktop preferences.
+meta_description: Read about my experiment switching from GNOME to Hyprland on NixOS. Discover insights on performance, workspace management, and desktop customization trade-offs.
+meta_keywords: Hyprland, NixOS, GNOME, Wayland, tiling window manager, desktop customization, workspace management, Linux desktop, performance trade-offs, experimental desktop
 layout: post
 sort_order: 2
 ---

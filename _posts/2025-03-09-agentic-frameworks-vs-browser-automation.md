@@ -2,6 +2,8 @@
 title: "Agentic Frameworks vs. DIY: Finding the Right Balance for Browser Automation"
 permalink: /futureproof/agentic-frameworks-vs-browser-automation/
 description: I'm looking for a local browser automation solution that avoids cloud dependencies and tedious DOM manipulation. I explored popular agentic frameworks like LangChain, Auto-GPT, and Microsoft AutoGen, but found them too opinionated and complex for my needs. Instead, I'm seeking a simpler setup that combines the power of Playwright or Puppeteer with the semantic capabilities of a local LLM like Llama, allowing me to express browser interactions in natural language. I'm also interested in open-source tools that simplify DOM interaction and provide high-level APIs for controlling real browsers.
+meta_description: Discover a DIY method for local browser automation that uses Playwright and local LLMs for natural language control—ditch complex agentic frameworks.
+meta_keywords: local browser automation, DIY automation, Playwright, Puppeteer alternative, local LLM, Llama, agentic frameworks, semantic browser control, natural language automation, open-source automation, Python browser automation, chain-of-thought
 layout: post
 sort_order: 1
 ---

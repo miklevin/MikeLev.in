@@ -2,6 +2,8 @@
 title: "Carving New Paths: Navigating AI's Influence in Development"
 permalink: /futureproof/navigating-ai-influence/
 description: I'm navigating the fine line between conformity and innovation in a world increasingly shaped by AI, where standing out requires both subtle adjustments and determined action. I'm building Pipulate, a framework that embraces explicit, customizable workflows, defying the AI's tendency to push me towards conventional solutions like FastAPI. This approach, favoring "WET" code and Jupyter Notebook-style flexibility, aims to create a system where radical customization is possible, despite the challenges of breaking away from established patterns and the inherent biases of AI towards common solutions. I'm betting on the "black swan" potential of my approach, knowing that true innovation often lies at the edges of the normal distribution, where AI's guidance is less reliable.
+meta_description: Navigate AI’s influence in development by building explicit, customizable workflows that break conventional molds—embrace WET coding with Pipulate.
+meta_keywords: AI influence, customizable workflows, explicit pipelines, WET coding, Pipulate, radical innovation, development strategy, breaking conventions, Jupyter Notebook flexibility, AI-driven development
 layout: post
 sort_order: 2
 ---

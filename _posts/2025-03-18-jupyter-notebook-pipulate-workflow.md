@@ -2,6 +2,8 @@
 title: Jupyter Notebook to Pipulate Workflow
 permalink: /futureproof/jupyter-notebook-pipulate-workflow/
 description: I'm deep into developing Pipulate, a local-first, LLM-powered workflow engine, and documenting the journey. This entry covers the transition from a starter template to a more effective Hello World example, the challenges of integrating a local LLM, and the iterative process of refining the framework. I'm focusing on simplifying the user experience while maintaining the core functionality of converting Jupyter Notebooks into interactive web apps, and exploring the nuances of AI interaction within rigid workflow structures.
+meta_description: Transform Jupyter Notebooks into dynamic web apps with Pipulate’s local-first, LLM-powered workflow engine—streamlined automation and state management at your fingertips.
+meta_keywords: Jupyter Notebook, Pipulate, workflow engine, interactive web app, local LLM, automation, state management, notebook conversion, AI workflow, local-first, LLM integration
 layout: post
 sort_order: 3
 ---

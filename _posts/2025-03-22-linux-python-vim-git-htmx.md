@@ -2,6 +2,8 @@
 title: "Future-proofing My Tech: Linux, Python, Vim, Git, and now HTMX"
 permalink: /futureproof/linux-python-vim-git-htmx/
 description: Alright, buckle up, because today was a coding marathon! I wrestled with HTMX, merged projects, and finally got my open-source SEO tool, Pipulate, out into the wild. It's a blend of Linux SEO, AI SEO, and whatever else you want to call it. The big takeaway? I'm diving deep into AI-assisted linear workflows, aiming to teach AI by watching humans, and stitching these workflows together like LISP s-expressions. It's all about future-proofing my skills with Linux, Python, vim, and git, while embracing the weird beauty of HTMX and FastHTML. Now, time for sleep.
+meta_description: Future-proof your tech stack with Linux, Python, Vim, Git, and HTMX for dynamic, flexible web development.
+meta_keywords: Linux, Python, Vim, Git, HTMX, FastHTML, future-proofing, web development, open source, WET coding, DRY coding, dynamic workflows, tech stack, AI workflows
 layout: post
 sort_order: 3
 ---

@@ -2,6 +2,8 @@
 title: Slack & Zoom on NixOS Workspaces
 permalink: /futureproof/slack-zoom-nixos-workspaces/
 description: I show how NixOS makes installing Slack & Zoom easy, how I use virtual desktops across OS platforms, and how organizing fixed-position screens helps me stay in the flow with muscle memory guiding my workflow.
+meta_description: Workflow strategy using virtual desktops (7+1 screens) for focus & muscle memory. Includes easy Slack/Zoom install on NixOS via configuration.nix.
+meta_keywords: Virtual desktops, workspaces, screen layout, workflow organization, productivity, muscle memory, NixOS, Slack, Zoom, software installation, configuration.nix, cross-platform, keyboard shortcuts, window management, i3wm
 layout: post
 sort_order: 1
 ---

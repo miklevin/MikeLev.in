@@ -2,6 +2,8 @@
 title: Git Cherry Picking & Time-Travel
 permalink: /futureproof/git-cherry-picking/
 description: I've been using Git in a very linear way for years, but today I finally took the plunge and learned how to use branching and cherry-picking. It was a bit of a mind-bending experience, but I'm glad I did it. Now I can easily hop between different timelines and cherry-pick the changes I want, without having to worry about introducing bugs. I'm also excited to start using branches as a way to explore older commits and experiment with new features. This is a major step forward in my Git journey, and I can't wait to see what I can do with my new superpowers!
+meta_description: Master advanced Git techniques for cherry picking and time travel to fix bugs and optimize branch management in your development workflow.
+meta_keywords: git cherry picking, git time travel, git branching, git rebase, git reset, version control, bug patching, commit cherry-picking, git workflow, git reflog, branch management
 layout: post
 sort_order: 1
 ---

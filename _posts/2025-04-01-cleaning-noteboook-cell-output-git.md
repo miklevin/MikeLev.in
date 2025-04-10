@@ -2,6 +2,8 @@
 title: Cleaning Jupyter Notebook Cell Output for Git Repos
 permalink: /futureproof/cleaning-noteboook-cell-output-git/
 description: Switching between my Mac and NixOS setups constantly challenges my workflow, but I strive to make my environments portable. While tools like Nix and Vim help bridge the gap, I hit a snag with Jupyter Notebooks polluting my Git history differently on each OS. I discovered my usual tool, `nbstripout`, was breaking because it stored absolute paths in the local `.git/config`. The real fix, making it truly 'set-it-and-forget-it' across machines, is using `nbstripout --install --attributes` to leverage the portable `.gitattributes` file, ensuring clean notebook commits no matter where I'm working.
+meta_description: Ensure clean, portable Git commits for Jupyter Notebooks by using nbstripout with .gitattributes to eliminate absolute paths across OSs.
+meta_keywords: nbstripout, Jupyter Notebook cleaning, Git clean commits, portable gitattributes, absolute path removal, cross-platform Git, Mac, NixOS, notebook output stripping, version-controlled attributes
 layout: post
 sort_order: 1
 ---

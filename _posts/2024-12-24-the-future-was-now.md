@@ -2,6 +2,8 @@
 title: The Future Was Here & It Is Again
 permalink: /futureproof/the-future-was-now/
 description: I wrote this article as a reflection on the Amiga’s lost potential and how its journey parallels today’s technology landscape, from retrocomputing to AI. Drawing on personal experiences of working at Commodore in the 1990s, I illuminate the allure and heartbreak of cutting-edge hardware that can’t endure relentless industry churn, as well as the modern quest for software craftsmanship. Ultimately, I champion “LPvg” (Linux, Python, vim, git) plus NixOS and HTMX as a minimalist, lifetime-friendly approach to tech—an antidote to decision fatigue, a bastion for deep expertise, and a reminder that the future arrives in cycles, often hidden beneath corporate missteps and fleeting hype.
+meta_description: Explore how the Amiga’s legacy mirrors today’s tech cycles and inspires sustainable, minimalist innovation via LPvg, NixOS, and HTMX.
+meta_keywords: Amiga, retrocomputing, tech cycles, LPvg, NixOS, HTMX, minimalism, sustainable innovation, software craftsmanship, Commodore, Unix philosophy
 layout: post
 sort_order: 1
 ---

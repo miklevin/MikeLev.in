@@ -2,6 +2,8 @@
 title: Using Websockets to Stream Incremental Markdown
 permalink: /futureproof/websockets-stream-incremental-markdown/
 description: My exploration delves into the challenges of streaming Markdown-formatted responses from an LLM within a Python-based FastHTML/HTMX chatbot application, Chip O'Theseus. Recognizing that re-rendering entire responses for each incremental update creates a poor user experience, I investigate techniques for incrementally displaying and formatting Markdown content as it arrives over WebSockets.  This journey covers various strategies, ranging from simple append-only text streaming with delayed full formatting to more complex server-side stateful parsing and even client-side enhancement with minimal JavaScript. Ultimately, the goal is to find the optimal balance between real-time responsiveness, formatting fidelity, and code simplicity within the constraints of a server-rendered, HTMX-driven environment. The article documents these options, and my personal preferneces, with examples.
+meta_description: Discover real-time Markdown streaming techniques for Python FastHTML chat apps using WebSockets and HTMX for smooth incremental updates.
+meta_keywords: Markdown streaming, incremental rendering, WebSockets, HTMX, FastHTML, Python chatbots, LLM markdown, real-time updates, stateful parsing, incremental UI
 layout: post
 sort_order: 3
 ---

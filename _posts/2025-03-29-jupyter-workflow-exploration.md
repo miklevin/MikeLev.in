@@ -2,6 +2,8 @@
 title: "From Jupyter Exploration to Pipulate Execution: A Workflow Story"
 permalink: /futureproof/jupyter-workflow-exploration/
 description: I'm currently deep in the process of integrating my professional and personal projects through Pipulate, focusing on how its three core components—the main framework, the specific workflows, and the Jupyter Notebooks used for development—interact. Drawing parallels to a player piano, I see Notebooks as the initial "sheet music" where I freely explore and design complex workflows, Pipulate's workflows as the "player piano scrolls," and the core Pipulate code as the "player piano" itself. This approach requires manually porting Notebook logic to HTMX within Pipulate, a challenging but pragmatic process where I'm embracing repetition (WET over DRY) and even hardwired paths to manage complexity and focus on getting fluent with the tools, developing all three parts in tandem.
+meta_description: Discover how Jupyter Notebook exploration transitions into Pipulate execution—bridging creative coding and manual HTMX workflow porting for future-proof projects.
+meta_keywords: jupyter exploration, pipulate execution, workflow story, jupyter notebooks, htmx porting, creative coding, manual porting, WET programming, ikigai integration, player piano analogy, notebook development, future-proofing tools, data-driven development
 layout: post
 sort_order: 2
 ---

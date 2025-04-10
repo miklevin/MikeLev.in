@@ -2,6 +2,8 @@
 title: The key to AI Code Assist Acceleration is 1-Folder Scope
 permalink: /futureproof/ai-code-assist-acceleration-scope/
 description: "Explore how moving a key NixOS config to a 'repos' folder accelerates AI coding assistance with Cursor AI. Learn about challenges with Vim macros, AI limitations, and tips for consolidating development resources while leveraging cross-repo insights for coding efficiency."
+meta_description: Optimize Cursor AI assistance by consolidating NixOS & NeoVim configs in one 'repos' folder. Includes migrating NeoVim setup from Vimscript to Lua.
+meta_keywords: AI code assist, Cursor AI, development scope, folder structure, NixOS configuration, NeoVim configuration, init.lua, Lua, Vimscript, migration, coding efficiency, NixOS, NeoVim, Python, workflow optimization, unittest
 layout: post
 date: 2024-10-15
 sort_order: 2

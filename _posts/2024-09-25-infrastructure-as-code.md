@@ -2,6 +2,8 @@
 title: "The DevOps Renaissance: How Infrastructure as Code is Redefining Digital Craftsmanship"
 permalink: /futureproof/infrastructure-as-code-devops-renaissance/
 description: I've rediscovered the joy of being a digital Renaissance person, thanks to Nix flakes!  These little configuration files are like a Webmaster's toolkit for my development environment, giving me and my team the power to create consistent, cross-platform setups with GPU acceleration and easy customization.  It's like having a digital multi-tool that keeps getting better with every tweak.  Come along with me as I explore the ins and outs of Nix flakes with Claude 3.5 Sonnet and learn how to reclaim that holistic approach to development that I thought was lost in the age of hyper-specialization.
+meta_description: Analyze and refine a cross-platform Nix Flake embodying DevOps/IaC principles. Explores hybrid Nix/pip/venv packaging and shell prompt fixes.
+meta_keywords: Nix Flake analysis, DevOps, Infrastructure as Code, IaC, cross-platform flake, hybrid package management, Nix pip venv, shell prompt, PS1, buildFHSUserEnv, NixOS, macOS, Linux, Python, CUDA, Digital Renaissance Person, command completion
 layout: post
 sort_order: 1
 ---

@@ -2,6 +2,8 @@
 title: Of Rabbit Holes, Wonderlands & Shoulders of Giants
 permalink: /futureproof/rabbit-holes-shoulders-of-giants/
 description: "What is my quest? I seek the grail of tech development: a future-proof, local-first system that's both powerful and delightful to use. This journey has led me through the lands of Nix and Guix, past the seductive but ultimately fragile Electron apps, and into the surprisingly volatile world of bleeding-edge web frameworks like FastHTML.  Now, a new contender, Anywidget, has caught my eye, promising seamless integration of interactive widgets into Jupyter Notebooks.  Will it be the missing piece I've been searching for, or just another tempting detour? Let's find out as I dive deep, weigh my options, and continue my relentless pursuit of a tech stack that can keep up with my ever-evolving needs."
+meta_description: "Uncover a future-proof, local-first tech stack built with Nix, FastHTML, and Anywidget for a hackable, offline alternative to cloud-based apps."
+meta_keywords: future-proof, local-first, Nix, FastHTML, Anywidget, offline web apps, hackable framework, single-file, Python web framework, Jupyter integration, DIY web development, Unix pipes, tech stack, Electron alternative, local LLM
 layout: post
 sort_order: 2
 ---

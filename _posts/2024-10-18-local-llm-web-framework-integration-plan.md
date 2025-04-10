@@ -2,6 +2,8 @@
 title: Local LLM Web Framework Integration Plan
 permalink: /futureproof/local-llm-web-framework-integration-plan/
 description: "Collab with o1-preview to design a local LLM, vector database, and SQL database on a local host to transform software development. Explore building self-aware systems that interact with developers, execute functions, and improve over time, making AI an active participant in its own design."
+meta_description: Plan to integrate local LLM, vector DB (FAISS), & SQL DB into Python web framework via NixOS. Covers LLM function calling, context awareness & RAG.
+meta_keywords: Local LLM, LLM integration, web framework, vector database, FAISS, SQL database, Python, localhost, function calling, RAG, context awareness, NixOS, Ollama, WebSocket, JSON, AI development, systemd
 layout: post
 sort_order: 1
 ---

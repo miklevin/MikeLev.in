@@ -2,6 +2,8 @@
 title: "Simplifying State: A Workflow Refactoring Journey"
 permalink: /futureproof/simplifying-state-workflow-refactoring/
 description: "In this article, I describe my journey to refactor a multi-step workflow system, aiming for simpler state management and a better user experience. With the help of the Anthropic AI assistant in Cursor, I tackled redundant state tracking, optimized data handling for 'revert' actions, and made the system more extensible. We introduced a base class for workflows, refined how step completion and reversion are handled, and used HTMX strategically for dynamic UI updates. The result? A cleaner, more manageable, and user-friendly workflow system."
+meta_description: Streamline multi-step workflows with robust state management and chain reaction control—an elegant refactoring journey for cleaner code and improved UX.
+meta_keywords: workflow refactoring, state management, chain reaction, revert actions, BaseFlow, HTMX, multi-step workflow, code simplification, UX improvement, pipeline
 layout: post
 sort_order: 1
 ---

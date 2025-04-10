@@ -2,6 +2,8 @@
 title: Amazon + Manufacturer Disintermediation & The Shopify Squeeze
 permalink: /futureproof/amazon-manufacturer-disintermediation/
 description: The article discusses the challenges facing niche sellers in the e-commerce landscape, particularly the squeeze between Amazon and the manufacturers who are increasingly selling directly to consumers. I explore the concept of disintermediation and the role of Shopify in this context. I also discusses the importance of adding value to products and services to differentiate from competitors and the role of technology in helping businesses compete in the digital age.
+meta_description: Explore how niche sellers navigate the Amazon squeeze and manufacturer disintermediation while leveraging Shopify in today’s evolving e-commerce landscape.
+meta_keywords: Amazon squeeze, manufacturer disintermediation, niche sellers, e-commerce, Shopify, online retail, digital commerce, direct sales, competitive advantage, product value
 layout: post
 sort_order: 1
 ---

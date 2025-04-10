@@ -2,6 +2,8 @@
 title: "Open Source SEO: My Journey to Codebase Consolidation"
 permalink: /futureproof/open-source-seo/
 description: I'm feeling great about finally unifying my little side projects, Botifython and Pipulate, into a single codebase under the Pipulate banner on GitHub. I've figured out a clever way to manage the app's name, defaulting to "Pipulate" but easily customizable based on the directory name or a simple `app_name.txt` file. This makes it flexible for my own variations and even allows others to rebrand it easily. Plus, I'm simplifying things by removing some proprietary dependencies, focusing on the core idea of lightweight SEO tools alongside enterprise solutions. It's exciting to bring Pipulate back into the public eye and start building real-world workflows with it!
+meta_description: Discover how I merged Botifython and Pipulate into one unified open source SEO codebase using smart app naming and streamlined workflows.
+meta_keywords: open source SEO, codebase consolidation, Pipulate, Botifython, unified codebase, app naming, workflow automation, GitHub, nix flake, rebranding, SEO tools
 layout: post
 sort_order: 1
 ---

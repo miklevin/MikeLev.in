@@ -2,6 +2,8 @@
 title: Could LLM-assisted Small World Theory In Search Disrupt Google?
 permalink: /futureproof/small-world-theory-search-google/
 description: I explored how small-world theory, the concept that any two points in a network are connected by a few steps, could revolutionize web search and challenge Google's dominance. Instead of pre-indexing the entire web, a small-world search would dynamically crawl relevant links in real-time, offering fresher, more contextual results. This approach, while facing scalability and speed challenges, could disrupt traditional SEO, democratize search, and foster new AI-driven search models, potentially eroding Google's "index moat."
+meta_description: Discover how LLM-assisted small-world search could upend Google’s traditional crawl-and-index model with real-time, context-driven results.
+meta_keywords: small-world search, real-time crawling, dynamic web search, Google disruption, LLM-assisted search, SEO innovation, network theory, decentralized search, live crawling, distributed indexing
 layout: post
 sort_order: 2
 ---

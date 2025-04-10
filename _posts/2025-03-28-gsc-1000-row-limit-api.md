@@ -2,6 +2,8 @@
 title: Getting Past the GSC 1000-row Limit With the API
 permalink: /futureproof/gsc-1000-row-limit-api/
 description: In this post, I share my journey developing a data-driven SEO workflow using Jupyter Notebooks, enhanced with AI assistance from Cursor AI and Claude, to tackle the persistent challenge of extracting and analyzing Google Search Console data beyond the basic interface limits. I detail the process from setting up secure GSC API access with a service account, crafting Python code to fetch comprehensive performance data (including handling pagination and finding the most recent available dates), identifying promising "striking distance" keywords, cleaning that list for tools like SEMrush, and finally merging GSC insights with SEMrush metrics to generate a reusable template for optimizing article titles and permalinks, all part of my effort to achieve hockey-stick growth through consistent, technically-informed content optimization.
+meta_description: Overcome the Google Search Console 1000-row limit with a Python/Jupyter API workflow that uses AI to paginate data and extract striking keywords.
+meta_keywords: google search console, gsc api, 1000-row limit, python, jupyter notebook, cursor ai, claude, seo workflow, pagination, striking distance keywords, semrush, data-driven seo, technical seo, ai assistance, api integration
 layout: post
 sort_order: 4
 ---
