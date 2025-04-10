@@ -1053,9 +1053,10 @@ Your article demonstrates a practical, real-world solution to a specific challen
 # Optimizing Nix Environments for AI Code Assistance: A Multi-Shell Approach
 
 > Somehow less than fully satisfied with that ending, and fresh after having
-> Claude update my 2 repos that maintain version of this Nix Flake, one for
-> traditional `pip` environments and one for the cool new `uv` package manager
-> manager.
+> Claude update my 2 GitHub repos that maintain version of this Nix Flake, one
+> for traditional `pip` environments and one for the cool new `uv` package
+> manager manager, I have it write an article from scratch about what we just
+> did. Maybe I'll move this clearer format to the top.
 
 In modern development workflows, AI coding assistants have become invaluable tools for developers. However, these assistants face unique challenges when working in terminal environments, particularly with verbose output that can overwhelm their limited context windows. This article explores how we enhanced two Nix flake templates to create specialized environments optimized for both human developers and AI assistants.
 
