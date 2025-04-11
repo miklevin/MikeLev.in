@@ -48,6 +48,11 @@ function initSearch() {
           this.field('keywords', { boost: 5 });
         }
         
+        // Add GSC keywords with higher boost since they represent actual search behavior
+        if (data.length > 0 && data[0].gsc_keywords) {
+          this.field('gsc_keywords', { boost: 8 });
+        }
+        
         if (data.length > 0 && data[0].description) {
           this.field('description', { boost: 2 });
         }
