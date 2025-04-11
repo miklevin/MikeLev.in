@@ -661,6 +661,13 @@ This is a good example of why consistent URL formatting is important when workin
 
 ---
 
+## Thinking Through Combining Meta Keywords
+
+> I now have 2 lists of "meta" keywords, one which is explicitly set at the top
+> of each article that I write (like this), and another which is derived from
+> how the page generates Google traffic. These two lists need to be "blended",
+> ideally in a way that removes duplicates and uses consistent lower-casing.
+
 **Me**: My next request has a few parts to it, and I don't know the best way to
 tackle them, but I do believe there's a bit of order sensitivity here to do it
 intelligently. Here are the facts, first.
