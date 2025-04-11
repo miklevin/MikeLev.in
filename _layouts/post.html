@@ -223,7 +223,7 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
 {% assign post_number = total_posts | minus: current_position %}
 
 <div class="post-counter" style="text-align: center; margin: 20px 0; font-style: italic;">
-  <span>Posty #{{ post_number }} of {{ total_posts }} - {{ page.date | date: '%B %-d, %Y' }}</span>
+  <span>Post #{{ post_number }} of {{ total_posts }} - {{ page.date | date: '%B %-d, %Y' }}</span>
 </div>
 
 {% comment %} --- Display Top GSC Keywords (Comma Separated) --- {% endcomment %}
