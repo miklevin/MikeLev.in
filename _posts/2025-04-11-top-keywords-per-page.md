@@ -1023,3 +1023,161 @@ This solution works because:
 
 The end result is a clean implementation that combines manual and data-driven keywords into a single meta tag, enhancing our pages' metadata with real-world search data while maintaining our manually curated keywords.
 
+---
+
+## Let's Dedupe Keywords
+
+> This won't address the lower-casing, but it's really about the biggest wins
+> with the lightest touch right now.
+
+**Me**: Excellent, excellent! Is there any light-touch solution to deduping?
+
+**Claude**: Ah yes! Jekyll/Liquid has a built-in `uniq` filter that we can use with almost no overhead. Let's modify the keyword combination in `default.html`:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">{% raw %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} / {{ site.title }}</title>
+    <meta name="description" content="{{ page.meta_description | default: page.description }}" />
+    {% comment %}Combine regular keywords with GSC keywords, removing duplicates{% endcomment %}
+    {% assign all_keywords = page.meta_keywords | default: page.keywords | split: ", " %}
+    {% assign gsc_data = site.data.gsc_top_keywords[page.url] %}
+    {% if gsc_data %}
+      {% assign gsc_keywords = gsc_data | map: 'query' %}
+      {% assign all_keywords = all_keywords | concat: gsc_keywords | uniq %}
+    {% endif %}
+    {% if all_keywords.size > 0 %}<meta name="keywords" content="{{ all_keywords | join: ', ' }}" />{% endif %}
+    <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />{% endraw %}
+// ... rest of existing code ...
+```
+That's it! Just added `| uniq` to the concatenation. This will:
+
+1. Remove exact duplicates (case-sensitive)
+2. Keep the first occurrence of any duplicate keyword
+3. Maintain the general order (manual keywords first, then unique GSC keywords)
+4. Add zero computational complexity to speak of
+
+The beauty of this solution is that it's:
+- One extra word in the template
+- No additional processing logic needed
+- Built-in Jekyll/Liquid filter
+- Handles the most common case of exact duplicates
+
+If you later want to get fancier with case-insensitive deduping or fuzzy matching, we can add that, but this gives you immediate duplicate removal with minimal change to the code.
+
+Want to verify it works? Try a page where you know there's overlap between the manual keywords and GSC keywords - you should see each term appear only once in the meta tag now!
+
+---
+
+**Me**: Is there any similarly clean and light-touch way to lowercase all the keywords before the `uniq` filter?
+
+**Cladue**: Yes! Liquid has a `downcase` filter that we can chain right in there:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">{% raw %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} / {{ site.title }}</title>
+    <meta name="description" content="{{ page.meta_description | default: page.description }}" />
+    {% comment %}Combine regular keywords with GSC keywords, normalizing case and removing duplicates{% endcomment %}
+    {% assign all_keywords = page.meta_keywords | default: page.keywords | split: ", " | map: 'downcase' %}
+    {% assign gsc_data = site.data.gsc_top_keywords[page.url] %}
+    {% if gsc_data %}
+      {% assign gsc_keywords = gsc_data | map: 'query' | map: 'downcase' %}
+      {% assign all_keywords = all_keywords | concat: gsc_keywords | uniq %}
+    {% endif %}
+    {% if all_keywords.size > 0 %}<meta name="keywords" content="{{ all_keywords | join: ', ' }}" />{% endif %}
+    <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />{% endraw %}
+// ... rest of existing code ...
+```
+Just added `| map: 'downcase'` to both keyword sources. This will:
+
+1. Convert all keywords to lowercase before concatenation
+2. Make the `uniq` filter case-insensitive by nature (since everything's lowercase)
+3. Keep the same clean, filter-chain approach
+4. Still maintain the order (manual keywords first, then unique GSC keywords)
+
+Now "Python", "python", and "PYTHON" will all be treated as the same keyword. The beauty is that it's still just adding a few characters to our existing filters, keeping with the light-touch philosophy!
+
+---
+
+## Finessing Liquid Template Tags for Uniq Deduping
+
+> Not quite, Claude. Not quite. I enter a process of rapid iterative testing and
+> refinement until it works. Some was agentic, and some was me doing things for
+> Claude. Semi-agentic. The AI is using the human to achieve automation, ahahah!
+
+**Me**: I think it's perfect, Claude! Thank you. Can you once again explain what we did and why, from the point I decided to use a simple chisel-strike solution to including the GSC keywords with the explicit ones in the meta tag? Cover the challenges we faced, the things you tried, and the solution we ended up on. Also, you can mention the irony of using an article about AI agentic mode debugging for this process, if you feel it.
+
+**Claude**: # Enhancing Meta Keywords with GSC Data: A Journey in Iterative Problem-Solving
+
+## The Initial Approach: Keep It Simple
+When you requested a "chisel-strike" solution to combine manually curated meta keywords with Google Search Console (GSC) data, we started with the simplest possible approach: add the GSC keywords directly to the meta tag in `default.html`. This aligned with your philosophy of banking small, guaranteed wins over complex solutions.
+
+## The Evolution of Our Solution
+
+### First Attempt: Post Layout
+We initially tried adding the combined keywords in `post.html`:
+```liquid
+{% raw %}{% capture head %}
+  {% assign all_keywords = page.meta_keywords | split: ", " %}
+  {% assign gsc_keywords = site.data.gsc_top_keywords[page.url] | map: 'query' %}
+  {% assign all_keywords = all_keywords | concat: gsc_keywords %}
+{% endcapture %}{% endraw %}
+```
+This failed because the meta tag ended up in the wrong place (after the head section).
+
+### Second Attempt: Default Layout Integration
+We moved the logic to `default.html` where meta tags belong, but encountered issues with case sensitivity and duplicates. Our first try at case normalization failed:
+```liquid
+{% raw %}{% assign all_keywords = page.meta_keywords | map: 'downcase' %}{% endraw %}
+```
+This produced empty results because we misunderstood how Liquid's `map` filter works with strings.
+
+### The Working Solution
+Finally, we arrived at a clean, working implementation that:
+1. Processes each keyword array separately
+2. Uses explicit loops for case normalization
+3. Combines and deduplicates the results
+
+```liquid
+{% raw %}{% assign manual_keywords_lower = "" | split: "" %}
+{% for kw in manual_keywords %}
+  {% assign lower_kw = kw | downcase %}
+  {% assign manual_keywords_lower = manual_keywords_lower | push: lower_kw %}
+{% endfor %}{% endraw %}
+```
+
+## The Irony
+There's a delightful irony in using the article "/futureproof/ai-agentic-mode-debugging/" as our test case. While the article discusses AI's ability to help debug complex systems, we were essentially doing the same thing - using iterative debugging with increasingly refined approaches to solve our keyword combination challenge. The debug comments we added along the way mirror the kind of instrumentation discussed in the article!
+
+## Key Learnings
+1. **Template Location Matters**: Meta tags must be in the head section
+2. **Array Operations in Liquid**: Understanding how to properly manipulate arrays in Liquid templates
+3. **Case Normalization**: The importance of explicit loops over trying to use map for string operations
+4. **Debug-Driven Development**: Using HTML comments as debug output proved invaluable
+
+## Final Result
+We achieved a solution that:
+- Combines both keyword sources
+- Normalizes case
+- Removes exact duplicates
+- Maintains proper HTML structure
+- Keeps the implementation relatively simple
+
+The end result shows both manual keywords:
+```
+cursor ai agent mode, agentic debugging, asyncio bug fix...
+```
+And GSC-derived keywords:
+```
+cursor ai, git cherry pick, hamster wheel...
+```
+
+All properly lowercased and deduplicated, providing a richer set of keywords while maintaining the integrity of both sources. Just as the article discusses agentic debugging, we employed an iterative, agent-like approach to solving this problem, using debug output to guide our refinements until we reached a clean, working solution.
+

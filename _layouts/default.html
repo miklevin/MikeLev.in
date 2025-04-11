@@ -5,14 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} / {{ site.title }}</title>
     <meta name="description" content="{{ page.meta_description | default: page.description }}" />
-    {% comment %}Combine regular keywords with GSC keywords{% endcomment %}
-    {% assign all_keywords = page.meta_keywords | default: page.keywords | split: ", " %}
+    {% assign manual_keywords = page.meta_keywords | default: page.keywords | split: ", " %}
+    
+    {% assign manual_keywords_lower = "" | split: "" %}
+    {% for kw in manual_keywords %}
+      {% assign lower_kw = kw | downcase %}
+      {% assign manual_keywords_lower = manual_keywords_lower | push: lower_kw %}
+    {% endfor %}
+    
     {% assign gsc_data = site.data.gsc_top_keywords[page.url] %}
     {% if gsc_data %}
-      {% assign gsc_keywords = gsc_data | map: 'query' %}
-      {% assign all_keywords = all_keywords | concat: gsc_keywords %}
+      {% assign gsc_keywords = gsc_data | map: "query" %}
+      
+      {% assign gsc_keywords_lower = "" | split: "" %}
+      {% for kw in gsc_keywords %}
+        {% assign lower_kw = kw | downcase %}
+        {% assign gsc_keywords_lower = gsc_keywords_lower | push: lower_kw %}
+      {% endfor %}
+      
+      {% assign combined_keywords = manual_keywords_lower | concat: gsc_keywords_lower | uniq %}
+    {% else %}
+      {% assign combined_keywords = manual_keywords_lower %}
     {% endif %}
-    {% if all_keywords.size > 0 %}<meta name="keywords" content="{{ all_keywords | join: ', ' }}" />{% endif %}
+    
+    {% if combined_keywords.size > 0 %}<meta name="keywords" content="{{ combined_keywords | join: ', ' }}" />{% endif %}
     <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />
     <link rel="stylesheet" href="https://mikelev.in/assets/css/pico.classless.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">
