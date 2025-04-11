@@ -1,5 +1,5 @@
 ---
-title: "Google Search Console API: Python Example"
+title: "Google Search Console API Python Example: Trend Analysis"
 permalink: /futureproof/google-search-console-api-python/
 description: Seeing a sudden spike in my GSC impressions, I realized the web UI wasn't enough for a deep dive. This article is my walkthrough of how I used Python and the GSC API (via a service account) to fetch granular, per-keyword/per-URL data over several days, handling caching and pagination along the way. I'll show you how to process this data with Pandas and apply linear regression to calculate trend slopes, ultimately revealing the 'movers and shakers' responsible for the changes.
 meta_description: Use Python scripts with the GSC API and Pandas to analyze daily search performance, identify keyword/page trends via linear regression, and find SEO movers & shakers.
