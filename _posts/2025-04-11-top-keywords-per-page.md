@@ -1211,7 +1211,7 @@ The most elegant part? The final solution uses native Jekyll/Liquid capabilities
 - `split` and `join` for array manipulation
 - `downcase` for normalization
 - `uniq` for deduplication
-- Whitespace control with `{%-` and `-%}`
+- Whitespace control with {% raw %}`{%-` and `-%}`{% endraw %}
 
 We didn't need complex plugins or external dependencies. Instead, we leveraged existing tools in increasingly sophisticated ways, guided by debug output and iterative testing.
 
