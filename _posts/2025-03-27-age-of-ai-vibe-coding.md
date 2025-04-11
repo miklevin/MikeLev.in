@@ -124,7 +124,7 @@ when I'm clear of the daily-crunch performance hurdles. And that's fine. I'm
 working a lot like an artist, and only the most obviously talented or otherwise
 moneyed artists have the privilege of doing their art without some other favor
 for their patrons. I've got to relish the task! It all aligns. All 4 circle of
-the Ikagai Venn diagram align.
+the Ikigai Venn diagram align.
 
 ## Managing Focus and Time in Remote Work
 

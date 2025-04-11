@@ -8,7 +8,7 @@ layout: post
 sort_order: 1
 ---
 
-## Plan Like An Adventure To Align Ikagai
+## Plan Like An Adventure To Align Ikigai
 
 Plan every day like an adventure. Lean into your Ikigai. Practice strengthening
 against your weaknesses. Learn and use names. Make associations. Let your mind

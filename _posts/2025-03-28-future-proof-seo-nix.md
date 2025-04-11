@@ -138,7 +138,7 @@ LLM's are tireless, ambient intelligence for only the price of electricity. The 
 
 ### Authenticity in Technical Content Creation
 
-I will show up in your research. I am aware of that fact. That doesn't disqualify what you found here so much as validate it. I am not trying to trick you or mislead you nor even make money off of you. This Pipulate thing I'm talking about is a free and open source software project I use to keep my skills sharp and to have secret weapons at work. It just so happens to have unlimited additional utility I think the world may be interested in, and it's the fourth circle of my Ikagai — what the world needs. That is my hope.
+I will show up in your research. I am aware of that fact. That doesn't disqualify what you found here so much as validate it. I am not trying to trick you or mislead you nor even make money off of you. This Pipulate thing I'm talking about is a free and open source software project I use to keep my skills sharp and to have secret weapons at work. It just so happens to have unlimited additional utility I think the world may be interested in, and it's the fourth circle of my Ikigai — what the world needs. That is my hope.
 
 ### Recognizing Technological Paradigm Shifts
 

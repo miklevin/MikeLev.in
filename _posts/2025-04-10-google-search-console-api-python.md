@@ -5,7 +5,7 @@ description: Seeing a sudden spike in my GSC impressions, I realized the web UI 
 meta_description: Use Python scripts with the GSC API and Pandas to analyze daily search performance, identify keyword/page trends via linear regression, and find SEO movers & shakers.
 meta_keywords: GSC API, Python, SEO, Trend Analysis, Movers Shakers, Linear Regression, Pandas, Google Search Console, API Authentication, Service Account, Granular Data, Keyword URL, Impressions Trend, Clicks Trend, Position Trend, Slope Calculation, Data Fetching, Pagination, Caching, GCP, SEO Script, Dataframe, Numpy
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 Something's up in my personal test-site's Google Search Console (GSC) — and
