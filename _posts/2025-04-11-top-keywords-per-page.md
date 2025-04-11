@@ -981,9 +981,16 @@ This is a perfect example of the "small chisel-strike" approach - we've added th
 
 ---
 
-Me: [I feed Claude enough info to see that it's not working]
+## Agentically Debugging Article About Agentic Debugging
 
-Claude: # Enhancing Meta Keywords with Google Search Console Data: A Simple Solution
+> This is an article where I use the Agent mode in Cursor AI IDE to agentically
+> debug an article about agentic debugging while writing an article about
+> combining various sources of meta data. The only way I can think to make this
+> more meta is if I somehow used Llama too.
+
+**Me**: [I feed Claude enough info to see that it's not working]
+
+**Claude**: # Enhancing Meta Keywords with Google Search Console Data: A Simple Solution
 
 When faced with the challenge of combining manually curated meta keywords with data-driven keywords from Google Search Console (GSC), we took an iterative approach that led to a clean, maintainable solution. Here's how we evolved the implementation:
 
