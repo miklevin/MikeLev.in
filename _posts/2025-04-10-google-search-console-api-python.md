@@ -252,6 +252,25 @@ if __name__ == "__main__":
     main()
 ```
 
+The glorious output of this script is a simple date, the most recent date in
+Google Search Console that actually has data. Many scripts out there will assume
+2, 3 or 4 days ago based on assumptions, but I like to know. If the Web UI shows
+data up to a certain day, I want my scripts to automatically choose that same
+day. The only value you should have to hardwire is your domain, and even that
+could be brought in through the command-line args, but I'm keeping that extra
+code out of this (for now).
+
+```plaintext
+[mike@nixos:~/repos/pipulate/precursors]$ python gsc_top_movers.py 
+✓ Successfully authenticated with Google Search Console API.
+
+Finding most recent data for site: sc-domain:mikelev.in
+Starting check from date: 2025-04-08
+Checking date 2025-04-08... ✓ Data found!
+
+Success: Most recent GSC data available is for: 2025-04-08
+```
+
 ## Downloading Most Recent Day of GSC Data
 
 Now the GSC API supports start and end dates and various metrics and dimensions,
