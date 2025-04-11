@@ -1,5 +1,5 @@
 ---
-title: Top Keywords Per Page
+title: "AI-Powered Jekyll: Integrating GSC Keywords for Display, Search, and Meta Tags"
 permalink: /futureproof/top-keywords-per-page/
 description: In this article, I walk through the process of collaborating with AI assistants (Gemini and Claude) to enhance my Jekyll blog by fetching top Google Search Console keywords for each post; I detail the development of a Python script to process this GSC data and the use of Liquid templating to display these keywords on the page, integrate them into the site's Lunr.js search index with boosting, and merge them into the meta keyword tags, highlighting the iterative refinement required to get it all working correctly.
 meta_description: Guide to integrating Google Search Console (GSC) keywords into a Jekyll blog using Python & Liquid for display, enhanced Lunr.js search, and meta tags.
