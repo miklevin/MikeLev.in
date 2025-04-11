@@ -752,6 +752,8 @@ Would you like me to:
 
 The key insight I see that you might not have considered: we might want to weight GSC-derived keywords differently in the Lunr search than manual keywords, since they represent actual user search behavior. We could potentially boost these terms in the search index.
 
+---
+
 ## The Line Between Thinking & Doing Is Blurring
 
 > The line of demarcation between conceiving a thing and doing it is
@@ -767,7 +769,7 @@ The key insight I see that you might not have considered: we might want to weigh
 layout: null
 ---
 [
-  {% for post in site.posts %}
+  {% raw %}{% for post in site.posts %}
     {
       "title": {{ post.title | jsonify }},
       "url": {{ post.url | relative_url | jsonify }},
@@ -781,7 +783,7 @@ layout: null
         , "gsc_keywords": {{ gsc_keywords | jsonify }}
       {% endif %}
     }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  {% endfor %}{% endraw %}
 ]
 ```
 Don't worry about the linter error - it's just complaining about the Jekyll front matter which is necessary for processing. The JSON output will be valid.
