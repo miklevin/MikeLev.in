@@ -8,6 +8,40 @@ layout: post
 sort_order: 1
 ---
 
+What we witnessed here is a perfect example of modern development practices, where AI and human collaborate to achieve increasingly refined solutions. We started with a clear goal - enhancing search functionality and SEO with real-world search data - and approached it through carefully planned, incremental steps.
+
+The journey takes us through:
+1. Data collection with `gsc_keyworder.py`
+2. Search enhancement with Lunr.js
+3. Meta tag integration
+4. Deduplication and case normalization
+5. Template whitespace refinement
+
+Each step is a "bankable win" - a small, verifiable improvement that could be committed to version control. This approach minimizes risk while maintaining forward momentum.
+
+The most elegant part? The final solution uses native Jekyll/Liquid capabilities like:
+- `split` and `join` for array manipulation
+- `downcase` for normalization
+- `uniq` for deduplication
+- Whitespace control with {% raw %}`{%-` and `-%}`{% endraw %}
+
+We don't need complex plugins or external dependencies. Instead, we leveraged existing tools in increasingly sophisticated ways, guided by debug output and iterative testing.
+
+This project exemplifies how modern development often isn't about writing everything from scratch, but rather about:
+1. Understanding your tools deeply
+2. Making small, purposeful changes
+3. Testing and refining iteratively
+4. Keeping solutions as simple as possible
+5. Using AI as a collaborative partner in the development process
+
+The end result is a more searchable, SEO-friendly blog that learns from its own traffic patterns - a system that gets smarter over time through the fusion of manual curation and actual user behavior.
+
+That's the real power of the AI+Human partnership in modern development: combining human insight with AI's ability to handle complexity and suggest refinements, all while maintaining a clear focus on practical, implementable solutions.
+
+---
+
+## The Meta Journey Begins
+
 I'm going to try to make each page of my blog show the top keywords that lead to
 it in search. I start with the same discussion thread I was using with Gemini in
 my previous post about finding breakout keywords, but then I show it how the
@@ -1209,48 +1243,10 @@ cursor ai, git cherry pick, hamster wheel...
 
 All properly lowercased and deduplicated, providing a richer set of keywords while maintaining the integrity of both sources. Just as the article discusses agentic debugging, we employed an iterative, agent-like approach to solving this problem, using debug output to guide our refinements until we reached a clean, working solution.
 
----
-
-## Final Witespace Refinements
-
-> Covering the whitespace-control refinements would stretch this article out ad
-> nausium, as if it already wasn't! But there's something here about iterative
-> refinement possible with a static site. Close out the article, Claude! Say
-> whatever you'd like to the nice people...
-
-**Claude**: 
-
-# The Beauty of Small Wins and Iterative Refinement
-
-What we've witnessed here is a perfect example of modern development practices, where AI and human collaborate to achieve increasingly refined solutions. We started with a clear goal - enhancing search functionality and SEO with real-world search data - and approached it through carefully planned, incremental steps.
-
-The journey took us through:
-1. Data collection with `gsc_keyworder.py`
-2. Search enhancement with Lunr.js
-3. Meta tag integration
-4. Deduplication and case normalization
-5. Template whitespace refinement
-
-Each step was a "bankable win" - a small, verifiable improvement that could be committed to version control. This approach minimizes risk while maintaining forward momentum.
-
-The most elegant part? The final solution uses native Jekyll/Liquid capabilities like:
-- `split` and `join` for array manipulation
-- `downcase` for normalization
-- `uniq` for deduplication
-- Whitespace control with {% raw %}`{%-` and `-%}`{% endraw %}
-
-We didn't need complex plugins or external dependencies. Instead, we leveraged existing tools in increasingly sophisticated ways, guided by debug output and iterative testing.
-
-This project exemplifies how modern development often isn't about writing everything from scratch, but rather about:
-1. Understanding your tools deeply
-2. Making small, purposeful changes
-3. Testing and refining iteratively
-4. Keeping solutions as simple as possible
-5. Using AI as a collaborative partner in the development process
-
-The end result is a more searchable, SEO-friendly blog that learns from its own traffic patterns - a system that gets smarter over time through the fusion of manual curation and actual user behavior.
-
-That's the real power of the AI+Human partnership in modern development: combining human insight with AI's ability to handle complexity and suggest refinements, all while maintaining a clear focus on practical, implementable solutions.
+> I go back and forth with Claude regarding the final whitespace control in the
+> view-source HTML, but I it would drag the article out ad nauseum, as if it
+> weren't already. Well, I hope you found some part of this useful! Sites can
+> self-optimize.
 
 ---
 
