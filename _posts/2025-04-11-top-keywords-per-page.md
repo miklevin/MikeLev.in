@@ -625,6 +625,7 @@ Now, when you rebuild your Jekyll site, any post that has corresponding entries 
 **Claude**: I'm glad it's working! Let me explain the key adjustments that fixed the issue:
 
 1. **URL Normalization**
+
 ```liquid
 {% raw %}{% if current_page_url != '/' and current_page_url != '' %}
   {% unless current_page_url contains '/' %}{% assign current_page_url = current_page_url | append: '/' %}{% endunless %}
@@ -635,7 +636,9 @@ This code ensures that URLs consistently have trailing slashes to match the form
 - Adds a trailing slash if one isn't present
 - This matches how your `gsc_keyworder.py` script formats URLs (where the trailing slash removal was commented out)
 
+{:start="2"}
 2. **Better Debug Information**
+
 ```liquid
 <div style="display: none;">
 Debug Info:
@@ -645,6 +648,7 @@ Has Keywords?: {% if top_keywords_list %}Yes ({{ top_keywords_list.size }}){% el
 First Few Keys: {% for key in site.data.gsc_top_keywords limit:5 %}{{ key[0] }}, {% endfor %}{% endraw %}
 </div>
 ```
+
 This enhanced debug output helped us verify:
 - The original URL from Jekyll (`page.url`)
 - The normalized URL after processing
