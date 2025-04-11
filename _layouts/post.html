@@ -245,7 +245,7 @@ First Few Keys: {% for key in site.data.gsc_top_keywords limit:5 %}{{ key[0] }},
   {% comment %} Extract just the 'query' string from each keyword data object {% endcomment %}
   {% assign keyword_names = top_keywords_list | map: 'query' %}
   <div class="gsc-categories" style="text-align: center; margin: 10px 0 20px 0; font-style: italic; color: #999;">
-    Categorized under: {{ keyword_names | join: ', ' }}
+    Found by: {{ keyword_names | join: ', ' }}
   </div>
 {% endif %}
 {% comment %} --- End Display Top GSC Keywords --- {% endcomment %}
