@@ -550,3 +550,70 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 [mike@nixos:~/repos/pipulate/precursors]$
 ```
+
+**Me**: Wow, that ran on the first try! The only change I made (after it ran successfully) is:
+
+```python
+JEKYLL_DATA_DIR = os.path.join(SCRIPT_DIR, '../../MikeLev.in/_data') # Assumes script is in a subdir like 'scripts'
+```
+
+...so it ends up in-location in the correct Jekyll `_datg` location.
+
+We're already up to Phase 2! For the first pass of phase 2 and for the sake of
+visibility during testing, I'd like the keywords to appear near the bottom of
+the page under where it says:
+
+Post #217 of 218 - April 10, 2025
+
+...so, for example:
+
+Categorized under: [list of comma separated keywords]
+
+**Gemini**: Excellent! Great to hear the Python script worked smoothly.
+
+Okay, let's integrate the display logic into your `_layouts/post.html` to show the keywords as requested, right below the "Post #X of Y" line.
+
+Find this section in your `_layouts/post.html` file (it's near the very end):
+
+```liquid
+{% raw %}{% comment %}
+  Calculate post number using the flat index position instead of backwards counting
+  Reverse the numbering so newest posts (position 0) show as highest number
+{% endcomment %}
+{% assign total_posts = flat_index.size %}
+{% assign post_number = total_posts | minus: current_position %}
+
+<div class="post-counter" style="text-align: center; margin: 20px 0; font-style: italic;">
+  <span>Post #{{ post_number }} of {{ total_posts }} - {{ page.date | date: '%B %-d, %Y' }}</span>
+</div>
+
+{% comment %} <<< INSERT THE NEW CODE BLOCK HERE >>> {% endcomment %}{% endraw %}
+```
+
+Insert the following Liquid code block exactly where the `<<< INSERT THE NEW CODE BLOCK HERE >>>` comment is placed above:
+
+```liquid
+{% raw %}{% comment %} --- Display Top GSC Keywords (Comma Separated) --- {% endcomment %}
+{% assign current_page_url = page.url %}
+{% assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] %}
+
+{% if top_keywords_list and top_keywords_list.size > 0 %}
+  {% comment %} Extract just the 'query' string from each keyword data object {% endcomment %}
+  {% assign keyword_names = top_keywords_list | map: 'query' %}
+  <div class="gsc-categories" style="text-align: center; margin: 10px 0 20px 0; font-style: italic; color: #999;">
+    Categorized under: {{ keyword_names | join: ', ' }}
+  </div>
+{% endif %}
+{% comment %} --- End Display Top GSC Keywords --- {% endcomment %{% endraw %}}
+```
+
+**Explanation:**
+
+1.  `{% raw %}{% assign current_page_url = page.url %}`: Gets the URL of the current post being rendered{% endraw %}.
+2.  `{% raw %}{% assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] %}`: Looks up the data in your `_data/gsc_top_keywords.json` file using the current page's URL as the key. This retrieves the array of top keyword objects for *this specific page*{% endraw %}.
+3.  `{% raw %}{% if top_keywords_list and top_keywords_list.size > 0 %}`: Checks if any keyword data was actually found for this page before trying to display anything{% endraw %}.
+4.  `{% raw %}{% assign keyword_names = top_keywords_list | map: 'query' %}`: This is the key step for your desired format. It uses the `map` filter to iterate through the `top_keywords_list` array and pull out *only* the value associated with the `query` key from each object, creating a new array containing just the keyword strings{% endraw %}.
+5.  `<div class="gsc-categories" ...>`: Creates a container div for the output. I've added a class `gsc-categories` so you can style it later in your CSS if needed, and included some basic inline styles similar to your `post-counter` for initial visibility.
+6.  `{% raw %}Categorized under: {{akeyword_names | join: ', ' }}`: Prints the literal text "Categorized under: " followed by the array of keyword strings (`keyword_names`), joined together into a single string with a comma and space (`, `) as the separator{% endraw %}.
+
+Now, when you rebuild your Jekyll site, any post that has corresponding entries in your `gsc_top_keywords.json` file should display the top keywords from GSC in the specified comma-separated format right below the post counter.

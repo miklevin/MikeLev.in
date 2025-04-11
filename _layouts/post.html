@@ -223,5 +223,24 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
 {% assign post_number = total_posts | minus: current_position %}
 
 <div class="post-counter" style="text-align: center; margin: 20px 0; font-style: italic;">
-  <span>Post #{{ post_number }} of {{ total_posts }} - {{ page.date | date: '%B %-d, %Y' }}</span>
+  <span>Posty #{{ post_number }} of {{ total_posts }} - {{ page.date | date: '%B %-d, %Y' }}</span>
 </div>
+
+{% comment %} --- Display Top GSC Keywords (Comma Separated) --- {% endcomment %}
+{% assign current_page_url = page.url %}
+{% assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] %}
+
+<div style="display: none;">
+Debug Info:
+Current URL: {{ current_page_url }}
+Available Keys: {{ site.data.gsc_top_keywords | map: 'first' | join: ', ' }}
+</div>
+
+{% if top_keywords_list and top_keywords_list.size > 0 %}
+  {% comment %} Extract just the 'query' string from each keyword data object {% endcomment %}
+  {% assign keyword_names = top_keywords_list | map: 'query' %}
+  <div class="gsc-categories" style="text-align: center; margin: 10px 0 20px 0; font-style: italic; color: #999;">
+    Categorized under: {{ keyword_names | join: ', ' }}
+  </div>
+{% endif %}
+{% comment %} --- End Display Top GSC Keywords --- {% endcomment %}
