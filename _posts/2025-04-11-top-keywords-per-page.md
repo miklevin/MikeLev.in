@@ -8,7 +8,7 @@ layout: post
 sort_order: 1
 ---
 
-What you will witness here is a perfect example of modern development practices, where AI and human collaborate to achieve increasingly refined solutions. We start with a clear goal - enhancing search functionality and SEO with real-world search data - and approach it through carefully planned, incremental steps.
+What you will witness here is a perfect example of modern development practices, where AI and human collaborate to achieve increasingly refined solutions. We start with a clear goal — enhancing search functionality and SEO with real-world search data — and approach it through carefully planned, incremental steps.
 
 The journey takes us through:
 1. Data collection with `gsc_keyworder.py` (what keywords lead to what pages)
