@@ -8,14 +8,14 @@ layout: post
 sort_order: 1
 ---
 
-What you will witness here is a perfect example of modern development practices, where AI and human collaborate to achieve increasingly refined solutions. We started with a clear goal - enhancing search functionality and SEO with real-world search data - and approached it through carefully planned, incremental steps.
+What you will witness here is a perfect example of modern development practices, where AI and human collaborate to achieve increasingly refined solutions. We start with a clear goal - enhancing search functionality and SEO with real-world search data - and approach it through carefully planned, incremental steps.
 
 The journey takes us through:
-1. Data collection with `gsc_keyworder.py`
-2. Search enhancement with Lunr.js
-3. Meta tag integration
-4. Deduplication and case normalization
-5. Template whitespace refinement
+1. Data collection with `gsc_keyworder.py` (what keywords lead to what pages)
+2. Search enhancement with Lunr.js (use that data to improve on-site search)
+3. Meta tag integration (wrap that data back into on-page elements)
+4. Deduplication and case normalization (polish)
+5. Template whitespace refinement (more polish)
 
 Each step is a "bankable win" - a small, verifiable improvement that could be committed to version control. This approach minimizes risk while maintaining forward momentum.
 
