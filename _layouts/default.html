@@ -22,8 +22,10 @@
       {%- assign combined_keywords = manual_keywords_lower | concat: gsc_keywords_lower | uniq -%}
     {%- else -%}
       {%- assign combined_keywords = manual_keywords_lower -%}
-    {%- endif -%}
-    {%- if combined_keywords.size > 0 -%}<meta name="keywords" content="{{ combined_keywords | join: ', ' }}" />{%- endif -%}
+    {%- endif %}
+    {%- if combined_keywords.size > 0 %}
+    <meta name="keywords" content="{{ combined_keywords | join: ', ' }}" />
+    {%- endif %}
     <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />
     <link rel="stylesheet" href="https://mikelev.in/assets/css/pico.classless.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">
