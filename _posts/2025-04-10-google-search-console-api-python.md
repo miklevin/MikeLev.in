@@ -1114,17 +1114,6 @@ to calculate the linear regression coefficient slope. A steep positive slope
 shows sudden upward movement. And so, we will be joining all 4 of our
 dataframes and adding a linear regression coefficient slope column like so...
 
-
-
-
-
-
-
-
-
-
-Okay, here's the updated continuation of the article, incorporating the final script you provided and explaining the trend analysis section.
-
 ## Top Movers & Shakers Directional Trending
 
 Now you may be asking why go through all the trouble of downloading 4 individual days of GSC data when you could have just given a date-range starting from 3-days prior to the first day that has data. The answer is that we now have enough *granular* per-day data to do trend-lines! If you're an Excel wonk, that's sparklines to you. And if you're a stats geek, that's enough to calculate the linear regression coefficient slope. A steep positive slope shows sudden upward movement. And so, we will be joining all 4 of our dataframes and adding a linear regression coefficient slope column.
@@ -1631,8 +1620,19 @@ def main():
         display_df['latest_impressions'] = latest_data_df['latest_impressions'].astype(int)
         display_df['impact_score'] = latest_data_df['impact_score'].round(1)
         
-        # Display the top impact queries
-        print(display_df.loc[top_impact_idx][['page', 'query', 'latest_position', 'latest_impressions', 'impact_score', 'impressions_ts', 'position_ts']].to_string(index=False))
+        # Truncate long queries for display
+        def truncate_query(query, max_length=50):
+            """Truncate query string if longer than max_length."""
+            if len(query) <= max_length:
+                return query
+            return query[:max_length-3] + "..."
+        
+        # Create a display version with truncated queries
+        display_df_truncated = display_df.copy()
+        display_df_truncated['query'] = display_df_truncated['query'].apply(truncate_query)
+        
+        # Display the top impact queries with truncated query text
+        print(display_df_truncated.loc[top_impact_idx][['page', 'query', 'latest_position', 'latest_impressions', 'impact_score', 'impressions_ts', 'position_ts']].to_string(index=False))
 
         print("\n--- DataFrame Info ---")
         trend_results_df.info()
@@ -1687,101 +1687,98 @@ Here's an example of what the formatted output might look like (data will vary):
 ✓ Successfully authenticated with Google Search Console API.
 
 Finding most recent data date for site: sc-domain:mikelev.in
-Starting check from date: 2025-04-08
-Checking date 2025-04-08... ✓ Data found!
+Starting check from date: 2025-04-09
+Checking date 2025-04-09... ✓ Data found!
 
-Success: Most recent GSC data available is for: 2025-04-08
+Success: Most recent GSC data available is for: 2025-04-09
 
 Preparing to fetch/load data for 4 days:
-  Dates: ['2025-04-05', '2025-04-06', '2025-04-07', '2025-04-08']
-📂 CACHE: Loading data for 2025-04-05 from cache: /home/mike/repos/pipulate/precursors/gsc_cache/gsc_data_2025-04-05.csv
+  Dates: ['2025-04-06', '2025-04-07', '2025-04-08', '2025-04-09']
 📂 CACHE: Loading data for 2025-04-06 from cache: /home/mike/repos/pipulate/precursors/gsc_cache/gsc_data_2025-04-06.csv
 📂 CACHE: Loading data for 2025-04-07 from cache: /home/mike/repos/pipulate/precursors/gsc_cache/gsc_data_2025-04-07.csv
 📂 CACHE: Loading data for 2025-04-08 from cache: /home/mike/repos/pipulate/precursors/gsc_cache/gsc_data_2025-04-08.csv
+📂 CACHE: Loading data for 2025-04-09 from cache: /home/mike/repos/pipulate/precursors/gsc_cache/gsc_data_2025-04-09.csv
 
 📊 Data source summary: 4 days loaded from cache, 0 days fetched from API
 
-✓ Combined data for 4 days into a single DataFrame (5489 rows total).
+✓ Combined data for 4 days into a single DataFrame (7591 rows total).
 ✓ Starting trend analysis by grouping page/query combinations...
-✓ Trend analysis complete. Found 4882 unique page/query combinations.
+✓ Trend analysis complete. Found 6499 unique page/query combinations.
 
 --- Top 15 by Impression Increase ---
-                                     page                      query impressions_ts impressions_slope clicks_ts clicks_slope   position_ts position_slope
-             llm-seo-software-development                 seo coding    [0,0,23,25]               9.8 [0,0,0,0]          0.0   [-,-,82,84]            1.9
-static-site-generator-ai-content-strategy            seo methodology     [0,0,0,32]               9.6 [0,0,0,0]          0.0    [-,-,-,92]              -
-             llm-seo-software-development                seo browser    [0,0,28,20]               8.8 [0,0,0,0]          0.0   [-,-,84,82]           -1.6
-                ai-agentic-mode-debugging                  cursor ai     [0,0,0,27]               8.1 [0,0,0,1]          0.3    [-,-,-,41]              -
-             llm-seo-software-development                seo project     [0,0,7,24]               7.9 [0,0,0,0]          0.0 [-,-,102,101]           -0.7
-static-site-generator-ai-content-strategy                  ai secret     [0,0,0,26]               7.8 [0,0,0,0]          0.0    [-,-,-,61]              -
-static-site-generator-ai-content-strategy striking distance keywords     [0,0,0,26]               7.8 [0,0,0,0]          0.0    [-,-,-,63]              -
-          from-blog-to-book-ai-powered-ia                 python seo     [0,0,0,25]               7.5 [0,0,0,0]          0.0    [-,-,-,91]              -
-             llm-seo-software-development                  using seo    [0,0,16,18]               7.0 [0,0,0,0]          0.0   [-,-,91,91]           -0.7
-                ai-agentic-mode-debugging untitled boxing game codes     [0,0,0,22]               6.6 [0,0,0,0]          0.0    [-,-,-,90]              -
-             llm-seo-software-development                 python seo    [0,0,25,13]               6.4 [0,0,0,0]          0.0   [-,-,77,78]            1.5
-static-site-generator-ai-content-strategy              future of seo     [0,0,0,21]               6.3 [0,0,0,0]          0.0   [-,-,-,100]              -
-static-site-generator-ai-content-strategy            git cherry pick     [0,0,0,21]               6.3 [0,0,0,0]          0.0    [-,-,-,91]              -
-                ai-agentic-mode-debugging            git cherry pick     [0,0,0,21]               6.3 [0,0,0,0]          0.0    [-,-,-,75]              -
-static-site-generator-ai-content-strategy                    gsc seo     [0,0,0,21]               6.3 [0,0,0,0]          0.0    [-,-,-,94]              -
+                                     page                       query impressions_ts impressions_slope clicks_ts clicks_slope position_ts position_slope
+                         grok-better-than         seo recommendations     [0,0,0,31]               9.3 [0,0,0,0]          0.0  [-,-,-,99]              -
+                ai-agentic-mode-debugging             git cherry pick    [0,0,21,20]               8.1 [0,0,0,0]          0.0 [-,-,75,70]           -4.7
+                         grok-better-than                seo concepts     [0,0,0,27]               8.1 [0,0,0,0]          0.0  [-,-,-,82]              -
+                         grok-better-than                        htmx     [0,0,0,24]               7.2 [0,0,0,0]          0.0  [-,-,-,70]              -
+static-site-generator-ai-content-strategy             seo methodology    [0,0,32,11]               6.5 [0,0,0,0]          0.0 [-,-,92,96]            3.9
+                         grok-better-than             git cherry pick     [0,0,0,21]               6.3 [0,0,0,0]          0.0  [-,-,-,84]              -
+                         grok-better-than                  python seo     [0,0,0,21]               6.3 [0,0,0,0]          0.0  [-,-,-,80]              -
+                ai-agentic-mode-debugging                   cursor ai    [0,0,27,11]               6.0 [0,0,1,0]          0.1 [-,-,41,43]            1.5
+static-site-generator-ai-content-strategy  striking distance keywords    [0,0,26,11]               5.9 [0,0,0,0]          0.0 [-,-,63,64]            0.7
+                         grok-better-than google keyword planner tool     [0,0,0,19]               5.7 [0,0,0,0]          0.0  [-,-,-,77]              -
+static-site-generator-ai-content-strategy             git cherry pick    [0,0,21,12]               5.7 [0,0,0,0]          0.0 [-,-,91,89]           -2.6
+static-site-generator-ai-content-strategy              python for seo     [0,0,44,4]               5.6 [0,0,0,0]          0.0 [-,-,95,96]            0.9
+                         grok-better-than                guide to seo     [0,0,0,18]               5.4 [0,0,0,0]          0.0  [-,-,-,98]              -
+                ai-agentic-mode-debugging                  git revert    [0,0,17,12]               5.3 [0,0,0,0]          0.0 [-,-,72,75]            3.1
+                         grok-better-than             seo explanation     [0,0,0,17]               5.1 [0,0,0,0]          0.0  [-,-,-,96]              -
 
 --- Top 15 by Position Improvement (Lower is Better) ---
-                         page                    query impressions_ts impressions_slope clicks_ts clicks_slope  position_ts position_slope
- llm-seo-software-development          webassembly dom      [0,0,1,1]               0.4 [0,0,0,0]          0.0 [-,-,124,70]          -54.0
- llm-seo-software-development              cheek holes      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,97,69]          -28.0
-cursor-ai-terminal-agent-mode                 squashfs      [0,0,1,1]               0.4 [0,0,0,0]          0.0 [-,-,115,95]          -20.0
- llm-seo-software-development               open webui      [0,0,4,2]               1.0 [0,0,0,0]          0.0  [-,-,78,61]          -17.3
- llm-seo-software-development      cast of rabbit hole      [0,0,2,1]               0.5 [0,0,0,0]          0.0  [-,-,76,63]          -13.5
- llm-seo-software-development                 next seo     [0,0,3,14]               4.5 [0,0,0,0]          0.0  [-,-,70,57]          -12.7
- llm-seo-software-development          spinning rabbit      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,70,58]          -12.0
- llm-seo-software-development        python time.sleep      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,98,87]          -11.0
-cursor-ai-terminal-agent-mode             ai isolation      [0,0,2,1]               0.5 [0,0,0,0]          0.0  [-,-,99,89]          -10.5
- llm-seo-software-development                  llm seo      [0,0,6,2]               1.2 [0,0,0,0]          0.0  [-,-,79,68]          -10.5
- llm-seo-software-development playwright python course      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,82,72]          -10.0
-cursor-ai-terminal-agent-mode    jetbrains.com pycharm      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,61,51]          -10.0
-cursor-ai-terminal-agent-mode         cursor telemetry      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,75,66]           -9.0
-cursor-ai-terminal-agent-mode             gitlab inria      [0,0,1,1]               0.4 [0,0,0,0]          0.0   [-,-,17,8]           -9.0
-cursor-ai-terminal-agent-mode              nix install      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,82,73]           -9.0
+                                     page                                  query impressions_ts impressions_slope clicks_ts clicks_slope  position_ts position_slope
+             llm-seo-software-development                        webassembly dom      [0,1,1,0]               0.0 [0,0,0,0]          0.0 [-,124,70,-]          -54.0
+             llm-seo-software-development                            cheek holes      [0,1,1,0]               0.0 [0,0,0,0]          0.0  [-,97,69,-]          -28.0
+static-site-generator-ai-content-strategy                     wordpress metadata      [0,0,2,1]               0.5 [0,0,0,0]          0.0  [-,-,96,68]          -28.0
+                ai-agentic-mode-debugging                    how to fix my beats      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,95,72]          -23.0
+            cursor-ai-terminal-agent-mode                               squashfs      [0,1,1,0]               0.0 [0,0,0,0]          0.0 [-,115,95,-]          -20.0
+          from-blog-to-book-ai-powered-ia                           jupyter lite      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,76,56]          -20.0
+                ai-agentic-mode-debugging                          hamster wheel     [0,0,20,2]               2.6 [0,0,0,0]          0.0  [-,-,76,57]          -19.2
+                ai-agentic-mode-debugging               compare two branches git      [0,0,2,1]               0.5 [0,0,0,0]          0.0  [-,-,99,81]          -18.5
+          from-blog-to-book-ai-powered-ia            chunking strategies for rag      [0,0,1,1]               0.4 [0,0,0,0]          0.0  [-,-,90,72]          -18.0
+            vscode-jupyter-notebook-paths does cursor work with jupyter notebook      [1,1,0,0]              -0.4 [0,0,0,0]          0.0  [29,11,-,-]          -18.0
+                ai-agentic-mode-debugging             git revert changes to file      [0,0,1,2]               0.7 [0,0,0,0]          0.0  [-,-,97,79]          -18.0
+          from-blog-to-book-ai-powered-ia                               prolimit      [0,0,3,1]               0.6 [0,0,0,0]          0.0  [-,-,81,64]          -17.7
+                ai-agentic-mode-debugging                        github pipeline      [0,0,2,1]               0.5 [0,0,0,0]          0.0  [-,-,88,71]          -17.5
+             llm-seo-software-development                             open webui      [0,4,2,0]              -0.2 [0,0,0,0]          0.0  [-,78,61,-]          -17.3
+static-site-generator-ai-content-strategy                             parse yaml      [0,0,1,1]               0.4 [0,0,0,0]          0.0 [-,-,101,85]          -16.0
 
 --- Top 15 High-Impact Queries (Best Position + Most Impressions) ---
-                                     page                           query  latest_position  latest_impressions  impact_score impressions_ts   position_ts
-                   grok3-markdown-problem                   grok markdown              1.0                   3           3.0      [0,3,4,3]     [-,3,1,1]
-                   grok3-markdown-problem                     grok glitch              5.6                  12           2.1     [0,3,7,12]     [-,3,5,5]
-                               nix-flakes                nix flake python              4.3                   7           1.6      [2,1,0,7]     [6,5,-,4]
-                   grok3-markdown-proble     grok was unable to finish...              8.3                  12           1.4    [8,26,9,12]     [6,7,7,8]
-                       mcp-with-local-llm                   local llm mcp              6.1                   8           1.3      [2,4,8,0]     [7,6,6,-]
-          nixos-warbler-files-disappeared                   nixos warbler              1.0                   1           1.0      [2,1,1,0]     [1,1,1,-]
-                   grok3-markdown-problem              grok 3 bad gateway              1.0                   1           1.0      [0,1,0,0]     [-,1,-,-]
-              slack-zoom-nixos-workspaces                      nixos zoom              7.0                   7           1.0      [2,0,4,7]     [7,-,7,7]
-                 open-source-seo-software        open source seo software             18.9                  18           1.0  [57,20,17,18] [15,21,17,18]
-static-site-generator-ai-content-strategy                  seo techniques             95.7                  87           0.9     [0,0,0,87]    [-,-,-,95]
-                      python-htmx-llm-seo                        htmx seo              9.1                   8           0.9      [0,0,8,0]     [-,-,9,-]
-            cursor-ai-terminal-agent-mode       terminal.integrated.env.*              6.0                   5           0.8      [0,0,5,0]     [-,-,6,-]
-           jupyter-notebook-vscode-cursor         cursor jupyter notebook             11.1                   9           0.8     [1,12,9,9]    [7,9,8,11]
-            cursor-ai-terminal-agent-mode  cursor ai terminal integration              5.0                   4           0.8      [0,0,0,4]     [-,-,-,5]
-           jupyter-notebook-vscode-cursor      cursor ai jupyter notebook              6.6                   5           0.8      [2,9,4,5]     [4,6,7,6]
+                           page                                              query  latest_position  latest_impressions  impact_score impressions_ts   position_ts
+         grok3-markdown-problem grok was unable to finish replying. please try ...              7.8                  19           2.4   [26,9,12,19]     [7,7,8,7]
+ jupyter-notebook-vscode-cursor                         cursor ai jupyter notebook              6.7                  12           1.8     [9,4,5,12]     [6,7,6,6]
+         grok3-markdown-problem                                        grok glitch              6.9                  12           1.7    [3,7,12,12]     [3,5,5,6]
+             mcp-with-local-llm                                      local llm mcp              6.1                   8           1.3      [4,8,0,0]     [6,6,-,-]
+       open-source-seo-software                                 seo software linux             21.7                  25           1.2    [5,47,9,25] [20,22,23,21]
+         grok3-markdown-problem                 grok was unable to finish replying              8.7                  10           1.1     [4,2,1,10]     [8,9,9,8]
+         grok3-markdown-problem                                      grok markdown              2.7                   3           1.1      [3,4,3,3]     [3,1,1,2]
+             https://mikelev.in                                 michael levin blog              3.8                   4           1.1      [3,1,2,4]     [4,4,3,3]
+         grok3-markdown-problem                grok was unable to finish replying.              8.8                   9           1.0     [7,12,5,9]     [7,7,7,8]
+               grok-better-than entity you are doing the search for: {"name": "...              2.0                   2           1.0      [0,0,0,2]     [-,-,-,2]
+nixos-warbler-files-disappeared                                      nixos warbler              1.0                   1           1.0      [1,1,0,0]     [1,1,-,-]
+         grok3-markdown-problem                                      grok problems              1.0                   1           1.0      [1,0,0,1]     [9,-,-,1]
+ peak-data-musk-sutskever-wrong                                   peak data theory              1.0                   1           1.0      [2,0,1,1]     [5,-,3,1]
+         grok3-markdown-problem                                grok 3 prompt limit              1.0                   1           1.0      [0,0,0,1]     [-,-,-,1]
+ jupyter-notebook-vscode-cursor                            cursor jupyter notebook              6.2                   6           1.0     [12,9,9,6]    [9,8,11,6]
 
 --- DataFrame Info ---
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 4882 entries, 0 to 4881
+RangeIndex: 6499 entries, 0 to 6498
 Data columns (total 8 columns):
  #   Column             Non-Null Count  Dtype  
 ---  ------             --------------  -----  
- 0   page               4882 non-null   object 
- 1   query              4882 non-null   object 
- 2   impressions_ts     4882 non-null   object 
- 3   impressions_slope  4882 non-null   float64
- 4   clicks_ts          4882 non-null   object 
- 5   clicks_slope       4882 non-null   float64
- 6   position_ts        4882 non-null   object 
- 7   position_slope     416 non-null    float64
+ 0   page               6499 non-null   object 
+ 1   query              6499 non-null   object 
+ 2   impressions_ts     6499 non-null   object 
+ 3   impressions_slope  6499 non-null   float64
+ 4   clicks_ts          6499 non-null   object 
+ 5   clicks_slope       6499 non-null   float64
+ 6   position_ts        6499 non-null   object 
+ 7   position_slope     914 non-null    float64
 dtypes: float64(3), object(5)
-memory usage: 305.3+ KB
+memory usage: 406.3+ KB
 
-✓ Saved final trend analysis to: /home/mike/repos/pipulate/precursors/gsc_trend_analysis_20250405_to_20250408.csv
+✓ Saved final trend analysis to: /home/mike/repos/pipulate/precursors/gsc_trend_analysis_20250406_to_20250409.csv
 
 Script finished.
-
-[mike@nixos:~/repos/pipulate/precursors]$ 
-
 ```
 
 This provides a powerful, automated way to monitor recent performance changes and identify potential content optimization opportunities directly from your GSC data. The final CSV contains all the calculated data for further analysis or visualization.
