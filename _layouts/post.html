@@ -231,24 +231,6 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
 {%- if current_page_url != '/' and current_page_url != '' -%}
   {%- unless current_page_url contains '/' -%}{%- assign current_page_url = current_page_url | append: '/' -%}{%- endunless -%}
 {%- endif -%}
-{%- assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] -%}
-
-<div style="display: none;">
-Debug Info:
-Raw URL: {{ page.url }}
-Normalized URL: {{ current_page_url }}
-Has Keywords?: {%- if top_keywords_list -%}Yes ({{ top_keywords_list.size }}){%- else -%}No{%- endif -%}
-First Few Keys: {%- for key in site.data.gsc_top_keywords limit:5 -%}{{ key[0] }}, {%- endfor -%}
-</div>
-
-{%- if top_keywords_list and top_keywords_list.size > 0 -%}
-  {%- comment -%}Extract just the 'query' string from each keyword data object{%- endcomment -%}
-  {%- assign keyword_names = top_keywords_list | map: 'query' -%}
-  <div class="gsc-categories" style="text-align: center; margin: 10px 0 20px 0; font-style: italic; color: #999;">
-    Found by: {{ keyword_names | join: ', ' }}
-  </div>
-{%- endif -%}
-{% comment %} --- End Display Top GSC Keywords --- {% endcomment %}
 
 {%- comment -%}Related Articles Section based on meta_keywords{%- endcomment -%}
 {%- assign max_related = 5 -%}{%- comment -%}Set the maximum number of related posts to display{%- endcomment -%}
