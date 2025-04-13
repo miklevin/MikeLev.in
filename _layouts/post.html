@@ -15,46 +15,46 @@ Change this value to switch between absolute and relative URLs:
 {% comment %}
 Create a flat index of all posts in the correct sort order (same as in list.md)
 {% endcomment %}
-{% assign sorted_posts = site.posts | sort: 'date' %}
-{% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
-{% assign total_posts = site.posts.size %}
+{%- assign sorted_posts = site.posts | sort: 'date' -%}
+{%- assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse -%}
+{%- assign total_posts = site.posts.size -%}
 
-{% assign flat_index = "" | split: "" %}
-{% for day in grouped_posts %}
-  {% assign day_posts = day.items | sort: 'sort_order' | reverse %}
-  {% for post in day_posts %}
-    {% assign flat_index = flat_index | push: post %}
-  {% endfor %}
-{% endfor %}
+{%- assign flat_index = "" | split: "" -%}
+{%- for day in grouped_posts -%}
+  {%- assign day_posts = day.items | sort: 'sort_order' | reverse -%}
+  {%- for post in day_posts -%}
+    {%- assign flat_index = flat_index | push: post -%}
+  {%- endfor -%}
+{%- endfor -%}
 
 {% comment %}
 Find current post's position in the flat index
 {% endcomment %}
-{% assign current_position = -1 %}
-{% for idx_post in flat_index %}
-  {% if idx_post.url == page.url %}
-    {% assign current_position = forloop.index0 %}
-    {% break %}
-  {% endif %}
-{% endfor %}
+{%- assign current_position = -1 -%}
+{%- for idx_post in flat_index -%}
+  {%- if idx_post.url == page.url -%}
+    {%- assign current_position = forloop.index0 -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
 
 {% comment %}
 Determine prev and next posts in the flat index
 But flip the direction - "previous" is newer (lower index), "next" is older (higher index)
 {% endcomment %}
-{% assign custom_prev = nil %}
-{% assign custom_next = nil %}
-{% assign max_index = flat_index.size | minus: 1 %}
+{%- assign custom_prev = nil -%}
+{%- assign custom_next = nil -%}
+{%- assign max_index = flat_index.size | minus: 1 -%}
 
-{% if current_position < max_index %}
-  {% assign prev_position = current_position | plus: 1 %}
-  {% assign custom_prev = flat_index[prev_position] %}
-{% endif %}
+{%- if current_position < max_index -%}
+  {%- assign prev_position = current_position | plus: 1 -%}
+  {%- assign custom_prev = flat_index[prev_position] -%}
+{%- endif -%}
 
-{% if current_position > 0 %}
-  {% assign next_position = current_position | minus: 1 %}
-  {% assign custom_next = flat_index[next_position] %}
-{% endif %}
+{%- if current_position > 0 -%}
+  {%- assign next_position = current_position | minus: 1 -%}
+  {%- assign custom_next = flat_index[next_position] -%}
+{%- endif -%}
 
 <nav class="post-navigation top-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
   {% if custom_prev %}
@@ -227,148 +227,115 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
 </div>
 
 {% comment %} --- Display Top GSC Keywords (Comma Separated) --- {% endcomment %}
-{% assign current_page_url = page.url %}
-{% if current_page_url != '/' and current_page_url != '' %}
-  {% unless current_page_url contains '/' %}{% assign current_page_url = current_page_url | append: '/' %}{% endunless %}
-{% endif %}
-{% assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] %}
+{%- assign current_page_url = page.url -%}
+{%- if current_page_url != '/' and current_page_url != '' -%}
+  {%- unless current_page_url contains '/' -%}{%- assign current_page_url = current_page_url | append: '/' -%}{%- endunless -%}
+{%- endif -%}
+{%- assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] -%}
 
 <div style="display: none;">
 Debug Info:
 Raw URL: {{ page.url }}
 Normalized URL: {{ current_page_url }}
-Has Keywords?: {% if top_keywords_list %}Yes ({{ top_keywords_list.size }}){% else %}No{% endif %}
-First Few Keys: {% for key in site.data.gsc_top_keywords limit:5 %}{{ key[0] }}, {% endfor %}
+Has Keywords?: {%- if top_keywords_list -%}Yes ({{ top_keywords_list.size }}){%- else -%}No{%- endif -%}
+First Few Keys: {%- for key in site.data.gsc_top_keywords limit:5 -%}{{ key[0] }}, {%- endfor -%}
 </div>
 
-{% if top_keywords_list and top_keywords_list.size > 0 %}
-  {% comment %} Extract just the 'query' string from each keyword data object {% endcomment %}
-  {% assign keyword_names = top_keywords_list | map: 'query' %}
+{%- if top_keywords_list and top_keywords_list.size > 0 -%}
+  {%- comment -%}Extract just the 'query' string from each keyword data object{%- endcomment -%}
+  {%- assign keyword_names = top_keywords_list | map: 'query' -%}
   <div class="gsc-categories" style="text-align: center; margin: 10px 0 20px 0; font-style: italic; color: #999;">
     Found by: {{ keyword_names | join: ', ' }}
   </div>
-{% endif %}
+{%- endif -%}
 {% comment %} --- End Display Top GSC Keywords --- {% endcomment %}
 
+{%- comment -%}Related Articles Section based on meta_keywords{%- endcomment -%}
+{%- assign max_related = 5 -%}{%- comment -%}Set the maximum number of related posts to display{%- endcomment -%}
+{%- assign min_common_tags = 1 -%}{%- comment -%}Set the minimum number of shared keywords required to be considered related{%- endcomment -%}
+{%- assign current_post_keywords = "" | split: "" -%}
+{%- if page.meta_keywords and page.meta_keywords != "" -%}
+  {%- comment -%}Split by comma and process each keyword{%- endcomment -%}
+  {%- assign raw_keywords = page.meta_keywords | split: "," -%}
+  {%- for keyword in raw_keywords -%}
+    {%- assign cleaned_keyword = keyword | strip | downcase -%}
+    {%- if cleaned_keyword != "" -%}
+      {%- assign current_post_keywords = current_post_keywords | push: cleaned_keyword -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 
-{% comment %} --- Related Articles Section based on meta_keywords --- {% endcomment %}
-
-{% assign max_related = 5 %} {% comment %} Set the maximum number of related posts to display {% endcomment %}
-{% assign min_common_tags = 1 %} {% comment %} Set the minimum number of shared keywords required to be considered related {% endcomment %}
-
-{% assign current_post_keywords = "" | split: "" %}
-{% if page.meta_keywords and page.meta_keywords != "" %}
-  {% comment %} Split by comma and process each keyword {% endcomment %}
-  {% assign raw_keywords = page.meta_keywords | split: "," %}
-  {% for keyword in raw_keywords %}
-    {% assign cleaned_keyword = keyword | strip | downcase %}
-    {% if cleaned_keyword != "" %}
-      {% assign current_post_keywords = current_post_keywords | push: cleaned_keyword %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-{% comment %} Debug output {% endcomment %}
-<div class="debug-info" style="display: none;">
-Debug Info:
+{%- comment -%}Debug output{%- endcomment -%}
+<div class="debug-info" style="display: none;">Debug Info:
 Current Post URL: {{ page.url }}
-Has Meta Keywords?: {% if page.meta_keywords %}Yes{% else %}No{% endif %}
+Has Meta Keywords?: {%- if page.meta_keywords -%}Yes{%- else -%}No{%- endif -%}
 Raw Meta Keywords: {{ page.meta_keywords }}
 Number of Keywords: {{ current_post_keywords.size }}
-Processed Keywords: {{ current_post_keywords | join: ", " }}
-</div>
+Processed Keywords: {{ current_post_keywords | join: ", " }}</div>
 
-{% assign related_posts_scored = "" | split: "" %} {% comment %} Initialize empty array to store "score|url" strings {% endcomment %}
+{%- assign related_posts_scored = "" | split: "" -%}
+{%- if current_post_keywords.size > 0 -%}
+  {%- for other_post in site.posts -%}
+    {%- if other_post.url == page.url -%}{%- continue -%}{%- endif -%}
+    {%- assign other_post_keywords = "" | split: "" -%}
+    {%- if other_post.meta_keywords and other_post.meta_keywords != "" -%}
+      {%- assign other_raw_keywords = other_post.meta_keywords | split: "," -%}
+      {%- for keyword in other_raw_keywords -%}
+        {%- assign cleaned_keyword = keyword | strip | downcase -%}
+        {%- if cleaned_keyword != "" -%}
+          {%- assign other_post_keywords = other_post_keywords | push: cleaned_keyword -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    {%- if other_post_keywords.size > 0 -%}
+      {%- assign common_tags_count = 0 -%}
+      {%- for tag in current_post_keywords -%}
+        {%- if other_post_keywords contains tag -%}
+          {%- assign common_tags_count = common_tags_count | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if common_tags_count >= min_common_tags -%}
+        {%- assign score_padded = common_tags_count | prepend: '0000' | slice: -4, 4 -%}
+        {%- assign post_data_string = score_padded | append: '|' | append: other_post.url -%}
+        {%- assign related_posts_scored = related_posts_scored | push: post_data_string -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 
-{% comment %} Only proceed if the current post has keywords {% endcomment %}
-{% if current_post_keywords.size > 0 %}
-  {% for other_post in site.posts %}
-    {% comment %} Skip comparing the post to itself {% endcomment %}
-    {% if other_post.url == page.url %}{% continue %}{% endif %}
-
-    {% assign other_post_keywords = "" | split: "" %}
-    {% if other_post.meta_keywords and other_post.meta_keywords != "" %}
-      {% comment %} Process other post's keywords the same way {% endcomment %}
-      {% assign other_raw_keywords = other_post.meta_keywords | split: "," %}
-      {% for keyword in other_raw_keywords %}
-        {% assign cleaned_keyword = keyword | strip | downcase %}
-        {% if cleaned_keyword != "" %}
-          {% assign other_post_keywords = other_post_keywords | push: cleaned_keyword %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
-    {% comment %} Only proceed if the other post has keywords {% endcomment %}
-    {% if other_post_keywords.size > 0 %}
-      {% assign common_tags_count = 0 %}
-      {% comment %} Count common keywords between current and other post {% endcomment %}
-      {% for tag in current_post_keywords %}
-        {% if other_post_keywords contains tag %}
-          {% assign common_tags_count = common_tags_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-
-      {% comment %} Check if the number of common tags meets the minimum threshold {% endcomment %}
-      {% if common_tags_count >= min_common_tags %}
-        {% comment %}
-          Store the score and URL together.
-          We pad the score with leading zeros to enable string-based sorting later.
-          Higher scores will appear first when sorted descendingly.
-          Format: "000N|/post/url/" where N is the score.
-        {% endcomment %}
-        {% assign score_padded = common_tags_count | prepend: '0000' | slice: -4, 4 %} {% comment %} Pad score to 4 digits {% endcomment %}
-        {% assign post_data_string = score_padded | append: '|' | append: other_post.url %}
-        {% assign related_posts_scored = related_posts_scored | push: post_data_string %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-{% comment %} Sort the related posts. String sort works here due to padded scores. Sort descending (highest score first). {% endcomment %}
-{% assign sorted_related_uris = related_posts_scored | sort | reverse %}
-
-{% comment %} Display the related posts if any were found {% endcomment %}
-{% if sorted_related_uris.size > 0 %}
-  <aside class="related-posts">
-    <h2>Related Articles</h2>
-    <ul>
-      {% for post_data in sorted_related_uris limit: max_related %}
-        {% assign parts = post_data | split: '|' %}
-        {% assign post_score = parts[0] | times: 1 %} {% comment %} Get score (optional to use) {% endcomment %}
-        {% assign post_url = parts[1] %}
-
-        {% comment %} Find the actual post object using the stored URL {% endcomment %}
-        {% assign related_post = site.posts | where_exp: "item", "item.url == post_url" | first %}
-
-        {% if related_post %}
-          <li>
-            <a href="{{ url_base }}{{ related_post.url }}">{{ related_post.title }}</a>
-            <span class="debug-score" style="display: none;">(Score: {{ post_score }})</span>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </aside>
-  <style>
-    /* Basic styling for the related posts section */
-    .related-posts {
-      margin-top: 40px;
-      margin-bottom: 20px;
-      padding-top: 20px;
-      border-top: 1px solid #eee;
-    }
-    .related-posts h2 {
-      margin-bottom: 15px;
-      font-size: 1.4em;
-    }
-    .related-posts ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    .related-posts li {
-      margin-bottom: 8px;
-    }
-  </style>
-{% endif %}
-
-{% comment %} --- End Related Articles Section --- {% endcomment %}
+{%- assign sorted_related_uris = related_posts_scored | sort | reverse -%}
+{%- if sorted_related_uris.size > 0 -%}
+<aside class="related-posts">
+  <h2>Related Articles</h2>
+  <ul>
+    {%- for post_data in sorted_related_uris limit: max_related -%}
+      {%- assign parts = post_data | split: '|' -%}
+      {%- assign post_score = parts[0] | times: 1 -%}
+      {%- assign post_url = parts[1] -%}
+      {%- assign related_post = site.posts | where_exp: "item", "item.url == post_url" | first -%}
+      {%- if related_post -%}
+        <li><a href="{{ url_base }}{{ related_post.url }}">{{ related_post.title }}</a><span class="debug-score" style="display: none;">(Score: {{ post_score }})</span></li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</aside>
+<style>
+.related-posts {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+.related-posts h2 {
+  margin-bottom: 15px;
+  font-size: 1.4em;
+}
+.related-posts ul {
+  list-style: none;
+  padding-left: 0;
+}
+.related-posts li {
+  margin-bottom: 8px;
+}</style>
+{%- endif -%}
+{%- comment -%}--- End Related Articles Section ---{%- endcomment -%}
