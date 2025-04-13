@@ -295,7 +295,9 @@ Processed Keywords: {{ current_post_keywords | join: ", " }}</div>
         {%- endif -%}
       {%- endfor -%}
       {%- if common_tags_count >= min_common_tags -%}
-        {%- assign score_padded = common_tags_count | prepend: '0000' | slice: -4, 4 -%}
+        {%- comment -%}Create a score that combines keyword matches and recency{%- endcomment -%}
+        {%- assign post_date_score = other_post.date | date: "%s" | divided_by: 86400 -%}
+        {%- assign score_padded = post_date_score | append: common_tags_count | prepend: '00000000' | slice: -8, 8 -%}
         {%- assign post_data_string = score_padded | append: '|' | append: other_post.url -%}
         {%- assign related_posts_scored = related_posts_scored | push: post_data_string -%}
       {%- endif -%}
@@ -310,11 +312,15 @@ Processed Keywords: {{ current_post_keywords | join: ", " }}</div>
   <ul>
     {%- for post_data in sorted_related_uris limit: max_related -%}
       {%- assign parts = post_data | split: '|' -%}
-      {%- assign post_score = parts[0] | times: 1 -%}
+      {%- assign post_score = parts[0] | slice: -1, 1 | times: 1 -%}
       {%- assign post_url = parts[1] -%}
       {%- assign related_post = site.posts | where_exp: "item", "item.url == post_url" | first -%}
       {%- if related_post -%}
-        <li><a href="{{ url_base }}{{ related_post.url }}">{{ related_post.title }}</a><span class="debug-score" style="display: none;">(Score: {{ post_score }})</span></li>
+        <li>
+          <a href="{{ url_base }}{{ related_post.url }}">{{ related_post.title }}</a>
+          <span class="post-date">- {{ related_post.date | date: "%B %-d, %Y" }}</span>
+          <span class="debug-score" style="display: none;">(Score: {{ post_score }})</span>
+        </li>
       {%- endif -%}
     {%- endfor -%}
   </ul>
@@ -336,6 +342,10 @@ Processed Keywords: {{ current_post_keywords | join: ", " }}</div>
 }
 .related-posts li {
   margin-bottom: 8px;
+}
+.related-posts .post-date {
+  color: #666;
+  font-size: 0.9em;
 }</style>
 {%- endif -%}
 {%- comment -%}--- End Related Articles Section ---{%- endcomment -%}
