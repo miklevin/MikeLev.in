@@ -8,7 +8,7 @@ Change this value to switch between absolute and relative URLs:
 - true: absolute URLs with domain (for production)
 - false: relative URLs without domain (for local testing)
 {% endcomment %}
-{% assign use_absolute_urls = false %}
+{% assign use_absolute_urls = true %}
 
 {% capture url_base %}{% if use_absolute_urls %}https://mikelev.in{% else %}{% endif %}{% endcapture %}
 
