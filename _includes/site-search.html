@@ -1,5 +1,5 @@
 <div id="site-search-container">
-  <input type="text" id="site-search-input" placeholder="Search blog posts..." />
+  <input type="text" id="site-search-input" placeholder="Search blog posts..." autofocus />
   <div id="site-search-results"></div>
 </div>
 
@@ -20,6 +20,7 @@ if (typeof lunr === 'undefined') {
     try {
       await loadLunr();
       initSearch();
+      focusSearch();
     } catch (error) {
       console.error('Failed to load lunr.js:', error);
     }
@@ -27,7 +28,28 @@ if (typeof lunr === 'undefined') {
 } else {
   // lunr already loaded, initialize search
   initSearch();
+  focusSearch();
 }
+
+// Function to focus search input
+function focusSearch() {
+  const searchInput = document.getElementById('site-search-input');
+  if (searchInput) {
+    // Focus the input
+    searchInput.focus();
+    // Move cursor to end of any existing text
+    const len = searchInput.value.length;
+    searchInput.setSelectionRange(len, len);
+  }
+}
+
+// Re-focus search on keyboard shortcut (/)
+document.addEventListener('keydown', function(e) {
+  if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+    e.preventDefault();
+    focusSearch();
+  }
+});
 
 function initSearch() {
   // Initialize search functionality

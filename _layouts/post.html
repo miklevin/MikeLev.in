@@ -318,8 +318,13 @@ Processed Keywords: {{ current_post_keywords | join: ", " }}</div>
       {%- if related_post -%}
         <li>
           <a href="{{ url_base }}{{ related_post.url }}">{{ related_post.title }}</a>
-          <span class="post-date">- {{ related_post.date | date: "%B %-d, %Y" }}</span>
-          <span class="debug-score" style="display: none;">(Score: {{ post_score }})</span>
+          <div class="post-meta">
+            <span class="post-date">{{ related_post.date | date: "%B %-d, %Y" }}</span>
+            {%- if related_post.description -%}
+            <span class="post-description"> - {{ related_post.description }}</span>
+            {%- endif -%}
+            <span class="debug-score" style="display: none;">(Score: {{ post_score }})</span>
+          </div>
         </li>
       {%- endif -%}
     {%- endfor -%}
@@ -341,11 +346,16 @@ Processed Keywords: {{ current_post_keywords | join: ", " }}</div>
   padding-left: 0;
 }
 .related-posts li {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
-.related-posts .post-date {
+.related-posts .post-meta {
   color: #666;
   font-size: 0.9em;
-}</style>
+  margin-top: 2px;
+}
+.related-posts .post-description {
+  font-style: italic;
+}
+</style>
 {%- endif -%}
 {%- comment -%}--- End Related Articles Section ---{%- endcomment -%}
