@@ -302,8 +302,8 @@ Processed Keywords: {{ current_post_keywords | join: ", " }}</div>
           <a href="{{ url_base }}{{ related_post.url }}">{{ related_post.title }}</a>
           <div class="post-meta">
             <span class="post-date">{{ related_post.date | date: "%B %-d, %Y" }}</span>
-            {%- if related_post.description -%}
-            <span class="post-description"> - {{ related_post.description }}</span>
+            {%- if related_post.meta_description -%}
+            <span class="post-description"> - {{ related_post.meta_description }}</span>
             {%- endif -%}
             <span class="debug-score" style="display: none;">(Score: {{ post_score }})</span>
           </div>
@@ -331,7 +331,6 @@ Processed Keywords: {{ current_post_keywords | join: ", " }}</div>
   margin-bottom: 12px;
 }
 .related-posts .post-meta {
-  color: #666;
   font-size: 0.9em;
   margin-top: 2px;
 }
