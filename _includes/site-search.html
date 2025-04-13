@@ -57,6 +57,13 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
+// Add slider refocus behavior
+document.addEventListener('mouseup', function(e) {
+    if (e.target.matches('input[type="range"]') || e.target.closest('input[type="range"]')) {
+        setTimeout(focusSearch, 100);
+    }
+});
+
 function initSearch() {
   // Initialize search functionality
   let searchIndex, searchData;
@@ -180,10 +187,17 @@ function initSearch() {
   #site-search-container {
     position: sticky;
     top: 60px;
-    margin: 10px 0;
+    margin: 10px auto;
     width: 100%;
+    max-width: 75%;
     background-color: var(--background-color);
     z-index: 100;
+  }
+  
+  @media (max-width: 576px) {
+    #site-search-container {
+        max-width: 100%;
+    }
   }
   
   /* Remove custom input styling to let PicoCSS handle it */
@@ -199,10 +213,10 @@ function initSearch() {
     width: 100%;
     max-height: 90vh;
     overflow-y: auto;
-    /* Layer both a semi-transparent black background and the theme background */
-    background: rgba(0, 0, 0, 0.75);
+    background-color: var(--card-background-color);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    background: var(--card-background-color);
     border: 1px solid var(--card-border-color);
     border-radius: var(--border-radius);
     box-shadow: var(--card-box-shadow);
@@ -215,8 +229,7 @@ function initSearch() {
     padding: 20px 15px;
     border-bottom: 1px solid var(--card-border-color);
     margin-bottom: 5px;
-    /* Semi-transparent background for each result */
-    background: rgba(0, 0, 0, 0.75);
+    background: var(--card-background-color);
   }
   
   .search-result:last-child {
@@ -224,8 +237,7 @@ function initSearch() {
   }
   
   .search-result:hover {
-    /* Slightly lighter on hover */
-    background: rgba(20, 20, 20, 0.85);
+    background-color: var(--card-sectionning-background-color);
   }
   
   .search-result h3 {
