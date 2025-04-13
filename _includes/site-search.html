@@ -189,7 +189,7 @@ function initSearch() {
     top: 60px;
     margin: 10px auto;
     width: 100%;
-    max-width: 75%;
+    max-width: 50%;
     background-color: var(--background-color);
     z-index: 100;
   }
@@ -213,23 +213,23 @@ function initSearch() {
     width: 100%;
     max-height: 90vh;
     overflow-y: auto;
-    background-color: var(--card-background-color);
+    background: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    background: var(--card-background-color);
     border: 1px solid var(--card-border-color);
     border-radius: var(--border-radius);
     box-shadow: var(--card-box-shadow);
     margin-top: 5px;
     padding: 15px;
     color: var(--color);
+    font-size: 24px;
   }
   
   .search-result {
     padding: 20px 15px;
     border-bottom: 1px solid var(--card-border-color);
     margin-bottom: 5px;
-    background: var(--card-background-color);
+    background: rgba(0, 0, 0, 0.75);
   }
   
   .search-result:last-child {
@@ -237,7 +237,7 @@ function initSearch() {
   }
   
   .search-result:hover {
-    background-color: var(--card-sectionning-background-color);
+    background: rgba(20, 20, 20, 0.85);
   }
   
   .search-result h3 {
@@ -247,7 +247,7 @@ function initSearch() {
   }
   
   .search-result h3 a {
-    color: var(--primary);
+    color: var(--accent);
     text-decoration: none;
   }
   
@@ -257,25 +257,25 @@ function initSearch() {
   
   .search-result .date {
     color: var(--muted-color);
-    font-size: 18px;
+    font-size: 24px;
     margin: 0 0 12px 0;
   }
   
   .search-result .description {
     margin: 15px 0 0 0;
-    font-size: 20px;
-    color: var(--h3-color);
+    font-size: 24px;
+    color: var(--color);
     line-height: 1.4;
   }
   
   .search-result .keywords {
     margin: 15px 0 0 0;
     color: var(--muted-color);
-    font-size: 16px;
+    font-size: 20px;
   }
   
   .search-result .keywords small {
-    font-size: 16px;
+    font-size: 20px;
   }
   
   .more-results {
@@ -283,7 +283,7 @@ function initSearch() {
     margin: 15px 0 5px 0;
     font-style: italic;
     color: var(--muted-color);
-    font-size: 18px;
+    font-size: 24px;
   }
   
   /* No results styling */
@@ -291,6 +291,6 @@ function initSearch() {
     color: var(--muted-color);
     text-align: center;
     margin: 15px 0;
-    font-size: 20px;
+    font-size: 24px;
   }
 </style> 
