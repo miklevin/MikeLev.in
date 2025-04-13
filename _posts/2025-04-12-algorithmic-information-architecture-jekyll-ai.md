@@ -8,6 +8,48 @@ layout: post
 sort_order: 1
 ---
 
+## Summary of Keyword Topic Clustering Adventure
+
+This article chronicles the development process for tackling a growing,
+reverse-chronological Jekyll blog that had become unwieldy due to its flat
+structure and large number of posts. Starting with the goal of improving user
+experience and SEO discoverability without altering existing post URLs, I
+embarked on a journey to algorithmically generate a new, optimized category
+hierarchy. This involved collaborating extensively with AI assistants (Gemini
+for strategic framing and Claude for implementation) and leveraging Google
+Search Console (GSC) performance data alongside the existing YAML front matter
+within each post's Markdown file.
+
+We began by outlining the requirements: leveraging GSC insights, maintaining
+idempotent processes, and defining constraints for the desired hierarchy (like
+category size limits and preferring breadth over depth). The core of the project
+became a Python script designed to:
+
+1.  Parse all Jekyll post front matter.
+2.  Load and integrate GSC keyword performance data (impressions, clicks).
+3.  Cluster posts based on combined manual keywords and weighted GSC queries using TF-IDF vectorization and KMeans clustering (after initial attempts with DBSCAN proved problematic).
+4.  Generate meaningful category labels using top GSC queries and cluster centroid terms.
+
+Through iterative refinement driven by AI collaboration and debugging, the
+script evolved significantly. Key improvements included weighting GSC queries by
+the logarithm of their impressions to better reflect performance impact and
+adding a crucial parameter optimization phase. This optimization uses a grid
+search across various parameters (like target cluster count, L1 category limits,
+and impression thresholds) and evaluates potential site topologies against a
+weighted scoring system (considering post coverage, category balance, thematic
+coherence, hierarchy depth, and traffic concentration) to find the most
+effective configuration.
+
+The culmination of this development phase, as detailed here, is a robust
+analysis tool that outputs a clearly visualized, `tree`-like representation of a
+recommended site hierarchy, complete with performance metrics (impressions) and
+specific post assignments derived directly from data, laying the groundwork for
+the subsequent implementation of new category pages and navigational structures.
+
+---
+
+## The Adventure
+
 I have a reverse chronological blog made with the Jekyll SSG built into GitHub
 pages, leaning into many of its defaults of using the `_posts` folder. However,
 it is resulting in one giant index page, which is currently the homepage of my
