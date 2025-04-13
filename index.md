@@ -77,11 +77,6 @@ with a half-century perspective that's not just following the flocking herd. You
 found it early, so feel free to wade through the raw mess and experience it
 coming alive beneath you.
 
-> If you're ramblin and a rollin down the road out in the stix  
-> And then suddenly you realize that you're on route 66  
-> And the topics that you cover interest everyone alive  
-> Then perhaps you need more traffic like you're on I-95!  
-
 <ol reversed>
   {% assign total_posts = site.posts.size %}
   {% assign post_counter = 0 %}
