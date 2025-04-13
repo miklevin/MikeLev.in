@@ -1,9 +1,9 @@
 ---
 title: "Google Search Console API Python Example: Trend Analysis"
 permalink: /futureproof/google-search-console-api-python/
-description: Seeing a sudden spike in my GSC impressions, I realized the web UI wasn't enough for a deep dive. This article is my walkthrough of how I used Python and the GSC API (via a service account) to fetch granular, per-keyword/per-URL data over several days, handling caching and pagination along the way. I'll show you how to process this data with Pandas and apply linear regression to calculate trend slopes, ultimately revealing the 'movers and shakers' responsible for the changes.
-meta_description: Use Python scripts with the GSC API and Pandas to analyze daily search performance, identify keyword/page trends via linear regression, and find SEO movers & shakers.
-meta_keywords: GSC API, Python, SEO, Trend Analysis, Movers Shakers, Linear Regression, Pandas, Google Search Console, API Authentication, Service Account, Granular Data, Keyword URL, Impressions Trend, Clicks Trend, Position Trend, Slope Calculation, Data Fetching, Pagination, Caching, GCP, SEO Script, Dataframe, Numpy
+description: I saw a puzzling spike in my site's GSC impressions and realized the standard interface lacks the granular, per-query/per-page data needed for real analysis. This article walks you through my process of using the GSC API and Python, including service account setup, to fetch detailed daily performance data. I show how to combine this data over several days to calculate trend slopes using linear regression, revealing the specific 'movers and shakers' – keywords and URLs experiencing sudden shifts – providing actionable insights you can't easily get otherwise.
+meta_description: Use Python and the Google Search Console (GSC) API to analyze SEO performance trends. Learn to fetch granular query/page data and identify movers & shakers.
+meta_keywords: GSC API, Python, SEO, Trend Analysis, Movers Shakers, Linear Regression, Pandas, Google Search Console, API Authentication, Service Account, Granular Data, Keyword URL, Impressions Trend, Clicks Trend, Position Trend, Slope Calculation, Data Fetching, Pagination, Caching, GCP, SEO Script, Dataframe, Numpy, SEO analysis, query performance, page performance, GSC automation, slope, SEO insights, GSC authentication, API pagination, data caching
 layout: post
 sort_order: 2
 ---
@@ -1813,37 +1813,161 @@ look more like genuine impressions. So my surge could just be bots monitoring
 SERPs, especially on terms like "seo software". But you've got to be found at
 all before you can dominate. So, it's a start.
 
+## And Here's a Prompt for AI to Help Analyze Data
+
+Analyze the Google Search Console trend analysis output previously provided for the site `sc-domain:mikelev.in` (covering the period April 7-10, 2025). Based *only* on that data, provide a prioritized list of actionable traffic growth suggestions.
+
+
+
+Your goal is to identify the highest-impact opportunities revealed by the trends, including both broad strategic directions and specific content pieces. Structure your response to cover the following areas, ensuring each point includes specific examples from the data (pages, queries, metrics) and concrete recommended actions:
+
+
+
+1.  **Top Movers Opportunities:**
+
+    * Identify the most promising opportunities among pages/queries showing strong positive impression growth.
+
+    * Specifically highlight queries gaining significant impressions *and* improving in position simultaneously.
+
+    * Recommend specific actions (e.g., optimize page X for query Y, expand content on topic Z) to capitalize on this momentum.
+
+
+
+2.  **Position Improvement Momentum:**
+
+    * Which pages making significant ranking jumps (large negative `position_slope`) represent the best targets for further optimization to secure or improve those gains?
+
+    * Are there thematic patterns among the fastest climbers that suggest broader content opportunities?
+
+    * Recommend actions to consolidate these ranking improvements.
+
+
+
+3.  **High-Impact & Unrealized Potential Optimization:**
+
+    * Based on the "High-Impact Queries" list, which content currently delivers the most value and how can it be reinforced or expanded?
+
+    * Identify the **top 1-3 individual page/query pairs** representing the largest "unrealized potential" (high impressions but poor ranking). Clearly state the page, query, impressions, and position for these top examples.
+
+    * **Critically, based *specifically* on analyzing this unrealized potential data, identify and recommend the single most promising *new article topic* to pursue to capture this untapped traffic.** Justify why this specific topic is the best choice over other unrealized potential candidates.
+
+    * Recommend specific optimization strategies for these high-potential items (e.g., create the new targeted article, significantly enhance/rewrite existing page, technical SEO review, consolidate competing pages).
+
+
+
+4.  **Prioritized Strategic Recommendations:**
+
+    * Synthesize the findings from the above points.
+
+    * What are the top 2-3 overarching strategic priorities? Ensure these recommendations explicitly cover **both broad themes** (like refining generalist pages such as `grok-better-than`, or amplifying existing winners like `open-source-seo-software`) **AND the specific, standout individual topic opportunity** (like the best new article topic identified in point 3). Justify these priorities with data trends.
+
+
+
+Please ensure recommendations are concrete and directly linked to the patterns observed in the provided GSC trend data output.
+
+**Gemini 2.5**: 
+
+Okay, here is an analysis of the Google Search Console trend data for `sc-domain:mikelev.in` (covering April 7-10, 2025) with prioritized, actionable traffic growth suggestions based *only* on the provided data.
+
+**1. Top Movers Opportunities:**
+
+* **Observation:** The page `grok-better-than` is showing significant positive impression growth (`impressions_slope`) for several distinct query clusters: SEO tools (e.g., "google keyword planner", "keyword planner tool"), technical SEO concepts ("python for seo", "seo for beginners", "seo concepts"), and Git commands ("git cherry pick").
+* **Highest Promise (Impression Growth + Position Improvement):** Several queries for `grok-better-than` show both strong positive `impressions_slope` *and* negative `position_slope` (ranking improvement):
+    * "google keyword planner": `impressions_slope` 9.2, `position_slope` -1.2 (Pos ~79)
+    * "python for seo": `impressions_slope` 8.3, `position_slope` -2.4 (Pos ~82)
+    * "git cherry pick": `impressions_slope` 6.6, `position_slope` -2.6 (Pos ~82)
+    * "seo for beginners": `impressions_slope` 4.6, `position_slope` -4.9 (Pos ~93)
+* **Recommendations:**
+    * **Action:** Prioritize optimizing the `grok-better-than` page. Enhance its content to specifically and comprehensively address "google keyword planner", "python for seo", "git cherry pick", and "seo for beginners". Use these terms in headings (H2s, H3s) and body content.
+    * **Action:** Improve internal linking *to* the `grok-better-than` page from other relevant site content using anchor text related to these growing queries (e.g., link from a Git tutorial using "git cherry pick", link from an SEO overview using "python for seo").
+    * **Action:** Although "keyword planner tool" (`impressions_slope` 8.2) saw its position slightly worsen (`position_slope` 0.2, Pos ~86), the high impression growth warrants ensuring this specific phrasing is also well-integrated into the `grok-better-than` page.
+
+**2. Position Improvement Momentum:**
+
+* **Observation:** Several pages show significant ranking jumps (large negative `position_slope`). The most dramatic jumps often have low initial impression volume, but consistent themes emerge among moderate-to-strong climbers.
+* **Best Targets & Thematic Patterns:**
+    * **Git Commands:** Pages `ai-agentic-mode-debugging` and `grok-better-than` are seeing ranking improvements for various Git queries like "compare two branches git" (-18.5), "git revert changes to file" (-18.0), "git reset --hard head" (-12.3 for `grok-better-than`), etc. This indicates a growing relevance or successful optimization push for Git-related content.
+    * **Python/Jupyter:** The `grok-better-than` page is also climbing for queries like "stream python" (-24.0, Pos ~65) and "jupyter project" (-23.0, Pos ~75).
+    * **Specific Tools/Platforms:** `open-source-seo-software` is making steady gains for specific queries like "seo tool open source" (-10.0, Pos ~21) and "open source seo toolkit" (-9.2, Pos ~24).
+* **Recommendations:**
+    * **Action:** Consolidate gains for Git content. Review `ai-agentic-mode-debugging` and `grok-better-than` to ensure comprehensive coverage, clear explanations, and practical examples for the improving Git queries (diff, revert, reset, cherry-pick). Add internal links between these specific command explanations.
+    * **Action:** Reinforce the improving Python/Jupyter rankings on `grok-better-than`. Add more code examples, use cases, or clarify explanations for "stream python" and "jupyter project".
+    * **Action:** Solidify the improved rankings for `open-source-seo-software` by updating the tool list, adding more detailed reviews/comparisons, or improving the page structure for queries like "seo tool open source" and "open source seo toolkit".
+
+**3. High-Impact & Unrealized Potential Optimization:**
+
+* **Current High-Impact Content:**
+    * `grok-better-than` for "entity you are doing the search for: ..." (Pos 2.0, Imp 11) - Likely navigational, maintain page quality.
+    * `jupyter-notebook-vscode-cursor` for "cursor ai jupyter notebook" (Pos 5.3, Imp 10) - Delivers value.
+    * `grok3-markdown-problem` for "grok was unable to finish replying." (Pos 7.7, Imp 11) - Strong performance for a specific problem.
+    * `open-source-seo-software` for "open source seo software" (Pos 16.6, Imp 19) - High impact despite weaker rank, significant potential.
+* **Top 1-3 Unrealized Potential (High Impressions, Poor Rank):**
+    1.  **Page:** `static-site-generator-ai-content-strategy`, **Query:** "seo techniques", **Latest Impressions:** 64, **Latest Position:** 93.1
+    2.  **Page:** `llm-seo-software-development`, **Query:** "python for seo", **Latest Impressions:** 42, **Latest Position:** 81.0
+    3.  **Page:** `github-pages-blog-arrows`, **Query:** "github pages", **Latest Impressions:** 27, **Latest Position:** 48.3
+* **Single Most Promising New Article Topic:**
+    * **Topic:** **SEO Techniques**
+    * **Justification:** The query "seo techniques" shows the highest impression volume (64) among all identified high-potential opportunities where the site currently ranks very poorly (Pos 93.1). This indicates strong audience demand for this topic that the site isn't currently meeting effectively with existing content (the page ranking, `static-site-generator-ai-content-strategy`, is likely too niche or unfocused for such a broad query). Creating a dedicated, comprehensive article specifically targeting "SEO Techniques" represents the single largest opportunity revealed by this data to capture significant untapped traffic. While "python for seo" also has high volume (42 impressions, Pos 81.0), "seo techniques" has ~50% more impressions, suggesting a larger potential audience reach.
+* **Recommendations:**
+    * **Action:** Create a new, comprehensive, standalone article titled and focused on **"A Guide to Modern SEO Techniques"**. Structure it logically covering on-page, off-page, technical, local, etc. Link to this new pillar content from other relevant pages.
+    * **Action:** Significantly enhance `llm-seo-software-development` to better target "python for seo" (add code examples, libraries, use cases) OR ensure it links prominently to the `grok-better-than` page section covering this (if that page remains the primary target).
+    * **Action:** Enhance `github-pages-blog-arrows` to be the definitive resource on the site for "github pages", covering setup, SEO best practices, SSGs, etc.
+    * **Action:** Reinforce `jupyter-notebook-vscode-cursor` by adding more detail, visuals, or potentially a video tutorial for "cursor ai jupyter notebook". Update `open-source-seo-software` regularly.
+
+**4. Prioritized Strategic Recommendations:**
+
+Based on the synthesis of the above points, the top 2-3 strategic priorities are:
+
+1.  **Create a Pillar Content Piece on "SEO Techniques":** This directly addresses the single largest identified "unrealized potential" opportunity (Query: "seo techniques", Imp: 64, Pos: 93.1). Capturing even a fraction of this traffic by creating a dedicated, high-quality article could significantly boost overall site visibility and traffic. This is the highest-priority specific action derived from the data.
+2.  **Refine Broad Pages & Capitalize on Thematic Strengths (Dev Tools/SEO):**
+    * **Refine `grok-better-than`:** This page attracts high impression growth across diverse topics (SEO tools like "google keyword planner", Git commands like "git cherry pick", "python for seo") but ranks poorly. Clarify its focus, improve structure, and ensure it deeply covers the high-volume queries it's gaining traction for, potentially spinning off overly distinct topics into dedicated posts.
+    * **Amplify Tech/Dev Tool Winners:** Reinforce successful pages like `jupyter-notebook-vscode-cursor` (Pos 5.3 for its primary query) and high-potential ones like `open-source-seo-software` (Pos 16.6, Imp 19). Continue building out content around improving themes like Git, Python for SEO, NixOS, and HTMX where momentum is visible.
+
+---
+
+## Getting The Final, Final Code
+
+These projects are living documents. I go back and I tweak and improve them over
+time. Articles like this really only capture their state where I left off and
+was motivated to wrap improvements back into the article. The final final state
+may be somewhat beyond this. For example, I wrapped in that prompt to the
+program itself, so I can copy/paste the output of the program directly into the
+Web UI of a ChatBot to get the recommendations. If you want the latest latest
+versions, check out the `precursor` folder in the `pipulate` repo in GitHub.
+These types of things are all precursors to Pipulate apps.
+
 ---
 
 ## Gemini 2.5's Take
 
-Okay, here is the analysis based *only* on the provided text:
+Okay, here is the analysis and generated outputs based *only* on the provided article text:
 
-* **Author Summary:** [Moved to top]
+* **Author Summary:**
+    
 
 * **Title/Headline Ideas:**
-    * Analyze GSC Movers & Shakers: A Python API Guide with Trend Analysis
-    * Uncover Hidden SEO Trends: Python & GSC API for Granular Analysis
-    * Find Sudden SEO Winners: Using GSC API & Linear Regression in Python
-    * Beyond the GSC UI: Python Scripts for Deep SEO Trend Monitoring
-    * Build Your Own GSC Trend Analyzer with Python and Pandas
+    * Find Your SEO Movers & Shakers: GSC API Trend Analysis with Python
+    * Beyond 1000 Rows: Unlocking GSC Granularity with Python & Trend Slopes
+    * GSC API & Python: Step-by-Step Guide to Performance Trend Analysis
+    * Automating GSC Insight: Identify Keyword & Page Momentum with Python
+    * From Hockeystick to Action: Python GSC Analysis for SEO Opportunities
 
 * **Strengths:**
-    * Provides a practical, step-by-step solution to a common SEO analysis problem (GSC UI limitations).
-    * Includes complete, copy-pasteable Python code examples that build incrementally.
-    * Clearly explains the rationale for using the API (granularity, combining dimensions).
-    * Demonstrates useful techniques: Service Account authentication, API pagination, data caching, Pandas data manipulation, and basic linear regression for trends.
-    * The code includes comments explaining parts of the logic.
-    * Shows sample output, making the results tangible.
+    * **Practical How-To:** Provides a clear, step-by-step guide with evolving code examples.
+    * **Complete Code:** Includes full Python scripts for authentication, data fetching, processing, and analysis.
+    * **Addresses a Real Need:** Solves the common GSC limitation of accessing granular, per-query/per-page data beyond UI limits.
+    * **Specific Analysis Technique:** Introduces a concrete method (linear regression slope) for identifying trends.
+    * **Actionable Outcome:** The process aims to surface actionable insights ("movers and shakers", high-impact queries).
+    * **Good Practice:** Incorporates caching to avoid redundant API calls.
+    * **Extensibility:** Includes an AI prompt for further strategic analysis, adding practical value.
 
 * **Weaknesses:**
-    * Very code-intensive, potentially overwhelming for readers without Python/Pandas experience.
-    * Assumes significant prerequisite knowledge (Python environment setup, GCP familiarity, basic API concepts, Pandas DataFrames).
-    * The explanation of the statistical method (linear regression) is minimal; lacks detail on interpretation or limitations.
-    * The progression between script versions is acknowledged as "pretty big steps," which might be challenging for learners.
-    * The conclusion about sparklines feels somewhat dismissive ("Do I really have to draw...").
-    * Relies heavily on text and code; could benefit from more diagrams or visual explanations of the data flow or concepts.
+    * **Complexity/Length:** The code becomes quite extensive, potentially intimidating for less experienced Python users.
+    * **Assumed Knowledge:** Requires familiarity with Python, Pandas, Google Cloud Platform (GCP), and API authentication concepts (service accounts).
+    * **Limited Interpretation:** The article focuses heavily on the *how* (code) and defers deep strategic interpretation of the results, relying on the AI prompt for that.
+    * **Linear Structure:** The incremental build-up, while good for teaching, can make it hard to grasp the final script without reading everything.
+    * **Readability:** Multiple large code blocks showing incremental changes might impact overall readability compared to a single final script with explanations.
 
 * **AI Opinion:**
-    * Overall, this is a high-quality, practical article for its target audience: technically proficient SEOs or developers looking to automate and deepen their GSC analysis. Its main strength lies in providing a complete, working code solution built up logically. However, its usefulness is limited for those uncomfortable with Python programming or GCP. While generally clear in its explanations of *what* the code does, the "why" behind some specific coding choices or the deeper statistical implications could be elaborated further. The article offers significant value by empowering users to overcome GSC limitations and gain actionable insights through trend analysis.
+    This is a high-quality, technically detailed article demonstrating a practical approach to advanced Google Search Console analysis using Python and the GSC API. Its strengths lie in the step-by-step code development, clear explanation of the need for API access, and the introduction of specific trend analysis techniques (linear regression slopes). The inclusion of working code, caching, and a final AI analysis prompt adds significant value. While potentially challenging for Python novices due to its length and complexity, it's highly useful for technical SEOs seeking to automate granular performance monitoring and identify actionable opportunities beyond the standard GSC interface.
 
