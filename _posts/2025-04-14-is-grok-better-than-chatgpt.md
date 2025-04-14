@@ -13,8 +13,10 @@ sort_order: 1
 I think the strategy of the AI service providers is to addict you just enough to
 create an AI-dependency and then to squeeze you just enough to get you to pay.
 No single company holds all the AI-cards, especially with the scorched earth
-strategy initiated by Facebook/Meta with Llama to undercut the value of
-proprietary AI services and wash away OpenAI's early mover advantage.
+strategy initiated by Facebook/Meta with open source AI models like Llama to
+undercut the value of proprietary AI services and wash away OpenAI's early mover
+advantage. But scorched earth AI strategies don't stop with open source models.
+They stop in Tennessee.
 
 ## Elon's Scorched Earth Approach with Grok 3
 
