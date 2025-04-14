@@ -101,6 +101,28 @@
         #headerTitle {
             margin-bottom: 1rem;
         }
+
+        /* Add styles for hamster and wheel container */
+        .hamster-wheel-container {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .hamster-wheel-container img {
+            position: absolute;
+            top: 62%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 66%;
+            height: auto;
+        }
+
+        .hamster-wheel-container svg {
+            position: relative;
+            z-index: 1;
+        }
     </style>
 </head>
 <body>
@@ -113,9 +135,12 @@
             <nobr>
                 <a href="https://mikelev.in/">
                     MIKE LEVIN 
-                    <svg id="wheel" class="spin" viewBox="0 0 100 100">
-                        <image xlink:href="https://mikelev.in/assets/svg/mike-levin-ai-seo.svg" x="0" y="0" width="100%" height="100%"></image>
-                    </svg> 
+                    <div class="hamster-wheel-container">
+                        <img src="/images/hamster.gif" alt="Hamster">
+                        <svg id="wheel" class="spin" viewBox="0 0 100 100">
+                            <image xlink:href="https://mikelev.in/assets/svg/mike-levin-ai-seo.svg" x="0" y="0" width="100%" height="100%"></image>
+                        </svg>
+                    </div>
                     AI SEO
                 </a>
             </nobr>
@@ -215,10 +240,6 @@
 
     </header>
     <main>
-        <!-- Add site-wide search here, after the header title -->
-        <div class="search-hint" style="text-align: center; margin: -5px 0 10px 0; color: #666; font-size: 0.9em;">
-            Press / to focus search at any time
-        </div>
         {% include site-search.html %}
         
         {{ content }}
