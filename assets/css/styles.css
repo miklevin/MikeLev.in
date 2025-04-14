@@ -613,7 +613,7 @@ ol li .post-date {
 
 header blockquote {
   margin-top: 0.5vw; /* Default top margin */
-  margin-bottom: 0vw; /* Default bottom margin */
+  margin-bottom: 1vh; /* Default bottom margin */
 }
 
 /* 

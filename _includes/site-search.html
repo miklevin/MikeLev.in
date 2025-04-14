@@ -186,7 +186,6 @@ function initSearch() {
 <style>
   #site-search-container {
     position: sticky;
-    top: 60px;
     margin: 10px auto;
     width: 100%;
     max-width: 800px;
@@ -194,8 +193,17 @@ function initSearch() {
     z-index: 100;
   }
   
-  @media (max-width: 576px) {
+  /* Desktop styles */
+  @media (min-width: 769px) {
     #site-search-container {
+        top: 60px;
+    }
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    #site-search-container {
+        top: 10px;
         max-width: 100%;
     }
   }

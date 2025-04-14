@@ -90,11 +90,24 @@
         /* Add sticky search styles */
         .search-container {
             position: sticky;
-            top: 60px; /* Adjust based on width slider height */
             background-color: var(--background-color);
             padding: 10px 0;
             z-index: 99;
             margin-bottom: 1rem;
+        }
+
+        /* Desktop styles */
+        @media (min-width: 769px) {
+            .search-container {
+                top: 60px; /* Original desktop offset */
+            }
+        }
+
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            .search-container {
+                top: 10px; /* Pin to the very top on mobile */
+            }
         }
         
         /* Add some spacing below the header title */
