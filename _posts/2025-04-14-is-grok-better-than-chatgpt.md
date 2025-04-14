@@ -82,6 +82,12 @@ project.
 
 ### Analysis Prompt
 
+> We start by showing you the prompt that both Grok 3 and ChatGPT had to respond
+> to which went with a chunk of data so big you'd be running for the hills if I
+> included it here (so I moved it to the bottom). Suffice to say it's a winners
+> and losers list on page/query combos from Google Search Console data with
+> what's needed to draw those little "sparkline" trend graphs in Excel.
+
 [Analysis Parameters: Top 100 Results Per Category, 6-Day Trend Period]
 
 Analyze the Google Search Console trend analysis output previously provided for the site `sc-domain:mikelev.in` (covering the period April 7-12, 2025). Based *only* on that data, provide a prioritized list of actionable traffic growth suggestions and loss mitigation strategies.
