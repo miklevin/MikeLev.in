@@ -26,7 +26,10 @@ group: home
 
 # Finding Purpose Through Timeless Tech Skills
 
-**LPvgn** is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git & nix. I use them daily to build AI and automation systems — but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years. This may be a rabbit hole.
+<div class="bunny-trail">
+<p><b>LPvgn<b> is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git & nix. I use them daily to build AI and automation systems — but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years. This may be a rabbit hole.</p>
+{% include bunny.html %}
+</div>
 
 <div class="logo-container">
     <div class="logo-item">
@@ -35,19 +38,6 @@ group: home
     <div class="logo-item">
           <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
     </div>
-</div>
-
-{% include roadmap-gantt.html %}
-
-{% include wisdom.html %}
-
-{% include daily-metaphors.html %}
-
-{% include alice.html %}
-
-<div class="bunny-trail">
-  <div> </div>
-  {% include bunny.html %}
 </div>
 
 {% assign sorted_posts = site.posts | sort: 'date' %}
@@ -65,17 +55,6 @@ group: home
     <span class="nav-label">Begin the Journey</span>
   </div>
 </div>
-
-## Future-proof Yourself In The Age of AI!
-
-Here's a giant list of links to my stream-of-consciousness tech blog! Don't
-worry, I'm organizing it with AI, labeling, refnining, and all that happy
-horseshit — making it searchable and giving it a wonderful drill-down hierarchy
-for LLM-assisted small-world-theory web crawls, making a wonderful user
-experience. Find all that stuff you're going to have to know or fall behind —
-with a half-century perspective that's not just following the flocking herd. You
-found it early, so feel free to wade through the raw mess and experience it
-coming alive beneath you.
 
 <ol reversed>
   {% assign total_posts = site.posts.size %}
@@ -115,5 +94,5 @@ coming alive beneath you.
     </a>
   </div>
 </div>
-
+  
 <br>
