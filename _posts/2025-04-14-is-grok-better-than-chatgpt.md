@@ -155,23 +155,23 @@ Below is a detailed analysis of the Google Search Console (GSC) trend data for `
 ### 1. Top Movers Analysis (Gains & Losses)
 
 #### Promising Opportunities (Impression Growth)
-- **"llm-seo-software-development" | "python for seo"**
+- **"llm-seo-software-development" &#124; "python for seo"**
   - **Metrics**: Impressions TS `[61, 42, 0, 0, 0, 0]`, Slope `-12.3` (indicating earlier high impressions), Position TS `[83, 81, -, -, -, -]`, Slope `-2.2`.
   - **Observation**: Despite a recent drop to zero impressions, this page previously had strong visibility (61 to 42 impressions), suggesting sustained interest in Python-related SEO content.
   - **Action**: Optimize this page with updated content, additional examples, and stronger calls-to-action to recapture visibility and improve its ranking from position 81.
-- **"static-site-generator-ai-content-strategy" | "seo techniques"**
+- **"static-site-generator-ai-content-strategy" &#124; "seo techniques"**
   - **Metrics**: Impressions TS `[0, 87, 64, 0, 0, 0]`, Slope `-9.3`, Position TS `[-, 95, 93, -, -, -]`, Slope `-2.6`.
   - **Observation**: Significant impression spike (87 to 64) indicates high search interest, though the position remains poor (93).
   - **Action**: Enhance on-page SEO (e.g., keyword density, internal linking) and consider a dedicated article to target this high-demand query more effectively.
 
 #### Queries Gaining Impressions and Improving Position
-- **"ai-agentic-mode-debugging" | "git cherry pick"**
+- **"ai-agentic-mode-debugging" &#124; "git cherry pick"**
   - **Metrics**: Impressions TS `[0, 21, 20, 0, 0, 0]`, Slope `-2.4`, Position TS `[-, 75, 70, -, -, -]`, Slope `-4.7`.
   - **Observation**: Consistent impressions (21 to 20) with a position improvement from 75 to 70 show growing relevance.
   - **Action**: Expand this content with practical examples and tutorials to solidify its ranking gains and boost clicks.
 
 #### Concerning Drops in Impressions
-- **"llm-seo-software-development" | "hamster vector"**
+- **"llm-seo-software-development" &#124; "hamster vector"**
   - **Metrics**: Impressions TS `[6, 1, 0, 0, 0, 0]`, Slope `-0.9`, Position TS `[40, 77, -, -, -, -]`, Slope `+37.0`.
   - **Observation**: A sharp decline from 6 to 1 impression, coupled with a significant position drop (40 to 77), suggests a loss of relevance or search intent mismatch.
   - **Pattern**: Many declining queries (e.g., "task rabbit" with impressions `[9, 2, 0, 0, 0, 0]`) are niche or oddly specific, potentially losing traction due to shifting user interests or algorithm changes.
@@ -186,20 +186,20 @@ Below is a detailed analysis of the Google Search Console (GSC) trend data for `
 ### 2. Position Changes Analysis
 
 #### Significant Ranking Jumps (Negative Position Slope)
-- **"llm-seo-software-development" | "webassembly dom"**
+- **"llm-seo-software-development" &#124; "webassembly dom"**
   - **Metrics**: Position TS `[124, 70, -, -, -, -]`, Slope `-54.0`, Impressions TS `[1, 1, 0, 0, 0, 0]`.
   - **Observation**: A dramatic position improvement (124 to 70), though impressions remain low.
   - **Action**: Amplify this gain with targeted content updates (e.g., WebAssembly tutorials) to increase visibility and impressions.
-- **"llm-seo-software-development" | "next seo"**
+- **"llm-seo-software-development" &#124; "next seo"**
   - **Metrics**: Position TS `[70, 57, -, -, -, -]`, Slope `-12.7`, Impressions TS `[3, 14, 0, 0, 0, 0]`.
   - **Observation**: Position improved from 70 to 57 with a prior impression spike (14).
   - **Action**: Reinforce this page with fresh content and backlinks to sustain and build on the ranking improvement.
 
 #### Concerning Ranking Declines (Positive Position Slope)
-- **"ai-agentic-mode-debugging" | "cherry-picking meaning"**
+- **"ai-agentic-mode-debugging" &#124; "cherry-picking meaning"**
   - **Metrics**: Position TS `[-, 89, 181, -, -, -]`, Slope `+92.0`, Impressions TS `[0, 1, 1, 0, 0, 0]`.
   - **Observation**: A severe drop from 89 to 181 indicates a significant loss of ranking power.
-- **"llm-seo-software-development" | "hamster vector"**
+- **"llm-seo-software-development" &#124; "hamster vector"**
   - **Metrics**: Position TS `[40, 77, -, -, -, -]`, Slope `+37.0`, Impressions TS `[6, 1, 0, 0, 0, 0]`.
   - **Observation**: Position worsened from 40 to 77, aligning with an impression drop.
 - **Pattern**: Declining pages often involve niche or technical queries (e.g., "cherry-picking meaning," "nixos") that may lack consistent search volume or face increased competition.
@@ -217,29 +217,29 @@ Below is a detailed analysis of the Google Search Console (GSC) trend data for `
 ### 3. High-Impact & Problem Area Analysis
 
 #### High-Impact Queries (Reinforcement)
-- **"peak-data-musk-sutskever-wrong" | "peak data theory"**
+- **"peak-data-musk-sutskever-wrong" &#124; "peak data theory"**
   - **Metrics**: Latest Position `4.4`, Latest Impressions `45`, Impact Score `68.8`.
   - **Observation**: A top performer with excellent ranking and high impressions.
   - **Action**: Maintain its strength by regularly updating the content and promoting it via social media or newsletters.
-- **"open-source-seo-software" | "open source seo platform"**
+- **"open-source-seo-software" &#124; "open source seo platform"**
   - **Metrics**: Latest Position `24.6`, Latest Impressions `49`, Impact Score `67.1`.
   - **Observation**: Strong visibility and decent ranking make this a valuable asset.
   - **Action**: Expand related content (e.g., tutorials, case studies) to deepen engagement.
 
 #### Low-Impact Queries (Intervention)
-- **"llm-seo-software-development" | "ai user agent"**
+- **"llm-seo-software-development" &#124; "ai user agent"**
   - **Metrics**: Latest Position `190`, Latest Impressions `1`, Impact Score `0.1`.
   - **Observation**: Poor position and minimal impressions suggest this was never a strong performer, but its presence indicates past intent to target AI-related SEO.
   - **Action**: De-prioritize unless strategic value emerges; redirect efforts to stronger AI/SEO queries.
 
 #### Top Page/Query Pairs
 - **Largest Unrealized Potential**
-  - **Page**: "static-site-generator-ai-content-strategy" | **Query**: "seo techniques"
+  - **Page**: "static-site-generator-ai-content-strategy" &#124; **Query**: "seo techniques"
   - **Metrics**: Latest Position `93.1`, Latest Impressions `64`, Impressions TS `[0, 87, 64, 0, 0, 0]`.
   - **Trend**: High impressions with poor ranking.
   - **Action**: Optimize for better ranking (e.g., keyword optimization, content expansion) to unlock significant traffic potential.
 - **Most Concerning Performance Deterioration**
-  - **Page**: "llm-seo-software-development" | **Query**: "hamster vector"
+  - **Page**: "llm-seo-software-development" &#124; **Query**: "hamster vector"
   - **Metrics**: Position TS `[40, 77, -, -, -, -]`, Slope `+37.0`, Impressions TS `[6, 1, 0, 0, 0, 0]`, Slope `-0.9`.
   - **Trend**: Sharp declines in both position and impressions.
   - **Action**: Investigate the drop (e.g., intent mismatch, algorithm shift) and either refresh or redirect to a related, stronger query.
@@ -247,7 +247,7 @@ Below is a detailed analysis of the Google Search Console (GSC) trend data for `
 #### Critical Recommendations
 - **Most Promising New Article Topic**: "SEO Techniques"
   - **Justification**: High impressions (64-87) across "static-site-generator-ai-content-strategy" suggest strong demand, yet poor rankings (93) indicate an opportunity to capture traffic with a dedicated, well-optimized article. This aligns with the developer/SEO theme gaining traction.
-- **Most Important Existing Content to Rescue**: "llm-seo-software-development" | "hamster vector"
+- **Most Important Existing Content to Rescue**: "llm-seo-software-development" &#124; "hamster vector"
   - **Justification**: Its significant deterioration (position 40 to 77, impressions 6 to 1) marks it as a critical loss of prior visibility. Rescuing it could recover traffic, and its technical nature ties into broader growth trends (e.g., Python/SEO).
 
 ---
