@@ -145,15 +145,25 @@
             min-width: 0; /* Allows text to shrink below its minimum content size */
         }
 
-        /* More specific selector to override default anchor styles */
-        .container .bunny-trail > p a {
+        .bunny-trail-link {
             color: #fff !important;
-            text-decoration: none;
+            text-decoration: none !important;
         }
 
-        .container .bunny-trail > p a:hover {
+        .bunny-trail-link:hover {
             color: var(--accent) !important;
-            text-decoration: underline;
+            text-decoration: underline !important;
+        }
+
+        /* ASCII bunny link styles */
+        .ascii-link {
+            color: #fff !important;
+            text-decoration: none !important;
+        }
+
+        .ascii-link:hover {
+            color: var(--accent) !important;
+            text-decoration: none !important;
         }
 
         .bunny-trail > div:last-child {
@@ -286,7 +296,7 @@
         </script>
 
         <div style="overflow: hidden; margin-bottom: 0px;">
-        <a href="https://mikelev.in/shortstack/" style="text-decoration: none; border: none;"><img src="/images/linux-python-vim-git-nix-LPvgn-short-stack.png" alt="Linux, Python, vim, git & nix LPvgn Short Stack" style="float: right; width: 160px; margin: 4px;"></a><blockquote>Future-proof your skills and escape the tech hamster wheel with the Linux, Python, vim & git stack (<a href="https://mikelev.in/shortstack/">LPvgn</a>) including nix/NixOS, Jupyter, <a href="https://mikelev.in/fasthtml/">FastHTML</a> / HTMX and an AI stack to resist obsolescence. Follow along as I debunk <a href="https://mikelev.in/peak-data-theory">peak data theory</a> and develop <a href="https://mikelev.in/pipulate/">Pipulate</a>, the next generation <a href="https://mikelev.in/free-ai-seo-tool">free AI SEO tool</a>.</blockquote>
+        <a href="https://mikelev.in/shortstack/" style="text-decoration: none; border: none;"><img src="/images/linux-python-vim-git-nix-LPvgn-short-stack.png" alt="Linux, Python, vim, git & nix LPvgn Short Stack" style="float: right; width: 160px; margin: 4px;"></a><blockquote>Future-proof your skills and escape the tech hamster wheel with the Linux, Python, vim & git stack (<a class="bunny-trail-link" href="https://mikelev.in/shortstack/">LPvgn</a>) including nix/NixOS, Jupyter, <a class="bunny-trail-link" href="https://mikelev.in/fasthtml/">FastHTML</a> / HTMX and an AI stack to resist obsolescence. Follow along as I debunk <a class="bunny-trail-link" href="https://mikelev.in/peak-data-theory">peak data theory</a> and develop <a class="bunny-trail-link" href="https://mikelev.in/pipulate/">Pipulate</a>, the next generation <a class="bunny-trail-link" href="https://mikelev.in/free-ai-seo-tool">free AI SEO tool</a>.</blockquote>
         </div>
 
     </header>
