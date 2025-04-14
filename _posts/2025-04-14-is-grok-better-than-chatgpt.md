@@ -38,6 +38,11 @@ with differentiating features and habits that are hard to change, and then
 ratchet-up the cost on you while degrading the quality of the cheap-tier (like
 the slower responses in Cursor) when switching costs are high.
 
+It's worth noting that all the VSCode AI forks & plugins like Windsurf and Cline
+are copying the user experience nuances of Cursor, so maybe the habit lock-in
+isn't so bad. In fact, this list as of last week includes VSCode itself as
+Microsoft wakes up and throws in CoPilot with Agentic mode to VSCode *for free!*
+
 ## Head-to-Head Comparison: Grok 3 vs ChatGPT
 
 This article does a head-to-head comparison between Grok 3's response and
