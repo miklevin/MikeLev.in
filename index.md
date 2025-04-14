@@ -56,13 +56,17 @@ group: home
     </div>
 </div>
 
+---
+
+# The AI Future-Proofing Blog
+
 <ol reversed>
   {%- assign total_posts = site.posts.size -%}
   {%- assign post_counter = 0 -%}
   {%- for day in grouped_posts -%}
     {%- assign day_posts = day.items | sort: 'sort_order' | reverse -%}
     {%- for post in day_posts -%}
-      <li value="{{ total_posts | minus: post_counter }}"><hr />
+      <li value="{{ total_posts | minus: post_counter }}">
         <h3><a href="https://mikelev.in{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
         {%- if post.description -%}
@@ -77,7 +81,7 @@ group: home
           "url": "https://mikelev.in{{ post.url }}"
         }
         </script>
-      </li>
+      <hr></li>
       {%- assign post_counter = post_counter | plus: 1 -%}
     {%- endfor -%}
   {%- endfor -%}

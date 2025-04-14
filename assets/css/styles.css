@@ -978,3 +978,28 @@ article img {
     position: relative;
     z-index: 1;
 }
+
+/* Dancing hamster hover effect */
+.arrow-link {
+    position: relative;
+    display: inline-block;
+}
+
+.arrow-link::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url('/images/dancing-hamster.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    right: -70px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow-link:hover::after {
+    opacity: 1;
+}
