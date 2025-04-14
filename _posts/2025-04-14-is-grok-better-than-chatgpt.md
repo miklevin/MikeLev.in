@@ -22,9 +22,8 @@ They stop in Tennessee.
 
 The second act of scorched earth is Elon Musk/xAI's giving away of formidable
 Grok 3 services — until the servers melt, as Elon put it. It further undercuts
-the paid services even further, as this article demonstrates. The query is
-calibrated right at the point where Grok 3 can handle it for free but ChatGPT
-requires you to pay.
+the paid services as this article clearly demonstrates. The free Grok 3 service
+can do what requires the paid ChatGPT service.
 
 I don't expect that will last forever. Eventually, xAI is going to have to get
 people to pay. But unlike OpenAI that has to rent their compute from a cloud
