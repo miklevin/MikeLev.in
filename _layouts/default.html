@@ -145,6 +145,17 @@
             min-width: 0; /* Allows text to shrink below its minimum content size */
         }
 
+        /* More specific selector to override default anchor styles */
+        .container .bunny-trail > p a {
+            color: #fff !important;
+            text-decoration: none;
+        }
+
+        .container .bunny-trail > p a:hover {
+            color: var(--accent) !important;
+            text-decoration: underline;
+        }
+
         .bunny-trail > div:last-child {
             flex: 0 0 auto; /* Don't grow, don't shrink, auto basis */
             max-width: 200px; /* Limit the bunny's width */

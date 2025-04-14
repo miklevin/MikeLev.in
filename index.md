@@ -31,21 +31,12 @@ group: home
 {% include bunny.html %}
 </div>
 
-<div class="logo-container">
-    <div class="logo-item">
-          <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
-    </div>
-    <div class="logo-item">
-          <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
-    </div>
-</div>
-
-{% assign sorted_posts = site.posts | sort: 'date' %}
-{% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
-{% assign first_post = sorted_posts | last %}
-{% assign latest_day = grouped_posts | first %}
-{% assign latest_posts = latest_day.items | sort: 'sort_order' | reverse %}
-{% assign latest_post = latest_posts | first %}
+{%- assign sorted_posts = site.posts | sort: 'date' -%}
+{%- assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse -%}
+{%- assign first_post = sorted_posts | last -%}
+{%- assign latest_day = grouped_posts | first -%}
+{%- assign latest_posts = latest_day.items | sort: 'sort_order' | reverse -%}
+{%- assign latest_post = latest_posts | first -%}
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
@@ -56,18 +47,27 @@ group: home
   </div>
 </div>
 
+<div class="logo-container">
+    <div class="logo-item">
+          <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
+    </div>
+    <div class="logo-item">
+          <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
+    </div>
+</div>
+
 <ol reversed>
-  {% assign total_posts = site.posts.size %}
-  {% assign post_counter = 0 %}
-  {% for day in grouped_posts %}
-    {% assign day_posts = day.items | sort: 'sort_order' | reverse %}
-    {% for post in day_posts %}
+  {%- assign total_posts = site.posts.size -%}
+  {%- assign post_counter = 0 -%}
+  {%- for day in grouped_posts -%}
+    {%- assign day_posts = day.items | sort: 'sort_order' | reverse -%}
+    {%- for post in day_posts -%}
       <li value="{{ total_posts | minus: post_counter }}"><hr />
         <h3><a href="https://mikelev.in{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-        {% if post.description %}
+        {%- if post.description -%}
           <p>{{ post.description | escape }}</p>
-        {% endif %}
+        {%- endif -%}
         <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -78,12 +78,10 @@ group: home
         }
         </script>
       </li>
-      {% assign post_counter = post_counter | plus: 1 %}
-    {% endfor %}
-  {% endfor %}
+      {%- assign post_counter = post_counter | plus: 1 -%}
+    {%- endfor -%}
+  {%- endfor -%}
 </ol>
-
----
 
 <div class="next-post">
   <div class="previous-post placeholder"></div>
@@ -95,4 +93,4 @@ group: home
   </div>
 </div>
   
-<br>
+{% include alice.html %}

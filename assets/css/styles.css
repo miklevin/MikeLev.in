@@ -455,7 +455,7 @@ footer a {
     justify-content: space-between;
     align-items: center;
     gap: 3vw; /* Space between logos */
-    margin: 3vw 0; /* Keep top and bottom margin */
+    margin: .5vh 3vw; /* Left/right 3vw, top/bottom .5vh */
     width: 100%; /* Ensure container takes full width */
 }
 
