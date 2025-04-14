@@ -31,13 +31,12 @@ provider (Microsoft Azure), Grok 3 has that colossal datacenter in Memphis
 Tennessee and it's theirs to give away free — until they can't anymore because
 eventually stuff has to get paid for.
 
-## The "First Free, Then Fee" Business Model
+### The "First Free, Then Fee" Business Model
 
-So, it's a landscape of "first does free" and then hopefully lock you in with
-whatever differentiating features, and then hope when they ratchet-up the cost
-on you or degrade the service (like having unlimited number of queries against
-Claude in Cursor but then having a "slow mode" after you go over some
-threshold). 
+So, it's a landscape of "first does free" with AI vendors hoping to lock you in
+with differentiating features and habits that are hard to change, and then
+ratchet-up the cost on you while degrading the quality of the cheap-tier (like
+the slower responses in Cursor) when switching costs are high.
 
 ## Head-to-Head Comparison: Grok 3 vs ChatGPT
 
