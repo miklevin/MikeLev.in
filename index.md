@@ -39,7 +39,7 @@ group: home
 {%- assign latest_post = latest_posts | first -%}
 <div class="next-post">
   <div class="previous-post placeholder"></div>
-  <div class="next-post">
+  <div class="next-post wiggle-prompt">
     <a href="https://mikelev.in{{ latest_post.url }}">
       <span>{{ latest_post.title }}</span>
     </a>

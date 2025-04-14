@@ -928,3 +928,53 @@ article img {
     height: auto;
     border-radius: 0.5rem; /* Add slightly rounded corners */
 }
+
+/* Wiggle animation for next arrows */
+@keyframes gentle-wiggle {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    1% {
+        transform: translateX(-10px);
+    }
+    2% {
+        transform: translateX(10px);
+    }
+    3% {
+        transform: translateX(-3px);
+    }
+    4% {
+        transform: translateX(3px);
+    }
+    5% {
+        transform: translateX(0);
+    }
+}
+
+.wiggle-prompt {
+    animation: gentle-wiggle 10s linear infinite;
+    position: relative;
+    will-change: transform;
+}
+
+/* Hamster wheel container styles */
+.hamster-wheel-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hamster-wheel-container img {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 66%;
+    height: auto;
+}
+
+.hamster-wheel-container svg {
+    position: relative;
+    z-index: 1;
+}
