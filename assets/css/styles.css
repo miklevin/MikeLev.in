@@ -1007,8 +1007,9 @@ article img {
 /* Home link alternating animation */
 .home-link-container {
     display: inline-block;
-    text-decoration: none;
     position: relative;
+    text-align: center;
+    min-width: 120px;
 }
 
 .home-text, .home-hamster {
@@ -1017,13 +1018,21 @@ article img {
     left: 50%;
     transform: translateX(-50%);
     transition: opacity 0.3s ease;
-    min-width: 60px;  /* Changed from width to min-width */
-    width: auto;      /* Allow text to determine width */
+    min-width: 60px;
+    width: auto;
 }
 
 .home-text {
-    white-space: nowrap;  /* Prevent text wrapping */
-    width: auto;          /* Let text determine width */
+    white-space: nowrap;
+    width: auto;
+    text-decoration: inherit;
+    animation: showHomeText 16s infinite;
+}
+
+.home-hamster {
+    text-decoration: none !important;
+    width: 60px;
+    animation: showHomeHamster 16s infinite;
 }
 
 .home-text .nav-label {
@@ -1033,19 +1042,18 @@ article img {
     opacity: 0.8;
 }
 
-.home-text {
-    animation: showHomeText 16s infinite;
-}
-
-.home-hamster {
-    animation: showHomeHamster 16s infinite;
-    width: 60px;         /* Keep hamster width fixed */
-}
-
 .home-hamster img {
     width: 60px;
     height: 60px;
     display: block;
+}
+
+.home-link-container:hover .home-text {
+    text-decoration: underline;
+}
+
+.home-link-container:hover .home-hamster {
+    text-decoration: none;
 }
 
 @keyframes showHomeText {
@@ -1068,21 +1076,4 @@ article img {
         opacity: 1;
         visibility: visible;
     }
-}
-
-/* Ensure proper spacing for the container */
-.post-navigation .home-link {
-    height: 60px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 120px;    /* Ensure container is wide enough */
-}
-
-.home-link-container {
-    position: relative;
-    text-align: center;
-    min-width: 120px;    /* Increased to accommodate text */
-    display: inline-block;
 }
