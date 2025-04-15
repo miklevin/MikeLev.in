@@ -1025,14 +1025,8 @@ article img {
 .home-text {
     white-space: nowrap;
     width: auto;
-    text-decoration: inherit;
+    text-decoration: none;
     animation: showHomeText 16s infinite;
-}
-
-.home-hamster {
-    text-decoration: none !important;
-    width: 60px;
-    animation: showHomeHamster 16s infinite;
 }
 
 .home-text .nav-label {
@@ -1042,16 +1036,27 @@ article img {
     opacity: 0.8;
 }
 
+.home-text .home-word {
+    display: inline-block;
+}
+
+.home-hamster {
+    text-decoration: none !important;
+    width: 60px;
+    animation: showHomeHamster 16s infinite;
+}
+
 .home-hamster img {
     width: 60px;
     height: 60px;
     display: block;
 }
 
-.home-link-container:hover .home-text {
+.home-link-container:hover .home-word {
     text-decoration: underline;
 }
 
+.home-link-container:hover .nav-label,
 .home-link-container:hover .home-hamster {
     text-decoration: none;
 }

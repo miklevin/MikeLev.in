@@ -60,6 +60,8 @@ group: home
 
 # The AI Future-Proofing Blog
 
+If you think you found an old-school Webmaster, you might be right. I go back to the halls of Commodore Computers where I worked as a student intern. Today, I fan the flames of the Webmaster's return, thanks to AI and certain key tech that lets one person do it all again! Below are my stream-of-consciousness articles as I tackle every project that until recently was just above my weight class.
+
 <ol reversed>
   {%- assign total_posts = site.posts.size -%}
   {%- assign post_counter = 0 -%}
