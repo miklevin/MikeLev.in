@@ -961,7 +961,6 @@ article img {
 .hamster-wheel-container {
     position: relative;
     display: inline-block;
-    vertical-align: middle;
 }
 
 .hamster-wheel-container img {
