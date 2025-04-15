@@ -1003,3 +1003,70 @@ article img {
 .arrow-link:hover::after {
     opacity: 1;
 }
+
+/* Home link alternating animation */
+.home-link-container {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+.home-text, .home-hamster {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease;
+    width: 120px;  /* Added explicit width */
+}
+
+.home-text {
+    animation: showHomeText 16s infinite;
+}
+
+.home-hamster {
+    animation: showHomeHamster 16s infinite;
+}
+
+.home-hamster img {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+@keyframes showHomeText {
+    0%, 75%, 100% {
+        opacity: 1;
+        visibility: visible;
+    }
+    75.1%, 99.9% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes showHomeHamster {
+    0%, 74.9% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    75%, 100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* Ensure proper spacing for the container */
+.post-navigation .home-link {
+    height: 120px;  /* Updated to match hamster height */
+    position: relative;
+}
+
+.home-link-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 120px;  /* Updated to match hamster width */
+    text-align: center;
+}

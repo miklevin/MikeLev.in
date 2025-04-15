@@ -70,9 +70,14 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
   {% endif %}
   
   <div class="home-link" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-    <span class="nav-label">Blog Index</span>
-    <a href="{{ url_base }}/" itemprop="item">
-      <span itemprop="name">Home</span>
+    <a href="{{ url_base }}/" itemprop="item" class="home-link-container">
+      <span class="home-text" itemprop="name">
+        <span class="nav-label">Blog Index</span>
+        Home
+      </span>
+      <span class="home-hamster">
+        <img src="/images/dancing-hamster.gif" alt="Dancing Hamster" width="120px" height="120px">
+      </span>
     </a>
     <meta itemprop="position" content="2" />
   </div>
@@ -197,9 +202,15 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
   {% endif %}
   
   <div class="home-link" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-    <span class="nav-label">Blog Index</span>
-    <a href="{{ url_base }}/" itemprop="item">Home</a>
-    <meta itemprop="name" content="Home">
+    <a href="{{ url_base }}/" itemprop="item" class="home-link-container">
+      <span class="home-text" itemprop="name">
+        <span class="nav-label">Blog Index</span>
+        Home
+      </span>
+      <span class="home-hamster">
+        <img src="/images/dancing-hamster.gif" alt="Dancing Hamster" width="120px" height="120px">
+      </span>
+    </a>
     <meta itemprop="position" content="2" />
   </div>
   
