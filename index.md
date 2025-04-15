@@ -17,9 +17,7 @@ group: home
   },
   "mainEntity": {
     "@type": "Blog",
-    "blogPost": [
-    // ... individual posts can be referenced here
-    ]
+    "blogPost": []
   }
 }
 </script>
