@@ -1017,7 +1017,20 @@ article img {
     left: 50%;
     transform: translateX(-50%);
     transition: opacity 0.3s ease;
-    width: 120px;  /* Added explicit width */
+    min-width: 60px;  /* Changed from width to min-width */
+    width: auto;      /* Allow text to determine width */
+}
+
+.home-text {
+    white-space: nowrap;  /* Prevent text wrapping */
+    width: auto;          /* Let text determine width */
+}
+
+.home-text .nav-label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.8em;
+    opacity: 0.8;
 }
 
 .home-text {
@@ -1026,11 +1039,12 @@ article img {
 
 .home-hamster {
     animation: showHomeHamster 16s infinite;
+    width: 60px;         /* Keep hamster width fixed */
 }
 
 .home-hamster img {
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     display: block;
 }
 
@@ -1058,15 +1072,17 @@ article img {
 
 /* Ensure proper spacing for the container */
 .post-navigation .home-link {
-    height: 120px;  /* Updated to match hamster height */
+    height: 60px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;    /* Ensure container is wide enough */
 }
 
 .home-link-container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 120px;  /* Updated to match hamster width */
+    position: relative;
     text-align: center;
+    min-width: 120px;    /* Increased to accommodate text */
+    display: inline-block;
 }
