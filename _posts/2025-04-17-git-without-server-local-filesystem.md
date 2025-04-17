@@ -111,7 +111,9 @@ You can clone this same central repository (`/home/username/git-repos/my-project
 
 **Question**: Does git have its own built in git server? And is that necessary here?
 
-**Answer**: 1.  **Does Git have its own built-in Git server?**
+**Answer**: 
+
+1.  **Does Git have its own built-in Git server?**
 
     Yes and no. Git itself is primarily a distributed version control system, meaning it doesn't *require* a central server to function. However, Git *does* come with a command called `git daemon`.
 
