@@ -8,7 +8,7 @@ meta_keywords: Intel Management Engine, IME, MSE, AMD Platform Security Processo
 sort_order: 1
 ---
 
-**Introductory Context:**
+## Introductory Context
 
 Modern computers, from laptops to servers and even smartphones, contain more than just the main processor (CPU) running your operating system (like Windows, macOS, or Linux). Hidden within the hardware are specialized, independent microcontrollers or subsystems, often referred to as "management engines." These tiny computers-within-a-computer perform critical tasks like starting the system up, managing power, and enabling essential security features before your main operating system even loads.
 

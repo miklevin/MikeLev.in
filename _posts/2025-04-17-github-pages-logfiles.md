@@ -8,7 +8,7 @@ layout: post
 sort_order: 1
 ---
 
-**Introductory Context:**
+## Introductory Context
 
 This article explores the author's decision-making process around moving their
 website hosting away from a simple, free service (GitHub Pages) to managing
