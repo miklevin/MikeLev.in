@@ -163,9 +163,7 @@ In summary: Git *has* a basic built-in daemon, but you don't need *any* server p
 
 **Question**: What is the utility of working this way?
 
-**Answer**: Okay, let's riff on the utility of using Git with a local bare repository as your "remote."
-
-Working this way – essentially Git talking to itself on your own filesystem – might seem a bit insular at first glance, especially in our hyper-connected world where collaboration often defaults to cloud platforms like GitHub or GitLab. But it taps into some core strengths of Git and serves several useful purposes:
+**Answer**: Working this way – essentially Git talking to itself on your own filesystem – might seem a bit insular at first glance, especially in our hyper-connected world where collaboration often defaults to cloud platforms like GitHub or GitLab. But it taps into some core strengths of Git and serves several useful purposes:
 
 1.  **The Ultimate Sandbox & Learning Environment:** It's perhaps the *purest* way to learn and experiment with Git's remote concepts (pushing, pulling, cloning, bare vs. non-bare repos) without any external dependencies. No need for accounts, SSH keys, network configurations, or even an internet connection. You can simulate a client-server workflow entirely locally, making mistakes consequence-free (beyond your own filesystem). It's a safe, private digital sandbox.
 
