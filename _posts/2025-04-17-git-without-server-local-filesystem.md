@@ -1,7 +1,7 @@
 ---
 title: "Git Without a Server: Using Your Local Filesystem as a Remote"
 permalink: /futureproof/git-without-server-local-filesystem/
-description: In this explanation, I walk through how you can effectively use a directory on your local filesystem as a central Git "remote". I show the process: creating a `bare` repository (`git init --bare`), cloning from it to create a working copy, and then using the standard `add`, `commit`, and `push` workflow to send changes back to that local bare repo path. I also clarify that you don't need any built-in Git server processes like `git daemon` for this local setup because Git interacts directly with the filesystem. Finally, I discuss the practical advantages of working this way, such as speed, privacy, organizational clarity, and its value as a learning tool.
+description: "In this explanation, I walk through how you can effectively use a directory on your local filesystem as a central Git 'remote'. I show the process: creating a `bare` repository (`git init --bare`), cloning from it to create a working copy, and then using the standard `add`, `commit`, and `push` workflow to send changes back to that local bare repo path. I also clarify that you don't need any built-in Git server processes like `git daemon` for this local setup because Git interacts directly with the filesystem. Finally, I discuss the practical advantages of working this way, such as speed, privacy, organizational clarity, and its value as a learning tool."
 meta_description: Learn how to use a local filesystem path as a Git remote. Set up a bare repository (git init --bare) for offline version control without needing a server.
 meta_keywords: git, local git, filesystem remote, bare repository, git init --bare, local path remote, offline git, no server git, git clone local, git push local, version control local, git setup local, git workflow, git daemon, git server comparison, git utility, git benefits, private git, faster git, learn git, project organization, git sandbox
 layout: post
@@ -16,9 +16,12 @@ The core idea presented is setting up a special type of Git repository, known as
 
 ---
 
-You don't need GitHub. You don't even need a git server. If you're just using
-git for its unlimited undo and branching ability, you can use git against your
-native filesystem paths.
+## You don't need GitHub For Everything
+
+You can do a lot of what GitHub has to offer directly on your own machine. You
+don't even need a git server. If you're just using git for its unlimited undo
+and branching ability, you can use git against your native filesystem paths.
+This technique gets your code into at least 2 places on your system.
 
 **Question**: I'm running a git repo locally off of the filesystem with no server. The
 path is `/home/username/git-repos`. How do I make a repo and commit and push to
