@@ -5,7 +5,7 @@ description: I'm drawing a line from the basic idea of sequenced actions, like a
 meta_description: Details the transition from GitHub Pages to self-hosting with NixOS for accessing web server log files to analyze SEO performance and bot traffic.
 meta_keywords: self-hosting, log files, web server logs, NixOS, GitHub Pages, Jekyll, SEO analysis, bot traffic, web crawlers, real-time data, site analytics, configuration management, sysadmin, devops, click-depth, Google Search Console, GSC, RAG, outliers, sparklines, Turing machine, static hosting, data analysis, Linksys WRT45GS, OpenWrt
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Introductory Context

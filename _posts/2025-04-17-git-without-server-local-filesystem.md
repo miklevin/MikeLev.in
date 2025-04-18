@@ -5,7 +5,7 @@ description: "In this explanation, I walk through how you can effectively use a 
 meta_description: Learn how to use a local filesystem path as a Git remote. Set up a bare repository (git init --bare) for offline version control without needing a server.
 meta_keywords: git, local git, filesystem remote, bare repository, git init --bare, local path remote, offline git, no server git, git clone local, git push local, version control local, git setup local, git workflow, git daemon, git server comparison, git utility, git benefits, private git, faster git, learn git, project organization, git sandbox
 layout: post
-sort_order: 1
+sort_order: 3
 ---
 
 ## Introductory Context
