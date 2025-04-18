@@ -141,8 +141,8 @@ puzzle. And by the time you do... wait! No, it's never too late.
 ## The Intelligence Shift in Coding Assistants
 
 AIs, especially the coding assistant types that I deal with every day, are
-becoming super-intelligent. I felt it with the move from Gemini 2.0 to 2.5. Word
-is that the moved from OpenAI ChatGPT o3-mini-high that I use all the time to
+becoming eerily smart. I felt it with the move from Gemini 2.0 to 2.5. Word is
+that the moved from OpenAI ChatGPT o3-mini-high that I use all the time to
 o4-mini-high has had the same shift — and to find out is part of my purpose
 today. I rather suspect that Grok 3 has quietly achieved similar. And the main
 one that I interact with every day, Claude 3.7 Sonnet because it's the default
