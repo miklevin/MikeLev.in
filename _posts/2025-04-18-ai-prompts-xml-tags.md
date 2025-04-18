@@ -57,7 +57,7 @@ the best premium model, based on performance and speed. It appears to reduce
 the actual slowness of "slow mode" which happens more and more as you get into
 the month and it tries cajoling you into a higher paid tier.
 
-I'm not 100% sure, but I think keeping it on Claude 3.7 Sonnet was causing that,
+I'm not 100% sure, but I think keeping it on Claude 3.7 Sonnet was causing the super-slow slow mode,
 so I'm experimenting with Auto. My gut tells me that there's a *"going to the
 well one time too often"* effect happening. Cursor appears to be trying to serve
 you fast despite being in "slow mode," but if you try keeping it "locked onto"
