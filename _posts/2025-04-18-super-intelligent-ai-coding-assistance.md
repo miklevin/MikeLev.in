@@ -50,7 +50,7 @@ is we need to stay alive.
 
 Robots haven't gone through all that evolutionary survival of the fittest
 tempering yet, but they sure can calculate fast and with a sort of precision
-humans have problems with. So we can catch a throw balls with all those
+humans have problems with. So we can catch and throw balls with all those
 intuitive real-time parabolic calculations, but try calculating the square root
 of pi. It's not the same. There are big gaps between biologicals and machines
 that's going to take some time for the machines to bridge. Given their
