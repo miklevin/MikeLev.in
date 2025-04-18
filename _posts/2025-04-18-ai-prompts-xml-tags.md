@@ -48,13 +48,29 @@ Using these XML-like tags helps Claude parse complex prompts more effectively, u
 
 ## Implementing XML-wrapped Prompt Generation
 
+### Navigating Cursor's Model Selection
+
 Alright, so now we go over to Cursor. Quite frankly, I don't know which model
-I'm using at any given moment anymore. It's a bit obfuscated now when you keep
-model selection on `Auto-select` so Cursor helps you select the best premium
-model, based on performance and speed. It appears to get rid of "slow mode"
-which happens more and more as you get into the month, and it prompts you to pay
-at the next tier. I'm not 100% sure, but I think keeping it on Claude 3.7 Sonnet
-was causing that, so I'm experimenting with Auto.
+I'm using while in chat mode at any given moment anymore. It's a bit obfuscated
+now when you keep model selection on `Auto-select` so Cursor helps you select
+the best premium model, based on performance and speed. It appears to get reduce
+the actual slowness of "slow mode" which happens more and more as you get into
+the month and tries cajoling you into a higher paid tier.
+
+I'm not 100% sure, but I think keeping it on Claude 3.7 Sonnet was causing that,
+so I'm experimenting with Auto. My gut tells me that there's a *"going to the
+well one time too often"* effect happening. Cursor appears to be trying to serve
+you fast despite being in "slow mode," but if you try keeping it "locked onto"
+your favorite model, it undermines whatever model load-balancing or
+round-robinning they might be doing.
+
+It's also worth noting that the obfuscation of the model appears to only be when
+in Auto-select in chat-mode. When you use the in-context `Ctrl`+`k` key combo,
+it still shows you the model, and notably has the really long delays when it's
+set to Claude 3.7, providing a little anecdotal evidence that Claude is
+backlogged and something else, perhaps one of the GPT's or Gemini are not.
+
+### Streamlining the Article Content
 
 Additionally, most of the coding is actually done by the time I do the following
 prompt. That is to spare you an excessively long article. I know some people
