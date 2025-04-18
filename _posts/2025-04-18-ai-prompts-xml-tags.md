@@ -53,11 +53,11 @@ Using these XML-like tags helps Claude parse complex prompts more effectively, u
 Alright, so now we go over to Cursor. Quite frankly, I don't know which model
 I'm using while in chat mode at any given moment anymore. It's a bit obfuscated
 now when you keep model selection on `Auto-select` so Cursor helps you select
-the best premium model, based on performance and speed. It appears to get reduce
+the best premium model, based on performance and speed. It appears to reduce
 the actual slowness of "slow mode" which happens more and more as you get into
-the month and tries cajoling you into a higher paid tier.
+the month and it tries cajoling you into a higher paid tier.
 
-I'm not 100% sure, but I think keeping it on Claude 3.7 Sonnet was causing that,
+I'm not 100% sure, but I think keeping it on Claude 3.7 Sonnet was causing the super-slow slow mode,
 so I'm experimenting with Auto. My gut tells me that there's a *"going to the
 well one time too often"* effect happening. Cursor appears to be trying to serve
 you fast despite being in "slow mode," but if you try keeping it "locked onto"
