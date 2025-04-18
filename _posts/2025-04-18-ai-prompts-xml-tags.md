@@ -55,7 +55,7 @@ I'm using while in chat mode at any given moment anymore. It's a bit obfuscated
 now when you keep model selection on `Auto-select` so Cursor helps you select
 the best premium model, based on performance and speed. It appears to reduce
 the actual slowness of "slow mode" which happens more and more as you get into
-the month and tries cajoling you into a higher paid tier.
+the month and it tries cajoling you into a higher paid tier.
 
 I'm not 100% sure, but I think keeping it on Claude 3.7 Sonnet was causing that,
 so I'm experimenting with Auto. My gut tells me that there's a *"going to the
