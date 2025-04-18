@@ -190,64 +190,67 @@ While the effectiveness of this enhancement will need to be validated through pr
 
 ## Testing Super-prompt With o4-mini-high
 
-Here is the prompt.
+> The whole purpose of the context foo super-prompt is to feed a whole bunch of
+> files into the big frontier LLM models with lots of context for some purpose.
+> The default purpose is just to perform a code analysis. Here's a extract of
+> the massive prompt to give you the gist.
 
-=== Prompt Structure ===
+    === Prompt Structure ===
 
---- Manifest ---
-  • Critical Pattern: to_xml(ft_object)
-  • Critical Pattern: HTMLResponse(str(to_xml(rendered_item)))
+    --- Manifest ---
+      • Critical Pattern: to_xml(ft_object)
+      • Critical Pattern: HTMLResponse(str(to_xml(rendered_item)))
 
---- Pre-Prompt ---
-System Information:
-  
+    --- Pre-Prompt ---
+    System Information:
+      
 
-This codebase uses a hybrid approach with Nix for system dependencies and virtualenv for Python packages.
-Key things to know:
-- Always run `nix develop` before any commands in a new terminal
-- FastHTML objects must be converted with to_xml() before returning responses
-- The project is organized as a server with plugin-based workflows
+    This codebase uses a hybrid approach with Nix for system dependencies and virtualenv for Python packages.
+    Key things to know:
+    - Always run `nix develop` before any commands in a new terminal
+    - FastHTML objects must be converted with to_xml() before returning responses
+    - The project is organized as a server with plugin-based workflows
 
-Key Points:
-  • Always run `nix develop` before any commands in a new terminal
-  • FastHTML objects must be converted with to_xml() before returning responses
-  • The project is organized as a server with plugin-based workflows
+    Key Points:
+      • Always run `nix develop` before any commands in a new terminal
+      • FastHTML objects must be converted with to_xml() before returning responses
+      • The project is organized as a server with plugin-based workflows
 
---- Files Included ---
-• README.md
-• flake.nix
-• server.py
-• plugins/20_hello_workflow.py
-• training/hello_workflow.md
-• plugins/30_tasks.py
-• training/tasks.md
-• .cursorrules
+    --- Files Included ---
+    • README.md
+    • flake.nix
+    • server.py
+    • plugins/20_hello_workflow.py
+    • training/hello_workflow.md
+    • plugins/30_tasks.py
+    • training/tasks.md
+    • .cursorrules
 
---- Post-Prompt ---
-Introduction:
-  
+    --- Post-Prompt ---
+    Introduction:
+      
 
-Now that you've reviewed the codebase context, I'd love your insights and analysis!
+    Now that you've reviewed the codebase context, I'd love your insights and analysis!
 
-Dear AI Assistant:
-I've provided you with the core architecture of a Python web application that takes an interesting approach to modern web development. I'd appreciate your thoughtful analysis on any of these aspects:
+    Dear AI Assistant:
+    I've provided you with the core architecture of a Python web application that takes an interesting approach to modern web development. I'd appreciate your thoughtful analysis on any of these aspects:
 
-Analysis Areas:
-  • Technical Architecture Analysis
-  • Pattern Recognition & Insights
-  • Forward-Looking Perspective
+    Analysis Areas:
+      • Technical Architecture Analysis
+      • Pattern Recognition & Insights
+      • Forward-Looking Perspective
 
-Focus Areas:
-  • The interplay between modern and traditional web development approaches
-  • Architectural decisions that stand out as novel or counterintuitive
-  • Potential implications for developer experience and system maintenance
+    Focus Areas:
+      • The interplay between modern and traditional web development approaches
+      • Architectural decisions that stand out as novel or counterintuitive
+      • Potential implications for developer experience and system maintenance
 
---- Token Summary ---
-Total tokens: 50,226 tokens (≈$1.51 at GPT-4 rates)
-Maximum allowed: 2,087,152 tokens (≈$62.61 at GPT-4 rates)
-Remaining: 2,036,926 tokens (≈$61.11 at GPT-4 rates)
+    --- Token Summary ---
+    Total tokens: 50,226 tokens (≈$1.51 at GPT-4 rates)
+    Maximum allowed: 2,087,152 tokens (≈$62.61 at GPT-4 rates)
+    Remaining: 2,036,926 tokens (≈$61.11 at GPT-4 rates)
 
-=== End Prompt Structure ===
+    === End Prompt Structure ===
 
 ---
 
@@ -352,44 +355,48 @@ Remaining: 2,036,926 tokens (≈$61.11 at GPT-4 rates)
 
 ## o4-mini-high's MCP Integration Proposal
 
-=== Prompt Structure ===
+> So this is me switching the prompt that's used with the context foo script
+> from the default which asks for a code analysis to option 1 that asks for a
+> recommended MCP integration plan.
 
---- Manifest ---
-  • Critical Pattern: to_xml(ft_object)
-  • Critical Pattern: HTMLResponse(str(to_xml(rendered_item)))
+    === Prompt Structure ===
 
---- Pre-Prompt ---
-System Information:
-  
+    --- Manifest ---
+      • Critical Pattern: to_xml(ft_object)
+      • Critical Pattern: HTMLResponse(str(to_xml(rendered_item)))
 
-This codebase uses a hybrid approach with Nix for system dependencies and virtualenv for Python packages.
-I'm looking to enhance the Pipulate application by integrating the Model Context Protocol (MCP) to empower
-the local Ollama-powered LLM to execute actions directly rather than just generating text about them.
+    --- Pre-Prompt ---
+    System Information:
+      
 
-Key Points:
-  • The app uses local Ollama models via HTTP API calls in the chat_with_llm() function
-  • The Pipulate class serves as a central coordinator for plugins and functionality
-  • Plugins are discovered and registered dynamically, with two types: CRUD-based and workflow-based
-  • FastHTML objects must be converted with to_xml() before returning responses
+    This codebase uses a hybrid approach with Nix for system dependencies and virtualenv for Python packages.
+    I'm looking to enhance the Pipulate application by integrating the Model Context Protocol (MCP) to empower
+    the local Ollama-powered LLM to execute actions directly rather than just generating text about them.
 
---- Files Included ---
-• README.md
-• flake.nix
-• server.py
-• plugins/20_hello_workflow.py
-• training/hello_workflow.md
-• plugins/30_tasks.py
-• training/tasks.md
-• .cursorrules
+    Key Points:
+      • The app uses local Ollama models via HTTP API calls in the chat_with_llm() function
+      • The Pipulate class serves as a central coordinator for plugins and functionality
+      • Plugins are discovered and registered dynamically, with two types: CRUD-based and workflow-based
+      • FastHTML objects must be converted with to_xml() before returning responses
 
---- Post-Prompt ---
+    --- Files Included ---
+    • README.md
+    • flake.nix
+    • server.py
+    • plugins/20_hello_workflow.py
+    • training/hello_workflow.md
+    • plugins/30_tasks.py
+    • training/tasks.md
+    • .cursorrules
 
---- Token Summary ---
-Total tokens: 50,310 tokens (≈$1.51 at GPT-4 rates)
-Maximum allowed: 2,087,152 tokens (≈$62.61 at GPT-4 rates)
-Remaining: 2,036,842 tokens (≈$61.11 at GPT-4 rates)
+    --- Post-Prompt ---
 
-=== End Prompt Structure ===
+    --- Token Summary ---
+    Total tokens: 50,310 tokens (≈$1.51 at GPT-4 rates)
+    Maximum allowed: 2,087,152 tokens (≈$62.61 at GPT-4 rates)
+    Remaining: 2,036,842 tokens (≈$61.11 at GPT-4 rates)
+
+    === End Prompt Structure ===
 
 ---
 
