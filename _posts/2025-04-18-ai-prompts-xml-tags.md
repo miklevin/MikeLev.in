@@ -56,6 +56,13 @@ which happens more and more as you get into the month, and it prompts you to pay
 at the next tier. I'm not 100% sure, but I think keeping it on Claude 3.7 Sonnet
 was causing that, so I'm experimenting with Auto.
 
+Additionally, most of the coding is actually done by the time I do the following
+prompt. That is to spare you an excessively long article. I know some people
+might like to see the play-by-play evolution of the code, but when there's a lot
+of back-and-forth iteration, it would be sizable and undermine the article. So
+at the end of such a coding session, I ask the AI (which one, I don't know) to
+summarize what we just did.
+
 **Prompt**: Summarize in article format what we just did. Include context regarding the purpose of the @context_foo.py program, and what we just did to theoretically improve it and why this might work.
 
 **Response**: 
