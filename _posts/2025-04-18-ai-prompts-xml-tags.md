@@ -249,13 +249,6 @@ Remaining: 2,036,926 tokens (≈$61.11 at GPT-4 rates)
 
 === End Prompt Structure ===
 
-
---- Clipboard Instructions ---
-Complete XML content successfully copied to clipboard using pyperclip.
-You can now paste it.
-
-Script finished.
-
 ---
 
 **ChatGPT o4-mini-high**: Here’s a deep dive into the architecture and design of Pipulate, organized around the areas you highlighted.
@@ -397,13 +390,6 @@ Maximum allowed: 2,087,152 tokens (≈$62.61 at GPT-4 rates)
 Remaining: 2,036,842 tokens (≈$61.11 at GPT-4 rates)
 
 === End Prompt Structure ===
-
-
---- Clipboard Instructions ---
-Complete XML content successfully copied to clipboard using pyperclip.
-You can now paste it.
-
-Script finished.
 
 ---
 
