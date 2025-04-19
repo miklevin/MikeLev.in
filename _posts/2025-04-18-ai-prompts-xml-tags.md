@@ -64,12 +64,6 @@ you fast despite being in "slow mode," but if you try keeping it "locked onto"
 your favorite model, it undermines whatever model load-balancing or
 round-robinning they might be doing.
 
-It's also worth noting that the obfuscation of the model appears to only be when
-in Auto-select in chat-mode. When you use the in-context `Ctrl`+`k` key combo,
-it still shows you the model, and notably has the really long delays when it's
-set to Claude 3.7, providing a little anecdotal evidence that Claude is
-backlogged and something else, perhaps one of the GPT's or Gemini are not.
-
 ### Streamlining the Article Content
 
 Additionally, most of the coding is actually done by the time I do the following
