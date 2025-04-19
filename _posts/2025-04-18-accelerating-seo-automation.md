@@ -220,7 +220,22 @@ given you.
 
 ---
 
-## Gemini 2.5 Exp
+## Let's Build The Super-Prompt!
+
+This is the step where we take this entire article as it is written so far and
+feed it *AS THE PROMPT* with all the carefully selected bits of a git repo
+codebase included, all XML-wrapped for optimum context to the various frontier
+AI models.
+
+```bash
+python context_foo.py --article-mode --article-path /home/mike/repos/MikeLev.in/_posts/2025-04-18-accelerating-seo-automation.md
+```
+
+Let's see what they make of it!
+
+---
+
+## Gemini 2.5 Experimental
 
 Okay, I have thoroughly reviewed the Pipulate codebase and the "Planning Acceleration" article. Here's an implementation plan focusing on the key requirements outlined in the article, while respecting the established architecture and patterns of Pipulate.
 
