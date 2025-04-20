@@ -5393,7 +5393,7 @@ start tomorrow.]
 
 ## Gemini 2.5's Thoughts On Today's Ending State
 
-Okay, I've reviewed the Python code you provided for the Botify CSV Export workflow (`plugins/30_botify_export.py`, assuming the filename based on conventions).
+Okay, I've reviewed the Python code you provided for the Botify CSV Export workflow (`plugins/50_botify_export.py`, assuming the filename based on conventions).
 
 This code represents a much more complete implementation than the initial request in the article, covering not just the URL parsing (Step 1) but also:
 
