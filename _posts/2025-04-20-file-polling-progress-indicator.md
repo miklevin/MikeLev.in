@@ -2068,3 +2068,16 @@ For any AI assistant working with modern web frameworks—especially those using
 
 The next time you encounter unexpected UI behavior that persists despite seemingly correct code changes, look deeper into the framework's architectural patterns. The answer often lies not in what you've changed, but in what you've left unchanged—the implicit assumptions and behaviors that continue to operate beneath the surface.
 
+---
+
+Okay, I do believe all the excessively nuanced hurdles are overcome. Now we only
+have the annoyingly nuanced hurdles left. Yay!
+
+But you can see where this is going? By the time I have all the niceties worked
+out in this process, it acts as the backbone for countless additional workflows
+that require CSV downloads from Botify, right? I actually have a few that I will
+try to hammer out this weekend. It's still barely noon on Sunday, and here I am
+having overcome all that unexpected challenge in downloading a CSV through an
+API using a new HTMX-centric web framework.
+
+We are going to work our way through the last remaining items. 
