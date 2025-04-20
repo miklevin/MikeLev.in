@@ -341,7 +341,6 @@ Hello AI! Show me what you've got.
 
     --- Pre-Prompt ---
     System Information:
-      
 
     You are about to review a codebase in preparation for implementing changes requested in an article.
     Please study and understand the codebase thoroughly, as you will need this context
