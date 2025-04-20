@@ -8,7 +8,7 @@ layout: post
 sort_order: 5
 ---
 
-# Building a Smarter System: Composite Keys with Auto-Increment
+## Building a Smarter System: Composite Keys with Auto-Increment
 
 We've just implemented a remarkably elegant solution to a common UX problem: **key paralysis** - that moment when a user stares blankly at a text field asking for an identifier.
 
