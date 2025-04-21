@@ -45,7 +45,7 @@ Search API and it's fresh on my mind, so I'll just put this here.
 It breaks down to 3 offenders. 
 
 - There's a whole lot of backslashing going on `\`
-- Vertical pipes are frequently used in title tags, but they're also critical
+- Vertical pipes `|` are frequently used in title tags, but they're also critical
   for markdown table formatting
 - Footnote numbers scattered throughout document that should really be enclosed
   in HTML superscript tags `<sup`.
