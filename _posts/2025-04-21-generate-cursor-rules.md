@@ -10,7 +10,7 @@ sort_order: 3
 
 ## Introductory Context
 
-This article discusses the process of using advanced AI-powered tools within a software development workflow. Specifically, it explores using "Cursor," an AI-integrated code editor, to analyze existing code (part of a project called "Pipulate," which seems to involve creating automated web tasks or workflows, including interaction with an SEO tool called "Botify"). The goal is to automatically generate documentation and configuration files (`.cursorrules`) that capture the essential patterns and knowledge embedded in the code.
+This article discusses the process of using advanced AI-powered tools within a software development workflow. Specifically, it explores using "Cursor," an AI-integrated code editor, to analyze existing code (part of a project called "Pipulate," which involves creating semi-automated workflows that an AI helps step a human through, including interaction with an SEO tool called "Botify"). The goal is to automatically generate documentation and configuration files (`.cursorrules`) that capture the essential patterns and knowledge embedded in the code.
 
 Beyond simple documentation, the text delves into a more sophisticated application: using one AI (Cursor AI) to generate training materials for *another* AI (a local Large Language Model or LLM, like "Gemma 3"). This second AI is embedded within the Pipulate software itself to act as a real-time assistant, guiding human users step-by-step through complex workflows, like exporting data from Botify. The article demonstrates this concept by creating and testing a training guide for the Botify export workflow.
 
