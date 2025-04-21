@@ -16,6 +16,29 @@ The author focuses on using Regular Expressions (regex), a powerful tool for fin
 
 ---
 
+## Quick Reference: The Three Essential RegEx Patterns
+
+Here are the three main RegEx patterns that solve the most common Google Docs Markdown export issues:
+
+### 1. Wrapping Footnote Numbers in `<sup>` Tags
+```vim
+:%s/\.\zs\d\+\|)\zs\d\+\|:\zs\d\+\|\d\+\ze:\|\s\zs\d\+\ze\s*$/<sup>&<\/sup>/gc
+```
+
+### 2. Removing Excessive Backslashes
+```vim
+:%s/\\\([\-+\[\]_#\*.]\)/\1/gc
+```
+
+### 3. Escaping Pipes in Citation Titles
+```vim
+:g/^\d\+\. /s/|/\\|/gc
+```
+
+Each pattern is explained in detail in the sections below.
+
+---
+
 ## The Google Docs Markdown Export Challenge
 
 Psst! Wanna publish some research? Well, you SOL if you want to get clean
