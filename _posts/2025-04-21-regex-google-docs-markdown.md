@@ -48,7 +48,7 @@ It breaks down to 3 offenders.
 - Vertical pipes `|` are frequently used in title tags, but they're also critical
   for markdown table formatting
 - Footnote numbers scattered throughout document that should really be enclosed
-  in HTML superscript tags `<sup`.
+  in HTML superscript tags `<sup>`.
 
 ---
 
