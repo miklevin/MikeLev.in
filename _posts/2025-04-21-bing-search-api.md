@@ -75,7 +75,7 @@ Together, these components form an ecosystem designed to facilitate both the pop
 
 ### **A. History and Evolution**
 
-The concept of APIs dates back decades, evolving from simple inter-computer communication methods in the 1950s to enabling complex interactions across networks and the internet.<sup>13</sup> Microsoft's search APIs have undergone significant evolution. Early versions, like the Bing Search API 2.<sup>0</sup> available around 2011-2012, were among the few options for researchers needing programmatic access to web search data after other engines restricted their APIs.<sup>14</sup> These early APIs faced scrutiny regarding hit count reliability.<sup>14</sup>
+The concept of APIs dates back decades, evolving from simple inter-computer communication methods in the 1950s to enabling complex interactions across networks and the internet.<sup>13</sup> Microsoft's search APIs have undergone significant evolution. Early versions, like the Bing Search API 2.0 available around 2011-2012, were among the few options for researchers needing programmatic access to web search data after other engines restricted their APIs.<sup>14</sup> These early APIs faced scrutiny regarding hit count reliability.<sup>14</sup>
 
 A major transition occurred in October 2020 when the Bing Search APIs moved from the Azure Cognitive Services platform to Azure Marketplace, aiming for wider reach.<sup>15</sup> Existing Cognitive Services instances were supported for a transition period, but new provisioning shifted to the Marketplace model.<sup>15</sup> This transition also saw adjustments to pricing and free tier inclusions.<sup>15</sup>
 
