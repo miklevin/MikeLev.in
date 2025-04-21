@@ -2,7 +2,7 @@
 title: "Vim & Regex Kung Fu: Cleaning Google Docs Markdown Exports"
 permalink: /futureproof/regex-google-docs-markdown/
 description: "I frequently need to clean up Markdown generated via Google Docs after using Gemini Deep Research, as the direct export isn't clean. This post documents the specific Vim regex commands I've refined to tackle the three main annoyances: automatically wrapping footnote numbers in `<sup>` tags while handling edge cases like trailing whitespace, removing the excessive backslashes Google Docs adds before punctuation, and correctly escaping vertical pipe characters used in citation titles (found in my 'Works cited' section) without messing up actual Markdown tables elsewhere in the document."
-meta_description: Use Vim regex commands to clean Markdown from Google Docs: automatically add sup tags to footnotes, remove excess backslashes, & conditionally escape pipes.
+meta_description: "Use Vim regex commands to clean Markdown from Google Docs: automatically add sup tags to footnotes, remove excess backslashes, & conditionally escape pipes."
 meta_keywords: vim, neovim, regex, regular expression, markdown, cleanup, sanitize, format, google docs, export, footnote, superscript, sup tag, html tag, backslash, escape character, pipe character, vertical bar, table formatting, citation, works cited, vim colon global, vim colon s, substitute, text editor, text manipulation, pattern matching, gemini research, trailing whitespace, automation
 layout: post
 sort_order: 2
