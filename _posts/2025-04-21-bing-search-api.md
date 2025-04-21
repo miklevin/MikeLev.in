@@ -115,10 +115,10 @@ Developers interact with the Bing Search APIs primarily through RESTful web serv
   * API-specific filters: responseFilter (Web Search), freshness (Web, News, Image), customConfig (Custom Search), license/size/color (Image Search), category (News Search).<sup>25</sup>  
 * **Response Objects:** The JSON responses contain structured data relevant to the query, including lists of results (e.g., webPages, images, news, videos), metadata for each result (name/title, URL, snippet/description, thumbnail URL, date published, etc.), and related information (e.g., relatedSearches, rankingResponse).<sup>25</sup> The totalEstimatedMatches field provides an estimate of the total number of relevant results, though the API typically only allows pagination through a limited subset (often around 1000).<sup>43</sup>  
 * **SDKs:** Microsoft provides official Software Development Kits (SDKs) to simplify interaction with the APIs, wrapping the REST calls. SDKs are available for popular languages including:  
-  * .NET (C#) 1  
-  * Java 1  
-  * Python 1  
-  * Node.js (JavaScript) 1  
+  * .NET (C#) <sup>1</sup>  
+  * Java <sup>1</sup>  
+  * Python <sup>1</sup>  
+  * Node.js (JavaScript) <sup>1</sup>  
   * Go <sup>1</sup>
 
 These SDKs provide pre-built classes and methods for making requests and handling responses.<sup>17</sup> The official Python SDK repository is hosted on GitHub.<sup>44</sup> Community or third-party SDKs may also exist, such as a client developed for the Bing Webmaster Tools API.<sup>45</sup>
