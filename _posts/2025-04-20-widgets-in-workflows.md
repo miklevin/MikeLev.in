@@ -1526,6 +1526,11 @@ The combination of Python-based workflow logic with the expressiveness of modern
 
 # From Tree Display to Generic Widget Container: A Case Study in UI Pattern Evolution
 
+> Note: fast-forward to the next day. I wasn't satisfied with the spacing
+> nor the specific tree-bound concept. This is a generic widget container and
+> the spacing should be perfect! So after much back and forth I spare you
+> considering the epic journey yesterday, here's making it generic.
+
 What started as a simple spacing issue with revert buttons led us to develop a powerful pattern for handling dynamic, addressable widgets in our workflow UI. Here's how the evolution happened and what it enables:
 
 ## The Initial Problem: Button Alignment
