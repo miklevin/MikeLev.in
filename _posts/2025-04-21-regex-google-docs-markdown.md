@@ -22,7 +22,7 @@ Here are the three main RegEx patterns that solve the most common Google Docs Ma
 
 ### 1. Wrapping Footnote Numbers in `<sup>` Tags
 ```vim
-:%s/\.\zs\d\+\|)\zs\d\+\|:\zs\d\+\|\d\+\ze:\|\s\zs\d\+\ze\s*$/<sup>&<\/sup>/gc
+:%s/\.\zs\d\+\|)\zs\d\+\|:\zs\d\+\|\d\+\ze:\|\s\zs\d\+\ze\s*$\|\d\+\ze,/<sup>&<\/sup>/gc
 ```
 
 ### 2. Removing Excessive Backslashes
@@ -130,10 +130,10 @@ This ensures that the digits are matched correctly even if trailing spaces exist
 
 ### The Final Vim Command
 
-Combining all conditions gives the final, robust pattern. The complete Vim substitute command is:
+Combining all conditions gives the final, robust pattern. The complete Vim substitute command is (note: added support for "number before comma"):
 
 ```vim
-:%s/\.\zs\d\+\|)\zs\d\+\|:\zs\d\+\|\d\+\ze:\|\s\zs\d\+\ze\s*$/<sup>&<\/sup>/gc
+:%s/\.\zs\d\+\|)\zs\d\+\|:\zs\d\+\|\d\+\ze:\|\s\zs\d\+\ze\s*$\|\d\+\ze,/<sup>&<\/sup>/gc
 ```
 
 **Command Breakdown:**
