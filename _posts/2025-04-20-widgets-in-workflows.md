@@ -3,7 +3,7 @@ title: Standardizing Widgets in Workflows using FastHTML and HTMX
 permalink: /futureproof/widgets-in-workflows/
 description: I've documented my process of tackling the limitation in Pipulate's `revert_control` which made it difficult to display rich content like directory trees consistently below the standard step information and revert button; I developed and iterated on a new method (`revert_control_advanced`, evolving into `widget_container`) to standardize this display, fixed tricky styling issues like background color gaps and button alignment to ensure a unified card appearance across all workflow states (including HTMX updates), and ultimately established a reusable UI pattern, even speculating on how we could integrate more advanced visualizations using AnyWidget and D3.js in the future.
 meta_description: Technical guide on implementing revert_control_advanced and widget_container in Pipulate for consistent rich content display (trees, charts) in workflow UIs using FastHTML/HTMX.
-meta_keywords: Pipulate, revert_control, revert_control_advanced, widget_container, workflow UI, rich content, directory tree, file tree, visualization, FastHTML, HTMX, PicoCSS, styling, consistent UI, component pattern, background color fix, card style, button alignment, Python, server.py, plugin, AnyWidget, D3js, UI evolution, step content
+meta_keywords: widgets, workflows, widget container, workflow UI, rich content, directory tree, file tree, visualization, FastHTML, HTMX, PicoCSS, styling, consistent UI, component pattern, background color fix, card style, button alignment, Python, server.py, plugin, AnyWidget, D3js, UI evolution, step content
 layout: post
 sort_order: 2
 ---
