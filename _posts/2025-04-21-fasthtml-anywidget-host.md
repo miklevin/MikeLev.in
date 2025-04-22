@@ -182,7 +182,7 @@ A viable architecture would consist of the following key components:
      * Establish a WebSocket connection to the dedicated endpoint for this widget instance.  
      * Instantiate a client-side representation of the AFM model interface that communicates over the WebSocket.  
      * Call the AFM's initialize and render lifecycle methods, passing the model object and the el element.  
-3. **WebSocket Endpoint:** A dedicated WebSocket endpoint managed by FastHTML/Starlette (e.g., using @app.ws('/ws/widget/\<widget_id\>') 63), established for *each* active widget instance. This endpoint handles the real-time, bidirectional communication defined by the AFM model interface. Each connection corresponds to one frontend view of a widget instance.  
+3. **WebSocket Endpoint:** A dedicated WebSocket endpoint managed by FastHTML/Starlette (e.g., using @app.ws('/ws/widget/\<widget_id\>') <sup>63</sup>), established for *each* active widget instance. This endpoint handles the real-time, bidirectional communication defined by the AFM model interface. Each connection corresponds to one frontend view of a widget instance.  
 4. **Python Widget Management:** Server-side logic within the FastHTML application responsible for:  
    * Instantiating the appropriate anywidget.AnyWidget Python subclass when a widget needs to be displayed.  
    * Managing the lifecycle and state of these Python widget objects.  
@@ -198,7 +198,7 @@ Fulfilling the AFM host responsibilities within this FastHTML architecture invol
   * If it's a path, FastHTML/Starlette's static file serving mechanism must be configured to serve the .js (and any associated .css files from _css) correctly.<sup>2</sup> The client-side script will use dynamic import() to load this module.  
   * The client-side script orchestrates the loading and execution, calling the exported initialize and render functions from the dynamically imported AFM module.  
 * **Rendering the Widget (el Provision):**  
-  * The HTTP endpoint handler (Step 2 in 6.<sup>1</sup>) uses FastHTML's FTags to generate the placeholder Div with a unique ID (e.g., f"widget-el-{widget_id}").  
+  * The HTTP endpoint handler (Step 2 in 6.1) uses FastHTML's FTags to generate the placeholder Div with a unique ID (e.g., f"widget-el-{widget_id}").  
   * This ID is passed to the client-side JavaScript, allowing it to find the correct DOM element using document.getElementById() to pass as el to the AFM's render function.  
 * **Implementing the model Interface (The Core Challenge):**  
   * This requires both client-side JavaScript and server-side Python components working together over the WebSocket connection.  
