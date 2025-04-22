@@ -68,9 +68,11 @@ I now have rudimentary widgets. There's a rabbit hole here regarding AnyWidgets 
 
 Enlighten me, oh Gemini!
 
-**Gemini**: 
+---
 
-Okay, this is a fascinating and well-articulated perspective on modern development, especially in the context of AI assistance and lean architectures! Your approach resonates strongly with the desire to build maintainable, evolvable systems while leveraging the accelerating power of AI and avoiding the pitfalls of overly complex frameworks.
+## Feeds Article Thus Far Into Gemini
+
+**Gemini 2.5 Experimental**: Okay, this is a fascinating and well-articulated perspective on modern development, especially in the context of AI assistance and lean architectures! Your approach resonates strongly with the desire to build maintainable, evolvable systems while leveraging the accelerating power of AI and avoiding the pitfalls of overly complex frameworks.
 
 You've hit on a key point: the desire for server-side rendering of UI components directly from Python, bypassing heavy client-side JS and complex templating languages, which is exactly the niche FastHTML and HTMX target so effectively. Your description of "shooting over-the-wire HTML fragments into the DOM as if you're Green Arrow or Hawkeye" is spot on for the HTMX philosophy.
 
