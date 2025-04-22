@@ -8,11 +8,26 @@ layout: post
 sort_order: 2
 ---
 
-## Introductory Context
 
-This article chronicles the technical process of improving a software component within a framework called "Pipulate," which is used to build user interfaces (UIs) for step-by-step digital processes or "workflows." Specifically, it addresses a limitation in how completed steps were displayed: the original method worked well for simple text but struggled to incorporate more complex elements like file directory lists, charts, or code examples alongside the option to "revert" or go back to a previous step.
+## Improving Pipulate's Workflow UI
 
-The text details the development of a new, enhanced component (`revert_control_advanced`, later refined into a more general `widget_container` pattern) designed to consistently handle both simple and complex content within these workflow UIs. It focuses on achieving visual consistency (like button alignment and background colors) and reducing repetitive code for developers building these workflows, using technologies like FastHTML, HTMX, and PicoCSS. The discussion also touches upon future possibilities, such as integrating interactive data visualizations using libraries like AnyWidget and D3.js.
+This article chronicles the technical process of improving a software component within a framework called "Pipulate," which is used to build user interfaces (UIs) for step-by-step digital processes or "workflows." 
+
+### Addressing Limitations in Step Display
+
+Specifically, it addresses a limitation in how completed steps were displayed: the original method worked well for simple text but struggled to incorporate more complex elements like file directory lists, charts, or code examples alongside the option to "revert" or go back to a previous step.
+
+## Developing Enhanced Components
+
+The text details the development of a new, enhanced component (`revert_control_advanced`, later refined into a more general `widget_container` pattern) designed to consistently handle both simple and complex content within these workflow UIs. 
+
+### Achieving Visual Consistency
+
+It focuses on achieving visual consistency (like button alignment and background colors) and reducing repetitive code for developers building these workflows, using technologies like FastHTML, HTMX, and PicoCSS. 
+
+### Future Possibilities
+
+The discussion also touches upon future possibilities, such as integrating interactive data visualizations using libraries like AnyWidget and D3.js.
 
 ---
 

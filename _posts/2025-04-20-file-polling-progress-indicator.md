@@ -8,11 +8,29 @@ layout: post
 sort_order: 1
 ---
 
-## Introductory Context
 
-This article discusses the technical process of building and refining a software tool designed to automatically export data in CSV format from a third-party service called Botify, likely used for website analysis or SEO. The core task involves interacting with Botify's API (Application Programming Interface) to request data exports, which can take a long time. The author focuses on improving the user experience during this waiting period by replacing manual status checks with automatic background updates ("polling") and displaying visual feedback like progress bars.
+## Overview of the Software Tool Development
 
-The text also details the author's methodology, which involves using multiple Artificial Intelligence (AI) coding assistants (like Gemini, Grok, and ChatGPT) to help develop and compare implementation strategies. It delves into specific web technologies like HTMX (for dynamic UI updates without full page reloads) and PicoCSS (a styling framework), and explores concepts like state management (keeping track of ongoing processes) and handling asynchronous operations (tasks that run in the background). The narrative follows a journal-like progression, documenting challenges, solutions, and interactions with AI tools.
+This article discusses the technical process of building and refining a software
+tool designed to automatically export data in CSV format from a third-party
+service called Botify, used for website analysis or SEO. The core task involves
+interacting with Botify's API (Application Programming Interface) to request
+data exports, which can take a long time. The author focuses on improving the
+user experience during this waiting period by replacing manual status checks
+with automatic background updates ("polling") and displaying visual feedback
+like progress bars.
+
+## Methodology and AI Assistance
+
+The text also details the author's methodology, which involves using multiple Artificial Intelligence (AI) coding assistants (like Gemini, Grok, and ChatGPT) to help develop and compare implementation strategies. 
+
+### Web Technologies and Concepts
+
+It delves into specific web technologies like HTMX (for dynamic UI updates without full page reloads) and PicoCSS (a styling framework), and explores concepts like state management (keeping track of ongoing processes) and handling asynchronous operations (tasks that run in the background). 
+
+## Narrative and Documentation
+
+The narrative follows a journal-like progression, documenting challenges, solutions, and interactions with AI tools.
 
 ---
 

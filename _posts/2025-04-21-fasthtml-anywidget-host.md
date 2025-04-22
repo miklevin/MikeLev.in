@@ -8,11 +8,18 @@ layout: post
 sort_order: 4
 ---
 
-## Introductory Context
+
+## Interactive Widgets in Programming Environments
 
 Imagine developers creating small, interactive tools (like sliders, buttons, or simple charts) called "widgets" that can be used inside programming environments like digital notebooks (e.g., `Jupyter Notebooks`). A library called `anywidget` makes creating these widgets easier and allows them to work in various standard environments. However, running these widgets outside of those standard, often complex, environments poses a challenge.
 
-This article explores the technical possibility of getting these `anywidget` tools to run within a different, more lightweight web framework called `FastHTML`. The goal is to create a "minimal host" – a simpler setup that avoids the heavy infrastructure of traditional environments like `Jupyter`. It investigates how this might be achieved by looking at the technical specifications involved (like `AFM`), learning from another system called `Marimo` that already does this, and outlining a plan (a blueprint) for making it work in `FastHTML`, while also considering the difficulties involved.
+## Exploring FastHTML for AnyWidget Hosting
+
+This article explores the technical possibility of getting these `anywidget` tools to run within a different, more lightweight web framework called `FastHTML`. The goal is to create a "minimal host" – a simpler setup that avoids the heavy infrastructure of traditional environments like `Jupyter`. 
+
+## Technical Specifications and Learning from Marimo
+
+It investigates how this might be achieved by looking at the technical specifications involved (like `AFM`), learning from another system called `Marimo` that already does this, and outlining a plan (a blueprint) for making it work in `FastHTML`, while also considering the difficulties involved.
 
 ---
 
