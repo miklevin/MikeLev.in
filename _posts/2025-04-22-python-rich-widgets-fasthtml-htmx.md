@@ -1,5 +1,5 @@
 ---
-title: 
+title: "Lean Python Widgets: Using Rich with FastHTML/HTMX for Server-Generated UI"
 permalink: /futureproof/python-rich-widgets-fasthtml-htmx.md/
 description: I've just worked through a key architectural decision with Gemini, confirming that I can effectively use Python's `Rich` library to generate styled HTML fragments, like tables for displaying Pandas data, and send them directly to the browser using my FastHTML/HTMX setup. This provides a practical, immediate solution for the UI widgets needed in my Pipulate workflows, allowing me to accelerate development on client needs without getting bogged down in the more complex integration of systems like AnyWidgets just yet, though I see that path for the future.
 meta_description: Using Python's Rich library with FastHTML/HTMX to generate server-side HTML fragments (tables, widgets) with inline styles for lean web UI components.
