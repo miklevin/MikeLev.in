@@ -74,69 +74,69 @@ Creating a minimal host necessitates replacing or bypassing much of this standar
 
 ## **3. The Anywidget Front-End Module (AFM) Specification**
 
-The AFM specification is central to anywidget's goal of portability and simplified widget development. It defines a standard contract between the widget's frontend JavaScript code and the environment hosting it.
+The `AFM` specification is central to `anywidget`'s goal of portability and simplified widget development. It defines a standard contract between the widget's frontend JavaScript code and the environment hosting it.
 
 ### **3.1. Design Goals**
 
-* **Portability:** The primary goal of AFM is to enable widget frontend code to be written once and run across diverse interactive computing environments. This includes traditional Jupyter platforms (JupyterLab, Notebook, Colab, VS Code) as well as newer or alternative platforms like Marimo and dashboarding libraries like Panel.<sup>5</sup> This contrasts with the traditional Jupyter widget approach, which often required platform-specific adaptations.<sup>5</sup>  
-* **Minimalism:** AFM deliberately focuses on a minimal set of essential APIs required for a host platform to integrate a widget. These core requirements boil down to two fundamental capabilities: enabling bidirectional communication between the frontend and the backend (host), and providing a mechanism for the frontend to modify the user interface (DOM manipulation) within its designated output area.<sup>10</sup> Crucially, AFM avoids prescribing specific UI rendering libraries (like React, Vue, Svelte) or state management patterns within the specification itself, leaving those choices to the widget developer and facilitating integration through optional framework bridges.<sup>6</sup>
+* **Portability:** The primary goal of `AFM` is to enable widget frontend code to be written once and run across diverse interactive computing environments. This includes traditional Jupyter platforms (`JupyterLab`, `Jupyter Notebook`, `Google Colab`, `VS Code`) as well as newer or alternative platforms like `Marimo` and dashboarding libraries like `Panel`.<sup>5</sup> This contrasts with the traditional `Jupyter Widgets` approach, which often required platform-specific adaptations.<sup>5</sup>  
+* **Minimalism:** `AFM` deliberately focuses on a minimal set of essential APIs required for a host platform to integrate a widget. These core requirements boil down to two fundamental capabilities: enabling bidirectional communication between the frontend and the backend (host), and providing a mechanism for the frontend to modify the user interface (DOM manipulation) within its designated output area.<sup>10</sup> Crucially, `AFM` avoids prescribing specific UI rendering libraries (like `React`, `Svelte`) or state management patterns within the specification itself, leaving those choices to the widget developer and facilitating integration through optional framework bridges.<sup>6</sup>
 
 ### **3.2. Host Responsibilities**
 
 To be AFM-compatible, a host environment must fulfill the following responsibilities:
 
 * **Load ESM:** The host must be capable of loading the widget's frontend code, which is provided as a standard ECMAScript Module (ESM).<sup>5</sup> Given that modern web browsers natively support ESM imports, this requirement ensures broad compatibility for web-based host environments. The host needs to retrieve the ESM code (whether inline, from a file, or a URL specified by the widget's backend) and execute it.  
-* **Call Lifecycle Methods:** The AFM defines a lifecycle for widgets. The host is responsible for invoking specific methods exported by the AFM at the appropriate times.<sup>5</sup> The two primary lifecycle methods are:  
-  * initialize({ model }): Called once per widget instance when it's first created. Its purpose is to allow the widget to set up non-view-specific state or event handlers associated with the model.  
-  * render({ model, el }): Called each time a view of the widget needs to be displayed (potentially multiple times for the same widget instance if it appears in different outputs). This function is responsible for rendering the widget's UI into the provided el DOM element and setting up view-specific logic. Both methods can optionally return a cleanup function, which the host must call when the widget instance (for initialize) or the specific view (for render) is destroyed.<sup>10</sup>  
+* **Call Lifecycle Methods:** The `AFM` defines a lifecycle for widgets. The host is responsible for invoking specific methods exported by the `AFM` at the appropriate times.<sup>5</sup> The two primary lifecycle methods are:  
+  * `initialize({ model })`: Called once per widget instance when it's first created. Its purpose is to allow the widget to set up non-view-specific state or event handlers associated with the `model`.  
+  * `render({ model, el })`: Called each time a view of the widget needs to be displayed (potentially multiple times for the same widget instance if it appears in different outputs). This function is responsible for rendering the widget's UI into the provided `el` DOM element and setting up view-specific logic. Both methods can optionally return a cleanup function, which the host must call when the widget instance (for `initialize`) or the specific view (for `render`) is destroyed.<sup>10</sup>  
 * **Provide Dependencies:** When invoking the lifecycle methods, the host must supply the necessary dependencies as arguments<sup>5</sup>:  
-  * model: An object that implements the AFM model interface (detailed below). This object acts as the proxy for communication with the backend.  
-  * el: An HTML DOM element provided by the host, serving as the container into which the render method should inject the widget's UI.
+  * `model`: An object that implements the `AFM` model interface (detailed below). This object acts as the proxy for communication with the backend.  
+  * `el`: An HTML DOM element provided by the host, serving as the container into which the `render` method should inject the widget's UI.
 
 ### **3.3. The Critical model Interface**
 
-The model object passed by the host to the AFM's lifecycle methods is the cornerstone of frontend-backend interaction.<sup>10</sup> It provides a standardized API for bidirectional communication.
+The `model` object passed by the host to the `AFM`'s lifecycle methods is the cornerstone of frontend-backend interaction.<sup>10</sup> It provides a standardized API for bidirectional communication.
 
-* **Purpose:** The model interface acts as the abstraction layer between the widget's frontend JavaScript and the host's backend system (e.g., the Python kernel in Jupyter, or custom logic in a FastHTML host).  
-* **Methods Breakdown:** The AFM specification defines a minimal set of methods that the host's model object must implement<sup>10</sup>:  
-  * get(key: string): any: Retrieves the current value of a synchronized state property (key) from the backend model.  
-  * set(key: string, value: any): void: Informs the backend that the frontend intends to change the value of a synchronized state property (key) to value. This might not immediately update the backend state; save_changes is often needed.  
-  * on(eventName: string, callback: Function): void: Subscribes the frontend callback function to specific events from the backend. Key events include change:\<property_name\> (triggered when a synchronized property changes on the backend) and msg:custom (triggered when the backend sends a custom message).  
-  * off(eventName?: string &#124; null, callback?: Function &#124; null): void: Unsubscribes a previously registered callback.  
-  * save_changes(): void: Signals to the backend that any pending changes initiated by set should be processed and persisted. This is crucial for ensuring frontend interactions update the Python state.  
-  * send(content: any, callbacks?: any, buffers?: ArrayBuffer &#124; ArrayBufferView): void: Allows the frontend to send arbitrary custom messages (potentially including binary buffers) to the backend for processing.  
-* **Minimalism:** This interface is intentionally designed to be simpler and require fewer methods than the full ipywidgets.Widget model API (which is based on Backbone.js).<sup>10</sup> This simplification significantly lowers the implementation burden for new host platforms aiming for AFM compatibility.
+* **Purpose:** The model interface acts as the abstraction layer between the widget's frontend JavaScript and the host's backend system (e.g., the Python kernel in Jupyter, or custom logic in a `FastHTML` host).  
+* **Methods Breakdown:** The `AFM` specification defines a minimal set of methods that the host's model object must implement<sup>10</sup>:  
+  * `get(key: string): any`: Retrieves the current value of a synchronized state property (key) from the backend model.  
+  * `set(key: string, value: any): void`: Informs the backend that the frontend intends to change the value of a synchronized state property (key) to value. This might not immediately update the backend state; `save_changes` is often needed.  
+  * `on(eventName: string, callback: Function): void`: Subscribes the frontend callback function to specific events from the backend. Key events include `change:<property_name>` (triggered when a synchronized property changes on the backend) and `msg:custom` (triggered when the backend sends a custom message).  
+  * `off(eventName?: string | null, callback?: Function | null): void`: Unsubscribes a previously registered callback.  
+  * `save_changes(): void`: Signals to the backend that any pending changes initiated by `set` should be processed and persisted. This is crucial for ensuring frontend interactions update the Python state.  
+  * `send(content: any, callbacks?: any, buffers?: ArrayBuffer | ArrayBufferView): void`: Allows the frontend to send arbitrary custom messages (potentially including binary buffers) to the backend for processing.  
+* **Minimalism:** This interface is intentionally designed to be simpler and require fewer methods than the full `ipywidgets.Widget` model API (which is based on `Backbone.js`).<sup>10</sup> This simplification significantly lowers the implementation burden for new host platforms aiming for `AFM` compatibility.
 
-This decoupling, inherent in the AFM specification, enables the feasibility of a custom FastHTML host. AFM defines *what* the host must provide (load ESM, call lifecycle methods, implement the model interface, provide el) <sup>10</sup> but refrains from dictating *how* the host achieves this (e.g., the specific communication protocol or state management library used internally). This separation allows diverse host environments—Jupyter, Marimo, Panel, and potentially FastHTML—to utilize the *same* AFM frontend code by providing their own backend implementations that conform to the specified contract.<sup>6</sup> Consequently, the challenge for creating a FastHTML host shifts from adhering to Jupyter-specific protocols to implementing these defined host responsibilities using FastHTML's architectural components, such as ASGI, WebSockets, and Python logic.
+This decoupling, inherent in the `AFM` specification, enables the feasibility of a custom `FastHTML` host. `AFM` defines *what* the host must provide (load ESM, call lifecycle methods, implement the model interface, provide `el`) <sup>10</sup> but refrains from dictating *how* the host achieves this (e.g., the specific communication protocol or state management library used internally). This separation allows diverse host environments—Jupyter, `Marimo`, `Panel`, and potentially `FastHTML`—to utilize the *same* `AFM` frontend code by providing their own backend implementations that conform to the specified contract.<sup>6</sup> Consequently, the challenge for creating a `FastHTML` host shifts from adhering to Jupyter-specific protocols to implementing these defined host responsibilities using `FastHTML`'s architectural components, such as `ASGI`, `WebSockets`, and Python logic.
 
 ## **4. Case Study: Marimo as a Native AFM Host**
 
-Marimo serves as a compelling case study, demonstrating that native AFM hosting is achievable outside the traditional Jupyter ecosystem.
+`Marimo` serves as a compelling case study, demonstrating that native `AFM` hosting is achievable outside the traditional Jupyter ecosystem.
 
 ### **4.1. Marimo's Architecture**
 
-Marimo is a reactive Python notebook environment.<sup>32</sup> Unlike traditional notebooks where execution order is linear and managed manually, Marimo analyzes code dependencies. When a cell is executed or a UI element is interacted with, Marimo automatically re-runs only the dependent cells, ensuring consistency between code and outputs.<sup>32</sup> Notebooks are stored as standard Python .py files, facilitating version control and execution as scripts.<sup>32</sup>
+`Marimo` is a reactive Python notebook environment.<sup>32</sup> Unlike traditional notebooks where execution order is linear and managed manually, `Marimo` analyzes code dependencies. When a cell is executed or a UI element is interacted with, `Marimo` automatically re-runs only the dependent cells, ensuring consistency between code and outputs.<sup>32</sup> Notebooks are stored as standard Python `.py` files, facilitating version control and execution as scripts.<sup>32</sup>
 
 ### **4.2. Evidence of Native AFM Support**
 
-Multiple sources confirm that Marimo provides native support for the AFM specification and has adopted it as the standard mechanism for integrating third-party UI plugins.<sup>6</sup> This means anywidget widgets can be used directly within Marimo notebooks, often wrapped using marimo.ui.anywidget(...) or mo.anywidget(...).<sup>28</sup> Examples include widgets like drawdata and quak being used within Marimo.<sup>28</sup> Plotly's FigureWidget has also been updated to use anywidget internally, enabling its use in Marimo.<sup>44</sup>
+Multiple sources confirm that `Marimo` provides native support for the `AFM` specification and has adopted it as the standard mechanism for integrating third-party UI plugins.<sup>6</sup> This means `anywidget` widgets can be used directly within `Marimo` notebooks, often wrapped using `marimo.ui.anywidget(...)` or `mo.anywidget(...)`.<sup>28</sup> Examples include widgets like `drawdata` and `quak` being used within `Marimo`.<sup>28</sup> Plotly's `FigureWidget` has also been updated to use `anywidget` internally, enabling its use in `Marimo`.<sup>44</sup>
 
 ### **4.3. Marimo's model Implementation**
 
-A critical aspect of Marimo's native support is its implementation of the AFM model interface. Documentation explicitly states that Marimo's implementation achieves this *without relying on third-party dependencies* like Jupyter's patched version of BackboneJS, which underpins the standard ipywidgets model.<sup>10</sup> This demonstrates that the AFM model contract can be fulfilled using custom logic tailored to the host environment, without inheriting the complexities of the ipywidgets stack.
+A critical aspect of `Marimo`'s native support is its implementation of the `AFM` model interface. Documentation explicitly states that `Marimo`'s implementation achieves this *without relying on third-party dependencies* like Jupyter's patched version of `BackboneJS`, which underpins the standard `ipywidgets` model.<sup>10</sup> This demonstrates that the `AFM` model contract can be fulfilled using custom logic tailored to the host environment, without inheriting the complexities of the `ipywidgets` stack.
 
 ### **4.4. Communication**
 
-Marimo utilizes WebSockets for the communication channel between its frontend (running in the browser) and its backend (the Python process executing the notebook code).<sup>45</sup> This channel presumably carries the messages required for AFM model interactions (get/set state, send/receive messages) alongside Marimo's own operational messages. However, user reports and issue discussions indicate potential challenges with this approach, including WebSocket connection stability issues (e.g., timeouts in cloud deployments <sup>47</sup>, connections closing when browser tabs are inactive <sup>48</sup>), and difficulties with certain widget functionalities like transferring binary data <sup>49</sup> or achieving fine-grained reactivity based on specific traitlet changes.<sup>33</sup> Some widgets that work in Jupyter may fail to render or update correctly in Marimo, suggesting nuances in the implementation or compatibility layer.<sup>49</sup>
+`Marimo` utilizes `WebSockets` for the communication channel between its frontend (running in the browser) and its backend (the Python process executing the notebook code).<sup>45</sup> This channel presumably carries the messages required for `AFM` model interactions (get/set state, send/receive messages) alongside `Marimo`'s own operational messages. However, user reports and issue discussions indicate potential challenges with this approach, including `WebSocket` connection stability issues (e.g., timeouts in cloud deployments <sup>47</sup>, connections closing when browser tabs are inactive <sup>48</sup>), and difficulties with certain widget functionalities like transferring binary data <sup>49</sup> or achieving fine-grained reactivity based on specific `traitlet` changes.<sup>33</sup> Some widgets that work in Jupyter may fail to render or update correctly in `Marimo`, suggesting nuances in the implementation or compatibility layer.<sup>49</sup>
 
 ### **4.5. Lessons for FastHTML Host**
 
-* **Feasibility:** Marimo's existence definitively proves that creating a native AFM host environment, independent of the Jupyter kernel and frontend extensions, is technically feasible.  
-* **Minimalism:** Marimo's approach to implementing the model interface without heavy dependencies like BackboneJS or potentially even traitlets for the core synchronization logic 10 provides a strong precedent for a minimal FastHTML host. It validates the idea that the AFM contract can be met using lean, custom implementations.  
-* **WebSocket Viability:** Marimo's reliance on WebSockets for its primary communication reinforces the choice of WebSockets as the most suitable transport layer for implementing the AFM model interactions in a custom host like FastHTML.  
-* **Potential Challenges:** The issues reported by Marimo users concerning WebSocket stability, binary data transfer, and reactivity granularity 33 serve as cautionary examples. Implementing robust state synchronization and communication over WebSockets, while avoiding the Jupyter stack, introduces its own set of complexities that must be carefully addressed in the FastHTML host design.
+* **Feasibility:** `Marimo`'s existence definitively proves that creating a native `AFM` host environment, independent of the Jupyter kernel and frontend extensions, is technically feasible.  
+* **Minimalism:** `Marimo`'s approach to implementing the model interface without heavy dependencies like `BackboneJS` or potentially even `traitlets` for the core synchronization logic 10 provides a strong precedent for a minimal `FastHTML` host. It validates the idea that the `AFM` contract can be met using lean, custom implementations.  
+* **WebSocket Viability:** `Marimo`'s reliance on `WebSockets` for its primary communication reinforces the choice of `WebSockets` as the most suitable transport layer for implementing the `AFM` model interactions in a custom host like `FastHTML`.  
+* **Potential Challenges:** The issues reported by `Marimo` users concerning `WebSocket` stability, binary data transfer, and reactivity granularity 33 serve as cautionary examples. Implementing robust state synchronization and communication over `WebSockets`, while avoiding the Jupyter stack, introduces its own set of complexities that must be carefully addressed in the `FastHTML` host design.
 
-Marimo's native AFM support appears well-integrated with its inherent reactivity. When a widget's frontend invokes model.set() and model.save_changes(), Marimo's backend can presumably update its internal state and trigger the reactive execution of dependent cells, naturally propagating the change.<sup>32</sup> FastHTML, operating on a different interaction model primarily driven by HTMX and server-rendered partials <sup>15</sup>, lacks this built-in reactivity graph. Consequently, a FastHTML host requires an explicit mechanism to manage state updates originating from widgets and propagate their effects. This likely involves handling widget state changes received via WebSocket on the server, updating the corresponding Python object state, and potentially triggering subsequent actions, such as initiating HTMX swaps to update other parts of the UI if necessary.<sup>33</sup>
+`Marimo`'s native `AFM` support appears well-integrated with its inherent reactivity. When a widget's frontend invokes `model.set()` and `model.save_changes()`, `Marimo`'s backend can presumably update its internal state and trigger the reactive execution of dependent cells, naturally propagating the change.<sup>32</sup> `FastHTML`, operating on a different interaction model primarily driven by `HTMX` and server-rendered partials <sup>15</sup>, lacks this built-in reactivity graph. Consequently, a `FastHTML` host requires an explicit mechanism to manage state updates originating from widgets and propagate their effects. This likely involves handling widget state changes received via `WebSocket` on the server, updating the corresponding Python object state, and potentially triggering subsequent actions, such as initiating `HTMX` swaps to update other parts of the UI if necessary.<sup>33</sup>
 
 ## **5. FastHTML Framework Analysis**
 
@@ -167,57 +167,57 @@ FastHTML's integration with HTMX for UI updates introduces a specific considerat
 
 ## **6. Blueprint: A Minimal anywidget Host in FastHTML**
 
-Based on the analysis of anywidget, AFM, Marimo, and FastHTML, this section outlines a potential architecture for a minimal anywidget host environment built with FastHTML.
+Based on the analysis of `anywidget`, `AFM`, `Marimo`, and `FastHTML`, this section outlines a potential architecture for a minimal `anywidget` host environment built with `FastHTML`.
 
 ### **6.1. Proposed Architecture**
 
 A viable architecture would consist of the following key components:
 
-1. **FastHTML Application:** The core application built using the FastHTML class, handling routing, request processing, and serving HTML/static assets. It leverages the underlying ASGI capabilities of Starlette/Uvicorn.  
-2. **Widget Rendering Endpoint:** A standard FastHTML HTTP route (e.g., defined with @rt('/render_widget/\<widget_id\>')) responsible for generating the initial HTML required to display a widget. This response would include:  
-   * An empty placeholder HTML element (e.g., a Div created using FTags) with a unique ID, which will serve as the el container for the AFM.  
-   * A \<script type="module"\> block containing JavaScript code to:  
-     * Locate the placeholder el.  
-     * Dynamically import the widget's specific AFM JavaScript module (specified by the _esm attribute of the Python widget class).  
-     * Establish a WebSocket connection to the dedicated endpoint for this widget instance.  
-     * Instantiate a client-side representation of the AFM model interface that communicates over the WebSocket.  
-     * Call the AFM's initialize and render lifecycle methods, passing the model object and the el element.  
-3. **WebSocket Endpoint:** A dedicated WebSocket endpoint managed by FastHTML/Starlette (e.g., using @app.ws('/ws/widget/\<widget_id\>') <sup>63</sup>), established for *each* active widget instance. This endpoint handles the real-time, bidirectional communication defined by the AFM model interface. Each connection corresponds to one frontend view of a widget instance.  
-4. **Python Widget Management:** Server-side logic within the FastHTML application responsible for:  
-   * Instantiating the appropriate anywidget.AnyWidget Python subclass when a widget needs to be displayed.  
+1. **FastHTML Application:** The core application built using the `FastHTML` class, handling routing, request processing, and serving HTML/static assets. It leverages the underlying `ASGI` capabilities of `Starlette`/`Uvicorn`.  
+2. **Widget Rendering Endpoint:** A standard `FastHTML` HTTP route (e.g., defined with `@rt('/render_widget/<widget_id>')`) responsible for generating the initial HTML required to display a widget. This response would include:  
+   * An empty placeholder HTML element (e.g., a `Div` created using `FTags`) with a unique ID, which will serve as the `el` container for the `AFM`.  
+   * A `<script type="module">` block containing JavaScript code to:  
+     * Locate the placeholder `el`.  
+     * Dynamically `import()` the widget's specific `AFM` JavaScript module (specified by the `_esm` attribute of the Python widget class).  
+     * Establish a `WebSocket` connection to the dedicated endpoint for this widget instance.  
+     * Instantiate a client-side representation of the `AFM` model interface that communicates over the `WebSocket`.  
+     * Call the `AFM`'s `initialize` and `render` lifecycle methods, passing the model object and the `el` element.  
+3. **WebSocket Endpoint:** A dedicated `WebSocket` endpoint managed by `FastHTML`/`Starlette` (e.g., using `@app.ws('/ws/widget/<widget_id>')` <sup>63</sup>), established for *each* active widget instance. This endpoint handles the real-time, bidirectional communication defined by the `AFM` model interface. Each connection corresponds to one frontend view of a widget instance.  
+4. **Python Widget Management:** Server-side logic within the `FastHTML` application responsible for:  
+   * Instantiating the appropriate `anywidget.AnyWidget` Python subclass when a widget needs to be displayed.  
    * Managing the lifecycle and state of these Python widget objects.  
-   * Maintaining a mapping between active widget instances, their current state, and their corresponding WebSocket connection(s). This mapping is crucial for routing messages correctly.
+   * Maintaining a mapping between active widget instances, their current state, and their corresponding `WebSocket` connection(s). This mapping is crucial for routing messages correctly.
 
 ### **6.2. Implementing AFM Host Requirements**
 
-Fulfilling the AFM host responsibilities within this FastHTML architecture involves specific implementation strategies:
+Fulfilling the `AFM` host responsibilities within this `FastHTML` architecture involves specific implementation strategies:
 
 * **Loading/Executing AFM JavaScript:**  
-  * The server needs to determine the source of the AFM JavaScript (_esm attribute) – whether it's inline code, a path to a static file, or an external URL.  
-  * If it's inline code, it must be embedded within the initial \<script type="module"\>.  
-  * If it's a path, FastHTML/Starlette's static file serving mechanism must be configured to serve the .js (and any associated .css files from _css) correctly.<sup>2</sup> The client-side script will use dynamic import() to load this module.  
-  * The client-side script orchestrates the loading and execution, calling the exported initialize and render functions from the dynamically imported AFM module.  
+  * The server needs to determine the source of the `AFM` JavaScript (`_esm` attribute) – whether it's inline code, a path to a static file, or an external URL.  
+  * If it's inline code, it must be embedded within the initial `<script type="module">`.  
+  * If it's a path, `FastHTML`/`Starlette`'s static file serving mechanism must be configured to serve the `.js` (and any associated `.css` files from `_css`) correctly.<sup>2</sup> The client-side script will use dynamic `import()` to load this module.  
+  * The client-side script orchestrates the loading and execution, calling the exported `initialize` and `render` functions from the dynamically imported `AFM` module.  
 * **Rendering the Widget (el Provision):**  
-  * The HTTP endpoint handler (Step 2 in 6.1) uses FastHTML's FTags to generate the placeholder Div with a unique ID (e.g., f"widget-el-{widget_id}").  
-  * This ID is passed to the client-side JavaScript, allowing it to find the correct DOM element using document.getElementById() to pass as el to the AFM's render function.  
+  * The HTTP endpoint handler (Step 2 in 6.1) uses `FastHTML`'s `FTags` to generate the placeholder `Div` with a unique ID (e.g., f"widget-el-{widget_id}").  
+  * This ID is passed to the client-side JavaScript, allowing it to find the correct DOM element using `document.getElementById()` to pass as `el` to the `AFM`'s `render` function.  
 * **Implementing the model Interface (The Core Challenge):**  
-  * This requires both client-side JavaScript and server-side Python components working together over the WebSocket connection.  
-  * *Client-Side:* A JavaScript object needs to be created that implements the AnyModel interface expected by the AFM.<sup>10</sup> Each method call on this object will translate into sending a specific JSON message over the WebSocket to the server. For example, model.get('foo') would send {'type': 'get', 'key': 'foo'}. model.set('foo', 1\) followed by model.save_changes() might send {'type': 'set', 'key': 'foo', 'value': 1}. model.on('change:foo', cb) would send a subscription message.  
-  * *Server-Side:* A corresponding Python class (e.g., FastHTMLWidgetModel) needs to be associated with each WebSocket connection. This class receives incoming JSON messages from the WebSocket, parses the type, and interacts with the actual Python anywidget.AnyWidget instance.  
+  * This requires both client-side JavaScript and server-side Python components working together over the `WebSocket` connection.  
+  * *Client-Side:* A JavaScript object needs to be created that implements the `AnyModel` interface expected by the `AFM`.<sup>10</sup> Each method call on this object will translate into sending a specific JSON message over the `WebSocket` to the server. For example, `model.get('foo')` would send {'type': 'get', 'key': 'foo'}. `model.set('foo', 1)` followed by `model.save_changes()` might send {'type': 'set', 'key': 'foo', 'value': 1}. `model.on('change:foo', cb)` would send a subscription message.  
+  * *Server-Side:* A corresponding Python class (e.g., `FastHTMLWidgetModel`) needs to be associated with each `WebSocket` connection. This class receives incoming JSON messages from the `WebSocket`, parses the type, and interacts with the actual Python `anywidget.AnyWidget` instance.  
     * On receiving {'type': 'get', 'key': 'foo'}, it retrieves the value of the foo attribute from the Python widget object and sends back {'type': 'get_response', 'key': 'foo', 'value':...}.  
-    * On receiving {'type': 'set', 'key': 'foo', 'value': 1}, it updates the foo attribute on the Python widget object. It must then also notify any *other* connected frontend views for the *same* widget instance by sending an {'type': 'update', 'key': 'foo', 'value': 1} message over their respective WebSockets.  
+    * On receiving {'type': 'set', 'key': 'foo', 'value': 1}, it updates the foo attribute on the Python widget object. It must then also notify any *other* connected frontend views for the *same* widget instance by sending an {'type': 'update', 'key': 'foo', 'value': 1} message over their respective `WebSockets`.  
     * It needs to manage subscriptions based on client requests and dispatch update or custom_msg events accordingly when the Python state changes or custom messages are sent from Python.  
-  * *State Storage:* The authoritative state of the widget resides in the Python anywidget.AnyWidget object instance on the server. This instance needs to be kept alive and associated with the active WebSocket connection(s) for its frontend views.  
+  * *State Storage:* The authoritative state of the widget resides in the Python `anywidget.AnyWidget` object instance on the server. This instance needs to be kept alive and associated with the active `WebSocket` connection(s) for its frontend views.  
 * **Establishing the Communication Channel:**  
-  * FastHTML's @app.ws decorator provides a convenient way to define WebSocket endpoints.<sup>63</sup>  
-  * Robust connection management is vital. A server-side registry (e.g., a Python dictionary) is needed to map widget instance IDs to their associated Python state objects and currently active WebSocket send functions.  
-  * The on_connect handler (passed to @app.ws) should register the new connection and potentially send initial state to the client. The on_disconnect handler must clean up the registry entry.<sup>63</sup>  
-  * Starlette's WebSocket class provides methods like accept, receive_text/bytes/json, send_text/bytes/json, and state tracking (WebSocketState) which are fundamental for this implementation.<sup>61</sup> Careful management of the WebSocket lifecycle and state per connection is crucial.<sup>61</sup>  
+  * `FastHTML`'s `@app.ws` decorator provides a convenient way to define `WebSocket` endpoints.<sup>63</sup>  
+  * Robust connection management is vital. A server-side registry (e.g., a Python dictionary) is needed to map widget instance IDs to their associated Python state objects and currently active `WebSocket` send functions.  
+  * The `on_connect` handler (passed to `@app.ws`) should register the new connection and potentially send initial state to the client. The `on_disconnect` handler must clean up the registry entry.<sup>63</sup>  
+  * `Starlette`'s `WebSocket` class provides methods like `accept`, `receive_text/bytes/json`, `send_text/bytes/json`, and state tracking (`WebSocketState`) which are fundamental for this implementation.<sup>61</sup> Careful management of the `WebSocket` lifecycle and state per connection is crucial.<sup>61</sup>  
 * **Achieving Minimal Dependencies:**  
-  * This architecture explicitly avoids ipykernel <sup>12</sup>, ipywidgets <sup>9</sup>, widgetsnbextension <sup>9</sup>, and jupyterlab_widgets.<sup>9</sup>  
-  * It replaces the ipython/comm 35 and pyzmq communication layers with standard WebSockets provided by the ASGI server (Uvicorn) and managed via Starlette/FastHTML.  
-  * Crucially, it aims to replace the state synchronization logic provided by traitlets with custom message passing over WebSockets. This requires manually implementing change detection and notification logic in the server-side FastHTMLWidgetModel.  
-  * The expected core runtime dependencies would be python-fasthtml (which includes Starlette), anywidget (for the base class and potentially utilities), and the ASGI server (like uvicorn).
+  * This architecture explicitly avoids `ipykernel` <sup>12</sup>, `ipywidgets` <sup>9</sup>, `widgetsnbextension` <sup>9</sup>, and `jupyterlab_widgets`.<sup>9</sup>  
+  * It replaces the `ipython/comm` 35 and `pyzmq` communication layers with standard `WebSockets` provided by the `ASGI` server (`Uvicorn`) and managed via `Starlette`/`FastHTML`.  
+  * Crucially, it aims to replace the state synchronization logic provided by `traitlets` with custom message passing over `WebSockets`. This requires manually implementing change detection and notification logic in the server-side `FastHTMLWidgetModel`.  
+  * The expected core runtime dependencies would be `python-fasthtml` (which includes `Starlette`), `anywidget` (for the base class and potentially utilities), and the `ASGI` server (like `uvicorn`).
 
 The following table compares how key AFM host requirements might be met across different environments:
 
