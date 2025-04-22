@@ -8,11 +8,18 @@ layout: post
 sort_order: 2
 ---
 
-## Introductory Context
+
+## Addressing Digital Text Format Challenges
 
 This article addresses a practical challenge faced when working with digital text formats, specifically cleaning up text exported from one system (Google Docs, potentially used with AI research tools like Google Gemini) for use in another (web publication using Markdown). Markdown is a popular lightweight language for formatting plain text, often used for websites, documentation, and notes. However, automated exports can sometimes introduce formatting errors or inconsistencies.
 
-The author focuses on using Regular Expressions (regex), a powerful tool for finding and replacing patterns in text, within the context of the Vim/Neovim text editors. These editors are known for their efficiency and powerful text manipulation capabilities, especially popular among programmers and technical writers. The article details specific regex patterns developed to automatically fix common issues like improperly formatted footnote numbers, unnecessary escape characters (backslashes), and characters that conflict with Markdown's table syntax, thereby streamlining the workflow for preparing technical content for publication.
+## Utilizing Regular Expressions in Vim/Neovim
+
+The author focuses on using Regular Expressions (regex), a powerful tool for finding and replacing patterns in text, within the context of the Vim/Neovim text editors. These editors are known for their efficiency and powerful text manipulation capabilities, especially popular among programmers and technical writers.
+
+### Specific Regex Patterns for Common Issues
+
+The article details specific regex patterns developed to automatically fix common issues like improperly formatted footnote numbers, unnecessary escape characters (backslashes), and characters that conflict with Markdown's table syntax, thereby streamlining the workflow for preparing technical content for publication.
 
 ---
 
