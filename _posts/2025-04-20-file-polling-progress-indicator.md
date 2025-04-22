@@ -8,7 +8,6 @@ layout: post
 sort_order: 1
 ---
 
-
 ## Overview of the Software Tool Development
 
 This article discusses the technical process of building and refining a software

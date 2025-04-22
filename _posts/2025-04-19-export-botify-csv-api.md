@@ -8,11 +8,25 @@ layout: post
 sort_order: 2
 ---
 
-## Introductory Context
+## Real-Time Development of Pipulate for SEO
 
-This article documents the real-time development process of a feature within a software project called "Pipulate," designed for Search Engine Optimization (SEO) tasks. The specific goal is to integrate with "Botify," a well-known enterprise SEO analytics platform, to enable users to export large datasets (specifically CSV files) using Botify's Application Programming Interface (API). The author details the technical challenges, design decisions, and implementation steps involved, including parsing specific web addresses (URLs), handling data limits, interacting with different modes of the Botify API (known as BQL), and managing the asynchronous nature of large data export jobs.
+This article documents the real-time development process of a feature within a software project called "Pipulate," designed for Search Engine Optimization (SEO) tasks. 
 
-The text also provides a fascinating look into modern software development practices, heavily featuring the use of Artificial Intelligence (AI) coding assistants (like ChatGPT, Gemini, Grok, and Claude, often within an editor called Cursor) to generate code, provide implementation plans, and troubleshoot issues. It highlights the iterative process of breaking down complex problems, managing dependencies, choosing development environments (Python scripts vs. Jupyter Notebooks), and the practical considerations of building a tool intended for real-world use, balancing immediate needs with long-term goals for the software.
+### Integration with Botify
+
+The specific goal is to integrate with "Botify," a well-known enterprise SEO analytics platform, to enable users to export large datasets (specifically CSV files) using Botify's Application Programming Interface (API). 
+
+### Technical Challenges and Design Decisions
+
+The author details the technical challenges, design decisions, and implementation steps involved, including parsing specific web addresses (URLs), handling data limits, interacting with different modes of the Botify API (known as BQL), and managing the asynchronous nature of large data export jobs.
+
+## Modern Software Development Practices
+
+The text also provides a fascinating look into modern software development practices, heavily featuring the use of Artificial Intelligence (AI) coding assistants (like ChatGPT, Gemini, Grok, and Claude, often within an editor called Cursor) to generate code, provide implementation plans, and troubleshoot issues. 
+
+### Iterative Problem Solving and Dependency Management
+
+It highlights the iterative process of breaking down complex problems, managing dependencies, choosing development environments (Python scripts vs. Jupyter Notebooks), and the practical considerations of building a tool intended for real-world use, balancing immediate needs with long-term goals for the software.
 
 ---
 

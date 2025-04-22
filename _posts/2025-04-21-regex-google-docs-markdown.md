@@ -8,7 +8,6 @@ layout: post
 sort_order: 2
 ---
 
-
 ## Addressing Digital Text Format Challenges
 
 This article addresses a practical challenge faced when working with digital text formats, specifically cleaning up text exported from one system (Google Docs, potentially used with AI research tools like Google Gemini) for use in another (web publication using Markdown). Markdown is a popular lightweight language for formatting plain text, often used for websites, documentation, and notes. However, automated exports can sometimes introduce formatting errors or inconsistencies.

@@ -10,13 +10,15 @@ sort_order: 3
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-## Introductory Context
-
-I found myself in a familiar predicament: sitting with a git repository full of files, needing to articulate a complex next step that was too nuanced to explain in a simple chat with an AI. So I wrote an article thinking through the problem, but then faced a new challenge - how to feed both the article AND the dispersed codebase files into an AI for analysis.
+## The Common Developer's Dilemma
 
 This is a surprisingly common problem for developers working with AI assistants. When you're deep in a complex project, you need the AI to understand both your code context AND your thought process. Simply pasting code snippets isn't enough; the AI needs the *why* and *how* explained in natural language.
 
+## Choosing the Right AI for the Task
+
 The question becomes: Which AI should you use? Are you limited to the ones in your editor? Can you consult with any AI through their web UI? And critically, how do you provide the full context of your repository files PLUS your detailed article to get meaningful assistance?
+
+---
 
 ## Enhancing Codebase Analysis with Article Mode
 

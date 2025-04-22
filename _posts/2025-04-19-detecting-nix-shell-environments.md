@@ -8,11 +8,21 @@ layout: post
 sort_order: 1
 ---
 
-## Introductory Context
+## Understanding the Challenge
 
-This article addresses a practical challenge faced by developers using NixOS or the Nix package manager, specifically within its 'Nix shell' or 'nix develop' environments. These environments allow users to create isolated, reproducible setups with specific software tools for particular projects, separate from the main operating system. Unlike some other systems where entering such a specialized environment changes the command prompt's appearance significantly, Nix shells don't always provide an obvious visual cue.
+This article addresses a practical challenge faced by developers using NixOS or the Nix package manager, specifically within its 'Nix shell' or 'nix develop' environments. These environments allow users to create isolated, reproducible setups with specific software tools for particular projects, separate from the main operating system. 
 
-This lack of clear indication can cause confusion, leading users to mistakenly assume they are (or are not) in the specialized Nix environment. Consequently, they might try to run commands that aren't available or expect certain system configurations that aren't active, resulting in errors and wasted time. The article proposes a simple technique to reliably check whether the current command line session is operating inside a Nix shell environment.
+## Lack of Visual Cues in Nix Shells
+
+Unlike some other systems where entering such a specialized environment changes the command prompt's appearance significantly, Nix shells don't always provide an obvious visual cue.
+
+## Consequences of Unclear Indication
+
+This lack of clear indication can cause confusion, leading users to mistakenly assume they are (or are not) in the specialized Nix environment. Consequently, they might try to run commands that aren't available or expect certain system configurations that aren't active, resulting in errors and wasted time. 
+
+## Proposed Solution
+
+The article proposes a simple technique to reliably check whether the current command line session is operating inside a Nix shell environment.
 
 ---
 

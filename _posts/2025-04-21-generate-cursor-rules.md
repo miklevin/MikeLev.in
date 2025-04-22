@@ -8,7 +8,6 @@ layout: post
 sort_order: 3
 ---
 
-
 ## Using AI-Powered Tools in Software Development
 
 This article discusses the process of using advanced AI-powered tools within a software development workflow. Specifically, it explores using "Cursor," an AI-integrated code editor, to analyze existing code (part of a project called "Pipulate," which involves creating semi-automated workflows that an AI helps step a human through, including interaction with an SEO tool called "Botify"). The goal is to automatically generate documentation and configuration files (`.cursorrules`) that capture the essential patterns and knowledge embedded in the code.

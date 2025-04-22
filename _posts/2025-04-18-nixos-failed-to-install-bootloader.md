@@ -8,11 +8,17 @@ layout: post
 sort_order: 5
 ---
 
-## Introductory Context
+## Introduction to NixOS Troubleshooting
 
 This article chronicles a technical troubleshooting session involving NixOS, a distinct Linux distribution known for its unique approach to system management. Unlike traditional systems, NixOS uses a declarative configuration model, meaning the entire system setup (packages, settings, services) is defined in configuration files. When the system is updated, NixOS builds a new, complete version of the system, referred to as a "generation." This allows users to easily switch between different system versions or roll back to a previous state if an update causes problems.
 
-A critical part of the boot process involves placing essential files, like the operating system kernel and an initial ramdisk (initrd), onto a special, often small, partition designated for booting (commonly the EFI System Partition or ESP). This article details a situation where this boot partition became completely full during a routine system upgrade, preventing the process from completing. It explores why the standard cleanup methods failed and the steps taken to diagnose and manually resolve a less common underlying issue related to leftover boot files.
+## Understanding the Boot Process and Its Challenges
+
+A critical part of the boot process involves placing essential files, like the operating system kernel and an initial ramdisk (initrd), onto a special, often small, partition designated for booting (commonly the EFI System Partition or ESP). 
+
+## The Problem: Full Boot Partition During Upgrade
+
+This article details a situation where this boot partition became completely full during a routine system upgrade, preventing the process from completing. It explores why the standard cleanup methods failed and the steps taken to diagnose and manually resolve a less common underlying issue related to leftover boot files.
 
 ---
 

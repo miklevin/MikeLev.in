@@ -8,7 +8,6 @@ layout: post
 sort_order: 2
 ---
 
-
 ## Improving Pipulate's Workflow UI
 
 This article chronicles the technical process of improving a software component within a framework called "Pipulate," which is used to build user interfaces (UIs) for step-by-step digital processes or "workflows." 

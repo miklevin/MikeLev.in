@@ -8,11 +8,17 @@ layout: post
 sort_order: 2
 ---
 
-## Introductory Context
+## Communicating with Large Language Models
 
 This article delves into the practical aspects of communicating effectively with Large Language Models (LLMs), the powerful AI systems behind tools like ChatGPT and Claude. The author explores a specific technique for improving these interactions: structuring the instructions, or "prompts," given to the AI using XML-like tags. This method, suggested by AI research company Anthropic, aims to help the AI better distinguish between different parts of a request, such as background information, specific instructions, and examples.
 
-The author applies this XML tagging approach to a custom Python tool they developed, called `context_foo.py`. This tool is designed to gather and format large amounts of information (like source code from a software project or text from blog archives) to be fed into an LLM for analysis. By incorporating XML tags, the author hopes to enhance the AI's understanding of this complex context, leading to more accurate and insightful responses, particularly when analyzing their web application project, "Pipulate." The article documents the process of modifying the tool and initial tests using a specific AI model (o4-mini-high).
+## Applying XML Tagging to Python Tools
+
+The author applies this XML tagging approach to a custom Python tool they developed, called `context_foo.py`. This tool is designed to gather and format large amounts of information (like source code from a software project or text from blog archives) to be fed into an LLM for analysis. 
+
+## Enhancing AI Understanding with XML Tags
+
+By incorporating XML tags, the author hopes to enhance the AI's understanding of this complex context, leading to more accurate and insightful responses, particularly when analyzing their web application project, "Pipulate." The article documents the process of modifying the tool and initial tests using a specific AI model (o4-mini-high).
 
 ---
 

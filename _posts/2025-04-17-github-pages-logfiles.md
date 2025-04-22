@@ -8,25 +8,22 @@ layout: post
 sort_order: 2
 ---
 
-## Introductory Context
 
-This article explores the author's decision-making process around moving their
-website hosting away from a simple, free service (GitHub Pages) to managing
-their own server (self-hosting). The primary motivation is to gain access to
-detailed website visitor logs, which are records of every request made to the
-server. These logs provide much richer data than typical analytics dashboards,
-especially for understanding the behavior of automated visitors like search
-engine crawlers and AI bots, which is increasingly important for optimizing a
-website's visibility and performance (a field often related to Search Engine
-Optimization or SEO).
+## Transitioning from GitHub Pages to Self-Hosting
 
-The author discusses the technical challenges and overhead traditionally
-associated with self-hosting but highlights a modern approach using a system
-called NixOS, which promises to simplify server configuration. The text delves
-into the philosophical underpinnings of automated processes, drawing parallels
-between computing concepts like the Turing machine and the practical steps
-involved in managing a website and analyzing its data, ultimately framing the
-move to self-hosting as a necessary step for deeper understanding and control.
+This article explores the author's decision-making process around moving their website hosting away from a simple, free service (GitHub Pages) to managing their own server (self-hosting). 
+
+### Motivation for Accessing Detailed Logs
+
+The primary motivation is to gain access to detailed website visitor logs, which are records of every request made to the server. These logs provide much richer data than typical analytics dashboards, especially for understanding the behavior of automated visitors like search engine crawlers and AI bots, which is increasingly important for optimizing a website's visibility and performance (a field often related to Search Engine Optimization or SEO).
+
+## Overcoming Self-Hosting Challenges with NixOS
+
+The author discusses the technical challenges and overhead traditionally associated with self-hosting but highlights a modern approach using a system called NixOS, which promises to simplify server configuration. 
+
+### Philosophical Underpinnings of Automated Processes
+
+The text delves into the philosophical underpinnings of automated processes, drawing parallels between computing concepts like the Turing machine and the practical steps involved in managing a website and analyzing its data, ultimately framing the move to self-hosting as a necessary step for deeper understanding and control.
 
 ---
 

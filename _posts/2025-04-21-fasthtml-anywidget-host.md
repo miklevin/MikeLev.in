@@ -8,7 +8,6 @@ layout: post
 sort_order: 4
 ---
 
-
 ## Interactive Widgets in Programming Environments
 
 Imagine developers creating small, interactive tools (like sliders, buttons, or simple charts) called "widgets" that can be used inside programming environments like digital notebooks (e.g., `Jupyter Notebooks`). A library called `anywidget` makes creating these widgets easier and allows them to work in various standard environments. However, running these widgets outside of those standard, often complex, environments poses a challenge.

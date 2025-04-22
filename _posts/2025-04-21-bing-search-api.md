@@ -8,7 +8,6 @@ layout: post
 sort_order: 1
 ---
 
-
 ## Introduction to Bing Search APIs
 
 This document delves into the world of Application Programming Interfaces (APIs) specifically related to Microsoft's Bing search engine. Think of APIs as standardized ways for different software programs to communicate and exchange information. 
