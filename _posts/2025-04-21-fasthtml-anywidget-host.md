@@ -89,7 +89,7 @@ To be AFM-compatible, a host environment must fulfill the following responsibili
 * **Call Lifecycle Methods:** The AFM defines a lifecycle for widgets. The host is responsible for invoking specific methods exported by the AFM at the appropriate times.<sup>5</sup> The two primary lifecycle methods are:  
   * initialize({ model }): Called once per widget instance when it's first created. Its purpose is to allow the widget to set up non-view-specific state or event handlers associated with the model.  
   * render({ model, el }): Called each time a view of the widget needs to be displayed (potentially multiple times for the same widget instance if it appears in different outputs). This function is responsible for rendering the widget's UI into the provided el DOM element and setting up view-specific logic. Both methods can optionally return a cleanup function, which the host must call when the widget instance (for initialize) or the specific view (for render) is destroyed.<sup>10</sup>  
-* **Provide Dependencies:** When invoking the lifecycle methods, the host must supply the necessary dependencies as arguments <sup>5</sup>:  
+* **Provide Dependencies:** When invoking the lifecycle methods, the host must supply the necessary dependencies as arguments<sup>5</sup>:  
   * model: An object that implements the AFM model interface (detailed below). This object acts as the proxy for communication with the backend.  
   * el: An HTML DOM element provided by the host, serving as the container into which the render method should inject the widget's UI.
 
@@ -98,13 +98,13 @@ To be AFM-compatible, a host environment must fulfill the following responsibili
 The model object passed by the host to the AFM's lifecycle methods is the cornerstone of frontend-backend interaction.<sup>10</sup> It provides a standardized API for bidirectional communication.
 
 * **Purpose:** The model interface acts as the abstraction layer between the widget's frontend JavaScript and the host's backend system (e.g., the Python kernel in Jupyter, or custom logic in a FastHTML host).  
-* **Methods Breakdown:** The AFM specification defines a minimal set of methods that the host's model object must implement <sup>10</sup>:  
+* **Methods Breakdown:** The AFM specification defines a minimal set of methods that the host's model object must implement<sup>10</sup>:  
   * get(key: string): any: Retrieves the current value of a synchronized state property (key) from the backend model.  
   * set(key: string, value: any): void: Informs the backend that the frontend intends to change the value of a synchronized state property (key) to value. This might not immediately update the backend state; save_changes is often needed.  
   * on(eventName: string, callback: Function): void: Subscribes the frontend callback function to specific events from the backend. Key events include change:\<property_name\> (triggered when a synchronized property changes on the backend) and msg:custom (triggered when the backend sends a custom message).  
-  * off(eventName?: string | null, callback?: Function | null): void: Unsubscribes a previously registered callback.  
+  * off(eventName?: string &#124; null, callback?: Function &#124; null): void: Unsubscribes a previously registered callback.  
   * save_changes(): void: Signals to the backend that any pending changes initiated by set should be processed and persisted. This is crucial for ensuring frontend interactions update the Python state.  
-  * send(content: any, callbacks?: any, buffers?: ArrayBuffer | ArrayBufferView): void: Allows the frontend to send arbitrary custom messages (potentially including binary buffers) to the backend for processing.  
+  * send(content: any, callbacks?: any, buffers?: ArrayBuffer &#124; ArrayBufferView): void: Allows the frontend to send arbitrary custom messages (potentially including binary buffers) to the backend for processing.  
 * **Minimalism:** This interface is intentionally designed to be simpler and require fewer methods than the full ipywidgets.Widget model API (which is based on Backbone.js).<sup>10</sup> This simplification significantly lowers the implementation burden for new host platforms aiming for AFM compatibility.
 
 This decoupling, inherent in the AFM specification, enables the feasibility of a custom FastHTML host. AFM defines *what* the host must provide (load ESM, call lifecycle methods, implement the model interface, provide el) 10 but refrains from dictating *how* the host achieves this (e.g., the specific communication protocol or state management library used internally). This separation allows diverse host environments—Jupyter, Marimo, Panel, and potentially FastHTML—to utilize the *same* AFM frontend code by providing their own backend implementations that conform to the specified contract.<sup>6</sup> Consequently, the challenge for creating a FastHTML host shifts from adhering to Jupyter-specific protocols to implementing these defined host responsibilities using FastHTML's architectural components, such as ASGI, WebSockets, and Python logic.
