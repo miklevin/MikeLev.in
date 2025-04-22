@@ -24,7 +24,7 @@ It is all about accelerating effects now and keeping rabbit hole projects at bay
 
 ## Continuous Refinement of Core Foundations
 
-Even the core timeless foundation stuff isn't totally static, and so perhaps we do a little continuous iterative refinements of core — or at least the study of it. If I had more time, I would have made it shorter is a frequent widely attributed quote, and it applies here.
+Even the core timeless foundation stuff isn't totally static, and so perhaps we do a little continuous iterative refinements of core—or at least the study of it. If I had more time, I would have made it shorter is a frequent widely attributed quote, and it applies here.
 
 ## The Challenge of Accumulating Complexity
 
