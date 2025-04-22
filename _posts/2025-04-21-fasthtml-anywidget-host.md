@@ -1,5 +1,5 @@
 ---
-title: Researching Using FastHTML as AnyWidget Host
+title: Technical Blueprint for a Minimal AnyWidget Host Environment using FastHTML
 permalink: /futureproof/fasthtml-anywidget-host/
 description: In this report, I've laid out a technical blueprint exploring the feasibility of using the FastHTML web framework to create a minimal environment for hosting `anywidget` widgets. I dove into `anywidget`'s architecture and the AFM specification, examined Marimo's native hosting approach as a reference, and assessed FastHTML's suitability, ultimately proposing an architecture based on WebSockets to bridge the gap between `anywidget`'s stateful model and FastHTML's server-centric design, while highlighting the key implementation challenges and research questions involved in making this integration robust.
 meta_description: Technical blueprint for hosting anywidget widgets in a minimal FastHTML environment using WebSockets, bypassing Jupyter infrastructure. Analyzes AFM spec & state synchronization challenges.
