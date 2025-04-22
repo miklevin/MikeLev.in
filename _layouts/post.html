@@ -97,7 +97,7 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 itemprop="headline">{{ page.title }}</h1>
-  <blockquote itemprop="description">{{ page.description }}</blockquote>
+  <blockquote itemprop="description">{{ page.description | markdownify }}</blockquote>
   <div itemprop="author" itemscope itemtype="http://schema.org/Person">
     <h3>By <span itemprop="name">{{ page.author | default: site.author }}</span></h3>
   </div>
