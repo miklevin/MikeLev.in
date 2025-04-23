@@ -45,6 +45,7 @@ body {
 
 header {
     background-color: #000000;
+    padding-top: 5vh;
 }
 
 #wheel {
@@ -1032,7 +1033,7 @@ article img {
     transition: opacity 0.2s ease;
     right: -70px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-80%);
 }
 
 .arrow-link:hover::after {
@@ -1135,11 +1136,25 @@ img {
 }
 /* Add sticky slider styles */
 #widthSliderContainer {
-    position: sticky;
-    top: 0;
-    background-color: var(--background-color);
+    position: fixed;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
     padding: 10px 0;
-    z-index: 100;
+    z-index: 1000;
+    width: 850px;
+    max-width: calc(100% - 40px);
+}
+
+#widthSlider {
+    width: 100%;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+#widthSlider:hover {
+    opacity: 1;
 }
 
 /* Add some spacing below the header title */
