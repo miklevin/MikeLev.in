@@ -188,60 +188,32 @@ function getCookie(name) {
     return null;
 }
 
-// Disable slider functionality on mobile
+// Function to check if device is mobile
 function isMobile() {
     return window.innerWidth <= 768;
 }
-
-function updateWidth() {
-    if (isMobile()) return;
-    const newWidth = slider.value;
-    container.style.maxWidth = `${newWidth}px`;
-    
-    if (window.innerWidth > 768) {
-        // Desktop behavior only
-        headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
-        wheel.style.width = `calc(${newWidth}px * 0.18)`;
-        
-        // Calculate the top value for the wheel
-        const minSliderValue = 850;
-        const maxSliderValue = MAX_WIDTH;
-        const minTopValue = -1;
-        const maxTopValue = -3;
-        
-        const topValue = minTopValue + (maxTopValue - minTopValue) * 
-                            (newWidth - minSliderValue) / (maxSliderValue - minSliderValue);
-        
-        wheel.style.top = `${topValue}vw`;
-    }
-    
-    // Save the new width to a cookie
-    setCookie('containerWidth', newWidth, 30);
-}
-
-// Resize handler and mobile check
-let resizeTimer;
-function handleResize() {
-    if (window.innerWidth > 768) {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(function() {
-            location.reload();
-        }, 250);
-    }
-}
-
-window.addEventListener('resize', function() {
-    if (!isMobile()) {
-        handleResize();
-    }
-});
 
 document.addEventListener('DOMContentLoaded', function() {
     const widthSlider = document.getElementById('widthSlider');
     const container = document.querySelector('.container');
     const SIDEBAR_WIDTH = 200; // Width of each sidebar in pixels
+    const sliderContainer = document.getElementById('widthSliderContainer');
     
     function updateSliderMaxWidth() {
+        // Only run this on desktop
+        if (isMobile()) {
+            if (sliderContainer) {
+                sliderContainer.style.display = 'none';
+            }
+            container.style.maxWidth = '100%';
+            return;
+        }
+
+        // Show slider on desktop
+        if (sliderContainer) {
+            sliderContainer.style.display = 'block';
+        }
+
         // Calculate available width (viewport width minus both sidebars)
         const maxWidth = Math.floor((window.innerWidth - (SIDEBAR_WIDTH * 2)) * 0.98);
         // Set slider's max value
@@ -257,10 +229,65 @@ document.addEventListener('DOMContentLoaded', function() {
     updateSliderMaxWidth();
 
     // Update when window is resized
-    window.addEventListener('resize', updateSliderMaxWidth);
+    let resizeTimer;
+    window.addEventListener('resize', function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function() {
+            updateSliderMaxWidth();
+        }, 250);
+    });
 
     // Handle slider changes
-    widthSlider.addEventListener('input', function() {
-        container.style.maxWidth = this.value + 'px';
-    });
+    if (widthSlider) {
+        widthSlider.addEventListener('input', function() {
+            if (!isMobile()) {
+                container.style.maxWidth = this.value + 'px';
+            }
+        });
+    }
 });
+
+// Update the existing resize handler
+function handleResize() {
+    if (!isMobile()) {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(updateSliderMaxWidth, 250);
+    }
+}
+
+// Update the existing updateWidth function
+function updateWidth() {
+    if (isMobile()) {
+        container.style.maxWidth = '100%';
+        return;
+    }
+    
+    const newWidth = slider.value;
+    container.style.maxWidth = `${newWidth}px`;
+    
+    if (!isMobile()) {
+        // Desktop behavior only
+        if (headerTitle) {
+            headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
+        }
+        if (wheel) {
+            wheel.style.width = `calc(${newWidth}px * 0.18)`;
+            
+            // Calculate the top value for the wheel
+            const minSliderValue = 850;
+            const maxSliderValue = parseInt(slider.max);
+            const minTopValue = -1;
+            const maxTopValue = -3;
+            
+            const topValue = minTopValue + (maxTopValue - minTopValue) * 
+                                (newWidth - minSliderValue) / (maxSliderValue - minSliderValue);
+            
+            wheel.style.top = `${topValue}vw`;
+        }
+    }
+    
+    // Save the new width to a cookie only on desktop
+    if (!isMobile()) {
+        setCookie('containerWidth', newWidth, 30);
+    }
+}

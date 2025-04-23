@@ -73,7 +73,7 @@ header {
 
 /* Sidebar styles */
 .sidebar-left, .sidebar-right {
-    flex: 0 0 200px; /* Don't grow, don't shrink, fixed width */
+    flex: 0 0 260px; /* Don't grow, don't shrink, fixed width */
     padding: 1rem;
     background-color: var(--accent-bg);
 }
