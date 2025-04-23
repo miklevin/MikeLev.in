@@ -45,23 +45,7 @@
     <script src="/assets/js/site.js"></script>
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ 
-            startOnLoad: true, 
-            theme: 'dark',
-            gantt: {
-                titleTopMargin: 25,
-                barHeight: 20,
-                barGap: 4,
-                topPadding: 50,
-                leftPadding: 150,
-                gridLineStartPadding: 150,
-                sectionHeight: 35,
-                fontSize: 11,
-                numberSectionStyles: 4,
-                axisFormat: '%b %Y',
-                viewMode: 'halfYear'
-            }
-        });
+        mermaid.initialize({ startOnLoad: true, theme: 'dark', gantt: {titleTopMargin: 25, barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 150, gridLineStartPadding: 150, sectionHeight: 35, fontSize: 11, numberSectionStyles: 4, axisFormat: '%b %Y', viewMode: 'halfYear'} });
     </script>
 </head>
 <body>
@@ -85,45 +69,7 @@
                 </a>
             </nobr>
         </div>
-        
-        <script>
-
-            // IMPORTANT: This sets the maximum width of the slider to the page width in pixels
-            const MAX_WIDTH = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-
-            const slider = document.getElementById('widthSlider');
-            const container = document.querySelector('.container');
-            const headerTitle = document.getElementById('headerTitle');
-            const wheel = document.getElementById('wheel');
-
-            // IMPORTANT: Update the slider's max attribute to match the page width
-            slider.max = MAX_WIDTH;
-
-            // Set initial slider value from cookie or calculate default middle value
-            const savedWidth = getCookie('containerWidth');
-            const defaultWidth = Math.min(1600, Math.floor((850 + MAX_WIDTH) / 2)); // reasonable middle ground
-            slider.value = savedWidth ? savedWidth : defaultWidth;
-
-            // Modify the existing event listeners
-            if (!isMobile()) {
-                slider.addEventListener('input', updateWidth);
-            }
-
-            updateWidth(); // Initialize with saved or default value
-
-            // IMPORTANT: This creates a media query to limit the maximum width on larger screens
-            const style = document.createElement('style');
-            style.textContent = `
-                @media (min-width: ${MAX_WIDTH}px) {
-                    body > footer, body > header, body > main {
-                        max-width: 850px;
-                    }
-                }
-            `;
-            document.head.appendChild(style);
-
-        </script>
-
+        <script src="/assets/js/header.js"></script>
         <div style="overflow: hidden; margin-bottom: 0px;">
         <a href="https://mikelev.in/shortstack/" style="text-decoration: none; border: none;"><img src="/images/linux-python-vim-git-nix-LPvgn-short-stack.png" alt="Linux, Python, vim, git & nix LPvgn Short Stack" style="float: right; width: 160px; height: 160px; margin: 4px;"></a><blockquote>Future-proof your skills and escape the tech hamster wheel with Linux, Python, vim & git — now with <i>nix</i> (LPvgn), an AI stack to resist obsolescence. Follow along as I revitalize old school Webmaster skills with next generation AI/SEO techniques porting Jupyter Notebooks to FastHTML / HTMX Web apps using the <a class="bunny-trail-link" href="https://mikelev.in/pipulate/">Pipulate</a> <a class="bunny-trail-link" href="https://mikelev.in/free-ai-seo-tool">free AI SEO tool</a>.</blockquote>
         </div>
