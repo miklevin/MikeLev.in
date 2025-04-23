@@ -41,6 +41,11 @@ Here are the three main RegEx patterns that solve the most common Google Docs Ma
 :g/^\d\+\. /s/|/\\|/gc
 ```
 
+### 4. Catch Superscript Outliers (with easy-resume)
+```vim
+:.,$s/\s\+\zs\d\+\ze\s\+/<sup>&<\/sup>/gc
+```
+
 Each pattern is explained in detail in the sections below.
 
 ---
