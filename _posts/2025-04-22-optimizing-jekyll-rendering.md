@@ -1,6 +1,6 @@
 ---
 title: "Optimizing Jekyll Rendering: From Nested Loops to Flattened Lookups"
-permalink: /futureproof/foo/
+permalink: /futureproof/optimizing-jekyll-rendering/
 description: "Our Jekyll site's rendering time became unmanageable due to an inefficient O(n²) nested loop approach for calculating related posts based on keywords. Drawing inspiration from a previous optimization involving a flattened post index (`flat_index`), we initially tried pre-processing all keywords into lookup tables but found it overly complex in Liquid. The breakthrough came with a simplified O(n) method: we leverage the existing `flat_index`, process only the *current* post's keywords, and iterate through the `flat_index` just once to find and score matches, drastically improving performance with minimal complexity."
 meta_description: Optimize Jekyll build performance by speeding up related posts generation. Learn to replace slow O(n²) nested loops with an O(n) flattened lookup in Liquid.
 meta_keywords: Jekyll, performance, optimization, rendering, build time, related posts, Liquid, template, O(n^2), O(n), nested loops, flattened index, flat_index, lookup, keyword matching, pre-processing, algorithm, static site generator, performance bottleneck, template optimization
