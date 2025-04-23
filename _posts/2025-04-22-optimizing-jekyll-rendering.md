@@ -39,13 +39,13 @@ This O(n²) approach created a performance nightmare as the site grew. Each addi
 We had already solved a similar problem with post navigation arrows. The key insight was pre-processing: instead of calculating relationships on the fly, we created a flattened index once:
 
 ```liquid
-{%- assign flat_index = "" | split: "" -%}
+{% raw %}{%- assign flat_index = "" | split: "" -%}
 {%- for day in grouped_posts -%}
   {%- assign day_posts = day.items | sort: 'sort_order' | reverse -%}
   {%- for post in day_posts -%}
     {%- assign flat_index = flat_index | push: post -%}
   {%- endfor -%}
-{%- endfor -%}
+{%- endfor -%}{% endraw %}
 ```
 
 This flat_index made finding previous/next posts a simple position-based lookup instead of repeated searches through the entire post collection.
@@ -82,13 +82,13 @@ The key improvements were:
 - Processing each post exactly once
 
 ```liquid
-{%- for post in flat_index -%}
+{% raw %}{%- for post in flat_index -%}
   {%- if post.url != page.url and post.meta_keywords -%}
     {%- assign common_tags_count = 0 -%}
     // Calculate matches directly
     // Score and add to results if matches found
   {%- endif -%}
-{%- endfor -%}
+{%- endfor -%}{% endraw %}
 ```
 
 ## The Database Analogy
