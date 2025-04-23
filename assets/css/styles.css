@@ -498,7 +498,6 @@ footer a {
     align-items: center;
     gap: 3vw; /* Space between logos */
     margin: .5vh 3vw; /* Left/right 3vw, top/bottom .5vh */
-    width: 100%; /* Ensure container takes full width */
 }
 
 .logo-item {
