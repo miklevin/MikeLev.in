@@ -73,9 +73,11 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 98%; /* Adjust this value to control the maximum width of the centered content */
+    max-width: 98%;
     margin: 0 auto;
     min-height: 100vh;
+    position: relative; /* Create stacking context */
+    z-index: 0; /* Lower than container */
 }
 
 /* Sidebar styles */
@@ -93,6 +95,8 @@ header {
     padding: 0 20px;
     box-sizing: border-box;
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    position: relative; /* Create stacking context */
+    z-index: 1; /* Establish z-index */
 }
 
 #headerTitle {
@@ -1234,27 +1238,32 @@ img {
 }
 
 #site-search-container {
-position: sticky;
-margin: 10px auto;
-width: 100%;
-max-width: 800px;
-background-color: var(--background-color);
-z-index: 100;
+    position: sticky;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 99;
+    top: calc(46px); /* Height of slider container (26px) + top position (6px) + padding (10px) + small gap */
+    padding: 10px 0;
 }
 
-/* Desktop styles */
-@media (min-width: 769px) {
-#site-search-container {
-    top: 45px;
-}
-}
-
-/* Mobile styles */
 @media (max-width: 768px) {
-#site-search-container {
-    top: 10px;
-    max-width: 100%;
+    #site-search-container {
+        position: sticky;
+        top: 1vh;
+        max-width: 100%;
+        padding: 5px 10px;
+        background-color: rgba(0, 0, 0, 0.95);
+    }
 }
+
+/* Ensure slider stays above search */
+#widthSliderContainer {
+    z-index: 100;
+    position: fixed;
 }
 
 /* Remove custom input styling to let PicoCSS handle it */
