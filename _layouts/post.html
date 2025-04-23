@@ -243,12 +243,13 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
   {%- unless current_page_url contains '/' -%}{%- assign current_page_url = current_page_url | append: '/' -%}{%- endunless -%}
 {%- endif -%}
 
-{%- comment -%}Related Articles Section based on meta_keywords{%- endcomment -%}
-{%- assign max_related = 5 -%}{%- comment -%}Set the maximum number of related posts to display{%- endcomment -%}
-{%- assign min_common_tags = 1 -%}{%- comment -%}Set the minimum number of shared keywords required to be considered related{%- endcomment -%}
-{%- assign current_post_keywords = "" | split: "" -%}
+{%- comment -%}Simplified Related Articles Section{%- endcomment -%}
+{%- assign max_related = 5 -%}
+{%- assign min_common_tags = 1 -%}
+
 {%- if page.meta_keywords and page.meta_keywords != "" -%}
-  {%- comment -%}Split by comma and process each keyword{%- endcomment -%}
+  {%- comment -%}Get current post's keywords{%- endcomment -%}
+  {%- assign current_post_keywords = "" | split: "" -%}
   {%- assign raw_keywords = page.meta_keywords | split: "," -%}
   {%- for keyword in raw_keywords -%}
     {%- assign cleaned_keyword = keyword | strip | downcase -%}
@@ -256,98 +257,90 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
       {%- assign current_post_keywords = current_post_keywords | push: cleaned_keyword -%}
     {%- endif -%}
   {%- endfor -%}
-{%- endif -%}
 
-{%- comment -%}Debug output{%- endcomment -%}
-<div class="debug-info" style="display: none;">Debug Info:
-Current Post URL: {{ page.url }}
-Has Meta Keywords?: {%- if page.meta_keywords -%}Yes{%- else -%}No{%- endif -%}
-Raw Meta Keywords: {{ page.meta_keywords }}
-Number of Keywords: {{ current_post_keywords.size }}
-Processed Keywords: {{ current_post_keywords | join: ", " }}</div>
-
-{%- assign related_posts_scored = "" | split: "" -%}
-{%- if current_post_keywords.size > 0 -%}
-  {%- for other_post in site.posts -%}
-    {%- if other_post.url == page.url -%}{%- continue -%}{%- endif -%}
-    {%- assign other_post_keywords = "" | split: "" -%}
-    {%- if other_post.meta_keywords and other_post.meta_keywords != "" -%}
-      {%- assign other_raw_keywords = other_post.meta_keywords | split: "," -%}
+  {%- comment -%}Score any post with matching keywords{%- endcomment -%}
+  {%- assign related_posts_scored = "" | split: "" -%}
+  
+  {%- for post in flat_index -%}
+    {%- if post.url != page.url and post.meta_keywords -%}
+      {%- assign common_tags_count = 0 -%}
+      {%- assign post_keywords = "" | split: "" -%}
+      {%- assign other_raw_keywords = post.meta_keywords | split: "," -%}
+      
       {%- for keyword in other_raw_keywords -%}
         {%- assign cleaned_keyword = keyword | strip | downcase -%}
         {%- if cleaned_keyword != "" -%}
-          {%- assign other_post_keywords = other_post_keywords | push: cleaned_keyword -%}
+          {%- assign post_keywords = post_keywords | push: cleaned_keyword -%}
         {%- endif -%}
       {%- endfor -%}
-    {%- endif -%}
-    {%- if other_post_keywords.size > 0 -%}
-      {%- assign common_tags_count = 0 -%}
+      
       {%- for tag in current_post_keywords -%}
-        {%- if other_post_keywords contains tag -%}
+        {%- if post_keywords contains tag -%}
           {%- assign common_tags_count = common_tags_count | plus: 1 -%}
         {%- endif -%}
       {%- endfor -%}
+      
       {%- if common_tags_count >= min_common_tags -%}
-        {%- comment -%}Create a score that combines keyword matches and recency{%- endcomment -%}
-        {%- assign post_date_score = other_post.date | date: "%s" | divided_by: 86400 -%}
+        {%- assign post_date_score = post.date | date: "%s" | divided_by: 86400 -%}
         {%- assign score_padded = post_date_score | append: common_tags_count | prepend: '00000000' | slice: -8, 8 -%}
-        {%- assign post_data_string = score_padded | append: '|' | append: other_post.url -%}
-        {%- assign related_posts_scored = related_posts_scored | push: post_data_string -%}
+        {%- assign score_data = score_padded | append: '|' | append: post.url -%}
+        {%- assign related_posts_scored = related_posts_scored | push: score_data -%}
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
-{%- endif -%}
 
-{%- assign sorted_related_uris = related_posts_scored | sort | reverse -%}
-{%- if sorted_related_uris.size > 0 -%}
-<aside class="related-posts">
-  <h2>Related Articles</h2>
-  <ul>
-    {%- for post_data in sorted_related_uris limit: max_related -%}
-      {%- assign parts = post_data | split: '|' -%}
-      {%- assign post_score = parts[0] | slice: -1, 1 | times: 1 -%}
-      {%- assign post_url = parts[1] -%}
-      {%- assign related_post = site.posts | where_exp: "item", "item.url == post_url" | first -%}
-      {%- if related_post -%}
-        <li>
-          <a href="{{ url_base }}{{ related_post.url }}">{{ related_post.title }}</a>
-          <div class="post-meta">
-            <span class="post-date">{{ related_post.date | date: "%B %-d, %Y" }}</span>
-            {%- if related_post.meta_description -%}
-            <span class="post-description"> - {{ related_post.meta_description }}</span>
-            {%- endif -%}
-            <span class="debug-score" style="display: none;">(Score: {{ post_score }})</span>
-          </div>
-        </li>
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
-</aside>
-<style>
-.related-posts {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #eee;
-}
-.related-posts h2 {
-  margin-bottom: 15px;
-  font-size: 1.4em;
-}
-.related-posts ul {
-  list-style: none;
-  padding-left: 0;
-}
-.related-posts li {
-  margin-bottom: 12px;
-}
-.related-posts .post-meta {
-  font-size: 0.9em;
-  margin-top: 2px;
-}
-.related-posts .post-description {
-  font-style: italic;
-}
-</style>
+  {%- assign sorted_related_uris = related_posts_scored | sort | reverse -%}
+  
+  {%- if sorted_related_uris.size > 0 -%}
+  <aside class="related-posts">
+    <h2>Related Articles</h2>
+    <ul>
+      {%- for post_data in sorted_related_uris limit: max_related -%}
+        {%- assign parts = post_data | split: '|' -%}
+        {%- assign post_score = parts[0] | slice: -1, 1 | times: 1 -%}
+        {%- assign post_url = parts[1] -%}
+        {%- assign related_post = flat_index | where_exp: "item", "item.url == post_url" | first -%}
+        {%- if related_post -%}
+          <li>
+            <a href="{{ url_base }}{{ related_post.url }}">{{ related_post.title }}</a>
+            <div class="post-meta">
+              <span class="post-date">{{ related_post.date | date: "%B %-d, %Y" }}</span>
+              {%- if related_post.meta_description -%}
+              <span class="post-description"> - {{ related_post.meta_description }}</span>
+              {%- endif -%}
+              <span class="debug-score" style="display: none;">(Score: {{ post_score }})</span>
+            </div>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </aside>
+  <style>
+  .related-posts {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+  }
+  .related-posts h2 {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+  }
+  .related-posts ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .related-posts li {
+    margin-bottom: 12px;
+  }
+  .related-posts .post-meta {
+    font-size: 0.9em;
+    margin-top: 2px;
+  }
+  .related-posts .post-description {
+    font-style: italic;
+  }
+  </style>
+  {%- endif -%}
 {%- endif -%}
 {%- comment -%}--- End Related Articles Section ---{%- endcomment -%}
