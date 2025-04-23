@@ -34,10 +34,14 @@
 
 /* Custom styles */
 body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     background-color: var(--bg);
     color: var(--text);
     font-family: "Abel", sans-serif;
-    font-size: 24px; /* Added this line */
+    font-size: 24px;
 }
 
 header {
@@ -59,11 +63,12 @@ header {
 }
 
 .container {
-    width: 100%;
+    flex: 1;
     max-width: 850px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0 20px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 #headerTitle {
@@ -132,6 +137,20 @@ pre code {
 
 /* Media queries */
 @media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    
+    .sidebar-left, .sidebar-right {
+        flex: none;
+        width: 100%;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
     #headerTitle {
         margin-top: 8vw !important;
         font-size: 26vw !important;
@@ -1290,4 +1309,11 @@ color: var(--muted-color);
 text-align: center;
 margin: 15px 0;
 font-size: 24px;
+}
+
+/* Sidebar styles */
+.sidebar-left, .sidebar-right {
+    flex: 0 0 200px; /* Don't grow, don't shrink, fixed width */
+    padding: 1rem;
+    background-color: var(--accent-bg);
 }
