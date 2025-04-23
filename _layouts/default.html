@@ -42,6 +42,7 @@
 
       gtag('config', '{{ site.gaid }}');
     </script>
+    <script src="/assets/js/site.js"></script>
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
         mermaid.initialize({ 
@@ -62,98 +63,6 @@
             }
         });
     </script>
-    <style>
-        /* Disable slider on mobile */
-        @media (max-width: 768px) {
-            #widthSliderContainer, #bottomSliderContainer {
-                display: none;
-            }
-        }
-        /* Ensure smooth scrolling */
-        html {
-            scroll-behavior: smooth;
-        }
-        /* Prevent layout shifts for images */
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        /* Add sticky slider styles */
-        #widthSliderContainer {
-            position: sticky;
-            top: 0;
-            background-color: var(--background-color);
-            padding: 10px 0;
-            z-index: 100;
-        }
-        
-        /* Add some spacing below the header title */
-        #headerTitle {
-            margin-bottom: 1rem;
-        }
-
-        /* No results styling */
-        #site-search-results > p {
-            color: var(--muted-color);
-            text-align: center;
-            margin: 15px 0;
-            font-size: 24px;
-        }
-
-        /* Bunny trail layout */
-        .bunny-trail {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .bunny-trail > p {
-            flex: 1;
-            margin: 0;
-            min-width: 0; /* Allows text to shrink below its minimum content size */
-        }
-
-        .bunny-trail-link {
-            color: #fff !important;
-            text-decoration: none !important;
-        }
-
-        .bunny-trail-link:hover {
-            color: var(--accent) !important;
-            text-decoration: underline !important;
-        }
-
-        /* ASCII bunny link styles */
-        .ascii-link {
-            color: #fff !important;
-            text-decoration: none !important;
-        }
-
-        .ascii-link:hover {
-            color: var(--accent) !important;
-            text-decoration: none !important;
-        }
-
-        .bunny-trail > div:last-child {
-            flex: 0 0 auto; /* Don't grow, don't shrink, auto basis */
-            max-width: 200px; /* Limit the bunny's width */
-            white-space: pre; /* Preserve ASCII art formatting */
-        }
-
-        /* Mobile styles */
-        @media (max-width: 768px) {
-            .bunny-trail {
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .bunny-trail > div:last-child {
-                max-width: 100%; /* Allow full width on mobile */
-                align-self: center; /* Center the bunny */
-            }
-        }
-    </style>
 </head>
 <body>
 <div class="sidebar-left">foo</div>
@@ -178,24 +87,6 @@
         </div>
         
         <script>
-            // Function to set a cookie
-            function setCookie(name, value, days) {
-                const expires = new Date();
-                expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
-                document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/';
-            }
-
-            // Function to get a cookie
-            function getCookie(name) {
-                const nameEQ = name + "=";
-                const ca = document.cookie.split(';');
-                for(let i = 0; i < ca.length; i++) {
-                    let c = ca[i];
-                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-                }
-                return null;
-            }
 
             // IMPORTANT: This sets the maximum width of the slider to the page width in pixels
             const MAX_WIDTH = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
@@ -212,37 +103,6 @@
             const savedWidth = getCookie('containerWidth');
             const defaultWidth = Math.min(1600, Math.floor((850 + MAX_WIDTH) / 2)); // reasonable middle ground
             slider.value = savedWidth ? savedWidth : defaultWidth;
-
-            // Disable slider functionality on mobile
-            function isMobile() {
-                return window.innerWidth <= 768;
-            }
-
-            function updateWidth() {
-                if (isMobile()) return;
-                const newWidth = slider.value;
-                container.style.maxWidth = `${newWidth}px`;
-                
-                if (window.innerWidth > 768) {
-                    // Desktop behavior only
-                    headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
-                    wheel.style.width = `calc(${newWidth}px * 0.18)`;
-                    
-                    // Calculate the top value for the wheel
-                    const minSliderValue = 850;
-                    const maxSliderValue = MAX_WIDTH;
-                    const minTopValue = -1;
-                    const maxTopValue = -3;
-                    
-                    const topValue = minTopValue + (maxTopValue - minTopValue) * 
-                                     (newWidth - minSliderValue) / (maxSliderValue - minSliderValue);
-                    
-                    wheel.style.top = `${topValue}vw`;
-                }
-                
-                // Save the new width to a cookie
-                setCookie('containerWidth', newWidth, 30);
-            }
 
             // Modify the existing event listeners
             if (!isMobile()) {
@@ -262,7 +122,6 @@
             `;
             document.head.appendChild(style);
 
-            // ... rest of your JavaScript code ...
         </script>
 
         <div style="overflow: hidden; margin-bottom: 0px;">
@@ -271,7 +130,16 @@
 
     </header>
     <main>
-        {% include site-search.html %}
+        <div id="site-search-container">
+        <input 
+            type="search" 
+            id="site-search-input" 
+            name="search"
+            placeholder="Search blog posts (press / to focus)..." 
+            autofocus
+            aria-label="Search blog posts" />
+        <div id="site-search-results"></div>
+        </div>
         
         {{ content }}
     </main>
@@ -291,23 +159,5 @@
 </div>
 <div class="sidebar-right">bar</div>
 
-<script>
-
-    // Resize handler and mobile check
-    let resizeTimer;
-    function handleResize() {
-        if (window.innerWidth > 768) {
-            clearTimeout(resizeTimer);
-            resizeTimer = setTimeout(function() {
-                location.reload();
-            }, 250);
-        }
-    }
-    window.addEventListener('resize', function() {
-        if (!isMobile()) {
-            handleResize();
-        }
-    });
-</script>
 </body>
 </html>

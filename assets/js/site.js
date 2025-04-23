@@ -1,15 +1,3 @@
-<div id="site-search-container">
-  <input 
-    type="search" 
-    id="site-search-input" 
-    name="search"
-    placeholder="Search blog posts (press / to focus)..." 
-    autofocus
-    aria-label="Search blog posts" />
-  <div id="site-search-results"></div>
-</div>
-
-<script>
 // Load lunr.js if not already loaded
 if (typeof lunr === 'undefined') {
   const loadLunr = () => {
@@ -180,124 +168,70 @@ function initSearch() {
     }
   });
 }
-</script>
 
-<style>
-  #site-search-container {
-    position: sticky;
-    margin: 10px auto;
-    width: 100%;
-    max-width: 800px;
-    background-color: var(--background-color);
-    z-index: 100;
-  }
-  
-  /* Desktop styles */
-  @media (min-width: 769px) {
-    #site-search-container {
-        top: 45px;
+// Function to set a cookie
+function setCookie(name, value, days) {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+    document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/';
+}
+
+// Function to get a cookie
+function getCookie(name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(';');
+    for(let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
     }
-  }
-  
-  /* Mobile styles */
-  @media (max-width: 768px) {
-    #site-search-container {
-        top: 10px;
-        max-width: 100%;
+    return null;
+}
+
+// Disable slider functionality on mobile
+function isMobile() {
+    return window.innerWidth <= 768;
+}
+
+function updateWidth() {
+    if (isMobile()) return;
+    const newWidth = slider.value;
+    container.style.maxWidth = `${newWidth}px`;
+    
+    if (window.innerWidth > 768) {
+        // Desktop behavior only
+        headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
+        wheel.style.width = `calc(${newWidth}px * 0.18)`;
+        
+        // Calculate the top value for the wheel
+        const minSliderValue = 850;
+        const maxSliderValue = MAX_WIDTH;
+        const minTopValue = -1;
+        const maxTopValue = -3;
+        
+        const topValue = minTopValue + (maxTopValue - minTopValue) * 
+                            (newWidth - minSliderValue) / (maxSliderValue - minSliderValue);
+        
+        wheel.style.top = `${topValue}vw`;
     }
-  }
-  
-  /* Remove custom input styling to let PicoCSS handle it */
-  #site-search-input {
-    width: 100%;
-    font-size: 20px;
-  }
-  
-  #site-search-results {
-    display: none;
-    position: absolute;
-    z-index: 1000;
-    width: 100%;
-    max-height: 90vh;
-    overflow-y: auto;
-    background: rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid var(--card-border-color);
-    border-radius: var(--border-radius);
-    box-shadow: var(--card-box-shadow);
-    margin-top: 5px;
-    padding: 15px;
-    color: var(--color);
-    font-size: 24px;
-  }
-  
-  .search-result {
-    padding: 20px 15px;
-    border-bottom: 1px solid var(--card-border-color);
-    margin-bottom: 5px;
-    background: rgba(0, 0, 0, 0.75);
-  }
-  
-  .search-result:last-child {
-    border-bottom: none;
-  }
-  
-  .search-result:hover {
-    background: rgba(20, 20, 20, 0.85);
-  }
-  
-  .search-result h3 {
-    margin: 0 0 12px 0;
-    font-size: 28px;
-    line-height: 1.3;
-  }
-  
-  .search-result h3 a {
-    color: var(--accent);
-    text-decoration: none;
-  }
-  
-  .search-result h3 a:hover {
-    text-decoration: underline;
-  }
-  
-  .search-result .date {
-    color: var(--muted-color);
-    font-size: 24px;
-    margin: 0 0 12px 0;
-  }
-  
-  .search-result .description {
-    margin: 15px 0 0 0;
-    font-size: 24px;
-    color: var(--color);
-    line-height: 1.4;
-  }
-  
-  .search-result .keywords {
-    margin: 15px 0 0 0;
-    color: var(--muted-color);
-    font-size: 20px;
-  }
-  
-  .search-result .keywords small {
-    font-size: 20px;
-  }
-  
-  .more-results {
-    text-align: center;
-    margin: 15px 0 5px 0;
-    font-style: italic;
-    color: var(--muted-color);
-    font-size: 24px;
-  }
-  
-  /* No results styling */
-  #site-search-results > p {
-    color: var(--muted-color);
-    text-align: center;
-    margin: 15px 0;
-    font-size: 24px;
-  }
-</style> 
+    
+    // Save the new width to a cookie
+    setCookie('containerWidth', newWidth, 30);
+}
+
+// Resize handler and mobile check
+let resizeTimer;
+function handleResize() {
+    if (window.innerWidth > 768) {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function() {
+            location.reload();
+        }, 250);
+    }
+}
+
+window.addEventListener('resize', function() {
+    if (!isMobile()) {
+        handleResize();
+    }
+});
