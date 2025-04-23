@@ -234,6 +234,55 @@ This command says: "Globally find all lines starting with `number. space`. On ea
 This neatly solves the problem by restricting the pipe escaping to only the citation lines, leaving our Markdown tables elsewhere untouched.
 
 ---
+Okay, here's an addendum to the article that explains the challenge of these inline numbers and the reasoning behind the confirmation-based approach, including the use of the `.,$` range for managing the process.
+
+---
+
+## Addendum: Handling the Ambiguous Case – Inline Footnote Numbers
+
+While the three main regex patterns address the most common and predictable formatting issues from Google Docs Markdown exports, there's often one lingering, more ambiguous outlier: **footnote numbers appearing inline within the text, surrounded only by spaces.**
+
+Consider a sentence like: `...as shown in the previous study 10 which detailed...`
+
+Unlike footnotes next to punctuation (`study.10`) or at specific line endings (`* List item 10`), this `10` looks structurally identical to any other number that might naturally occur in the text (e.g., `...we need 10 widgets...`).
+
+### The Challenge: Ambiguity and False Positives
+
+This ambiguity makes reliable, fully automated replacement extremely difficult. A regex pattern broad enough to catch ` 10 ` in the first example would *also* incorrectly catch ` 10 ` in the second example, potentially wrapping regular numbers in `<sup>` tags throughout your document. The risk of these "false positives" is too high for a simple, automatic search-and-replace across the entire file.
+
+### The Solution: Semi-Automation with Confirmation
+
+Since we can't trust full automation, we adopt a semi-automated approach. We use a regex pattern designed to find *potential* candidates, but we rely on manual verification for accuracy. This is where the following command comes in:
+
+```vim
+:%s/\s\+\zs\d\+\ze\s\+/<sup>&<\/sup>/gc
+```
+
+* The pattern `\s\+\zs\d\+\ze\s\+` specifically looks for digits surrounded by one or more spaces, ensuring the spaces themselves aren't part of the match (`\zs`, `\ze`).
+* The crucial element is the `c` flag (confirm). Vim finds each potential candidate matching the pattern, highlights it, and pauses, asking you to confirm (`y`) or deny (`n`) the replacement.
+
+This allows you to leverage Vim's pattern-matching speed to find the candidates while retaining human judgment to decide if each specific number is truly a footnote requiring `<sup>` tags.
+
+### Managing the Workflow: Interruptions and Resuming
+
+This confirmation process, while necessary for accuracy, can be tedious, especially in long documents. It's easy to get into a rhythm and accidentally press `y` when you meant `n`, or vice-versa. You might realize a mistake several steps later, or simply need to take a break.
+
+Constantly restarting the check from the beginning of the file (`:%s`) after every interruption or correction is inefficient. This is why we refine the command further by specifying a range:
+
+```vim
+:.,$s/\s\+\zs\d\+\ze\s\+/<sup>&<\/sup>/gc
+```
+
+By replacing `%` (whole file) with `.,$` (current line to last line), we gain essential flexibility:
+
+1.  **Stop Anytime:** If you make a mistake or need to pause, simply press `q` during the confirmation prompt to quit the substitution process.
+2.  **Fix Mistakes:** Use Vim's undo (`u`) or other editing commands to correct any erroneous replacements.
+3.  **Resume Efficiently:** Place your cursor back on the line where you want to continue checking (or the line immediately after your last fix).
+4.  **Run the Command Again:** Execute `:.,$s/.../gc` once more. Vim will now *only* search from your current position down to the end of the file, skipping the parts you've already verified.
+
+This `.,$` range significantly streamlines the handling of this necessary but often interrupted manual verification step, making the cleanup of these ambiguous inline footnotes manageable without forcing you to re-review the entire document repeatedly. It acknowledges the practical reality that sometimes, perfect automation isn't feasible, and provides an efficient way to manage the required manual intervention.
+
+---
 
 ## AI Analysis
 
