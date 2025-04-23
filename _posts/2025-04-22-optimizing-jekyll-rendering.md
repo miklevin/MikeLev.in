@@ -10,7 +10,7 @@ sort_order: 3
 
 ## Improving Jekyll Page Generation Speed
 
-This article delves into the technical challenge of improving the speed at which a website built with a tool called Jekyll generates its pages. Jekyll is a "static site generator," meaning it builds all the website pages upfront, rather than creating them dynamically when a visitor arrives. While efficient for visitors, this initial build process, or "rendering," can become very slow for large websites, impacting developer productivity.
+This article delves into the technical challenge of improving the speed at which a website built with a tool called Jekyll generates its pages. Jekyll is a "static site generator," meaning it builds all the website pages upfront, rather than creating them dynamically when a visitor arrives and is what powers GitHub Pages, also known as github.io. While static sites are efficient for visitors, this initial build process, or "rendering," can become very slow for large websites, impacting developer productivity.
 
 ## The Challenge of Related Posts
 
