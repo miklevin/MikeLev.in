@@ -235,3 +235,32 @@ window.addEventListener('resize', function() {
         handleResize();
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const widthSlider = document.getElementById('widthSlider');
+    const container = document.querySelector('.container');
+    const SIDEBAR_WIDTH = 200; // Width of each sidebar in pixels
+    
+    function updateSliderMaxWidth() {
+        // Calculate available width (viewport width minus both sidebars)
+        const maxWidth = Math.floor((window.innerWidth - (SIDEBAR_WIDTH * 2)) * 0.98);
+        // Set slider's max value
+        widthSlider.max = maxWidth;
+        // If current value is greater than new max, update it
+        if (parseInt(widthSlider.value) > maxWidth) {
+            widthSlider.value = maxWidth;
+            container.style.maxWidth = maxWidth + 'px';
+        }
+    }
+
+    // Update on page load
+    updateSliderMaxWidth();
+
+    // Update when window is resized
+    window.addEventListener('resize', updateSliderMaxWidth);
+
+    // Handle slider changes
+    widthSlider.addEventListener('input', function() {
+        container.style.maxWidth = this.value + 'px';
+    });
+});
