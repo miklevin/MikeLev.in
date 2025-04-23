@@ -76,8 +76,9 @@ header {
     max-width: 98%;
     margin: 0 auto;
     min-height: 100vh;
-    position: relative; /* Create stacking context */
-    z-index: 0; /* Lower than container */
+    position: relative;
+    z-index: 0;
+    overflow: visible;
 }
 
 /* Sidebar styles */
@@ -94,9 +95,17 @@ header {
     margin: 0;
     padding: 0 20px;
     box-sizing: border-box;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
     position: relative; /* Create stacking context */
     z-index: 1; /* Establish z-index */
+    height: 100%; /* Full height */
+    overflow-y: visible; /* Allow sticky elements to work */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+main {
+    position: relative;
+    overflow-y: visible;
+    overflow-x: hidden;
 }
 
 #headerTitle {
@@ -1238,25 +1247,33 @@ img {
 }
 
 #site-search-container {
-    position: sticky;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 800px;
-    background-color: rgba(0, 0, 0, 0.95);
-    backdrop-filter: blur(5px);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
     -webkit-backdrop-filter: blur(5px);
     z-index: 99;
     top: calc(46px); /* Height of slider container (26px) + top position (6px) + padding (10px) + small gap */
     padding: 10px 0;
 }
 
+/* Add spacing below slider for content */
+header {
+    padding-top: calc(46px + 60px); /* Slider height + search container height */
+}
+
 @media (max-width: 768px) {
     #site-search-container {
-        position: sticky;
+        position: fixed;
         top: 1vh;
+        width: calc(100% - 20px);
         max-width: 100%;
         padding: 5px 10px;
         background-color: rgba(0, 0, 0, 0.95);
+    }
+
+    header {
+        padding-top: calc(1vh + 60px); /* Search container position + height */
     }
 }
 
