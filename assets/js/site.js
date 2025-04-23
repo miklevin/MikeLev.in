@@ -249,6 +249,25 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
+    // Handle search placeholder text
+    const searchInput = document.getElementById('site-search-input');
+    
+    function updatePlaceholder() {
+        if (searchInput) {
+            if (window.innerWidth <= 768) {
+                searchInput.placeholder = "Search blog posts...";
+            } else {
+                searchInput.placeholder = searchInput.dataset.desktopPlaceholder;
+            }
+        }
+    }
+
+    // Update on load
+    updatePlaceholder();
+
+    // Update on resize
+    window.addEventListener('resize', updatePlaceholder);
 });
 
 // Update the existing resize handler

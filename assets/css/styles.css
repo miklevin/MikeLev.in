@@ -1297,7 +1297,7 @@ font-size: 20px;
     width: 100%;
     max-height: 90vh;
     overflow-y: auto;
-    background: rgba(0, 0, 0, 0.92);
+    background: #000000;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid var(--card-border-color);
@@ -1312,11 +1312,11 @@ font-size: 20px;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 2px;
-    background: rgba(20, 20, 20, 0.4);
+    background: #000000;
 }
 
 .search-result:hover {
-    background: rgba(40, 40, 40, 0.6);
+    background: #111111;
 }
 
 .search-result h3 {
@@ -1330,8 +1330,12 @@ font-size: 20px;
     text-decoration: none;
 }
 
+.search-result h3 a:hover {
+    text-decoration: underline;
+}
+
 .search-result .date {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 24px;
     margin: 0 0 8px 0;
 }
@@ -1339,7 +1343,7 @@ font-size: 20px;
 .search-result .description {
     margin: 10px 0 0 0;
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.95);
     line-height: 1.4;
 }
 
@@ -1374,4 +1378,22 @@ font-size: 20px;
     flex: 0 0 200px; /* Don't grow, don't shrink, fixed width */
     padding: 1rem;
     background-color: var(--accent-bg);
+}
+
+/* Mobile placeholder text */
+@media (max-width: 768px) {
+    #site-search-input::placeholder {
+        content: "Search blog posts...";
+    }
+    
+    #site-search-input {
+        font-size: 16px; /* Prevent zoom on iOS */
+    }
+}
+
+/* Desktop placeholder text */
+@media (min-width: 769px) {
+    #site-search-input::placeholder {
+        content: "Search blog posts (press / to focus)...";
+    }
 }
