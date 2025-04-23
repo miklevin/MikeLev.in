@@ -48,6 +48,12 @@ header {
     padding-top: 5vh;
 }
 
+@media (max-width: 768px) {
+    header {
+        padding-top: 1vh;
+    }
+}
+
 #wheel {
     height: auto;
     vertical-align: middle;
@@ -1143,8 +1149,12 @@ img {
     background-color: transparent;
     padding: 10px 0;
     z-index: 1000;
-    width: 850px;
-    max-width: calc(100% - 40px);
+    width: inherit;
+    max-width: inherit;
+}
+
+#content {
+    position: relative;
 }
 
 #widthSlider {

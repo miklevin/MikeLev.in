@@ -196,8 +196,8 @@ function isMobile() {
 document.addEventListener('DOMContentLoaded', function() {
     const widthSlider = document.getElementById('widthSlider');
     const container = document.querySelector('.container');
-    const SIDEBAR_WIDTH = 200; // Width of each sidebar in pixels
     const sliderContainer = document.getElementById('widthSliderContainer');
+    const SIDEBAR_WIDTH = 200; // Width of each sidebar in pixels
     
     function updateSliderMaxWidth() {
         // Only run this on desktop
@@ -212,6 +212,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Show slider on desktop
         if (sliderContainer) {
             sliderContainer.style.display = 'block';
+            // Match the slider container width to the content container
+            sliderContainer.style.width = container.offsetWidth + 'px';
         }
 
         // Calculate available width (viewport width minus both sidebars)
@@ -242,6 +244,8 @@ document.addEventListener('DOMContentLoaded', function() {
         widthSlider.addEventListener('input', function() {
             if (!isMobile()) {
                 container.style.maxWidth = this.value + 'px';
+                // Update slider container width to match content
+                sliderContainer.style.width = container.offsetWidth + 'px';
             }
         });
     }
