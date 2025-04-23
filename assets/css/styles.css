@@ -159,8 +159,7 @@ pre code {
     }
     
     .sidebar-left, .sidebar-right {
-        flex: none;
-        width: 100%;
+        display: none; /* Hide sidebars on mobile */
     }
     
     .container {
