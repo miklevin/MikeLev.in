@@ -298,6 +298,87 @@ The Table of Contents has transformed from a static necessity into a dynamic and
 
 ---
 
+# Perfecting Table of Contents: The Final Touch on Content Layout Shift
+
+> This is some bonus content, after I deployed the new table of contents, I
+> noticed excessive "popping" in the layout as I switched from page-to-page, and
+> I remembered how I kept the slider's chosen page-width and leveraged that.
+
+In our previous discussion about modern Table of Contents implementations, we covered the technical aspects of creating a responsive, interactive ToC. However, one crucial aspect of user experience deserves special attention: Content Layout Shift (CLS), a vital component of Google's Core Web Vitals.
+
+## The Challenge of Page Transitions
+
+When implementing a dynamic ToC that responds to content width adjustments, a common challenge emerges: the momentary "jump" or "pop" that occurs during page transitions. This happens because:
+
+1. The browser loads the new page
+2. The JavaScript initializes
+3. The stored width values are retrieved
+4. The layout adjusts to these values
+
+This sequence can create a jarring experience for users, especially those reading through multiple articles in succession.
+
+## Our Solution: Preemptive Layout Management
+
+We implemented an elegant solution that minimizes CLS through a combination of strategic CSS and JavaScript timing. Here's how it works:
+
+```css
+.center-container {
+    /* Existing layout properties */
+    visibility: hidden;
+}
+
+.center-container.loaded {
+    visibility: visible;
+}
+```
+
+```javascript
+// Initialize width immediately before DOM content loads
+const storedWidth = getCookie('containerWidth') || '850';
+document.documentElement.style.setProperty('--slider-width', storedWidth + 'px');
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Set initial values immediately
+    widthSlider.value = storedWidth;
+    container.style.maxWidth = storedWidth + 'px';
+    
+    // Show content once initial layout is set
+    requestAnimationFrame(() => {
+        centerContainer.classList.add('loaded');
+    });
+});
+```
+
+This approach:
+
+1. **Hides Content Initially**: The page starts invisible, preventing users from seeing any layout adjustments
+2. **Early Initialization**: Width values are set before the DOM content loads
+3. **Smooth Revelation**: Content becomes visible only after the layout is finalized
+4. **Cookie Persistence**: User preferences for content width are maintained across page loads
+
+## The Benefits
+
+This enhancement provides several key improvements:
+
+- **Seamless Navigation**: Users can move between articles without experiencing layout jumps
+- **Preserved Context**: The ToC maintains its width across page transitions
+- **Improved Reading Experience**: No distracting repositioning of content
+- **Better Performance Metrics**: Reduced CLS scores for better Core Web Vitals
+
+## Technical Insights
+
+The solution's elegance lies in its timing. By initializing width values before the DOM content loads and using `requestAnimationFrame` for the reveal, we ensure that users never see the intermediate layout states. The use of CSS visibility (rather than display) maintains the page's spatial structure while remaining hidden.
+
+This approach demonstrates how small, strategic adjustments to initialization timing and state management can significantly impact user experience without requiring extensive refactoring or complex solutions.
+
+## Conclusion
+
+In web development, the final polish often comes from addressing subtle user experience issues. Our ToC implementation shows how attention to details like CLS can elevate a functional feature into a seamless, professional user interface element. By carefully managing the timing of layout calculations and content visibility, we've created a ToC that not only navigates content effectively but does so with the smoothness users expect from modern web applications.
+
+This refinement completes our ToC implementation, delivering a solution that's not just functional and interactive, but also polished in its execution. It's a reminder that in modern web development, how features behave during transitions is just as important as their core functionality.
+
+---
+
 ## AI Analysis
 
 **Title/Headline Ideas:**
