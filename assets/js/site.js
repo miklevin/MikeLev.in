@@ -199,8 +199,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const sliderContainer = document.getElementById('widthSliderContainer');
     const SIDEBAR_WIDTH = 200; // Width of each sidebar in pixels
     
-    // Set initial slider width CSS variable
-    document.documentElement.style.setProperty('--slider-width', widthSlider.value + 'px');
+    // Get stored width from cookie or use default
+    const storedWidth = getCookie('containerWidth') || widthSlider.value;
+    widthSlider.value = storedWidth;
+    container.style.maxWidth = storedWidth + 'px';
+    
+    // Set initial slider width CSS variable using stored width
+    document.documentElement.style.setProperty('--slider-width', storedWidth + 'px');
     
     function updateSliderMaxWidth() {
         // Only run this on desktop
