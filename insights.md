@@ -10,7 +10,7 @@ group: home
 > These are cumulative tiny, critical insights that don't merit their own
 > standalone articles.
 
-## Google Search Console 404s
+## Google Search Console 404s - Thu Apr 24
 
 Do you ever notice that some of your 404s go away in Google Search Console (GS)
 over time, but not all of them? Persistent 404 errors in Google Search Console
@@ -21,7 +21,7 @@ traffic asset. Google is saying it *wants* to show your site on the topics
 related to that page. It's not giving up on you. Tackling these will be one of
 the things to do when home-hosting.
 
-## Collapse All Folders In VSCode
+## Collapse All Folders In VSCode - Thu Apr 24
 
 I'm on VSCode and its forks. I don't wanna be. I'm a vim sort of person. I'm
 only even on NeoVim because I want an `init.lua` for better AI macro support,
