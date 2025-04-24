@@ -292,13 +292,13 @@ This implementation yields a page-level Table of Contents that is:
 * **Responsive:** Adapts its width dynamically and hides cleanly on smaller screens.
 * **Uniquely Styled:** Incorporates custom elements like the playful emoji bullets.
 
-## Conclusion
+## Conclusion 1
 
 The Table of Contents has transformed from a static necessity into a dynamic and integral part of modern web design and user experience. Leveraging client-side libraries like Tocbot allows for rich interactivity that significantly aids navigation and comprehension. Our detailed case study demonstrates how combining Tocbot's power with thoughtful CSS—including dynamic calculations, hierarchical styling, and responsive adjustments—can create a ToC that is not only highly functional but also a polished and engaging element of the overall site design. By carefully considering structure, interactivity, and presentation, we can ensure our users never get lost on the digital page.
 
 ---
 
-# Perfecting Table of Contents: The Final Touch on Content Layout Shift
+## Perfecting Table of Contents: The Final Touch on Content Layout Shift
 
 > This is some bonus content, after I deployed the new table of contents, I
 > noticed excessive "popping" in the layout as I switched from page-to-page, and
@@ -371,7 +371,7 @@ The solution's elegance lies in its timing. By initializing width values before 
 
 This approach demonstrates how small, strategic adjustments to initialization timing and state management can significantly impact user experience without requiring extensive refactoring or complex solutions.
 
-## Conclusion
+## Conclusion 2
 
 In web development, the final polish often comes from addressing subtle user experience issues. Our ToC implementation shows how attention to details like CLS can elevate a functional feature into a seamless, professional user interface element. By carefully managing the timing of layout calculations and content visibility, we've created a ToC that not only navigates content effectively but does so with the smoothness users expect from modern web applications.
 
