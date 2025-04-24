@@ -110,7 +110,7 @@ header {
     width: calc((96vw - var(--slider-width, 850px))/2);
     right: 0;
     margin: 0;
-    padding: 0 1vw 0 2vw;
+    padding: 0 1vw 0 0.5vw;
     list-style: none;
     height: 100%;
     top: 3vh;
@@ -127,6 +127,33 @@ header {
 .js-toc > ol > li > ol {
     list-style-type: decimal;
     padding-left: 1.5em;
+}
+
+/* Style H3 entries (nested level) */
+.js-toc > ol > li > ol > li > ol {
+    list-style: none;
+    padding-left: 1.5em;
+}
+
+.js-toc > ol > li > ol > li > ol > li {
+    position: relative;
+    padding-left: 1.5em;
+}
+
+.js-toc > ol > li > ol > li > ol > li::before {
+    content: "🔸";
+    position: absolute;
+    left: 0;
+    transition: content 0.2s ease;
+}
+
+.js-toc > ol > li > ol > li > ol > li:hover::before {
+    content: "🐹";
+}
+
+/* Adjust spacing for H3 links to align with emoji */
+.js-toc > ol > li > ol > li > ol > li > a {
+    padding-left: 0.2em;
 }
 
 /* Links within TOC */
