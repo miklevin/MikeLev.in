@@ -193,19 +193,25 @@ function isMobile() {
     return window.innerWidth <= 768;
 }
 
+// Initialize width immediately before DOM content loads
+const storedWidth = getCookie('containerWidth') || '850';
+document.documentElement.style.setProperty('--slider-width', storedWidth + 'px');
+
 document.addEventListener('DOMContentLoaded', function() {
     const widthSlider = document.getElementById('widthSlider');
     const container = document.querySelector('.container');
     const sliderContainer = document.getElementById('widthSliderContainer');
-    const SIDEBAR_WIDTH = 200; // Width of each sidebar in pixels
+    const centerContainer = document.querySelector('.center-container');
+    const SIDEBAR_WIDTH = 200;
     
-    // Get stored width from cookie or use default
-    const storedWidth = getCookie('containerWidth') || widthSlider.value;
+    // Set initial values immediately
     widthSlider.value = storedWidth;
     container.style.maxWidth = storedWidth + 'px';
     
-    // Set initial slider width CSS variable using stored width
-    document.documentElement.style.setProperty('--slider-width', storedWidth + 'px');
+    // Show content once initial layout is set
+    requestAnimationFrame(() => {
+        centerContainer.classList.add('loaded');
+    });
     
     function updateSliderMaxWidth() {
         // Only run this on desktop

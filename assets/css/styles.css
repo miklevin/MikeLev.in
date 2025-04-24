@@ -77,6 +77,11 @@ header {
     margin: 0 auto;
     min-height: 100vh;
     position: relative;
+    visibility: hidden;
+}
+
+.center-container.loaded {
+    visibility: visible;
 }
 
 /* Main container */
