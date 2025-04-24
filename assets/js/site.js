@@ -299,8 +299,8 @@ function updateWidth() {
             // Calculate the top value for the wheel
             const minSliderValue = 850;
             const maxSliderValue = parseInt(slider.max);
-            const minTopValue = -1;
-            const maxTopValue = -3;
+            const minTopValue = -.9;
+            const maxTopValue = -2;
             
             const topValue = minTopValue + (maxTopValue - minTopValue) * 
                                 (newWidth - minSliderValue) / (maxSliderValue - minSliderValue);
