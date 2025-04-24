@@ -96,7 +96,8 @@ header {
     position: fixed;
     top: calc(46px + 60px);
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.1;
     opacity: 0.8;
 }
 
@@ -110,7 +111,7 @@ header {
     width: calc((96vw - var(--slider-width, 850px))/2);
     right: 0;
     margin: 0;
-    padding: 0 1vw 0 0.5vw;
+    padding: 0 1vw 0 0.75vw;
     list-style: none;
     height: 100%;
     top: 3vh;
@@ -121,6 +122,13 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+/* Make H1 entries bold */
+.js-toc > ol > li > a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.2;
 }
 
 /* Style H2 entries (nested level) */
