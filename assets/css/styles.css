@@ -116,13 +116,26 @@ header {
     top: 3vh;
 }
 
-/* Style the TOC links */
+/* Style H1 entries (top level) */
+.js-toc > ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style H2 entries (nested level) */
+.js-toc > ol > li > ol {
+    list-style-type: decimal;
+    padding-left: 1.5em;
+}
+
+/* Links within TOC */
 .js-toc a {
     color: #ffffff;
     text-decoration: none;
     opacity: 0.8;
     transition: opacity 0.2s ease;
-    display: block; /* Make the entire width clickable */
+    display: block;
     padding: 0.2rem 0;
 }
 
