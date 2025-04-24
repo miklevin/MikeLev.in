@@ -12,15 +12,16 @@ group: home
 
 ## Social Media Necessary For SEO - Thu Apr 24
 
-Even though I'm an SEO-guy, social media is the big traffic driver. If you're
-not leaving breadcrumbs back to your site, there are no breadcrumbs for people
-to follow who *"live"* on those addictive feed-consumption outlets — and means
-you have 100% reliance on people *thinking to search* on whatever topics you
-write about and happen to optimize well for, and that won't lead to the kind of
-exponential acceleration I'm trying to create. And therefore, whenever I write
-an article, I have to *"give it life"* in the appropriate social media channels,
-and that means getting the twitter, og and hero graphic on each article. Ugh!
-Get that plate spinning with an article to remind yourself... done.
+Even though I'm an SEO-guy, social media is the big bursty traffic driver. If
+you're not leaving breadcrumbs back to your site, there are no breadcrumbs for
+people to follow who *"live"* on those addictive feed-consumption outlets — and
+means you have 100% reliance on people *thinking to search* on whatever topics
+you write about and happen to optimize well for, and that won't lead to the kind
+of exponential acceleration I'm trying to create. And therefore, whenever I
+write an article, I have to *"give it life"* in the appropriate social media
+channels, and that means getting the twitter, og and hero graphic on each
+article. Ugh! Get that plate spinning with an article to remind yourself...
+done.
 
 ## Google Search Console 404s - Thu Apr 24
 
