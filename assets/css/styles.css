@@ -1415,3 +1415,13 @@ opacity: .8;
     background-blend-mode: normal;
     mix-blend-mode: normal;
 }
+
+#index {
+    padding: 0 0 0 2vw;
+}
+
+@media (max-width: 768px) {
+    #index {
+        margin: 0 0 0 12vw;
+    }
+}
