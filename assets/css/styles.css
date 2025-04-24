@@ -641,6 +641,7 @@ ol li .post-date {
 @media (max-width: 768px) {
     .ascii-alice {
         text-align: center;
+        overflow: hidden;
     }
 
     .ascii-alice pre {
@@ -648,6 +649,7 @@ ol li .post-date {
         line-height: 1;
         text-align: left;
         display: inline-block;
+        overflow: hidden;
     }
 }
 
