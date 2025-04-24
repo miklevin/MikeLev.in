@@ -67,7 +67,7 @@ If you think you found an old-school Webmaster, you might be right. I go back to
     {%- assign day_posts = day.items | sort: 'sort_order' | reverse -%}
     {%- for post in day_posts -%}
       <li value="{{ total_posts | minus: post_counter }}">
-        <h3><a href="https://mikelev.in{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
+        <h3 id="{{ post.title | slugify }}"><a href="https://mikelev.in{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
         {%- if post.description -%}
           <p>{{ post.description | escape | markdownify }}</p>

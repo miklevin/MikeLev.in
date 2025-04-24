@@ -97,7 +97,6 @@ header {
     top: calc(46px + 60px);
     color: #ffffff;
     font-size: 1.2rem;
-    font-family: 'Goldman', sans-serif;
     opacity: 0.8;
 }
 
@@ -106,20 +105,15 @@ header {
     left: calc((100vw - 98vw)/2 + 1rem);
 }
 
-.center-container::after {
-    content: "On This Page";
-    right: calc((100vw - 98vw)/2 + 1rem);
-}
-
 .js-toc {
     position: fixed;
-    right: calc((100vw - 98vw)/2 + 1rem);
-    top: calc(46px + 60px + 2rem); /* Position it below the "On This Page" text */
+    width: calc((96vw - var(--slider-width, 850px))/2);
+    right: 0;
     margin: 0;
-    padding: 0;
+    padding: 0 1vw 0 2vw;
     list-style: none;
-    max-height: calc(100vh - 200px); /* Prevent overflow */
-    overflow-y: auto; /* Allow scrolling if content is too long */
+    height: 100%;
+    top: 3vh;
 }
 
 /* Style the TOC links */
@@ -128,6 +122,8 @@ header {
     text-decoration: none;
     opacity: 0.8;
     transition: opacity 0.2s ease;
+    display: block; /* Make the entire width clickable */
+    padding: 0.2rem 0;
 }
 
 .js-toc a:hover {

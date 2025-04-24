@@ -199,6 +199,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const sliderContainer = document.getElementById('widthSliderContainer');
     const SIDEBAR_WIDTH = 200; // Width of each sidebar in pixels
     
+    // Set initial slider width CSS variable
+    document.documentElement.style.setProperty('--slider-width', widthSlider.value + 'px');
+    
     function updateSliderMaxWidth() {
         // Only run this on desktop
         if (isMobile()) {
@@ -246,6 +249,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 container.style.maxWidth = this.value + 'px';
                 // Update slider container width to match content
                 sliderContainer.style.width = container.offsetWidth + 'px';
+                // Update CSS variable for TOC width calculation
+                document.documentElement.style.setProperty('--slider-width', this.value + 'px');
             }
         });
     }

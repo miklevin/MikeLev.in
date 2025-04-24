@@ -99,7 +99,7 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
   <h1 itemprop="headline">{{ page.title }}</h1>
   <blockquote itemprop="description">{{ page.description | markdownify }}</blockquote>
   <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <h3>By <span itemprop="name">{{ page.author | default: site.author }}</span></h3>
+    By <span itemprop="name">{{ page.author | default: site.author }}</span>
   </div>
   <h4>
     <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
@@ -293,7 +293,7 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
   
   {%- if sorted_related_uris.size > 0 -%}
   <aside class="related-posts">
-    <h2>Related Articles</h2>
+    <h2 id="related-articles">Related Articles</h2>
     <ul>
       {%- for post_data in sorted_related_uris limit: max_related -%}
         {%- assign parts = post_data | split: '|' -%}
