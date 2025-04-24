@@ -267,92 +267,99 @@ Here are conceptual Liquid snippets illustrating how you might use this data:
 **Generating Open Graph Tags (in `<head>`):**
 
 ```liquid
-{%- assign og_title = page.meta.og.title | default: page.title -%}
+
+{% raw %}{%- assign og_title = page.meta.og.title | default: page.title -%}
 {%- assign og_description = page.meta.og.description | default: page.description -%}
 {%- assign og_image_path = page.featured_image -%}
 
-{% raw %}<meta property="og:title" content="{{ og_title | escape }}">{% endraw %}
-{% raw %}<meta property="og:description" content="{{ og_description | escape }}">{% endraw %}
-{% raw %}<meta property="og:type" content="{{ page.meta.og.type | default: 'article' }}">{% endraw %}
-{% raw %}<meta property="og:url" content="{{ page.url | absolute_url }}">{% endraw %}
+<meta property="og:title" content="{{ og_title | escape }}">
+<meta property="og:description" content="{{ og_description | escape }}">
+<meta property="og:type" content="{{ page.meta.og.type | default: 'article' }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
 {% if og_image_path %}
-{% raw %}  <meta property="og:image" content="{{ og_image_path | absolute_url }}">{% endraw %}
+  <meta property="og:image" content="{{ og_image_path | absolute_url }}">
 {% endif %}
 {% if site.title %}
-{% raw %}  <meta property="og:site_name" content="{{ site.title | escape }}">{% endraw %}
-{% endif %}
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+{% endif %}{% endraw %}
+
 ```
 
 **Generating Twitter Card Tags (in `<head>`):**
 
 ```liquid
-{%- assign twitter_title = page.meta.twitter.title | default: og_title -%}
+
+{% raw %}{%- assign twitter_title = page.meta.twitter.title | default: og_title -%}
 {%- assign twitter_description = page.meta.twitter.description | default: og_description -%}
 {%- assign twitter_image_path = page.featured_image -%}
-{%- assign twitter_site_handle = site.twitter_username -%} {# Assuming defined in _config.yml #}
-{%- assign twitter_creator_handle = page.author.twitter | default: site.author.twitter -%} {# Complex logic possible #}
+{%- assign twitter_site_handle = site.twitter_username -%}
+{%- assign twitter_creator_handle = page.author.twitter | default: site.author.twitter -%}
 
-{% raw %}<meta name="twitter:card" content="{{ page.meta.twitter.card | default: 'summary_large_image' }}">{% endraw %}
+<meta name="twitter:card" content="{{ page.meta.twitter.card | default: 'summary_large_image' }}">
 {% if twitter_site_handle %}
-{% raw %}  <meta name="twitter:site" content="@{{ twitter_site_handle }}">{% endraw %}
+  <meta name="twitter:site" content="@{{ twitter_site_handle }}">
 {% endif %}
 {% if twitter_creator_handle %}
-{% raw %}  <meta name="twitter:creator" content="@{{ twitter_creator_handle }}">{% endraw %}
+  <meta name="twitter:creator" content="@{{ twitter_creator_handle }}">
 {% endif %}
-{% raw %}<meta name="twitter:title" content="{{ twitter_title | escape }}">{% endraw %}
-{% raw %}<meta name="twitter:description" content="{{ twitter_description | escape }}">{% endraw %}
+<meta name="twitter:title" content="{{ twitter_title | escape }}">
+<meta name="twitter:description" content="{{ twitter_description | escape }}">
 {% if twitter_image_path %}
-{% raw %}  <meta name="twitter:image" content="{{ twitter_image_path | absolute_url }}">{% endraw %}
+  <meta name="twitter:image" content="{{ twitter_image_path | absolute_url }}">
   {% if page.meta.twitter.image_alt %}
-{% raw %}    <meta name="twitter:image:alt" content="{{ page.meta.twitter.image_alt | escape }}">{% endraw %}
+    <meta name="twitter:image:alt" content="{{ page.meta.twitter.image_alt | escape }}">
   {% endif %}
-{% endif %}
+{% endif %}{% endraw %}
+
 ```
 
 **Generating Schema.org JSON-LD (in `<head>`):**
 
 ```liquid
-<script type="application/ld+json">
+
+{% raw %}<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting", {% comment %} Or Article {% endcomment %}
-{% raw %}  "headline": {{ page.title | jsonify }},{% endraw %}
-{% raw %}  "description": {{ page.description | jsonify }},{% endraw %}
-{% raw %}  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},{% endraw %}
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   {% if page.last_modified_at %}
-{% raw %}    "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},{% endraw %}
+    "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
   {% else %}
-{% raw %}    "dateModified": {{ page.date | date_to_xmlschema | jsonify }},{% endraw %}
+    "dateModified": {{ page.date | date_to_xmlschema | jsonify }},
   {% endif %}
   {% if page.featured_image %}
   "image": {
     "@type": "ImageObject",
-{% raw %}    "url": {{ page.featured_image | absolute_url | jsonify }}{% endraw %}
+    "url": {{ page.featured_image | absolute_url | jsonify }}
     {% comment %} Add height/width here if easily available {% endcomment %}
   },
   {% endif %}
   "mainEntityOfPage": {
     "@type": "WebPage",
-{% raw %}    "@id": {{ page.url | absolute_url | jsonify }}{% endraw %}
+    "@id": {{ page.url | absolute_url | jsonify }}
   },
   {% comment %} Add Author, Publisher based on site/page config {% endcomment %}
   "author": {
     "@type": "Person",
-{% raw %}    "name": {% if page.author.name %}{{ page.author.name | jsonify }}{% else %}{{ site.author.name | jsonify }}{% endif %}{% endraw %}
+    "name": {{ page.author.name | default: site.author.name | jsonify }}
   },
   "publisher": {
     "@type": "Organization",
-{% raw %}    "name": {{ site.title | jsonify }},{% endraw %}
+    "name": {{ site.title | jsonify }},
     {% if site.logo %}
     "logo": {
       "@type": "ImageObject",
-{% raw %}      "url": {{ site.logo | absolute_url | jsonify }}{% endraw %}
+      "url": {{ site.logo | absolute_url | jsonify }}
     }
     {% endif %}
   }
 }
-</script>
+</script>{% endraw %}
+
 ```
+
 *Note: The Liquid snippets above are illustrative. Error handling, variable existence checks, and specific logic for your site structure might require more sophisticated code.*
 
 ### Handling Thumbnails Pragmatically
