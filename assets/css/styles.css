@@ -77,56 +77,44 @@ header {
     margin: 0 auto;
     min-height: 100vh;
     position: relative;
-    z-index: 0;
-    overflow: visible;
 }
 
-/* Sidebar styles */
-.sidebar-left, .sidebar-right {
-    flex: 0 0 200px;
-    padding: 1rem;
-    background-color: var(--accent-bg);
+/* Main container */
+.container {
+    flex: 1;
+    max-width: 850px;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
     position: relative;
 }
 
-.sidebar-left::before, .sidebar-right::before {
-    content: attr(class);
+/* Margin content */
+.center-container::before,
+.center-container::after {
     position: fixed;
-    top: calc(46px + 60px); /* Match header padding */
+    top: calc(46px + 60px);
     color: #ffffff;
     font-size: 1.2rem;
     font-family: 'Goldman', sans-serif;
     opacity: 0.8;
 }
 
-.sidebar-left::before {
-    left: calc((100vw - 98vw)/2 + 1rem);
+.center-container::before {
     content: "Topic Tags";
+    left: calc((100vw - 98vw)/2 + 1rem);
 }
 
-.sidebar-right::before {
-    right: calc((100vw - 98vw)/2 + 1rem);
+.center-container::after {
     content: "On This Page";
+    right: calc((100vw - 98vw)/2 + 1rem);
 }
 
 @media (max-width: 768px) {
-    .sidebar-left, .sidebar-right {
+    .center-container::before,
+    .center-container::after {
         display: none;
     }
-}
-
-/* Main container */
-.container {
-    flex: 1; /* Grow to take remaining space */
-    max-width: 850px;
-    margin: 0;
-    padding: 0 20px;
-    box-sizing: border-box;
-    position: relative; /* Create stacking context */
-    z-index: 1; /* Establish z-index */
-    height: 100%; /* Full height */
-    overflow-y: visible; /* Allow sticky elements to work */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 main {
@@ -1399,7 +1387,7 @@ opacity: .8;
 
 /* Sidebar styles */
 .sidebar-left, .sidebar-right {
-    flex: 0 0 200px; /* Don't grow, don't shrink, fixed width */
+    flex: 0 1 auto; /* Don't grow, can shrink, auto basis */
     padding: 1rem;
     background-color: var(--accent-bg);
 }
