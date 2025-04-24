@@ -18,7 +18,8 @@ probably means persistent interest in the topic, and you should either consider
 bringing back the original content that was there (reworking for whatever reason
 it was removed), or a better 301 redirect to take advantage of that potential
 traffic asset. Google is saying it *wants* to show your site on the topics
-related to that page. It's not giving up on you.
+related to that page. It's not giving up on you. Tackling these will be one of
+the things to do when home-hosting.
 
 ## Collapse All Folders In VSCode
 
@@ -29,5 +30,6 @@ copy/paste. And all the best AI help is in VSCode and its forks like Cursor. But
 now that I am on VSCode/Cursor, I need to get over the biggest friction points.
 And that is directory-diving. Those nested directory panels are the productivity
 killers. I just found the inconspicuous "Collapse Folders in Explorer" link.
+Collapse them all — ALL THE TIME, then expand as necessary.
 
 
