@@ -156,7 +156,7 @@ meta:
 
 ### Integrating Twitter Card Tags
 
-Twitter Cards provide a similar rich preview experience specifically for Twitter. They often fall back to OG tags if not specified, but explicit control is better.
+Twitter Cards (now called X Cards, but still using the `twitter:` prefix in metadata) provide a similar rich preview experience specifically for X (formerly Twitter). They often fall back to OG tags if not specified, but explicit control is better.
 
 ```yaml
 ---
@@ -165,7 +165,7 @@ featured_image: /assets/images/featured-image-for-post.jpg
 meta:
   og:
     # ... og tags as above ...
-  twitter:
+  twitter:  # Note: Still uses twitter: prefix even after X rebrand
     # Type of card: summary, summary_large_image, app, player
     card: summary_large_image
     # Your site's Twitter handle (include @) - Best set globally in _config.yml
