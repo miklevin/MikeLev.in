@@ -91,7 +91,8 @@ header {
 
 /* Margin content */
 .center-container::before,
-.center-container::after {
+.center-container::after,
+.js-toc {
     position: fixed;
     top: calc(46px + 60px);
     color: #ffffff;
@@ -110,9 +111,34 @@ header {
     right: calc((100vw - 98vw)/2 + 1rem);
 }
 
+.js-toc {
+    position: fixed;
+    right: calc((100vw - 98vw)/2 + 1rem);
+    top: calc(46px + 60px + 2rem); /* Position it below the "On This Page" text */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: calc(100vh - 200px); /* Prevent overflow */
+    overflow-y: auto; /* Allow scrolling if content is too long */
+}
+
+/* Style the TOC links */
+.js-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.js-toc a:hover {
+    opacity: 1;
+    color: var(--accent);
+}
+
 @media (max-width: 768px) {
     .center-container::before,
-    .center-container::after {
+    .center-container::after,
+    .js-toc {
         display: none;
     }
 }

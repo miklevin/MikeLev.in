@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="https://mikelev.in/assets/css/syntax.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.32.2/tocbot.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaid }}"></script>
     <script>
@@ -84,7 +85,9 @@
         </div>
     </header>
     <main>
-        {{ content }}
+        <div class="js-toc-content">
+            {{ content }}
+        </div>
     </main>
     <footer>
         <p>
@@ -101,6 +104,20 @@
         </p>
     </footer>
 </div>
+<div class="js-toc"></div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.32.2/tocbot.min.js"></script>
+<script>
+tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: '.js-toc',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: '.js-toc-content',
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: 'h1, h2, h3',
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+  });
+</script>
 </body>
 </html>
