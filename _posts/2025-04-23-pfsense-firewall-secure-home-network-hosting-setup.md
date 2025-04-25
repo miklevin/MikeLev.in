@@ -127,6 +127,82 @@ Setting up a dedicated firewall like pfSense is a significant, but achievable, f
 
 ---
 
+## Addendum: Troubleshooting Elusive IPv6 Connectivity
+
+While the initial setup laid a solid IPv4 foundation and successfully demoted the Verizon CR1000A router, the modern internet demands robust IPv6 support as well. My goal was always dual-stack capability, allowing devices to use IPv6 where available. However, shortly after the baseline configuration, I encountered perplexing IPv6 issues that weren't immediately obvious.
+
+**The Symptoms: IPv6 Aware, But Not Connected**
+
+On a client machine connected to the pfSense LAN (a NixOS system, in this case), basic network checks revealed a split personality:
+
+* `nslookup google.com` worked perfectly, resolving both IPv4 and IPv6 addresses. DNS was clearly functional for both protocols.
+* `ping -4 google.com` (forcing IPv4) worked flawlessly, confirming the core IPv4 routing through pfSense was solid.
+* `ping google.com` (which defaulted to IPv6 on this system) or `ping -6 google.com` failed completely with 100% packet loss.
+
+This immediately isolated the problem: IPv6 name resolution worked, but actual IPv6 packet transmission was failing somewhere between the client and the internet. My initial suspicion fell on the client's firewall (configured on NixOS), but a review showed standard stateful rules and an open outbound policy, making it an unlikely culprit for blocking outgoing pings.
+
+**Narrowing the Search: Traceroute and Local Pings**
+
+To pinpoint the failure, I turned to `traceroute -6 google.com`. The result was stark: timeouts (`* * *`) starting from the very first hop. This meant the client couldn't even reach its designated default gateway – the pfSense router – using IPv6.
+
+Further testing confirmed this local breakdown:
+
+* Pinging the pfSense router's LAN IPv4 address (`192.168.1.1`) worked instantly.
+* Pinging the pfSense router's LAN IPv6 addresses (both its global address derived from my ISP prefix and its link-local address) failed completely.
+
+This was confusing. I verified the pfSense LAN interface settings (`Interfaces -> LAN`). It was correctly set to `Track Interface` for IPv6 Configuration Type and, according to the `Status -> Interfaces` page, it *did* have both global and link-local IPv6 addresses assigned, derived correctly from the WAN. The interface itself seemed configured correctly. My next thought turned to the services needed for IPv6 auto-configuration.
+
+**The "Aha!" Moment: Rogue Router Advertisements**
+
+IPv6 clients typically learn their default gateway via Router Advertisement (RA) messages sent by the local router. I checked the pfSense RA service configuration (`Services > DHCPv6 Server & RA > Router Advertisements`) and confirmed it was enabled for the LAN interface (initially `Assisted`, later switched to `Stateless` during testing – both valid modes).
+
+The real breakthrough came when examining the client's IPv6 routing table using `ip -6 route show default`. Instead of showing just one default gateway, it listed **two** distinct link-local `fe80::...` nexthop addresses advertised via RA!
+
+One address clearly corresponded to the pfSense box (matching its MAC address via the EUI-64 format). The *other* link-local address belonged to the **Verizon CR1000A router** – the very device I thought I had successfully relegated to a simple Access Point! Despite disabling its DHCP server and changing its IP, it was still sending out IPv6 Router Advertisements, declaring itself a gateway and confusing clients on the network. This created routing instability and was almost certainly the cause of the connectivity failures.
+
+**Silencing the Conflict: Disabling IPv6 on the CR1000A**
+
+Armed with this knowledge, I logged back into the CR1000A's admin interface (`192.168.1.2`). Navigating to its IPv6 settings confirmed the LAN configuration was set to `Stateless`, explaining the RAs. Unfortunately, the firmware didn't offer a simple "Disable Router Advertisements for LAN" option; the only alternative was `Stateful (DHCPv6)`, which would *still* send RAs.
+
+Given that the pfSense box was directly connected to the ONT and handling all primary routing duties, the most definitive solution was to **disable IPv6 support entirely** on the CR1000A using its main IPv6 toggle (Section 1 on its config page). I applied the change and restarted the Verizon router.
+
+**Verification and the Final Hurdle**
+
+Back on the NixOS client (after a network restart), `ip -6 route show default` now correctly showed *only* the pfSense gateway's link-local address listed as a nexthop. Progress!
+
+Next, I tested pings again:
+
+* Pinging pfSense's link-local address (using `ping <pfSense_link_local_address>%<interface_name>`): **Success!** Local IPv6 link communication was finally working.
+* Pinging pfSense's global IPv6 address: **Failed.**
+* Pinging an external IPv6 host like `ipv6.google.com`: **Failed.**
+
+So, while the local conflict was resolved, reaching global IPv6 addresses (even the one on the pfSense router itself) or routing externally via IPv6 was still broken. This pointed back squarely at pfSense.
+
+**Testing from the Source: pfSense Diagnostics**
+
+Before diving deep into firewall rules, I used pfSense's built-in diagnostics (`Diagnostics > Ping`). I pinged `ipv6.google.com`, ensuring `IPv6` was selected. Crucially, I tested sourcing the ping first from the `LAN` interface's global address and then from the `WAN` interface's address.
+
+The result: **Both tests succeeded.** This proved pfSense *itself* had functional external IPv6 connectivity and could route traffic correctly when initiating it from its own interfaces using its assigned global prefix. The problem wasn't its core routing capability or WAN connection, but likely how it handled traffic *originating from* the LAN clients or the associated firewall states.
+
+**Resolution: The Network Settles**
+
+The next logical step was a meticulous review of the pfSense LAN firewall rules (`Firewall > Rules > LAN`) to ensure the default allow rule correctly covered IPv6 (`IPv4+IPv6`, source `LAN net`, destination `any`) and wasn't being overridden. However, while preparing to scrutinize the ruleset and potentially check the state table (`Diagnostics > States`), I decided to re-test the original application that prompted this deep dive – the Jekyll bundle installer on the NixOS client.
+
+To my surprise, **it worked perfectly.** Subsequent tests showed that external IPv6 pings from the NixOS client now also succeeded. It seemed that the combination of removing the conflicting RAs from the CR1000A, potentially minor adjustments to the pfSense RA settings, and allowing some time for network states and neighbor caches to update across devices had resolved the final blockage, even if the direct ping test failed immediately after the CR1000A change.
+
+**Lessons Learned (IPv6 Edition)**
+
+This troubleshooting detour underscored a few key points:
+
+1.  **ISP Routers Need Taming:** When introducing your own firewall, be *extra* vigilant about disabling conflicting services (DHCPv4, DHCPv6, RAs) on the ISP device, even if you've set it to "AP Mode" or changed its IP. IPv6's auto-configuration mechanisms (RA/SLAAC) can cause non-obvious conflicts.
+2.  **Verify with `ip route`:** Don't assume your client is using the correct gateway. Checking the routing table (`ip -6 route show default`) is essential for diagnosing multi-router or rogue RA issues.
+3.  **Test from the Router:** Using the firewall's own diagnostic tools (`Diagnostics > Ping` in pfSense) is invaluable for determining if a connectivity problem lies with the firewall itself or with the client/path.
+4.  **Patience After Changes:** Network protocols, especially stateful ones involving advertisements and caches, sometimes require a bit of time (or service/device restarts) for changes to fully propagate and stabilize.
+
+While the initial IPv6 setup encountered more hurdles than IPv4, resolving them solidified the network's configuration and provided valuable insight into the intricacies of modern dual-stack networking behind a dedicated firewall.
+
+---
+
 ## AI Analysis
 
 * **Title/Headline Ideas:**
