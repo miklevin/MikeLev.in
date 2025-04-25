@@ -91,7 +91,7 @@
               # Change to the site root
               cd "$site_root"
               echo "Serving from $(pwd)..."
-              bundle exec jekyll serve --verbose --livereload
+              bundle exec jekyll serve --verbose --incremental
               
               # Return to the original directory
               cd "$current_dir"

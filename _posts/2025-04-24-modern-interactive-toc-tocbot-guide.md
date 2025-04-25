@@ -86,7 +86,7 @@ Here’s a pedantically detailed breakdown:
 
 **1. The Foundation: HTML Structure**
 
-* **Content Container:** We assume the main page content, containing the headings (`h1` to `h6`) that will form the ToC, is wrapped in a container element, for example: `<main class="main-content"> ... {{ page.content }} ... </main>`.
+{% raw %}* **Content Container:** We assume the main page content, containing the headings (`h1` to `h6`) that will form the ToC, is wrapped in a container element, for example: `<main class="main-content"> ... {{ page.content }} ... </main>`.{% endraw %}
 * **ToC Placeholder:** A dedicated element is placed in the desired location (typically a fixed sidebar) where Tocbot will inject the generated ToC list. We use a class `js-toc` as the target selector for Tocbot: `<aside class="toc-container"><div class="js-toc"></div></aside>`.
 * **Heading IDs:** Crucially, this relies on the underlying content generation (e.g., Jekyll using kramdown) automatically adding unique `id` attributes to all `h1`, `h2`, `h3`, etc., elements based on their text. Example: `## Section Title` becomes `<h2 id="section-title">Section Title</h2>`. Tocbot uses these IDs for its links.
 
@@ -298,7 +298,7 @@ The Table of Contents has transformed from a static necessity into a dynamic and
 
 ---
 
-## Perfecting Table of Contents: The Final Touch on Content Layout Shift
+# Perfecting Table of Contents: The Final Touch on Content Layout Shift
 
 > This is some bonus content, after I deployed the new table of contents, I
 > noticed excessive "popping" in the layout as I switched from page-to-page, and
