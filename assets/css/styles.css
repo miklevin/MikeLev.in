@@ -160,10 +160,6 @@ header {
     transition: content 0.2s ease;
 }
 
-.js-toc > ol > li > ol > li > ol > li:hover::before {
-    content: "🐹";
-}
-
 /* Adjust spacing for H3 links to align with emoji */
 .js-toc > ol > li > ol > li > ol > li > a {
     padding-left: 0.2em;
