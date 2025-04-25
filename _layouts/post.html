@@ -3,22 +3,19 @@ layout: default
 author: Mike Levin
 ---
 
-{% comment %}
+{%- comment -%}
 Change this value to switch between absolute and relative URLs:
 - true: absolute URLs with domain (for production)
 - false: relative URLs without domain (for local testing)
-{% endcomment %}
-{% assign use_absolute_urls = true %}
-
-{% capture url_base %}{% if use_absolute_urls %}https://mikelev.in{% else %}{% endif %}{% endcapture %}
-
-{% comment %}
+{%- endcomment -%}
+{%- assign use_absolute_urls = true -%}
+{%- capture url_base -%}{%- if use_absolute_urls -%}https://mikelev.in{%- else -%}{%- endif -%}{%- endcapture -%}
+{%- comment -%}
 Create a flat index of all posts in the correct sort order (same as in list.md)
-{% endcomment %}
+{%- endcomment -%}
 {%- assign sorted_posts = site.posts | sort: 'date' -%}
 {%- assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse -%}
 {%- assign total_posts = site.posts.size -%}
-
 {%- assign flat_index = "" | split: "" -%}
 {%- for day in grouped_posts -%}
   {%- assign day_posts = day.items | sort: 'sort_order' | reverse -%}
@@ -26,10 +23,9 @@ Create a flat index of all posts in the correct sort order (same as in list.md)
     {%- assign flat_index = flat_index | push: post -%}
   {%- endfor -%}
 {%- endfor -%}
-
-{% comment %}
+{%- comment -%}
 Find current post's position in the flat index
-{% endcomment %}
+{%- endcomment -%}
 {%- assign current_position = -1 -%}
 {%- for idx_post in flat_index -%}
   {%- if idx_post.url == page.url -%}
@@ -37,27 +33,23 @@ Find current post's position in the flat index
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
-
-{% comment %}
+{%- comment -%}
 Determine prev and next posts in the flat index
 But flip the direction - "previous" is newer (lower index), "next" is older (higher index)
-{% endcomment %}
+{%- endcomment -%}
 {%- assign custom_prev = nil -%}
 {%- assign custom_next = nil -%}
 {%- assign max_index = flat_index.size | minus: 1 -%}
-
 {%- if current_position < max_index -%}
   {%- assign prev_position = current_position | plus: 1 -%}
   {%- assign custom_prev = flat_index[prev_position] -%}
 {%- endif -%}
-
 {%- if current_position > 0 -%}
   {%- assign next_position = current_position | minus: 1 -%}
   {%- assign custom_next = flat_index[next_position] -%}
 {%- endif -%}
-
 <nav class="post-navigation top-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
-  {% if custom_prev %}
+  {%- if custom_prev -%}
     <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Previous Post</span>
       <a href="{{ url_base }}{{ custom_prev.url }}" itemprop="item">
@@ -65,10 +57,9 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
       </a>
       <meta itemprop="position" content="1" />
     </div>
-  {% else %}
+  {%- else -%}
     <div class="previous-post placeholder"></div>
-  {% endif %}
-  
+  {%- endif -%}
   <div class="home-link" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
     <a href="{{ url_base }}/" itemprop="item" class="home-link-container">
       <span class="home-text" itemprop="name">
@@ -81,8 +72,7 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
     </a>
     <meta itemprop="position" content="2" />
   </div>
-  
-  {% if custom_next %}
+  {%- if custom_next -%}
     <div class="next-post wiggle-prompt" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Next Post</span>
       <a href="{{ url_base }}{{ custom_next.url }}" itemprop="item">
@@ -90,36 +80,34 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
       </a>
       <meta itemprop="position" content="3" />
     </div>
-  {% else %}
+  {%- else -%}
     <div class="next-post placeholder"></div>
-  {% endif %}
+  {%- endif -%}
 </nav>
-
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 itemprop="headline">{{ page.title }}</h1>
-  <blockquote itemprop="description">{{ page.description | markdownify }}</blockquote>
+  <h1 itemprop="headline">{{- page.title -}}</h1>
+  <blockquote itemprop="description">{{- page.description | markdownify -}}</blockquote>
   <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-    By <span itemprop="name">{{ page.author | default: site.author }}</span>
+    By <span itemprop="name">{{- page.author | default: site.author -}}</span>
   </div>
   <h4>
-    <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
-      {{ page.date | date: '%A, %B %-d, %Y' }}
+    <time itemprop="datePublished" datetime="{{- page.date | date_to_xmlschema -}}">
+      {{- page.date | date: '%A, %B %-d, %Y' -}}
     </time>
   </h4>
   <div itemprop="articleBody">
-    {{ content }}
+    {{- content -}}
   </div>
-  <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
-  <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ page.url }}">
+  <meta itemprop="url" content="{{- site.url -}}{{- page.url -}}">
+  <meta itemprop="mainEntityOfPage" content="{{- site.url -}}{{- page.url -}}">
   <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="{{ site.title }}">
-    <meta itemprop="url" content="{{ site.url }}">
+    <meta itemprop="name" content="{{- site.title -}}">
+    <meta itemprop="url" content="{{- site.url -}}">
     <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-      <meta itemprop="url" content="{{ site.url }}/assets/logo.png">
+      <meta itemprop="url" content="{{- site.url -}}/assets/logo.png">
     </div>
   </div>
 </article>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -154,7 +142,6 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
   "wordCount": "{{ content | number_of_words }}"
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -188,7 +175,6 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
   ]
 }
 </script>
-
 <nav class="post-navigation bottom-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
   {% if custom_prev %}
     <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -200,7 +186,6 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
   {% else %}
     <div class="previous-post placeholder"></div>
   {% endif %}
-  
   <div class="home-link" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
     <a href="{{ url_base }}/" itemprop="item" class="home-link-container">
       <span class="home-text" itemprop="name">
@@ -213,7 +198,6 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
     </a>
     <meta itemprop="position" content="2" />
   </div>
-  
   {% if custom_next %}
     <div class="next-post wiggle-prompt" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Next Post</span>
@@ -225,28 +209,23 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
     <div class="next-post placeholder"></div>
   {% endif %}
 </nav>
-
 {% comment %}
   Calculate post number using the flat index position instead of backwards counting
   Reverse the numbering so newest posts (position 0) show as highest number
 {% endcomment %}
 {% assign total_posts = flat_index.size %}
 {% assign post_number = total_posts | minus: current_position %}
-
 <div class="post-counter" style="text-align: center; margin: 20px 0; font-style: italic;">
   <span>Post #{{ post_number }} of {{ total_posts }} - {{ page.date | date: '%B %-d, %Y' }}</span>
 </div>
-
 {% comment %} --- Display Top GSC Keywords (Comma Separated) --- {% endcomment %}
 {%- assign current_page_url = page.url -%}
 {%- if current_page_url != '/' and current_page_url != '' -%}
   {%- unless current_page_url contains '/' -%}{%- assign current_page_url = current_page_url | append: '/' -%}{%- endunless -%}
 {%- endif -%}
-
 {%- comment -%}Simplified Related Articles Section{%- endcomment -%}
 {%- assign max_related = 5 -%}
 {%- assign min_common_tags = 1 -%}
-
 {%- if page.meta_keywords and page.meta_keywords != "" -%}
   {%- comment -%}Get current post's keywords{%- endcomment -%}
   {%- assign current_post_keywords = "" | split: "" -%}
@@ -257,29 +236,24 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
       {%- assign current_post_keywords = current_post_keywords | push: cleaned_keyword -%}
     {%- endif -%}
   {%- endfor -%}
-
   {%- comment -%}Score any post with matching keywords{%- endcomment -%}
   {%- assign related_posts_scored = "" | split: "" -%}
-  
   {%- for post in flat_index -%}
     {%- if post.url != page.url and post.meta_keywords -%}
       {%- assign common_tags_count = 0 -%}
       {%- assign post_keywords = "" | split: "" -%}
       {%- assign other_raw_keywords = post.meta_keywords | split: "," -%}
-      
       {%- for keyword in other_raw_keywords -%}
         {%- assign cleaned_keyword = keyword | strip | downcase -%}
         {%- if cleaned_keyword != "" -%}
           {%- assign post_keywords = post_keywords | push: cleaned_keyword -%}
         {%- endif -%}
       {%- endfor -%}
-      
       {%- for tag in current_post_keywords -%}
         {%- if post_keywords contains tag -%}
           {%- assign common_tags_count = common_tags_count | plus: 1 -%}
         {%- endif -%}
       {%- endfor -%}
-      
       {%- if common_tags_count >= min_common_tags -%}
         {%- assign post_date_score = post.date | date: "%s" | divided_by: 86400 -%}
         {%- assign score_padded = post_date_score | append: common_tags_count | prepend: '00000000' | slice: -8, 8 -%}
@@ -288,9 +262,7 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
-
   {%- assign sorted_related_uris = related_posts_scored | sort | reverse -%}
-  
   {%- if sorted_related_uris.size > 0 -%}
   <aside class="related-posts">
     <h2 id="related-articles">Related Articles</h2>
@@ -315,32 +287,6 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
       {%- endfor -%}
     </ul>
   </aside>
-  <style>
-  .related-posts {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
-  }
-  .related-posts h2 {
-    margin-bottom: 15px;
-    font-size: 1.4em;
-  }
-  .related-posts ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  .related-posts li {
-    margin-bottom: 12px;
-  }
-  .related-posts .post-meta {
-    font-size: 0.9em;
-    margin-top: 2px;
-  }
-  .related-posts .post-description {
-    font-style: italic;
-  }
-  </style>
   {%- endif -%}
 {%- endif -%}
 {%- comment -%}--- End Related Articles Section ---{%- endcomment -%}

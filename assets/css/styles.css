@@ -1502,3 +1502,28 @@ opacity: .8;
         margin: 0 0 0 12vw;
     }
 }
+
+.related-posts {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+.related-posts h2 {
+  margin-bottom: 15px;
+  font-size: 1.4em;
+}
+.related-posts ul {
+  list-style: none;
+  padding-left: 0;
+}
+.related-posts li {
+  margin-bottom: 12px;
+}
+.related-posts .post-meta {
+  font-size: 0.9em;
+  margin-top: 2px;
+}
+.related-posts .post-description {
+  font-style: italic;
+}

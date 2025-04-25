@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} / {{ site.title }}</title>
+    <title>{%- if page.type == "post" -%}{{ post.title }}{%- else -%}{{ page.title }}{%- endif -%} / {{ site.title }}</title>
     <meta name="description" content="{{ page.meta_description | default: page.description }}" />
     {%- assign manual_keywords = page.meta_keywords | default: page.keywords | split: ", " -%}
     {%- assign manual_keywords_lower = "" | split: "" -%}
@@ -22,10 +22,10 @@
       {%- assign combined_keywords = manual_keywords_lower | concat: gsc_keywords_lower | uniq -%}
     {%- else -%}
       {%- assign combined_keywords = manual_keywords_lower -%}
-    {%- endif %}
-    {%- if combined_keywords.size > 0 %}
+    {%- endif -%}
+    {%- if combined_keywords.size > 0 -%}
     <meta name="keywords" content="{{ combined_keywords | join: ', ' }}" />
-    {%- endif %}
+    {%- endif -%}
     <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />
     <link rel="stylesheet" href="https://mikelev.in/assets/css/pico.classless.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">
@@ -86,7 +86,7 @@
     </header>
     <main>
         <div class="js-toc-content">
-            {{ content }}
+            {{- content -}}
         </div>
     </main>
     <footer>
