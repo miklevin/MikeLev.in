@@ -12,6 +12,8 @@ rouge:
   style: github 
 
 kramdown:
+  empty_element_suffix: ">"
+  hardwrap: false
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
