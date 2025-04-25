@@ -22,7 +22,7 @@ group: home
 }
 </script>
 
-# Finding Purpose Through Timeless Tech Tools
+# Finding Purpose Through Timeless Tech Tools & Skills
 
 <div class="logo-container">
     <div class="logo-item">
@@ -61,9 +61,17 @@ If you think you found an old-school Webmaster, you might be right. I go back to
 <ol reversed id="index">
   {%- assign total_posts = site.posts.size -%}
   {%- assign post_counter = 0 -%}
+  {%- assign current_month = "" -%}
   {%- for day in grouped_posts -%}
     {%- assign day_posts = day.items | sort: 'sort_order' | reverse -%}
     {%- for post in day_posts -%}
+      {%- assign post_month = post.date | date: "%B %Y" -%}
+      {%- if post_month != current_month -%}
+        {%- unless forloop.first -%}</ol>{%- endunless -%}
+        <h2 id="{{ post_month }}">{{ post_month }}</h2>
+        {%- assign current_month = post_month -%}
+        <ol reversed start="{{ total_posts | minus: post_counter }}">
+      {%- endif -%}
       <li value="{{ total_posts | minus: post_counter }}">
         <h3 id="{{ post.title | slugify }}"><a href="https://mikelev.in{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
@@ -85,6 +93,10 @@ If you think you found an old-school Webmaster, you might be right. I go back to
   {%- endfor -%}
 </ol>
 
+<h1 id="Wonderland">The Rabbit Hole</h1>
+  
+{% include alice.html %}
+
 <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
@@ -94,5 +106,3 @@ If you think you found an old-school Webmaster, you might be right. I go back to
     </a>
   </div>
 </div>
-  
-{% include alice.html %}
