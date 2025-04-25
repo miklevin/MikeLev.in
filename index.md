@@ -22,13 +22,20 @@ group: home
 }
 </script>
 
-# Finding Purpose Through Timeless Tech Skills
+# Finding Purpose Through Timeless Tech Tools
+
+<div class="logo-container">
+    <div class="logo-item">
+          <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
+    </div>
+    <div class="logo-item">
+          <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
+    </div>
+</div>
 
 <div class="bunny-trail">
 <p><b>LPvgn</b> is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git & nix. I use them daily to build AI and automation systems — but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years. Jump down the rabbit hole.</p>
-{% include bunny.html %}
-</div>
-
+{% include bunny.html %}</div>
 {%- assign sorted_posts = site.posts | sort: 'date' -%}
 {%- assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse -%}
 {%- assign first_post = sorted_posts | last -%}
@@ -45,20 +52,11 @@ group: home
   </div>
 </div>
 
-<div class="logo-container">
-    <div class="logo-item">
-          <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
-    </div>
-    <div class="logo-item">
-          <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
-    </div>
-</div>
-
 ---
 
-# The AI Future-Proofing Blog
+# Future-Proof Yourself In The Age of AI
 
-If you think you found an old-school Webmaster, you might be right. I go back to the halls of Commodore Computers where I worked as a student intern. Today, I fan the flames of the *Webmaster's Return,* thanks to AI and certain key tech that lets one person do it all again! Enjoy my raw stream of consciousness articles while I coax them into an organized and pleasant experience.
+If you think you found an old-school Webmaster, you might be right. I go back to the halls of Commodore Computers where I worked as a student intern. Today, I fan the flames of the *Webmaster's Return,* thanks to AI and certain key tech that lets one person do it all again! Enjoy my raw stream of consciousness articles while I *eventually* coax them into an organized experience.
 
 <ol reversed id="index">
   {%- assign total_posts = site.posts.size -%}

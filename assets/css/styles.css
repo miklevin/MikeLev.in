@@ -1285,7 +1285,7 @@ img {
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin: 2rem 0;
+    margin: 3vh 0 1vh 0;
 }
 
 .bunny-trail > p {
