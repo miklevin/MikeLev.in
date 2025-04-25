@@ -623,7 +623,7 @@ class StarterFlow:
             if step.done != 'finalized':
                 self.STEP_MESSAGES[step.id] = {
                     "input": f"Step {step.id}: Please enter {step.show}",
-                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
+{% raw %}                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."{% endraw %}
                 }
         # Register routes
         routes = [
@@ -1005,7 +1005,7 @@ class StarterFlow:
             if step.done != 'finalized':
                 self.STEP_MESSAGES[step.id] = {
                     "input": f"Step {step.id}: Please enter {step.show}",
-                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
+{% raw %}                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."{% endraw %}
                 }
         # Register all workflow routes.
         routes = [
@@ -1502,7 +1502,7 @@ class StarterFlow:
             if step.done != 'finalized':
                 self.STEP_MESSAGES[step.id] = {
                     "input": f"Step {step.id}: Please enter {step.show}",
-                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
+{% raw %}                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."{% endraw %}
                 }
         # Register routes for all workflow methods.
         routes = [
@@ -1865,7 +1865,7 @@ class PipeFlow:
             if step.done != 'finalized':
                 self.STEP_MESSAGES[step.id] = {
                     "input": f"Step {step.id}: Please enter {step.show}",
-                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
+{% raw %}                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."{% endraw %}
                 }
         # Register all the routes.
         routes = [
@@ -2213,7 +2213,7 @@ class PipeFlow:
             if step.done != 'finalized':
                 self.STEP_MESSAGES[step.id] = {
                     "input": f"Step {step.id}: Please enter {step.show}",
-                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
+{% raw %}                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."{% endraw %}
                 }
         # Register all workflow routes.
         routes = [

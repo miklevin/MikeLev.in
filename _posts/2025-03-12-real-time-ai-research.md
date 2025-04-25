@@ -560,7 +560,7 @@ from langchain_core.output_parsers import JsonOutputParser
 prompt = ChatPromptTemplate.from_template("""
 
 system  
-Return a JSON object with {{'city': 'string', 'temperature': integer}} for: {query}
+{% raw %}Return a JSON object with {{'city': 'string', 'temperature': integer}} for: {query}{% endraw %}
 
 assistant
 """)

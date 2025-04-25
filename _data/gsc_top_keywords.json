@@ -17,22 +17,22 @@
     },
     {
       "query": "michael levin blog",
-      "impressions": 140,
+      "impressions": 153,
       "clicks": 0
     },
     {
       "query": "mike seo",
-      "impressions": 53,
+      "impressions": 51,
       "clicks": 0
     },
     {
       "query": "levin ai",
-      "impressions": 48,
+      "impressions": 50,
       "clicks": 1
     },
     {
       "query": "pipulate",
-      "impressions": 39,
+      "impressions": 40,
       "clicks": 2
     },
     {
@@ -54,7 +54,12 @@
   "/about/": [
     {
       "query": "mike seo",
-      "impressions": 8,
+      "impressions": 14,
+      "clicks": 0
+    },
+    {
+      "query": "pipulate",
+      "impressions": 5,
       "clicks": 0
     },
     {
@@ -63,15 +68,15 @@
       "clicks": 0
     },
     {
-      "query": "pipulate",
-      "impressions": 4,
+      "query": "360i seo",
+      "impressions": 2,
       "clicks": 0
     }
   ],
   "/api/": [
     {
       "query": "botifu",
-      "impressions": 5,
+      "impressions": 6,
       "clicks": 0
     },
     {
@@ -83,7 +88,7 @@
   "/cursorrules/": [
     {
       "query": "python cursorrules",
-      "impressions": 314,
+      "impressions": 291,
       "clicks": 0
     },
     {
@@ -122,12 +127,12 @@
       "clicks": 0
     },
     {
-      "query": "\".cursorrules\"",
+      "query": ".cursorrules python",
       "impressions": 1,
       "clicks": 0
     },
     {
-      "query": ".cursorrules python",
+      "query": "cursor python rules",
       "impressions": 1,
       "clicks": 0
     }
@@ -135,7 +140,12 @@
   "/fasthtml/": [
     {
       "query": "fasthtml vs fastapi",
-      "impressions": 14,
+      "impressions": 17,
+      "clicks": 2
+    },
+    {
+      "query": "fasthtml fastapi",
+      "impressions": 8,
       "clicks": 1
     },
     {
@@ -144,17 +154,17 @@
       "clicks": 1
     },
     {
-      "query": "fasthtml fastapi",
-      "impressions": 5,
-      "clicks": 1
+      "query": "minidataapi",
+      "impressions": 2,
+      "clicks": 0
     },
     {
-      "query": "htmx",
+      "query": "flask vs fastapi",
       "impressions": 1,
       "clicks": 0
     },
     {
-      "query": "minidataapi",
+      "query": "htmx",
       "impressions": 1,
       "clicks": 0
     }
@@ -162,7 +172,12 @@
   "/futureproof/2024-11-20-flow-state-alternation/": [
     {
       "query": "seo michael pulse",
-      "impressions": 13,
+      "impressions": 50,
+      "clicks": 0
+    },
+    {
+      "query": "seo flow",
+      "impressions": 2,
       "clicks": 0
     },
     {
@@ -188,6 +203,11 @@
       "clicks": 0
     },
     {
+      "query": "bacon ai",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "click ease",
       "impressions": 1,
       "clicks": 0
@@ -201,7 +221,19 @@
   "/futureproof/80-percent-cost-reduction-in-ai-operations/": [
     {
       "query": "botify commands",
-      "impressions": 10,
+      "impressions": 13,
+      "clicks": 0
+    }
+  ],
+  "/futureproof/accelerating-seo-automation/": [
+    {
+      "query": "seo automation python",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "coreseo",
+      "impressions": 1,
       "clicks": 0
     }
   ],
@@ -230,12 +262,12 @@
   "/futureproof/agentic-frameworks-vs-browser-automation/": [
     {
       "query": "browser-use vs skyvern",
-      "impressions": 25,
+      "impressions": 28,
       "clicks": 0
     },
     {
       "query": "browser use vs skyvern",
-      "impressions": 21,
+      "impressions": 23,
       "clicks": 0
     },
     {
@@ -255,6 +287,16 @@
     },
     {
       "query": "browserstack free alternative reddit",
+      "impressions": 5,
+      "clicks": 0
+    },
+    {
+      "query": "agentic browsers",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
+      "query": "openmanus alternative",
       "impressions": 4,
       "clicks": 0
     },
@@ -264,17 +306,7 @@
       "clicks": 0
     },
     {
-      "query": "agentic browser",
-      "impressions": 3,
-      "clicks": 0
-    },
-    {
-      "query": "agentic browsers",
-      "impressions": 3,
-      "clicks": 0
-    },
-    {
-      "query": "openmanus alternative",
+      "query": "agentic ai frameworks github",
       "impressions": 3,
       "clicks": 0
     }
@@ -360,6 +392,11 @@
   ],
   "/futureproof/ai-context-mcp-llm/": [
     {
+      "query": "mcp llms",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
       "query": "notebook large language model",
       "impressions": 3,
       "clicks": 0
@@ -395,17 +432,12 @@
       "clicks": 0
     },
     {
+      "query": "mcp for llm",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "mcp in llm",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "mcp in llms",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "mcp llm",
       "impressions": 1,
       "clicks": 0
     }
@@ -457,7 +489,7 @@
       "clicks": 0
     },
     {
-      "query": "vim ai",
+      "query": "seo for ai agents",
       "impressions": 1,
       "clicks": 0
     }
@@ -477,7 +509,7 @@
   "/futureproof/ai-facilitating-self-improvement/": [
     {
       "query": "ares seo michael",
-      "impressions": 10,
+      "impressions": 42,
       "clicks": 0
     },
     {
@@ -528,28 +560,23 @@
   ],
   "/futureproof/ai-generated-refactoring-advice/": [
     {
-      "query": "botify commands",
-      "impressions": 8,
+      "query": "refactoring guidance",
+      "impressions": 9,
       "clicks": 0
     },
     {
-      "query": "refactoring guidance",
-      "impressions": 4,
+      "query": "botify commands",
+      "impressions": 6,
+      "clicks": 0
+    },
+    {
+      "query": "ai generated responses",
+      "impressions": 2,
       "clicks": 0
     },
     {
       "query": "llm refactoring",
       "impressions": 2,
-      "clicks": 0
-    },
-    {
-      "query": "ai generated responses",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "minidataapi",
-      "impressions": 1,
       "clicks": 0
     }
   ],
@@ -601,6 +628,11 @@
       "clicks": 0
     },
     {
+      "query": "seo patterns",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
       "query": "react anti-patterns read online",
       "impressions": 3,
       "clicks": 0
@@ -619,11 +651,6 @@
       "query": "read react anti-patterns online",
       "impressions": 1,
       "clicks": 0
-    },
-    {
-      "query": "seo patterns",
-      "impressions": 1,
-      "clicks": 0
     }
   ],
   "/futureproof/api-ai-human-nuance/": [
@@ -634,12 +661,12 @@
     },
     {
       "query": "nuance api",
-      "impressions": 21,
+      "impressions": 23,
       "clicks": 0
     },
     {
       "query": "human api alternatives",
-      "impressions": 11,
+      "impressions": 13,
       "clicks": 0
     },
     {
@@ -685,6 +712,11 @@
       "clicks": 0
     },
     {
+      "query": "html parser llm",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "vim llm",
       "impressions": 1,
       "clicks": 0
@@ -692,13 +724,23 @@
   ],
   "/futureproof/automating-seo-workflow/": [
     {
-      "query": "parameter seo",
-      "impressions": 39,
+      "query": "seo workflows",
+      "impressions": 61,
       "clicks": 0
     },
     {
-      "query": "seo workflows",
-      "impressions": 38,
+      "query": "parameter seo",
+      "impressions": 60,
+      "clicks": 0
+    },
+    {
+      "query": "workflow seo",
+      "impressions": 41,
+      "clicks": 0
+    },
+    {
+      "query": "seo workflow process",
+      "impressions": 33,
       "clicks": 0
     },
     {
@@ -707,18 +749,8 @@
       "clicks": 0
     },
     {
-      "query": "seo workflow process",
-      "impressions": 19,
-      "clicks": 0
-    },
-    {
       "query": "build seo workflows",
-      "impressions": 16,
-      "clicks": 0
-    },
-    {
-      "query": "workflow seo",
-      "impressions": 15,
+      "impressions": 19,
       "clicks": 0
     },
     {
@@ -767,12 +799,17 @@
   "/futureproof/banking-wins/": [
     {
       "query": "future-proof isv hardware",
-      "impressions": 55,
+      "impressions": 59,
       "clicks": 0
     },
     {
       "query": "future proof technologies",
       "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "future proof tech",
+      "impressions": 2,
       "clicks": 0
     },
     {
@@ -784,21 +821,63 @@
       "query": "mike techs unlocking tools",
       "impressions": 1,
       "clicks": 0
-    },
-    {
-      "query": "monty python sketches scripts",
-      "impressions": 1,
-      "clicks": 0
     }
   ],
   "/futureproof/bff-seo-dot-bot/": [
     {
       "query": "what is dotbot",
-      "impressions": 5,
+      "impressions": 21,
+      "clicks": 0
+    },
+    {
+      "query": "born ai",
+      "impressions": 2,
       "clicks": 0
     },
     {
       "query": "www dot com bff",
+      "impressions": 2,
+      "clicks": 0
+    }
+  ],
+  "/futureproof/bing-search-api/": [
+    {
+      "query": "bing developer api",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
+      "query": "bing python api",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "bing search api example",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "bing indexnow api",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "bing knowledge graph api",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "bing ai search api",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "bing entity search api",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "howto indexnow http request",
       "impressions": 1,
       "clicks": 0
     }
@@ -883,11 +962,6 @@
       "clicks": 0
     },
     {
-      "query": "chatgpt code review",
-      "impressions": 3,
-      "clicks": 0
-    },
-    {
       "query": "chatgpt o1 python",
       "impressions": 3,
       "clicks": 1
@@ -895,6 +969,11 @@
     {
       "query": "chatgpt code preview",
       "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "chatgpt code review",
+      "impressions": 1,
       "clicks": 0
     },
     {
@@ -931,6 +1010,21 @@
   "/futureproof/cherry-picking/": [
     {
       "query": "cherry pick",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "cherry pick meaning",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "cherry-pick your seo plan",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "cherry pic",
       "impressions": 1,
       "clicks": 0
     },
@@ -940,7 +1034,12 @@
       "clicks": 0
     },
     {
-      "query": "cherry-pick your seo plan",
+      "query": "cherry-picking git",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "git cherry pick",
       "impressions": 1,
       "clicks": 0
     },
@@ -951,6 +1050,11 @@
     }
   ],
   "/futureproof/chunk-yielding-generator/": [
+    {
+      "query": "__chunk_data",
+      "impressions": 4,
+      "clicks": 0
+    },
     {
       "query": "lil´ url generator",
       "impressions": 2,
@@ -969,12 +1073,12 @@
   ],
   "/futureproof/claude-o1-collaboration/": [
     {
-      "query": "claude for linux",
-      "impressions": 3,
+      "query": "claude ai linux",
+      "impressions": 1,
       "clicks": 0
     },
     {
-      "query": "claude ai linux",
+      "query": "claude for linux",
       "impressions": 1,
       "clicks": 0
     },
@@ -1051,7 +1155,7 @@
     },
     {
       "query": "jupyter vs colab",
-      "impressions": 7,
+      "impressions": 9,
       "clicks": 0
     },
     {
@@ -1070,22 +1174,22 @@
       "clicks": 0
     },
     {
+      "query": "saturn cloud vs colab",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "&pp=0gcjcdgao7vqn5td",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "anaconda ai navigator reddit",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "best google colab alternatives",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "cline ollama",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "colab alternatives",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "colab compute units",
       "impressions": 1,
       "clicks": 0
     }
@@ -1111,9 +1215,44 @@
   ],
   "/futureproof/cursor-ai-jupyter-notebook-cells/": [
     {
+      "query": "cursor jupyter notebook",
+      "impressions": 43,
+      "clicks": 2
+    },
+    {
       "query": "cursor ai jupyter notebook",
-      "impressions": 32,
-      "clicks": 9
+      "impressions": 42,
+      "clicks": 10
+    },
+    {
+      "query": "cursor jupyter",
+      "impressions": 15,
+      "clicks": 2
+    },
+    {
+      "query": "cursor ai jupyter",
+      "impressions": 9,
+      "clicks": 1
+    },
+    {
+      "query": "cursor python notebook",
+      "impressions": 6,
+      "clicks": 0
+    },
+    {
+      "query": "jupyter notebook cursor ai",
+      "impressions": 6,
+      "clicks": 0
+    },
+    {
+      "query": "cursor ipynb",
+      "impressions": 5,
+      "clicks": 1
+    },
+    {
+      "query": "jupyter notebook cursor",
+      "impressions": 5,
+      "clicks": 0
     },
     {
       "query": "cursor jupyter notebook support",
@@ -1121,43 +1260,8 @@
       "clicks": 0
     },
     {
-      "query": "jupyter notebook cursor ai",
-      "impressions": 3,
-      "clicks": 0
-    },
-    {
-      "query": "cursor ai jupyter",
-      "impressions": 2,
-      "clicks": 0
-    },
-    {
-      "query": "cursor jupyter extension",
-      "impressions": 2,
-      "clicks": 0
-    },
-    {
-      "query": "cline jupyter notebook",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "cursor ai notebook",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "cursor ai notebooks",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "cursor ai python notebook",
-      "impressions": 1,
-      "clicks": 1
-    },
-    {
-      "query": "hack cursor ai",
-      "impressions": 1,
+      "query": "cursor notebook",
+      "impressions": 4,
       "clicks": 0
     }
   ],
@@ -1213,6 +1317,28 @@
       "clicks": 0
     }
   ],
+  "/futureproof/cursor-ai-updates-nixos/": [
+    {
+      "query": "cursor ai nixos",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "cursor 0.49.4",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "cursor changelog",
+      "impressions": 1,
+      "clicks": 1
+    },
+    {
+      "query": "nixos cursor ide",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
   "/futureproof/david-mayer-vs-donald-trump/": [
     {
       "query": "maye gemini free",
@@ -1228,12 +1354,12 @@
     },
     {
       "query": "sisyphus staircase level repo",
-      "impressions": 39,
+      "impressions": 42,
       "clicks": 0
     },
     {
       "query": "sisyphusstaircaselevel repo",
-      "impressions": 35,
+      "impressions": 36,
       "clicks": 0
     },
     {
@@ -1264,10 +1390,17 @@
       "clicks": 0
     }
   ],
+  "/futureproof/detecting-nix-shell-environments/": [
+    {
+      "query": "nix shell alias",
+      "impressions": 2,
+      "clicks": 0
+    }
+  ],
   "/futureproof/distracted-weak-focused-strong/": [
     {
       "query": "easily distracted weakness",
-      "impressions": 54,
+      "impressions": 59,
       "clicks": 0
     },
     {
@@ -1279,11 +1412,26 @@
       "query": "linux faceit",
       "impressions": 1,
       "clicks": 0
+    },
+    {
+      "query": "vim practice",
+      "impressions": 1,
+      "clicks": 0
     }
   ],
   "/futureproof/dry-vs-wet/": [
     {
       "query": "dry llm",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "dry vs wet code",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "wet py",
       "impressions": 1,
       "clicks": 0
     }
@@ -1328,14 +1476,19 @@
   "/futureproof/evolving-ai-in-a-bottle/": [
     {
       "query": "python paradox database",
-      "impressions": 3,
+      "impressions": 10,
+      "clicks": 0
+    },
+    {
+      "query": "theseus ai",
+      "impressions": 1,
       "clicks": 0
     }
   ],
   "/futureproof/fast-html-framework-opinions/": [
     {
       "query": "fasthtml",
-      "impressions": 52,
+      "impressions": 53,
       "clicks": 4
     },
     {
@@ -1350,7 +1503,7 @@
     },
     {
       "query": "fasthtml python",
-      "impressions": 4,
+      "impressions": 5,
       "clicks": 0
     },
     {
@@ -1369,25 +1522,25 @@
       "clicks": 0
     },
     {
+      "query": "fast html",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "fast html python",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
       "query": "fasthtml framework",
       "impressions": 2,
       "clicks": 0
-    },
-    {
-      "query": "fasthtml pypi",
-      "impressions": 2,
-      "clicks": 0
-    },
-    {
-      "query": "fasthtml vs django",
-      "impressions": 2,
-      "clicks": 1
     }
   ],
   "/futureproof/fasththml-websockets-database/": [
     {
       "query": "fasthtml database",
-      "impressions": 41,
+      "impressions": 40,
       "clicks": 0
     },
     {
@@ -1424,12 +1577,12 @@
   "/futureproof/fasthtml-cursor-ai-nix/": [
     {
       "query": "cursor ai nixos",
-      "impressions": 63,
+      "impressions": 66,
       "clicks": 0
     },
     {
       "query": "cursor ide nixos",
-      "impressions": 29,
+      "impressions": 30,
       "clicks": 0
     },
     {
@@ -1448,6 +1601,11 @@
       "clicks": 0
     },
     {
+      "query": "nixos cursor ide",
+      "impressions": 17,
+      "clicks": 0
+    },
+    {
       "query": "cursor ai wsl",
       "impressions": 15,
       "clicks": 0
@@ -1458,26 +1616,31 @@
       "clicks": 0
     },
     {
-      "query": "nixos cursor ide",
-      "impressions": 15,
-      "clicks": 0
-    },
-    {
-      "query": "nixos cursor",
-      "impressions": 12,
-      "clicks": 0
-    },
-    {
       "query": "nix cursor",
-      "impressions": 11,
+      "impressions": 14,
+      "clicks": 0
+    },
+    {
+      "query": "wsl cursor ai",
+      "impressions": 13,
       "clicks": 0
     }
   ],
   "/futureproof/fasthtml-fastapi-llm-over-training/": [
     {
       "query": "fasthtml vs fastapi",
-      "impressions": 17,
-      "clicks": 3
+      "impressions": 20,
+      "clicks": 4
+    },
+    {
+      "query": "fastapi llm",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
+      "query": "fasthtml fastapi",
+      "impressions": 4,
+      "clicks": 0
     },
     {
       "query": "fasthtml llm.txt",
@@ -1490,17 +1653,7 @@
       "clicks": 0
     },
     {
-      "query": "fasthtml fastapi",
-      "impressions": 3,
-      "clicks": 0
-    },
-    {
       "query": "fast llm",
-      "impressions": 2,
-      "clicks": 0
-    },
-    {
-      "query": "fastapi llm",
       "impressions": 2,
       "clicks": 0
     },
@@ -1515,11 +1668,18 @@
       "clicks": 0
     }
   ],
+  "/futureproof/fasthtml-htmx-ai-workflows/": [
+    {
+      "query": "seo michael beast",
+      "impressions": 6,
+      "clicks": 0
+    }
+  ],
   "/futureproof/fasthtml-htmx-llm/": [
     {
       "query": "python htmx",
-      "impressions": 17,
-      "clicks": 0
+      "impressions": 26,
+      "clicks": 1
     },
     {
       "query": "fasthtml htmx",
@@ -1528,17 +1688,32 @@
     },
     {
       "query": "python htmx framework",
-      "impressions": 7,
+      "impressions": 10,
+      "clicks": 1
+    },
+    {
+      "query": "fasthtml framework",
+      "impressions": 5,
       "clicks": 0
     },
     {
       "query": "fasthtml",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
+      "query": "htmx python",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
+      "query": "htmlx python",
       "impressions": 2,
       "clicks": 0
     },
     {
-      "query": "fasthtml framework",
-      "impressions": 2,
+      "query": "fast html python",
+      "impressions": 1,
       "clicks": 0
     },
     {
@@ -1547,39 +1722,29 @@
       "clicks": 0
     },
     {
-      "query": "fasthtml reddit",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "fasthtml vs flask",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "gemini code assist emacs",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "llm documentation",
+      "query": "fasthtml python",
       "impressions": 1,
       "clicks": 0
     }
   ],
   "/futureproof/fasthtml-htmx-unix-pipes/": [
     {
-      "query": "fasthtml",
-      "impressions": 4,
-      "clicks": 0
-    },
-    {
       "query": "fasthtml htmx",
       "impressions": 4,
       "clicks": 0
     },
     {
+      "query": "fasthtml",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
       "query": "linux c pipe",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "unix pipes",
       "impressions": 1,
       "clicks": 0
     },
@@ -1644,7 +1809,7 @@
   "/futureproof/fasthtml-sortablejs-todo/": [
     {
       "query": "minidataapi",
-      "impressions": 23,
+      "impressions": 21,
       "clicks": 0
     },
     {
@@ -1697,6 +1862,11 @@
       "clicks": 0
     },
     {
+      "query": "overcoming analysis paralysis",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "vim jupyter",
       "impressions": 1,
       "clicks": 0
@@ -1717,7 +1887,7 @@
   "/futureproof/figuring-out-a-complex-api/": [
     {
       "query": "complex api",
-      "impressions": 95,
+      "impressions": 103,
       "clicks": 0
     },
     {
@@ -1737,7 +1907,7 @@
     },
     {
       "query": "complex api examples",
-      "impressions": 2,
+      "impressions": 3,
       "clicks": 0
     },
     {
@@ -1751,7 +1921,19 @@
       "clicks": 0
     },
     {
+      "query": "oncrawl api",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "vimflowy",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
+  "/futureproof/finding-focus-and-flow-in-the-age-of-ai/": [
+    {
+      "query": "pipeline dreams",
       "impressions": 1,
       "clicks": 0
     }
@@ -1813,7 +1995,7 @@
   "/futureproof/forking-flake-infrastructure-as-code/": [
     {
       "query": "flake ai",
-      "impressions": 4,
+      "impressions": 5,
       "clicks": 0
     },
     {
@@ -1882,17 +2064,22 @@
   "/futureproof/from-jupyter-notebooks-to-markdown/": [
     {
       "query": "jupyter notebook markdown",
-      "impressions": 85,
+      "impressions": 93,
       "clicks": 0
     },
     {
       "query": "jupyter markdown",
-      "impressions": 74,
+      "impressions": 79,
+      "clicks": 0
+    },
+    {
+      "query": "salts seo michael",
+      "impressions": 43,
       "clicks": 0
     },
     {
       "query": "markdown jupyter",
-      "impressions": 35,
+      "impressions": 38,
       "clicks": 0
     },
     {
@@ -1902,36 +2089,36 @@
     },
     {
       "query": "markdown editor jupyter notebook",
-      "impressions": 24,
-      "clicks": 0
-    },
-    {
-      "query": "salts seo michael",
-      "impressions": 22,
+      "impressions": 25,
       "clicks": 0
     },
     {
       "query": "markdown editor jupyter",
-      "impressions": 12,
+      "impressions": 14,
       "clicks": 0
     },
     {
       "query": "markdown in jupyter notebook",
-      "impressions": 12,
+      "impressions": 14,
+      "clicks": 0
+    },
+    {
+      "query": "markdown jupyter notebook",
+      "impressions": 14,
       "clicks": 0
     },
     {
       "query": "markdown notebook",
       "impressions": 10,
       "clicks": 0
-    },
-    {
-      "query": "markdown jupyter notebook",
-      "impressions": 8,
-      "clicks": 0
     }
   ],
   "/futureproof/frozen-core-conundrum": [
+    {
+      "query": "seo michael beast",
+      "impressions": 33,
+      "clicks": 0
+    },
     {
       "query": "ai frozen",
       "impressions": 8,
@@ -1939,7 +2126,7 @@
     },
     {
       "query": "core conundrum",
-      "impressions": 7,
+      "impressions": 8,
       "clicks": 0
     },
     {
@@ -1956,7 +2143,7 @@
   "/futureproof/function-calling-llms/": [
     {
       "query": "llm function calling",
-      "impressions": 33,
+      "impressions": 39,
       "clicks": 0
     },
     {
@@ -1966,6 +2153,11 @@
     },
     {
       "query": "function calling llm",
+      "impressions": 8,
+      "clicks": 0
+    },
+    {
+      "query": "function calling llm solutions",
       "impressions": 6,
       "clicks": 0
     },
@@ -1980,11 +2172,6 @@
       "clicks": 1
     },
     {
-      "query": "function calling llm solutions",
-      "impressions": 3,
-      "clicks": 0
-    },
-    {
       "query": "llm function call",
       "impressions": 3,
       "clicks": 0
@@ -1995,12 +2182,12 @@
       "clicks": 0
     },
     {
-      "query": "llm documentation",
-      "impressions": 2,
+      "query": "malformed function call gemini",
+      "impressions": 3,
       "clicks": 0
     },
     {
-      "query": "malformed function call gemini",
+      "query": "function call llm",
       "impressions": 2,
       "clicks": 0
     }
@@ -2027,6 +2214,11 @@
       "clicks": 0
     },
     {
+      "query": "llm seo meaning",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
       "query": "fasthtml monsterui",
       "impressions": 1,
       "clicks": 0
@@ -2038,11 +2230,6 @@
     },
     {
       "query": "llm in seo",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "llm seo meaning",
       "impressions": 1,
       "clicks": 0
     },
@@ -2067,7 +2254,7 @@
   "/futureproof/future-proof-seo-nix/": [
     {
       "query": "democratizing seo",
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0
     }
   ],
@@ -2095,14 +2282,31 @@
       "clicks": 0
     }
   ],
+  "/futureproof/generate-cursor-rules/": [
+    {
+      "query": "cursor 0.49",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "python cursorrules",
+      "impressions": 2,
+      "clicks": 0
+    }
+  ],
   "/futureproof/git-cherry-picking/": [
     {
       "query": "cherry-pick your seo plan",
-      "impressions": 6,
+      "impressions": 10,
       "clicks": 0
     },
     {
       "query": "chery picking",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "dictnow handbuch",
       "impressions": 1,
       "clicks": 0
     },
@@ -2113,6 +2317,18 @@
     },
     {
       "query": "git cherry pick head",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "git undo cherry pick",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
+  "/futureproof/git-without-server-local-filesystem/": [
+    {
+      "query": "git without server",
       "impressions": 1,
       "clicks": 0
     }
@@ -2171,6 +2387,16 @@
   ],
   "/futureproof/github-pages-logfiles/": [
     {
+      "query": "github pages analytics",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "seo github pages",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
       "query": "nixos roadmap",
       "impressions": 1,
       "clicks": 0
@@ -2183,7 +2409,7 @@
       "clicks": 0
     },
     {
-      "query": "gemini websocket",
+      "query": "vim gemini",
       "impressions": 2,
       "clicks": 0
     },
@@ -2198,7 +2424,7 @@
       "clicks": 0
     },
     {
-      "query": "vim gemini",
+      "query": "gemini websocket",
       "impressions": 1,
       "clicks": 0
     },
@@ -2215,17 +2441,17 @@
       "clicks": 0
     },
     {
+      "query": "grok web framework",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
       "query": "dole exporter \"x.com\"",
       "impressions": 2,
       "clicks": 0
     },
     {
       "query": "dole importer \"x.com\"",
-      "impressions": 2,
-      "clicks": 0
-    },
-    {
-      "query": "grok web framework",
       "impressions": 2,
       "clicks": 0
     },
@@ -2326,6 +2552,21 @@
   ],
   "/futureproof/grok-vs-chatgpt-vs-gemini/": [
     {
+      "query": "brainforge solutions private limited",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
+      "query": "grok beta vs chatgpt",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "chatgpt deep research unavailable",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
       "query": "chatgpt grook",
       "impressions": 2,
       "clicks": 0
@@ -2336,7 +2577,17 @@
       "clicks": 0
     },
     {
+      "query": "grok deepresearch",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
       "query": "grok free usage limit",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "grok vs chatgpt 2025",
       "impressions": 2,
       "clicks": 0
     },
@@ -2346,33 +2597,8 @@
       "clicks": 0
     },
     {
-      "query": "chat gpt gemini grok",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "chatgpt deep research unavailable",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "grok and gemini",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "grok deeper search",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "grok deepersearch features",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "grok gemini chatgpt",
-      "impressions": 1,
+      "query": "grok3 vs perplexity comparison",
+      "impressions": 2,
       "clicks": 0
     }
   ],
@@ -2384,17 +2610,17 @@
     },
     {
       "query": "grok glitch",
-      "impressions": 143,
+      "impressions": 150,
       "clicks": 0
     },
     {
       "query": "grok markdown",
-      "impressions": 119,
-      "clicks": 11
+      "impressions": 136,
+      "clicks": 12
     },
     {
       "query": "grok 3 error",
-      "impressions": 78,
+      "impressions": 81,
       "clicks": 1
     },
     {
@@ -2431,12 +2657,12 @@
   "/futureproof/gsc-1000-row-limit-api/": [
     {
       "query": "contractsense launch",
-      "impressions": 3,
+      "impressions": 4,
       "clicks": 0
     },
     {
       "query": "see gsc snip below",
-      "impressions": 3,
+      "impressions": 4,
       "clicks": 0
     },
     {
@@ -2451,6 +2677,11 @@
     },
     {
       "query": "search console api limits",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "seo michael beast",
       "impressions": 1,
       "clicks": 0
     }
@@ -2475,7 +2706,7 @@
   "/futureproof/how-i-finally-got-my-llm-to-play-nice-with-the-web-ui/": [
     {
       "query": "ui for llm chat",
-      "impressions": 28,
+      "impressions": 32,
       "clicks": 0
     },
     {
@@ -2484,14 +2715,14 @@
       "clicks": 0
     },
     {
+      "query": "chat llm ui",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
       "query": "web interface for llm",
       "impressions": 3,
       "clicks": 1
-    },
-    {
-      "query": "chat llm ui",
-      "impressions": 2,
-      "clicks": 0
     },
     {
       "query": "llm frontend ui",
@@ -2501,6 +2732,11 @@
     {
       "query": "python llm ui",
       "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "client side llm",
+      "impressions": 1,
       "clicks": 0
     },
     {
@@ -2515,11 +2751,6 @@
     },
     {
       "query": "llm chat web ui",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "llm console",
       "impressions": 1,
       "clicks": 0
     }
@@ -2542,6 +2773,33 @@
     },
     {
       "query": "yourllm unlimited ai",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
+  "/futureproof/html-over-the-wire/": [
+    {
+      "query": "seo michael beast",
+      "impressions": 33,
+      "clicks": 0
+    },
+    {
+      "query": "html over the wire",
+      "impressions": 5,
+      "clicks": 0
+    },
+    {
+      "query": "html vs json",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "i hate pydantic",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "json vs html",
       "impressions": 1,
       "clicks": 0
     }
@@ -2596,13 +2854,13 @@
   ],
   "/futureproof/ime-mse-psp-tee-sep/": [
     {
-      "query": "ime network management",
-      "impressions": 2,
+      "query": "ime psp",
+      "impressions": 3,
       "clicks": 0
     },
     {
-      "query": "ime psp",
-      "impressions": 1,
+      "query": "ime network management",
+      "impressions": 2,
       "clicks": 0
     },
     {
@@ -2614,22 +2872,22 @@
   "/futureproof/infrastructure-as-code-devops-renaissance/": [
     {
       "query": "python programming vs renaissance",
-      "impressions": 63,
+      "impressions": 57,
       "clicks": 0
     },
     {
       "query": "renaissance vs python programming",
-      "impressions": 54,
+      "impressions": 48,
       "clicks": 0
     },
     {
       "query": "renaissance and python programming",
-      "impressions": 47,
+      "impressions": 43,
       "clicks": 0
     },
     {
       "query": "render infrastructure as code",
-      "impressions": 28,
+      "impressions": 25,
       "clicks": 0
     },
     {
@@ -2663,6 +2921,13 @@
       "clicks": 0
     }
   ],
+  "/futureproof/is-grok-better-than-chatgpt/": [
+    {
+      "query": "household guide tlduhome",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
   "/futureproof/its-about-delighting-clients/": [
     {
       "query": "botify wikipedia",
@@ -2672,13 +2937,13 @@
   ],
   "/futureproof/jupyter-ai-nix-flake/": [
     {
-      "query": "jupyter ai free",
-      "impressions": 7,
+      "query": "flake ai",
+      "impressions": 9,
       "clicks": 0
     },
     {
-      "query": "flake ai",
-      "impressions": 6,
+      "query": "jupyter ai free",
+      "impressions": 7,
       "clicks": 0
     },
     {
@@ -2730,7 +2995,7 @@
     },
     {
       "query": "jupyter notebook nixos",
-      "impressions": 2,
+      "impressions": 3,
       "clicks": 0
     },
     {
@@ -2772,7 +3037,7 @@
     },
     {
       "query": "cline jupyter",
-      "impressions": 4,
+      "impressions": 5,
       "clicks": 0
     },
     {
@@ -2841,23 +3106,43 @@
   "/futureproof/jupyter-notebook-vscode-cursor/": [
     {
       "query": "cursor jupyter notebook",
-      "impressions": 216,
-      "clicks": 9
+      "impressions": 278,
+      "clicks": 14
     },
     {
       "query": "cursor ai jupyter notebook",
-      "impressions": 182,
-      "clicks": 12
+      "impressions": 198,
+      "clicks": 13
     },
     {
       "query": "cursor jupyter",
-      "impressions": 70,
-      "clicks": 2
+      "impressions": 97,
+      "clicks": 3
     },
     {
       "query": "cursor ipynb",
-      "impressions": 42,
+      "impressions": 63,
       "clicks": 0
+    },
+    {
+      "query": "cursor python notebook",
+      "impressions": 49,
+      "clicks": 5
+    },
+    {
+      "query": "cursor notebooks",
+      "impressions": 47,
+      "clicks": 3
+    },
+    {
+      "query": "jupyter notebook in cursor",
+      "impressions": 46,
+      "clicks": 0
+    },
+    {
+      "query": "jupyter notebook cursor",
+      "impressions": 42,
+      "clicks": 2
     },
     {
       "query": "cursor jupyter notebook support",
@@ -2865,28 +3150,8 @@
       "clicks": 1
     },
     {
-      "query": "cursor python notebook",
-      "impressions": 39,
-      "clicks": 3
-    },
-    {
-      "query": "jupyter notebook in cursor",
-      "impressions": 39,
-      "clicks": 0
-    },
-    {
-      "query": "cursor notebooks",
-      "impressions": 32,
-      "clicks": 1
-    },
-    {
-      "query": "cursor jupyter notebooks",
-      "impressions": 30,
-      "clicks": 0
-    },
-    {
-      "query": "jupyter notebook cursor",
-      "impressions": 27,
+      "query": "jupyter cursor",
+      "impressions": 36,
       "clicks": 2
     }
   ],
@@ -2897,12 +3162,12 @@
       "clicks": 0
     },
     {
-      "query": "jupyer",
-      "impressions": 3,
+      "query": "jupyer notebook",
+      "impressions": 4,
       "clicks": 0
     },
     {
-      "query": "jupyer notebook",
+      "query": "jupyer",
       "impressions": 3,
       "clicks": 0
     },
@@ -2942,31 +3207,36 @@
   "/futureproof/learning-htmx/": [
     {
       "query": "htmx seo",
-      "impressions": 30,
-      "clicks": 0
-    },
-    {
-      "query": "python htmx",
-      "impressions": 15,
-      "clicks": 0
-    },
-    {
-      "query": "seo software linux",
-      "impressions": 14,
+      "impressions": 32,
       "clicks": 0
     },
     {
       "query": "linux seo software",
-      "impressions": 12,
+      "impressions": 32,
       "clicks": 0
     },
     {
-      "query": "htmx python",
-      "impressions": 4,
+      "query": "seo software linux",
+      "impressions": 18,
+      "clicks": 0
+    },
+    {
+      "query": "python htmx",
+      "impressions": 16,
       "clicks": 0
     },
     {
       "query": "ahrefs python",
+      "impressions": 9,
+      "clicks": 0
+    },
+    {
+      "query": "htmx python",
+      "impressions": 5,
+      "clicks": 0
+    },
+    {
+      "query": "ahrefs api python",
       "impressions": 2,
       "clicks": 0
     },
@@ -2981,6 +3251,20 @@
       "clicks": 0
     }
   ],
+  "/futureproof/linkgraphectomy/": [
+    {
+      "query": "seo michael beast",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
+  "/futureproof/linux-python-vim-git-htmx/": [
+    {
+      "query": "linux seo software",
+      "impressions": 4,
+      "clicks": 0
+    }
+  ],
   "/futureproof/llm-as-ambient-app-intelligence/": [
     {
       "query": ".cursorrules examples",
@@ -2991,17 +3275,27 @@
   "/futureproof/llm-code-analysis-test/": [
     {
       "query": "llm code analysis",
-      "impressions": 14,
+      "impressions": 18,
       "clicks": 0
     },
     {
       "query": "llm for code analysis",
-      "impressions": 13,
+      "impressions": 16,
       "clicks": 0
     },
     {
       "query": "llm static code analysis",
       "impressions": 8,
+      "clicks": 0
+    },
+    {
+      "query": "code review using llm",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "local llm code review",
+      "impressions": 2,
       "clicks": 0
     },
     {
@@ -3028,17 +3322,12 @@
       "query": "llm blind test",
       "impressions": 1,
       "clicks": 0
-    },
-    {
-      "query": "local llm code review",
-      "impressions": 1,
-      "clicks": 0
     }
   ],
   "/futureproof/llm-ghost-in-the-machine/": [
     {
       "query": "ghostty llm",
-      "impressions": 31,
+      "impressions": 32,
       "clicks": 0
     },
     {
@@ -3048,12 +3337,7 @@
     },
     {
       "query": "ghost openai integration",
-      "impressions": 3,
-      "clicks": 0
-    },
-    {
-      "query": "ghostty cursor color",
-      "impressions": 2,
+      "impressions": 4,
       "clicks": 0
     },
     {
@@ -3062,17 +3346,22 @@
       "clicks": 1
     },
     {
+      "query": "ai agent seo",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "ghost-cursor python",
       "impressions": 1,
       "clicks": 0
     },
     {
-      "query": "llm.nvim",
+      "query": "ghostty cursor color",
       "impressions": 1,
       "clicks": 0
     },
     {
-      "query": "unix grep exclude",
+      "query": "llm.nvim",
       "impressions": 1,
       "clicks": 0
     }
@@ -3109,6 +3398,11 @@
       "clicks": 0
     },
     {
+      "query": "seo software developer",
+      "impressions": 23,
+      "clicks": 0
+    },
+    {
       "query": "clarity seo",
       "impressions": 22,
       "clicks": 0
@@ -3122,26 +3416,26 @@
       "query": "rabbit hole",
       "impressions": 19,
       "clicks": 0
-    },
-    {
-      "query": "seo python",
-      "impressions": 18,
-      "clicks": 0
     }
   ],
   "/futureproof/local-ai-in-the-dev-loop/": [
     {
-      "query": "python cursorrules",
-      "impressions": 9,
+      "query": "local ai stack",
+      "impressions": 8,
       "clicks": 0
     },
     {
-      "query": "local ai stack",
-      "impressions": 7,
+      "query": "python cursorrules",
+      "impressions": 5,
       "clicks": 0
     },
     {
       "query": "ai calling api",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "loopgpt ai",
       "impressions": 2,
       "clicks": 0
     },
@@ -3166,17 +3460,19 @@
       "clicks": 0
     },
     {
+      "query": "localai android",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "logitch brio",
       "impressions": 1,
       "clicks": 0
-    },
+    }
+  ],
+  "/futureproof/local-ai-workflows-jupyter-nix/": [
     {
-      "query": "loopgpt ai",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "python local ai",
+      "query": "ai screenplay generator",
       "impressions": 1,
       "clicks": 0
     }
@@ -3225,13 +3521,28 @@
       "clicks": 0
     },
     {
+      "query": "nix isdarwin",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
       "query": "machnix",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "nix flake macos",
       "impressions": 2,
       "clicks": 0
     },
     {
       "query": "nix flakes macos",
       "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "flake outputs",
+      "impressions": 1,
       "clicks": 0
     },
     {
@@ -3246,21 +3557,6 @@
     },
     {
       "query": "linux flake",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "mach nix",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "nix flake allow unfree",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "nix flake macos",
       "impressions": 1,
       "clicks": 0
     }
@@ -3428,15 +3724,74 @@
       "clicks": 0
     }
   ],
+  "/futureproof/modern-seo-techniques/": [
+    {
+      "query": "intelligent site seo techniques",
+      "impressions": 10,
+      "clicks": 0
+    },
+    {
+      "query": "modern algorithm seo techniques",
+      "impressions": 5,
+      "clicks": 0
+    },
+    {
+      "query": "intelligent technical seo methods",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
+      "query": "intelligent algorithm seo methods",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "intelligent rank seo techniques",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "modern seo strategies",
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "intelligent technical seo tricks",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "intelligent site seo patterns",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "intelligent technical seo techniques",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "modern seo techniques",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
   "/futureproof/multiple-passes/": [
     {
       "query": "chiselstrike",
-      "impressions": 2,
+      "impressions": 6,
       "clicks": 0
     },
     {
       "query": "git add second remote",
       "impressions": 1,
+      "clicks": 0
+    }
+  ],
+  "/futureproof/navigating-ai-influence/": [
+    {
+      "query": "navigating ai software development",
+      "impressions": 2,
       "clicks": 0
     }
   ],
@@ -3458,7 +3813,7 @@
     },
     {
       "query": "claude code nix",
-      "impressions": 13,
+      "impressions": 14,
       "clicks": 0
     },
     {
@@ -3539,32 +3894,32 @@
   "/futureproof/nix-flakes/": [
     {
       "query": "nix flake python",
-      "impressions": 119,
+      "impressions": 121,
       "clicks": 8
     },
     {
       "query": "python nix flake",
-      "impressions": 64,
+      "impressions": 68,
       "clicks": 2
     },
     {
       "query": "nix python flake",
-      "impressions": 40,
+      "impressions": 41,
       "clicks": 1
     },
     {
       "query": "nix flake",
-      "impressions": 34,
+      "impressions": 32,
       "clicks": 0
     },
     {
       "query": "nix flakes",
-      "impressions": 27,
+      "impressions": 26,
       "clicks": 0
     },
     {
       "query": "flakes linux",
-      "impressions": 19,
+      "impressions": 18,
       "clicks": 0
     },
     {
@@ -3584,38 +3939,43 @@
     },
     {
       "query": "nix flakes tutorial",
-      "impressions": 5,
+      "impressions": 6,
       "clicks": 0
     }
   ],
   "/futureproof/nix-pip-install/": [
+    {
+      "query": "nix pip",
+      "impressions": 33,
+      "clicks": 2
+    },
     {
       "query": "nix dotenv",
       "impressions": 30,
       "clicks": 0
     },
     {
-      "query": "nix pip",
-      "impressions": 27,
-      "clicks": 1
-    },
-    {
-      "query": "nix pip install",
-      "impressions": 16,
-      "clicks": 0
-    },
-    {
       "query": "nixos pip",
-      "impressions": 16,
-      "clicks": 0
-    },
-    {
-      "query": "pip nixos",
-      "impressions": 10,
+      "impressions": 21,
       "clicks": 0
     },
     {
       "query": "nix install pip",
+      "impressions": 13,
+      "clicks": 0
+    },
+    {
+      "query": "nix pip install",
+      "impressions": 13,
+      "clicks": 0
+    },
+    {
+      "query": "pip nixos",
+      "impressions": 11,
+      "clicks": 0
+    },
+    {
+      "query": "nixos install pip",
       "impressions": 9,
       "clicks": 0
     },
@@ -3625,18 +3985,13 @@
       "clicks": 0
     },
     {
+      "query": "nixos python pip",
+      "impressions": 9,
+      "clicks": 0
+    },
+    {
       "query": "nixpip",
-      "impressions": 8,
-      "clicks": 0
-    },
-    {
-      "query": "nix python pip",
-      "impressions": 7,
-      "clicks": 0
-    },
-    {
-      "query": "nixos install pip",
-      "impressions": 7,
+      "impressions": 9,
       "clicks": 0
     }
   ],
@@ -3663,6 +4018,11 @@
     },
     {
       "query": "nixos obs",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "nixos obs studio",
       "impressions": 1,
       "clicks": 0
     },
@@ -3724,6 +4084,13 @@
       "clicks": 0
     }
   ],
+  "/futureproof/nixos-failed-to-install-bootloader/": [
+    {
+      "query": "nixos",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
   "/futureproof/nixos-language/": [
     {
       "query": "nix expression language",
@@ -3744,7 +4111,7 @@
   "/futureproof/nixos-nvidia-cuda-ollama/": [
     {
       "query": "nixos ollama cuda",
-      "impressions": 11,
+      "impressions": 12,
       "clicks": 0
     },
     {
@@ -3753,37 +4120,37 @@
       "clicks": 0
     },
     {
+      "query": "nixos cuda",
+      "impressions": 9,
+      "clicks": 0
+    },
+    {
       "query": "ollama cuda",
       "impressions": 8,
       "clicks": 0
     },
     {
-      "query": "nixos cuda",
-      "impressions": 7,
+      "query": "ollama cuda compatibility",
+      "impressions": 6,
       "clicks": 0
     },
     {
       "query": "ollama-cuda",
-      "impressions": 5,
+      "impressions": 6,
       "clicks": 0
     },
     {
-      "query": "ollama cuda compatibility",
+      "query": "nix cuda",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
+      "query": "nixos nvidia cuda",
       "impressions": 4,
       "clicks": 0
     },
     {
       "query": "cuda nixos",
-      "impressions": 3,
-      "clicks": 0
-    },
-    {
-      "query": "nix cuda",
-      "impressions": 3,
-      "clicks": 0
-    },
-    {
-      "query": "nixos nvidia cuda",
       "impressions": 3,
       "clicks": 0
     },
@@ -3796,16 +4163,21 @@
   "/futureproof/nixos-nvidia-wayland/": [
     {
       "query": "nixos nvidia wayland",
-      "impressions": 48,
+      "impressions": 56,
       "clicks": 2
     },
     {
       "query": "seo michael beast",
-      "impressions": 13,
+      "impressions": 14,
       "clicks": 0
     },
     {
       "query": "nixos wayland nvidia",
+      "impressions": 10,
+      "clicks": 0
+    },
+    {
+      "query": "nixos nvidia",
       "impressions": 5,
       "clicks": 0
     },
@@ -3820,12 +4192,17 @@
       "clicks": 0
     },
     {
-      "query": "nixos nvidia",
+      "query": "nvidia seo",
       "impressions": 2,
       "clicks": 0
     },
     {
       "query": "nixos nvidia suspend",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "nvidia nixos",
       "impressions": 1,
       "clicks": 0
     },
@@ -3890,12 +4267,12 @@
   "/futureproof/nixos-warbler-files-disappeared/": [
     {
       "query": "seo michael beast",
-      "impressions": 23,
+      "impressions": 24,
       "clicks": 0
     },
     {
       "query": "nixos warbler",
-      "impressions": 13,
+      "impressions": 17,
       "clicks": 1
     },
     {
@@ -3917,17 +4294,17 @@
   "/futureproof/nixos-wayland-hyprland/": [
     {
       "query": "nixos hyprland",
-      "impressions": 36,
+      "impressions": 47,
+      "clicks": 0
+    },
+    {
+      "query": "nixos wayland hyprland",
+      "impressions": 23,
       "clicks": 0
     },
     {
       "query": "hyprland virtual desktops",
       "impressions": 22,
-      "clicks": 0
-    },
-    {
-      "query": "nixos wayland hyprland",
-      "impressions": 21,
       "clicks": 0
     },
     {
@@ -3942,27 +4319,27 @@
     },
     {
       "query": "nixos wayland",
-      "impressions": 15,
+      "impressions": 16,
+      "clicks": 0
+    },
+    {
+      "query": "nixos electron wayland",
+      "impressions": 14,
       "clicks": 0
     },
     {
       "query": "hyprland monocle",
-      "impressions": 12,
+      "impressions": 13,
       "clicks": 0
+    },
+    {
+      "query": "hyprland nixos",
+      "impressions": 12,
+      "clicks": 2
     },
     {
       "query": "hyprland wayland",
       "impressions": 12,
-      "clicks": 0
-    },
-    {
-      "query": "hyprland python",
-      "impressions": 11,
-      "clicks": 0
-    },
-    {
-      "query": "hyprland windowdance",
-      "impressions": 11,
       "clicks": 0
     }
   ],
@@ -4017,6 +4394,11 @@
       "clicks": 0
     },
     {
+      "query": "grok o3",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "linux grok",
       "impressions": 1,
       "clicks": 0
@@ -4030,7 +4412,7 @@
   "/futureproof/ollama-websocket-chat/": [
     {
       "query": "ollama websocket",
-      "impressions": 106,
+      "impressions": 103,
       "clicks": 9
     },
     {
@@ -4041,11 +4423,6 @@
     {
       "query": "python websocket chat",
       "impressions": 4,
-      "clicks": 0
-    },
-    {
-      "query": "from ollama import chat",
-      "impressions": 2,
       "clicks": 0
     },
     {
@@ -4077,6 +4454,11 @@
       "query": "ollama chat online",
       "impressions": 1,
       "clicks": 0
+    },
+    {
+      "query": "ollama disable auto update",
+      "impressions": 1,
+      "clicks": 0
     }
   ],
   "/futureproof/one-card-flow/": [
@@ -4089,37 +4471,37 @@
   "/futureproof/open-source-seo-software/": [
     {
       "query": "open source seo software",
-      "impressions": 389,
+      "impressions": 496,
       "clicks": 0
     },
     {
       "query": "linux seo software",
-      "impressions": 239,
+      "impressions": 296,
       "clicks": 0
     },
     {
       "query": "seo software linux",
-      "impressions": 230,
+      "impressions": 267,
       "clicks": 0
     },
     {
       "query": "open source seo platform",
-      "impressions": 166,
+      "impressions": 218,
       "clicks": 0
     },
     {
       "query": "seo tools open source",
-      "impressions": 55,
+      "impressions": 67,
       "clicks": 0
     },
     {
       "query": "linux seo tools",
-      "impressions": 44,
+      "impressions": 53,
       "clicks": 0
     },
     {
       "query": "proprietary seo software",
-      "impressions": 33,
+      "impressions": 35,
       "clicks": 0
     },
     {
@@ -4129,19 +4511,19 @@
     },
     {
       "query": "seo tools linux",
-      "impressions": 25,
+      "impressions": 30,
       "clicks": 0
     },
     {
       "query": "seo elite software",
-      "impressions": 17,
+      "impressions": 23,
       "clicks": 0
     }
   ],
   "/futureproof/open-source-seo/": [
     {
       "query": "seo tools open source",
-      "impressions": 48,
+      "impressions": 56,
       "clicks": 0
     },
     {
@@ -4151,12 +4533,22 @@
     },
     {
       "query": "open source seo",
-      "impressions": 23,
+      "impressions": 34,
+      "clicks": 0
+    },
+    {
+      "query": "open source seo platform",
+      "impressions": 25,
       "clicks": 0
     },
     {
       "query": "open source seo software",
-      "impressions": 15,
+      "impressions": 18,
+      "clicks": 0
+    },
+    {
+      "query": "open source seo toolkit",
+      "impressions": 13,
       "clicks": 0
     },
     {
@@ -4170,12 +4562,7 @@
       "clicks": 0
     },
     {
-      "query": "open source seo toolkit",
-      "impressions": 10,
-      "clicks": 0
-    },
-    {
-      "query": "open source seo platform",
+      "query": "botifybotting",
       "impressions": 7,
       "clicks": 0
     },
@@ -4183,22 +4570,17 @@
       "query": "open source seo tool",
       "impressions": 6,
       "clicks": 0
-    },
-    {
-      "query": "seo software linux",
-      "impressions": 6,
-      "clicks": 0
     }
   ],
   "/futureproof/openapi-swagger-json-to-python/": [
     {
       "query": "swagger python",
-      "impressions": 158,
+      "impressions": 159,
       "clicks": 0
     },
     {
       "query": "python swagger",
-      "impressions": 126,
+      "impressions": 134,
       "clicks": 0
     },
     {
@@ -4208,7 +4590,7 @@
     },
     {
       "query": "swagger tutorial python",
-      "impressions": 42,
+      "impressions": 43,
       "clicks": 0
     },
     {
@@ -4218,11 +4600,16 @@
     },
     {
       "query": "swagger for python",
-      "impressions": 20,
+      "impressions": 21,
       "clicks": 0
     },
     {
       "query": "inurl:swagger.json",
+      "impressions": 8,
+      "clicks": 0
+    },
+    {
+      "query": "swagger api python",
       "impressions": 8,
       "clicks": 0
     },
@@ -4232,17 +4619,17 @@
       "clicks": 0
     },
     {
-      "query": "swagger api python",
-      "impressions": 6,
-      "clicks": 0
-    },
-    {
       "query": "swagger import json",
       "impressions": 4,
       "clicks": 0
     }
   ],
   "/futureproof/pattern-alert-this-is-not-fastapi/": [
+    {
+      "query": "fast api design patterns",
+      "impressions": 1,
+      "clicks": 0
+    },
     {
       "query": "fastapi pattern",
       "impressions": 1,
@@ -4257,32 +4644,32 @@
   "/futureproof/peak-data-musk-sutskever-wrong/": [
     {
       "query": "peak data theory",
-      "impressions": 768,
-      "clicks": 52
+      "impressions": 789,
+      "clicks": 53
     },
     {
       "query": "peak data",
-      "impressions": 182,
+      "impressions": 174,
       "clicks": 0
     },
     {
       "query": "peak data scientist",
-      "impressions": 172,
+      "impressions": 171,
       "clicks": 0
     },
     {
       "query": "data peak",
-      "impressions": 22,
+      "impressions": 24,
       "clicks": 0
     },
     {
       "query": "peak data problem",
-      "impressions": 20,
+      "impressions": 18,
       "clicks": 0
     },
     {
       "query": "peak data meaning",
-      "impressions": 8,
+      "impressions": 9,
       "clicks": 0
     },
     {
@@ -4308,12 +4695,12 @@
   ],
   "/futureproof/pipeline-workflow-example/": [
     {
-      "query": "covenant eyes for linux",
-      "impressions": 2,
+      "query": "pipline management",
+      "impressions": 3,
       "clicks": 0
     },
     {
-      "query": "pipline management",
+      "query": "covenant eyes for linux",
       "impressions": 2,
       "clicks": 0
     },
@@ -4331,17 +4718,22 @@
   "/futureproof/pipeline-workflow/": [
     {
       "query": "pipeline workflow management",
-      "impressions": 79,
+      "impressions": 86,
       "clicks": 0
     },
     {
       "query": "pipeline workflow",
-      "impressions": 55,
+      "impressions": 61,
       "clicks": 0
     },
     {
       "query": "pipeline workflow software",
-      "impressions": 27,
+      "impressions": 31,
+      "clicks": 0
+    },
+    {
+      "query": "contractsense v2",
+      "impressions": 9,
       "clicks": 0
     },
     {
@@ -4350,18 +4742,13 @@
       "clicks": 0
     },
     {
-      "query": "contractsense v2",
+      "query": "workflow pipeline",
       "impressions": 8,
       "clicks": 0
     },
     {
       "query": "minidataapi",
       "impressions": 6,
-      "clicks": 0
-    },
-    {
-      "query": "workflow pipeline",
-      "impressions": 5,
       "clicks": 0
     },
     {
@@ -4383,8 +4770,13 @@
   "/futureproof/pipulate-pipeline-born-again/": [
     {
       "query": "pipulate",
-      "impressions": 59,
-      "clicks": 2
+      "impressions": 57,
+      "clicks": 3
+    },
+    {
+      "query": "seo michael castaway",
+      "impressions": 4,
+      "clicks": 0
     },
     {
       "query": "codeium api documentation",
@@ -4413,11 +4805,6 @@
     },
     {
       "query": "how to use nerdtree",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "java serializable transient",
       "impressions": 1,
       "clicks": 0
     },
@@ -4481,12 +4868,12 @@
   "/futureproof/practicing-botify-api/": [
     {
       "query": "botify api",
-      "impressions": 33,
+      "impressions": 37,
       "clicks": 0
     },
     {
       "query": "api do botify",
-      "impressions": 28,
+      "impressions": 36,
       "clicks": 0
     },
     {
@@ -4505,7 +4892,17 @@
       "clicks": 0
     },
     {
+      "query": "is botify down",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
       "query": "botify seo",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "is botify safe",
       "impressions": 1,
       "clicks": 0
     }
@@ -4519,6 +4916,11 @@
     {
       "query": "codebase to llm",
       "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "chatq",
+      "impressions": 1,
       "clicks": 0
     },
     {
@@ -4544,13 +4946,18 @@
       "clicks": 3
     },
     {
+      "query": "mcp server python",
+      "impressions": 11,
+      "clicks": 0
+    },
+    {
       "query": "python mcp server",
       "impressions": 10,
       "clicks": 0
     },
     {
-      "query": "mcp server python",
-      "impressions": 9,
+      "query": "mcp python example",
+      "impressions": 5,
       "clicks": 0
     },
     {
@@ -4574,11 +4981,6 @@
       "clicks": 0
     },
     {
-      "query": "mcp python example",
-      "impressions": 4,
-      "clicks": 0
-    },
-    {
       "query": "mcp python version",
       "impressions": 4,
       "clicks": 0
@@ -4587,22 +4989,37 @@
   "/futureproof/python-nix-flake-uv/": [
     {
       "query": "nix uv",
-      "impressions": 61,
-      "clicks": 0
-    },
-    {
-      "query": "nix python uv",
-      "impressions": 35,
+      "impressions": 79,
       "clicks": 0
     },
     {
       "query": "uv nix",
-      "impressions": 35,
+      "impressions": 45,
       "clicks": 0
     },
     {
+      "query": "nix python uv",
+      "impressions": 38,
+      "clicks": 1
+    },
+    {
       "query": "nix uv python",
-      "impressions": 18,
+      "impressions": 21,
+      "clicks": 0
+    },
+    {
+      "query": "uv to nix",
+      "impressions": 17,
+      "clicks": 0
+    },
+    {
+      "query": "nixos uv python",
+      "impressions": 16,
+      "clicks": 0
+    },
+    {
+      "query": "python uv nix",
+      "impressions": 16,
       "clicks": 0
     },
     {
@@ -4611,45 +5028,30 @@
       "clicks": 0
     },
     {
-      "query": "nixos uv python",
-      "impressions": 15,
-      "clicks": 0
-    },
-    {
-      "query": "uv to nix",
-      "impressions": 15,
-      "clicks": 0
-    },
-    {
       "query": "nixos python uv",
-      "impressions": 11,
+      "impressions": 13,
       "clicks": 0
     },
     {
       "query": "uv python nix",
-      "impressions": 11,
-      "clicks": 0
-    },
-    {
-      "query": "python uv nix",
-      "impressions": 10,
+      "impressions": 12,
       "clicks": 0
     }
   ],
   "/futureproof/python-nix-htmx-ollama/": [
     {
       "query": "python cursorrules",
-      "impressions": 145,
-      "clicks": 0
-    },
-    {
-      "query": "astrolytics",
-      "impressions": 7,
+      "impressions": 127,
       "clicks": 0
     },
     {
       "query": "python htmx",
-      "impressions": 6,
+      "impressions": 12,
+      "clicks": 0
+    },
+    {
+      "query": "astrolytics",
+      "impressions": 8,
       "clicks": 0
     },
     {
@@ -4764,12 +5166,12 @@
   "/futureproof/radical-simplicity-local-first/": [
     {
       "query": "seo michael pulse",
-      "impressions": 10,
+      "impressions": 11,
       "clicks": 0
     },
     {
       "query": "pipulate",
-      "impressions": 6,
+      "impressions": 9,
       "clicks": 0
     },
     {
@@ -4802,6 +5204,11 @@
       "clicks": 0
     },
     {
+      "query": "chess pid lookup",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
       "query": "refactoring with ai",
       "impressions": 2,
       "clicks": 0
@@ -4818,11 +5225,6 @@
     },
     {
       "query": "ai wave wheel config",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "chess pid lookup",
       "impressions": 1,
       "clicks": 0
     },
@@ -4847,6 +5249,23 @@
       "clicks": 0
     }
   ],
+  "/futureproof/regex-google-docs-markdown/": [
+    {
+      "query": "export google docs markdown",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "google docs render markdown",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "markdown tools google docs",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
   "/futureproof/reimagining-web-crawling-in-age-of-ai/": [
     {
       "query": "llm crawling",
@@ -4862,7 +5281,7 @@
   "/futureproof/revolutionizing-software-deployment-with-nix-flakes/": [
     {
       "query": "uvik vulnerability",
-      "impressions": 32,
+      "impressions": 35,
       "clicks": 0
     },
     {
@@ -4894,7 +5313,12 @@
     },
     {
       "query": "pass the baton python",
-      "impressions": 29,
+      "impressions": 32,
+      "clicks": 0
+    },
+    {
+      "query": "sultry silicone llm",
+      "impressions": 2,
       "clicks": 0
     },
     {
@@ -4908,7 +5332,7 @@
       "clicks": 0
     },
     {
-      "query": "sultry silicone llm",
+      "query": "hyprland starter github",
       "impressions": 1,
       "clicks": 0
     },
@@ -4933,12 +5357,12 @@
   "/futureproof/sematic-web-discoverability-ai/": [
     {
       "query": "semantic seo python",
-      "impressions": 112,
+      "impressions": 146,
       "clicks": 0
     },
     {
       "query": "semantic urls",
-      "impressions": 26,
+      "impressions": 56,
       "clicks": 0
     },
     {
@@ -4948,6 +5372,11 @@
     },
     {
       "query": "semantic web ai",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "semantic web podcast",
       "impressions": 2,
       "clicks": 0
     },
@@ -4967,11 +5396,6 @@
       "clicks": 0
     },
     {
-      "query": "semantic web podcast",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
       "query": "semantic web vs ai",
       "impressions": 1,
       "clicks": 0
@@ -4985,7 +5409,7 @@
   "/futureproof/seo-age-of-llms/": [
     {
       "query": "seo michael pulse",
-      "impressions": 21,
+      "impressions": 59,
       "clicks": 0
     },
     {
@@ -5024,22 +5448,22 @@
   "/futureproof/slack-zoom-nixos-workspaces/": [
     {
       "query": "nixos zoom",
-      "impressions": 206,
+      "impressions": 203,
       "clicks": 0
     },
     {
       "query": "zoom nixos",
-      "impressions": 116,
+      "impressions": 117,
       "clicks": 0
     },
     {
       "query": "nixos slack",
-      "impressions": 108,
+      "impressions": 114,
       "clicks": 0
     },
     {
       "query": "slack nixos",
-      "impressions": 43,
+      "impressions": 40,
       "clicks": 0
     },
     {
@@ -5049,7 +5473,12 @@
     },
     {
       "query": "slack exit full screen",
-      "impressions": 4,
+      "impressions": 5,
+      "clicks": 0
+    },
+    {
+      "query": "slack full screen",
+      "impressions": 3,
       "clicks": 0
     },
     {
@@ -5063,12 +5492,7 @@
       "clicks": 0
     },
     {
-      "query": "nixos vmware workstation",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "nixos window manager",
+      "query": "nixos i3",
       "impressions": 1,
       "clicks": 0
     }
@@ -5183,25 +5607,32 @@
       "clicks": 0
     }
   ],
+  "/futureproof/structuring-websites-to-train-models/": [
+    {
+      "query": "seo michael pulse",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
   "/futureproof/sudo-nixos-rebuild-switch-upgrade/": [
     {
       "query": "nixos rebuild switch",
-      "impressions": 56,
+      "impressions": 59,
       "clicks": 0
     },
     {
       "query": "nixos-rebuild switch",
-      "impressions": 41,
+      "impressions": 43,
       "clicks": 0
     },
     {
       "query": "sudo nixos-rebuild switch",
-      "impressions": 33,
+      "impressions": 35,
       "clicks": 0
     },
     {
       "query": "nix rebuild switch",
-      "impressions": 25,
+      "impressions": 29,
       "clicks": 0
     },
     {
@@ -5211,7 +5642,12 @@
     },
     {
       "query": "nix build switch",
-      "impressions": 11,
+      "impressions": 12,
+      "clicks": 0
+    },
+    {
+      "query": "nixos-rebuild switch --upgrade",
+      "impressions": 12,
       "clicks": 0
     },
     {
@@ -5220,18 +5656,20 @@
       "clicks": 0
     },
     {
-      "query": "nixos-rebuild switch --upgrade",
-      "impressions": 10,
-      "clicks": 0
-    },
-    {
       "query": "nixos build switch",
-      "impressions": 9,
+      "impressions": 10,
       "clicks": 0
     },
     {
       "query": "nixos switch",
       "impressions": 9,
+      "clicks": 0
+    }
+  ],
+  "/futureproof/tech-churn-vim-mastery/": [
+    {
+      "query": "vim mastery",
+      "impressions": 3,
       "clicks": 0
     }
   ],
@@ -5243,7 +5681,7 @@
     },
     {
       "query": "single app test",
-      "impressions": 8,
+      "impressions": 9,
       "clicks": 0
     },
     {
@@ -5262,6 +5700,16 @@
       "clicks": 0
     },
     {
+      "query": "test delivery updates python",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "anyio python",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
       "query": "api mock testing",
       "impressions": 1,
       "clicks": 0
@@ -5275,27 +5723,17 @@
       "query": "fasthtml chatbot",
       "impressions": 1,
       "clicks": 0
-    },
-    {
-      "query": "iota api",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "performance testing for api",
-      "impressions": 1,
-      "clicks": 0
     }
   ],
   "/futureproof/testing-openai-chatgpt-o1-release/": [
     {
       "query": "chatgpt o1 api",
-      "impressions": 15,
+      "impressions": 14,
       "clicks": 0
     },
     {
       "query": "openai test",
-      "impressions": 9,
+      "impressions": 8,
       "clicks": 0
     },
     {
@@ -5306,11 +5744,6 @@
     {
       "query": "retrieval plugin chatgpt",
       "impressions": 3,
-      "clicks": 0
-    },
-    {
-      "query": "chat gpt o1 api",
-      "impressions": 2,
       "clicks": 0
     },
     {
@@ -5347,7 +5780,12 @@
     },
     {
       "query": "chatgpt pyxl.pro",
-      "impressions": 2,
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "pyxl pro chatgpt",
+      "impressions": 3,
       "clicks": 0
     },
     {
@@ -5381,7 +5819,12 @@
   "/futureproof/the-mindful-mirror-model-effect/": [
     {
       "query": "mindful metamorphosis",
-      "impressions": 18,
+      "impressions": 22,
+      "clicks": 0
+    },
+    {
+      "query": "dunning kruger mascot",
+      "impressions": 1,
       "clicks": 0
     },
     {
@@ -5403,7 +5846,7 @@
     },
     {
       "query": "botify commands",
-      "impressions": 46,
+      "impressions": 43,
       "clicks": 0
     },
     {
@@ -5413,7 +5856,7 @@
     },
     {
       "query": "linkgraph io",
-      "impressions": 3,
+      "impressions": 4,
       "clicks": 0
     }
   ],
@@ -5454,12 +5897,17 @@
   "/futureproof/un-externalizing-helper-function/": [
     {
       "query": "pass the baton python",
-      "impressions": 29,
+      "impressions": 32,
       "clicks": 0
     },
     {
       "query": "externalisation seo",
-      "impressions": 2,
+      "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "helper function meaning",
+      "impressions": 1,
       "clicks": 0
     },
     {
@@ -5469,6 +5917,11 @@
     }
   ],
   "/futureproof/unix-pipelines-htmx-fasthtml-workflow/": [
+    {
+      "query": "htmx lazy loading",
+      "impressions": 4,
+      "clicks": 0
+    },
     {
       "query": "htmx data grid",
       "impressions": 2,
@@ -5485,11 +5938,6 @@
       "clicks": 0
     },
     {
-      "query": "htmx lazy loading",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
       "query": "tmux attach session",
       "impressions": 1,
       "clicks": 0
@@ -5498,13 +5946,13 @@
   "/futureproof/unpacking-fasthtml-databases/": [
     {
       "query": "fasthtml",
-      "impressions": 84,
+      "impressions": 85,
       "clicks": 6
     },
     {
       "query": "fasthtml database",
-      "impressions": 69,
-      "clicks": 14
+      "impressions": 67,
+      "clicks": 13
     },
     {
       "query": "fasthtml table",
@@ -5523,7 +5971,7 @@
     },
     {
       "query": "minidataapi",
-      "impressions": 7,
+      "impressions": 8,
       "clicks": 0
     },
     {
@@ -5549,6 +5997,21 @@
   ],
   "/futureproof/unparsable-structured-data/": [
     {
+      "query": "structured data errors",
+      "impressions": 9,
+      "clicks": 0
+    },
+    {
+      "query": "unparsable structured data",
+      "impressions": 5,
+      "clicks": 0
+    },
+    {
+      "query": "fixing structured data errors",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
       "query": "articlebody",
       "impressions": 3,
       "clicks": 0
@@ -5559,8 +6022,8 @@
       "clicks": 0
     },
     {
-      "query": "structured data errors",
-      "impressions": 2,
+      "query": "structured data seo",
+      "impressions": 1,
       "clicks": 0
     },
     {
@@ -5572,7 +6035,7 @@
   "/futureproof/updating-nixos/": [
     {
       "query": "nixos update",
-      "impressions": 5,
+      "impressions": 6,
       "clicks": 0
     },
     {
@@ -5613,6 +6076,11 @@
       "clicks": 0
     },
     {
+      "query": "vim indent selection",
+      "impressions": 4,
+      "clicks": 0
+    },
+    {
       "query": "vim auto indent python",
       "impressions": 3,
       "clicks": 0
@@ -5623,7 +6091,12 @@
       "clicks": 0
     },
     {
-      "query": "vim indent selection",
+      "query": "vim indent object",
+      "impressions": 2,
+      "clicks": 0
+    },
+    {
+      "query": "vim indentation",
       "impressions": 2,
       "clicks": 0
     },
@@ -5644,16 +6117,6 @@
     },
     {
       "query": "indent in vim",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "indent vim",
-      "impressions": 1,
-      "clicks": 0
-    },
-    {
-      "query": "nvim indent selection",
       "impressions": 1,
       "clicks": 0
     }
@@ -5699,6 +6162,11 @@
     {
       "query": "fork vscode ai",
       "impressions": 3,
+      "clicks": 0
+    },
+    {
+      "query": "cline vs augment",
+      "impressions": 1,
       "clicks": 0
     },
     {
@@ -5778,6 +6246,13 @@
       "clicks": 0
     }
   ],
+  "/futureproof/workflows-redirect-fix-attention/": [
+    {
+      "query": "redirect focus",
+      "impressions": 1,
+      "clicks": 0
+    }
+  ],
   "/futureproof/wrangling-ai-code-assistants/": [
     {
       "query": "linux ai assistant",
@@ -5785,8 +6260,8 @@
       "clicks": 0
     },
     {
-      "query": "ai coding assistant python",
-      "impressions": 2,
+      "query": "salts seo michael",
+      "impressions": 4,
       "clicks": 0
     },
     {
@@ -5801,6 +6276,11 @@
     },
     {
       "query": "ai coding assistance",
+      "impressions": 1,
+      "clicks": 0
+    },
+    {
+      "query": "ai coding assistant python",
       "impressions": 1,
       "clicks": 0
     },
@@ -5823,17 +6303,12 @@
       "query": "code completion tools",
       "impressions": 1,
       "clicks": 0
-    },
-    {
-      "query": "mike ai alternative",
-      "impressions": 1,
-      "clicks": 0
     }
   ],
   "/futureproof/zenos-paradox-knuth-brooks/": [
     {
       "query": "brooks seo",
-      "impressions": 6,
+      "impressions": 12,
       "clicks": 0
     },
     {
@@ -5897,59 +6372,52 @@
   "/pipulate/": [
     {
       "query": "open source seo software",
-      "impressions": 2209,
+      "impressions": 2380,
       "clicks": 0
     },
     {
       "query": "open source seo platform",
-      "impressions": 748,
+      "impressions": 734,
       "clicks": 0
     },
     {
       "query": "linux seo software",
-      "impressions": 690,
+      "impressions": 686,
       "clicks": 0
     },
     {
       "query": "seo software linux",
-      "impressions": 687,
+      "impressions": 680,
       "clicks": 0
     },
     {
-      "query": "pipulate",
-      "impressions": 106,
-      "clicks": 8
-    },
-    {
       "query": "open source seo tool",
-      "impressions": 103,
+      "impressions": 175,
       "clicks": 0
     },
     {
       "query": "open source seo",
-      "impressions": 102,
+      "impressions": 121,
       "clicks": 1
     },
     {
+      "query": "pipulate",
+      "impressions": 101,
+      "clicks": 8
+    },
+    {
       "query": "seo tool open source",
-      "impressions": 76,
+      "impressions": 83,
       "clicks": 0
     },
     {
       "query": "seo tools open source",
-      "impressions": 49,
+      "impressions": 59,
       "clicks": 0
     },
     {
-      "query": "linux seo tools",
-      "impressions": 20,
-      "clicks": 0
-    }
-  ],
-  "/six-click-ease-of-surfin-bacon/": [
-    {
-      "query": "\"slippery six\"",
-      "impressions": 1,
+      "query": "open source seo toolkit",
+      "impressions": 22,
       "clicks": 0
     }
   ]

@@ -1060,9 +1060,9 @@ class CompetitorPlugin:
 
         routes_to_register = [
             (f'{prefix}', self.competitor_app_instance.insert_item, ['POST']),
-            (f'{prefix}/{{item_id:int}}', self.competitor_app_instance.update_item, ['POST']),
+            {% raw %}(f'{prefix}/{{item_id:int}}', self.competitor_app_instance.update_item, ['POST']),
             (f'{prefix}/delete/{{item_id:int}}', self.competitor_app_instance.delete_item, ['DELETE']),
-            (f'{prefix}/toggle/{{item_id:int}}', self.competitor_app_instance.toggle_item, ['POST']),
+            (f'{prefix}/toggle/{{item_id:int}}', self.competitor_app_instance.toggle_item, ['POST']),{% endraw %}
             (sort_path, self.competitor_app_instance.sort_items, ['POST']),
         ]
 
