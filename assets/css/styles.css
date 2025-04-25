@@ -107,7 +107,7 @@ header {
 }
 
 .center-container::before {
-    content: "Topic Tags";
+    content: "";
     left: calc((100vw - 98vw)/2 + 1rem);
 }
 
