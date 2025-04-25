@@ -76,7 +76,7 @@ If you think you found an old-school Webmaster, you might be right. I go back to
         <h3 id="{{ post.title | slugify }}"><a href="https://mikelev.in{{ post.url }}" class="arrow-link">{{ post.title | escape}}</a></h3>
         <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
         {%- if post.description -%}
-          <p>{{ post.description | escape | markdownify }}</p>
+          {{ post.description | escape | markdownify }}
         {%- endif -%}
         <script type="application/ld+json">
         {
