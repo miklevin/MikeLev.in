@@ -430,6 +430,12 @@ This plan provides a structured approach to incorporate the forward-looking idea
 
 ---
 
+## I Ask For Riffing and Get a Detailed Plan
+
+> Ask Gemini 2.5 Experimental a question and you might get either face of
+> Gemini. Here I get the most decidedly hard-nosed pragmatic face of Gemini, to
+> the point where all the work it lays out sounds a bit intimidating!
+
 OMG Wow, this sounds exhausting. But you're right. This is the direction I'm
 going. But I can't boil the ocean. I have to make these plodding
 forward-progressions that take a very pragmatic view that let me put the actual
