@@ -56,7 +56,7 @@ group: home
 
 # Future-Proof Yourself In The Age of AI
 
-If you think you found an old-school Webmaster, you might be right. I go back to the halls of Commodore Computers where I worked as a student intern. Today, I fan the flames of the *Webmaster's Return,* thanks to AI and certain key tech that lets one person do it all again! Enjoy my raw stream of consciousness articles while I *eventually* coax them into an organized experience.
+I'm an old-school Webmaster locked in a battle with <a target="_new" href="https://en.wikipedia.org/wiki/Conway%27s_law">Conway's Law</a>, leveraging AI to make it simpler again, and there's no project like this project. Every article is part of a super-prompt for AI cultivating an outlier approach that makes everything doable by a single person again — like in the 8-bit retro days, but with a modern twist. I go back to the halls of Commodore Computers where I worked as a student intern. Enjoy my raw stream of consciousness articles while I *eventually* coax them into an organized experience.
 
 <ol reversed id="index">
   {%- assign total_posts = site.posts.size -%}
