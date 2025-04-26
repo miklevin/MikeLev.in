@@ -197,8 +197,11 @@ This approach maintains your CLS prevention while ensuring search engines can ac
 
 And just like what got me into this mess in the first place, I enthusiastically
 accept all the changes, let Jekyll render out the site, and I go check to make
-sure everything looks okay. It does, so I push it to production (git push), and
-now I wait.
+sure everything looks okay. Reading over the solution, I still have some
+concerns with the opacity trickery it's using to fight CLS flash, but I'll give
+it a day or two to see if recovery occurs with this solution.
+
+So I push it to production (git push), and now I wait.
 
 ---
 
