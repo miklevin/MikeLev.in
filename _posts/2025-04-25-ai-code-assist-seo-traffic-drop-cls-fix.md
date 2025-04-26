@@ -205,6 +205,34 @@ So I push it to production (git push), and now I wait.
 
 ---
 
+## Update: SEO over CLS
+
+> I got nervous even about the reaming rapid opacity transition trick. Going
+> from zero opacity (which is the same as invisible text) to fully opaque very
+> quickly still makes me nervous. Let's not take the risk and suffer the CLS
+> indignity.
+
+**Me**: Let's get rid of even that opacity hack. I want the content of the page
+fully visible on page-load, even if there's a CLS flash. I can't afford the risk
+of even that opacity as being interpreted as hidden content.
+
+**Claude**: I'll remove the opacity-based solution completely to ensure your content is fully visible on page load, prioritizing SEO over CLS prevention.
+
+[A number of changes were documented here in Cursor, but they don't carry over
+with copy/paste anymore]
+
+All references to content visibility manipulation have been removed. Your site will now display content immediately on page load, with no hiding or opacity changes. This ensures:
+
+1. Search engines can fully index all your content without any barriers
+2. Users see your content as soon as possible
+3. There's no risk of content being interpreted as hidden
+
+You might experience some Content Layout Shift (CLS) as the page loads, but this prioritizes SEO and content availability over preventing visual flashing. The browser's natural rendering process will handle the display, with no JavaScript interventions delaying content visibility.
+
+Since you're still using the width slider to dynamically resize content, you may still see some layout adjustments after page load, but these will be handled by the browser's normal rendering flow rather than explicit hiding/showing of content.
+
+---
+
 ## AI Analyisis
 
 * **Title/Headline Ideas:**
