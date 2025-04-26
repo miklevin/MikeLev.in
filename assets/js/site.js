@@ -197,6 +197,16 @@ function isMobile() {
 const storedWidth = getCookie('containerWidth') || '850';
 document.documentElement.style.setProperty('--slider-width', storedWidth + 'px');
 
+// Ensure content is visible for search engines as soon as possible
+(function() {
+  // Make content visible immediately for search engines and users
+  const centerContainer = document.querySelector('.center-container');
+  if (centerContainer) {
+    // Schedule this to happen as soon as possible but after the current JS execution
+    setTimeout(() => centerContainer.classList.add('loaded'), 0);
+  }
+})();
+
 document.addEventListener('DOMContentLoaded', function() {
     const widthSlider = document.getElementById('widthSlider');
     const container = document.querySelector('.container');
@@ -208,10 +218,10 @@ document.addEventListener('DOMContentLoaded', function() {
     widthSlider.value = storedWidth;
     container.style.maxWidth = storedWidth + 'px';
     
-    // Show content once initial layout is set
-    requestAnimationFrame(() => {
+    // Ensure content is visible (as a backup in case the earlier call failed)
+    if (centerContainer && !centerContainer.classList.contains('loaded')) {
         centerContainer.classList.add('loaded');
-    });
+    }
     
     function updateSliderMaxWidth() {
         // Only run this on desktop

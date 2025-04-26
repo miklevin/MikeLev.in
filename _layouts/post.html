@@ -225,7 +225,7 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
 {%- endif -%}
 {%- comment -%}Simplified Related Articles Section{%- endcomment -%}
 {%- assign max_related = 5 -%}
-{%- assign min_common_tags = 1 -%}
+{%- assign min_common_tags = 2 -%}
 {%- if page.meta_keywords and page.meta_keywords != "" -%}
   {%- comment -%}Get current post's keywords{%- endcomment -%}
   {%- assign current_post_keywords = "" | split: "" -%}
