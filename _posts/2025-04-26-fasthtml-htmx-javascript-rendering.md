@@ -1195,10 +1195,14 @@ just lifting up the color-coded console output and transposing it into HTML
 without transforming it into real HTML tables. I know that's what I asked for,
 but I think datagrids are going to have to look better than that.
 
-And finally, I think when the Mermaid diagrams are being show correctly we don't
-also need the original text displayed above it. We're going for a clean, sharp
-look that will be very impressive during demos of the system without invoking a
-lot of questions.
+I think when the Mermaid diagrams are being show correctly we don't also need
+the original text displayed above it. We're going for a clean, sharp look that
+will be very impressive during demos of the system without invoking a lot of
+questions.
+
+And finally when a workflow is locked, I think the widget visualizations should
+still show. That's probably a large point of the thing, to pull up finished and
+locked workflows with the visualizations showing.
 
 And so, the rest of the changes I do believe are mostly cosmetic and all the
 important achievements have been accomplished. And it's time to give my brain a
