@@ -907,7 +907,7 @@ And that's it. It's not even 3:00 PM and now I have all the widgets I need for
 some finished workflows. Polish-wise, I think I still could use to auto-scroll
 after certain submits so the user doesn't have to keep scrolling down to where
 they left off. It is a single page app (SPA), but the way I chain react the
-rebuild of the HTML framgments from a root element results in returning the user
+rebuild of the HTML fragments from a root element results in returning the user
 to the top of the page after submits that trigger the chain-reaction. I could
 smooth that out a bit. I'm keeping my chain reactions (which simulate "run all
 cells" from Jupyter Notebooks — a particular impression I'm trying to instill.
