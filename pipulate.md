@@ -234,8 +234,8 @@ The UI is constructed primarily with server-rendered HTML fragments delivered vi
 * WebSockets and Server-Sent Events (SSE) provide real-time updates (e.g., for chat, live development reloading).
 
 ```
-                    HTMX+Python enables a world-class
-                   Python front-end Web Development environment.
+                        HTMX+Python enables a world-class
+                 Python front-end Web Development environment.
                              ┌─────────────────────┐
                              │    Navigation Bar   │  - No template language (like Jinja2)
                              ├─────────┬───────────┤  - HTML elements are Python functions
