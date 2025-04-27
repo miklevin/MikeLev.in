@@ -5,7 +5,7 @@ description: I'm documenting the final push on refining my Pipulate Widgets, wor
 meta_description: Refining Pipulate web widgets (Pre, JS, Mermaid, Prism, MarkedJS) for UI/UX consistency using AI. Fixes display logic, locked states, styling, and adds Markdown.
 meta_keywords: Pipulate, widgets, UI refinement, UX consistency, FastHTML, HTMX, AI coding assistant, Gemini, Claude, Python, JavaScript widget, Mermaid diagram, PrismJS, Markdown, MarkedJS, <pre> tag, styling, CSS variables, PicoCSS, locked state, workflow, implementation plan, widget_container, server.py, 60_widget_examples.py, iterative development, web application, user interface, double display, button color, AI collaboration
 layout: post
-sort_order: 1
+sort_order: 3
 ---
 
 ## Widget Wonders: Crafting Consistent User Experiences
