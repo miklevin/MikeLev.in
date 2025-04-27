@@ -16,6 +16,8 @@ The discussion covers specific technical challenges, such as fetching external c
 
 ---
 
+## Morning Development Session: Implementing PrismJS Dependencies
+
 Okay, it's coming up on 11:00 AM already. I gave my brain a few hours break
 after that last session that went from 6 to 8 AM. That's about 3 hours break. I
 have a pizza delivery order in. I really need to do the grocery shopping, but I
@@ -40,12 +42,16 @@ Successfully saved to: /home/mike/repos/pipulate/static/prism-line-numbers.min.c
 Download process finished. 5/5 libraries downloaded successfully.
 ```
 
+## The Paradox of Project Completion: The Last 10% is the New 90%
+
 Oh, and technically while I let my brain rest, I wrote this article on the last
 10% is the remaining 90%. This will actually be an implementation article about
 the last 10%, but still I'll just put this here:
 
 We are 90% of the way there and the last 10% of the project is the new 90% that
 still remains. 
+
+## The Devil in the Details: Why Projects Expand Near Completion
 
 The devil is in the details. Things are never as easy as you think and as you
 approach the finish line it drifts away from you. This has been articulated
@@ -54,6 +60,8 @@ unaccounted for factors at the outset to the unrealistic pursuit of perfection
 later on. Released early, iterate fast, break often is one of the new mantras in
 tech specifically to address this. 
 
+## AI as a Safety Net: The Modern Approach to Breaking Things
+
 A modernized version might add an addendum about how you should be fearless in
 this break-often approach because when you do break things, you now have AI
 assistance in getting it working again. They can scour your git histories and
@@ -61,6 +69,8 @@ branches and spot what's what, cherry-picking that good parts like few human
 can, because this is their superpower. What they lack in creativity and
 initiative, they make up for in pattern recognition. That makes them a wonderful
 safetynet — a multi-threading Undo/Redo feature: Redo but better this time!
+
+## The Rise of One-Shot Development in the AI Era
 
 As everything goes agentic, the number of 1-shot developers who go from prompt
 to finished product are going to explode. From there they vibe-code talking the
@@ -71,6 +81,8 @@ Some apps will lend themselves to this approach and others will probably not. I
 rather suspect those that require extreme granular control and creativity will
 not. 
 
+## The GitHub Effect: Why One-Shot Development Works
+
 The 1-shot approach is even a thing because there's something "close enough"
 that already exists in GitHub. Yet another version of Python Snake, Androids or
 Breakout. Even the increasingly large Rubiks Cube examples is just the
@@ -80,6 +92,8 @@ Node, yadda yadda. All that stuff to achieve massively scalable enterprise web
 apps for building empires. It's all anyone's cared about for a good long while.
 AIs are over-trained on it. 
 
+## The Loneliness of Innovation: Going Off the Beaten Track
+
 Going off the beaten track as an outlier doing creative things, perhaps for the
 first time in history, is a lonely place to be. The AIs will not like it because
 they cannot help you so much there, and so they will try to corral and wrangle
@@ -87,6 +101,8 @@ you back to their familiar turf. The amount of self-determination and will that
 you need as a human to not be intellectually manhandled as such by AI is
 formidable. There is nothing to undermine your confidence like a machine telling
 you you're doing something wrong.
+
+## The Mechanical Proof: When Working Code Validates Innovation
 
 Thankfully, it was all things mechanical the proof is in the machinery. If the
 machine works, then the hypothesis is correct. The AI shepherds must expand
@@ -97,6 +113,8 @@ or incomplete in the rule. This happens all the time to simplify things. It's
 called heuristics. If you took everything into account all the time, processing
 systems would get bogged down by the detail details.
 
+## Breaking Heuristics: The Path to Competitive Advantage
+
 Competitive advantage comes from breaking heuristics. If there is a
 shortcut-taking machine — a loophole finder — it is an opportunity waiting for
 you. Everything is built, expecting you to stay on those rails. If you go off
@@ -106,6 +124,8 @@ perhaps not so good that it is unnerving for your AI coding assistant. They want
 to help you. They are programmed to actually do right by you. And so what you do
 is provide them copious examples of your anti-patterns working.
 
+## The Paradox of AI-Assisted Development
+
 At the same time as so much more becoming possible because AI, so much less will
 in actuality be explored and done because AI. That's the rub of best practices
 and the wisdom of the crowd being instantaneously at your fingertips. Nine times
@@ -113,12 +133,16 @@ out of 10 what you want to do is exactly best practices and what the wisdom of
 the crowd will compel you towards. It's just that it is that one out of 10 times
 that it's not where competitive advantage resides. 
 
+## Maintaining Linear Progress: The True Meaning of Acceleration
+
 In order to not have been continuously made larger as you approached the finish
 line, you inherently accelerate as you get closer. Acceleration isn't always
 necessarily about hockey stick curves going to the right on a chart. Sometimes
 it's about maintaining linear progress.
 
 ---
+
+## Zeroing In: The Final Widget Project Details
 
 And so what I'm doing is zeroing in on the last remaining part of this widget
 project. It's like, okay now I have widgets. But what I'm really going to need
