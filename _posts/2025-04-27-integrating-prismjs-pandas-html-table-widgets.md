@@ -65,7 +65,7 @@ tech specifically to address this.
 A modernized version might add an addendum about how you should be fearless in
 this break-often approach because when you do break things, you now have AI
 assistance in getting it working again. They can scour your git histories and
-branches and spot what's what, cherry-picking that good parts like few human
+branches and spot what's what, cherry-picking that good parts like few humans
 can, because this is their superpower. What they lack in creativity and
 initiative, they make up for in pattern recognition. That makes them a wonderful
 safetynet — a multi-threading Undo/Redo feature: Redo but better this time!
