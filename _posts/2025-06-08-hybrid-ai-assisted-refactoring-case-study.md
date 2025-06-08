@@ -5,7 +5,7 @@ description: "This entry captures that specific, intense state of flow on a Sund
 meta_description: A case study on refactoring a legacy Python plugin by transplanting methods into a modern, template-based architecture using a hybrid human-AI workflow.
 meta_keywords: Parameter Buster, Pipulate, plugin refactoring, WET Workflows, create_workflow.py, splice_workflow_step.py, human-AI collaboration, nvim, code transplant, atomic grouping, PIPULATE_CONFIG, 420_botify_trifecta.py, server.py, helper functions
 layout: post
-sort_order: 1
+sort_order: 3
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
