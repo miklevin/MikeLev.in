@@ -1,5 +1,5 @@
 ---
-title: "Prompt and Pray, aka The 'Copy-on-First-Run' Pattern: Protecting User Work in an Auto-Updating App"
+title: "Prompt and Pray - aka The 'Copy-on-First-Run' Pattern: Protecting User Work in an Auto-Updating App"
 permalink: /futureproof/prompt-and-pray/
 description: "I’ve just realized my 'magic cookie' auto-update system is about to break. By encouraging users to work directly in the `botify_api.ipynb` notebook—a workflow I'm pushing hard with new tools like Cursor AI handling Notebooks—I'm setting them up for `git pull` failures the moment they save their work. I need a robust, 80/20 fix that protects both the user's edits and my fragile installation process. Stashing feels risky, so I'm leaning toward creating a safe, untracked copy of the notebook for users, but I need a solid, AI-vetted plan before this becomes a widespread problem."
 meta_description: "Resolve a `git pull` conflict in a Nix Flake auto-update system by implementing a 'copy-on-first-run' pattern for a user-editable Jupyter Notebook."
