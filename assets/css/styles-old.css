@@ -1,0 +1,1083 @@
+/* 
+ * CSS Documentation
+ * 
+ * CRITICAL: The following styles are crucial for the site's layout and appearance.
+ * Modify with extreme caution and always test thoroughly on both desktop and mobile.
+ */
+
+/* Custom variables */
+:root:not([data-theme]) {
+    --pico-background-color: #000000;
+}
+
+:root {
+    --bg: #11191f; /* PicoCSS's darker shade */
+    --accent-bg: #1a252f;
+    --text: #dcdcdc;
+    --text-light: #ababab;
+    --accent: #ffb300;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --disabled: #111;
+    --border: #898ea46b;
+    --marked: #ffdd33;
+    --pico-background-color: #11191f;
+    --color: #ffffff !important;          /* Pure white for body text */
+    --h1-color: #ffffff !important;       /* Headers pure white */
+    --h2-color: #ffffff !important;
+    --h3-color: #ffffff !important;
+    --h4-color: #ffffff !important;
+    --h5-color: #ffffff !important;
+    --h6-color: #ffffff !important;
+    --muted-color: #e0e0e0 !important;    /* Light grey for muted text */
+}
+
+/* Custom styles */
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Abel", sans-serif;
+    font-size: 24px; /* Added this line */
+}
+
+header {
+    background-color: #000000;
+}
+
+#wheel {
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: -1.2vw;
+}
+
+@media (max-width: 768px) {
+    body #wheel {
+        top: -2.4vw !important;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#headerTitle {
+    margin: auto 0 0 0;
+    text-align: left;
+    color: #90b98b7a;
+    font-family: 'Dorsa', sans-serif;
+    line-height: 0.7;
+    overflow-wrap: break-word;
+    width: 100%;
+    background-color: #000000;
+}
+
+#headerTitle a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Blockquote styles */
+blockquote {
+    margin: 2vw 2vw 2vw 2vw;
+    padding: 0rem 0rem 0rem 1rem;
+    border-left: 0.35rem solid var(--accent);
+    color: var(--text-light);
+    font-style: italic;
+    font-family: 'Goldman';
+    font-size: min(25px, 4.5vw);
+    line-height: 1.3;
+}
+
+/* Code styles */
+code,
+pre,
+pre span,
+kbd,
+samp {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+pre {
+    padding: 1rem 1.4rem;
+    max-width: 100%;
+    overflow: auto;
+    color: var(--preformatted);
+}
+
+pre code {
+    color: var(--preformatted);
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Slider styles */
+#topSliderContainer, #bottomSliderContainer {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#topSlider, #bottomSlider {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    #headerTitle {
+        margin-top: 8vw !important;
+        font-size: 26vw !important;
+    }
+
+    #wheel {
+        width: 17vw !important;
+    }
+
+    #topSliderContainer, #bottomSliderContainer, #widthSliderContainer {
+        display: none;
+    }
+}
+
+/* Animation */
+.spin {
+    animation: spin 2s cubic-bezier(1, -0.5, 0.34, 1.37) infinite;
+    display: inline-block;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(180deg); }
+}
+
+/* Navigation arrows styles */
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.post-nav-prev,
+.post-nav-next {
+    flex: 0 0 auto;
+    max-width: 45%;
+}
+
+.post-nav-prev {
+    margin-right: auto;
+}
+
+.post-nav-next {
+    margin-left: auto;
+    text-align: right;
+}
+
+.post-link {
+    font-size: 1.6rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.meta {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.post-nav-prev .post-link::before {
+    content: "← ";
+}
+
+.post-nav-next .post-link::after {
+    content: " →";
+}
+
+/* Post navigation styles */
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.top-nav {
+    margin-bottom: 3vw;
+}
+
+.bottom-nav {
+    margin-top: 3vw;
+}
+
+.previous-post,
+.next-post {
+    flex: 0 1 45%;
+}
+
+.previous-post {
+    text-align: left;
+}
+
+.next-post {
+    text-align: right;
+}
+
+.nav-label {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.post-navigation a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--accent);
+    display: inline-block;
+}
+
+.post-navigation a:hover {
+    text-decoration: underline;
+}
+
+.previous-post.placeholder {
+    visibility: hidden;
+}
+
+/* New styles for indenting wrapped lines */
+.previous-post a {
+    padding-left: 1.5em;
+    text-indent: -1.2em;
+}
+
+.next-post a {
+    padding-right: 1.5em;
+    text-indent: -1.5em;
+}
+
+.previous-post a::before {
+    content: "← ";
+}
+
+.next-post a::after {
+    content: " →";
+}
+
+@media (max-width: 600px) {
+    .post-navigation {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .previous-post,
+    .next-post {
+        flex: 0 0 auto;
+        margin: 1rem 0;
+    }
+
+    .next-post {
+        text-align: left;
+    }
+
+    /* Adjust indentation for mobile */
+    .next-post a {
+        padding-left: 1.5em;
+        padding-right: 0;
+        text-indent: -1.5em;
+    }
+
+    .next-post a::after {
+        content: "";
+    }
+
+    .next-post a::before {
+        content: "→ ";
+    }
+}
+
+article {
+    border-radius: 1.5vw;
+    color: #ffffff !important;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dorsa', sans-serif;
+    color: #d0eecd7a;
+    font-size: 4rem; /* Adjust this value as needed */
+    line-height: 1.2;
+    letter-spacing: 0.1em; /* Added this line for increased letter spacing */
+}
+
+article table img {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+/* Rouge syntax highlighting overrides */
+.highlight {
+    background: #000000;
+    color: #f8f8f2;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    overflow: auto;
+}
+
+.highlight pre {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.highlight code {
+    display: block;
+    background: none;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.4;
+}
+
+/* Syntax highlighting colors */
+.highlight .c { color: #75715e } /* Comment */
+.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .k { color: #66d9ef } /* Keyword */
+.highlight .l { color: #ae81ff } /* Literal */
+.highlight .n { color: #f8f8f2 } /* Name */
+.highlight .o { color: #f92672 } /* Operator */
+.highlight .p { color: #f8f8f2 } /* Punctuation */
+.highlight .cm { color: #75715e } /* Comment.Multiline */
+.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .c1 { color: #75715e } /* Comment.Single */
+.highlight .cs { color: #75715e } /* Comment.Special */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .kc { color: #66d9ef } /* Keyword.Constant */
+.highlight .kd { color: #66d9ef } /* Keyword.Declaration */
+.highlight .kn { color: #f92672 } /* Keyword.Namespace */
+.highlight .kp { color: #66d9ef } /* Keyword.Pseudo */
+.highlight .kr { color: #66d9ef } /* Keyword.Reserved */
+.highlight .kt { color: #66d9ef } /* Keyword.Type */
+.highlight .ld { color: #e6db74 } /* Literal.Date */
+.highlight .m { color: #ae81ff } /* Literal.Number */
+.highlight .s { color: #e6db74 } /* Literal.String */
+.highlight .na { color: #a6e22e } /* Name.Attribute */
+.highlight .nb { color: #f8f8f2 } /* Name.Builtin */
+.highlight .nc { color: #a6e22e } /* Name.Class */
+.highlight .no { color: #66d9ef } /* Name.Constant */
+.highlight .nd { color: #a6e22e } /* Name.Decorator */
+.highlight .ni { color: #f8f8f2 } /* Name.Entity */
+.highlight .ne { color: #a6e22e } /* Name.Exception */
+.highlight .nf { color: #a6e22e } /* Name.Function */
+.highlight .nl { color: #f8f8f2 } /* Name.Label */
+.highlight .nn { color: #f8f8f2 } /* Name.Namespace */
+.highlight .nx { color: #a6e22e } /* Name.Other */
+.highlight .py { color: #f8f8f2 } /* Name.Property */
+.highlight .nt { color: #f92672 } /* Name.Tag */
+.highlight .nv { color: #f8f8f2 } /* Name.Variable */
+.highlight .ow { color: #f92672 } /* Operator.Word */
+.highlight .w { color: #f8f8f2 } /* Text.Whitespace */
+.highlight .mf { color: #ae81ff } /* Literal.Number.Float */
+.highlight .mh { color: #ae81ff } /* Literal.Number.Hex */
+.highlight .mi { color: #ae81ff } /* Literal.Number.Integer */
+.highlight .mo { color: #ae81ff } /* Literal.Number.Oct */
+.highlight .sb { color: #e6db74 } /* Literal.String.Backtick */
+.highlight .sc { color: #e6db74 } /* Literal.String.Char */
+.highlight .sd { color: #e6db74 } /* Literal.String.Doc */
+.highlight .s2 { color: #e6db74 } /* Literal.String.Double */
+.highlight .se { color: #ae81ff } /* Literal.String.Escape */
+.highlight .sh { color: #e6db74 } /* Literal.String.Heredoc */
+.highlight .si { color: #e6db74 } /* Literal.String.Interpol */
+.highlight .sx { color: #e6db74 } /* Literal.String.Other */
+.highlight .sr { color: #e6db74 } /* Literal.String.Regex */
+.highlight .s1 { color: #e6db74 } /* Literal.String.Single */
+.highlight .ss { color: #e6db74 } /* Literal.String.Symbol */
+.highlight .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #f8f8f2 } /* Name.Variable.Class */
+.highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
+.highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
+.highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+
+/* Inline code */
+code.highlighter-rouge {
+    padding: .2em .4em;
+    border-radius: .3em;
+    background: #272822;
+    color: #f8f8f2;
+    font-size: 0.9em;
+}
+
+/* Add this new rule for anchor tags */
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add this new rule at the end of the file */
+footer {
+    text-align: center;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+footer a {
+    margin: 0 0.5rem;
+}
+
+/* 
+ * Logo Container
+ * - Ensures logos are side-by-side with specific spacing
+ * - Modifying may affect overall layout
+ */
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw; /* Space between logos */
+    margin: .5vh 3vw; /* Left/right 3vw, top/bottom .5vh */
+    width: 100%; /* Ensure container takes full width */
+}
+
+.logo-item {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.logo-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .logo-container {
+        gap: 4vw; /* Reduce gap on mobile, but keep some space */
+        margin: 8vw 0;
+    }
+
+    .logo-item {
+        max-width: 50%; /* Allow logos to take up full half-width */
+    }
+}
+
+ol li .post-date {
+  font-weight: 900 !important;
+  color: #f0f0f0 !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.bunny-trail {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Changed from flex-start to stretch */
+  gap: 1rem;
+  margin-top: 2vw;
+  margin-bottom: 1.5vw;
+}
+
+.lpvg-list {
+  flex: 3; /* Increased flex grow factor */
+}
+
+.lpvg-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.lpvg-list li {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.lpvg-list li::before {
+  content: "🥕";
+  margin-right: .5vw;
+  flex-shrink: 0;
+}
+
+.lpvg-list li code {
+  flex-shrink: 0;
+}
+
+.lpvg-list li span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .lpvg-container {
+    flex-direction: column;
+  }
+  
+  .lpvg-ascii {
+    justify-content: center;
+  }
+  
+  .lpvg-list {
+    font-size: 3.5vw; /* Increased from 3vw */
+  }
+  
+  .lpvg-list li::before {
+    font-size: 4vw; /* Increased from 3.5vw */
+  }
+  
+  .lpvg-list li code {
+    font-size: 3.8vw; /* Slightly larger than the text */
+  }
+}
+
+.ascii-alice {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.ascii-alice pre {
+    position: relative;  /* Keep text above canvas */
+    z-index: 2;         /* Higher than canvas */
+    margin: 0;
+    padding: 0;
+    background-color: transparent;  /* Allow matrix to show through */
+    color: #fff;
+    border: none;
+    white-space: pre;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .ascii-alice {
+        text-align: center;
+    }
+
+    .ascii-alice pre {
+        font-size: 2.5vw;
+        line-height: 1;
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+.lpvg-ascii {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black; /* Set background to black */
+}
+
+.lpvg-ascii pre {
+  margin: 0;
+  background-color: black; /* Ensure pre element also has black background */
+  color: #fff;
+  border: none;
+  padding: 0;
+  font-size: 0.65em; /* Set font size to 0.65em on desktop */
+  white-space: pre;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .lpvg-ascii pre {
+    font-size: 0.5em; /* Smaller size for mobile */
+  }
+}
+
+header blockquote {
+  margin-top: 0.5vw; /* Default top margin */
+  margin-bottom: 1vh; /* Default bottom margin */
+}
+
+/* 
+ * Mobile Adjustments
+ * - Wheel positioning is crucial for alignment
+ * - Blockquote spacing is adjusted for mobile layout
+ */
+@media (max-width: 768px) {
+    body #wheel {
+        top: -2.4vw !important;
+    }
+
+    header blockquote {
+        margin-top: 6vw; /* Increased top margin on mobile */
+    }
+}
+
+/* 
+ * REMINDER: Any changes to the above styles may break the layout.
+ * Always test thoroughly on both desktop and mobile before deploying.
+ */
+
+/* Styles for the Next link */
+.next-post {
+  text-align: right;
+}
+
+.next-post a {
+  position: relative;
+  padding-right: 1.5em;
+}
+
+.next-post a::after {
+  content: "→";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.next-post a span {
+  text-align: left;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .next-post {
+    text-align: left;
+  }
+
+  .next-post a {
+    padding-right: 0;
+    padding-left: 1.5em;
+  }
+
+  .next-post a::after {
+    content: none;
+  }
+
+  .next-post a::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+/* Special case for the index page next link */
+.post-navigation:not(.top-nav):not(.bottom-nav) .next-post a {
+  padding-right: 1.5em;
+  text-indent: 0;
+}
+
+.post-navigation:not(.top-nav):not(.bottom-nav) .next-post a span {
+  display: inline;
+}
+
+.next-post a span {
+  text-align: right;
+}
+
+.post-navigation .home-link {
+    text-align: center;
+    flex: 1;
+    margin: 0vw 0.5vw;
+    white-space: nowrap;
+}
+
+.post-navigation a {
+    margin: 0vw 1vw;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  /* Special case for the index page next link on mobile */
+  .post-navigation:not(.top-nav):not(.bottom-nav) .next-post {
+    text-align: left;
+  }
+
+  .post-navigation:not(.top-nav):not(.bottom-nav) .next-post a {
+    padding-left: 1.5em;
+    padding-right: 0;
+    text-indent: 0; /* Remove the text indent */
+  }
+
+  .post-navigation:not(.top-nav):not(.bottom-nav) .next-post a::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+/* Mermaid diagram styles */
+.mermaid {
+    width: 100%;
+    min-width: 800px;
+    margin: 2rem auto;
+}
+
+.mermaid svg {
+    max-width: none !important;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .mermaid {
+        min-width: 100%;
+        overflow-x: auto;
+    }
+}
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: .5em 0;
+}
+
+.previous-post,
+.next-post,
+.home-link {
+  flex: 1;
+  text-align: center;
+}
+
+.previous-post {
+  text-align: left;
+}
+
+.next-post {
+  text-align: right;
+}
+
+.nav-label {
+  display: block;
+  font-size: 0.8em;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .post-navigation {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .previous-post,
+  .next-post,
+  .home-link {
+    margin: 0.5em 0;
+    text-align: center;
+  }
+
+  .next-post a {
+    display: inline-block;
+    padding-right: 1.5em;
+    position: relative;
+  }
+
+  .next-post a::after {
+    content: "→";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .next-post a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+}
+
+/* Wisdom section styles */
+.wisdom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vw;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.wisdom pre {
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    font-family: monospace;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size: clamp(0.7rem, 2vw, 1rem);
+}
+
+/* Dialogue styles */
+.wisdom.dialogue pre {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+}
+
+.wisdom.dialogue .speaker {
+    font-weight: bold;
+    color: #ffb300; /* Accent color */
+    text-align: right;
+}
+
+.wisdom.dialogue .speech {
+    display: block;
+}
+
+.ascii-link {
+    color: white;
+    text-decoration: none;
+}
+
+.highlight .gd {
+    color: #000000;
+    background-color: #ff001e;
+}
+
+.highlight .gi {
+    color: #000000;
+    background-color: #00ff44;
+}
+
+/* Ensure maximum contrast for article text */
+article {
+  color: #ffffff !important;
+}
+
+/* Boost contrast for any potentially inherited text */
+p, li, dt, dd, blockquote {
+  color: #ffffff !important;
+}
+
+/* Ensure code blocks maintain readability */
+pre, code {
+  color: #ffffff !important;
+  --code-color: #ffffff !important;
+}
+
+
+a:not(.ascii-link):hover {
+  color: var(--accent-hover, #ffb300) !important;
+}
+
+/* Set light background for main content area */
+:root:not([data-theme="dark"]) {
+    --bg: #000000; /* Light gray background */
+    --accent-bg: #0f0f10;
+    --pico-background-color: #000000;
+}
+
+/* Force article background to pure black */
+article {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Ensure any nested article elements stay black */
+article * {
+    background-color: #000000;
+}
+
+/* Keep code blocks and pre elements black */
+pre, code {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Ensure blockquotes maintain black background */
+blockquote {
+    background-color: #000000;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem; /* Add slightly rounded corners */
+}
+
+/* Wiggle animation for next arrows */
+@keyframes gentle-wiggle {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    1% {
+        transform: translateX(-10px);
+    }
+    2% {
+        transform: translateX(10px);
+    }
+    3% {
+        transform: translateX(-3px);
+    }
+    4% {
+        transform: translateX(3px);
+    }
+    5% {
+        transform: translateX(0);
+    }
+}
+
+.wiggle-prompt {
+    animation: gentle-wiggle 10s linear infinite;
+    position: relative;
+    will-change: transform;
+}
+
+/* Hamster wheel container styles */
+.hamster-wheel-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hamster-wheel-container img {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 66%;
+    height: auto;
+}
+
+.hamster-wheel-container svg {
+    position: relative;
+    z-index: 1;
+}
+
+/* Dancing hamster hover effect */
+.arrow-link {
+    position: relative;
+    display: inline-block;
+}
+
+.arrow-link::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url('/images/dancing-hamster.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    right: -70px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow-link:hover::after {
+    opacity: 1;
+}
+
+/* Home link alternating animation */
+.home-link-container {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    min-width: 120px;
+}
+
+.home-text, .home-hamster {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease;
+    min-width: 60px;
+    width: auto;
+}
+
+.home-text {
+    white-space: nowrap;
+    width: auto;
+    text-decoration: none;
+    animation: showHomeText 16s infinite;
+}
+
+.home-text .nav-label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+
+.home-text .home-word {
+    display: inline-block;
+}
+
+.home-hamster {
+    text-decoration: none !important;
+    width: 60px;
+    animation: showHomeHamster 16s infinite;
+}
+
+.home-hamster img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.home-link-container:hover .home-word {
+    text-decoration: underline;
+}
+
+.home-link-container:hover .nav-label,
+.home-link-container:hover .home-hamster {
+    text-decoration: none;
+}
+
+@keyframes showHomeText {
+    0%, 75%, 100% {
+        opacity: 1;
+        visibility: visible;
+    }
+    75.1%, 99.9% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes showHomeHamster {
+    0%, 74.9% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    75%, 100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}

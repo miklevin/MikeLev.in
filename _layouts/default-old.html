@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} / {{ site.title }}</title>
+    <meta name="description" content="{{ page.meta_description | default: page.description }}" />
+    {%- assign manual_keywords = page.meta_keywords | default: page.keywords | split: ", " -%}
+    {%- assign manual_keywords_lower = "" | split: "" -%}
+    {%- for kw in manual_keywords -%}
+      {%- assign lower_kw = kw | downcase -%}
+      {%- assign manual_keywords_lower = manual_keywords_lower | push: lower_kw -%}
+    {%- endfor -%}
+    {%- assign gsc_data = site.data.gsc_top_keywords[page.url] -%}
+    {%- if gsc_data -%}
+      {%- assign gsc_keywords = gsc_data | map: "query" -%}
+      {%- assign gsc_keywords_lower = "" | split: "" -%}
+      {%- for kw in gsc_keywords -%}
+        {%- assign lower_kw = kw | downcase -%}
+        {%- assign gsc_keywords_lower = gsc_keywords_lower | push: lower_kw -%}
+      {%- endfor -%}
+      {%- assign combined_keywords = manual_keywords_lower | concat: gsc_keywords_lower | uniq -%}
+    {%- else -%}
+      {%- assign combined_keywords = manual_keywords_lower -%}
+    {%- endif %}
+    {%- if combined_keywords.size > 0 %}
+    <meta name="keywords" content="{{ combined_keywords | join: ', ' }}" />
+    {%- endif %}
+    <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />
+    <link rel="stylesheet" href="https://mikelev.in/assets/css/pico.classless.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dorsa">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://mikelev.in/assets/css/syntax.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaid }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.gaid }}');
+    </script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ 
+            startOnLoad: true, 
+            theme: 'dark',
+            gantt: {
+                titleTopMargin: 25,
+                barHeight: 20,
+                barGap: 4,
+                topPadding: 50,
+                leftPadding: 150,
+                gridLineStartPadding: 150,
+                sectionHeight: 35,
+                fontSize: 11,
+                numberSectionStyles: 4,
+                axisFormat: '%b %Y',
+                viewMode: 'halfYear'
+            }
+        });
+    </script>
+    <style>
+        /* Disable slider on mobile */
+        @media (max-width: 768px) {
+            #widthSliderContainer, #bottomSliderContainer {
+                display: none;
+            }
+        }
+        /* Ensure smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Prevent layout shifts for images */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Add sticky slider styles */
+        #widthSliderContainer {
+            position: sticky;
+            top: 0;
+            background-color: var(--background-color);
+            padding: 10px 0;
+            z-index: 100;
+        }
+        
+        /* Add some spacing below the header title */
+        #headerTitle {
+            margin-bottom: 1rem;
+        }
+
+        /* No results styling */
+        #site-search-results > p {
+            color: var(--muted-color);
+            text-align: center;
+            margin: 15px 0;
+            font-size: 24px;
+        }
+
+        /* Bunny trail layout */
+        .bunny-trail {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .bunny-trail > p {
+            flex: 1;
+            margin: 0;
+            min-width: 0; /* Allows text to shrink below its minimum content size */
+        }
+
+        .bunny-trail-link {
+            color: #fff !important;
+            text-decoration: none !important;
+        }
+
+        .bunny-trail-link:hover {
+            color: var(--accent) !important;
+            text-decoration: underline !important;
+        }
+
+        /* ASCII bunny link styles */
+        .ascii-link {
+            color: #fff !important;
+            text-decoration: none !important;
+        }
+
+        .ascii-link:hover {
+            color: var(--accent) !important;
+            text-decoration: none !important;
+        }
+
+        .bunny-trail > div:last-child {
+            flex: 0 0 auto; /* Don't grow, don't shrink, auto basis */
+            max-width: 200px; /* Limit the bunny's width */
+            white-space: pre; /* Preserve ASCII art formatting */
+        }
+
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            .bunny-trail {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .bunny-trail > div:last-child {
+                max-width: 100%; /* Allow full width on mobile */
+                align-self: center; /* Center the bunny */
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="widthSliderContainer">
+        <input type="range" id="widthSlider" min="850" max="3000" value="1405" />
+    </div>
+    <header>
+        <div id="headerTitle">
+            <nobr>
+                <a href="https://mikelev.in/">
+                    MIKE LEVIN 
+                    <div class="hamster-wheel-container">
+                        <img src="/images/hamster.gif" alt="Hamster">
+                        <svg id="wheel" class="spin" viewBox="0 0 100 100">
+                            <image xlink:href="https://mikelev.in/assets/svg/mike-levin-ai-seo.svg" x="0" y="0" width="100%" height="100%"></image>
+                        </svg>
+                    </div>
+                    AI SEO
+                </a>
+            </nobr>
+        </div>
+        
+        <script>
+            // Function to set a cookie
+            function setCookie(name, value, days) {
+                const expires = new Date();
+                expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/';
+            }
+
+            // Function to get a cookie
+            function getCookie(name) {
+                const nameEQ = name + "=";
+                const ca = document.cookie.split(';');
+                for(let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+
+            // IMPORTANT: This sets the maximum width of the slider to the page width in pixels
+            const MAX_WIDTH = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+            const slider = document.getElementById('widthSlider');
+            const container = document.querySelector('.container');
+            const headerTitle = document.getElementById('headerTitle');
+            const wheel = document.getElementById('wheel');
+
+            // IMPORTANT: Update the slider's max attribute to match the page width
+            slider.max = MAX_WIDTH;
+
+            // Set initial slider value from cookie or calculate default middle value
+            const savedWidth = getCookie('containerWidth');
+            const defaultWidth = Math.min(1600, Math.floor((850 + MAX_WIDTH) / 2)); // reasonable middle ground
+            slider.value = savedWidth ? savedWidth : defaultWidth;
+
+            // Disable slider functionality on mobile
+            function isMobile() {
+                return window.innerWidth <= 768;
+            }
+
+            function updateWidth() {
+                if (isMobile()) return;
+                const newWidth = slider.value;
+                container.style.maxWidth = `${newWidth}px`;
+                
+                if (window.innerWidth > 768) {
+                    // Desktop behavior only
+                    headerTitle.style.fontSize = `calc(${newWidth}px * 0.28)`;
+                    wheel.style.width = `calc(${newWidth}px * 0.18)`;
+                    
+                    // Calculate the top value for the wheel
+                    const minSliderValue = 850;
+                    const maxSliderValue = MAX_WIDTH;
+                    const minTopValue = -1;
+                    const maxTopValue = -3;
+                    
+                    const topValue = minTopValue + (maxTopValue - minTopValue) * 
+                                     (newWidth - minSliderValue) / (maxSliderValue - minSliderValue);
+                    
+                    wheel.style.top = `${topValue}vw`;
+                }
+                
+                // Save the new width to a cookie
+                setCookie('containerWidth', newWidth, 30);
+            }
+
+            // Modify the existing event listeners
+            if (!isMobile()) {
+                slider.addEventListener('input', updateWidth);
+            }
+
+            updateWidth(); // Initialize with saved or default value
+
+            // IMPORTANT: This creates a media query to limit the maximum width on larger screens
+            const style = document.createElement('style');
+            style.textContent = `
+                @media (min-width: ${MAX_WIDTH}px) {
+                    body > footer, body > header, body > main {
+                        max-width: 850px;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+
+            // ... rest of your JavaScript code ...
+        </script>
+
+        <div style="overflow: hidden; margin-bottom: 0px;">
+        <a href="https://mikelev.in/shortstack/" style="text-decoration: none; border: none;"><img src="/images/linux-python-vim-git-nix-LPvgn-short-stack.png" alt="Linux, Python, vim, git & nix LPvgn Short Stack" style="float: right; width: 160px; height: 160px; margin: 4px;"></a><blockquote>Future-proof your skills and escape the tech hamster wheel with Linux, Python, vim & git — now with <i>nix</i> (LPvgn), an AI stack to resist obsolescence. Follow along as I revitalize old school Webmaster skills with next generation AI/SEO techniques porting Jupyter Notebooks to FastHTML / HTMX Web apps using the <a class="bunny-trail-link" href="https://mikelev.in/pipulate/">Pipulate</a> <a class="bunny-trail-link" href="https://mikelev.in/free-ai-seo-tool">free AI SEO tool</a>.</blockquote>
+        </div>
+
+    </header>
+    <main>
+        {% include site-search.html %}
+        
+        {{ content }}
+    </main>
+    <footer>
+        <p>
+            <a href="https://mikelev.in/">Home</a>
+            <a href="https://mikelev.in/about/">About</a>
+            <a href="https://mikelev.in/roadmap/">Roadmap</a>
+            <a href="https://mikelev.in/robots.txt">robots.txt</a>
+            <a href="https://mikelev.in/sitemap.xml">sitemap.xml</a>
+            <a href="https://mikelev.in/llms.txt">llms.txt</a>
+            <a href="https://mikelev.in/api/">API</a>
+            <a href="https://github.com/miklevin">GitHub</a>
+            <a href="https://www.linkedin.com/in/miklevin/">LinkedIn</a>
+        </p>
+    </footer>
+</div>
+
+<script>
+    // Remove all this bottom slider code
+    // const bottomSlider = document.getElementById('bottomSlider');
+    // bottomSlider.max = MAX_WIDTH;
+    // bottomSlider.value = savedWidth ? savedWidth : 850;
+    // bottomSlider.addEventListener('input', () => updateWidth(bottomSlider.value));
+
+    function syncSliders() {
+        // Remove or comment out this entire function as it's no longer needed
+    }
+
+    // Remove this event listener
+    // window.addEventListener('load', syncSliders);
+
+    // Keep the resize handler and mobile check
+    let resizeTimer;
+    function handleResize() {
+        if (window.innerWidth > 768) {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function() {
+                location.reload();
+            }, 250);
+        }
+    }
+    window.addEventListener('resize', function() {
+        if (!isMobile()) {
+            handleResize();
+        }
+    });
+</script>
+</body>
+</html>

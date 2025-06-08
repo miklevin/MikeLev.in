@@ -1,0 +1,37 @@
+title: AI SEO Mike Levin
+author: Mike Levin
+base_url: https://mikelev.in/
+permalink: /:slug/
+gaid: G-RX2D1N1P2Y
+apex: MikeLev.in
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+rouge:
+  style: github 
+
+kramdown:
+  empty_element_suffix: ">"
+  hardwrap: false
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+# Add this section to specify which files should be copied without processing
+include:
+  - search.json
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      author: "Mike Levin"
+

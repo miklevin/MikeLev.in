@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%- if page.type == "post" -%}{{ post.title }}{%- else -%}{{ page.title }}{%- endif -%} / {{ site.title }}</title>
+    <meta name="description" content="{{ page.meta_description | default: page.description }}">
+    {% assign manual_keywords = page.meta_keywords | default: page.keywords | split: ", " -%}
+    {%- assign manual_keywords_lower = "" | split: "" -%}
+    {%- for kw in manual_keywords -%}
+      {%- assign lower_kw = kw | downcase -%}
+      {%- assign manual_keywords_lower = manual_keywords_lower | push: lower_kw -%}
+    {%- endfor -%}
+    {%- assign gsc_data = site.data.gsc_top_keywords[page.url] -%}
+    {%- if gsc_data -%}
+      {%- assign gsc_keywords = gsc_data | map: "query" -%}
+      {%- assign gsc_keywords_lower = "" | split: "" -%}
+      {%- for kw in gsc_keywords -%}
+        {%- assign lower_kw = kw | downcase -%}
+        {%- assign gsc_keywords_lower = gsc_keywords_lower | push: lower_kw -%}
+      {%- endfor -%}
+      {%- assign combined_keywords = manual_keywords_lower | concat: gsc_keywords_lower | uniq -%}
+    {%- else -%}
+      {%- assign combined_keywords = manual_keywords_lower -%}
+    {%- endif -%}
+    {%- if combined_keywords.size > 0 -%}
+    <meta name="keywords" content="{{ combined_keywords | join: ', ' }}">
+    {%- endif %}
+    <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico">
+    <link rel="stylesheet" href="https://mikelev.in/assets/css/pico.classless.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dorsa">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://mikelev.in/assets/css/syntax.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.32.2/tocbot.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaid }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.gaid }}');
+    </script>
+    <script src="/assets/js/site.js"></script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: 'dark', gantt: {titleTopMargin: 25, barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 150, gridLineStartPadding: 150, sectionHeight: 35, fontSize: 11, numberSectionStyles: 4, axisFormat: '%b %Y', viewMode: 'halfYear'} });
+    </script>
+</head>
+<body>
+<div class="center-container">
+<div id="content" class="container">
+    <div id="widthSliderContainer"><input type="range" id="widthSlider" min="850" value="1405"> </div>
+    <div id="site-search-container"><input type="search" id="site-search-input" name="search" placeholder="Search blog posts..." data-desktop-placeholder="Search blog posts (press / to focus)..." autofocus aria-label="Search blog posts"><div id="site-search-results"></div></div>
+    <header>
+        <div id="headerTitle">
+            <nobr>
+                <a href="https://mikelev.in/">
+                    MIKE LEVIN 
+                    <div class="hamster-wheel-container">
+                        <img src="/images/hamster.gif" alt="Hamster">
+                        <svg id="wheel" class="spin" viewBox="0 0 100 100">
+                            <image xlink:href="https://mikelev.in/assets/svg/mike-levin-ai-seo.svg" x="0" y="0" width="100%" height="100%"></image>
+                        </svg>
+                    </div>
+                    AI SEO
+                </a>
+            </nobr>
+        </div>
+        <script src="/assets/js/header.js"></script>
+        <div style="overflow: hidden; margin-bottom: 0px;">
+        <a href="https://mikelev.in/shortstack/" style="text-decoration: none; border: none;"><img src="/images/linux-python-vim-git-nix-LPvgn-short-stack.png" alt="Linux, Python, vim, git & nix LPvgn Short Stack" style="float: right; width: 160px; height: 160px; margin: 4px;"></a><blockquote>Future-proof your skills and escape the tech hamster wheel with Linux, Python, vim & git — now with <i>nix</i> (LPvgn), an AI stack to resist obsolescence. Follow along as I build next generation AI/SEO tools for porting Jupyter Notebooks to FastHTML / HTMX Web apps using the <a class="bunny-trail-link" href="https://mikelev.in/pipulate/">Pipulate</a> <a class="bunny-trail-link" href="https://mikelev.in/free-ai-seo-tool/">free AI SEO software</a>.</blockquote>
+        </div>
+    </header>
+    <main>
+        <div class="js-toc-content">
+            {{- content -}}
+        </div>
+    </main>
+    <footer>
+        <p>
+            <a href="https://mikelev.in/">Home</a>
+            <a href="https://mikelev.in/about/">About</a>
+            <a href="https://mikelev.in/roadmap/">Roadmap</a>
+            <a href="https://mikelev.in/insights/">Insights</a>
+            <a href="https://mikelev.in/robots.txt">robots.txt</a>
+            <a href="https://mikelev.in/sitemap.xml">sitemap.xml</a>
+            <a href="https://mikelev.in/llms.txt">llms.txt</a>
+            <a href="https://github.com/miklevin">GitHub</a>
+            <a href="https://www.linkedin.com/in/miklevin/">LinkedIn</a>
+        </p>
+    </footer>
+</div>
+<div class="js-toc"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.32.2/tocbot.min.js"></script>
+<script>
+tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: '.js-toc',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: '.js-toc-content',
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: 'h1, h2, h3',
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+    // Improved handling of nested containers and month boundaries
+    collapseDepth: 0,
+    // Ensure proper alignment of nested headings
+    orderedList: false,
+    // Fine-tune scrolling settings
+    headingsOffset: 750,
+    scrollSmoothOffset: -750
+  });
+
+  // Add auto-scroll for active TOC link
+  (function() {
+    try {
+      // Get the scrollable TOC list
+      const tocList = document.querySelector('.js-toc > .toc-list');
+      // Get the TOC container
+      const tocContainer = document.querySelector('.js-toc');
+      
+      if (!tocList || !tocContainer) {
+        console.warn('TocBot auto-scroll: Could not find necessary elements.');
+        return;
+      }
+      
+      // Track the last scrolled position to avoid unnecessary scrolling
+      let lastScrolledTo = null;
+      
+      // Function to scroll active link into view with generous context
+      const scrollActiveLinkIntoView = () => {
+        // Find the active link
+        const activeLink = tocContainer.querySelector('.is-active-link');
+        if (!activeLink) return;
+        
+        // Find the closest list item
+        const listItem = activeLink.closest('li');
+        if (!listItem) return;
+        
+        // Skip if we've already scrolled to this item recently
+        const activeLinkPath = getElementPath(activeLink);
+        if (lastScrolledTo === activeLinkPath) return;
+        
+        // Save this position to avoid redundant scrolling
+        lastScrolledTo = activeLinkPath;
+        
+        // Calculate the current viewport of the tocList
+        const tocViewport = {
+          top: tocList.scrollTop,
+          bottom: tocList.scrollTop + tocList.clientHeight,
+          height: tocList.clientHeight
+        };
+        
+        // Get positions relative to the scrolling container
+        const itemTop = listItem.offsetTop;
+        const itemHeight = listItem.offsetHeight;
+        const itemBottom = itemTop + itemHeight;
+        
+        // Check if item is already fully visible with good margins
+        const topMargin = Math.min(100, tocViewport.height * 0.15);
+        const bottomMargin = Math.min(150, tocViewport.height * 0.2);
+        
+        const isFullyVisible = (
+          itemTop >= tocViewport.top + topMargin &&
+          itemBottom <= tocViewport.bottom - bottomMargin
+        );
+        
+        // If already visible with good margins, don't scroll
+        if (isFullyVisible) return;
+        
+        // Calculate ideal scrolling position - center the item with more space above
+        let newScrollTop;
+        
+        // If the item is taller than the viewport, align its top
+        if (itemHeight > tocViewport.height - topMargin - bottomMargin) {
+          newScrollTop = itemTop - topMargin;
+        } else {
+          // Center the item with more space at top (40% from top)
+          const targetPosition = tocViewport.height * 0.4;
+          newScrollTop = itemTop - targetPosition;
+        }
+        
+        // Smoothly scroll to the calculated position
+        tocList.scrollTo({
+          top: Math.max(0, newScrollTop),
+          behavior: 'smooth'
+        });
+      };
+      
+      // Helper to get a unique path for an element to track position
+      function getElementPath(el) {
+        // Check if the element has an ID
+        if (el.id) return `#${el.id}`;
+        
+        // If no ID, create a path based on tag name and position among siblings
+        let path = el.tagName.toLowerCase();
+        const parent = el.parentNode;
+        
+        if (parent && parent !== document.body) {
+          // Find position among siblings of same type
+          const siblings = Array.from(parent.children).filter(
+            child => child.tagName === el.tagName
+          );
+          const index = siblings.indexOf(el);
+          
+          path += `:nth-of-type(${index + 1})`;
+          
+          // Recursively add parent path
+          return `${getElementPath(parent)} > ${path}`;
+        }
+        
+        return path;
+      }
+      
+      // Use MutationObserver to detect when the active link changes
+      const observer = new MutationObserver((mutationsList) => {
+        let hasActiveChange = false;
+        
+        for (let mutation of mutationsList) {
+          if (mutation.type === 'attributes' && 
+              mutation.attributeName === 'class' && 
+              mutation.target.classList) {
+            
+            const isActiveLink = mutation.target.classList.contains('is-active-link');
+            const wasActiveLink = mutation.oldValue && mutation.oldValue.includes('is-active-link');
+            
+            if (isActiveLink !== wasActiveLink) {
+              hasActiveChange = true;
+              break;
+            }
+          }
+        }
+        
+        if (hasActiveChange) {
+          // Use requestAnimationFrame for smooth performance
+          window.requestAnimationFrame(scrollActiveLinkIntoView);
+        }
+      });
+      
+      // Start observing the TOC container
+      observer.observe(tocContainer, {
+        attributes: true,
+        attributeOldValue: true,
+        subtree: true,
+        attributeFilter: ['class']
+      });
+      
+      // Initial scroll with delay to ensure ToC is fully rendered
+      setTimeout(scrollActiveLinkIntoView, 1000);
+      
+      // Add debounced scroll handler
+      let scrollTimer;
+      window.addEventListener('scroll', function() {
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(() => {
+          // Allow rescrolling when page is scrolled
+          lastScrolledTo = null;
+          scrollActiveLinkIntoView();
+        }, 200);
+      }, { passive: true });
+      
+      // Also handle window resize events which can change the ToC layout
+      let resizeTimer;
+      window.addEventListener('resize', function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+          // Reset tracking on resize
+          lastScrolledTo = null;
+          scrollActiveLinkIntoView();
+        }, 200);
+      }, { passive: true });
+      
+    } catch (error) {
+      console.error('Error setting up TOC auto-scroll:', error);
+    }
+  })();
+</script>
+</body>
+</html>
