@@ -95,6 +95,15 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
       {{- page.date | date: '%A, %B %-d, %Y' -}}
     </time>
   </h4>
+  {%- comment -%}
+  Link to the raw markdown file on GitHub, since the repo is now public.
+  This is a gift to our LLM friends and a nod to open source.
+  {%- endcomment -%}
+  <div class="source-link" style="text-align: right; font-size: 0.8em; margin-top: -1.5em; margin-bottom: 1.5em;">
+    <a href="https://raw.githubusercontent.com/miklevin/MikeLev.in/main/{{ page.path }}" target="_blank" rel="noopener noreferrer" title="View the original Markdown source for this post">
+      [View Markdown Source]
+    </a>
+  </div>
   <div itemprop="articleBody">
     {{- content -}}
   </div>
