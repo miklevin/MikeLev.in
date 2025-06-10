@@ -20,14 +20,19 @@ This particular entry captures a pivotal moment in the project's lifecycle. With
 
 Okay, the idea for the Pipulate system is to provide the idea surface area for
 an LLM coding assistant to help you with. It's the focal-lens idea again. Not
-everything needs to be in context at once because the parts not in context most
-LLMs have been rather well trained on, namely a recent Python such as 3.12
-currently. This is a rather *sweet* ***sweetspot*** with LLMs — as so much of
-their coding assistance comes in the form of Python for a reason. JavaScript is
-fine but if you think the rapid version-churn of abstraction layers that are
-supposed to *stabilize* and *future-proof* but don't (due to the backfiring
-framework-churn) is annoying to you humans, imagine it from an LLM's
-perspective!
+everything needs to be in context at once because most LLMs have been well
+trained on certain things you might include already, so they can be left out
+relying on the base model. Namely, all the LLMs already know Python right up to
+the latest popular version being used, such as 3.12.
+
+The folks training the models have to make sure this is true, or else the whole
+coding assistant model collapses. And so, Python is a rather *sweet*
+***sweetspot*** with LLMs to assume is already baked-in. There is a reason so
+much AI coding assistance comes in the form of Python. AI trainers and
+apparently the models themselves have a Python bias. JavaScript is fine but if
+you think the rapid version-churn of abstraction layers that are supposed to
+*stabilize* and *future-proof* but don't (due to the backfiring framework-churn)
+is annoying to you humans, imagine it from an LLM's perspective!
 
 The amount of its "brain" chewed up by ReactJS-churn is actually quantifiable,
 haha! And compare that to the generally non-moving-target of Python — 3 breaking
