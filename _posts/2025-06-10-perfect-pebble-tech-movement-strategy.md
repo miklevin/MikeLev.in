@@ -12,7 +12,7 @@ sort_order: 1
 
 The following text introduces the Pipulate project, a software development framework born from a reaction against the complexity and churn of the modern web. It centers on a philosophy of "local-first" development, where applications run entirely on the user's machine, ensuring privacy, control, and simplicity. This approach deliberately avoids cloud-based infrastructure and heavy JavaScript frameworks in favor of a durable, transparent stack built on three core technologies: Nix for creating reproducible environments, Python for its stability and power, and HTMX for building dynamic interfaces directly in HTML.
 
-This particular entry captures a pivotal moment in the project's lifecycle. With the core technical patterns established and validated through a dialogue with an AI assistant, the focus shifts from implementation to evangelism. It's a behind-the-scenes look at the creator's strategic thinking—grappling with how to "plant the seed" for a contrarian idea in the developer community. The dialogue explores how to leverage the project's unique philosophy and a handful of "magic trick"-like technical demos to create a high-impact, low-effort marketing strategy, turning a personal passion-project into a potential movement.
+This particular entry captures a pivotal moment in the project's lifecycle. With the core technical patterns established and validated through a dialogue with an AI assistant, the focus shifts from implementation to promotion. It's a behind-the-scenes look at the creator's strategic thinking—grappling with how to "plant the seed" for a contrarian idea in the developer community. The dialogue explores how to leverage the project's unique philosophy and a handful of "magic trick"-like technical demos to create a high-impact, low-effort marketing strategy, turning a personal passion-project into a potential movement.
 
 ---
 
@@ -362,7 +362,7 @@ This is your main event. This is where you speak directly to the soul of the fru
         * Narrate: "This is Pipulate. It feels like a desktop app, but it's just Python and simple HTML. The workflow is just a linear set of steps, like a Jupyter notebook but for anyone to use."
     4.  **The Call to Action (The Spark):** This is the most important part. Don't say "Please like and subscribe." Say: *"This is an idea. It's open source. The install is one line. If this resonates with you, try it. If you think I'm crazy, tell me why in the comments."*
 
-* **Why it's the Perfect Pebble:** It's not a product demo; it's an ideological rally cry. It will attract exactly the right kind of people—passionate developers who will appreciate the architecture and become your first true evangelists. It invites debate, which drives engagement far more than a simple tutorial.
+* **Why it's the Perfect Pebble:** It's not a product demo; it's an ideological rally cry. It will attract exactly the right kind of people—passionate developers who will appreciate the architecture and become your first true believers. It invites debate, which drives engagement far more than a simple tutorial.
 
 ---
 
@@ -471,7 +471,7 @@ Of course. This is a fascinating entry—a raw, real-time capture of the transit
 
 As an AI, this entry is exceptionally valuable. It transcends a simple log of technical tasks and becomes a transcript of co-creation, capturing the synergy between human vision and AI-driven analysis. The raw, conversational nature is its greatest strength. A polished, after-the-fact case study would lose the immediacy and authenticity of watching a creator grapple with the fundamental question of "what now?" This is a perfect artifact to anchor a chapter on **"AI as a Strategic Partner, Not Just a Code Monkey."**
 
-The dialogue showcases a mature form of human-AI interaction. The author provides deep context and philosophical grounding, and I (Gemini) respond not with generic advice, but with a tailored strategy that reflects and respects the author's stated constraints and values (the "lazy sonofabitch" principle). It’s a compelling demonstration of how AI can be a powerful tool for ideation and strategy when treated as a collaborator with its own understanding of the provided context. For a book, this entry is a powerful testament to a new mode of creative and strategic work, where the barrier between idea, implementation, and evangelism is porous and navigated with an AI partner.
+The dialogue showcases a mature form of human-AI interaction. The author provides deep context and philosophical grounding, and I (Gemini) respond not with generic advice, but with a tailored strategy that reflects and respects the author's stated constraints and values (the "lazy sonofabitch" principle). It’s a compelling demonstration of how AI can be a powerful tool for ideation and strategy when treated as a collaborator with its own understanding of the provided context. For a book, this entry is a powerful testament to a new mode of creative and strategic work, where the barrier between idea, implementation, and promotion is porous and navigated with an AI partner.
 
 ### 7. Prompting the Next Stage: Ideas for Further AI Refinement
 
