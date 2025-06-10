@@ -38,8 +38,8 @@ The amount of its "brain" chewed up by ReactJS-churn is actually quantifiable,
 haha! And compare that to the generally non-moving-target of Python — only 3
 major breaking version changes in 30-years. Compare that to NodeJS's 20 breaking
 updates in half that time. Then layer on the perpetually arbitrary and
-inconsistent placement of curly braces versus Python's non-arbitrary and
-consistent indents for code blocks.
+inconsistent placement of curly braces in JavaScript versus Python's
+non-arbitrary and consistent indents for code blocks.
 
 There's a reason that despite JavaScript's monopoly-dominance in the browser it
 just doesn't settle in as the 1st choice language for everyday tasks. It will be
