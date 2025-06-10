@@ -88,8 +88,8 @@ develop`, powerful spells can be cast by rather plebeian users — no offense to
 you plebes reading this.
 
 And just by way of ultimate validation that everything I'm saying is true, the
-GNU Project (the Free Software Foundation or FSF) the folks who are **actually
-behind Linux** (at least as much as Linus Torvalds is) completely embraced this
+GNU Project (the Free Software Foundation or FSF) the folks who are *actually
+behind Linux* (at least as much as Linus Torvalds is) completely embraced this
 approach with what they call Guix (pronounced Geeks) to copy Nix. And I love
 GNU's Guix implementation of Linux subsystems too — guix is just way less mature
 right now than Nix. Nix has all the macOS tooling *for the cool kids* today.
