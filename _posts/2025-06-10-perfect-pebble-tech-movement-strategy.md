@@ -160,6 +160,16 @@ stuff simply by using the Python `dict` API — more commonly known as `JSON` �
 for everything? `Dicts` are not `JSON`, you say? Bah! I fart in your general
 direction. And that's why Python is named after Monty Python and not the snake.
 
+With this one Pythonic concession — yes, there I said it ***PYTHONIC!!!*** — all
+your database calls can be handled like a common dict datatype. Ever wished
+those dicts were persistent between program-runs? They can be! And it can keep
+you from using brittle vender-depenedent brittle SQL. And it's backed up by
+SQLite by default (built into Python) or optionally PostgreSQL, text files,
+Amazon S3 databuckets, or whatever you want to wire to the silly things —
+ultimate interoperable swappbable database backends. Pick your database poison
+and swap it frequently, cutting the biggest source of tech liability off at the
+knees... all because the `dict` API.
+
 If all this seems silly to you, remember the ARM processor was silly too. It was
 born of a British Acorn, planted ages ago and watered with the water of Steve
 Jobs and Apple, prematurely blossoming as the Apple Newton under John Sculley
