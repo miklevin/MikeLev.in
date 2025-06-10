@@ -117,20 +117,30 @@ But that's not really modern nor future-proof, so enter HTMX. HTMX is really
 just the HTML standard specification for hypermedia extended a wee little bit in
 all the ways that make a big difference. Imagine if you will the stateless
 request/response fire-and-forget model that the Web was originally built on and
-which was centered around page reloads was centered around page-fragment updates
-instead. It'll take a bit to wrap your mind around, but every component of the
-document object model (DOM) on a web page can make its own request, get its own
-response and update itself under HTMX. Yes, it's the single-page-application
-(SPA) dream. Any webpage can become an app without JavaScript. It's like all
-that dreaming that HTML5 was going to turn web pages into apps without
-JavaScript, but dream come true. JavaScript though isn't really out of the
-picture — it just *looks like it is* and that makes all the difference. HTMX is
-HTML perfected — or the way it should have been in the first place as some would
-argue. But everything had to get accepted in the first place, and that was the
-first 35 years of the Web — and we had to get big-fat client-side JavaScript
-frameworks that deliver very little of the future-proofing they promised but
-fail to deliver on out of our system. It'll happen. We're all just slow to react
-to this new HTMX development.
+which was centered around page reloads. Now imagine it centered around
+page-fragment updates instead. Everything is its own webpage. Any part of the
+DOM has real-time non-blocking I/O communication with the server and the ability
+to update itself or anything else in the DOM — all without a page-reload and
+(apparently) *"without"* JavaScript!
+
+It'll take a bit to wrap your mind around, but every component of the document
+object model (DOM) on a web page can make its own request, get its own response
+and update itself under HTMX. You'll hear the term "over the wire HTML" —
+implying shooting fragments of HTML around the way we do today JSON payloads.
+But instead of the JSON payload having to be processed somewhere by something to
+update the page, the HTML-frag hits the DOM in the right place (with careful
+targeting ensuring such) and \*POOF!`* updated page.
+
+Yes, it's the single-page-application (SPA) dream. Any webpage can become an app
+without JavaScript. It's like all that dreaming that HTML5 was going to turn web
+pages into apps without JavaScript, but dream come true. JavaScript though isn't
+really out of the picture — it just *looks like it is* and that makes all the
+difference. HTMX is HTML perfected — or the way it should have been in the first
+place as some would argue. But everything had to get accepted in the first
+place, and that was the first 35 years of the Web — and we had to get big-fat
+client-side JavaScript frameworks that deliver very little of the
+future-proofing they promised but fail to deliver on out of our system. It'll
+happen. We're all just slow to react to this new HTMX development.
 
 These are the focal-lenses I am future-proof focusing: Nix for Linux and the
 bottom OS portion of the platform pyramid, Python for the programming and
