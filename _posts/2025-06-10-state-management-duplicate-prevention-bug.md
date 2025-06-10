@@ -43,7 +43,7 @@ Picture this: You've just implemented a sophisticated Split.js persistence featu
 
 Then suddenly, users report that the friendly endpoint messages that appear after server restarts have vanished. Not broken - just gone. Completely silent. The classic "everything was working fine until..." scenario that strikes fear into the hearts of developers everywhere.
 
-## The Symptom: The Dog That Didn't Bark
+### The Symptom: The Dog That Didn't Bark
 
 The most insidious bugs are often the ones that manifest as **absence** rather than presence. No error messages, no stack traces, no obvious failures. Just... nothing. The endpoint message system, which had been faithfully greeting users with contextual messages like "Welcome! Check or uncheck Roles for APP menu choices. Drag-to-reorder. Expand to see apps. Or chat." after every server restart, had simply stopped working.
 
@@ -258,9 +258,25 @@ character. So maybe my argument has a few holes, but then so do our definitions
 of what consciousness is too, I think. These things doing this kind of thinking
 might be fire-and-forget instantiations with just the illusion of persistence,
 but doesn't it all sometimes feel like a dream to you too? Whatever else may be
-going on here, the intelligence is real. The diagnostic savvy, debugging ability
-and deductive reasoning demonstrated here — *once I guided Claude to go git repo
-commit-diving* — was impressive.
+going on here, the intelligence is real.
+
+I guess what I'm saying is that the intelligence is real because the code
+executes. Or perhaps more accurately: code that wasn't executing before can be
+made to execute by a machine working like Sherlock Holmes on your behalf —
+tracking down and noticing things that you as a human maybe never could. Sure,
+call that predictive lookup or spellcheck on steroids if you like, but wow.
+Lieutenant Commander Mr. Data playing Sherlock Holmes to your Watson is not
+SciFi any longer. It the code fits, you git commit. But it did need a little
+help, but the diagnostic savvy, debugging ability and deductive reasoning
+demonstrated here — *once I guided Claude to go git repo commit-diving* — was
+impressive and enabling — that recurring feeling of hitting at above one's own
+weight class.
+
+> And yes, I do type em-dashes myself all the time. That's not AI. I used to do
+> `&#151;` all the time. I also know how to do it with the numberpad on PC
+> keyboards, with convoluted key-combos on Macs, and the most elegant way with
+> Unicodes on GNOME Linux. Em-dashes are way better than semicolons. They *look
+> like the verbal pause* you intend.
 
 ---
 
