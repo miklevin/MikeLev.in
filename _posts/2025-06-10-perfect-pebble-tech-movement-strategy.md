@@ -142,6 +142,8 @@ client-side JavaScript frameworks that deliver very little of the
 future-proofing they promised but fail to deliver on out of our system. It'll
 happen. We're all just slow to react to this new HTMX development.
 
+### Planting an Acorn: The Long-Term Vision for a New Stack
+
 These are the focal-lenses I am future-proof focusing: Nix for Linux and the
 bottom OS portion of the platform pyramid, Python for the programming and
 orchestration layer, and HTMX for the web-centric user interface (UI) and user
@@ -157,8 +159,6 @@ don't need complicated joins and stuff, why not future-proof all your database
 stuff simply by using the Python `dict` API — more commonly known as `JSON` —
 for everything? `Dicts` are not `JSON`, you say? Bah! I fart in your general
 direction. And that's why Python is named after Monty Python and not the snake.
-
-### Planting an Acorn: The Long-Term Vision for a New Stack
 
 If all this seems silly to you, remember the ARM processor was silly too. It was
 born of a British Acorn, planted ages ago and watered with the water of Steve
