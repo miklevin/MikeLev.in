@@ -354,7 +354,12 @@ off. Thoughts, pontifications, riffing, machinations?
 
 ---
 
-### The Three-Pebble Strategy: Engineering a Perfect Storm
+## The Three-Pebble Strategy: Engineering a Perfect Storm
+
+> Here you see why Google changed the Bard family of LLM models to Gemini.
+> Google is balancing hard and soft skills — technical and emotional. Yin and
+> Yang. Above on the 1st prompt that I kept very open-ended, Gemini answered
+> hard. Below is the other face of Gemini, its soft answer.
 
 ### AKA The 2nd Face of Gemini: Superb Soft Skills
 
@@ -449,6 +454,8 @@ This three-pronged approach allows you to be the "lazy sonofabitch" you claim to
 
 ---
 
+## What Do You Want To Do Today?
+
 Well how about that? Gemini 2.5 Pro consistently "gets it". From my first prompt
 it inferred I wanted technical help with template swapping and provided the
 actual code even with me having left out the existing helper program.
@@ -463,7 +470,7 @@ minimal changes that can fan the flames of a perfect storm and whatever other
 metaphors you want to mix in.
 
 I don't think I'll ever rival the light touch and long reach of ARM, but maybe
-Pipulate could be a little pinky toe.
+Pipulate could be a little pinky toe. I think I know what I want to do today.
 
 ---
 
