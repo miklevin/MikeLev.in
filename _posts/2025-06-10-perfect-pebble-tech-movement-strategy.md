@@ -72,16 +72,20 @@ All that bottom-of-the-pyramid platform stuff should be transparent to the user,
 because they're going to be interacting with the Python either through
 AI-assisted editors like Cursor, Windsurf, VSCode and Zed. Or they're going to
 be interacting through Jupyter Notebooks running in the web browser, or with an
-app like Pipulate running on such a platform, generally also through the web
+app like Pipulate running on such a platform — generally also through the web
 browser. The only thing the user needs to know how to do is to `cd` into a
 particular directory via `Terminal` that was set up as a `nix` subsystem and
-type the command `nix develop`. The **nix flake** system takes over from there.
-That's a little like a `.bat`, `.sh` or otherwise batch start-up script but oh
-so much more. I won't get into it, but let's just say the developer has quite a
-bit of power setting things up for you in that Linux subsystem of Nix's. A lot
-of magical incantation stuff can be crammed in there, and so long as the user
-can `cd` to that location and `nix develop`, powerful spells can be cast by
-rather plebeian users — no offense to you plebes reading this.
+type the command `nix develop`. The ***nix flake*** system (the thing that
+defines the Linux subsystem) takes over from there.
+
+The `nix develop` command is a little like a `.bat`, `.sh` or otherwise batch or
+bash *start-up script* — but oh so much more!!! Some call it *infrastructure as
+code* or IaC. Others call it a *declarative system-build.* I won't get into it,
+but let's just say the developer has quite a bit of power setting things up for
+you in that Linux subsystem of Nix's. A lot of magical incantation stuff can be
+crammed in there, and so long as the user can `cd` to that location and `nix
+develop`, powerful spells can be cast by rather plebeian users — no offense to
+you plebes reading this.
 
 ### Recapturing the Glory Days of LAMP
 
