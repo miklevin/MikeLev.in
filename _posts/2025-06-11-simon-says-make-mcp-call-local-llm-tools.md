@@ -1,6 +1,6 @@
 ---
-title: "The Simon Says Protocol: Teaching a Local LLM to Use Tools"
-permalink: /futureproof/simon-says-protocol-local-llm-tools/
+title: "Simon Says Make MCP Tool-call: Teaching a Local LLM to Use Tools"
+permalink: /futureproof/simon-says-make-mcp-call-local-llm-tools/
 description: "My initial MCP implementation works, but it’s a parlor trick—a rigged demo that forces the AI into a single, predictable response. It’s useless for anything real. I need to evolve this from a rigid proof-of-concept into a flexible training tool, but without opening the door to the chaos of open-ended prompting. The answer isn't to make the AI guess, but to teach it through a guided 'Simon Says' game, turning a workflow step into an interactive MCP construction kit. But first, I have to fix the observability; if I can't see what the tool is doing with the same clarity as my database queries, the whole system is a black box."
 meta_description: A case study on implementing and adding observability to a local LLM tool-calling (MCP) system, moving from a rigid prototype to a flexible training widget.
 meta_keywords: MCP, tool-calling, Pipulate, Ollama, process_llm_interaction, log_mcp_call_details, observability, local LLM, deterministic development, Simon Says, WET workflow, create_workflow.py, swap_workflow_step.py, generative AI, AI development
