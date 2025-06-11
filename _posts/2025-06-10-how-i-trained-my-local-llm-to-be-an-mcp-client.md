@@ -1,7 +1,7 @@
 ---
 title: How I Trained My Local LLM To Be An MCP Client In One Night
 permalink: /futureproof/how-i-trained-my-local-llm-to-be-an-mcp-client/
-description: "My primary goal here was to cut through the abstraction of complex AI frameworks and answer a fundamental question: can I, using raw Python and a basic web server, teach a local LLM to make a tool call? I wanted to prove out the entire 'table tennis' interaction loop—from prompting the model to generate a request, to handling that request on a custom server endpoint, to feeding the result back for a final answer. This entry is my log of that initial, unfiltered experiment to build a working, local-first MCP system from scratch."
+description: "My primary goal here was to cut through the abstraction of complex AI frameworks and answer a fundamental question: can I, using raw Python and a basic web server, teach a local LLM to make an MCP tool call? I wanted to prove out the entire 'table tennis' interaction loop—from prompting the model to generate a request, to handling that request on a custom server endpoint, to feeding the result back for a final answer. This entry is my log of that initial, unfiltered experiment to build a working, local-first MCP system from scratch."
 meta_description: A practical guide and case study on implementing local LLM tool-calling from scratch using Ollama, Python, and a custom Model Context Protocol (MCP).
 meta_keywords: Ollama, tool-calling, function calling, MCP, Model Context Protocol, local LLM, Llama 3, Gemma 3, FastHTML, Starlette, Uvicorn, Python, API, multi-prompt, one-shot prompt, in-context learning, state machine, streaming, websockets, aiohttp, Cat Facts API, deduplication, AI agent
 layout: post
