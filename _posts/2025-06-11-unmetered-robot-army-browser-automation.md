@@ -56,7 +56,7 @@ yourself telling the LLM:
 1. Here's how MCP works.
 2. You only have 1 tool you can call.
 3. It has no parameters and you have no choices.
-4. Strictly follow these rules and you can screw it up.
+4. Strictly follow these rules and you can't screw it up.
 5. Simon Says: repeat the tool-call back to me.
 
 Cat fact!
