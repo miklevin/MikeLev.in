@@ -419,7 +419,7 @@ This video is pure, undeniable technical wizardry. It should be short, silent, a
 * **Format:** A single, unedited screen recording. No narration. Maybe some fast, energetic background music.
 * **Content Flow:**
     1.  Have two terminals open side-by-side.
-    2.  In the left terminal, `cat plugins/910_blank_placeholder.py`. Show its simplicity.
+    2.  In the left terminal, `cat plugins/900_blank_placeholder.py`. Show its simplicity.
     3.  In the right terminal, run the 5 commands from the "Hello World Recreation" sequence in `310_workflow_genesis.py`, one after another.
         * `python helpers/create_workflow.py ... --template blank --force`
         * `python helpers/manage_class_attributes.py ...`

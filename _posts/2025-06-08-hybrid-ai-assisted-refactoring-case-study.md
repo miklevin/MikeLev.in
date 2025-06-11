@@ -75,7 +75,7 @@ iconography (aka emoji's) into the main core of the system in Pipulate's
 other Pipulate helper functions `create_standard_landing_page`,
 `register_workflow_routes`, which while not Object Oriented superclassing and
 inheritance achieves many of the same things by simple template component
-inclusion. This makes `pipulate/plugins/910_blank_placeholder.py` from which
+inclusion. This makes `pipulate/plugins/900_blank_placeholder.py` from which
 most other things are going to be derived considerably cleaner (the lens more
 ground and polished) than the other plugins in the system. I actually also gave
 this treatment to `040_hello_workflow.py` and `420_botify_trifecta.py`. The

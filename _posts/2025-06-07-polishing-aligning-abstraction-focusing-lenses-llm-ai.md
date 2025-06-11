@@ -201,7 +201,7 @@ The `styles.css` file correctly identifies a future goal: to visually separate n
 * **Observation:** Currently, any form inside `#grid-left-content` gets the "dim gray" styling. This is a broad-stroke approach.
 * **Suggestion:** Make the dim-gray styling opt-in with a dedicated class rather than applying it to the entire container.
 
-    1.  In the workflow templates (`040_hello_workflow.py`, `910_blank_placeholder.py`), wrap the primary `Form` element in each step with a `Div(..., cls="workflow-form")`.
+    1.  In the workflow templates (`040_hello_workflow.py`, `900_blank_placeholder.py`), wrap the primary `Form` element in each step with a `Div(..., cls="workflow-form")`.
     2.  In `styles.css`, change the scoping selector from `#grid-left-content input` to `.workflow-form input`.
 
 * **Benefit:** This change is low-risk and achieves the desired visual hierarchy. Workflow inputs will retain their distinct "chrome-like pop," while other UI elements (like potential future search bars or navigation forms within the main panel) will use the default Pico.css styling, allowing them to "melt into the design."
