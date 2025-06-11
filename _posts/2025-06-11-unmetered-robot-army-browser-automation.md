@@ -330,18 +330,22 @@ The server will automatically reload with these changes, and the widget should b
 
 ---
 
-Between Claude's first optimistic assessment of "being done" above and really
-being done was blood, sweat and tears that people advocating *vibe coding* are
-either hiding from your or don't experience because they don't have a such a
-precise vision for their end-product in mind. It appears from the YouTube videos
-vibe coders are just allowing what will happen to happen — more as a form of
-entertainment than as a sincere endeavor. These workflows are all about
-wrangling and corralling *very particular behavior* in order to yield *very
-particular results.*
+## Fast-forward Over Blood, Sweat & Tears
+
+**Me**: Between Claude's first optimistic assessment of "being done" above and
+really being done was blood, sweat and tears that people advocating *vibe
+coding* are either hiding from your or don't experience because they don't have
+a such a precise vision for their end-product in mind. It appears from the
+YouTube videos vibe coders are just allowing what will happen to happen — more
+as a form of entertainment than as a sincere endeavor. These workflows are all
+about wrangling and corralling *very particular behavior* in order to yield
+*very particular results.*
 
 Break it down for the nice people, Claude. What happened between then and now?
 
 ---
+
+**Claude**: 
 
 ### Final Implementation: Loosening the Rails, Not Removing Them
 
