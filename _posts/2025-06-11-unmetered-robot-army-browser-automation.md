@@ -463,6 +463,10 @@ The Simon Says MCP Widget isn't just a UI component - it's a **training ground**
 
 ---
 
+## A Step-by-Step Journey Through Server Log File
+
+> Log files can be a work of art.
+
 Alright, another area where my work differs from most is that those black
 screens that sometimes open when you're running something locally (as
 `localhost`) are like an artistic canvas to me. Logging is an artform. It can be
@@ -473,7 +477,9 @@ app.
 
 ---
 
-**Claude**: # **The Complete MCP Workflow: A Step-by-Step Journey Through Pipulate's Simon Says MCP Plugin**
+**Claude**: 
+
+# **The Complete MCP Workflow: A Step-by-Step Journey Through Pipulate's Simon Says MCP Plugin**
 
 ## **Phase 1: Server Initialization & Environment Setup**
 
@@ -769,6 +775,10 @@ The **Simon Says MCP plugin** isn't just a demo - it's a **teaching platform** t
 
 ---
 
+## Winding Down For Today But Winding Up For Tomorrow
+
+> An implementation plan for tomorrow is always a good idea.
+
 Alright, so that's another pretty good article stopping point. As long as these
 are they're really still stopping short of where they should be. But let me get
 the next-step idea-work in so an implementation plan is waiting for me when next
@@ -991,25 +1001,25 @@ With the backend ready, we can now update the `830_simon_mcp.py` widget to teach
 1.  **Modify the `step_01` method** to replace the cat-fact prompt with the new browser automation prompt.
 
       * **In `plugins/830_simon_mcp.py`**, find the `step_01` method and replace the `simon_says_prompt` string with the following:
-        ```python
+
+```python
         # In plugins/830_simon_mcp.py, inside the step_01 method
-
         simon_says_prompt = """You have a tool that can open a web page using a browser.
-        ```
 
-To use the tool, you MUST generate an MCP request with the tool name "browse\_url" and a single parameter named "url".
+    To use the tool, you MUST generate an MCP request with the tool name "browse\_url" and a single parameter named "url".
 
-The user wants you to open the Google homepage. Generate the EXACT MCP request block to do this.
+    The user wants you to open the Google homepage. Generate the EXACT MCP request block to do this.
 
-\<mcp-request\>
-\<tool name="browse\_url"\>
-\<param name="url" value="https://www.https://www.google.com/search?q=google.com" /\>
-\</tool\>
-\</mcp-request\>
+    \<mcp-request\>
+    \<tool name="browse\_url"\>
+    \<param name="url" value="https://www.https://www.google.com/search?q=google.com" /\>
+    \</tool\>
+    \</mcp-request\>
 
-Do not say anything else. Just output the exact MCP block above."""
-\`\`\`
+    Do not say anything else. Just output the exact MCP block above."""
+```
 
+{:start="2"}
 2.  **Make a small adjustment to the `step_01_submit` method** to handle the richer response from our new tool. We'll simply format the result as a pretty-printed JSON string.
 
       * **In `plugins/830_simon_mcp.py`**, find the `execute_and_respond_to_tool_call` function call inside `step_01_submit`. We need to capture the result from the tool call to display it. The current implementation is fire-and-forget. Let's adjust the interaction.
