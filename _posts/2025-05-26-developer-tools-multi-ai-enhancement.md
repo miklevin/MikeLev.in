@@ -43,7 +43,7 @@ Then came the equally important "cosmetic renaming" initiative. This, I believe,
 
 The internal `step_XX` IDs are mechanical necessities, artifacts of a script-driven generation process that needs to ensure uniqueness and a semblance of order. They are for the machine, or for the developer in a deep debugging session. But for the user interacting with the workflow, and even for the developer thinking about the workflow's purpose, these IDs are noise if they are the primary identifiers in the UI.
 
-The `Step` namedtuple already had the `show` attribute, a hook waiting for its true calling. The series of changes we orchestrated – modifying `splice_workflow_step.py` to generate more user-friendly default `show` names like `"Placeholder Step X (Edit Me)"`, updating the `710_blank_placeholder.py` to use `step.show` in its `step_messages`, and then the crucial fix to `server.py`'s `step_button` – has brought this to fruition.
+The `Step` namedtuple already had the `show` attribute, a hook waiting for its true calling. The series of changes we orchestrated – modifying `splice_workflow_step.py` to generate more user-friendly default `show` names like `"Placeholder Step X (Edit Me)"`, updating the `900_blank_placeholder.py` to use `step.show` in its `step_messages`, and then the crucial fix to `server.py`'s `step_button` – has brought this to fruition.
 
 The request to keep the revert buttons as "↶ Step [Visual Index]" rather than "↶ [step.show value]" was another insightful nudge. It preserves a key "signature" of the Pipulate UI – its consistent, predictably numbered navigation, which aids in user instruction ("Click Step 2's revert button..."). This was a fine balancing act: use `step.show` for descriptive titles *within* the step's content area, but use the *visual sequence number* for the navigational elements. The solution, again, was elegant: `Pipulate.display_revert_header` now calculates this visual index by examining the `steps` list at runtime (excluding `finalize`), and `step_button` uses this number.
 
@@ -145,7 +145,7 @@ middle might occur to you.
 
 * `splice_workflow_step.py` currently identifies the insertion point for the new `Step` tuple using `# --- STEPS_LIST_INSERTION_POINT ---` and for methods using `# --- STEP_METHODS_INSERTION_POINT ---`.
 * New step numbers are determined by finding the maximum existing `step_XX` number *before* the `STEPS_LIST_MARKER` and incrementing it. This naturally supports "insert at bottom".
-* The `710_blank_placeholder.py` template places `STEPS_LIST_INSERTION_POINT` before its `finalize` step definition.
+* The `900_blank_placeholder.py` template places `STEPS_LIST_INSERTION_POINT` before its `finalize` step definition.
 * The `Pipulate` class in `server.py` (specifically methods like `chain_reverter` and the general step rendering logic) relies on the `self.steps` list (defined in the workflow's `__init__`) and `self.steps_indices` to determine the flow, including `next_step_id`.
 
 **Proposed Implementation Plan:**
@@ -722,12 +722,12 @@ git status
 Perfect! Let me test one more scenario to make sure the script works correctly from different directories:
 
 ```bash
-cd /tmp && python /home/mike/repos/pipulate/helpers/splice_workflow_step.py 710_blank_placeholder.py --position top
+cd /tmp && python /home/mike/repos/pipulate/helpers/splice_workflow_step.py 900_blank_placeholder.py --position top
 ```
 Excellent! Now let me revert that change and go back to the project directory:
 
 ```bash
-cd /home/mike/repos/pipulate && git restore plugins/710_blank_placeholder.py
+cd /home/mike/repos/pipulate && git restore plugins/900_blank_placeholder.py
 ```
 Perfect! Now let me update the example usage comment at the top of the file to reflect the new capabilities:
 
@@ -1439,11 +1439,11 @@ python splice_workflow_step.py 035_kungfu_workflow.py --position top
 Now let's test this fix to make sure it works correctly. Let me create a simple test workflow to verify the behavior:
 
 ```bash
-cd /home/mike/repos/pipulate && python helpers/splice_workflow_step.py 710_blank_placeholder.py --position top
+cd /home/mike/repos/pipulate && python helpers/splice_workflow_step.py 900_blank_placeholder.py --position top
 ```
 Great! The command executed successfully. Now let's check the modified file to see if the new step was inserted correctly at the top (before the original step_01):
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Perfect! The fix worked correctly. Looking at lines 43-49, I can see that:
 
@@ -1455,7 +1455,7 @@ This means that when the workflow initializes, `self.steps[0].id` will be `'step
 
 Let me also verify that the new step methods were generated correctly:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Excellent! The new `step_02` methods were generated correctly and are positioned properly in the file. I can see that:
 
@@ -1466,11 +1466,11 @@ Excellent! The new `step_02` methods were generated correctly and are positioned
 Now let's test the bottom insertion to make sure it still works correctly:
 
 ```bash
-python helpers/splice_workflow_step.py 710_blank_placeholder.py --position bottom
+python helpers/splice_workflow_step.py 900_blank_placeholder.py --position bottom
 ```
 Great! Now let's check that the bottom insertion worked correctly:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Perfect! The bottom insertion also worked correctly. Looking at the `self.steps` list (lines 42-56), I can see the correct order:
 
@@ -1506,16 +1506,16 @@ Now I need to update the description in the `create_prism_widget` method to refl
 Perfect! Now let's test the complete functionality by restoring the original blank placeholder file and testing both insertion positions:
 
 ```bash
-git checkout HEAD -- plugins/710_blank_placeholder.py
+git checkout HEAD -- plugins/900_blank_placeholder.py
 ```
 Now let's test the top insertion on the clean file:
 
 ```bash
-python helpers/splice_workflow_step.py 710_blank_placeholder.py --position top
+python helpers/splice_workflow_step.py 900_blank_placeholder.py --position top
 ```
 Let's verify the result:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Excellent! The fix is working perfectly. Looking at lines 43-51, I can see that:
 
@@ -1528,11 +1528,11 @@ This means when the workflow initializes, `self.steps[0].id` will be `'step_02'`
 Now let's test bottom insertion to add a third step:
 
 ```bash
-python helpers/splice_workflow_step.py 710_blank_placeholder.py --position bottom
+python helpers/splice_workflow_step.py 900_blank_placeholder.py --position bottom
 ```
 Let's verify the final result:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Perfect! The implementation is working exactly as intended. Looking at the final `self.steps` list (lines 42-56), I can see the correct sequence:
 
@@ -1600,7 +1600,7 @@ people use:
 
     /home/mike/repos/pipulate/helpers/create_workflow.py
     /home/mike/repos/pipulate/helpers/splice_workflow_step.py
-    /home/mike/repos/pipulate/plugins/710_blank_placeholder.py
+    /home/mike/repos/pipulate/plugins/900_blank_placeholder.py
 
 ...it won't look like the *numbered* steps 6 and 7 are being inserted in front
 of step 1 but instead *named* steps such as "six" and "seven". See, in this way
@@ -1649,12 +1649,12 @@ Here's an implementation plan to achieve this "cosmetic renaming" system, focusi
 
 3.  **`create_workflow.py` - Ensure Consistency:**
     * **Objective:** New workflows created by this script should inherit the best practices.
-    * `create_workflow.py` copies `710_blank_placeholder.py`. Therefore, modifications to `710_blank_placeholder.py` (covered in Phase 2) will ensure new workflows start correctly.
-    * No direct code changes needed in `create_workflow.py` itself if `710_blank_placeholder.py` is the source of truth for the initial step structure and message patterns.
+    * `create_workflow.py` copies `900_blank_placeholder.py`. Therefore, modifications to `900_blank_placeholder.py` (covered in Phase 2) will ensure new workflows start correctly.
+    * No direct code changes needed in `create_workflow.py` itself if `900_blank_placeholder.py` is the source of truth for the initial step structure and message patterns.
 
 **Phase 2: Modify Workflow Templates and Core UI Logic**
 
-1.  **`710_blank_placeholder.py` - The Archetype:**
+1.  **`900_blank_placeholder.py` - The Archetype:**
     * **Objective:** This template should be the primary example of using `step.show` for UI and messages.
     * **`__init__` method - `self.step_messages`:**
         * **Current (example from `step_01`):**
@@ -1762,7 +1762,7 @@ Here's an implementation plan to achieve this "cosmetic renaming" system, focusi
 
 **Impact and User Experience:**
 
-* **New Workflows:** When a user runs `create_workflow.py`, they get a workflow (`710_blank_placeholder.py` derivative) that already uses `step.show` correctly in its initial `step_messages` and UI.
+* **New Workflows:** When a user runs `create_workflow.py`, they get a workflow (`900_blank_placeholder.py` derivative) that already uses `step.show` correctly in its initial `step_messages` and UI.
 * **Splicing Steps:** When `splice_workflow_step.py` adds a new step:
     * The `Step` tuple gets `show=f"Placeholder {new_step_num} (Edit Me)"`.
     * The generated methods for this new step will use `{{step.show}}` for titles.
@@ -1821,9 +1821,9 @@ Ran tool
 
 Good! Now let's update the template file to use better step messaging patterns:
 
-## Phase 2: Update `710_blank_placeholder.py` Template
+## Phase 2: Update `900_blank_placeholder.py` Template
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Now I can see the step_messages generation. Let me update it to use `step.show` instead of `pip.fmt(step_obj.id)`:
 
@@ -1837,11 +1837,11 @@ Perfect! I can see that the method templates are already using `{{step.show}}` c
 Now let's test our changes by creating a new step to see the improved naming:
 
 ```bash
-python helpers/splice_workflow_step.py 710_blank_placeholder.py --position bottom
+python helpers/splice_workflow_step.py 900_blank_placeholder.py --position bottom
 ```
 Excellent! Let's check what was generated:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Perfect! I can see the improvement:
 
@@ -1850,7 +1850,7 @@ Perfect! I can see the improvement:
 
 Let's also check the generated methods to see how they use the step.show:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Excellent! I can see the generated methods are working perfectly:
 
@@ -1862,11 +1862,11 @@ Excellent! I can see the generated methods are working perfectly:
 Now let's test the top insertion to see how it works:
 
 ```bash
-python helpers/splice_workflow_step.py 710_blank_placeholder.py --position top
+python helpers/splice_workflow_step.py 900_blank_placeholder.py --position top
 ```
 Let's check the result:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Perfect! This demonstrates exactly what you wanted to achieve:
 
@@ -1883,7 +1883,7 @@ This perfectly illustrates your point: **The user will see "Placeholder Step 3 (
 Now let's restore the template to its clean state and update the workflow genesis to showcase this new capability:
 
 ```bash
-git checkout HEAD -- plugins/710_blank_placeholder.py
+git checkout HEAD -- plugins/900_blank_placeholder.py
 ```
 Now let me apply the step_messages improvement to the clean template:
 
@@ -1898,11 +1898,11 @@ Let me add a section about the cosmetic renaming feature to the workflow genesis
 Perfect! Now let's test our complete implementation by creating a quick demo:
 
 ```bash
-python helpers/splice_workflow_step.py 710_blank_placeholder.py --position bottom
+python helpers/splice_workflow_step.py 900_blank_placeholder.py --position bottom
 ```
 Let's check the result and then demonstrate the customization:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Now let me demonstrate the customization by changing the step names to something more descriptive:
 
@@ -1910,7 +1910,7 @@ Now let me demonstrate the customization by changing the step names to something
 Perfect! Now let's restore the template to its clean state and create a summary of what we've accomplished:
 
 ```bash
-git checkout HEAD -- plugins/710_blank_placeholder.py
+git checkout HEAD -- plugins/900_blank_placeholder.py
 ```
 
 
@@ -1934,7 +1934,7 @@ Your implementation plan has been successfully executed with exactly the "light 
    - Clear guidance that these are meant to be customized
    - All generated method templates use `{{step.show}}` for UI elements
 
-2. **Template Updates (`710_blank_placeholder.py`)**:
+2. **Template Updates (`900_blank_placeholder.py`)**:
    - `step_messages` now use `step_obj.show` instead of `pip.fmt(step_obj.id)`
    - Cleaner, more professional messaging patterns
    - Serves as the archetype for all new workflows
@@ -2147,7 +2147,7 @@ The core idea is to determine the 1-based visual index of a data collection step
 
 **Phase 2: Verify Workflow Templates (Minimal Impact Expected)**
 
-* **`710_blank_placeholder.py` and other workflow plugins:**
+* **`900_blank_placeholder.py` and other workflow plugins:**
     * The `self.steps` list definition remains the source of truth for step order.
     * The `__init__` method where `self.step_messages` are defined:
         * The previous change to use `f'{step_obj.show}: Please provide the required input.'` is still correct and preferable for clarity in chat/LLM context messages.
@@ -2323,15 +2323,15 @@ Now I can see the current `display_revert_header` method. Let me update it to ca
 Perfect! Now let me test this implementation by creating a test workflow with multiple steps to see if the visual numbering works correctly:
 
 ```bash
-python helpers/splice_workflow_step.py 710_blank_placeholder.py --position top
+python helpers/splice_workflow_step.py 900_blank_placeholder.py --position top
 ```
 
 ```bash
-python helpers/splice_workflow_step.py 710_blank_placeholder.py --position bottom
+python helpers/splice_workflow_step.py 900_blank_placeholder.py --position bottom
 ```
 Now let me check the current state of the workflow to see the step order:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Perfect! Now I can see the current step order:
 1. **`step_02`** (index 0) - "Placeholder Step 2 (Edit Me)" - should show as "↶ Step 1"
@@ -2350,11 +2350,11 @@ Great! I can see that the only call to `step_button` in the current codebase is 
 Now let me restore the test file to its clean state and create a summary of what we've accomplished:
 
 ```bash
-git checkout HEAD -- plugins/710_blank_placeholder.py
+git checkout HEAD -- plugins/900_blank_placeholder.py
 ```
 Perfect! Let me verify the file is back to its original state:
 
-Read file: pipulate/plugins/710_blank_placeholder.py
+Read file: pipulate/plugins/900_blank_placeholder.py
 
 Excellent! The file is back to its clean state with just the single `step_01`.
 

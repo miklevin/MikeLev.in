@@ -66,7 +66,7 @@ that new Step 5 blank placeholder chain reacts to finalize.
 This plan focuses on minimal changes to achieve the desired outcome, primarily by editing the `steps` definition, adding new placeholder step methods, and adjusting the chain-reaction logic at the transition points.
 
 **Target File:** `plugins/050_botify_csv_downloader.py`
-**Reference File for New Step:** `plugins/710_blank_placeholder.py`
+**Reference File for New Step:** `plugins/900_blank_placeholder.py`
 
 Here's the step-by-step modification plan:
 
@@ -119,7 +119,7 @@ Here's the step-by-step modification plan:
 
 **II. Add New Step Methods for `step_05_new`**
 
-Copy the following methods into the `BotifyCsvDownloaderWorkflow` class. These are adapted from `710_blank_placeholder.py`.
+Copy the following methods into the `BotifyCsvDownloaderWorkflow` class. These are adapted from `900_blank_placeholder.py`.
 
 ```python
     async def step_05_new(self, request):

@@ -108,7 +108,7 @@ AM and the beginning of the workday. So far I've created a number of the
 standalone widgets:
 
 - 700_widget_shim.py
-- 710_blank_placeholder.py
+- 900_blank_placeholder.py
 - 720_text_field.py
 - 730_text_area.py
 - 740_dropdown.py

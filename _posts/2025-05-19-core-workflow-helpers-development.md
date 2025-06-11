@@ -141,7 +141,7 @@ Pipulate's design philosophy emphasizes clear, explicit steps for building workf
 
 ### 1\. Creating a New Workflow (`create_workflow.py`)
 
-This script bootstraps a new workflow plugin file from the `710_blank_placeholder.py` template.
+This script bootstraps a new workflow plugin file from the `900_blank_placeholder.py` template.
 
 **How to Use:**
 
@@ -181,7 +181,7 @@ python helpers/create_workflow.py \
 
 **What it Does:**
 
-  * Copies `plugins/710_blank_placeholder.py` to your new filename in the `plugins/` directory.
+  * Copies `plugins/900_blank_placeholder.py` to your new filename in the `plugins/` directory.
   * Performs search-and-replace operations within the new file to:
       * Set the `class` name.
       * Set the `APP_NAME` constant.

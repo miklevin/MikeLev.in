@@ -406,7 +406,7 @@ Okay, Assistant, let's start building a new Pipulate workflow called "Site Snaps
 **Endpoint Message:** "Get an instant visual and technical overview of any website's entry point. Enter a URL to begin."
 **Training Prompt File (placeholder, we'll create content later):** `site_snapshot_visualizer.md`
 
-I need you to generate the initial structure for this workflow plugin file (e.g., `plugins/050_site_snapshot.py`) based on the `plugins/710_blank_placeholder.py` template.
+I need you to generate the initial structure for this workflow plugin file (e.g., `plugins/050_site_snapshot.py`) based on the `plugins/900_blank_placeholder.py` template.
 
 It should include the following initial steps:
 
@@ -452,7 +452,7 @@ It should include the following initial steps:
         * For now, this step's submit handler can just save a placeholder message like "Crawl initiated (visualization pending implementation)" into `state[step.done]`. We will implement the actual Selenium crawl and D3.js updates later.
 
 **General Instructions for the AI:**
-* Follow the standard Pipulate workflow structure as seen in `plugins/500_hello_workflow.py` and `plugins/710_blank_placeholder.py`.
+* Follow the standard Pipulate workflow structure as seen in `plugins/500_hello_workflow.py` and `plugins/900_blank_placeholder.py`.
 * Ensure the chain reaction pattern is correctly implemented using `pipulate.chain_reverter()` or manual `Div(id=next_step_id, hx_get=..., hx_trigger='load')` for all step transitions.
 * Use `async def` for all step handlers and helper methods that involve `await`.
 * Inject LLM whisper messages using `self.message_queue.add(self.pipulate, "Your message here", verbatim=True)` at appropriate points (e.g., after a step completes, when showing a form).
