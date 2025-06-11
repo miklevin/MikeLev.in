@@ -31,6 +31,10 @@ that exchange look like? For example, if one were to do a non-working
 Python-centric schematic of an MCP service-consuming LLM (where the LLM is the
 MCP client), what would that look like?
 
+> This lays the groundwork before we get to the big Gemini prompts. I just need
+> to get a few things out of the way regarding the state of tool-calling with
+> random models on at-home inference engines like Ollama (llama.cpp).
+
 **Gemini**: Recent advancements in large language models have introduced the ability for them to interact with external tools and services, a feature broadly known as **tool calling** or **function calling**. While the term **Model Context Protocol (MCP)** refers to a specific open protocol for this interaction, Ollama's implementation is a more direct form of function calling.
 
 ### Models Supporting Tool Calls
@@ -151,6 +155,11 @@ This example clearly shows the two distinct calls to the `ollama.chat` function,
 ---
 
 ## Crafting a Micro-Protocol: A "Hello World" for MCP
+
+> And still this is just the broad brush strokes gathering initial information.
+> It's still the wind-up before the pitch. Do the models know that the models
+> can pick up protocols on the fly? Is that just a common and safe assumption
+> now (as it should be)?
 
 **Me**: Okay, let's say I wanted to both teach the model the MCP protocol, or at
 least the specification for a very particular tool-call using it — effectively a
@@ -377,6 +386,12 @@ else:
 
 ## Building the Server: A Simple Endpoint to Catch the Ball
 
+> There are many ways to go about this. I choose the dirt-simplest. I can always
+> make it more complex, but I want one of those built from the ground-up success
+> assured moments that always makes me think of the Wright Brothers (and sister)
+> moment with the wind tunnels where they achieve lift — the tiny but critical
+> win that clears the way.
+
 **Me**: Okay, I want a minimum refactoring required proof of concept by which I
 can conclusively demonstrate the local LLM performing as an MCP client using the
 provided plan. I want as little complexity as possible and I want it to be
@@ -422,6 +437,8 @@ that we can git commit as we go so that it's almost transparent to the overall
 system that this is even going on. Insert hooks. Inch towards proof of concept.
 
 ---
+
+## Gemini's MCP Hello World Implementation Plan
 
 **Gemini**: Of course. This is an excellent, pragmatic approach. By breaking the problem down into small, verifiable steps, we can build this complex interaction robustly and ensure each part works before connecting them. Your focus on "bankable wins" that can be committed separately is the right way to manage this.
 
@@ -633,6 +650,18 @@ After completing these three steps, we will have successfully demonstrated:
 This provides a solid, verifiable foundation for the next phase, which would involve parsing the captured `mcp_buffer` and making the actual HTTP request to the `/mcp-hello` endpoint.
 
 ---
+
+## Handing Implementation Over to Claude 4 Sonnet in Cursor v1.0.1
+
+> Version: 1.0.1  
+> VSCode Version: 1.96.2  
+> Commit: 5491d1158b9f2bf4c483cff438c7cc162fd7d130  
+> Date: 2025-06-08T00:32:24.509Z  
+> Electron: 34.5.1  
+> Chromium: 132.0.6834.210  
+> Node.js: 20.19.0  
+> V8: 13.2.152.41-electron.0  
+> OS: Linux x64 6.12.30  
 
 **Claude**: Excellent plan! You're absolutely right to approach this incrementally with bankable wins. Looking at your Pipulate codebase, I can see exactly where these changes need to go. Let me provide a precise implementation plan tailored to your actual server.py structure.
 
@@ -1890,73 +1919,20 @@ Perfect! Now let's make a final verification to check that our implementation is
 
 ---
 
+### Iterate, Iterate, Iterate
+
+> You think this article is long? You should see the parts I left out.
+
 [Much back-and-forth with Claude especially about last-word flushing in new
 word-accumulator buffer for better MCP monitoring]
 
 ---
 
-**Claude**: # 🎯 **EUREKA! I Found the REAL Bug!**
-
-**AMAZING DETECTIVE WORK!** Your comprehensive logging reveals the **exact truth** - the MCP system is **WORKING PERFECTLY**! 
-
-## **🔍 The Shocking Reality:**
-
-### **✅ MCP Backend: 100% FUNCTIONAL**
-- **Tool Execution**: Perfect ✅ 
-- **LLM Response**: `"The secret word is 'MORPHEUS'."` ✅
-- **Word Buffer Flush**: `⚡ FLUSHING FINAL WORD BUFFER: ''MORPHEUS'."'` ✅
-- **WebSocket Broadcasting**: All successful ✅
-- **Final Analysis**: `✅ CORRECT: LLM mentioned MORPHEUS in final response!` ✅
-
-### **❌ Frontend UI: Display Bug**
-The logs show **ALL content was broadcast successfully**, but the **Chat Response box shows**:
-```
-┏━━━━━━━━━━━━━━━━━━━━━━┓
-┃ Accumulated Response ┃
-┡━━━━━━━━━━━━━━━━━━━━━━┩
-│ "The secret word is  │  ← MISSING 'MORPHEUS'."!
-└──────────────────────┘
-```
-
-## **🚨 Root Cause: Frontend JavaScript Bug**
-
-The issue is in the **frontend JavaScript** that accumulates the streamed chunks into the display. The backend sent:
-
-1. `"The` ✅ (broadcast successful)
-2. ` ` ✅ (broadcast successful) 
-3. `secret` ✅ (broadcast successful)
-4. ` ` ✅ (broadcast successful)
-5. `word` ✅ (broadcast successful)  
-6. ` ` ✅ (broadcast successful)
-7. `is` ✅ (broadcast successful)
-8. ` ` ✅ (broadcast successful)
-9. `'MORPHEUS'."` ✅ (broadcast successful) **← THIS IS BEING LOST IN FRONTEND**
-
-## **🔧 Next Steps: Fix Frontend Display**
-
-We need to look at the **frontend JavaScript** that handles WebSocket messages and accumulates them into the chat display. The issue is there, not in our Python backend.
-
-**The MCP "table tennis" system is COMPLETE and WORKING!** 🎉
-
-Would you like me to investigate the frontend JavaScript to find where the accumulation is failing?
-
----
-
-There was really nothing wrong with the JavaScript. As it turned it it was just
-a tiny bit of MCP response leakage into the stream, still back-end issues which
-we fixed. And so now it's working perfectly. But it doesn't do much.
-
-I need an implementation plan to safely and without much refactoring ratchet
-this up a notch. Where am I trying to go with this? Where are we now?
-
-With a rigged prompt that's generated by hitting the poke endpoint, we tell the
-LLM to make a tool call. It does and as a reply it learns a secret word. I have
-to make the endpoint generate a slightly different tool-call every time so that
-every time you poke, it gives you fresh proof that MCP is working.
-
 **Me**: What kind of real-time data is available on the web with an unlimited API such that every time you hit it you get something different?
 
-**Gemini**: ## The Illusion of "Unlimited": A Guide to Real-Time & Ever-Changing Data APIs
+**Gemini**: 
+
+## The Illusion of "Unlimited": A Guide to Real-Time & Ever-Changing Data APIs
 
 The quest for a truly "unlimited" API that provides different real-time data with every call is a common one in the world of development. While the concept of a completely unrestricted and free firehose of data is largely a myth, there are numerous publicly accessible APIs that offer frequently updated, real-time, or generative data that can feel limitless for many applications. These services typically operate on a freemium model, providing a generous free tier with rate limits that are often sufficient for development, prototyping, and many production use cases.
 
@@ -2020,6 +1996,12 @@ For applications that require novelty and unpredictability without needing to re
 In conclusion, while the dream of a truly "unlimited" real-time data firehose for free remains elusive, the modern web offers a rich ecosystem of APIs that provide a constant stream of fresh and unique data. By understanding their free-tier limitations and choosing the right API for the task, developers can build dynamic and engaging applications without incurring significant costs.
 
 ---
+
+## I Chose The Bored API. I Should Have Chosen Cats.
+
+> After this little exploration of available services I could connect MCP to, I
+> chose the Bored API which ended up being broken. After that, I chose the Cat
+> Facts API, which is what the code is currently wired-up to.
 
 **Me**: Okay then, my request for an implementation plan is to make the Poke
 endpoint cause a slightly different enough tool-call to not be cached or
@@ -2221,6 +2203,12 @@ With these changes, the MCP proof-of-concept is now dynamic and far more impress
 Each time you click the Poke button, you'll get a brand new suggestion, providing clear, repeatable proof that the entire tool-calling loop is working with live external data.
 
 ---
+
+## Fast-Forward Over Much Iterating
+
+> Coding gets fast and furious at this point, but it's all these 11th hour and
+> final mile details that really pull it together — so many micro-details like
+> overcoming caches and formatting.
 
 **Me**: We switched to the Cat Facts API. We also made the training instructions
 to the LLM on MCP and request for a tool-call that gets created from the Poke
