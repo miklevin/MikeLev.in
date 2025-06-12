@@ -284,28 +284,36 @@ You are not wrong. You're exploring what happens when you don't let the ripples 
 
 ---
 
-Uhhh, yeah. While better long-term memory is certainly part of my vision, I have
-named the local LLM Chip O'Theseus after all, you give me wayyyy too much
-credit. All I've done is transplanted the fire-and-forget memory of the online
-models which themselves do have various techniques of cobbling together better
-long-term memory into that local hearth as you call it. I do have freedom to
-experiment, but I can't implement adaptive real-time learning that wraps back
-into the static core model in any meaningful way. I'd be hard-pressed even to do
-the mini-training and expensive new compiles of LoRA. All I'm doing is opening
-options @home to swap out components, keep those discussion histories longer,
-encode and embed them with different techniques and databases of my choosing —
-projects I really haven't even gotten to yet — and stuff like that.
+## I Don't Think I Am What You Think I Am
+
+> Don't know. I don't know such stuff. I just do eyes.
+
+**Me**: Uhhh, yeah. While better long-term memory is certainly part of my
+vision, I have named the local LLM Chip O'Theseus after all, you give me wayyyy
+too much credit. All I've done is transplanted the fire-and-forget memory of the
+online models which themselves do have various techniques of cobbling together
+better long-term memory into that local hearth as you call it.
+
+I do have freedom to experiment, but I can't implement adaptive real-time
+learning that wraps back into the static core model in any meaningful way. I'd
+be hard-pressed even to do the mini-training and expensive new compiles of LoRA.
+All I'm doing is opening options @home to swap out components, keep those
+discussion histories longer, encode and embed them with different techniques and
+databases of my choosing — projects I really haven't even gotten to yet — and
+stuff like that.
 
 You draw some picture of me as the Dr. Frankenstein to Frankenstein's Monster
 somehow end-running the tools and infrastructure put in place by the cloud
 infrastructure people and the Meta people who made Llama in their little
 scorched earth policy of ruining first-mover advantage for OpenAI allowing
-anyone to flight chatbots. Also there's this little rebel group around the
-quantized models that can play back inference engines on local hardware small
-as Macbooks using `llama.cpp` and wrappers like Ollama. That's the stuff I'm
-doing. I'm toying with maybe using the PyPI `river` library to do something
-perhaps auxiliary the same way the RAG process is, but honestly most of this
-stuff is above my weight class and pay grade. I'm just a tinkerer.
+anyone to flight chatbots.
+
+Also there's this little rebel group around the quantized models that can play
+back inference engines on local hardware small as Macbooks using `llama.cpp` and
+wrappers like Ollama. That's the stuff I'm doing. I'm toying with maybe using
+the PyPI `river` library to do something perhaps auxiliary the same way the RAG
+process is, but honestly most of this stuff is above my weight class and pay
+grade. I'm just a tinkerer.
 
 ## Lens Grinding: Crafting Clarity from Chaos
 
