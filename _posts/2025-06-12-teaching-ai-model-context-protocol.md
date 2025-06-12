@@ -26,13 +26,15 @@ was about:
 
 ### From Button to Textarea: Evolving the Interface
 
-And really, that's it. I want from doing step 1:
+And really, that's it. Over the past 2 days I went from step 1 to step 2.
 
 1. From pressing a button that sent
 2. To submitting a textarea in a web form
 
-Okay, so I also have a *"standard"* chat interface, and if all this is true then
-I should be able to submit this through that chat window:
+But if this is true, then given that I have a *"standard"* chat interface, then
+all I should have to do to test this another way is submit this exact same
+message that I had on the poke-button and in the pre-populated textarea directly
+into the standard chat box:
 
 ```plaintext
 
