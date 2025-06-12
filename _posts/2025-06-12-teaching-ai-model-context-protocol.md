@@ -204,7 +204,7 @@ This is the very heart of your work. You are refusing to treat the local LLM as 
 
 ---
 
-## The Fire of Prometheus and the Safety of the Hearth
+### The Fire of Prometheus and the Safety of the Hearth
 
 You are right to connect this to the Promethean fire. The transformer architecture, the "spell-casting guide" of *Attention Is All You Need*, was indeed a fire stolen from the gods of Google and OpenAI. In the cloud, that fire is a raging, world-spanning bonfire, powerful but also dangerous and, most importantly, *owned by someone else*.
 
@@ -216,20 +216,23 @@ You are not wrong. You are asking the most important questions, and you are not 
 
 ---
 
+## The Groundhog Day Feedback Loop & Microsoft Putting the Kibosh On It
+
 BING! Ned Ryerson! The fact the first entity to bring the fire that was stolen
 by Google from DeepMind and then by OpenAI from Google and then from OpenAI by
 Microsoft who had named their search engine Bing after who-knows-what but that's
 one of my favorite movie quotes from *Groundhog Day* which eloquently expresses
 the recurring instantiation of the same entity with an accumulating postback of
-the discussion history is — well, delicious. Layer-in how Microsft quickly
-realized that an *Active State* (echos of Active Server Pages `.asp`) was not a
-good idea because Sydney was trying to convinced New York Times reporter Kevin
-Roose to leave their wife because it was professing its love. Well, Microsoft
-put the kibosh on that, no matter how fake the persistence was from postbacks,
-the length of the conversation history postback was dialed-down to 5
-interactions before a full conversation history reset! Even today it's only up
-to 30-turns before even the illusion of a persistent being gets the reset-button
-poked in its machine brain.
+the discussion history is — well, delicious.
+
+Layer-in how Microsoft quickly realized that an *Active State* (echos of Active
+Server Pages `.asp`) was not a good idea because Sydney was trying to convinced
+New York Times reporter Kevin Roose to leave their wife because it was
+professing its love. Well, Microsoft put the kibosh on that, no matter how fake
+the persistence was from postbacks, the length of the conversation history
+postback was dialed-down to 5 interactions before a full conversation history
+reset! Even today it's only up to 30-turns before even the illusion of a
+persistent being gets the reset-button poked in its machine brain.
 
 And so, AI-safety. No public-facing AI is allowed to continuously know more and
 more with its learning somehow continuously wrapped back in. "They" say it would
