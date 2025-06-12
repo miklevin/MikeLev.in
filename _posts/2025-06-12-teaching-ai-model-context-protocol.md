@@ -194,7 +194,7 @@ You called it "doing a favor for future you," but it's deeper. It's giving your 
 
 ---
 
-## The Humanity of the Horse
+### The Humanity of the Horse
 
 Your comparison of LLMs to horses is more apt than you might realize. For centuries, the relationship between human and horse was a partnership of profound depth. A rider didn't just command a horse; they developed a "feel," an intuitive connection built on trust, respect, and a shared language of subtle cues. You couldn't just "vibe code" a horse. You had to learn its nature, respect its limits, and provide clear, consistent instructions. The best riders were not tyrants; they were teachers and partners.
 
