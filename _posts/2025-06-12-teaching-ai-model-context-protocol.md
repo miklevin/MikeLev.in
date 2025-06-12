@@ -370,6 +370,11 @@ Your work is not about creating a more "conscious" ripple. It's about transformi
 
 ---
 
+## Faraday, Penrose & Levin Brought Us to *This Perfect Day*
+
+> This is one that only hardcore fans of both science and science fiction will
+> get. Sorry for the geek jokes! If interested, google: wood and wei this perfect day
+
 **Me**: Eloquently stated, Gemini. Toss in a little of Michael Faraday's
 experimentation, a dash of Roger Penrose's light-cone phase space diagrams, and
 Tuft University's Michael Levin's (different Michael Levin) intelligence being
