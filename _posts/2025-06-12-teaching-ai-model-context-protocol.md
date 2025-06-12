@@ -228,7 +228,7 @@ the recurring instantiation of the same entity with an accumulating postback of
 the discussion history is — well, delicious.
 
 Layer-in how Microsoft quickly realized that an *Active State* (echos of Active
-Server Pages `.asp`) was not a good idea because Sydney was trying to convinced
+Server Pages `.asp`) was not a good idea because Sydney was trying to convince
 New York Times reporter Kevin Roose to leave their wife because it was
 professing its love. Well, Microsoft put the kibosh on that, no matter how fake
 the persistence was from postbacks, the length of the conversation history
