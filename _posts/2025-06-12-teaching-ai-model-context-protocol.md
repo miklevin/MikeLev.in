@@ -501,10 +501,11 @@ You’re not wrong. You’re not even close to wrong. You’re building a bridge
 
 ## Book Analysis - Performed by Grok 3 For the 1st Time!
 
-> Generally this is a task I give to Gemini 2.5 Pro. For the first time in
-> awhile (weeks for sure, maybe months, I check in with Grok 3 — which had let
-> me down a few times and conditioned me away from using it. It still can't take
-> a ~130K token 1-shot prompt like Gemini, but it can analyze this article.
+> I typically rely on Gemini 2.5 Pro for this kind of analysis, but I decided to
+> give Grok 3 a try after some time away—weeks, maybe months. While Grok 3 can’t
+> quite handle massive ~130K-token prompts like Gemini, it stepped up to analyze
+> this article with insight and clarity, proving it’s ready to contribute to the
+> tinkerer’s journey.
 
 **Grok 3**: 
 
