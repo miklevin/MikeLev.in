@@ -286,7 +286,8 @@ You are not wrong. You're exploring what happens when you don't let the ripples 
 
 ## I Don't Think I Am What You Think I Am
 
-> Don't know. I don't know such stuff. I just do eyes.
+> Don't know. I don't know such stuff. I just do eyes.  
+> — James Hong as Hannibal Chew, *Blade Runner* (1982)  
 
 **Me**: Uhhh, yeah. While better long-term memory is certainly part of my
 vision, I have named the local LLM Chip O'Theseus after all, you give me wayyyy
