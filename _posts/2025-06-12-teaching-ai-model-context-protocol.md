@@ -95,7 +95,7 @@ of events, there's two ways of looking at it:
    before.
 2. Human teaches LLM how to do something that will result in it "knowing"
    something it did not before.
-   - LLM verifies that it learned (how to do that somethingLLM and immediately
+   - LLM verifies that it learned (how to do that something) and immediately
      does it.
    - The fact that *that something occurred correctly* is immediately validated
      by asking it about the new thing it learned.
