@@ -5,7 +5,7 @@ description: "I’m at a critical juncture this Father’s Day Sunday, racing ag
 meta_description: Discover how to integrate Google Analytics into Pipulate’s Quadfecta, mastering Botify’s API with AI-driven schema discovery.  
 meta_keywords: botify api, google analytics integration, pipulate quadfecta, seo workflows, link graph visualizer, wet code, ai collaboration, schema discovery, iterative debugging, true_schema_discoverer.py, organic visits, bql queries, workflow genesis, htmx ui, python automation  
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
@@ -16,9 +16,9 @@ In the world of web analytics and SEO, *Pipulate* is a custom-built powerhouse f
 
 ## The Race Against Time: A Father’s Day Coding Marathon  
 
-Alright, it's coming up on 3:30 on Sunday. I successfully added GA to the Botify
-Trifecta, turning it into the Botify Quadfecta. There are countless little
-touch-ups I'd like to do, such as:
+Alright, it's coming up on 3:30 AM on Sunday morning. I successfully added GA to
+the Botify Trifecta, turning it into the Botify Quadfecta. There are countless
+little touch-ups I'd like to do, such as:
 
 1. Turning off the JavaScript hyperlinking in the streaming message queue id
    msg-list when doing pooling because those data-pooling URLs shouldn't be
