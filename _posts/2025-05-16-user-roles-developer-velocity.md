@@ -304,12 +304,12 @@ The core of your request is to operationalize the `splice_workflow_step.py` scri
 
 Based on your detailed markdown, here's the refined plan and the script:
 
-**1. Necessary Modifications to `plugins/900_blank_placeholder.py`**
+**1. Necessary Modifications to `plugins/300_blank_placeholder.py`**
 
-As outlined, markers are essential for precise splicing. The following markers should be present in `900_blank_placeholder.py` (and thus in any workflow created by `create_workflow.py`):
+As outlined, markers are essential for precise splicing. The following markers should be present in `300_blank_placeholder.py` (and thus in any workflow created by `create_workflow.py`):
 
 ```python
-# In plugins/900_blank_placeholder.py
+# In plugins/300_blank_placeholder.py
 
 # ... (other imports)
 from collections import namedtuple
@@ -469,7 +469,7 @@ class BlankPlaceholder:
 # End of class BlankPlaceholder
 ```
 
-**Key changes in `900_blank_placeholder.py` (Recap & Refinements from your example):**
+**Key changes in `300_blank_placeholder.py` (Recap & Refinements from your example):**
 
   * **`# --- STEPS_LIST_INSERTION_POINT ---`**: Placed inside the `steps = []` list definition, before the closing `]`. This ensures new `Step` tuples are added to the initial list correctly.
   * **`# --- STEP_METHODS_INSERTION_POINT ---`**: Placed at the very end of the class `BlankPlaceholder`, but before any potential module-level code.
@@ -701,7 +701,7 @@ if __name__ == "__main__":
 1.  **Path Definitions:** Uses `pathlib` for more robust path management, assuming the script is in `pipulate/precursors/`.
 2.  **Marker Definitions:** Clearly defines `STEPS_LIST_MARKER` and `STEP_METHODS_MARKER`.
 3.  **`generate_step_method_templates`:**
-      * The generated methods (`async def {step_id_str}` and `async def {step_id_str}_submit`) are now more closely based on the structure of `step_01` in the refined `900_blank_placeholder.py`.
+      * The generated methods (`async def {step_id_str}` and `async def {step_id_str}_submit`) are now more closely based on the structure of `step_01` in the refined `300_blank_placeholder.py`.
       * They correctly fetch `pip, db, steps, app_name` from `self`.
       * They use `self.steps_indices` to get the current step object.
       * **Crucially**, the `next_step_id` is determined dynamically: `steps[step_index + 1].id if step_index < len(steps) - 2 else 'finalize'`. The `-2` is because `self.steps` includes `finalize` as the very last item, so the *second to last* step overall is the last *data collection* step.
@@ -725,7 +725,7 @@ if __name__ == "__main__":
 
 **How to Use:**
 
-1.  **Ensure `900_blank_placeholder.py` is updated** with the markers and the refined `__init__` logic as described above. Any existing workflows made from the old template will need manual marker addition if you want to use this script on them (or regenerate them with `create_workflow.py` if they are simple).
+1.  **Ensure `300_blank_placeholder.py` is updated** with the markers and the refined `__init__` logic as described above. Any existing workflows made from the old template will need manual marker addition if you want to use this script on them (or regenerate them with `create_workflow.py` if they are simple).
 2.  Save the script above as `pipulate/precursors/splice_workflow_step.py`.
 3.  Make it executable: `chmod +x pipulate/precursors/splice_workflow_step.py`.
 4.  Run from the `pipulate/` project root:

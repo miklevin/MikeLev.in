@@ -443,7 +443,7 @@ see using the /home/mike/repos/pipulate/helpers/prompt_foo.py system. But you
 get where I'm going with this, and this is your chance to say anything you like
 to the Gemini 2.5 Pro AI that I'm about to ask for an implementation plan for
 something that can replace one of these
-/home/mike/repos/pipulate/plugins/900_blank_placeholder.py placeholders in
+/home/mike/repos/pipulate/plugins/300_blank_placeholder.py placeholders in
 workflow construction. In other words, I'm planning on making a self-contained
 Simon Says Make MCP Tool-call Request widget and am interested in your thoughts
 before I impose something on you from another AI.
@@ -541,7 +541,7 @@ server.py        <-- Main server file for the project
 /home/mike/repos/Pipulate.com/development.md  <-- Pipulate.com Development notes for https://github.com/miklevin/pipulate/
 
 ## SPECIFIC FILES NECESSARY FOR CURRENT PROJECT AND PROMPT (Defining the challenge)
-/home/mike/repos/pipulate/plugins/900_blank_placeholder.py  <-- The minimal template that propegates everywhere (as WET as we get)
+/home/mike/repos/pipulate/plugins/300_blank_placeholder.py  <-- The minimal template that propegates everywhere (as WET as we get)
 /home/mike/repos/pipulate/plugins/040_hello_workflow.py     <-- Master example and Jupyter Notebook, shows parallels to Unix pipe
 
 ## REQUIRED CRUD PLUGINS FOR SYSTEM CONFIGURATION: (Supporting characters)
@@ -550,7 +550,7 @@ server.py        <-- Main server file for the project
 # /home/mike/repos/pipulate/plugins/060_tasks.py     <-- The main BaseCrud inheriting plugin that copy/pastes to completely automatically create a new one.
 
 ## HELPER SCRIPTS (Why WET can work)
-# /home/mike/repos/pipulate/plugins/310_workflow_genesis.py   <-- The templating plugin that creates new workflows from scratch
+# /home/mike/repos/pipulate/plugins/200_workflow_genesis.py   <-- The templating plugin that creates new workflows from scratch
 # /home/mike/repos/pipulate/helpers/create_workflow.py        <-- Creates a new workflow (copies 920_blank_placeholder.py)
 # /home/mike/repos/pipulate/helpers/splice_workflow_step.py   <-- Splices a step into a workflow (copies 920_blank_placeholder.py)
 # /home/mike/repos/pipulate/helpers/manage_class_attributes.py
@@ -591,7 +591,7 @@ server.py        <-- Main server file for the project
 # /home/mike/repos/pipulate/.cursor/rules/18_evolutionary_vision.mdc
 
 # THE BIG BOTIFY WORKFLOWS (Often, the main event)
-# /home/mike/repos/pipulate/plugins/420_botify_trifecta.py
+# /home/mike/repos/pipulate/plugins/400_botify_quadfecta.py
 # /home/mike/repos/pipulate/plugins/120_link_graph.py
 # /home/mike/repos/pipulate/plugins/110_parameter_buster.py
 
@@ -602,7 +602,7 @@ server.py        <-- Main server file for the project
 # /home/mike/repos/pipulate/plugins/050_documentation.py
 # /home/mike/repos/pipulate/plugins/100_connect_with_botify.py
 # /home/mike/repos/pipulate/plugins/220_roadmap.py
-# /home/mike/repos/pipulate/plugins/310_workflow_genesis.py
+# /home/mike/repos/pipulate/plugins/200_workflow_genesis.py
 # /home/mike/repos/pipulate/plugins/320_dev_assistant.py
 # /home/mike/repos/pipulate/plugins/330_widget_shim.py
 # /home/mike/repos/pipulate/plugins/410_botify_api_tutorial.py
@@ -662,7 +662,7 @@ server.py        <-- Main server file for the project
 **Core Architecture:**
 - `server.py` - Contains your new MCP observability system and `process_llm_interaction`
 - `520_text_area.py` - Perfect template for the textarea-based interaction
-- `900_blank_placeholder.py` - The template pattern to replace
+- `300_blank_placeholder.py` - The template pattern to replace
 - `040_hello_workflow.py` - Clean example of workflow structure
 
 **Critical Rules Coverage:**
@@ -681,7 +681,7 @@ You might want to uncomment one small plugin that makes external HTTP calls to s
 **2. Template Creation Context**
 Consider uncommenting:
 ```
-/home/mike/repos/pipulate/plugins/310_workflow_genesis.py  # Shows template patterns
+/home/mike/repos/pipulate/plugins/200_workflow_genesis.py  # Shows template patterns
 ```
 
 **3. Browser Automation Example** (since you mentioned web scraping via MCP):
@@ -702,7 +702,7 @@ Your current selection is **90% perfect**. I'd suggest adding just **one** of th
 
 ```python
 # Add this line to see template creation patterns:
-/home/mike/repos/pipulate/plugins/310_workflow_genesis.py
+/home/mike/repos/pipulate/plugins/200_workflow_genesis.py
 ```
 
 This would show Gemini how templates are created and manipulated, which might inform the MCP widget design.
@@ -1017,7 +1017,7 @@ You have successfully created a guided MCP tool-calling widget, setting the stag
 problem. It can't be used directly as the prompt for Claude because Claude will
 spin its wheels endlessly on the aspects of this that are intended to be
 deterministic. Claude itself encouraged me to include
-/home/mike/repos/pipulate/plugins/310_workflow_genesis.py in this XML prompt foo
+/home/mike/repos/pipulate/plugins/200_workflow_genesis.py in this XML prompt foo
 package, haha! That gives you an idea how to construct the commands but I think
 now I need to show you quite how deterministic this WET Workflow construction
 kit really is, and how I cut generative mistakes out of the process. Here is the
@@ -1028,9 +1028,9 @@ My challenge to you for this next iteration is to make your response not only
 implementation instructions for Claude as I had originally stated, but also for
 me as your human tool-caller. I should be using:
 
-    /home/mike/repos/pipulate/helpers/create_workflow.py          <-- Creates a new workflow (copies 900_blank_placeholder.py)
-    /home/mike/repos/pipulate/helpers/splice_workflow_step.py     <-- Splices a step into a workflow (copies 900_blank_placeholder.py)
-    /home/mike/repos/pipulate/helpers/manage_class_attributes.py  <-- The script that manages class attributes (copies 900_blank_placeholder.py)
+    /home/mike/repos/pipulate/helpers/create_workflow.py          <-- Creates a new workflow (copies 300_blank_placeholder.py)
+    /home/mike/repos/pipulate/helpers/splice_workflow_step.py     <-- Splices a step into a workflow (copies 300_blank_placeholder.py)
+    /home/mike/repos/pipulate/helpers/manage_class_attributes.py  <-- The script that manages class attributes (copies 300_blank_placeholder.py)
     /home/mike/repos/pipulate/helpers/swap_workflow_step.py       <-- THE SCRIPT THAT WAS JUST MADE AND MAY HAVE PROBLEMS
 
 ...in achieving this task. That's why I built them and otherwise the wheel

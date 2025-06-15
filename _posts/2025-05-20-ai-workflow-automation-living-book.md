@@ -275,7 +275,7 @@ for your most viable suggestion, I would be most grateful. Please and thank you!
     • /home/mike/repos/pipulate/helpers/create_workflow.py (1,333 tokens)
     • /home/mike/repos/pipulate/helpers/splice_workflow_step.py (2,623 tokens)
     • /home/mike/repos/pipulate/plugins/510_workflow_genesis.py (5,393 tokens)
-    • /home/mike/repos/pipulate/plugins/900_blank_placeholder.py (3,214 tokens)
+    • /home/mike/repos/pipulate/plugins/300_blank_placeholder.py (3,214 tokens)
     • /home/mike/repos/pipulate/plugins/720_text_field.py (3,422 tokens)
     • /home/mike/repos/pipulate/plugins/730_text_area.py (3,493 tokens)
     • /home/mike/repos/pipulate/plugins/740_dropdown.py (3,911 tokens)
@@ -320,7 +320,7 @@ The core idea is to introduce granular, full-line markers around the key logical
 
 ### 1\. Analysis of `7xx_` and `8xx_` Plugin Files
 
-These files, while sharing a common base structure with `900_blank_placeholder.py`, have distinct components critical to their specific functionality:
+These files, while sharing a common base structure with `300_blank_placeholder.py`, have distinct components critical to their specific functionality:
 
   * **Common Structure:**
 
@@ -462,7 +462,7 @@ Given the complexity of a fully deterministic swap script, leveraging an LLM (li
 
       * Manually go through each of your `7xx_` and `8xx_` widget plugin files.
       * Insert the proposed `BEGIN_...` and `END_...` markers around the relevant sections (constants, imports, `Step` tuple in `__init__`, `step_messages` entry in `__init__`, each handler method, each helper method, additional route registrations).
-      * Ensure your `900_blank_placeholder.py` also has these markers around its (minimal) corresponding sections.
+      * Ensure your `300_blank_placeholder.py` also has these markers around its (minimal) corresponding sections.
 
 2.  **Update `510_workflow_genesis.py` (The "Book teaching itself"):**
 
@@ -529,7 +529,7 @@ Given the complexity of a fully deterministic swap script, leveraging an LLM (li
 1.  **Phase 1: Marker Insertion (YOU)**
 
       * Define your final marker syntax.
-      * Manually edit all `7xx_` and `8xx_` plugin files, plus `900_blank_placeholder.py`, to insert these markers around all relevant sections. This is the most crucial and foundational step.
+      * Manually edit all `7xx_` and `8xx_` plugin files, plus `300_blank_placeholder.py`, to insert these markers around all relevant sections. This is the most crucial and foundational step.
 
 2.  **Phase 2: Extend `510_workflow_genesis.py` (YOU, with potential AI help for coding parts of it)**
 

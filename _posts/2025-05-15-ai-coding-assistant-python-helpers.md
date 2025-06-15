@@ -257,7 +257,7 @@ flake.nix
 requirements.txt
 server.py
 /home/mike/repos/Pipulate.com/development.md
-/home/mike/repos/pipulate/plugins/900_blank_placeholder.py
+/home/mike/repos/pipulate/plugins/300_blank_placeholder.py
 /home/mike/repos/Pipulate.com/_posts/2025-04-14-pipulate-workflow-abstraction.md
 /home/mike/repos/Pipulate.com/_posts/2025-04-15-pipulate-workflow-anatomy.md
 /home/mike/repos/Pipulate.com/_posts/2025-04-16-kickstarting-your-workflow.md
@@ -320,7 +320,7 @@ revision, per this successful conclusion and details of the fix from Gemini:
 
 **Gemini**: Excellent\! It's great that you got it working.
 
-The key to success with this kind of script, as you've discovered, is that the string constants like `ORIGINAL_ENDPOINT_ASSIGNMENT` and `ORIGINAL_TRAINING_ASSIGNMENT` in your `create_workflow.py` script must be **an absolutely exact, character-for-character match** for the text blocks in your `900_blank_placeholder.py` template file.
+The key to success with this kind of script, as you've discovered, is that the string constants like `ORIGINAL_ENDPOINT_ASSIGNMENT` and `ORIGINAL_TRAINING_ASSIGNMENT` in your `create_workflow.py` script must be **an absolutely exact, character-for-character match** for the text blocks in your `300_blank_placeholder.py` template file.
 
 Looking at the solution you provided:
 
@@ -339,7 +339,7 @@ ORIGINAL_TRAINING_ASSIGNMENT = """\
     )"""
 ```
 
-**And in your `900_blank_placeholder.py` (the template file this script reads):**
+**And in your `300_blank_placeholder.py` (the template file this script reads):**
 
 ```python
 # ... (within the BlankPlaceholder class)
@@ -355,7 +355,7 @@ ORIGINAL_TRAINING_ASSIGNMENT = """\
 
 **Why this worked:**
 
-1.  **Exact Match for `ENDPOINT_MESSAGE`:** Your `ORIGINAL_ENDPOINT_ASSIGNMENT` now precisely matches the simpler structure of `ENDPOINT_MESSAGE` that was actually in your `900_blank_placeholder.py` file. My previous attempts were based on an earlier, more complex version of this block (with more text lines and an inline comment) that I inferred from previous outputs. Your template actually had:
+1.  **Exact Match for `ENDPOINT_MESSAGE`:** Your `ORIGINAL_ENDPOINT_ASSIGNMENT` now precisely matches the simpler structure of `ENDPOINT_MESSAGE` that was actually in your `300_blank_placeholder.py` file. My previous attempts were based on an earlier, more complex version of this block (with more text lines and an inline comment) that I inferred from previous outputs. Your template actually had:
 
     ```python
         ENDPOINT_MESSAGE = (
@@ -369,7 +369,7 @@ ORIGINAL_TRAINING_ASSIGNMENT = """\
 
 3.  **Whitespace and Indentation Precision:** The `str.replace()` method is very literal. Any differences in leading spaces, the type of spaces (e.g., regular spaces vs. non-breaking spaces, which sometimes appear from copy-pasting from web or rich text sources), tabs, or newlines between your defined `ORIGINAL_...` strings and the actual content of the template file would cause the replacement to fail. You ensured these were identical.
 
-      * It's worth noting that the code snippets you pasted for `ORIGINAL_ENDPOINT_ASSIGNMENT` and `ORIGINAL_TRAINING_ASSIGNMENT` in your working `create_workflow.py` show leading non-breaking spaces (` `) mixed with regular spaces in the indentation. For the match to have occurred, this exact pattern of mixed whitespace must also exist in your `900_blank_placeholder.py` template file. This is a very common and tricky cause of mismatches.
+      * It's worth noting that the code snippets you pasted for `ORIGINAL_ENDPOINT_ASSIGNMENT` and `ORIGINAL_TRAINING_ASSIGNMENT` in your working `create_workflow.py` show leading non-breaking spaces (` `) mixed with regular spaces in the indentation. For the match to have occurred, this exact pattern of mixed whitespace must also exist in your `300_blank_placeholder.py` template file. This is a very common and tricky cause of mismatches.
 
 **The successful generation of your `035_kungfu_workflow.py` with both messages correctly updated:**
 
@@ -409,12 +409,12 @@ script is going to be run from (cd'd into precursors) `../plugins`.
 
 I am not married to regular expressions, nor the techniques used in
 `create_workflow.py`. I also have complete control over the template file
-`900_blank_placeholder.py` and can insert markers on their entirely dedicated
+`300_blank_placeholder.py` and can insert markers on their entirely dedicated
 lines for breakpoint search purposes. If the deconstruction of a template file
 into temporary parts and reconstruction built around the parts (the equivalent
 to a python split/join) would be a more reliable technique, that's fine. We are
 trying to purge any of the uncertainty or "best attempts" aspect out of this, so
-if the first pass of this project includes altering `900_blank_placeholder.py`
+if the first pass of this project includes altering `300_blank_placeholder.py`
 as prep-work to ensure determinism, so be it.
 
 ---
@@ -425,12 +425,12 @@ The plan to create `splice_workflow_step.py` is solid. Using markers in the temp
 
 Here's a breakdown of the approach and the resulting `splice_workflow_step.py` script.
 
-**1. Modifying the Template (`900_blank_placeholder.py`)**
+**1. Modifying the Template (`300_blank_placeholder.py`)**
 
-First, we need to add unambiguous markers to your `plugins/900_blank_placeholder.py` file. These markers will also be present in any workflow generated by `create_workflow.py` (since it copies the template).
+First, we need to add unambiguous markers to your `plugins/300_blank_placeholder.py` file. These markers will also be present in any workflow generated by `create_workflow.py` (since it copies the template).
 
 ```python
-# In plugins/900_blank_placeholder.py
+# In plugins/300_blank_placeholder.py
 
 # ... (imports and Step namedtuple) ...
 
@@ -501,7 +501,7 @@ class BlankPlaceholder:
 # End of class BlankPlaceholder
 ```
 
-**Key changes to `900_blank_placeholder.py`:**
+**Key changes to `300_blank_placeholder.py`:**
 
   * Added `# --- STEPS_LIST_INSERTION_POINT ---` inside the initial `steps = []` list, just before the closing `]`.
   * Added `# --- STEP_METHODS_INSERTION_POINT ---` just before the very end of the `BlankPlaceholder` class definition.
@@ -522,7 +522,7 @@ import os
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 PLUGINS_DIR = PROJECT_ROOT / "plugins"
-BLANK_PLUGIN_TEMPLATE_PATH = PLUGINS_DIR / "900_blank_placeholder.py" # For method templates
+BLANK_PLUGIN_TEMPLATE_PATH = PLUGINS_DIR / "300_blank_placeholder.py" # For method templates
 
 # Markers to find insertion points
 STEPS_LIST_MARKER = "# --- STEPS_LIST_INSERTION_POINT ---"
@@ -636,7 +636,7 @@ def main():
         match = steps_list_regex.search(content)
         if not match:
             print(f"ERROR: Could not find the 'steps = [' block or '{STEPS_LIST_MARKER}' in {target_file_path}.")
-            print("Please ensure your workflow file is based on the modified 900_blank_placeholder.py template.")
+            print("Please ensure your workflow file is based on the modified 300_blank_placeholder.py template.")
             return
         
         steps_definitions_block = match.group(1)
@@ -733,14 +733,14 @@ if __name__ == "__main__":
 
 **To Use `splice_workflow_step.py`:**
 
-1.  **Ensure Markers:** Make sure your `plugins/900_blank_placeholder.py` (and any workflows derived from it that you want to modify) have the `# --- STEPS_LIST_INSERTION_POINT ---` and `# --- STEP_METHODS_INSERTION_POINT ---` markers in the correct places as shown above.
+1.  **Ensure Markers:** Make sure your `plugins/300_blank_placeholder.py` (and any workflows derived from it that you want to modify) have the `# --- STEPS_LIST_INSERTION_POINT ---` and `# --- STEP_METHODS_INSERTION_POINT ---` markers in the correct places as shown above.
 2.  **Save the Script:** Save the code above as `pipulate/precursors/splice_workflow_step.py`.
 3.  **Run from `pipulate/` directory:**
     ```bash
     cd /path/to/your/pipulate_project/
     python precursors/splice_workflow_step.py plugins/035_kungfu_workflow.py
     ```
-    If you run this on the `035_kungfu_workflow.py` (which was based on `900_blank_placeholder.py` and initially had only `step_01`), it will:
+    If you run this on the `035_kungfu_workflow.py` (which was based on `300_blank_placeholder.py` and initially had only `step_01`), it will:
       * Add `Step(id='step_02', ...)` to its `steps` list.
       * Add `async def step_02(...)` and `async def step_02_submit(...)` methods.
       * The `step_01_submit` method will now naturally chain to `step_02`.

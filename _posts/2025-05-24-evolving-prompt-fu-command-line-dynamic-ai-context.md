@@ -73,11 +73,11 @@ server.py        <-- Main server file for the project
 
 ## SAMPLE WORKFLOWS
 # /home/mike/repos/pipulate/plugins/500_hello_workflow.py     <-- Hello World workflow
-# /home/mike/repos/pipulate/plugins/900_blank_placeholder.py  <-- The workflow from which spliced-in blank steps in other workflows are copied
+# /home/mike/repos/pipulate/plugins/300_blank_placeholder.py  <-- The workflow from which spliced-in blank steps in other workflows are copied
 
 ## HELPER SCRIPTS
-# /home/mike/repos/pipulate/helpers/create_workflow.py        <-- Creates a new workflow (copies 900_blank_placeholder.py)
-# /home/mike/repos/pipulate/helpers/splice_workflow_step.py   <-- Splices a step into a workflow (copies 900_blank_placeholder.py)
+# /home/mike/repos/pipulate/helpers/create_workflow.py        <-- Creates a new workflow (copies 300_blank_placeholder.py)
+# /home/mike/repos/pipulate/helpers/splice_workflow_step.py   <-- Splices a step into a workflow (copies 300_blank_placeholder.py)
 # /home/mike/repos/pipulate/helpers/prompt_foo.py             <-- This script (used to generate the manifest)
 
 """
@@ -1009,7 +1009,7 @@ portion of the ginormous 1-shot XML payload this creates:
 │   ├── 599_separator.py
 │   ├── 600_roadmap.py
 │   ├── 700_widget_shim.py
-│   ├── 900_blank_placeholder.py
+│   ├── 300_blank_placeholder.py
 │   ├── 715_splice_workflow.py
 │   ├── 720_text_field.py
 │   ├── 730_text_area.py
@@ -1085,10 +1085,10 @@ server.py        <-- Main server file for the project
 # /home/mike/repos/pipulate/static/widget-scripts.js
 ## SAMPLE WORKFLOWS
 # /home/mike/repos/pipulate/plugins/500_hello_workflow.py     <-- Hello World workflow
-# /home/mike/repos/pipulate/plugins/900_blank_placeholder.py  <-- The workflow from which spliced-in blank steps in other workflows are copied
+# /home/mike/repos/pipulate/plugins/300_blank_placeholder.py  <-- The workflow from which spliced-in blank steps in other workflows are copied
 ## HELPER SCRIPTS
-# /home/mike/repos/pipulate/helpers/create_workflow.py        <-- Creates a new workflow (copies 900_blank_placeholder.py)
-# /home/mike/repos/pipulate/helpers/splice_workflow_step.py   <-- Splices a step into a workflow (copies 900_blank_placeholder.py)
+# /home/mike/repos/pipulate/helpers/create_workflow.py        <-- Creates a new workflow (copies 300_blank_placeholder.py)
+# /home/mike/repos/pipulate/helpers/splice_workflow_step.py   <-- Splices a step into a workflow (copies 300_blank_placeholder.py)
 # /home/mike/repos/pipulate/helpers/prompt_foo.py             <-- This script (used to generate the manifest)
 </details></setting>
 </environment>

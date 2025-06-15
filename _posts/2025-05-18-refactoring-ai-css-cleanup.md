@@ -2163,7 +2163,7 @@ Found 34 Python files to process for constants:
  - plugins/010_roles.py
  - plugins/040_parameter_buster.py
  - plugins/000_profiles.py
- - plugins/900_blank_placeholder.py
+ - plugins/300_blank_placeholder.py
  - plugins/810_mermaid.py
  - plugins/880_webbrowser.py
  - plugins/740_dropdown.py
@@ -2206,8 +2206,8 @@ Processing /home/mike/repos/pipulate/plugins/040_parameter_buster.py for style c
 No mapped style constant usages found in /home/mike/repos/pipulate/plugins/040_parameter_buster.py
 Processing /home/mike/repos/pipulate/plugins/000_profiles.py for style constants...
 No mapped style constant usages found in /home/mike/repos/pipulate/plugins/000_profiles.py
-Processing /home/mike/repos/pipulate/plugins/900_blank_placeholder.py for style constants...
-No mapped style constant usages found in /home/mike/repos/pipulate/plugins/900_blank_placeholder.py
+Processing /home/mike/repos/pipulate/plugins/300_blank_placeholder.py for style constants...
+No mapped style constant usages found in /home/mike/repos/pipulate/plugins/300_blank_placeholder.py
 Processing /home/mike/repos/pipulate/plugins/810_mermaid.py for style constants...
 No mapped style constant usages found in /home/mike/repos/pipulate/plugins/810_mermaid.py
 Processing /home/mike/repos/pipulate/plugins/880_webbrowser.py for style constants...

@@ -212,7 +212,7 @@ Based on the context, especially the `story` and the detailed `development.md`, 
 
 The provided materials give a clear blueprint for how `swap_workflow_step.py` should function and fit into the larger development workflow.
 
-* **The Proven 5-Command Pattern:** Your `development.md` and `310_workflow_genesis.py` plugin document the ideal sequence for building a complex workflow from a blank template. The `swap_workflow_step.py` script is used twice in this sequence, highlighting its importance. Any implementation must function correctly within this sequence.
+* **The Proven 5-Command Pattern:** Your `development.md` and `200_workflow_genesis.py` plugin document the ideal sequence for building a complex workflow from a blank template. The `swap_workflow_step.py` script is used twice in this sequence, highlighting its importance. Any implementation must function correctly within this sequence.
 * **The "Bundle" Markers:** The `START_STEP_BUNDLE` and `END_STEP_BUNDLE` markers are the key to making this script robust. The script should be designed to locate these markers in both the source and target files and swap the entire block of code between them. This ensures that both the `step_XX` and `step_XX_submit` methods are transferred as a single atomic unit.
 * **WET Principle:** The workflows are intentionally "WET" (Write Everything Twice/Explicit). The `swap_workflow_step.py` script must respect this. It shouldn't try to be "smart" by abstracting or changing the code it's moving; its job is to perform a direct, literal transplantation of the code block.
 
@@ -419,8 +419,8 @@ This video is pure, undeniable technical wizardry. It should be short, silent, a
 * **Format:** A single, unedited screen recording. No narration. Maybe some fast, energetic background music.
 * **Content Flow:**
     1.  Have two terminals open side-by-side.
-    2.  In the left terminal, `cat plugins/900_blank_placeholder.py`. Show its simplicity.
-    3.  In the right terminal, run the 5 commands from the "Hello World Recreation" sequence in `310_workflow_genesis.py`, one after another.
+    2.  In the left terminal, `cat plugins/300_blank_placeholder.py`. Show its simplicity.
+    3.  In the right terminal, run the 5 commands from the "Hello World Recreation" sequence in `200_workflow_genesis.py`, one after another.
         * `python helpers/create_workflow.py ... --template blank --force`
         * `python helpers/manage_class_attributes.py ...`
         * `python helpers/swap_workflow_step.py ... step_01 ...`

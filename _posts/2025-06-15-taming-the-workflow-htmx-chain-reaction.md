@@ -39,7 +39,7 @@ particular is:
 ```bash
 [mike@nixos:~/repos/pipulate/helpers]$ python splice_workflow_step.py 427_botify_quadfecta3.py 
 Pipulate project root found at: /home/mike/repos/pipulate
-Template file: /home/mike/repos/pipulate/plugins/900_blank_placeholder.py
+Template file: /home/mike/repos/pipulate/plugins/300_blank_placeholder.py
 Plugins directory: /home/mike/repos/pipulate/plugins
 
 Looking for workflow file: /home/mike/repos/pipulate/plugins/427_botify_quadfecta3.py
@@ -427,7 +427,7 @@ class BotifyTrifecta(BaseTrifectaWorkflow):
 ```python
 # Each workflow gets its own copy of the fixed code
 # Must manually apply the fix to:
-# - 420_botify_trifecta.py ✅ (Fixed)
+# - 400_botify_quadfecta.py ✅ (Fixed)
 # - 427_botify_quadfecta3.py (Needs fix)
 # - Any other Trifecta-derived workflows
 ```

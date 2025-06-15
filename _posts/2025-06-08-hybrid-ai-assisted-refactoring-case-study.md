@@ -3,7 +3,7 @@ title: "The Human as a Tool Call: A Case Study in Hybrid AI-Assisted Refactoring
 permalink: /futureproof/hybrid-ai-assisted-refactoring-case-study/
 description: "This entry captures that specific, intense state of flow on a Sunday morning, where the path forward is finally clear. After wrestling with unexpected infrastructure issues and taking the time to 'polish the lenses' of the system, the primary goal is now in sight: rebuilding the Parameter Buster plugin. The core of this moment is the conscious decision to adopt a specific, manual-first strategy for this complex code transplant, leveraging my own `nvim` skills as a precise 'tool' to avoid the common pitfalls of generative AI. This isn't just about the code; it's about defining a pragmatic, effective partnership with my AI assistant to tackle a difficult refactoring task."
 meta_description: A case study on refactoring a legacy Python plugin by transplanting methods into a modern, template-based architecture using a hybrid human-AI workflow.
-meta_keywords: Parameter Buster, Pipulate, plugin refactoring, WET Workflows, create_workflow.py, splice_workflow_step.py, human-AI collaboration, nvim, code transplant, atomic grouping, PIPULATE_CONFIG, 420_botify_trifecta.py, server.py, helper functions
+meta_keywords: Parameter Buster, Pipulate, plugin refactoring, WET Workflows, create_workflow.py, splice_workflow_step.py, human-AI collaboration, nvim, code transplant, atomic grouping, PIPULATE_CONFIG, 400_botify_quadfecta.py, server.py, helper functions
 layout: post
 sort_order: 3
 ---
@@ -30,7 +30,7 @@ These were both unexpected deep-dives, but it's a good thing it's only barely
 to:
 
 1. Rebuild Parameter Buster on the new system using:
-   - pipulate/plugins/310_workflow_genesis.py
+   - pipulate/plugins/200_workflow_genesis.py
    - pipulate/helpers/create_workflow.py
    - pipulate/helpers/splice_workflow_step.py
    - pipulate/helpers/manage_class_attributes.py
@@ -75,16 +75,16 @@ iconography (aka emoji's) into the main core of the system in Pipulate's
 other Pipulate helper functions `create_standard_landing_page`,
 `register_workflow_routes`, which while not Object Oriented superclassing and
 inheritance achieves many of the same things by simple template component
-inclusion. This makes `pipulate/plugins/900_blank_placeholder.py` from which
+inclusion. This makes `pipulate/plugins/300_blank_placeholder.py` from which
 most other things are going to be derived considerably cleaner (the lens more
 ground and polished) than the other plugins in the system. I actually also gave
-this treatment to `040_hello_workflow.py` and `420_botify_trifecta.py`. The
+this treatment to `040_hello_workflow.py` and `400_botify_quadfecta.py`. The
 Trifecta one will come prominently into play on this next objective when we make
-a new `110_parameter_buster.py` using `420_botify_trifecta.py` as the base
+a new `110_parameter_buster.py` using `400_botify_quadfecta.py` as the base
 template.
 
 This part actually goes easily enough because
-`pipulate/plugins/310_workflow_genesis.py` effectively does that automatically
+`pipulate/plugins/200_workflow_genesis.py` effectively does that automatically
 giving the `pipulate/helpers/create_workflow.py` command. So by the time you're
 even reading this prompt, the starting file
 `pipulate/plugins/115_parameter_buster2.py`... okay, done that part.
@@ -283,7 +283,7 @@ back in this conversation.
 
 ## The Challenge: From Monolith to Modular
 
-Sunday morning, 9:30 AM. The old `110_parameter_buster.py` sat there like a monument to the "WET Workflows" philosophy—4,400+ lines of battle-tested code that worked perfectly but represented the old way of doing things. Meanwhile, the shiny new `420_botify_trifecta.py` template beckoned with its clean architecture, centralized UI constants, and helper-based route registration.
+Sunday morning, 9:30 AM. The old `110_parameter_buster.py` sat there like a monument to the "WET Workflows" philosophy—4,400+ lines of battle-tested code that worked perfectly but represented the old way of doing things. Meanwhile, the shiny new `400_botify_quadfecta.py` template beckoned with its clean architecture, centralized UI constants, and helper-based route registration.
 
 The mission was clear: rebuild Parameter Buster using the new modular system without losing any of its sophisticated functionality. This would be the real test of whether the "polish the lenses" approach—investing in developer experience and code generation tools—would pay dividends when creating actual production workflows.
 
