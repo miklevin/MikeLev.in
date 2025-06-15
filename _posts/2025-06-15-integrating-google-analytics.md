@@ -16,7 +16,7 @@ In the world of web analytics and SEO, *Pipulate* is a custom-built powerhouse f
 
 ## The Race Against Time: A Father’s Day Coding Marathon  
 
-Alright, it's coming up on 3:30 AM on Sunday morning. I successfully added GA to
+Alright, it's coming up on 3:30 PM on Sunday morning. I successfully added GA to
 the Botify Trifecta, turning it into the Botify Quadfecta. There are countless
 little touch-ups I'd like to do, such as:
 
