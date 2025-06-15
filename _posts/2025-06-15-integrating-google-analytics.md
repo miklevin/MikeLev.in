@@ -99,7 +99,9 @@ Start dumping and don't spare the tokens. Bottle that lightning!
 
 ---
 
-**Claude**: # Botify API Schema Discovery and Query Construction: A Deep Dive into GA Integration
+**Claude**: 
+
+# Botify API Schema Discovery and Query Construction: A Deep Dive into GA Integration
 
 ## The Lightning in a Bottle: How We Cracked the GA Mystery
 
