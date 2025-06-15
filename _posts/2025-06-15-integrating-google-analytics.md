@@ -504,7 +504,7 @@ The lightning is bottled. Use it wisely.
 
 ## Formalizing Quadfecta Approach Immediately
 
-Alright, to say this is a game-chaining advance in my day-job powers would be an
+Alright, to say this is a game-changing advance in my day-job powers would be an
 understatement. I need to do the additional rapid things to lock in these wins.
 This will become an article on MikeLev.in, that's a foregone conclusion.
 However, I should actually retire Trifecta ASAP, put Quadfecta in its place,
