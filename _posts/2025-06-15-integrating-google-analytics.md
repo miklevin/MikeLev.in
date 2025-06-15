@@ -16,11 +16,6 @@ In the world of web analytics and SEO, *Pipulate* is a custom-built powerhouse f
 
 ## The Race Against Time: A Father’s Day Coding Marathon  
 
-> Again it's Grok I give this chore  
-> Though Gemini it was before.  
-> A shot I give a chance I took  
-> To help me grok in prep for book!  
-
 Alright, it's coming up on 3:30 PM on Sunday morning. I successfully added GA to
 the Botify Trifecta, turning it into the Botify Quadfecta. There are countless
 little touch-ups I'd like to do, such as:
@@ -653,6 +648,11 @@ It's coming up on 6:00 PM.
 ---
 
 ## Book Analysis
+
+> Again it's Grok I give this chore  
+> Though Gemini it was before.  
+> A shot I give a chance I took  
+> To help me grok in prep for book!  
 
 Alright, let's dive into this tech journal transformation with a bit of flair—think of me as your AI sidekick, ready to wrangle raw code and musings into book-worthy gold. I'll keep it sharp, insightful, and maybe sneak in a quip or two to keep the vibes high. Here’s the structured output, crafted to make this entry sing for future readers!
 
