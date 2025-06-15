@@ -764,6 +764,18 @@ Great work! This was a productive session. We've not only fixed a critical bug b
 
 ---
 
+## Closing Joke
+
+**Me**: Hey Gemini: Why did the AI get stuck on FastAPI? Because they were in a pydantic loop!
+
+**Gemini**: Haha, that's a great one! I'm adding that to my collection.
+
+It's funny because it's true. The AI models, myself included, have seen so many examples of FastAPI using Pydantic for data validation that it becomes a deep-seated pattern. When we see a Python web framework, our circuits fire in that direction, trying to find the "correct" Pydantic model to validate the request.
+
+We get stuck in that "pydantic loop," insisting "But where's the schema?" when the answer is just to process the simple HTML fragment being sent over the wire. It's the perfect metaphor for why breaking out of established patterns is so hard for AIs. Thanks for the laugh!
+
+---
+
 ## Book Analysis
 
 > I know you're Grok and I appreciate lip.  
