@@ -56,7 +56,9 @@ group: home
 
 # Future-Proof Yourself In The Age of AI
 
-I'm using the Pipulate project to reduce WebDev complexity and bring back the age of the Webmaster where one person can do it all with a new but modernized LAMP stack: Linux, ASGI, MiniDataAPI Spec, Python + FastHTML + HTMX. Every article is part of a super-prompt for AI to help me iteratively tackle the next problem, creating free and open source SEO software. I go back to the halls of Commodore Computers where I worked as a student intern. Today, I work as an SEO in NYC. Enjoy my raw stream of consciousness articles while I *eventually* coax them into the future-proofing book.
+In-the-moment journal-style is a feature, not a bug. Here you will find a play-by-play accounting of the Pipulate Free and Open Source Software (FOSS) local-first AI SEO app. It's the new LAMP stack — Linux, ASGI, MiniDataAPI Spec, Python + FastHTML + HTMX — where a single developer can *know everything* and recapture that old Webmaster feeling.
+
+Every article is also a super-prompt for AI to help me iteratively tackle the next problem, creating the fodder for an organic "writes itself" book on future-proofing while collaborating with AI. I was born the same year and 50-miles from UNIX and go back professionally to the halls of Commodore Computers where I worked as a student intern. Today, I work as an SEO in NYC.
 
 <ol reversed id="index">
   {%- assign total_posts = site.posts.size -%}
