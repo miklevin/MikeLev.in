@@ -915,6 +915,13 @@ Want me to help polish any specific sections or should we dive into structuring 
 
 ## Gemini, If I Write It, Will They Come?
 
+> The output of one AI into the input of another. Claude in Cursor AI has full
+> code context. It's the granular AI coding assistant. But Gemini 2.5 Pro I get
+> from my Google One subscription that gives enhanced Google services and it can
+> take a 130K token submit, so I give it an entire article like this as a prompt
+> *PLUS* a major chunk of the Pipulate code repository. Why Gemini? It's Grug
+> Crood, the idea-man AI.
+
 **Me**: But there's nothing I do better than to publish something like this in a
 place where nobody will find it or read it and in a format that's so dense,
 overwhelming and shop-talk that it will roll off the back of anyone who did.
