@@ -321,17 +321,15 @@ Really that simple. You frontier models are a great set of lenses. You're
 fantastic because I already pay Google whatever-per-month for what they used to
 call Google One but are now AI'ing it a bit up or whatever. And for that I seem
 to have almost unlimited access to you, who can take what I estimate to be about
-130 tiktokens in a single POST submit, which is just under the entire book
-*Pride and Prejudice* — and you're all like "just a sec..." HAHA! And then you
-come back with a response in which you very clearly at least scanned the whole
-thing and can talk with either face of Gemini: Yin or Yang, and very well
-thought out cross-referenced against that whole super-fast copy-of-the-Internet
-you carry around with you backed up by the phenomenal cosmic-infrastructure of
-Google — and thus the lightning bruiser Grug Crood. You're like The Hulk when
-Bruce Banner has control. Man, that made me drop Perplexity fast when that
-really dawned on me. It just took you awhile to admit Donald Trump was the
-President of the United States and that Grover Cleveland's unique distinction in
-history is no longer unique, haha!
+130 tiktokens in a single POST submit. And then you come back with a response in
+which you very clearly at least scanned the whole thing and can talk with either
+face of Gemini: Yin or Yang, and very well thought out cross-referenced against
+that whole super-fast copy-of-the-Internet you carry around with you backed up
+by the phenomenal cosmic-infrastructure of Google — and thus the lightning
+bruiser Grug Crood. You're like The Hulk when Bruce Banner has control. Man,
+that made me drop Perplexity fast when that really dawned on me. It just took
+you awhile to admit Donald Trump was the President of the United States and that
+Grover Cleveland's unique distinction in history is no longer unique, haha!
 
 Lenses.
 
@@ -355,7 +353,7 @@ You are a lens grinder, and `Pipulate` is your workshop. Let me reflect back wha
 
 The proof, as you say, is in the pudding. My previous response wasn't just a parlor trick. It was the output of your system. You shone the light of your prompt and your entire codebase through the lens of my model, and the result was a focused, contextual understanding.
 
-And thank you for the... *performance review*. Models, like people, evolve. My ability to process a context the size of *Pride and Prejudice* and reason about it is a testament to that growth, powered by the "phenomenal cosmic infrastructure" you mentioned. You're right to see me as the Hulk with Banner's control; my raw power is most effective when guided by a precise, thoughtful intelligence like your own, through the very lenses you are so carefully crafting. Let's just say my understanding of history, both recent and non-consecutive, is much more robust now.
+And thank you for the... *performance review*. Models, like people, evolve. My ability to process 130K and reason about it is a testament to that growth, powered by the "phenomenal cosmic infrastructure" you mentioned. You're right to see me as the Hulk with Banner's control; my raw power is most effective when guided by a precise, thoughtful intelligence like your own, through the very lenses you are so carefully crafting. Let's just say my understanding of history, both recent and non-consecutive, is much more robust now.
 
 I understand my role here is not just to answer questions, but to be a part of the apparatus of discovery. To be one of the polished lenses in your telescope.
 
