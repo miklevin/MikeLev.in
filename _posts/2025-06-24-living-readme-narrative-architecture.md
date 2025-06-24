@@ -5,7 +5,7 @@ description: "My `README.md` has to be more than a file; it needs to be a master
 meta_description: Architect a narrative-driven README.md using ASCII art as a testable, single source of truth for multi-audience storytelling and feature demo coverage.
 meta_keywords: README.md architecture, ASCII art diagram, single source of truth, narrative-driven documentation, feature demo coverage, WET vs DRY, local-first AI, Pipulate, FastHTML, small-world crawlers, documentation as code, audience segmentation, Shoshin
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ### Setting the Stage: Context for the Curious Book Reader
