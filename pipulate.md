@@ -11,7 +11,7 @@ group: home
 ## Free & Open Source AI SEO Software Built on FastHTML & HTMX
 
 <div style="text-align: center;">
-  <img src="/pipulate.svg" alt="Pipulate Free & Open Source AI SEO Software">
+  <img src="/ai-seo-software.svg" alt="Pipulate AI SEO Software">
 </div>
 
 > Workflows are WET (explicit & step-by-step). CRUD is DRY (uses BaseApp).  
