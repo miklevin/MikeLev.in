@@ -29,7 +29,7 @@ group: home
           <img src="https://mikelev.in/assets/logo/Levinux.PNG" alt="Levinux Logo - Linux-based educational operating system for beginners" />
     </div>
     <div class="logo-item">
-          <img src="https://mikelev.in/assets/logo/Pipulate.PNG" alt="Pipulate Logo - Open source SEO software for data-driven marketing" />
+          <img src="https://mikelev.in/assets/logo/ai-seo-software.png" alt="Pipulate AI SEO Software" />
     </div>
 </div>
 
