@@ -6,7 +6,7 @@ permalink: /pipulate/
 group: home
 ---
 
-# Pipulate: The Local-First Revolution in AI-Assisted Development
+# Pipulate: Local First AI SEO Software
 
 ## Free & Open Source AI SEO Software Built on FastHTML & HTMX
 
