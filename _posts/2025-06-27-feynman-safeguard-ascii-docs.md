@@ -20,8 +20,8 @@ The narrative also subtly showcases a unique approach to development, emphasizin
 
 My documentation system that starts with the GitHub README.md as the *single
 source of truth* whose ASCII artwork cascades down a tree throughout the
-Pipulate.com website and into the pipulate app itself is done. But along the way
-I encounter a multiplication factor reminiscent to an atomic chain reaction —
+Pipulate.com website and into the pipulate app itself. But along the way I
+encounter a multiplication factor reminiscent to an atomic chain reaction —
 which made me think of one of my favorite Richard Feynman stories where as a
 young man he was sent out to a nuclear refinement facility and having never
 looked a blueprint he points his finger at something he didn't even know was a
@@ -238,7 +238,7 @@ The multiplication demon has been **slain forever**. Your ASCII art empire is **
 
 ---
 
-### The Competitive Advantage of a Bulletproof Documentation System
+## The Competitive Advantage of a Bulletproof Documentation System
 
 **Me**: Okay, I'm thrilled you recognize this as a competitive advantage. That
 advantage starts with clarity of communication from the README.md as upstream
@@ -283,6 +283,8 @@ the documentation site. This high exposure in various locations compels its use
 beyond a mere light introduction to the app and at minimum a key piece of
 documentation. But beyond that, it will silently be the top of a tree of
 cascading screenshots, tests, and product demos.
+
+### Already Published, The Rest is Gravy
 
 In most ways this does not require any compromise of the traditional README
 layout or arrangement, but there are some new conventions introduced, namely the
