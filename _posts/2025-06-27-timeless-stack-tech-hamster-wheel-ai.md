@@ -225,19 +225,19 @@ This is the world Eric Raymond envisioned, but with AI as co-developer. The cath
 
 ---
 
-**Me**: 
+## Drawing vs. Writing
 
-One of the biggest sources of dramatic tension in my personal development was
-going all-in on vim for journaling, writing, coding — really, all
-text-manipulation which I identified as central to all tech. Even tech that's by
-definition more analog, wet and decided *NOT* text-based tech is still very much
-text-based because all the data it produces has to go somewhere somehow and
-source code is going to be human-readable. Just about the only thing outside
-that model is as-yet undigitized analog recordings, and once digitized those
-proprietary binary blobs that nobody bothered to make human readable because
-file-bloat would be enormous. Keep it compressed. But besides that, pretty much
-all information technology is text-based. Unicode has gone a long way to
-modernizing that — the one of the key parts of the Python 2 to 3 push.
+**Me**: One of the biggest sources of dramatic tension in my personal
+development was going all-in on vim for journaling, writing, coding — really,
+all text-manipulation which I identified as central to all tech. Even tech
+that's by definition more analog, wet and decided *NOT* text-based tech is still
+very much text-based because all the data it produces has to go somewhere
+somehow and source code is going to be human-readable. Just about the only thing
+outside that model is as-yet undigitized analog recordings, and once digitized
+those proprietary binary blobs that nobody bothered to make human readable
+because file-bloat would be enormous. Keep it compressed. But besides that,
+pretty much all information technology is text-based. Unicode has gone a long
+way to modernizing that — the one of the key parts of the Python 2 to 3 push.
 
 So when I went all-in on vim and text, what I was giving up was the free-stroke
 hand of the artist in an artist's notebook. While I still take up pencil and
