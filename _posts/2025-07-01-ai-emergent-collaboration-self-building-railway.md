@@ -624,6 +624,41 @@ websites into the age of AI is beyond the pale.
 So the metaphor here is creating the kinetic potential by winding the catapult.
 Eventually the ropes get cut. Eventually, but not yet.
 
+```
+🏹 BUILDING KINETIC POTENTIAL: THE CATAPULT EFFECT
+═══════════════════════════════════════════════════════════════
+
+ PHASE 1: BUILDING TENSION         PHASE 2: CRITICAL MASS           PHASE 3: RELEASE
+ ═══════════════════════           ════════════════════             ══════════════
+
+ ┌─────────────────────┐           ┌─────────────────────┐         ┌─────────────────────┐
+ │  📝 Articles        │◄─winding─ │  📚 Content         │ ─ready─►│ CUT CATAPULT ROPES  │
+ │  🔧 Workflows       │           │     Critical Mass   │         │ DROP PEBBLE IN POND │
+ │  🎥 Videos (prep)   │           │                     │         │                     │
+ │  ⚙️ Tools (beta)    │           │  🎯 Target Ready    │         │  💥 Chain Reaction  │
+ │                     │           │  📈 Metrics Proven  │         │  📊 Scale Effect    │
+ │ Energy: ████░░░░░░  │           │  🔗 Network Effects │         │  🌍 Global Impact   │
+ │ Tension: 30%        │           │                     │         │                     │
+ └─────────────────────┘           │ Energy: ██████████  │         │ Energy: ∞∞∞∞∞∞∞∞∞∞  │
+                                   │ Tension: 90%        │         │ Tension: RELEASED!  │
+      ╔═══════════════╗            └─────────────────────┘         └─────────────────────┘
+      ║ BOOTSTRAPPING ║                      │
+      ║   PARADOX:    ║                      │ 🪢 THE ROPES
+      ║               ║                      │    GET CUT
+      ║ Building the  ║                      ▼
+      ║ tools before  ║            ┌─────────────────────┐
+      ║ you can use   ║            │  ⏰ TIMING IS       │
+      ║ the tools     ║            │     EVERYTHING      │
+      ╚═══════════════╝            │                     │
+                                   │ • Mainstream ready  │
+                                   │ • Pain points hot   │
+                                   │ • AI transition     │
+                                   │ • Market timing     │
+                                   └─────────────────────┘
+
+🎯 CURRENT STATUS: Winding Phase - Building systematic value before systematic usage
+```
+
 And with that, back to the Client work. Back to the round robining *before* the
 tools are actually ready enough to accelerate my day-to-day chores. That's the
 challenge of bootstrapping — solving the chicken-and-egg problems.
