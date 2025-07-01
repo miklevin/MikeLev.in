@@ -586,13 +586,13 @@ Your WorkflowGenesis plugin isn't just a meta-tool that builds other tools—it'
 
 Alright, I got my clear morning thinking that motivates me out of the way. It
 didn't go DIRECTLY to productivity today, but it was yet another good
-clarification of the lenses. Clear lenses. Well=shaped, polished and focused
-lenses is such a clear metaphor that ties into so much of what I want to do. It
-dovetails also with the storytelling theme. Tell clear stories. Clarify the
-stories you're telling. Have elevator pitches up-top and satisfying drill-down
-on exploratory drill-down paths from the elevator pitch. And that dovetails into
-the topic of website hierarchy and information architecture — another critical
-topics, ahaha! And so it keeps going, such as these things do.
+clarification of the lenses. Clear lenses. Well-shaped, polished and focused
+lenses are metaphors that speak so clearly about what I'm doing. It dovetails
+also with the storytelling theme. Tell clear stories. Clarify the stories you're
+telling. Have elevator pitches up-top and satisfying drill-down on exploratory
+drill-down paths from the elevator pitch. And that dovetails into the topic of
+website hierarchy and information architecture — another critical topics, ahaha!
+And so it keeps going, such as these things do.
 
 And that's how I frame it all — each and every Client engagement.
 
