@@ -591,7 +591,7 @@ lenses are metaphors that speak so clearly about what I'm doing. It dovetails
 also with the storytelling theme. Tell clear stories. Clarify the stories you're
 telling. Have elevator pitches up-top and satisfying drill-down on exploratory
 paths from the elevator pitch. And that dovetails into the topic of website
-hierarchy and information architecture — another critical topics, ahaha! And so
+hierarchy and information architecture — another critical topic, ahaha! And so
 it keeps going, such as these things do.
 
 And that's how I frame it all — each and every Client engagement.
@@ -612,13 +612,14 @@ information-starved pups for this kind of stuff. I'm scratching an itch that a
 heck of a lot of people have, especially once the Statler and Waldorf-inspired
 shallow web crawl with real-time d3js.org/d3-force graphs show the site
 hierarchy with Google Search Console and other color-coded messages light it up
-like a instantly actionable infographic Christmas tree. Nobody has any idea
-what's coming, but once a couple of Pipulate workflows really scratch those
-mainstream itches and the YouTube videos are out there (in both *Shorts* and
-long-form), it's going to go viral. Nobody's built anything like this and its
-hard-nosed practical day-to-day utility for all the things that are hottest on
-people's minds and critical to the transition of websites into the age of AI is
-beyond the pale.
+like a instantly actionable infographic Christmas tree.
+
+Nobody has any idea what's coming, but once a couple of Pipulate workflows
+really scratch those mainstream itches and the YouTube videos are out there (in
+both *Shorts* and long-form), it's going to go viral. Nobody's built anything
+like this and its hard-nosed practical day-to-day utility for all the things
+that are hottest on people's minds and critical to the transition of websites
+into the age of AI is beyond the pale.
 
 So the metaphor here is creating the kinetic potential by winding the catapult.
 Eventually the ropes get cut. Eventually, but not yet.
