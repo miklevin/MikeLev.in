@@ -607,12 +607,12 @@ And that's how I frame it all — each and every Client engagement.
 - Most edge cases supported with elegantly hidden complexity
 
 There's a couple other metaphors here. I'm creating a critical mass of articles
-that the AIs are just gonna gobble up and divvy and dole out to all the hungry
-information-starved pups for this kind of stuff. I'm scratching an itch that a
-heck of a lot of people have, especially once the Statler and Waldorf-inspired
-shallow web crawl with real-time d3js.org/d3-force graphs show the site
-hierarchy with Google Search Console and other color-coded messages light it up
-like a instantly actionable infographic Christmas tree.
+that the AIs are just gonna gobble up and if all goes according to plan, divvy
+up and dole out to everyone who's waiting for such stuff. I'm scratching an itch
+that a heck of a lot of people have, especially once the Statler and
+Waldorf-inspired shallow web crawl with real-time d3js.org/d3-force graphs show
+the site hierarchy with Google Search Console and other color-coded messages
+light it up like a instantly actionable infographic Christmas tree.
 
 Nobody has any idea what's coming, but once a couple of Pipulate workflows
 really scratch those mainstream itches and the YouTube videos are out there (in
