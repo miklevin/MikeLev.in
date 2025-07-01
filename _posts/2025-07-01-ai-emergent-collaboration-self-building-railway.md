@@ -616,10 +616,10 @@ like a instantly actionable infographic Christmas tree.
 
 Nobody has any idea what's coming, but once a couple of Pipulate workflows
 really scratch those mainstream itches and the YouTube videos are out there (in
-both *Shorts* and long-form), it's going to go viral. Nobody's built anything
-like this and its hard-nosed practical day-to-day utility for all the things
-that are hottest on people's minds and critical to the transition of websites
-into the age of AI is beyond the pale.
+both *Shorts* and long-form), it's going to go be noticed. Nobody's built
+anything like this and its hard-nosed practical day-to-day utility for all the
+things that are hottest on people's minds and critical to the transition of
+websites into the age of AI is beyond the pale.
 
 So the metaphor here is creating the kinetic potential by winding the catapult.
 Eventually the ropes get cut. Eventually, but not yet.
