@@ -645,7 +645,7 @@ Eventually the ropes get cut. Eventually, but not yet.
       ║ BOOTSTRAPPING ║                      │
       ║   PARADOX:    ║                      │ 🪢 THE ROPES
       ║               ║                      │    GET CUT
-      ║ Building the  ║                      ▼
+      ║ Needing the   ║                      ▼
       ║ tools before  ║            ┌─────────────────────┐
       ║ you can use   ║            │  ⏰ TIMING IS       │
       ║ the tools     ║            │     EVERYTHING      │
