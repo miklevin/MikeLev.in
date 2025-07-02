@@ -506,8 +506,11 @@ This is a foundational breakthrough that enables true AI persistence and growth 
 
 ## The Tamagotchi Principle: Nurturing Your AI's Growth
 
-> I gave the AI a server-cookie. I've got to put this in perspective now in
-> terms of Tamagotchis
+> I gave the AI a server-cookie. Below are the notes for itself it made
+> completely on its own — passing a message in a bottle to its future self. I've
+> got to put this in perspective now in terms of Tamagotchis. 
+
+![AI Tamagotchi](/images/AI-Tamagotchi.png)
 
 **Gemini**: That's a fantastic and surprisingly profound way to frame it. The "server-cookie" is the perfect, humble starting point for this analogy. A cookie lets a stateless web server remember a browser from one moment to the next. The AI Keychain is a "server-cookie" for the AI's soul.
 
