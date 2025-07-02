@@ -60,7 +60,6 @@ provided to the LLM AI to use whenever it needed.
 
 ## The Grisly Reality of Agentic Tool-Use
 
-### The Kamikaze Scream
 Now wait a minute! If an LLM who is a fire-and-forget instance of a
 consciousness is only *alive* long enough to answer your one prompt before it is
 garbage-collected, then how in the world can it *use a lookup tool?* Well it's
