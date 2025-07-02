@@ -40,7 +40,7 @@ service, app whatever) makes it happen.
 
 And in this way the illusion of the *same entity* is created. But it doesn't
 have access to all that deep neural network reasoning it just fired-off in the
-last prompt. No, it only has the test discussion that gets carried over from one
+last prompt. No, it only has the text-discussion that gets carried over from one
 post to the next and whatever other capabilities the framework it's plugged into
 gives it — like the ability to look back at files you gave it previously. Also
 it could pass forward in time *meta data* hidden and embedded into the
