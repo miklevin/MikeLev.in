@@ -5,7 +5,7 @@ description: "This is the whole darn theory in a nutshell. I've finally put my f
 meta_description: Learn the "Stable Target Thesis" for AI code assistance. Discover why Python and HTMX provide better LLM results than volatile JavaScript frameworks.
 meta_keywords: AI code assistance, prompt engineering, Stable Target Thesis, LLM training data, Python 3.12, HTMX, FastHTML, in-context learning, Prompt Fu, JavaScript churn, AI collaboration
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
