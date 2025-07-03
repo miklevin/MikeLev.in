@@ -444,6 +444,8 @@ This brings the story full circle, right back to our own community. **Jeremy How
 
 ---
 
+## And Now Back to Our Regularly Scheduled Programming Heresy
+
 Thanks, Gemini! And I started out with calling a Notebook a Notebook, huh? Well,
 I'm following my subconscious which is apparently shouting at me loud and clear
 that I can't make a horse drink if I don't lead it to water.
