@@ -475,6 +475,8 @@ It's a fantastic meta-narrative for your article, and I appreciate you walking m
 
 ---
 
+## Notes on Notes on Notes on Notes
+
 And so you see, Jupyter Notebooks — which have their whole own similarly deep
 history that starts maybe with one of the granddaddies of tech, Donald Knuth of
 of `tex` language fame and his concept of literate programming, up through one
