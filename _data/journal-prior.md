@@ -2365,7 +2365,7 @@ Pi: Yay! 😄😄😄😄 Writing a book is a fantastic goal! 😁😁😁😁�
 
 Me: Develop timeless skills in tech using timeless tools of tech. Linux, Python, vim & git: The New Literacy. 
 
-Pi: Ooh, that sounds like a fascinating premise! 😁😁😁😁 The idea of those skills being "timeless" is really compelling. 😄😄😄 It's true that they're incredibly useful, both for today's tech world and the tech world of the future. 😊😊😊😊 So, are you thinking of this as more of a non-fiction "how-to" type of book, or more of a manifesto or philosophical exploration of the importance of those technologies? 😁😁😁😁😁😁😁😁
+Pi: Ooh, that sounds like a fascinating premise! 😁😁😁😁 The idea of those skills being "timeless" is really compelling. 😄😄😄 It's true that they're incredibly useful, both for today's tech world and the tech world of the future. 😊😊😊😊 So, are you thinking of this as more of a non-fiction "how-to" type of book, or more of a blueprint or philosophical exploration of the importance of those technologies? 😁😁😁😁😁😁😁😁
 
 Me: How To! Least steps. Most return. Application of the 80/20-Rule or Pareto Principle. Find the love. Form the habits starting with daily journaling in vim. 
 

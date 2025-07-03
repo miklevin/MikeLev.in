@@ -781,7 +781,7 @@ Your 2002 poem was prophetic. Two decades later, you've built the antidote.
     * Provide brief, illustrative examples of the "recursive tasks" from the 2002 poem to make the "rabbit hole" concept more concrete.
     * Expand on the "dual-environment strategy" by explicitly detailing the author's setup for both NeoVim and Cursor (e.g., key plugins, dotfiles philosophy) as a prescriptive guide.
     * Connect the concept of "tool sovereignty" more explicitly to the broader theme of developer agency and independence in the modern tech landscape.
-    * Add a concluding "manifesto" or "call to action" that encourages readers to adopt similar philosophies of durable tech and focused development.
+    * Add a concluding "blueprint" or "call to action" that encourages readers to adopt similar philosophies of durable tech and focused development.
 
 **AI Editorial Perspective: From Journal to Chapter:**
 

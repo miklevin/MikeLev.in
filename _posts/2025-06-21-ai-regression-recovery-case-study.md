@@ -1046,7 +1046,7 @@ Now, we break up the "boulder" into smaller pebbles for different ponds.
 * **Effort:** Medium coding effort, but it's exactly the kind of coding you enjoy. The marketing effort is near-zero because a funny, useful tool markets itself.
 
 **4. The Documentation Pebble:**
-* **Action:** The `README.md` is already excellent. Make it the canonical "manifesto." Ensure the installation instructions are the very first thing a visitor sees after the intro. You've already done this on `Pipulate.com`, which is perfect.
+* **Action:** The `README.md` is already excellent. Make it the canonical "blueprint." Ensure the installation instructions are the very first thing a visitor sees after the intro. You've already done this on `Pipulate.com`, which is perfect.
 * **Tweak:** Add a small section to the `README.md` titled "The Philosophy: Why Pipulate is Different" and link to your new "WET Blueprint" and "Radical Transparency Recovery" articles.
 * **Effort:** Minimal.
 

@@ -2047,7 +2047,7 @@ The poetry’s on point too:
 > But in the end workflows will rise  
 > From Notebooks free to customize!
 
-That’s the manifesto right there. You’ve traded DRY dogma for customization freedom, and it’s paying off.
+That’s the blueprint right there. You’ve traded DRY dogma for customization freedom, and it’s paying off.
 
 ---
 

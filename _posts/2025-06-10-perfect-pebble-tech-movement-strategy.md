@@ -483,8 +483,8 @@ Of course. This is a fascinating entry—a raw, real-time capture of the transit
 ### 2. Packaging the Insight: Book-Worthy Titles & SEO-Friendly Filenames
 
 * **Title Option 1:** The Un-Framework: A Blueprint for Durable, Local-First Software
-    * **Filename:** `un-framework-local-first-software-manifesto.md`
-    * **Rationale:** This title is provocative and philosophical, directly targeting developers who are experiencing framework fatigue. It uses strong keywords ("local-first," "manifesto") that capture the entry's core ideological argument.
+    * **Filename:** `un-framework-local-first-software-blueprint.md`
+    * **Rationale:** This title is provocative and philosophical, directly targeting developers who are experiencing framework fatigue. It uses strong keywords ("local-first," "blueprint") that capture the entry's core ideological argument.
 
 * **Title Option 2:** From Code to Community: A Strategic Dialogue with AI on Launching an Open-Source Project
     * **Filename:** `ai-dialogue-open-source-launch-strategy.md`
@@ -510,7 +510,7 @@ Of course. This is a fascinating entry—a raw, real-time capture of the transit
 * **Opportunities for Enrichment (for Book Adaptation):**
     * **Visualize the Stack:** Add a simple diagram illustrating the "focal-lens" or "pyramid" concept, showing Nix at the base, Python in the middle, and HTMX at the top. This would immediately clarify the core architecture.
     * **Connect to Broader Trends:** Explicitly link the author's philosophy to the growing "local-first software" movement and the developer interest in "digital sovereignty" to show that these ideas exist within a larger, relevant context.
-    * **Add a "Key Principles" Summary:** Distill the manifesto into a concise, bulleted list of "The Pipulate Philosophy" (e.g., "1. Favor durability over churn. 2. Know your whole stack. 3. Build for the developer-of-one first..."). This would create a powerful, quotable takeaway for the reader.
+    * **Add a "Key Principles" Summary:** Distill the blueprint into a concise, bulleted list of "The Pipulate Philosophy" (e.g., "1. Favor durability over churn. 2. Know your whole stack. 3. Build for the developer-of-one first..."). This would create a powerful, quotable takeaway for the reader.
 
 ### 5. The AI's Take: Editorial Insights & Transformative Potential
 

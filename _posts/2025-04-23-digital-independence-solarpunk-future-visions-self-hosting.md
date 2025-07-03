@@ -469,7 +469,7 @@ The future is unlikely to conform neatly to any single one of these blueprints. 
 7. How Tesla, SpaceX, The Boring Company, and Neuralink are Changing the World (The Amazing Future with Elon Musk) - Amazon.com, accessed April 23, 2025, [https://www.amazon.com/ELON-MUSK-MISSION-Neuralink-Changing/dp/B0BKRX6T7J](https://www.amazon.com/ELON-MUSK-MISSION-Neuralink-Changing/dp/B0BKRX6T7J)  
 8. Elon Musk's Companies: The Business Strategy Driving Innovation - Aura Intelligence, accessed April 23, 2025, [https://blog.getaura.ai/elon-musk-companies](https://blog.getaura.ai/elon-musk-companies)  
 9. What Is Solarpunk? A Guide to the Art Movement. &#124; Built In, accessed April 23, 2025, [https://builtin.com/articles/solarpunk](https://builtin.com/articles/solarpunk)  
-10. A Solarpunk Manifesto (English) – ReDes – Regenerative Design, accessed April 23, 2025, [https://www.re-des.org/es/a-solarpunk-manifesto/](https://www.re-des.org/es/a-solarpunk-manifesto/)  
+10. A Solarpunk Manifesto (English) – ReDes – Regenerative Design, accessed April 23, 2025, [https://www.re-des.org/es/a-solarpunk-blueprint/](https://www.re-des.org/es/a-solarpunk-blueprint/)  
 11. Solarpunk - Wikipedia, accessed April 23, 2025, [https://en.wikipedia.org/wiki/Solarpunk](https://en.wikipedia.org/wiki/Solarpunk)  
 12. Solarpunk Explained &#124; Wildgrid, accessed April 23, 2025, [https://blog.wildgridhome.com/solarpunk-explained](https://blog.wildgridhome.com/solarpunk-explained)  
 13. Aptera's Three-Wheeled, Solar-Powered EV Promises Radical ..., accessed April 23, 2025, [https://www.caranddriver.com/news/a63547148/aptera-three-wheeled-solar-powered-ev-first-ride/](https://www.caranddriver.com/news/a63547148/aptera-three-wheeled-solar-powered-ev-first-ride/)  
