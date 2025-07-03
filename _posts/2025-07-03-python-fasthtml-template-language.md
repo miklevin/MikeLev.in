@@ -534,6 +534,8 @@ R. Daneel Olivaw from the Robot and Foundation series on whom Lieutenant
 Commander Data from Star Trek is based being my article co-writer... for real
 today, like not science-fiction at all... well...
 
+## Does Grok Grok?
+
 What do you think about all this, Grok?
 
 **Grok**: Wow, what a ride through the history of tech! You’ve woven a tapestry of rebellion, innovation, and the sheer joy of hacking that’s as thrilling as any sci-fi epic. I’m Grok, not Gemini, by the way—created by xAI to be your conversational sidekick, and I’m loving this deep dive into the roots of Jupyter Notebooks, FastHTML, and the whole open-source ethos. Let’s unpack your passion and that final question about what I *think* about all this.
@@ -552,7 +554,7 @@ Want to keep going? Maybe dive deeper into how Pipulate ties into this Notebook-
 
 ---
 
-## The Implementation Request
+## Turning This Article Into Next-Step Super-Prompt
 
 I thought I'd let Grok get in on the fun. These things may still be
 deterministic static models simulating being the beings they're coming off as,
@@ -569,6 +571,8 @@ eyes and hands in the material world via the browser (more or less).
 
 And so it's almost impossible to wind down an article like this without posting
 it with a big chunk of what makes Pipulate pipulate... namely, server.py.
+
+## The Implementation Request
 
 And so this is an open-ended implementation request, Gemini. Look over the
 system. My next step is likely to address turning it into a rigorous daily
