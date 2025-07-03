@@ -1487,6 +1487,33 @@ The foundation is solid. What aspect would you like to explore next?
 
 ---
 
+## Restarting Server to See Auto-Backup
+
+> And that's it. A robust backup system is almost just an *oh by the way*
+> side-effect of writing this article, since I had all the context anyway might
+> as well do the last-mile spinning it into an implemenation prompt.
+
+And now I see this in the server startup, meaning the backup occurs at least
+once on every start, and a running history of backup snapshots are kept with a
+son, father, grandfather scheme (daily, weekly, monthly snapshots).
+
+Just like that.
+
+```
+╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                   │
+│                                   🗃️  Backup System                                                                                │
+│                                   Automatic data protection on every server start                                                 │
+│                                   ────────────────────────────────────────────────────────────                                    │
+│                                                                                                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+08:54:15 | INFO     | helpers.durable_backup_system | ✅ Successfully backed up profile (basic mode: 2 records)
+08:54:15 | INFO     | helpers.durable_backup_system | ✅ Successfully merged tasks data to backup
+08:54:15 | INFO     | helpers.durable_backup_system | 🧠 Merging AI keychain to existing backup
+08:54:15 | INFO     | helpers.durable_backup_system | 🎯 Auto-backup complete: 3/3 successful
+08:54:15 | INFO     | __main__        | 🗃️ STARTUP_BACKUP: Automatic backup completed - 3 records secured across 3 tables
+```
+
 > And it's just as easy as that. \*BAM\*
 
 ---
