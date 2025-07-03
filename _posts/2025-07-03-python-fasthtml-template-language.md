@@ -1497,8 +1497,6 @@ And now I see this in the server startup, meaning the backup occurs at least
 once on every start, and a running history of backup snapshots are kept with a
 son, father, grandfather scheme (daily, weekly, monthly snapshots).
 
-Just like that.
-
 ```
 ╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │                                                                                                                                   │
@@ -1507,11 +1505,15 @@ Just like that.
 │                                   ────────────────────────────────────────────────────────────                                    │
 │                                                                                                                                   │
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-08:54:15 | INFO     | helpers.durable_backup_system | ✅ Successfully backed up profile (basic mode: 2 records)
-08:54:15 | INFO     | helpers.durable_backup_system | ✅ Successfully merged tasks data to backup
-08:54:15 | INFO     | helpers.durable_backup_system | 🧠 Merging AI keychain to existing backup
-08:54:15 | INFO     | helpers.durable_backup_system | 🎯 Auto-backup complete: 3/3 successful
-08:54:15 | INFO     | __main__        | 🗃️ STARTUP_BACKUP: Automatic backup completed - 3 records secured across 3 tables
+09:15:22 | INFO     | helpers.durable_backup_system | ✅ Basic backup: 2025/07/03/profile.db (2 records)
+09:15:22 | INFO     | helpers.durable_backup_system | 🔄 Advanced merge: 2025/07/03/tasks.db (processed 0, total 0)
+09:15:22 | INFO     | helpers.durable_backup_system | 🧠 AI Keychain backup: 2025/07/03/ai_keychain.db (0 total records)
+09:15:22 | INFO     | helpers.durable_backup_system | 🧹 Retention policy applied: found 1 backup dates
+09:15:22 | INFO     | helpers.durable_backup_system | 🧹 Preserved 1 dates: 📅 1 daily
+09:15:22 | INFO     | helpers.durable_backup_system | 🧹 No cleanup needed - all dates within retention policy
+09:15:22 | INFO     | helpers.durable_backup_system | 🔄 Auto backup complete: 1/3 tables, 2 total records
+09:15:22 | INFO     | __main__        | 🗃️ STARTUP_BACKUP: Automatic backup completed - 2 records secured across 3 tables
+09:15:22 | INFO     | __main__        | FINDER_TOKEN: STARTUP_BACKUP_SUMMARY - Tables backed up: profile, tasks, ai_keychain, Total records: 2
 ```
 
 > And it's just as easy as that. \*BAM\*
