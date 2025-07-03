@@ -374,6 +374,21 @@ def get() -> Component:
 serve()
 ```
 
+And so next, we sprinkle in a pinch of:
+
+fasthtml.js
+
+...and because so much of this relies on chat-like 2-way communication between
+the browser and the server (streaming and such), we finish with just a dash of:
+
+ws.js
+
+...for WebSockets. And \*BAM\*
+
+Recipe complete. Web revolutionized. Python better for webdev than JavaScript.
+Fixing the web to the way it should have been. Go read [Carson Gross' book on
+hypermedia](https://hypermedia.systems/).
+
 ---
 
 ### Unraveling the Lineage: From Ruby's Sinatra to Python's FastHTML
