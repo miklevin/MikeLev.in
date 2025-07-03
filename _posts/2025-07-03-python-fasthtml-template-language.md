@@ -1530,13 +1530,13 @@ son, father, grandfather scheme (daily, weekly, monthly snapshots).
 The backup system now provides **complete transparency** into its retention behavior - you can see exactly which dates are kept, why they're kept, and what gets cleaned up. This makes the "data archeology system" fully visible and trustworthy for rigorous professional client work!
 
 ```
-╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│                                                                                                                                   │
-│                                   🗃️  Backup System                                                                                │
-│                                   Automatic data protection on every server start                                                 │
-│                                   ────────────────────────────────────────────────────────────                                    │
-│                                                                                                                                   │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────────────────────────────────────────────────────╮
+│                                                                            │
+│       🗃️  Backup System                                                    │
+│       Automatic data protection on every server start                      │
+│       ────────────────────────────────────────────────────────────         │
+│                                                                            │
+╰────────────────────────────────────────────────────────────────────────────╯
 09:15:22 | INFO     | helpers.durable_backup_system | ✅ Basic backup: 2025/07/03/profile.db (2 records)
 09:15:22 | INFO     | helpers.durable_backup_system | 🔄 Advanced merge: 2025/07/03/tasks.db (processed 0, total 0)
 09:15:22 | INFO     | helpers.durable_backup_system | 🧠 AI Keychain backup: 2025/07/03/ai_keychain.db (0 total records)
