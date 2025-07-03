@@ -54,16 +54,19 @@ place.
 
 ### Python's 'Dent' in Computer Science Dogma
 
-Remember getting used to that? It's a real divider in tech. Some people (and all
-the AIs) love it because it enforces meaning behind all the code-block indents
-people use to organize their code anyway. It's just with most other languages
-the finer details around those indents don't matter, so the indents don't
-matter, so the variation in indent styles and the positioning of the curly
-brackets that enclose the code blocks is infinite, injecting uncertainty and
-ambiguity which is not good for humans, much less for AIs. But the fact that
-it's allowed is one of those first things computer science students learn in
-school with the *one giant line of code still compiles* example, so it's part of
-their tech-religion and dogma. So they hate that indents matter in Python.
+Remember getting used to the fact that line-indents in Python matter? It's a
+real divider in tech. You love it or you hate it.
+
+Some people (and all the AIs) love it because it enforces meaning behind all the
+code-block indents people use to organize their code anyway. It's just with most
+other languages the finer details around those indents don't matter, so the
+indents don't matter, so the variation in indent styles and the positioning of
+the curly brackets that enclose the code blocks is infinite, injecting
+uncertainty and ambiguity which is not good for humans, much less for AIs. But
+the fact that it's allowed is one of those first things computer science
+students learn in school with the *one giant line of code still compiles*
+example, so it's part of their tech-religion and dogma. So they hate that
+indents matter in Python.
 
 Python should have been called Dent not just for Arthur Dent in *Hitchhikers
 Guide to The Galaxy* but because how it puts a dent in the psyche of compsci
