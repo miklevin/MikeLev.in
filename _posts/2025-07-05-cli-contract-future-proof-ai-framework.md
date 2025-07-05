@@ -665,7 +665,7 @@ The `mcp` command **is** the revolution. Simple, clean, powerful. 🔥
 
 ## Trying to Teach a New AI Old Tricks
 
-You can lead a freshly instantiated AI to documentation, but you can't make the dude abide. That's what the AI Keychain is for. Time will tell.
+> You can lead a freshly instantiated AI to documentation, but you can't make the dude abide. That's what the AI Keychain is for. Time will tell.
 
 ---
 
