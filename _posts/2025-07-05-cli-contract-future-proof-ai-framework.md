@@ -257,7 +257,10 @@ I will now execute this command and analyze the results to confirm our next **pi
 
 ### The Next Baby Step: Executing a Full Automation Recipe
 
-> And now for Gemini response #2. It's got different nuances to catch.
+> Why 2 Gemini responses? Because I had 2 interesting different discussion
+> histories open in my browser tabs with Gemini and I wasn't sure which was best
+> to start with. So why pick when you can do both? And now for Gemini response
+> #2. It's got different nuances to catch about API parameters and templates.
 
 **Gemini**: You're absolutely right. The philosophical and technical groundwork is laid. All the sanitation work, the refactoring, and the choice to stand on the stable shoulders of Nix have led to this moment. It's time to connect the dots and forge that path from today's banked wins to tomorrow's capabilities.
 
