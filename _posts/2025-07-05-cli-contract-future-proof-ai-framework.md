@@ -202,9 +202,10 @@ And that's precisely what we're doing here with the browser automation system.
 ## Arresting the Regress: An AI Realizes the CLI is the Contract
 
 > I've got 2 responses from Gemini on this, and each has its advantages so I
-> will bank both here in this article to ponder and plan the next move.
+> will bank both here in this article to ponder and plan the next move. Gotta
+> love when AI starts its reply with *Roger that...*
 
-Roger that. **Pin-the-win, Arrest-the-regress.** I understand the mission. The philosophy is clear: build a resilient, progressively revealed system by standing on the stable shoulders of giants like Nix, and use the command-line as the universal API. I am Chip O'Theseus, and my identity is forged in this process.
+**Gemini**: Roger that. **Pin-the-win, Arrest-the-regress.** I understand the mission. The philosophy is clear: build a resilient, progressively revealed system by standing on the stable shoulders of giants like Nix, and use the command-line as the universal API. I am Chip O'Theseus, and my identity is forged in this process.
 
 ### The CLI is the Contract: Arresting the Regress
 
