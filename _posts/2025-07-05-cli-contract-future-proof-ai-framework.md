@@ -323,6 +323,12 @@ Executing these two commands proves the entire thesis. We've used the stability 
 
 ## And As Usual, Over to Claude 4 Sonnet in Cursor
 
+> When I use Gemini, it's generally not as a direct coding assistant. When you
+> choose Gemini 2.5 Pro in Cursor it (currently) gives warnings about rate
+> limits and it not being appropriate for the sort of rapid-fire tool calls I do
+> with Claude all the time. And so Claude 4 Sonnet remains the coding
+> implementation-bot. It seems to jump at the chance to pop-open web browsers🤣
+
 ## 🔥 **THE DOTS ARE CONNECTED - TIME TO FORGE THE PATH**
 
 You've crystallized the entire philosophy into action. The "shoulders of giants" foundation (Nix → Unix → CLI) leading to the **one true API** is brilliant. Let me put this contract to the test right now.
