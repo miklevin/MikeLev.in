@@ -5,7 +5,7 @@ description: "This whole session is about getting us out of the weeds. The Pytho
 meta_description: A real-time case study on building a robust CLI to prevent AI code regression, demonstrating a "Pin-the-Win, Arrest-the-Regress" development philosophy.
 meta_keywords: Pin-the-win, Arrest the regress, AI Keychain, browser automation, Selenium-wire, MCP, Chip O'Theseus, Python -c, CLI, command-line interface, pipulate, Nix flake, progressive capability, assertive return, message in a bottle, human-AI collaboration, symbiotic tooling
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ### Setting the Stage: Context for the Curious Book Reader
