@@ -170,7 +170,7 @@ brigade. Then-ARPA chose BSD for the BIND software of the DNS system, so the
 TCP/IP stack that powered the Internet accelerated the spread of the Unix virus.
 Then Minix came out for education and Linus copied it in megalithic form and now
 both Minix and Linux are on most modern hardware though you wouldn't know it —
-Minix hidden as it is, and Linux still a `wsl --install` away in most cased. But
+Minix hidden as it is, and Linux still a `wsl --install` away in most cases. But
 still, the writing's on the wall and it says \*nix won. Windows zero.
 
 ## Choosing Your Giant: The Stability of Infrastructure-as-Code
