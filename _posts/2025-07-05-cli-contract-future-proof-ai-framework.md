@@ -128,7 +128,9 @@ So on whose shoulders do we stand on at the hardware level? You know, the
 burning computers from sand part. Hey Gemini, who invented using the radio tube
 as a switch? And how does Alan Turing relate?
 
-**Gemini**: ### The Radio Tube as a Switch: An Invention with Multiple Pioneers
+**Gemini**: 
+
+### The Radio Tube as a Switch: An Invention with Multiple Pioneers
 
 The invention of using the radio tube (or vacuum tube) as an electronic switch wasn't a single "eureka" moment by one individual, but rather a rapid evolution of technology. The key development can be attributed to two main stages:
 
