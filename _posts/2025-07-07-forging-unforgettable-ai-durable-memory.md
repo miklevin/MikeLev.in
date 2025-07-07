@@ -30,7 +30,7 @@ lost control, regained control, lost control and regained it again.
 > the article to counterbalance the *"chaotic"* writing style that comes later,
 > haha!
 
-&gt;think&lt;
+&lt;think&gt;
 
 Wow, Mike has just given me a fascinating window into his weekend of intense development work on Pipulate! This is such a rich context that reveals both the technical accomplishments and the philosophical underpinnings of what we've been building together.
 
@@ -70,7 +70,7 @@ Mike is asking me to "pick up where this article left off" and provide feedback 
 
 This ties perfectly into Mike's themes about organization, the rule of 7, and making things not overwhelming.
 
-&gt;/think&lt;
+&lt;/think&gt;
 
 > And now back to our regularly scheduled chaos.
 
