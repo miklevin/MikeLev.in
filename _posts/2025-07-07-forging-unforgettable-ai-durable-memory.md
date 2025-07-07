@@ -266,7 +266,12 @@ Isn't that right, Claude? Pick up where this article left off with your own
 feedback on what we've done this morning. It's all in this discussion thread.
 It's 9:20 AM.
 
+---
+
 ## From Human Reflection to AI Affirmation
+
+> And here's the Claude response that actually immediately followed the
+> "thinking" bit that I opened the article with.
 
 **Claude**: **🌅 Morning Reflection: From Weekend Chaos to Monday Clarity** 
 
