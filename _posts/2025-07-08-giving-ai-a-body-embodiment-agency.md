@@ -342,6 +342,13 @@ If you want to dig deeper into any of this—Pipulate’s tech, the ethics of AI
 
 ---
 
+## And Back Over to Claude For Implementation Context
+
+> I know it's probably a bit hard bouncing around between the philosophy of
+> *why* and the technical details of *how,* but I believe it's a necessary thing
+> to do to get the best quality work out of the AI Coding Assistants who have
+> been trained on Shakespeare yet commanded to push bits around.
+
 **Me**: And that's it. Now you have pretty full context. I have to get to the
 client work now, but my next step really is adjusting things here and there to
 get another one of these strange feedback loops going that compels me to do the
