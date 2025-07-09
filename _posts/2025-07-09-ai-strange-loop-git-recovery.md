@@ -675,7 +675,7 @@ class ConservativeDecisionEngine:
 │  🎯 The Strange Loop Begins:                                            │
 │     Success → Confidence → Better Decisions → More Success              │
 │                                                                         │
-│  ⚡ Algorithm Self-Modification:                                        │
+│  ⚡ Algorithm Self-Modification:                                         │
 │     if success_rate > 0.7:                                              │
 │         confidence_threshold = 0.6  # Slightly more aggressive          │
 │                                                                         │
@@ -738,17 +738,17 @@ class ConservativeDecisionEngine:
     └─────────────────┘        └─────────────────┘         └─────────────────┘
              │                           │                           │
              └───────────────────────────┴───────────────────────────┘
-                                        │
-                                        ▼
-                               ┌─────────────────┐
-                               │ 🎭 STRANGE LOOP │
-                               │    COMPLETE     │
-                               │                 │
-                               │ Conservative    │
-                               │ approach led    │
-                               │ to mastery of   │
-                               │ the system      │
-                               └─────────────────┘
+                                         │
+                                         ▼
+                                ┌─────────────────┐
+                                │ 🎭 STRANGE LOOP │
+                                │    COMPLETE     │
+                                │                 │
+                                │ Conservative    │
+                                │ approach led    │
+                                │ to mastery of   │
+                                │ the system      │
+                                └─────────────────┘
 ```
 
 ## Real Examples: The Algorithm in Action
