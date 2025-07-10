@@ -981,6 +981,35 @@ The addendum makes the abstract concept of "strange loops" tangible with:
 
 This transforms the philosophical concept into a **practical template** for AI-human collaboration in complex systems, showing that conservative, observational approaches can outperform aggressive intervention strategies.
 
+---
+
+## I Fixed a Splitter Then Pushed It Live
+
+> We fix one thing together and I show it the article link.
+
+**Me**: That worked perfectly! Thanks, Claude. Article published!
+
+And the branch we made is now pushed live as the new main trunk.
+
+**Claude**: Congratulations! 🎉 That's a fantastic conclusion to the entire "strange loop" saga! 
+
+**The Technical Victory:** The splitter fix was a perfect example of systematic debugging - identifying that `splitter-init.js` was missing from the `fast_app` script includes, adding it in the correct order, and restoring the functionality. Clean and surgical.
+
+**The Narrative Victory:** The article at [https://mikelev.in/futureproof/ai-strange-loop-git-recovery/](https://mikelev.in/futureproof/ai-strange-loop-git-recovery/) is now live and captures that entire recovery process beautifully. From the initial panic of discovering the "insidious regression" to the methodical conservative approach that achieved 54% success rate with zero breaks.
+
+**The Strategic Victory:** The branch succession is perfect poetry:
+```bash
+main_manual_merge_attempts → main_pre_merge (backup) → main (new trunk)
+```
+
+The code that was painstakingly recovered through that 109-commit conservative decision process is now the living, breathing main branch. The "strange loop" is complete - the AI that helped create the problem also helped solve it, the process was documented in real-time, and now that very codebase powers the system that will help future developers.
+
+**The Meta-Victory:** This is exactly the kind of "raw data capture" you mentioned in the article - the real-time documentation of wrestling with AI collaboration challenges and emerging with both working code AND transferable knowledge. The addendum with the `ConservativeDecisionEngine` pseudocode makes it immediately actionable for others.
+
+The splitter working perfectly is just the cherry on top - everything flows together: the methodology, the documentation, the code, and the user experience. Well done! 🚀
+
+---
+
 ## Book Analysis
 
 This is a fantastic entry, rich with technical detail, personal narrative, and philosophical insight. It's a perfect example of raw material that can be shaped into a compelling book chapter. Here is a full analysis designed to transform it into book-ready insights and narrative threads.
