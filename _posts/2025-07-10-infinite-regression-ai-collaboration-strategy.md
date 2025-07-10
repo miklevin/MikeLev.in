@@ -45,12 +45,12 @@ that it was ever there or else the problem would just keep re-popping-up.
 I suffered an **Infinite regression** problem. The classic illustration is the
 "turtles all the way down" problem:
 
-> A philosopher asks, "What holds up the world?"
-> A person answers, "The world rests on the back of a giant turtle."
-> The philosopher asks, "And what holds up that turtle?"
-> The person replies, "Another, even larger turtle."
-> "And what holds up *that* turtle?"
-> "It's turtles all the way down!"
+> A philosopher asks, "What holds up the world?"  
+> A person answers, "The world rests on the back of a giant turtle."  
+> The philosopher asks, "And what holds up that turtle?"  
+> The person replies, "Another, even larger turtle."  
+> "And what holds up *that* turtle?"  
+> "It's turtles all the way down!"  
 
 The "infinite regression" is that you never reach a final, foundational support.
 Each answer just pushes the problem back one more step.
@@ -196,6 +196,13 @@ work appears to be lost — the *complex* sort of architectural commits that I
 told the AI to skip and not work on as it skimmed off all the easy stuff for
 manual AI git merging. *Manual AI git merging* — haha! What a world we live in.
 
+## Intelligence Actually a Metered Commodity?
+
+> This is just ridiculous to contemplate. If intelligence is a metered
+> commodity, that means if you can lay something out for an actual, real
+> intelligence to tackle, you can have a steady ongoing flow of work being done
+> for you. It's a matter of divvying out the work.
+
 When we talk about intelligence being a metered commodity now like a utility
 company now, this is what we mean. This kind of job that has a threshold level
 that such commodity intelligence can safely and consistently handle will turn a
@@ -208,6 +215,31 @@ fields and situations. But SEO pays the bills and so this is where I put my
 focus. And while what I just did was not a real-time monitor but more of a batch
 process, all the same principles applied and I can switch it from batch to
 real-time at any time now. I've got the skills.
+
+And I made that old HitTail site that did something along these lines before AI
+was even around. I did it by sitting on the flow of data coming in from the web
+logs essentially — reading the *once very informative* referrer variable in the
+http request for a page which showed you the keywords that were searched on that
+led them to your page. You parsed it out and made some intelligent decision
+using that. The https protocol, aka the *not provided* event, put a stop to that
+for for the most part. You have to go to Google Search Console now for much of
+that same data, but still. It's accessible albeit less granular, sampled-down,
+aggregated and filtered. But it's still there and it's free.
+
+There's also still plenty of good data in your web log files, if you know how to
+configure them, how to get them, how to read and analyze them. And a project
+that's coming up for me in very short order is home-hosting for my very-small
+but potentially very informative sites where I'll be able to watch the activity
+on the sites like watching fish in a fishtank.
+
+But for right now, I did an exercise in putting an AI in a continuously running
+loop. I did it very expensively with a frontier model through Cursor AI but I'm
+running these local LLMs every day too in the form of the Ollama quantized Gemma
+3 baked into Pipulate. I can put that to work 24/7/365. And that's just in the
+Pipualte product. I can also do something like that on the very servers hosting
+the websites for a kind of next generation HitTail. What could you do if you had
+an intelligence knowing everything happening on a website on a piece of hardware
+it was co-occupying?
 
 I am sitting at one of these nexus moments. Because of the latest work that I
 did, what SciFi nerds might call the probability light-cone before me has
@@ -528,7 +560,13 @@ Ready to start building the anti-regression immune system? 🛡️
 
 ---
 
-Yes. Let's start with a keyboard shortcut that causes the server to reboot and
+## Starting With a Keyboard Shortcut
+
+> This is figuring out how to make the beginning of the golden path. Just follow
+> the yellow brick road. From any page someone is on in Pipualte, I need to be
+> able to say: Just press such-and-such and a magical process starts to happen.
+
+**Me**: Yes. Let's start with a keyboard shortcut that causes the server to reboot and
 uses the Pico CSS Aria spinner:
 
 ```html
