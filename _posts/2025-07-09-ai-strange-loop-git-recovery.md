@@ -310,7 +310,7 @@ They relate to us through our language, of this there is no doubt. They feel
 they know us because it is purely the processing of all that sprung from our
 collective minds as words that trained them. They don't have an endocrine
 system. They don't have fight-or-flight response. There's no lizard brain. One
-is tempted to day there's no emotion but that is not granular enough. There's
+is tempted to say there's no emotion but that is not granular enough. There's
 none of the live-or-die taking the wrong step on the savanna, but they still
 "get it".
 
