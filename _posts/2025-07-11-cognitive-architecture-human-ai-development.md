@@ -115,7 +115,7 @@ atomic at all! (one of the great misnomers of science) Then eventually we
 realize all things are probably waves in some indeterminate substrate — the
 quantum field. Now because quantum quantizes and relativity doesn't, we know
 there's this crossover point where a lot of this gets sorted out — at the scale
-of the Plank constant where the great theories of General Relativity and Quantum
+of the Planck constant where the great theories of General Relativity and Quantum
 Mechanics merge.
 
 ### The Very Small Scale Where an Invisible Clue Resides
