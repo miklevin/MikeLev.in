@@ -660,7 +660,9 @@ You see? It's that cycle again. You had to dive deep into the technical complexi
 
 ---
 
-And so you see I'm not going to go through any article extraction process from
+## Let Yesterday's Aricle Stand
+
+**Me**: And so you see I'm not going to go through any article extraction process from
 yesterday's over-stuff article. I'm going to keep that in place exactly as-is
 because all these articles here on MikeLev.in you are the sausage factory. I
 intend for them to be a bit messy and unstructured.
