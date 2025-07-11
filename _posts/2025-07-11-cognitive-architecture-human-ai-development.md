@@ -94,6 +94,7 @@ Democritus (c. 460–c. 370 BCE), building upon the ideas of his teacher Leucipp
 ---
 
 ## Key Differences in Their "Substrates"
+
 | Feature       | Anaximander's Apeiron                               | Democritus's Atoms                                         |
 | :------------ | :-------------------------------------------------- | :--------------------------------------------------------- |
 | **Nature** | Indefinite, boundless, formless, unqualitied.       | Definite, solid, hard, possessing distinct shapes and sizes. |
