@@ -74,9 +74,14 @@ specific, maddening AI behavior:
 
 The "infinite" part in my case was the feeling that no matter how many times I
 corrected the AI, it would always regress back to the popular-but-wrong pattern,
-creating a cycle I couldn't escape just by re-prompting. My solution — the `git
-reset` and the highly constrained `auto_picker.py` script—was the equivalent of
-getting off the turtle stack and finding solid ground.
+creating a cycle I couldn't escape just by re-prompting or manually fixing in
+the HEAD of the repo, leaving a trail of the bug until fixed. That leaves *false
+proof of the wrong pattern* in the repo's past. The big-fix had to be complete.
+It had to be a time-traveling eradication.
+
+My solution — the `git reset --hard` from an old time-point in the repo (hash)
+and the highly constrained `auto_picker.py` script—was the equivalent of getting
+off the turtle stack and finding solid ground.
 
 That was non-negotiable and I went back in the repo to before where that broke
 so that the subsequent patterns that set-in, ultimately damaging ones because
