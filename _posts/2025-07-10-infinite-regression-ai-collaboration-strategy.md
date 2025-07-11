@@ -57,7 +57,7 @@ Each answer just pushes the problem back one more step.
 
 ### How It Applied to My AI Problem
 
-In the context of our conversation, you used "infinite regression" to describe a
+In the context of our conversation, I used "infinite regression" to describe a
 specific, maddening AI behavior:
 
 1.  **The Initial State:** My code used a specific, uncommon pattern (FastHTML's
