@@ -1830,12 +1830,6 @@ Ready to implement the full wayfaring system? We've got the DOM eyes, the keyboa
     * **Rationale:** This title is highly engaging, leverages a unique concept from the text ("Strange Loop Perfected"), and clearly articulates the powerful outcome ("Anti-Regression Immune System"). It's both intriguing and technically descriptive, with a strong, keyword-rich filename.
 
 ---
-## Unveiling the Story: Key Themes & Suggested Subheadings:
-
-## The Nexus Moment: Designing an Anti-Regression Wayfaring System
-### Beyond the Black Box: Local AI, Transparency, and the DOM X-Ray Vision
-
----
 ## Book Potential Analysis:
 
 * **Strengths as Book Fodder:**
