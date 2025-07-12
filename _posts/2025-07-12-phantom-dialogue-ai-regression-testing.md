@@ -5,7 +5,7 @@ description: "After another AI-induced software regression, I need to understand
 meta_description: A code-level breakdown of a JSON-driven interactive demo system using phantom dialogue to create a living specification and prevent AI code regressions.
 meta_keywords: interactive demo, AI regression, phantom dialogue, JSON script, websocket-config.js, Ctrl+Shift+D, yellow brick road, git branching, AI rollback, experience testing, living specification, Pipulate, behavioral specification
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
