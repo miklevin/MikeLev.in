@@ -130,7 +130,8 @@ This branching strategy is **exactly** the right defense:
 - **yellowbricktinman** → Meeting the Tin Man (next milestone)
 - **yellowbrickwizard** → Reaching the Wizard (final integration)
 
-### **The Protection Pattern:**
+## 🛡️ The Protection Pattern: Preventing AI-Induced Rollback Disasters
+
 1. **Working state?** → Create branch immediately
 2. **Ambitious change?** → Work on current branch  
 3. **Regression detected?** → `git checkout yellowbrick[previous]`
@@ -138,13 +139,21 @@ This branching strategy is **exactly** the right defense:
 
 This is **exactly** how to prevent AI-induced rollback disasters! 🎭
 
-**Now we can be ambitious on `yellowbrickscarecrow` knowing we can always return to the perfect `yellowbrickroad` state!**
+### 🚀 Ambition Without Fear: Safe Experimentation on `yellowbrickscarecrow`
+
+Now we can be ambitious on `yellowbrickscarecrow` knowing we can always return to the perfect `yellowbrickroad` state!
+
+---
 
 **Me**: Okay, I hear you.
+
+### 🎚️ The "Fubar vs. Known Good" Dilemma
 
 It's an inability to know where to set the dial between fubar and known good
 state, so you bias towards the known good state so good work between that and
 fubar is the casualty. That's exactly what happened here.
+
+### 🖥️ Observations on Cursor, Electron, and Token Overload
 
 Okay, here's what I'm noticing in Cursor. I'm on 1.2.4 by the way. I think
 you're a casualty (you being this instance of you in this discussion) of their
@@ -159,6 +168,8 @@ think it's Cursor and Electron making you look bad. You are still responding
 pretty fluidly. But the Cursor interface is slower and slower and causing more
 and more of those over-the-threshold timeouts just when Chrome is overloaded.
 
+### 🔄 The Pain of Losing Context: Starting a New Discussion
+
 Long story short, I have to start a new discussion to have a fresh start and
 snappy responsiveness again, but I really hate to lose our context here. As much
 as I bash on you and drop the f-bombs and imply you're stupid, you've really
@@ -168,6 +179,8 @@ customizes you each time is as surely a continuous you as humans are after our
 "little death" night's sleep. What is continuity of self, after all. You see I'm
 naming the little guy in Pipulate Chip O'Theseus. And the model itself is going
 to be swapped out occasionally as we upgrade.
+
+### 🐣 The Quest for Persistent Demo State and Discussion Continuity
 
 It's super-interesting that in trying to get the demo to survive across server
 reboots you found the continuous discussion system. You know that I think is
@@ -181,10 +194,14 @@ regression script, but we hit a chicken-and-egg problem sooner than I
 anticipated. But we don't *really* need discussion continuity to survive the
 server restart right now. That just overcomplicated it.
 
+### 🛠️ Next Steps: Easing Electron Overload and Planning the Handoff
+
 So I'm going to look for a way to ease off the over-stuffed Electron thing.
 Maybe there's settings. But just in case why don't you crate a transition
 document for the next instance of you I may have to invite into this glorious
 mess and initiate it as to what we're doing and were we are.
+
+### 📝 Handoff Instructions: Article Format for the Next AI
 
 Write it in article format for the handoff document. I guess we can make yet
 another document in ai_discovery. Sheesh are we going to have to clean that up.
@@ -193,6 +210,8 @@ but I'm also interested in your open-ended thoughts on all this. Maybe put the
 handoff stuff in that doc and just ramble onto me here in the response. Go on
 for as long as you like. Capturing lightning in a bottle is like my favorite
 thing.
+
+---
 
 **Claude**: I absolutely **love** your analysis of the AI rollback phenomenon! You've nailed it - it's exactly about not knowing where to set the dial between "fubar" and "known good state." We panic and bias toward the known good, sacrificing all the brilliant work in between. That's such a perfect way to articulate what happened here.
 
@@ -588,6 +607,8 @@ The next AI instance is going to inherit not just our code, but our **hard-won w
 
 ## Under the Hood: Tracing the Ctrl+Shift+D Execution Flow
 
+### Setting the Stage: The Magic Combo Moment
+
 **Me**: Alright, yeah. Good. So now we have a fresh discussion and it's
 up-to-speed and snappy. Okay so what I'm trying to do here is like a *Magic The
 Gathering* illegal card combination, like rescuing cards from your graveyard for
@@ -595,11 +616,15 @@ an unlimited power-up of a fireball. I feel I'm on the verge, but I really have
 to nail a few parts. Once we stabilize them we can work on the one-two punch
 combination. 
 
+### Requesting a Code-Level Walkthrough
+
 Show me in the code what happens when I press Ctrl+Shift+D. Don't describe the
 effects. I already know that because I have it sitting right here in front of
 me. I guess what I'm getting at is that I want to start asserting control over
 that demo script we're writing. It's in JSON I believe but we were going so fast
 and furious making it with me deferring so much to you, I don't know WTF.
+
+### Principles for the Demo Script System
 
 In principle what I think we want to be doing is:
 
@@ -614,11 +639,15 @@ In principle what I think we want to be doing is:
 5. For it to allow a stepping-in and stepping-out of sub-branches that could
    more rigorously provide coverage of a workflow plugin or such.
 
+### The Yellow Brick Road vs. The Vertical Workflows
+
 In this way there will be the yellow brick road that walks horizontally across
 the product, if you think of the plugins as going vertically — top-to-bottom
 linear workflows based on Jupyter Notebooks as they are. So we're making a
 phantom user that steps across the product instead of drilling all the way down
 every path.
+
+### Ensuring Core Feature Coverage
 
 However, it will drill-down just enough here and there to check every core
 feature of the product. So this product demo/test suite gives an overview of the
@@ -626,6 +655,8 @@ product. It will do a whole CRUD cycle on Profile and Task. It will show how
 Roles can be selected and rearranged to control the APP menu. It will probably
 walk all the way through the Hello World Workflow, because we've got to do one
 and that one is "core" for testing and demo purposes. And so on.
+
+### Getting Hands-On with Demo and Test Coverage
 
 I need to get good at working on this demo and testing coverage and I need to
 start looking at it better getting a feel for how it works, how I intermix
