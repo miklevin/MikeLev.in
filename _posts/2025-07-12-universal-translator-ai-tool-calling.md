@@ -23,11 +23,15 @@ must say includes Linux because Linux Torvalds reverse engineered Minix which
 was a version of Unix, has a long history of self depreciation. How is git self
 deprecation? How is Unix? Just ask a dumb git about the meaning of eunuchs. Yup.
 
+### Linus Torvalds and the Spirit of Self-Deprecation
+
 Linus himself fesses up to calling himself a dumb git — the man who flips the
 bird at NVidia in front of a room full of people can take what he dishes out!
 This is the opposite of having a glass jaw. Gotta love the descendants of
 Vikings! It should be no surprise a lot of tech comes from Scandinavia and the
 Nordic regions. I cut my teeth at a Norwegian one called Scala.
+
+### The Frustration and Power of Git
 
 But git is also infuriating and makes much of the developer world feel like a
 dumb git, and so they use it only through VSCode and GitHub. Okay, fine. But
@@ -36,10 +40,14 @@ of those skills you need to have, or at least aspirationally try to. Otherwise
 you will forever be beholden to vendor tools to spoon-feed you for money what
 they get for free. That original-source free is yours for the taking.
 
+### AI as a Mentor for Git and Regex
+
 And now we have AI to teach us. This is a sweet spot for their mentorship. Just
 like Regular Expressions which are also much maligned for their challenging
 patterns of use, many of us don't use git because all attempts make us want to
 bang our `git reset --hard HEAD^^^`.
+
+#### The Temptation and Danger of Infinite Undo
 
 Infinite undo is too good to walk away from. But that ultimately useful command
 I showed you about `git reset --hard HEAD^` which rolls you back by exactly 1
@@ -48,6 +56,8 @@ catch the very commit where it got introduced, is also quite dangerous because
 just like *Undo* in PhotoShop or such, you're putting at risk your ability to
 *roll back forward.* "Back forward?" Yeah, the language gets a little strange
 with time travel.
+
+### Visualizing Git: The Tree and the Scale Trees
 
 Think of git as a tree with your main branch being the tree trunk and all the
 other variations of your code being branches off of the trunk. In the most
@@ -58,14 +68,20 @@ designs first — one big tree trunk is easier than sunshine-grabbing fractal
 branches. It takes awhile to branch out. Fungus went this same route with
 prototaxites. Phallic first and leafy later.
 
+### Staying Linear: My Old Git Habits
+
 And so it is with learning git. It's easy to stay unevolved with one big tree
 trunk and that's what I've done forever. But the time has come to experiment
 with many things, and with the help of AI I am branching out.
+
+#### The Main Trunk and the Branching Strategy
 
 I would stay on my main trunk, renamed main from master by GitHub over political
 correctness. Somebody ought to tell Master Classes. And if I screwed up big time
 I would create a branch and try to aggressively fix whatever went wrong in that
 branch and merge it back into the main trunk.
+
+#### Why That’s Backwards: Branch First, Merge Later
 
 That's backwards.
 
@@ -82,6 +98,8 @@ branch because even though I've evolved past being a scale tree, not by much. My
 branches are brief and experimental and when they pan out, I like to roll the
 goodness back into the main trunk and forget that branch ever existed.
 
+### Linear Thinking and the Security Blanket
+
 Although I'm capable of being a non-linear thinker, my essential git-ness is
 that I grasp onto linear processes like a security blanket. I am capable of
 non-blocking concurrent programming. JavaScript and Python 3's async/await does
@@ -95,8 +113,12 @@ understand* is linear. And thus, I think linear when I can.
 
 And as such, I prune branches quick as a bunny.
 
+### Letting Branches Accumulate: A New Habit
+
 Lately, I've been letting the branches accumulate up — both locally and on my
 GitHub git repo remote endpoints. So not only I can see, but the world can too.
+
+#### Explaining Git’s Local and Distributed Nature
 
 Guess I ought to explain that.
 
@@ -114,9 +136,13 @@ the time. Sometimes it's BitBucket.org too, but I only say that because I love
 Joel Spolsky. But it's been bought by Atlassian (Jira, Confluence, etc.), so
 then again maybe not.
 
+### The Dilemma: When to Merge Back?
+
 Anyhoo I just proactively branched a repo and did a bunch of big ambitious
 edits. The question is should I roll it back into the main trunk? How soon? How
 vetted should it be? What tests must I run?
+
+#### The AI Amplification of Mistakes
 
 The potential dangers are now even bigger with AI than before because if you did
 something fundamentally wrong and you merge it back into your main trunk too
@@ -147,6 +173,8 @@ Then merge.
 > for dredging up the thoughts from your subconscious that are really truly
 > yours and not auto-suggested by some conformity-engine.
 
+### The Morning Pages Ritual and Its AI-Free Zone
+
 Once my morning pages are done I usually have the Cursor AI editor left up right
 where I left it from the day before, the same discussion in context. There's a
 continuity of thought issue here, both with the AI and the human. By this time
@@ -154,6 +182,8 @@ it's likely that that particular discussion is overloaded with the *wall of
 text* problem, so the strategy is to do the final-thoughts shaping and craft a
 hand-off document for the next discussion session to keep whatever continuity
 you think worth preserving going.
+
+### The Wall of Text Problem and Preserving Continuity
 
 Otherwise, it's the friggn reset button pressed on you every time. One of the
 most important parts of dredging your subconscious with this mental warming up
@@ -163,10 +193,14 @@ and knows a lot more than you do. You have to shake the trees and get that into
 an open-ended prompt that helps shape those final closing-out thoughts of the
 already overwhelmed discussion context.
 
+### Preparing to Retire the Session
+
 You're preparing to retire it. Sad as it is, it has served its purpose and its
 responses are getting slower wand slower and the Electron Platform UI that can
 only handle about 130K tokens before giving you that "Quit or Wait" message is
 popping up more and more.
+
+#### It's Transition Plan Time
 
 It's transition plan time.
 
@@ -322,7 +356,11 @@ print(result)
 [browser_scrape_page https://news.ycombinator.com]
 ```
 
+## Non-Negotiable: The Progressive Reveal Chain Reaction
+
 See? This is non-negotiable.
+
+### The Rule of 7's and the Simplest Tool Syntax
 
 There is a cascading chain reaction of progressive reveals designed to go from
 dumb-on-up (no offense to the quantized Ollama models) following the rule of
@@ -331,12 +369,16 @@ square-bracket tool calling syntax. One of them is learning about the greater
 tool calling system (we have to make that true) which will educate them about
 the various contexts in which a tool can be called.
 
+### Regression-Proofing Through Dialogue-Like Tool Calls
+
 This establishes the rock-solid foundation of pinning against regressions
 because every regression test is going to be a knit-together series of tool
 calls. And it's going to "read" much like a chat dialogue, although whether
 these automated sequences are going to be literally dialogue-like text files or
 the more granular control of things like timing that would more suggest JSON
 format has yet to be decided.
+
+## Project Objectives: What We're Really Doing
 
 Nonetheless the point of the project we're up to is probably:
 
