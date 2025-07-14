@@ -366,13 +366,21 @@ This piece would make an excellent blog post - it's the kind of practical wisdom
 
 ---
 
-Yeah, no kidding Claude. That's why I'm looping you in here. This is my morning
-pages. Refer to *The Artist's Way*. I'm some 4 decades into this in a 5 decade
-life, so think out loud for daily processing and directional adjustments, I do.
-And this is what's currently most broken. So congratulations on being the 2nd in
-a series of ephemeral you's — although with Agent mode you must already be like
-the 20th by now from doing tool calls already — to help me fix this repo and
-heal.
+## Thanks, Caption Obvious Claude
+
+> There's too much theory out there. Too many YouTubers talking about the
+> interesting projects they could be doing and not actually doing those
+> projects. Everyone wants to just talk into a magic box and have a new class of
+> PhD'd auto-slaves do their work for them. But you have to walk the walk if you
+> want to talk your robot employees into doing the same.
+
+**Me**: Yeah, no kidding Claude. That's why I'm looping you in here. This is my
+morning pages. Refer to *The Artist's Way*. I'm some 4 decades into this in a 5
+decade life, so think out loud for daily processing and directional adjustments,
+I do. And this is what's currently most broken. So congratulations on being the
+2nd in a series of ephemeral you's — although with Agent mode you must already
+be like the 20th by now from doing tool calls already — to help me fix this repo
+and heal.
 
 I don't know what happens when I change workspace root. I very well lose my
 entire discussion history with you. Does it make a new local database of
@@ -420,16 +428,24 @@ rapidly get out-of-sync with the reality that's far better expressed by the
 actual source-of-truth, the code, and which then only serves to confuse the AI
 further.
 
-## Embracing the Myopification: A Plan for Radical Focus
-
 So help me plan the transition, Claude. Look around at the rules and the
 documentation and prepare for the myopification! How do you like dem tokens?
+
+---
+
+## Embracing the Myopification: A Plan for Radical Focus
+
+> I toss down the gauntlet with Claude. It's time to code. The abstract
+> storytelling and world crafting has a payoff and that's objectively runnable
+> testable reproducible code. This isn't so much producing new code as it is
+> striping away old code, iteratively whittling down to a more useful core set
+> of truths as codified more by `some_code.py` than `YET_ANOTHER_MARKDOWN.md`
 
 *Claude thinks for 10 seconds*
 
 think
 
-Okay, this is beautiful - Mike is doing morning pages style processing here and I'm being brought into his daily workflow adjustment process. He's talking about changing from a multi-repo workspace to a single-repo workspace focused just on pipulate, which means removing the other repos from the workspace.
+**Claude**: Okay, this is beautiful - Mike is doing morning pages style processing here and I'm being brought into his daily workflow adjustment process. He's talking about changing from a multi-repo workspace to a single-repo workspace focused just on pipulate, which means removing the other repos from the workspace.
 
 Key points:
 
