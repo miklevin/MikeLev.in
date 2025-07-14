@@ -59,6 +59,14 @@ developed from the Linux KDE project of the Konqueror web browser. Konqueror was
 a new creation in 2000 not derived from NCSA Mosaic or even the original
 Netscape/Mozilla codebases. 
 
+In other words, Konqueror conquered circa 2000 — even over the longer and more
+traditional linage of web browsers going back to the Mozilla foundation, the
+first browser Mosaic and the very inventor of the Worldwide Web itself in 1989,
+Tim Berners-Lee. While that's 10 years after the Web itslef, it's still 25 years
+ago what Apple (Safari), Google (Chrome) and Microsoft (Edge & VSCode) all base
+their stuff on, is free and open source, and has increasing number of *forks*
+lessening it's being an exclusively Microsoft thing.
+
 ### Deep Enough Roots for a Default
 
 That's sufficiently deep history, roots, lineage and cross-company collaboration
