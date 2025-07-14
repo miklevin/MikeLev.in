@@ -42,7 +42,7 @@ forks as one of my daily primary productivity-driving tools.
 I really hated this because I hated VSCode for the longest time. I'm a vi / vim
 / NeoVim user. I don't care which. I mean I do have my preference but drop me in
 the middle of any computer system, headless cloud, direct serial-cable
-connection or whatever graphic destkop fad of the day, and it doesn't really
+connection or whatever graphic desktop fad of the day, and it doesn't really
 matter to me. I fire-up a terminal which is always there and am not only
 immediately comfortable on the system but with enough login rights can edit,
 change or do whatever I want with the system because such is the power of
@@ -250,12 +250,6 @@ certainly is. It's just *not benefiting you right now* in that worksession
 you're engaged in today. Your work and your data actually *helps everyone else*
 working on similar problems to you using *freshly trained models* working on
 project similar to yours in the future.
-
-Get it?
-
-Yeah, that's how that works.
-
-You're welcome.
 
 ### Worrying About The Now Moment
 
