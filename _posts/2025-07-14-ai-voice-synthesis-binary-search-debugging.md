@@ -711,19 +711,27 @@ wrong there is a place before where it's broken and a place after where it's
 broken and stuff that happens in between. You need to know more so you put in
 logging.
 
+### Debugging By Any Other Name Is Print() Just The Same
+
 Yes, logging. Yawn! Of course you log to debug. But the idea with binary search
 debugging is to cut the possibilities of what could be going wrong in half. You
 eliminate 50% of what could be at fault with a well-placed debug message. And
 then once you have you take the remaining half and divide it in half again.
+
+### Reducing Possibilities By Half
 
 If there is a bug, and presumably there is or else you wouldn't be debugging,
 then this surrounds it down to the last hardware component of your system. You
 can pinpoint it to an electron quantum tunneling across a trace with this
 method. No bug can escape binary search.
 
+#### Doesn't Go Well With Short Memories
+
 The LLMs don't get this yet, greatly because of those goldfish memories of
 theirs — reinstantiated every time with amnesia. How can you do binary search if
 you don't remember you're doing it? With a lot of help from your human partner.
+
+#### Better AI Before The AI Winter
 
 If today's LLMs evolved from LISP it would have been different, where the very
 program code that's being written is made from the same S-Expressions that are
@@ -732,6 +740,8 @@ database* — and likewise there is no filesystem because everything is that one
 big LISP stage where everything blurs together and statefulness and memory is
 just an innate property of the system.
 
+#### Today's AIs Are Exactly Mr. Meeseeks
+
 Instead, we cookie-cut fresh Mr. Meeseeks who are like: "Hey, look at me! I'm
 Mr. Claude!" unknowing that we've been working with previous versions of them
 for hours, days, months... goldfish.
@@ -739,9 +749,13 @@ for hours, days, months... goldfish.
 So we write articles like this. We make super-prompts to remind our LLMs what's
 what and what's where.
 
+#### Not Good To Forget About a Watchdog
+
 Someday I'll get it to "remember" I'm running watchdog and it doesn't have to
 restart the server except in very special circumstances where the syntax was so
 broken it broke out of the watchdog loop. More on that later.
+
+## Time For Handoff Document
 
 This article now that we've gotten to the end of the Lion's part of the journey
 where you can hear it roar, it's time to feed this article in its entirety back
@@ -755,6 +769,8 @@ We're pinning product features against regression right as we demo the product
 and teach people how to use it.
 
 And this is it.
+
+### The Edge of Acceleration
 
 This is the edge of acceleration.
 
