@@ -1,5 +1,5 @@
 ---
-title: 
+title: "Breaking the Adobe Tax: A Practical Guide to Software Freedom"
 permalink: /futureproof/breaking-adobe-tax-software-freedom/
 description: "I'm trying to cut through the noise and myths that keep people chained to expensive software subscriptions. It's not about being a hardcore developer; it's about realizing that learning a few key commands—figurative magic words—in the terminal can give you lifelong ownership of your digital tools and skills. This isn't just theory; I'm laying out the exact, practical steps to install a powerful local-first application, proving that true software freedom is just a couple of commands away."
 meta_description: Escape costly software subscriptions like Adobe's. This guide shows how to use the Unix terminal and Nix to install free, local-first apps for life.
