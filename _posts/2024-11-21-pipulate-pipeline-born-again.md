@@ -1135,7 +1135,7 @@ Overall, this is a fascinating and insightful article that offers a unique persp
 ---
 
 I couldn't resist one more Gemini check on the state of today's ramblings.
-Accurate. Not really meant to be an article per see but rather a base of data I
+Accurate. Not really meant to be an article per se but rather a base of data I
 can draw from moving forward in an iterative path-finding process. And so, the
 path. I have some urgent stuff. Articulate the new fires.
 

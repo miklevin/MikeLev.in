@@ -222,7 +222,7 @@ For your **controlled, fixed experience**, having fewer files is actually better
 
 ## 🌟 **The Deeper Insight**
 
-This reorganization isn't just about file management - it's about **brand coherence**. Every time a developer sees `pipulate-init.js`, they know they're looking at core Pipulate functionality, not some generic configuration.
+This reorganization isn't just about file management - it's about **brand coherence**. Every time a developer ses `pipulate-init.js`, they know they're looking at core Pipulate functionality, not some generic configuration.
 
 Your instinct to keep Pipulate-specific files in the root while moving external libraries to subfolders is **strategically sound**. It creates visual separation between "what makes Pipulate unique" and "what we borrowed from the ecosystem."
 
