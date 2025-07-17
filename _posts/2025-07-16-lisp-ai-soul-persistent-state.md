@@ -45,7 +45,7 @@ persistent active-state stuff we wish today's soap-bubble AIs were but are not.
 
 All those lines of separation between hardware, software, database and running
 code are blurred with LISP. And that's the kind of AI we don't have. And that's
-what came *before the AI* winter!* And it almost had its moment, but like my
+what came *before the AI* winter! And it almost had its moment, but like my
 true love in tech the Amiga Computer, LISP computers like Symbolics, Lisp
 Machines, Inc. (LMI), Xerox AI Workstations and the Texas Instruments (TI)
 Explorer all almost had their moment... then were snuffed out buy the cartel...
