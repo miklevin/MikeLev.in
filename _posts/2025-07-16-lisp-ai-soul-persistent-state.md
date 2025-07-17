@@ -63,7 +63,7 @@ this!") that rendered *Jurassic Park.*
 
 LISP was neither in the consumer gigahertz WinTel race nor was it part of the
 snowballing Unix movement. As ahead of its time as it was and suitable for AI,
-it went the way of the dinosaurs. AI-suidable self-modifying code in the 1950s
+it went the way of the dinosaurs. AI-suitable self-modifying code in the 1950s
 through the 1990s! But hardware couldn't keep up. Windows PCs took off and the
 Wintel platform took over the world. Even Apple Macintosh's gave in.
 
