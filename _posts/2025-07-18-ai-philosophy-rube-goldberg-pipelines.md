@@ -1,7 +1,7 @@
 ---
 title: "Rube Goldberg & The Sentient Pipeline: A Philosophy of AI Tool Calling"
 permalink: /futureproof/ai-philosophy-rube-goldberg-pipelines/
-description: "To guarantee that an AI’s first ‘Simon Says’ tool call successfully sparks a cascading chain reaction of learning and agency, we refine Pipulate’s monolithic jumble into something immediately digestable. It hit me that the way we've handled web browsers for decades—graceful degradation—is the exact opposite of what AI needs. I'm building a system of 'willful ascension,' starting AIs with dead-simple `[command]` tools they can't possibly misuse."
+description: "To guarantee that an AI’s first ‘Simon Says’ tool call successfully sparks a cascading chain reaction of learning and agency, we refine Pipulate’s monolithic jumble into something immediately digestible. It hit me that the way we've handled web browsers for decades—graceful degradation—is the exact opposite of what AI needs. I'm building a system of 'willful ascension,' starting AIs with dead-simple `[command]` tools they can't possibly misuse."
 meta_description: "Learn to bootstrap local LLMs with a 'Simon Says' pattern. This entry details a progressive enhancement method for AI tool calling in the Pipulate project."
 meta_keywords: Pipulate, AI tool calling, local LLM, graceful degradation, progressive enhancement, willful ascension, Simon Says pattern, Rube Goldberg AI, mcp, square-bracket command, AI agent, cli.py, HTMX, Ollama, human-AI collaboration
 layout: post
