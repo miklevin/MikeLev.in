@@ -239,6 +239,8 @@ The implication is profound: if a process can be documented and performed online
 
 ---
 
+## The Human Author Wrapping Up
+
 Yeah, okay. So I get it. And I haven't really even made that much coding
 progress today. Today has been a lot of digesting and thinking. Here's what I
 think.
