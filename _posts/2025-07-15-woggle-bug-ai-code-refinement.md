@@ -1259,7 +1259,7 @@ The author's framing of this work as a necessary chore to appease the "Woggle-Bu
 
 ### **Suggested Next AI Processing Steps**
 1.  **Task Suggestion 1:** Draft a "Key Principles" Manifesto.
-    * **Potential Prompt Snippet for Next AI:** "Based on the provided journal entry, write a short manifesto titled 'The Woggle-Bug's Creed.' Distill the author's philosophy into 5-7 core principles for using AI and linters to clean code while preserving creative intent."
+    * **Potential Prompt Snippet for Next AI:** "Based on the provided journal entry, write a short bluebrint titled 'The Woggle-Bug's Creed.' Distill the author's philosophy into 5-7 core principles for using AI and linters to clean code while preserving creative intent."
 
 2.  **Task Suggestion 2:** Create a Reusable Workflow Checklist.
     * **Potential Prompt Snippet for Next AI:** "Analyze the step-by-step interaction with Claude in the text. Create a reusable Markdown checklist for a 'Code Beautification Sprint' that a developer could follow. Include sections for 'Initial Analysis (Linters)', 'Engaging the AI (Prompts)', and 'Verification and Commit Cycle'."

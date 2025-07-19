@@ -12,7 +12,7 @@ sort_order: 1
 
 This entry dives into the philosophical battleground between proprietary, subscription-based software and the world of free, open-source alternatives. It champions the idea of "digital sovereignty," where investing a small amount of time to learn foundational tools grants users freedom from costly vendor lock-in. The discussion centers on the Unix terminal—a powerful, text-based interface available on macOS and Linux (and now Windows via WSL)—as the gateway to this independence.
 
-The author argues that while commercial products like the Adobe Creative Cloud offer polished convenience, they effectively rent skills back to the user, creating dependency. This piece serves as both a passionate manifesto for embracing slightly more "difficult" tools and a practical guide to getting started. It uses the installation of a specific local-first web application, Pipulate, via the Nix package manager as a concrete example of how a few "magic words" in the terminal can unlock powerful, free-for-life capabilities.
+The author argues that while commercial products like the Adobe Creative Cloud offer polished convenience, they effectively rent skills back to the user, creating dependency. This piece serves as both a passionate bluebrint for embracing slightly more "difficult" tools and a practical guide to getting started. It uses the installation of a specific local-first web application, Pipulate, via the Nix package manager as a concrete example of how a few "magic words" in the terminal can unlock powerful, free-for-life capabilities.
 
 ---
 
@@ -396,5 +396,5 @@ By framing the command line not as a chore but as an empowering "spellbook," the
     * **Potential Prompt Snippet for Next AI:** "Based on the provided text, the author uses a 'magic spellbook' metaphor. Generate two new, simple analogies a beginner could understand to explain a) what the 'PATH environment variable' is, and b) what Nix does to create a 'normalized' environment."
 
 2.  **Task Suggestion 2:** Create a Skeptic's FAQ
-    * **Potential Prompt Snippet for Next AI:** "Read the attached manifesto on FOSS vs. proprietary software. Identify the three most likely points of resistance or skepticism from a reader who is happy paying for commercial software. Draft these as questions in an FAQ section and then provide answers that are consistent with the author's tone and philosophy."
+    * **Potential Prompt Snippet for Next AI:** "Read the attached bluebrint on FOSS vs. proprietary software. Identify the three most likely points of resistance or skepticism from a reader who is happy paying for commercial software. Draft these as questions in an FAQ section and then provide answers that are consistent with the author's tone and philosophy."
 
