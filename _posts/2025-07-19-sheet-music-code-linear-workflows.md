@@ -151,9 +151,7 @@ This methodology leans heavily on the **80/20 rule**: by making the most common 
 
 ---
 
-Me: 
-
-Okay, you get it.
+**Me**: Okay, you get it.
 
 You won't be losing your job to AI. You'll be losing your job to somebody who
 knows how to use AI better than you do.
