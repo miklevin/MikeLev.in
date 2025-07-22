@@ -515,7 +515,9 @@ These solutions **work with your proven patterns**:
 > had Claude turn it back into a blank placeholder (button instead of text
 > field) like intended.
 
-**Claude**: # 🎯 Perfect! Time to Demo the Ritual Elimination Decorator
+**Claude**: 
+
+# 🎯 Perfect! Time to Demo the Ritual Elimination Decorator
 
 **Now that the blank placeholder is truly minimal, it's the perfect place to showcase the `@with_workflow_context` decorator!**
 
