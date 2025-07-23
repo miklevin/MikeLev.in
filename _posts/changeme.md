@@ -96,3 +96,14 @@ whatever desktop. And yes, locally installed and not the cloud. Local-first AI
 SEO software. It will be useful for so much more than SEO but we start with SEO
 because it's what I know and can hold a day job for knowing. So first SEO and
 tomorrow whatever needs workflows with local AI intelligence in the pipeline.
+
+Okay, so today's Mac experience? Well, I got the Mac demo over the chasm divide
+that is the restarting of the server by client-side JavaScript hosting the very
+JavaScript it served. Yeah, think that through. The software is rebooting the
+webserver "hardware" mid-demo and restarting itself when the server comes back.
+And I got that working on the Mac today. It was already working on Linux and I
+have to actually make sure it's all still working later tonight at home. I know
+it's working on Mac. And that's huge!
+
+What it means is that when I give a big company demo next Thursday, I'll have
+quite 
