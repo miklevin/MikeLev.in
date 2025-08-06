@@ -105,8 +105,7 @@ just a ChatGPT knock-off. But most people are not developers, so they don't see
 this and won't value this until things utilize it. 
 
 And so LM Studio made a lot of inroads among the well hardware-endowed ChatGPT
-Genie-in-a-bottle seekers — your own private ChatGPT you can do with as you
-like. Can you see the appeal?
+Genie-in-a-bottle seekers.
 
 ## The Tipping Point: OpenAI Enters the Local Arena
 
