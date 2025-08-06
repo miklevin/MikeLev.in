@@ -55,7 +55,7 @@ home machine while LM Studio is trying to be the standalone ChatGPT competitor.
 But they both are based on the same underlying component: llama.cpp — which it
 should be noted is based on yet another underlying component called GGML (Georgi
 Gerganov's Model Library), a C-based tensor library developed by the same
-creator, Georgi Gerganov, who created Ollama. 
+creator, Georgi Gerganov, who created llama.cpp. 
 
 Follow?
 
