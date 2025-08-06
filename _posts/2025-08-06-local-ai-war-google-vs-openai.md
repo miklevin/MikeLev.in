@@ -70,7 +70,7 @@ Georgi first applied his mad skills when OpenAI released their Whisper model for
 audio transcription getting practice with `whisper.cpp` so he was ready when
 Facebook/Meta dropped the Llama open source model whose inference engine would
 only play back at reasonable speeds with an NVidia GPU farm. But Georgi wanted
-to run it on his Macbook and fresh off his Whisper success, he did the same for
+to run it on his MacBook and fresh off his Whisper success, he did the same for
 Llama: first GGML then llama.cpp
 
 This is an excellent case of how the average semi-modern MacBook continues
@@ -101,10 +101,12 @@ Did I say 40K-foot view? Sorry, there are so many good stories here.
 Okay, so LM Studio pulled ahead in a lot of ways because people just wanted to
 get ChatGPT on their home machines — a very different value proposition to
 having *general-purpose LLM* on your local machine for *other purposes* than
-just a ChatGPT knock-off. But most people lack imagination and are not
-developers, so they don't see this. And so LM Studio made a lot of inroads among
-the well hardware-endowed ChatGPT Genie-in-a-bottle seekers — your own private
-ChatGPT you can do with as you like. Can you see the appeal?
+just a ChatGPT knock-off. But most people are not developers, so they don't see
+this and won't value this until things utilize it. 
+
+And so LM Studio made a lot of inroads among the well hardware-endowed ChatGPT
+Genie-in-a-bottle seekers — your own private ChatGPT you can do with as you
+like. Can you see the appeal?
 
 ## The Tipping Point: OpenAI Enters the Local Arena
 
