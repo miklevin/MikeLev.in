@@ -1,5 +1,5 @@
 ---
-title: Mike Levin on Tech Skills, AI & SEO
+title: AI Future Proofing
 description: Mike Levin is a Technical SEO expert in NYC who shares his passion for future-proofing tech skills through Linux, Python, vim, and git. With 25+ years of experience in SEO and web development, he helps others master timeless skills while building AI-powered SEO automation systems.
 author: Mike Levin AI SEO
 group: home

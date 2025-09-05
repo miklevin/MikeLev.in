@@ -5,7 +5,7 @@ description: I'm taking a step back to recalibrate. After a period of intense, A
 meta_description: A developer's philosophical journey back to web development, rejecting JavaScript complexity for the simplicity and diagnosability of Python, HTMX, and FastHTML, framed by principles from AI and quantum physics.
 meta_keywords: Python, HTMX, FastHTML, web development, literate programming, Shoshin, Conway's Law, AI philosophy, free will, quantum mechanics, radical diagnosability, code simplicity, Pipulate, craftsmanship
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
