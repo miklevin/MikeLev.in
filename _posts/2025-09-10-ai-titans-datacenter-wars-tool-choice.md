@@ -363,7 +363,7 @@ arguments into muscle memory, I replace with `ripgrep` (abbreviated to the
 command `rg`) in which the `r` stands for *recursive* and *rest in peace, grep!*
 Haha! I mean the mnemonics of what it is and how it works is built right into
 its naming. And it *works by default* without `-i` or `-n` or all that
-rigmarole. It's just `rg "whatever here" and it recursively finds it from
+rigmarole. It's just `rg` "whatever here" and it recursively finds it from
 whatever directory you run it from *while abiding by your `.gitignore` file and
 skipping the `.git` directory itself!
 
