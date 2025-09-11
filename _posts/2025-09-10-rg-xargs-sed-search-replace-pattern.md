@@ -16,7 +16,7 @@ The entry is a microcosm of a larger theme: reclaiming digital ownership and bui
 
 ---
 
-## There Is No Command-line Mastery Without Global Search & Replace
+## The Mistake of Allowing Too Much Agentic Automation
 
 Alright, I'm back on a roll with the article writing and I have a better
 approach to the *magic rolling pin* goal of turning every "menu" of choice into
@@ -41,6 +41,8 @@ places where they better belong. Seems like an ideal job for long-running
 agentic AI however I underestimated how truly interrelated and fragile things
 are in Pipulate to get the whole *magic cookie* installer to work for instance.
 
+## A Good Initial Test For Gemini CLI
+
 This was a good test for Gemini CLI but it failed it, but so did Anthropic
 Claude 4 Sonnet under Cursor. Even though I cancelled my Cursor subscription,
 the current time-period is active until the 16th of this month so I have a
@@ -51,6 +53,8 @@ summer. My use spiked to such high levels that I ended up paying 10x more than
 the $20/mo subscription because my Claude quota ran out and Cursor is mostly
 worth using when you're using Claude. And so the frog got cooked on me. And so I
 cancelled my Cursor subscription.
+
+### Watching Your Dependencies
 
 Cancelling subscriptions is one of the most satisfying things you can do. And
 you have to watch your credit card statement! OpenAI tried charging me this
@@ -78,6 +82,20 @@ and it provides a blueprint for a nomadic digital Noah's Ark for a lifetime.
 It's not easy and I am most certainly a bleeding edge early adopter and still
 have a bit of a ways to go, but I'll get there.
 
+Is this relevant? Well yeah, sure! That Cursor subscription up there is what
+kept me dependent. Because I was paying $20/mo for AI assistance in a
+VSCode-forked editor, I felt like I had to use a VSCode-forked editor leaving
+behind all my hard-won old-school command-line interface vendor freedom. So
+subscriptions subconsciously box you into vendor dependency, potentially
+re-wiring your habits and atrophying old skills.
+
+Luckily I caught myself. It was when the code got out of control by being like a
+kid in a candy shop with AI coding assistance. So the code grew and grew and was
+in need of a trimming. And when I turned to AI to help with the trimming...
+hmmm, where was I?
+
+## From CLI to GUI and Back to CLI
+
 Oh yeah, the magic rolling pin. Well, as I gave up Cursor AI and forced myself
 back into the command-line, it was like a curtain was lifted and I saw my own
 directories for the first time in months. It's like my vision was clouding over
@@ -100,6 +118,8 @@ tricky like having one language embedded within another. They have lots of
 interesting tool-calls they can use to help, but they often fail and have to be
 rolled-back with git and I end up doing it manually.
 
+## Difficult Edits For AIs Are Easy For Humans In VIM
+
 The type of edits AIs have difficulty with are precisely the type that are a
 breeze in vim/NeoVim because... because... hmmm, why is that? Large files are
 never a problem with vim. Searching within a file is super-easy. Making edits in
@@ -108,7 +128,7 @@ tool-calls they're making, these AI code assistant companies might be better off
 teaching their models just to use a local copy of vim effectively than whatever
 they're doing with these *often-failing* file-editor tool-calls.
 
-## The Old Way: Why `grep` and `find` Create Cognitive Load
+### But Doing Global Search & Replaces Still Challenging In CLI
 
 In making the transition from the VSCode-fork Cursor back to the command-line
 one glaring omission in my skill-set which I always have sort of known but it
