@@ -642,7 +642,7 @@ There's also discussion of the plugin appraoches. I'm going to avoid those for
 now even though I may eventually start using plugins with `vim` and `nvim`. I
 want to learn the *without plugins* ways of doing things first. Every time I try
 taking up plugins in vim/nvim I feel that off the beaten track feeling that
-works against muscle memroy. And then I inevitably see a YouTube *brogrammer*
+works against muscle memory. And then I inevitably see a YouTube *brogrammer*
 video on some tweaked out NeoVim configuration and want to vomit. But it is nice
 to have the two popular ones, `telescope.nvim` and `fzf.vim` at my fingertips in
 case I want to give them a spin. However for now while I recalibrate my muscle
