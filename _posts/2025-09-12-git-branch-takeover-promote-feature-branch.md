@@ -411,6 +411,13 @@ drwxr-xr-x  7 mike users   4096 Jul 13 17:19 .venv
 [mike@nixos:~/repos/pipulate]$
 ```
 
+It's also important to note that to be able to `git push` up to main again
+after this I had to do the 1-time:
+
+```bash
+git push -u origin main
+```
+
 Alright, this is where I have to give my brain a little rest. Get some food.
 Take a break and come back fresh. I can really feel that the urgency of getting
 a stronger and stronger mental model around all this, what files are what and
