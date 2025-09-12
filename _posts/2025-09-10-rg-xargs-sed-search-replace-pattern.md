@@ -530,7 +530,6 @@ learning the form or kata and first and going through the moves rote to get it
 into muscle memory. You can always come back later to expand on it. But at least
 you can instantaneously search and replace across an entire git codebase with a
 similar ease as in VSCode-like GUI text editors.
-```
 
 ## But Once In VIM Why Not Stay In VIM?
 
