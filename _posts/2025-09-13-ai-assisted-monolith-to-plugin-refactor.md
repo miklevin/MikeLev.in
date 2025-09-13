@@ -1164,6 +1164,8 @@ starting with pyproject.toml?
 
 ---
 
+## Letting Gemini CLI Go Into Agentic Mode
+
 **Me**: Excellent! And yes, please.
 
 > After the first round of work where I basically told Gemini CLI to tell me
