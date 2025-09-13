@@ -1332,6 +1332,7 @@ To github.com:miklevin/pipulate
 
 I seem to hit a snafu when I do this:
 
+```bash
 [mike@nixos:~/repos/pipulate]$ git push
 fatal: The current branch main has multiple upstream branches, refusing to push.
 
