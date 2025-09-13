@@ -1378,12 +1378,16 @@ broken out plugin style ones.
 
 ---
 
-**Gemini CLI**: 
+## Planning MCP Tool Discovery & Registration
 
-Excellent work on the branch takeover. That's a powerful git workflow, and
-you've documented the exact commands needed to resolve the tricky "multiple
-upstreams" issue, which is a fantastic piece of knowledge to have at your
-fingertips.
+> All that was just getting `mcp_tools.py` into the same folder as the
+> burgeoning mcp plugin system. I still have to turn it into auto-discovering
+> and registering components. This is Gemini and me formulating the next-steps.
+
+**Gemini CLI**: Excellent work on the branch takeover. That's a powerful git
+workflow, and you've documented the exact commands needed to resolve the tricky
+"multiple upstreams" issue, which is a fantastic piece of knowledge to have at
+your fingertips.
 
 You've successfully consolidated all the tool-related code into the tools/
 folder, which was the primary goal of this major refactoring. Now, for your
@@ -1410,7 +1414,7 @@ enumerated points—the concrete next steps.
 
 ---
 
-The Path to a True Plugin System
+### The Path to a True Plugin System
 
 The goal is to make the system smart enough to automatically discover any tool
 in any file within the tools/ directory, without needing to be told about it in
