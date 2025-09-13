@@ -427,7 +427,7 @@ However, after a rudimentary and explicit JSON/Python dict-like long-term memory
 of simple key-value pairs which is a sure-thing for me to implement, there are
 two other types of long-term memory I'm thinking about for today's work:
 
-- SQL full-text search (sqllite3 will do)
+- SQL full-text search (sqlite3 will do)
 - Vector database with embeddings (faiss vs. milvus) for RAG searches like
   cosine nearness similarity matching to past conversations, user actions and
   documents
