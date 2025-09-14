@@ -10,7 +10,7 @@ group: home
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Mike Levin on Tech Skills, AI & SEO",
-  "description": "Discover how to future-proof your tech career with timeless tools like Linux, Python, vim & git (LPvg). Learn from an experienced Technical SEO expert who combines classic skills with modern AI automation.",
+  "description": "Discover how to future-proof your tech skills with timeless tools like Linux, Python, vim & git (LPvg). Learn from an experienced Technical SEO expert who combines classic skills with modern AI automation.",
   "author": {
     "@type": "Person",
     "name": "Mike Levin"
@@ -54,7 +54,7 @@ group: home
 
 ---
 
-# Future-Proof Yourself In The Age of AI
+# How To Future-Proof Your Tech Skills In The Age of AI
 
 In-the-moment journal-style is a feature, not a bug. Here you will find a play-by-play accounting of the Pipulate Free and Open Source Software (FOSS) local-first AI SEO app. It's the new LAMP stack — Linux, ASGI, MiniDataAPI Spec, Python + FastHTML + HTMX — where a single developer can *know everything* and recapture that old Webmaster feeling.
 
