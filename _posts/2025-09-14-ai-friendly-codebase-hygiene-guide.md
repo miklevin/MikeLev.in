@@ -5,7 +5,7 @@ description: "The `ls -la` of my repo is finally clean, but a few 'burrs' remain
 meta_description: A case study on refactoring a Python project for AI collaboration by eliminating a `training` directory and logically relocating documentation and prompts.
 meta_keywords: AI-friendly code, codebase hygiene, refactoring, software architecture, Python, Pipulate, prompt engineering, documentation, file organization, developer workflow, mental model
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
