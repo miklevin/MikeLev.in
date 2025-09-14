@@ -237,7 +237,7 @@ touching any actual code. The result is exponential bloat.
 
 There's so few files right now in the training folder:
 
-```
+```bash
 [mike@nixos:~/repos/pipulate/training]$ ls -la
 total 340
 drwxr-xr-x  3 mike users   4096 Sep  4 20:20 .
@@ -1108,7 +1108,16 @@ becasue you're not relying on it to actually go do the editing it's sort of
 getting forcibly funneled through the human which helps the human really keep
 track of what's going on and keep a firm grip on the reins of their code.
 
+> In long-running discussions with Gemini where I've asked it to do the *book
+> analysis* routine along the way it often wants to jump ahead to the next
+> analsysis thinking I got to the stopping point. I had reined it back a few
+> times to immediate questions like how it likes the `ls` output now before I
+> let it surge on ahead to the analysis of the latest material like below where
+> I choose a file-name, layer in more headlines and the like.
+
 Now you may do the book analysis, haha!
+
+---
 
 ## Book Analysis
 
