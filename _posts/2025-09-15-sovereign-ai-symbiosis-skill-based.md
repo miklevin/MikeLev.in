@@ -89,6 +89,8 @@ browser instead of a terminal I have to do `Ctrl`+`v` instead of
 article, I do still have to take my hands away from the keyboard and break flow.
 But we're getting there.
 
+### From Awkwardness to Automaticity to Fluency
+
 All this control, alt, shift stuff might sound agonizing but it's a start. And
 you get used to it. Modifier keys to activate special things are just a fact of
 keyboard life. And in vim it's perhaps a bit less carpal tunnel syndrome
