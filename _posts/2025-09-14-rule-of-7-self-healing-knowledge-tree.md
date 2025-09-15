@@ -618,6 +618,38 @@ and momentum from within Pipulate itself.
 
 And the new thing I have to research: Hierarchical Agglomerative Clustering.
 
+## Past Thinking On Rule Of 7
+
+> This is a draft article of the same Rule of 7 topic that I just couldn't bring
+> myself to delete because it talks about monkeys on the savanna — the
+> primordial evolutionary origins. So I'll just put this here.
+
+BIG VAT OF CONTENT
+
+Okay so now it's time for the project everybody's been waiting for but didn't know it — the itch that every publisher of information, peddler of produt, promoter of cause has but is unable to identify the vague nagging feeling for what it is. 
+
+We evolved on the savanna scanning the landscape for dangers. We can absorb about seven things simultaneously to take it all in fast and make a decision. If the data-points survey of the landscape has less information than that (at night) then there's not enough information to work with. Much more than that (the bazaar) and you'll experience information paralysis from too much choice. That's the rule of 7 — more or less by 2. Scan fast. Choose quick. Live long. 
+
+Why have a main navigation menu on your site when there is an internal site search tool? I have either nav or site search when you can just chat with an AI who has been trained on all the site's content and where it hasn't, can use the site search tool or navigation on your behalf? Isn't the era of organizing data into directories over? It all jisf gets thrown into one big vat of stew and the AI dished it out now, right? SEO is dead, right? Well, the LLMs too must scan fast and choose quick.
+
+It might not seem it at first, but internal site search tools are just hierarchical drill-down in disguise. And if not, they are even worse than that because they then must show one very long page of results or else paginate. The seldom discussed assumption here is the search sufficiently narrowed down the results to the golden rule of 7 in which 5 to 9 things are presented to you for your savanna-scanning skills to select from. Google's old search engine result page (SERPs) of the Top-10 blue links more or less played into this evolutionary fact. 
+
+If you want to avoid one long page of search results that could cause information paralysis, and you want to avoid pagination which is a cheap but ineffective solution to that, then you want to always produce the ideal 5 to 9 choices as the result to any search.
+
+**ANY** search? Well, then here we come to the heart of the matter don't we? What are those searches? They are the predetermined searches that constitute our main navigation menu. It is the site publisher rigging the savanna landscape with 5 to 9 pieces of information for the site user to survey and instantly choose between. Site hierarchy, information architecture, topology, ontology or whatever high fallutin term you want to slap on it is pre-search for researchers. 
+
+Navigational menus are pre-searching your site anticipating the most likely questions your site visitors may be asking. And the drill-down path along each should themselves each have 5 to 9 links on each of those pages until the ultimate desire expressed by the user in their search, prompt, drill-down, query — whatever you want to call an inquiry made my a user — is satisfied. How many degrees of separation? How many clicks?
+
+The idea is to minimize the number of clicks without producing long pages of options.
+
+This is algorithmic. This is like load balancing.
+
+But you've got a big of vat of content — all those articles, PDPs (product serial pages), PLPs (product listing pages), FAQs and informational support pages and the like tossed into the big soupy mix. What to do?
+
+Well first of all, don't worry about your URL structure exactly! Your directories structure does not have to be the same as your navigational hierarchy. They can be disassociated. It's best if your URLs never change. But this drill down past can change as often as you need to to optimize it. In fact, it should probably become iteratively more perfect over time. As products going out of your catalog or support documents change, etc the hierarchy dynamically adjusts. And it has to be algorithmic in nature because you are load balancing it so that there is always that ideal 5 to 9 choices per drill-down level.
+
+But how can I be if all products under some category are identical? Well then why are they separate products? Shouldn't they all just be rolled into one? If they can be separated, they can be grouped by some criteria into 5 to 9 choices. They analyze the artistry and the next generation skill that was almost not possible before LLM AI. What this is replacing is a whole bunch of stuff in Python's scikit-learn and NLTK packages.
+
 ---
 
 ## Book Analysis
