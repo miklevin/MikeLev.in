@@ -89,6 +89,15 @@ browser instead of a terminal I have to do `Ctrl`+`v` instead of
 article, I do still have to take my hands away from the keyboard and break flow.
 But we're getting there.
 
+All this control, alt, shift stuff might sound agonizing but it's a start. And
+you get used to it. Modifier keys to activate special things are just a fact of
+keyboard life. And in vim it's perhaps a bit less carpal tunnel syndrome
+inducing than in eMacs, so there's that. I'm actually making the argument there
+that all that stuff starts to happen like playing a musical instrument or using
+a piece of sports equipment. It all flows naturally and you stop even thinking
+about it. It moves out of the executive function part of your brain and into the
+just *knowing how to walk and talk* part of your brain.
+
 ---
 
 ## I Choose You, Gemini!
