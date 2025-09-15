@@ -61,17 +61,17 @@ subsuming of their own.
 
 ### As with Phones, So with Fingers: The Vim Workflow as Exoskeleton
 
-As with phones, so with fingers. So of course for me this means the very vim I'm
-using to type this technical journal. Maybe I should have said "so with
-desktops" but *phones* and *fingers* alliterates. You can always stand up and
-walk away from your desktop. So again, maybe not true endosymbiosis but it's
-where you can develop some more useful habits than doomscrolling on the phone.
-The connection between fingers and keyboard and the way this seamlessly flows
-into expressing yourself through typing (journaling, coding, etc) through vim
-and in-turn into AIs of various sorts for bouncing ideas and delegating work is
-key. It's something you can do almost without thinking, but still very
-deliberately and with the same ability to "shut off" the AI as taking off a pair
-of glasses or leaving your phone at home.
+For me this means the very vim text editor (technically, NeoVim) I'm using to
+type this technical journal. Maybe I should have said "so with desktops" but
+*phones* and *fingers* alliterates. You can always stand up and walk away from
+your desktop. So again, maybe not true endosymbiosis but it's where you can
+develop some more useful habits than doomscrolling on the phone. The connection
+between fingers and keyboard and the way this seamlessly flows into expressing
+yourself through typing (journaling, coding, etc) through vim and in-turn into
+AIs of various sorts for bouncing ideas and delegating work is key. It's
+something you can do almost without thinking, but still very deliberately and
+with the same ability to "shut off" the AI as taking off a pair of glasses or
+leaving your phone at home.
 
 ## The Friction in the Flow: Identifying Bottlenecks in the Human-AI Link
 
