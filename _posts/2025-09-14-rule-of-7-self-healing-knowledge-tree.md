@@ -616,6 +616,8 @@ right! Get it out there in a way that I can't help but see it, creates the
 Cialdini commitment and consistency effect and helps me rapidly recover state
 and momentum from within Pipulate itself.
 
+And the new thing I have to research: Hierarchical Agglomerative Clustering.
+
 ---
 
 ## Book Analysis
