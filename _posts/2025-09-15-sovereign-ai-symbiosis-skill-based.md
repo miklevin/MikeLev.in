@@ -38,12 +38,12 @@ applicable.
 There's the other-intelligent organelle aspect of this, but then there's also
 the tool interface. That's what makes Neuralink so scary. It's a body-hack that
 is in turn potentially hackable just as wireless pacemakers are today. Scary.
-But over and over we find we can partition of a portion of one sense like
-vision, hearing and touch and use it for another sense like a pad on the tongue
-for the visually impaired to see. It's like how some people can hear colors
-through synesthesia. The brain can remap one sense to another so your
-human-machine link can be broken as easily as taking off a pair of Meta Ray
-Bans. Metarays?
+But over and over we find we can partition off a portion of one of our senses
+such as vision, hearing and touch and use it for another sense. This is
+sometimes done with pads on the tongue for the visually impaired to see through
+touch. It's like how some people can hear colors through synesthesia. The brain
+can remap one sense to another so your human-machine link can be broken as
+easily as taking off a pair of Meta Ray Bans. Metarays?
 
 ## Rejecting the Hive Mind: Sovereignty in a Cybernetic Society
 
