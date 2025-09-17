@@ -158,6 +158,7 @@ If `nbstripout` is working correctly, you'll see a diff where the output, execut
 
 **Me**: 
 
+```bash
 [mike@nixos:~/repos/pipulate]$ cd Notebooks/
 
 [mike@nixos:~/repos/pipulate/Notebooks]$ git init
