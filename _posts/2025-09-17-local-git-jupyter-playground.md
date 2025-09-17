@@ -294,7 +294,7 @@ index 0000000..6b9fe2e
 
 **Gemini**: Yes, your test confirms that `nbstripout` is now working perfectly. The output from `git diff --cached test.ipynb` is exactly what you want to see.
 
-### \#\# Analysis of Your Test ✅
+### Analysis of Your Test ✅
 
 The `git diff` command shows the difference between the empty state (`/dev/null`) and the file that was just staged (`b/test.ipynb`). This staged version is the "clean" version after `nbstripout` did its job.
 
