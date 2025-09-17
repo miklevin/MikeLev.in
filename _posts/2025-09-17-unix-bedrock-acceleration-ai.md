@@ -17,7 +17,7 @@ meta_description: 'In an age of AI-driven acceleration, the key to future-proofi
 meta_keywords: Unix philosophy, Linux, AI, acceleration, technical skills, 80/20 rule,
   Python, future-proofing, software development
 layout: post
-sort_order: 1
+sort_order: 3
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
@@ -223,8 +223,8 @@ This entry is a potent blend of manifesto and history lesson. Its core value lie
     * **Rationale:** A more narrative and evocative title that leans into the historical anecdotes. It creates intrigue and highlights the enduring legacy of Unix.
 
 ### Content Potential And Polish
-- **Core Strengths:** ["The central 'bedrock' metaphor is powerful and provides a strong, consistent anchor for the entire argument.", 'The passionate and slightly irreverent voice makes a potentially dry topic engaging and personal.', 'Effectively weaves together high-level philosophy, tech history, and practical advice (e.g., focus on Linux, Python, Rust).', 'The repeated application of the 80/20 rule provides a memorable and useful heuristic for the reader.']
-- **Suggestions For Polish:** ["The historical narrative, while charming, is sprawling. It could be tightened to more clearly and quickly connect the dots between Unix's origins and today's AI landscape.", 'The transition from the history of gaming and GPUs to Deming and TQM is a bit abrupt. A smoother bridge could strengthen the connection between hardware acceleration and process optimization.', "Clarify the final point about the Unix pipeline. Explicitly state that this philosophy of small, interoperable tools is the practical application of the 'bedrock' principle and the key to acceleration."]
+- **Core Strengths:** The central 'bedrock' metaphor is powerful and provides a strong, consistent anchor for the entire argument.", 'The passionate and slightly irreverent voice makes a potentially dry topic engaging and personal.', 'Effectively weaves together high-level philosophy, tech history, and practical advice (e.g., focus on Linux, Python, Rust).', 'The repeated application of the 80/20 rule provides a memorable and useful heuristic for the reader.
+- **Suggestions For Polish:** The historical narrative, while charming, is sprawling. It could be tightened to more clearly and quickly connect the dots between Unix's origins and today's AI landscape.", 'The transition from the history of gaming and GPUs to Deming and TQM is a bit abrupt. A smoother bridge could strengthen the connection between hardware acceleration and process optimization.', "Clarify the final point about the Unix pipeline. Explicitly state that this philosophy of small, interoperable tools is the practical application of the 'bedrock' principle and the key to acceleration.
 
 ### Next Step Prompts
 - Expand the final paragraph into a practical tutorial titled 'Thinking in Pipelines.' Provide three concrete examples of command-line pipelines that solve a common developer problem, and explain how the same modular, input-output thinking applies to designing modern microservices or data processing workflows.
