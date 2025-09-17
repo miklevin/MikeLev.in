@@ -277,7 +277,7 @@ of machine life in their equivalent to the Cambrian Explosion of life that is
 necessary for us to get to other models that can be persistent and live
 alongside humans long-term. The so-called AI winter might have been necessary
 because if we started building machine neural networks based on the tech of the
-1950s and 1960s which was already there in the form of the Perceptitron and the
+1950s and 1960s which was already there in the form of the Perceptron and the
 LISP programming language, things could have really gone off-rails. It's just
 like the clamp-down on certain areas of science after WWII so that not everyone
 had nukes.

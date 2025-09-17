@@ -307,7 +307,7 @@ need is scale when training computers to beat Atari-games circa 2013. A bunch of
 Google scientists taught us all you need is attention when they wrote the
 Transformers paper (the "T" in GPT) circa 2017. Those two things were science.
 They greatly thawed the AI Winter after the 1950s freeze when we had such great
-hope with the Perceptitron and rise of the transistor. We got misled but now
+hope with the Perceptron and rise of the transistor. We got misled but now
 we're back on track, but the science phase is done and the tweaking-it-out
 engineering phase has begun. If scaling and attention is all you need...
 

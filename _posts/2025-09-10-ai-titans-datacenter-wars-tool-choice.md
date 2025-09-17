@@ -209,7 +209,7 @@ hype some accuse it of being is because AlphaFold. I've been leaving DeepMind
 out of this story — the story BEFORE LLMs burst on the scene with ChatGPT in
 2022, the story of the other kind of neural network pattern recognition machine
 intelligence that had been percolating on this planet since the Mark 1
-Perceptitron in 1958, been brought back to life in 2013 by Demis Hassabis and
+Perceptron in 1958, been brought back to life in 2013 by Demis Hassabis and
 DeepMind in 2013 with the Atari *game masterer* AI. 
 
 All this kind of *less relatable AI* — by virtue of not chatting with you like
