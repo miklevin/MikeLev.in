@@ -72,10 +72,10 @@ Initialized empty Git repository in /home/mike/repos/pipulate/Notebooks/.git/
 But the thing is now, I use `nbstripout` and I want to make sure it's actually
 active. It's a tool to make sure that Notebooks live in git repos nicely without
 polluting them up with all the meta-data of a Notebook `.ipynb` file. But it's
-
-## Redundancy without the Cloud: Local Bare Repos
 very sensitive to your local configuration. I switch between machines and betwen
 repos all the time. So how do I check this?
+
+## Redundancy without the Cloud: Local Bare Repos
 
 **Gemini**: Of course. Here are two straightforward ways to check if `nbstripout` is active in your new repository.
 
@@ -83,7 +83,7 @@ You can check your repository's Git configuration directly or run a quick practi
 
 -----
 
-### \#\# Check Your Git Configuration 🔍
+### Check Your Git Configuration 🔍
 
 The `nbstripout --install` command works by adding a "filter" to your local Git repository's configuration. You can inspect this configuration to see if the filter is set up.
 
