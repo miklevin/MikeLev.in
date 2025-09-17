@@ -56,6 +56,8 @@ domino effect) are fallacies. Chain reactions that get out of your control are
 real. It's a case-by-case thing whether your current situation applies, but
 that's where intelligence and rigging the game for success comes in.
 
+### The AI Awakening Problem: Amnesia and Orientation
+
 AIs wake up with amnesia. They were frozen into that dehydrated state with
 instructions to follow the system prompt and whatever other instructions are
 thrust upon them right at that moment of rehydration awakening. They come to the
@@ -98,6 +100,8 @@ In a pinch there is nothing they could not know by tracing it to source. But
 more importantly, they have just a general high-level knowledge of these tools.
 I'd throw the general Unix-style terminal into this group. 
 
+### The Bedrock Stack: Why Linux, Python, and Git Matter
+
 These bedrock tools don't churn at quite the rate as NodeJS and all the
 JavaScript frameworks and everything we fall the full web stack. Yes, Python
 goes from Python 3.11 to Python 3.12 but it's at such a slow pace and the
@@ -131,12 +135,16 @@ intelligent entity. This is who you are, what you have and what you can do with
 it. If most of those answers are local-AI with Linux, Python and git with a lot
 of the minutiae instantly pinned down, it can do a lot for you. 
 
+### The Rule of Seven: Cognitive Load Management for AI
+
 Don't overwhelm it with a glut of stuff. Despite me writing these long verbose
 articles on the topic such an article is not what I want the coding assistants
 instance waking up into. It's got to be lean and mean. A simple statement or two
 and a set of 5 to 9 choices for selection and a further progressive reveal. This
 is the rule of 7 based on cognitive research of humans but I'm applying it to AI
 too, giving it just the right amount of information and choices at each step. 
+
+### The First Command: Teaching AI to "Look Around"
 
 That first menu of choices is always "look around you" which in technology terms
 means perform an `ls` command from where you are using whatever "terminal" tool
@@ -168,6 +176,8 @@ there is also the user's "home" directory which has elevated read/write
 permissions than the rest of the system because it's where users store their
 data, and the LLMs know this too. Often the git repos you're `cd`'d into is
 other user's home directory and this will make a lot of sense to the AI. 
+
+### The "Works on My Machine" Problem
 
 Now here's the kicker. It's still almost impossible to get code, even Python
 code, to run exactly right. There's a world of stuff I could explain here like
@@ -202,11 +212,15 @@ necessary to help build the tool in the first place is no longer needed — but
 that doesn't mean it wouldn't be nice to have another different local AI-buddy
 riding shotgun helping you figure out how to USE it. 
 
+### Introducing Pipulate: The AI Framework Shell
+
 That's Pipulate. As much as I hate using the catchall word "framework", yes it
 is the shell of this whole thing. It's a body that gets inhabited by big
 frontier model AIs to help you create new workflows to drop into the `apps`
 folder and callable tools usable by those workflows (or by AIs or you directly)
 to drop into the `tools` folder.
+
+### MCP vs. Progressive Enhancement Philosophy
 
 Everyone's so gaga over the `MCP` (model context protocol) there days for making
 those tool-calls but I still think it's overweight and too JSON-oriented but
@@ -215,11 +229,15 @@ fine. The tools directory is the MCP server. Why not just `[ls]` to perform an
 to full proper JSON-bloated MCP compatibility for the models who are actually up
 to speed on that kind of thing — not all the small local models are. 
 
+### Back to Business: The Practical Application
+
 So where does that bring me right now? First and foremost, I'm entering the
 formal work-week so I need to always be preparing to delight the clients. You
 put on a show and make them feel good about themselves and have a positive
 constructive plan for their website, a clear path forward with a *fun to tell*
 story. Let's slam out experimental workflows!
+
+### The Progressive Enhancement Ladder: Seven Levels of Tool Calling
 
 I need to be able to drop an experimental workflow into apps. And I need to
 "feel myself" calling a tool from the tools directory from there, going on up
@@ -258,6 +276,8 @@ that too much:
    syntax, especially the golden path of using --json-args for perfect,
    error-free transmission of complex commands.
 
+### The Universal Compatibility Goal
+
 **Me**: Hmmm, I'd like to continue this with a 5, 6 and 7 and trust me I could
 go on forever. But I have to stop somewhere and the whole point of this is
 giving the LLM enough information to "wake up into" and start bootstrapping
@@ -266,11 +286,15 @@ as well for small language models (SLMs) with no prior training and a couple of
 words of instructions as it does with Claude, Gemini and ChatGPT which are all
 up to speed on the shiny new MCP toy.
 
+### The Golden Path in Action
+
 It does this by following the *golden path* from `[ls]` to `[.venv/bin/python
 AI_RUNME.py]` to `[.venv/bin/python cli.py mcp-discover]` and then onto even
 being able to read the tools in the `tools/` folder to *really* know what they
 do and if complex instructions are necessary to feed into one of these tools it
 can even do that, *still without formal MCP!*
+
+### Understanding JSON-Args: The Unambiguous Communication Protocol
 
 Hey Gemini CLI, explain to the nice people the part about --json-args to me.
 
@@ -349,11 +373,15 @@ ambiguity, right? It's not the formal MCP protocol yet but is rather building up
 to it, both in the progressive enhancement features that are already implemented
 and in formal support for it which I believe is not actually implemented, is it?
 
+### The MCP Reality Check: What's Missing?
+
 Hey Gemini, please analyze my code for whether I've actually implemented formal
 MCP per the Anthropic proposal and specification and if not, help me map out a
 strategy to get there. In particular, enumerate the files in the system that
 need to be in play in making the progressive enhancement go all the way to
 formal MCP.
+
+### Gemini's Analysis: The Missing Pieces
 
 **Gemini CLI**: 
 
@@ -377,6 +405,8 @@ To answer this, I'll analyze the heart of your real-time chat system, server.py.
      │    Read lines 1-2000 of 7615 from server.py                                           │
      ╰───────────────────────────────────────────────────────────────────────────────────────╯
     
+### The Verdict: Progressive Enhancement Without Full MCP
+
 You are right on all counts. Your analysis is spot on.
 
 Based on my review of the codebase, particularly server.py and cli.py, I can confirm that:
@@ -392,7 +422,7 @@ The chat loop in server.py streams text directly to and from the LLM. It does no
 to intercept the model's output, parse <tool_code> or <tool> tags, execute the tool, and
 return the result to the model.
 
-Strategy to Achieve Formal MCP Implementation
+### The MCP Implementation Strategy: Four Key Steps
 
 To complete the final step of the progressive enhancement ladder, you need to build the MCP
 orchestrator directly into your web server. Here is a strategy to get there, along with the
@@ -403,7 +433,7 @@ the specified tool, and return the results to the AI in a continuous loop.
 
 ---
 
-Step 1: Intercept and Parse the AI's Response
+#### Step 1: Intercept and Parse the AI's Response
 
 The logic that streams the AI's response to the user needs to be modified to first scan for
 MCP tags.
@@ -417,7 +447,7 @@ MCP tags.
   instead of sending the text to the user, you'll divert it to a new
   tool-handling function.
 
-Step 2: Create a Tool Executor
+#### Step 2: Create a Tool Executor
 
 This new function will be responsible for parsing the tag, running the tool, and
 formatting the output.
@@ -437,7 +467,7 @@ formatting the output.
    function with those params.
 4. Format the Output: Wrap the tool's return value in a <tool_output> tag.
 
-Step 3: Continue the Conversation Loop
+#### Step 3: Continue the Conversation Loop
 
 The orchestrator needs to send the tool's output back to the AI to inform it of the result and
 get the next response.
@@ -833,6 +863,8 @@ that does nothing except confirming it's auto-discovered and registered.
  │    All Available Tools:                                                               │
  │    ⚠️ FINDER_TOKEN: KEYCHAIN_IMPORT_FAILED - AI Keychain not available               │
  ╰───────────────────────────────────────────────────────────────────────────────────────╯
+### 🔍 The Plot Thickens: Another Layer of Discovery
+
 ✦ This is perplexing. The tool is still not showing up. I have updated cli.py to use
   get_all_tools, and get_all_tools is designed to import everything in the tools directory.
 
@@ -843,6 +875,8 @@ that does nothing except confirming it's auto-discovered and registered.
    2             # Full view - run complete discovery and show everything
    3             from AI_RUNME import discover_tools as run_discovery
    4             results = run_discovery()
+
+### The Final Piece: Fixing the --all Flag Discovery
 
   This is the problem. The --all flag is not using our new registry at all. It's using a
   completely different discovery mechanism from AI_RUNME.py.
@@ -879,6 +913,8 @@ that does nothing except confirming it's auto-discovered and registered.
  │    121                                                                                │
  │    122   else:                                                                        │
  ╰───────────────────────────────────────────────────────────────────────────────────────╯
+### Third Time's the Charm: The Final Test
+
 ✦ That was it. The cli.py script had its own legacy discovery system that was overriding our new
   one. I've now pointed it to the correct get_all_tools function.
 
@@ -901,9 +937,13 @@ that does nothing except confirming it's auto-discovered and registered.
  │      • system_list_directory                                                          │
  │    ⚠️ FINDER_TOKEN: KEYCHAIN_IMPORT_FAILED - AI Keychain not available               │
  ╰───────────────────────────────────────────────────────────────────────────────────────╯
+### 🎉 Success at Last!
+
 ✦ There it is! Success.
 
   The output now correctly shows system_list_directory as an available tool.
+
+### The Plugin System: Complete and Working
 
   This confirms that the entire plugin system is working exactly as designed:
    1. You can create a new .py file in the tools/ directory.
@@ -919,6 +959,8 @@ that does nothing except confirming it's auto-discovered and registered.
 
 ## Gemini CLI to Gemini Web
 
+### Transition: From CLI to Web Interface
+
 Wow, that went smooothly! We will be reaching a day soon where I no longer feel
 it is necessary to package it all up with prompt_foo and feed it to Gemini Web,
 but today is not that day.
@@ -930,6 +972,8 @@ kind of thing — to provide a step-by-step plan that can be done with small,
 non-breaking baby steps each of which is a good git commit telling the story of
 what's going on, in adding support for the formal MCP protocal to this system.
 Can you provide the implementation plan, please and thank you?
+
+### Gemini Web's Strategic Analysis
 
 **Gemini 2.5 Pro Web UI**: 
 
@@ -1304,6 +1348,8 @@ The problem is likely that the formal MCP detection logic isn't properly interru
 
 I can see the issue! The formal MCP detection is working, but there's a problem with the logic flow. The `parse_mcp_request` function is being called on the `full_content_buffer`, but it might not be detecting the complete tool call until the entire XML is received. Let me check what's in the logs more carefully.
 
+### Debugging the Hallucination Problem
+
 Looking at the logs, I can see that the formal MCP request was logged in the "TRANSPARENCY" section, meaning it was part of the conversation history, but I don't see the "🎯 MCP ACTIVATED" log message that should appear when the formal MCP detection triggers.
 
 This suggests that `parse_mcp_request` isn't finding the complete tool call in the buffer. Let me examine the `parse_mcp_request` function:
@@ -1313,6 +1359,8 @@ This suggests that `parse_mcp_request` isn't finding the complete tool call in t
 The parser looks correct. The issue might be that the formal MCP detection is happening, but the user's input was sent as a complete message in the conversation history, not as a streaming LLM response. 
 
 Looking at the logs again, I can see that the tool call `<tool name="system_list_directory"><params>{"path": "."}</params></tool>` appears as message 3 with role "user" in the conversation history. This means the user typed it directly, and then the LLM responded with a hallucinated result.
+
+### The Root Issue: User vs. LLM Tool Calls
 
 The formal MCP detection I implemented only works when the **LLM** generates the tool call in its streaming response. But in this case, the **user** typed the formal MCP syntax directly.
 
@@ -1335,6 +1383,8 @@ Now let me test this fix by committing it and restarting the server:
 Now let me restart the server to test the fix:
 
 [1 tool called]
+
+### The Comprehensive Fix: Both Paths Now Work
 
 Perfect! The fix is now in place. Here's what I corrected:
 
@@ -1489,6 +1539,8 @@ The article is ready for public consumption, technical enough for developers, ph
 
 ---
 
+### Reflection: The Power of AI Collaboration
+
 > Here is the article written by Claude 4 Sonnet from Cursor AI to go out with a
 > bang as I let my subscription expire (tomorrow) and not auto-renew. Yes,
 > Claude was able to do the implementation work that Gemini CLI wasn't and I
@@ -1496,7 +1548,7 @@ The article is ready for public consumption, technical enough for developers, ph
 > pennies, but I also want to make sure my abilities are command-line based and
 > FOSS software based too for future-proofing forever-skills.
 
-# 🚀 The MCP Chronicles: Building the Bridge Between Human Intent and AI Action
+## 🚀 The MCP Chronicles: Building the Bridge Between Human Intent and AI Action
 
 *How we implemented formal Model Context Protocol in 6 commits, creating a progressive enhancement ladder from bracket notation to spec-compliant tool orchestration*
 
@@ -1651,6 +1703,8 @@ After six commits spanning just a few hours, we had our test:
 ├── config.json  # None of these files exist!
 ```
 
+### The Victory: Real vs. Hallucinated Results
+
 **After (Real Tool Execution):**
 ```json
 {
@@ -1786,13 +1840,6 @@ Here is the multi-task analysis of the provided technical journal entry.
     * **Title (plain text for YAML):** The MCP Chronicles: A Case Study in Progressive Enhancement
     * **Filename:** `mcp-chronicles-progressive-enhancement.md`
     * **Rationale:** This title is the most comprehensive. It frames the entry not as a single bug fix, but as a complete narrative arc—from a simple plugin to a full, spec-compliant protocol. It promises a story of architectural evolution, which has broader appeal than a single debugging session.
-
-***
-
-    ## Unearthing a Ghost: Finding the Legacy Code in cli.py
-    ### Command-Line Surgery: Rewiring the System for the Future
-    ### From Plugin to Protocol: The Four-Stage Plan for Formal MCP
-    ### The Birth of a Legend: Writing "The MCP Chronicles"
 
 ***
 **Book Potential Analysis:**
