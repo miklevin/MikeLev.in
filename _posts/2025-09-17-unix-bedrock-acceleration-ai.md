@@ -17,7 +17,7 @@ meta_description: 'In an age of AI-driven acceleration, the key to future-proofi
 meta_keywords: Unix philosophy, Linux, AI, acceleration, technical skills, 80/20 rule,
   Python, future-proofing, software development
 layout: post
-sort_order: 1
+sort_order: 3
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
