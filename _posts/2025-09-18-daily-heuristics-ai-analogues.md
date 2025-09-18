@@ -267,7 +267,7 @@ examination is where a lot of the love is found and renewed, and countless tiny
 adjustments are made, and the shape of the thing you're building out of the
 Lego-like building block parts comes from. Vision and revision.
 
-## Forging a Righteous Feedback Loop
+## The Gandalf Approach to 'Moving Mountains'
 
 And then finally the thing that the focus tends to run interference with: those
 things you must not forget about. The plates you must keep spinning. The balls
