@@ -607,6 +607,11 @@ At the time I made this technical journal entry, it was NixOS 25.5 (Warbler).
 I am very pleased that the tour features Workspaces, which are those virtual
 desktops that I constantly use and am always advocating.
 
+And as a final note you will not have the same WiFi login automatically set up
+after the reboot because settings made under the *live CD* do not automatically
+carry over to your fresh new install. So after you log in, connect to your WiFi
+network again.
+
 This is a fresh install, but if you're far enough into this that you have a
 `configuration.nix` file from a previous NixOS system and you want to do the
 *"Noah's Ark of Tech"* trick that Nix is so good at, you copy that file over and
