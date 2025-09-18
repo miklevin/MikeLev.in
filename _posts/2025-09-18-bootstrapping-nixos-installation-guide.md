@@ -564,10 +564,12 @@ select your network, provide password and return to installer.
 
 You can mostly do the Next, Next, Next thing but you will need to give a
 username and password. If you like you can set the admin password to be the same
-as your main username. There's a bunch of Linux destkop manager options you can
-choose. I use the default `GNOME` which I think is a really good modern
-replacement for macOS and Windows. The way it handles virtual desktop workspaces
-rocks! But the whole list at the time of this writing is:
+as your main username. 
+
+There's a bunch of Linux destkop manager options you can choose. I use the
+default `GNOME` which I think is a really good modern replacement for macOS and
+Windows. The way it handles virtual desktop workspaces rocks! But the whole list
+at the time of this writing is:
 
 - GNOME
 - Plasma
@@ -581,15 +583,102 @@ rocks! But the whole list at the time of this writing is:
 - Deepin
 - No desktop
 
-And I always check "Alow unfree software"
+And I always check "Allow unfree software"
 
-Next you have to be really careful about because this will wipe out all the data
-on that system. Presumably you're doing this on a system where that's okay. If
-you have important data on that system, **STOP NOW!**
+Next yo get up to the hard drive choices.
+
+You have to be really careful about because this will wipe out all the data on
+that system. Presumably you're doing this on a system where that's okay. If you
+have important data on that system, **STOP NOW!**
 
 This is the point of no going back.
 
 I chose "Erase disk"
+
+One of the key things you have to decide is whether and how big of a Swap
+portion you're going to use by choosing between:
+
+- No swap
+- Swap (no Hibernation)
+- Swap (with Hibernation)
+
+Hey Gemini, what's the difference?
+
+**Gemini**: When installing NixOS, you're presented with a crucial choice regarding your disk setup: how to handle swap space. The installer offers three options: **Erase disk with No Swap**, **Swap (no Hibernate)**, and **Swap (with Hibernate)**. Understanding the implications of each will help you make the best decision for your system's performance and your personal workflow.
+
+Here's a breakdown to help you decide:
+
+### **No Swap**
+
+This option, as the name suggests, forgoes the creation of a dedicated swap partition or swap file on your hard drive.
+
+* **What it is:** Your system will rely solely on your physical RAM (Random Access Memory) to manage all running applications and processes.
+
+* **Pros:**
+    * **Simplicity:** It's the most straightforward disk layout.
+    * **Saves Disk Space:** You dedicate all your storage to your operating system and personal files.
+    * **Reduced Disk Wear:** On Solid State Drives (SSDs), it can theoretically reduce the number of write cycles, potentially extending the drive's lifespan.
+
+* **Cons:**
+    * **Risk of System Instability:** If your RAM becomes full, the system has no overflow space. This can lead to applications crashing or the entire system becoming unresponsive, a situation known as an "Out of Memory" (OOM) error.
+    * **No Hibernation:** You cannot use the hibernation feature, as there is no space to save the contents of your RAM.
+
+* **Who should choose this?**
+    * Users with a large amount of RAM (typically 16GB or more) who are confident their daily usage will not exceed their physical memory.
+    * Those who prioritize maximizing disk space and are not concerned with hibernation.
+
+---
+
+### **Swap (no Hibernate)**
+
+This option creates a swap partition or file, but it is not configured to be large enough for hibernation.
+
+* **What it is:** A portion of your hard drive is set aside to be used as "virtual memory." When your physical RAM is close to being full, the operating system can move less-used data from RAM to the swap space, freeing up RAM for active processes.
+
+* **Pros:**
+    * **Increased System Stability:** It provides a safety net against "Out of Memory" errors. If you experience a spike in memory usage, the system can use the swap space to prevent crashes.
+    * **Improved Performance for Low-RAM Systems:** For systems with less RAM, having swap can allow you to run more applications simultaneously than would otherwise be possible.
+
+* **Cons:**
+    * **Slower than RAM:** Accessing data from a hard drive (even a fast SSD) is significantly slower than accessing it from RAM. Heavy reliance on swap can lead to a noticeable slowdown, often referred to as "swapping" or "thrashing."
+    * **No Hibernation:** The created swap space is typically smaller than your total RAM, making it unsuitable for saving the entire state of your system for hibernation.
+
+* **Who should choose this?**
+    * Most users, especially those with 8GB of RAM or less. It's a good default choice for a stable and reliable system.
+    * Users who want the safety net of swap space but have no intention of using the hibernation feature.
+
+---
+
+### **Swap (with Hibernate)**
+
+This option creates a swap partition or file that is large enough to support hibernation.
+
+* **What it is:** Similar to the "Swap (no Hibernate)" option, it creates virtual memory. However, the size of this swap space is intentionally made at least as large as your physical RAM. This allows the entire contents of your RAM to be written to the swap space when you hibernate your computer.
+
+* **Pros:**
+    * **Enables Hibernation:** You can save your current session (all open applications and their states) to the disk and completely power off your computer. When you turn it back on, your session is restored exactly as you left it. This is particularly useful for laptop users who want to save battery life without losing their work.
+    * **All the benefits of "Swap (no Hibernate)":** You still get the increased system stability and virtual memory capabilities.
+
+* **Cons:**
+    * **Uses More Disk Space:** The swap partition will be larger, consuming more of your valuable disk space. The general rule is that the swap size should be at least equal to your RAM size for hibernation to work reliably.
+
+* **Who should choose this?**
+    * Laptop users who want to take advantage of hibernation to save their session and battery power.
+    * Anyone who desires the ability to completely power down their machine and resume their work later without having to reopen all their applications.
+
+### **Summary Table**
+
+| Feature | No Swap | Swap (no Hibernate) | Swap (with Hibernate) |
+| :--- | :--- | :--- | :--- |
+| **Virtual Memory** | ❌ No | ✅ Yes | ✅ Yes |
+| **Hibernation Support**| ❌ No | ❌ No | ✅ Yes |
+| **System Stability** | Lower (risk of OOM) | ✅ Good | ✅ Excellent |
+| **Disk Space Usage** | Minimal | Low | Higher (≥ RAM size) |
+| **Recommended For** | High-RAM systems | Most users, desktops | Laptop users, those wanting to preserve sessions |
+
+---
+
+I choose *Swap (with Hibernate)* because it's a laptop.
 
 Then I hit "Next" and "Install"
 
