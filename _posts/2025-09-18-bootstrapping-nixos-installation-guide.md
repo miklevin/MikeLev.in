@@ -559,12 +559,16 @@ Finally, find the option to **Save and Exit** (very often the `F10` key). The la
 NixOS live CD installer is set up is that it's going to try to auto-install and
 show you a big red warning that it can't do the install because you don't have
 an Internet connection. Just go to the upper-right where there is the sound and
-battery icons, click it for the fly-out configuration panel, click WiFi and
-select your network, provide password and return to installer.
+battery icons, click it for the fly-out configuration panel, click the little
+chevron accordion expander to the right of WiFi to show all the network choices
+and select your network, provide password and click the "Connect" button, and it
+will automatically return to the installer and remove the red warning.
 
 You can mostly do the Next, Next, Next thing but you will need to give a
 username and password. If you like you can set the admin password to be the same
-as your main username. 
+as your main username. Provide that stuff, and next, next again.
+
+And I always check "Allow unfree software"
 
 There's a bunch of Linux destkop manager options you can choose. I use the
 default `GNOME` which I think is a really good modern replacement for macOS and
@@ -582,8 +586,6 @@ at the time of this writing is:
 - Budgie
 - Deepin
 - No desktop
-
-And I always check "Allow unfree software"
 
 Next yo get up to the hard drive choices.
 
@@ -678,26 +680,70 @@ This option creates a swap partition or file that is large enough to support hib
 
 ---
 
-I choose *Swap (with Hibernate)* because it's a laptop.
+> There's a bit of an eduction here on Hibernate vs. Suspend mode as well. No
+> matter your Swap partition choice, you will still be able to put your computer
+> in *Suspend* mode instead of a full shut-down but it uses RAM for faster
+> performance and to not complicate your drive partition situation.
+
+So what I'm saying is None is simpler. It controls all the factors, using a
+simpler start-up routine and guarantees success. But if you're NixOS on a laptop
+and you want the battery to be able to go completely dead and still have it
+spring back to its previous state without a reboot next time you plug it, you're
+going to want Swap (with Hibernate).
+
+On the test I'm doing for this tech journal entry, I'm choosing *Swap (with
+Hibernate.* This is also your preview on the coming discussion of managing your
+electric bill.
 
 Then I hit "Next" and "Install"
 
 Congratulations! If you actually followed along and made it this far, you're on
 your way to future-proofing and freedom using the bootstrapping method.
 
-After the install is done, pop out the USB thumbdrive and check the box to
-reboot now, let the system reboot, log back in using the username/password you
-just set up then take the tour.
+You will see a little checkmark asking whether you want to "Restart now"
+
+WARNING!
+
+Given that you may have messed with the BIOS/UEFI settings to get the USB
+thumbdrive to boot first, you may be tempted to pull out the thumbdrive before
+clicking that *Restart Now.* DONT!
+
+Leave the thumbdrive in, click the checkmark for *Restart now* and then click
+*Done* and wait. It's the click on "Done" that will start the reboot.
+
+You will be faced with the NixOS boot menu which will have 2 choices at this
+time:
+
+- NixOS
+- The bootloader
+
+Just let the countdown finish and it will boot NixOS native from your drive for
+the first time. It is now safe to pop out the USB thumbdrive.
+
+Log into the system using the username/password you just set up during the
+install, and then go ahead and take the extremely short tour they prompt you to
+take. NixOS is so friggn well thought out, even the way they "reveal" stuff to
+you in the tour. First, the version.
 
 At the time I made this technical journal entry, it was NixOS 25.5 (Warbler).
 
-I am very pleased that the tour features Workspaces, which are those virtual
-desktops that I constantly use and am always advocating.
+Next, they tell you about the single tap on the "Super" key, aka the *Windows
+key* for most people. What you want to know about NixOS — and really the Linux
+GNOME desktop — is that you can tap that key and just start typing the name of
+whatever program you want to launch. So long Windows *Start Menu,* you are a
+thing of the past. This is SO MUCH BETTER.
 
-And as a final note you will not have the same WiFi login automatically set up
-after the reboot because settings made under the *live CD* do not automatically
-carry over to your fresh new install. So after you log in, connect to your WiFi
-network again.
+Next they tell you about the most wonderful and underutilized of all features on
+desktop operating systems today: *virtual desktop workspaces!* They dedicate a
+couple of steps in the tour to show you how to navigate them with the touchpad
+and start you out with one virtual workspace set up — for a total of 2 including
+the one you're on. You can make more.
+
+And as a final note you will have to set up WiFi again. Your settings from
+during the install does not carry over automatically after the reboot because
+settings made under the *live CD* do not automatically carry over to your fresh
+new install. So after you log in and exit the tour, connect to your WiFi network
+again.
 
 This is a fresh install, but if you're far enough into this that you have a
 `configuration.nix` file from a previous NixOS system and you want to do the
