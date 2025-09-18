@@ -557,12 +557,10 @@ Finally, find the option to **Save and Exit** (very often the `F10` key). The la
 
 **Me**: Okay, so if you follow all these instructions perfectly the way the
 NixOS live CD installer is set up is that it's going to try to auto-install and
-will fail because you don't have an Internet connection. To set up WiFi you quit
-out of the installer and go to the upper-right to the fly-out settings panel and
-go into WiFi and connect to your network. If you do this correctly you'll see
-the standard little WiFi logo in the upper-right and then you can hit the
-*Super* key on the keyboard (the Windows key) and click the *Install System*
-icon to re-run the installer.
+show you a big red warning that it can't do the install because you don't have
+an Internet connection. Just go to the upper-right where there is the sound and
+battery icons, click it for the fly-out configuration panel, click WiFi and
+select your network, provide password and return to installer.
 
 You can mostly do the Next, Next, Next thing but you will need to give a
 username and password. If you like you can set the admin password to be the same
