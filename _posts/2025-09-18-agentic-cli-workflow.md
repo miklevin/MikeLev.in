@@ -1009,10 +1009,16 @@ I understand the mission and the new, safer procedure. I will now begin with **S
 > profoundly new and potentially powerful workflow. Gemini CLI is truly becoming
 > Gemini in the CLI (and not the TUI) for me.
 
-The funny thing is *this entire article* becomes the context starting-point for
-tomorrow. Gemini CLI is going to get *the entire story* of it's fumbling
-difficulty getting started and how Gemini Web is corralling it towards a better
-non-breaking workflow.
+The last week or so has been the transition from the GUI VSCode forking program
+Cursor to the TUI Gemini CLI. But the TUI, the text-based equivalent of a GUI
+(graphical user interface) has been something of a challenge for me expecting
+the true power of the command-line. And today I switched.
+
+It has been a successful first experiment. The funny thing is *this entire
+article* becomes the context starting-point for tomorrow — a `prompt.md` file
+sitting on the drive ready for inclusion in the new CLI command. Gemini CLI is
+going to get *the entire story* of it's fumbling difficulty getting started and
+how Gemini Web is corralling it towards a better non-breaking workflow.
 
 And we leave it in this working state. I think I may have the policy now to
 always wrap up in a working state so that I'm never sitting back down to broken
