@@ -417,7 +417,7 @@ This analysis transforms the provided journal entry into structured, book-ready 
 **Crafting Compelling Narratives: Title & Filename Brainstorm:**
 
 * **Title Option 1:** Building Bedrock: A Developer's Manifesto Against Tech Churn
-    * **Filename:** `developer-manifesto-against-tech-churn.md`
+    * **Filename:** `developer-blueprint-against-tech-churn.md`
     * **Rationale:** This title is highly philosophical and targets readers feeling the pain of "hamster wheel" development. It frames the entry as a strong, opinionated take on a common industry problem.
 
 * **Title Option 2:** The Normalized CLI: Solving AI Amnesia and Terminal Fragility
@@ -450,7 +450,7 @@ This analysis transforms the provided journal entry into structured, book-ready 
 
 ---
 **AI Editorial Perspective: From Journal to Chapter:**
-This entry is more than just a technical log; it's a compelling manifesto that could serve as the anchor for a chapter titled **"Building Your Bedrock: A Practical Guide to Stable Systems in an Unstable World."** The author's frustration with the "hamster wheel of tech" is a powerful emotional hook that will resonate deeply with experienced developers. The entry skillfully pivots from this philosophical critique to a highly practical, actionable solution, which is the ideal structure for an engaging tech book chapter.
+This entry is more than just a technical log; it's a compelling blueprint that could serve as the anchor for a chapter titled **"Building Your Bedrock: A Practical Guide to Stable Systems in an Unstable World."** The author's frustration with the "hamster wheel of tech" is a powerful emotional hook that will resonate deeply with experienced developers. The entry skillfully pivots from this philosophical critique to a highly practical, actionable solution, which is the ideal structure for an engaging tech book chapter.
 
 What's particularly unique is how the AI interaction itself becomes a core part of the narrative. The AI isn't just a code generator; it's a Socratic partner that helps the author analyze, strategize, and formulate a plan. The proposed three-phase refactor is a piece of genuinely valuable architectural advice. Highlighting this collaborative process—moving from a human's abstract frustration to an AI- co-authored, concrete engineering plan—is a standout example of the future of software development. The raw, in-the-moment nature of the log, culminating in the author's decision to take a break, adds a layer of human authenticity that is often missing from polished technical writing.
 

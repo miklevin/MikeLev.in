@@ -341,7 +341,7 @@ Here is the analysis and transformation of the provided technical journal entry.
     * **Rationale:** This title immediately establishes the core conflict (GUI vs. CLI) and uses strong keywords (VSCode, AI, Command-Line). It appeals to developers contemplating similar shifts and frames the decision as a forward-looking, strategic choice.
 
 * **Title Option 2:** The Developer's Manifesto: Flow-State, FOSS, and the Switch to Gemini CLI
-    * **Filename:** `developer-manifesto-flow-state-foss-gemini-cli.md`
+    * **Filename:** `developer-blueprint-flow-state-foss-gemini-cli.md`
     * **Rationale:** This option elevates the entry from a simple journal log to a statement of principles. "Manifesto" is a powerful word that attracts readers interested in the philosophy of software development, while "Flow-State" and "FOSS" target specific, knowledgeable audiences.
 
 * **Title Option 3:** Escaping the Vendor Trap: A Case Study in Migrating from Cursor AI to Gemini CLI
@@ -350,7 +350,7 @@ Here is the analysis and transformation of the provided technical journal entry.
 
 * **Preferred Option:**
     * **Title (plain text for YAML):** The Developer's Manifesto: Flow-State, FOSS, and the Switch to Gemini CLI
-    * **Filename:** `developer-manifesto-flow-state-foss-gemini-cli.md`
+    * **Filename:** `developer-blueprint-flow-state-foss-gemini-cli.md`
     * **Rationale:** This title best captures the entry's unique blend of technical action and philosophical reflection. It promises not just a "how-to" but a "why-to," which is more compelling for a book that aims to offer timeless insights rather than just fleeting technical instructions. It correctly frames the content as a passionate argument, not just a product review.
 
 ---
