@@ -175,7 +175,7 @@ The most exciting possibilities likely haven't even been imagined yet. That's th
 
 > This part of the discussion actually came first, but the implementation code
 > examples are a pretty dry way to introduce you to the concept of a Python
-> powered MCP-wielding local LLM, haha!
+> powered MCP-wielding local LLM, ahaha!
 
 **Me**: [Puts codebase in context] How close is this system to being mcp (Model Context Protocol) local LLM? 
 

@@ -87,7 +87,7 @@ relative but broken references. Not so with programming, or the program won't
 run.
 
 And so programming literacy is easier than math literacy. And just in time for
-not needing to know how to program anymore, because AI, haha! No not really. I
+not needing to know how to program anymore, because AI, ahaha! No not really. I
 don't believe that. All that talk about AI playing the role of a junior or
 mid-level programmer so now companies have to hire fewer programmers is not the
 story of programming going away. It's the story of fewer people working better

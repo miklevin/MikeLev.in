@@ -1018,7 +1018,7 @@ problem. It can't be used directly as the prompt for Claude because Claude will
 spin its wheels endlessly on the aspects of this that are intended to be
 deterministic. Claude itself encouraged me to include
 /home/mike/repos/pipulate/plugins/200_workflow_genesis.py in this XML prompt foo
-package, haha! That gives you an idea how to construct the commands but I think
+package, ahaha! That gives you an idea how to construct the commands but I think
 now I need to show you quite how deterministic this WET Workflow construction
 kit really is, and how I cut generative mistakes out of the process. Here is the
 same XML payload again except now with the nitty gritty of these workflow

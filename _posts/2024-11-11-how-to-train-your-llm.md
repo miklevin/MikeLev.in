@@ -177,14 +177,14 @@ looks like this...
 ### Validation Status
 I really couldn't say (yet) how accurate it got the validation parts of this,
 but I know it was looking at code with working validation so I'm hopeful. It
-will all be vetted live while in use, haha! But I have plenty of sample data to
+will all be vetted live while in use, ahaha! But I have plenty of sample data to
 test it on.
 
 ### BQL Version Challenges 
 The Botify Web UI will give BQLv1 sample code for automation, but
 not BQLv2. This was a show-stopper for me for awhile, because BQLv1 burned
 through my daily employee quotas while BQLv2 didn't, but I could only get code
-examples in the former, and found the later impossible to write... haha! This is
+examples in the former, and found the later impossible to write... ahaha! This is
 deep nerd irony, and this is how a nerd responds. BAM! Now I've got a converter.
 
 ### Integration with LLM Training
@@ -227,11 +227,11 @@ Generally speaking, this is not a system where people will have to generate the 
 
 ## Implementation Strategy
 ### Visualization Goals
-Visualize with the end in mind. When you "go into work" tomorrow, what how should life be different. What do those interactions look like. Here's a YouTube video... oh... drop a deck that's shared with the whole company into Google Slides. Embed the YouTube video in that deck... haha! The share-all pouncers will bounce and BOOM! Ohhhh, this is performance art, Mike. Plan that performance. I started at about 6:00 AM this morning. It's now 10:30 AM. You're on a very good time-frame so long as you don't let yourself fall into any rabbit holes. Go take a break. Mull on this for a bit. The trifecta of...
+Visualize with the end in mind. When you "go into work" tomorrow, what how should life be different. What do those interactions look like. Here's a YouTube video... oh... drop a deck that's shared with the whole company into Google Slides. Embed the YouTube video in that deck... ahaha! The share-all pouncers will bounce and BOOM! Ohhhh, this is performance art, Mike. Plan that performance. I started at about 6:00 AM this morning. It's now 10:30 AM. You're on a very good time-frame so long as you don't let yourself fall into any rabbit holes. Go take a break. Mull on this for a bit. The trifecta of...
 
 ### Key Deliverables
 - A Google Deck / YouTube Video
-- A Ready-to-Download Link-Graph Visualizer (where the local LLM comes alive, haha!)
+- A Ready-to-Download Link-Graph Visualizer (where the local LLM comes alive, ahaha!)
 - Seeds of many other apps planted
 
 ## Technical Considerations
@@ -525,7 +525,7 @@ me now, so I'm thinking out loud to power through it. It's only 1:00 PM and I'm
 not done. I have a big push to do to come out of this tomorrow in a no going
 back better place. I'm on the edge of it and can feel it. So forge forward like
 the older Roombas, backing up, turning a bit, and moving forward again for a
-random walk zigzag pattern. Even exhaustion can't stop you, haha! Okay... so,
+random walk zigzag pattern. Even exhaustion can't stop you, ahaha! Okay... so,
 that algorithm goes something like...
 
 ## Rediscovering Neovim Configuration
@@ -792,7 +792,7 @@ up and overcome obstacles both real and imagined with you lots of surveying the
 landscape, trying things, making observations, testing, strategy, rational
 thought, pivoting yadda yadda. And having LLMs that are there along with you,
 which you can bounce ideas off of and in a very meta-process, bounce these
-blip-learnings... these hot prompt injections... haha! Both perfectly
+blip-learnings... these hot prompt injections... ahaha! Both perfectly
 descriptive but also obviously a bit controversial.
 
 The document has been becoming very effective. Let me summarize it here and call

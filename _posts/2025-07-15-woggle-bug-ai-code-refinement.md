@@ -26,7 +26,7 @@ Well I completed the first three stops on the road of our adventure:
 
 Now we're up to the greatly magnified and therefore ironically overlooked
 Wooglebug! The Wooglebug is the master of pseudo erudition — a phrase which in
-itself autological, haha! Uhhh... Gemini?
+itself autological, ahaha! Uhhh... Gemini?
 
 **Gemini**: The word for a phrase that describes a property it also possesses is **autological**.
 
@@ -53,7 +53,7 @@ now make the statement:
 ...haha! The Wogglebug may just be my favorite. I am not academic in reality at
 all. I went to a 4-year collage (actually a *5-year college* traditionally with
 a co-op program but I did it in 4) and didn't get any of those masters or
-doctorate degrees — yet I know I talk like it sometimes, haha! That's the
+doctorate degrees — yet I know I talk like it sometimes, ahaha! That's the
 Wogglebug, over-amplified academician.
 
 And so I DRY.
@@ -955,7 +955,7 @@ to Oz" effect and starting to get the messaging of the *telemarketing style
 script* down. It's all a linear script designed to get the user to proceed
 straight through in a next, next, next fashion using `Ctrl`+`Alt`+`y` as the
 next. Answering `n` to anything will drop you out of the demo. It's like *choose
-your own path* adventure with only one path, haha!
+your own path* adventure with only one path, ahaha!
 
 This is all to allow me to create a very carefully crafted experience where all
 the features of the product are expressed in an engaging step-by-step demo where
@@ -986,11 +986,11 @@ it pops along with the soap bubble that is the garbage-collected them.
 
 With brains and a heart adequately provided on the yellow brick road demo
 journey, it was time to hear the lion roar at Toto trying to practice his
-courage, haha! And so we find a no-frills AI voice synthesis library. It's not
+courage, ahaha! And so we find a no-frills AI voice synthesis library. It's not
 the best, but it installs cleanly and is multi-platform. See the thing is I'm
 not just playing synthesized sound. I'm running something much like a junior
 *free and open source* version of ElevenLabs AI voice stuff — on a web app that
-installs locally on your Mac or Windows machine in a Linux subdirectory, haha!
+installs locally on your Mac or Windows machine in a Linux subdirectory, ahaha!
 
 Beggars can't be choosers when it comes to mounting satellite dishes and solar
 panels on a house of cards. It's a miracle on another order that how the Nix

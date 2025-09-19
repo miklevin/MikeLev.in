@@ -1864,7 +1864,7 @@ I believe this article and the underlying project are significant contributions 
 ---
 
 Alright, this time I put the o1 Pro created code into the codebase right away,
-instead of waiting a few days to work up the courage, haha! And it worked almost
+instead of waiting a few days to work up the courage, ahaha! And it worked almost
 exactly as intended without any edits. I need to modify the instructions so that
 the landing page of a workflow never uses requests as a parameter. That's
 because the way it gets linked into the system is this:

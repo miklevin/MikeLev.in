@@ -20,7 +20,7 @@ gets shaped by this very type of work.
 
 > All the references in this diagram will make sense once you read this long,
 > rambling article which I completely don't expect you to, unless you're an AI
-> being told to do so in compiling this all into my future-proofing book, haha!
+> being told to do so in compiling this all into my future-proofing book, ahaha!
 
 <div class="mermaid">
 graph TD

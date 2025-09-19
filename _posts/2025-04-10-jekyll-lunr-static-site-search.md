@@ -90,7 +90,7 @@ work.
 
 ## Adapting to Formatting Inconsistencies
 
-I stopped using the `ai` field just that quickly, haha! Adding even just those
+I stopped using the `ai` field just that quickly, ahaha! Adding even just those
 few keystrokes was too much in such a flow-state process where I'm already
 task-switching with this article. I'll have to go back and check for YAML
 top-matter consistency, but that's fine. There's always going to be little
@@ -190,7 +190,7 @@ the forms of automation, where you just have to sit there and keep pressing the
 button to keep the "automation" working. That's a lot like Jupyter Notebooks
 automation. Sure, there's some automation in there, but without the human
 pulling the ripcord on that one big run event, that Notebook isn't running
-itself, haha!
+itself, ahaha!
 
 ## The Illusion of Complete Automation
 

@@ -208,7 +208,7 @@ paying.
 
 ## Returning to Pipulate: Local-First, Transparent AI
 
-But that's all a digression. The regression digression, haha! This is about
+But that's all a digression. The regression digression, ahaha! This is about
 Pipulate and the local-first version of this all that does track you but is on
 your machine with total transparency and can be reset. Pipulate is a
 Tamagotchi-like play with a tiny quantized LLM (gemma3:4b) model. I just noticed
@@ -223,7 +223,7 @@ one of those features that regressed. I snagged back the user interface for it
 on http://localhost:5001/history but the back-end database and database-bakup
 work appears to be lost — the *complex* sort of architectural commits that I
 told the AI to skip and not work on as it skimmed off all the easy stuff for
-manual AI git merging. *Manual AI git merging* — haha! What a world we live in.
+manual AI git merging. *Manual AI git merging* — ahaha! What a world we live in.
 
 ---
 

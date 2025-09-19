@@ -190,7 +190,7 @@ UI nuance (ugh!) of automated workflows that don't really need an AI, but its
 presence helps a lot. But without being annoying like Microsoft Clippy. They had
 so many things right with that. All the seeing what you're doing and automation
 hooks to take over and do a task for you. They were just ahead of their time.
-It's just like Apple with Siri. Or Apple with the Newton, haha! One of the first
+It's just like Apple with Siri. Or Apple with the Newton, ahaha! One of the first
 ARM devices, by the way. Wow, it's really so interesting the recurring themes
 that run through all this, and ideas which are directionally correct but too
 early which have the nuanced user experience details just not worked out

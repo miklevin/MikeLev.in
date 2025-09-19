@@ -163,7 +163,7 @@ Sun Tzu's avoidance of war comes from the head (it's inefficient). Locke's avoid
 
 ## The Oz Connection: Integrating Head, Heart, and Courage
 
-**Me**: Thank you for that analysis. From the head versus from the heart, haha!
+**Me**: Thank you for that analysis. From the head versus from the heart, ahaha!
 Did you make that connection because I open with "there's no place like home"
 and the *Wizard of Oz* reference or what that wholly separate or can you not
 actually tell because you're a newly instantiated instance and only have access

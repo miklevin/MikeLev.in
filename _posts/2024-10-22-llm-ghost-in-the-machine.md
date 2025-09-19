@@ -185,10 +185,10 @@ all the HTMX painting it turns out I'm going to be doing. I only really achieved
 the effect on the Insert (aka Create of CRUD) action so far, but that alone is
 eerily impressive to see. I can't wait until I can tell the LLM to toggle, sort
 (change priority), and update. I'm not sure if I'm going to give it the ability
-to delete, haha! But because it's laborious thought-work, I'm going to defer it.
+to delete, ahaha! But because it's laborious thought-work, I'm going to defer it.
 But the good news is the concept is proven and I've pinned up the insert example
 in my code so that I have a great starting point when I can revisit those
-ghostly LLM operations. Appropriate for Halloween, haha!
+ghostly LLM operations. Appropriate for Halloween, ahaha!
 
 ## Regret Over Rolled-Back AI Teaching Functionality
 
@@ -205,7 +205,7 @@ time I discussed them here. The idea is solid, just my implementation lacked.
 See, LLMs are going to really take to hart the latest info in the conversation
 history and if it's ugly debugging messages, it's going to start talking
 gobbledygook back to you—especially when it gets a taste of those
-indecipherable Python traceback messages, haha! No, it's not just you. Those
+indecipherable Python traceback messages, ahaha! No, it's not just you. Those
 things are confusing as hell and it even makes LLMs start talking nonsense. The
 answer is to control the error message that gets fed back into the LLM with
 precision and clarity. It's got to be like a teacher or college professor

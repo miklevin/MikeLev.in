@@ -113,7 +113,7 @@ because I do like the explicitness. It gives the ability to surf away and back
 to this point in the workflow during a download. Downloads are effectively
 interruptable so long as you don't revert steps. There will be edge cases and we
 don't have to address them all at the price of simplicity. We want to retain any
-simplicity that still may be in the system, haha!
+simplicity that still may be in the system, ahaha!
 
 ## Future-Proofing with Progress Bar Architecture
 

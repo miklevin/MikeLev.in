@@ -1982,7 +1982,7 @@ And so, that was my thoughts.
 
 And thank goodness for LLMs, because now I can try to hit above my weight class,
 because if there's one thing I know less than music, it's sports but they have
-all the best metaphors, haha! And so... and so...
+all the best metaphors, ahaha! And so... and so...
 
 And so, instead of converting the TenCardFlow into some giant widget template
 place, I'm going to lean into my strongest weakness right now, not knowing the

@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', (event) => {{
 
 ## Carrying Out Client-Side htmx-Ajax Calls to Server Can Be Challenging
 
-So, you might say I got that sorted, haha! Well, if you think those client-side shenanigans are fun to know the id-to-priority mappings, you'll love what it takes to carry out these client-side initiated JavaScript `htmx-ajax` calls to the server, through API endpoints you just blend in with the webpages under FastHTML like it's no big.
+So, you might say I got that sorted, ahaha! Well, if you think those client-side shenanigans are fun to know the id-to-priority mappings, you'll love what it takes to carry out these client-side initiated JavaScript `htmx-ajax` calls to the server, through API endpoints you just blend in with the webpages under FastHTML like it's no big.
 
 Here's what the update endpoint looks like:
 

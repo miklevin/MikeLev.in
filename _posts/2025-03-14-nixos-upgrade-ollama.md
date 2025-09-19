@@ -184,7 +184,7 @@ hog-wild trying stuff out while never destabilizing your system.
 And so today, that's what I did. But as I started this article out stating, a
 NixOS update where you also upgrade all your software is like building your
 system from scratch. So just to go from Ollama 0.5.13 to Ollama 0.6.0 (to run
-Gemma 3), I was able to write this whole article waiting for the build, haha!
+Gemma 3), I was able to write this whole article waiting for the build, ahaha!
 
 ## To Reboot Or Not To Reboot?
 

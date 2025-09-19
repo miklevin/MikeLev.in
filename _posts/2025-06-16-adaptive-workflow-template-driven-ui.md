@@ -19,7 +19,7 @@ For the reader, this serves as a practical case study in building sophisticated,
 ## The 'Quinfecta' Vision: A Unified, Multi-Purpose Template
 
 Alright, this is stunning. I think it's almost ready to become the new Quadfecta
-template, although it's arguably a Quinfecta at this point, haha!
+template, although it's arguably a Quinfecta at this point, ahaha!
 
 Okay, so the most important thing is for me to be able to toggle it back and
 forth for link-graph usage and parameter-buster usage.

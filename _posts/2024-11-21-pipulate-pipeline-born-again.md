@@ -72,7 +72,7 @@ intranets for employers. The days when VisualBasic 6 ruled the IT-consultancy
 world. Late 90s.
 
 Everything in between has basically sucked. I tried getting back onto JavaScript
-on the server ***just before NodeJS came out***, haha! Talk about bad timing. It
+on the server ***just before NodeJS came out***, ahaha! Talk about bad timing. It
 was something called Rino. JavaScript was never not on the server. Netscape had
 it in Commerce Server back in the days. Microsoft had it as the alternative
 language to VBScript in ASP. JavaScript was never not there. It just didn't have

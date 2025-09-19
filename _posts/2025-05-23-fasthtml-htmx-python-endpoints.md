@@ -327,7 +327,7 @@ the host OS's graphical desktop. But of course you see what we're leading up to.
 We don't want to always make them have to surf to that location. I mean it's
 cool and everything that you can with a localhost app like this, but also the
 FastHTML server should be able let you "download" (albeit from your own machine
-already — haha!) into your browser's default downloads directory.
+already — ahaha!) into your browser's default downloads directory.
 
 ### The Critical Role of HTTP Response Headers
 

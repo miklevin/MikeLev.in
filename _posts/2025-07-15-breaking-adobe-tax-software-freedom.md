@@ -173,7 +173,7 @@ hand-gesture for the more spoken-like magic words. I mean of course the magic
 words are also types and are thus also hand-gestures but they're not quite so
 much like the magic hand-waving of keyboard shortcut combos. I mean
 `Command`-key, `Spacebar`?! How Apple can you get? The biggest key on the
-keyboard and the one immediately to its left, haha!
+keyboard and the one immediately to its left, ahaha!
 
 It's not too hard. Not even for a Mac user.
 
@@ -342,7 +342,7 @@ A few magic words.
 
 A little bit of getting around.
 
-Not nearly as hard as learning Blender, haha!
+Not nearly as hard as learning Blender, ahaha!
 
 ---
 

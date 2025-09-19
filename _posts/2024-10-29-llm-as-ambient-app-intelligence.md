@@ -119,7 +119,7 @@ Key decisions we need to make:
 
 Would you like to tackle any of these specific aspects first?
 
-Me: Okay, I've done that. I have the new chat interface showing in the create_chat_interface area previously known as msg-list. When I'm on the ChatPlayground app, they're side by side, the ChatPlayground plugin, which is working, and the narrower copy of it to the right, which isn't yet working. The idea is that once this is working, we will be retiring the ChatPlayground plugin so that makes me think we use its endpoint to keep things working. The important thing is that the back-end stuff is unfied via the conversation history, and it doesn't really matter which endpoints are used so long as that gets updated through whatever route. And so, let's make the choice that risks breaking things least, knowing that ChatPlayground is the only thing not broken right now, haha! 
+Me: Okay, I've done that. I have the new chat interface showing in the create_chat_interface area previously known as msg-list. When I'm on the ChatPlayground app, they're side by side, the ChatPlayground plugin, which is working, and the narrower copy of it to the right, which isn't yet working. The idea is that once this is working, we will be retiring the ChatPlayground plugin so that makes me think we use its endpoint to keep things working. The important thing is that the back-end stuff is unfied via the conversation history, and it doesn't really matter which endpoints are used so long as that gets updated through whatever route. And so, let's make the choice that risks breaking things least, knowing that ChatPlayground is the only thing not broken right now, ahaha! 
 
 Claude: 
 

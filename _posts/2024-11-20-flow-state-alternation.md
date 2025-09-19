@@ -18,7 +18,7 @@ Soul cover this pretty well? Yeah, I believe it did.
 I need me my focus, and I'm one of those out-of-balance types bearing down on my
 artform and craft until it yields fruit. Artists do that. It sometimes kills
 them, and sometimes they're not even all that inspired as they do so, so it's a
-real lose lose situation, haha! Me no want Dunning-Kruger effect, but me know in
+real lose lose situation, ahaha! Me no want Dunning-Kruger effect, but me know in
 some Bizarro world, maybe this one, that's exactly what's going on. My attempts
 to hit above my weight league may be misguided, and I'm perhaps destined to
 fail.
@@ -135,7 +135,7 @@ get the bare minimum so your muscle memory doesn't rally against you and
 sabotage you. I need old-man-tricks to survive the slackchurngrinder, and
 fixating on bookmarks as a lifeline is trick #1. Actually #2 if bookmarking it
 in your browser (once found) is #1, also not easy because you can't visit and
-bookmark a redirect, haha! BAM! I can do this.
+bookmark a redirect, ahaha! BAM! I can do this.
 
 Make an AGENDA TEMPLATE CLIENT Google Doc, wipe out the version history with the
 copy-of-a-copy trick. Make it in My Documents, but now make the client version

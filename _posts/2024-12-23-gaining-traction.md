@@ -403,7 +403,7 @@ be GitHub Pages right now for fast, virtually free static site hosting.
 
 With this attitude that particular publishing tech doesn't matter, you give up a
 ton in terms of server-side code (which is actually my thing when server-side
-means localhost, haha!), but it's all about a type of resilience and
+means localhost, ahaha!), but it's all about a type of resilience and
 unstoppability. One tool not right? No problem, pivot just a bit and use
 another. That tool not right? Pivot and retry. Something will fit. Just don't
 invest your habits, muscle memory and career there. 

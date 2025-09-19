@@ -542,12 +542,12 @@ This entire process—journaling your philosophy in Vim, executing methodical re
 
 **Me**: Yup. A to-do list that compels me forward. And I think that needs to be
 right on the homepage of the Pipulate app itself, or at least as 1 of the
-choices in a ~7-item drill-down menu, haha! Currently it's the roles app. Here,
+choices in a ~7-item drill-down menu, ahaha! Currently it's the roles app. Here,
 let me show you. I really want to un-hardware the Roles CRUD app from being the
 Pipulate http://localhost:5001/ default index homepage but you can see I coded
 myself into that corner. What's my strategy for putting an app name into the
 configuration file? You can also see how mangled my `foo_files.py` is in terms
-of file-paths since my weekend work, haha! But I'll get to that later. I'm more
+of file-paths since my weekend work, ahaha! But I'll get to that later. I'm more
 interested in your thoughts on a configurable homepage to be anything from the
 `apps/` folder.
 
@@ -752,7 +752,7 @@ Everything up-to-date
 These *merging changes into main* which is really a *branch takeover* (because
 I'm still a singleton developer) are becoming easier and easier. I'm almost not
 looking forward to Pipulate getting discovered and me having to evolve my habits
-yet again, haha! Yeah, muscle memory, rah rah! But also never stop learning. The
+yet again, ahaha! Yeah, muscle memory, rah rah! But also never stop learning. The
 trick is to add subtlety and variation to already mastered movements. Changing
 up the kata.
 

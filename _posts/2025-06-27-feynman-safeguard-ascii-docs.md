@@ -249,7 +249,7 @@ Pipulate.com and the documentation actually built into the pipulate app. It's
 mostly ASCII art-based truth, but it surfaces the new reality around which the
 rest of the documentation must now be adjusted to. This compels documentation to
 get updated to reflect the true current state of the app — applying a sort of
-ASCII art peer pressure to the documentation around it, haha!
+ASCII art peer pressure to the documentation around it, ahaha!
 
 ### Tiered Documentation Deployment: GitHub, Website, App
 

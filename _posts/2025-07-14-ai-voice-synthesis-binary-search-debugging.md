@@ -194,7 +194,7 @@ This is software design.
 On this journey down this linear path, there are brainy things I have done like
 ensuring the keyboard shortcuts don't conflict with Chrome's own keyboard
 shortcuts. This was an issue with `Ctrl`+`n` which I wanted to use for answering
-questions from the user, but I kept popping up *New browser windows* haha! And
+questions from the user, but I kept popping up *New browser windows* ahaha! And
 so Ctrl+Alt it is.
 
 #### The Scarecrow
@@ -417,8 +417,8 @@ We keep it a tool call just like we know works!
 And now what gets streamed to the Web UI is decoupled with what gets spoken to
 the user through voice synthesis.
 
-We could type one thing and say another, haha! And I don't have to worry about
-how it's going to say *square bracket* and stuff, haha!
+We could type one thing and say another, ahaha! And I don't have to worry about
+how it's going to say *square bracket* and stuff, ahaha!
 
 So all I have to do now is ask Claude to... to... to...
 

@@ -93,7 +93,7 @@ I am at my current place of employment to do the best work of my life. That's
 why I am there. The huge challenge of enterprise SEO crawling exceeds my
 home-grown DIY SEO ethos, and that's where the big challenges (and the money) is
 at. Enterprises have to adapt to the age of AI... and I'm there! They execute
-JavaScript over millions of pages. I don't, and probably never will, haha!
+JavaScript over millions of pages. I don't, and probably never will, ahaha!
 
 However, my scrappy approach is where outlier innovation resides. With my own
 [free AI SEO tool](https://mikelev.in/free-ai-seo-tool/), I do shallow crawls

@@ -646,8 +646,8 @@ link-graphs without it being just a tangled jumble of lines. And ***that*** is
 the final mile of this project. Boy is this article mis-named. Look at the
 cutting-edge super-valuable million-dollar, billion-dollar, or indeed even
 trillion-dollar ideas just my stream-of-thought brainstorming lays the
-groundwork for, haha! And not a single person is going to read it, except for
-the AIs I force-feed it to to get a 250-character meta description, haha!
+groundwork for, ahaha! And not a single person is going to read it, except for
+the AIs I force-feed it to to get a 250-character meta description, ahaha!
 Anyhoo, stuff like this can serve as legacy and interesting historical
 side-notes if anything else. Some people got it, but they struggled with
 implementation and were thus forgotten, they'll never even say. Fading into
@@ -907,7 +907,7 @@ identity, in fact. Time for a new FIGLET BANNER in in the code:
 ### Code Organization Strategy
 
 And the strategic location for this so that it's early-phase enough but not
-interfering with the code story? After Ollama but before JavaScript, haha! No
+interfering with the code story? After Ollama but before JavaScript, ahaha! No
 worries pushing custom JavaScript down. The story by the way goes:
 
 - A long scroll with no banners over CONSTANTS and stuff, so it'll be a surprise

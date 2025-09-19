@@ -866,7 +866,7 @@ and favorite color. Make that button you just put there active, and prompt
 ollama to say hi to the new user and ask them their name and favorite color, and
 how it will do its best to try to remember them. This will work for me as my own
 todo list reminder to implement that kind of simple persistent memory where the
-LLM can always just ask (internally) to look through its own keys, haha!
+LLM can always just ask (internally) to look through its own keys, ahaha!
 
 So specifically, activate that Chat with AI Assistant button to start this
 conversation.
@@ -3389,7 +3389,7 @@ studying, even at an advanced level, just as a beginner would. Hey, that's me!
 I'm always like a friggin beginner. Nothing seems to stick. Not Assembly. Not C.
 Not Java. Not JavaScript. I seem to be curly-braces-allergic, which is too bad
 because one of the end goals here is to have AI spittin out nunchuck-laden
-JavaScript for PageWorkers, haha!
+JavaScript for PageWorkers, ahaha!
 
 ## AI Coding: Speak Clearly to Get Better Results!
 

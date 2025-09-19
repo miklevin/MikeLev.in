@@ -326,7 +326,7 @@ You may open-ended pontificate, riff and ramble as your response, just as I do!
 
 ## Gemini 2.5 Pro (preview) Gives Me My Weekend Plan
 
-> I had to trim back the super-prompt from 160K tokens to 98K, haha! Don't bite
+> I had to trim back the super-prompt from 160K tokens to 98K, ahaha! Don't bite
 > off more than you can chew, I guess. There's that nice round 100K number. So
 > insightful!
 

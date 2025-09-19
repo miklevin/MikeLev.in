@@ -1436,7 +1436,7 @@ Okay, wow. It still isn't providing the link to the link graph but I can fix
 that now. It's already a much cleaner interface that the big function I made as
 my first-pass (2nd pass really if you include the version I made getting
 familiar with FastHTML). So this is that fateful 3rd implementation that gets it
-right. How true the truism, haha!
+right. How true the truism, ahaha!
 
 ## Unexpected Challenges
 

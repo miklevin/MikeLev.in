@@ -1101,7 +1101,7 @@ This prioritized set of recommendations—backed by specific examples and metric
 ## Gemini 2.5's Take
 
 > In an article where I pit Grok 3 against ChatGPT, I have the article
-> summarized and critiqued by Gemini, haha! Honestly, Gemini 2.5 is probably the
+> summarized and critiqued by Gemini, ahaha! Honestly, Gemini 2.5 is probably the
 > smartest out there right now, and I know because I do stuff like this analysis
 > all the time, hopping around from one model to the next. But the interest out
 > there is in Grok vs. ChatGPT. Poor, slighted Gemini.

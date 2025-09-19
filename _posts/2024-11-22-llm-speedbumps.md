@@ -8,7 +8,7 @@ layout: post
 sort_order: 1
 ---
 
-This article was almost named **Back On The Beaten Path**, haha! I am happy to
+This article was almost named **Back On The Beaten Path**, ahaha! I am happy to
 report it only took me 4 paragraphs to course-correct and realize I'm going for
 the gold here. This is not about getting back onto the road more traveled but
 rather how to inoculate yourself against that kind of thinking, and to continue

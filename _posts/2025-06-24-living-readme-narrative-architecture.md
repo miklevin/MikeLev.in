@@ -132,7 +132,7 @@ we embark on the age of AI where it needs to be cleaned up in much the same way
 as we cleaned them up as the world transitioned from Macromedia Flash Player...
 uh — I mean Adobe Flash Player, or is that Shockwave? Well, whatever TF it was,
 Steve Jobs killed it because iPhone and hating Adobe for dropping the Mac as the
-premium platform for Photoshop, haha! Spiteful SOB. Anyhoo, that combined with
+premium platform for Photoshop, ahaha! Spiteful SOB. Anyhoo, that combined with
 Google's push of the now deprecated AMP protocol (Accelerated Mobile Pages)
 which was all just really a social engineering ruse to get us to unify our
 websites with mobile-first responsive design and CSS media queries so we had one

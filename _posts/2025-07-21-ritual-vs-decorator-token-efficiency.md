@@ -278,7 +278,7 @@ Configuration over code I somewhat disagree. Once again it is because of the dif
 
 Oh, speaking of the plug-in workflows the numbering is to control the order on the drop-down menu. It's functional metadata. An easy mental model. It also keeps them sorted in most vile listing in a sensible order that groups like-roles.
 
-While I certainly do want to make this as delightful for AIs as I can in reviewing some of the things that would do it, I can see that the deviation that I deliberately created for competitive advantage is exactly where AIs get rubbed the wrong way, haha! I think perhaps it might be that I spell out the reasons for my anti-patterns where they occur so the LLMs don't wonder and balk. 
+While I certainly do want to make this as delightful for AIs as I can in reviewing some of the things that would do it, I can see that the deviation that I deliberately created for competitive advantage is exactly where AIs get rubbed the wrong way, ahaha! I think perhaps it might be that I spell out the reasons for my anti-patterns where they occur so the LLMs don't wonder and balk. 
 
 So extracting small utility files to make big classes smaller, I'm all for that if there are any meaningful examples. 
 

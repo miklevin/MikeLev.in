@@ -47,7 +47,7 @@ the algorithms and processes *that you know* are discovering you to continue to
 ignore you. Put the truth behind you knowing that they know about you with the
 stupid home-hosting tricks that allow you to monitor and analyze their bot
 visit ions to your site without the complexity or cost of doing that in a paid
-hosting situation. Become un-ignorable, haha! Make it shameful to not cite. Make
+hosting situation. Become un-ignorable, ahaha! Make it shameful to not cite. Make
 it undeniable evidence of such-and-such important topic covered here first. Make
 that part of the recurring pattern. Anticipate before others. Zero in one the
 actual important bits better. Functionally future-proof yourself in the age of
@@ -1397,7 +1397,7 @@ So I am back on the main branch now. All the above really is for you to absorb
 Gemini. I do believe that the only viable way to proceed is to add a mode by
 which I can temporarily turn off the auto-updating feature during development.
 But I'm not asking you to do that work yet because you won't be able to edit the
-`flake.nix` file, haha! Just think it through out loud with me.
+`flake.nix` file, ahaha! Just think it through out loud with me.
 
 **Gemini**: 
 

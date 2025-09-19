@@ -346,5 +346,5 @@ I notice it contains some HTML entities (—) which appear to be em dashes. If t
 
 ---
 
-> And of course Claude ends with some practical coding advice, haha! I'll
+> And of course Claude ends with some practical coding advice, ahaha! I'll
 > eventually have to do a global search & replace on my em-dash codes.

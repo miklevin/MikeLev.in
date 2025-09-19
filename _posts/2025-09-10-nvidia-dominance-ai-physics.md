@@ -75,7 +75,7 @@ The final section shifts to the philosophical implications of AI.
 
 ## Original Article (Summarized Above)
 
-Welcome to the site they do not want you to find... haha! As fast as I type that
+Welcome to the site they do not want you to find... ahaha! As fast as I type that
 I want to take it back. This is not clickbait. While I have a decent following
 on YouTube I have turned off monetization on all my videos because I've got a
 day-job and no real illusions of becoming a full-time YouTuber and *polluting*

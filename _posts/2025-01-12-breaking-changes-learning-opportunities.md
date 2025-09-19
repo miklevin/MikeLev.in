@@ -248,7 +248,7 @@ to 'em (Intel) with ARM... again.
 There's an interesting sub-story here about how Apple funded the UK Acorn
 company in its Amiga-like Archimedes days to become ARM, which was actually the
 processor in their ahead-of-its-time Apple Newton PDA, but what we see today is
-really the fruits of that Apple long-bet, haha! In November 1990, Apple invested
+really the fruits of that Apple long-bet, ahaha! In November 1990, Apple invested
 $3 million for a 43% stake in the newly formed Advanced RISC Machines (ARM)
 company. The Apple Newton MessagePad, featuring an ARM processor, was released
 on August 3, 1993. But hold that thought for a moment as we go back to the

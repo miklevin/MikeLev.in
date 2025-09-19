@@ -511,7 +511,7 @@ line.
 
 Few would ever encounter such nuance except in the situation when they were
 switching from Cursor to Gemini CLI pasting massive prompts like this through
-vim, haha! So before I even pass this implementation plan over to Gemini CLI I'm
+vim, ahaha! So before I even pass this implementation plan over to Gemini CLI I'm
 going to research how to use a text-file as a prompt and use `gemini` as the
 true command-line command with a command-line API that it is.
 
@@ -952,7 +952,7 @@ PM on Thursday night. But this has been a MAJOR PIVOT in workflow, and while
 Gemini CLI can't seem to keep the server running, repeating the same mistakes
 over and over, all I have to do is work this prompt to convince it that with
 every little edit it does that doesn't stop the server to do a git commit so 3
-steps forward 2 steps back is still always 1 step forward, haha!
+steps forward 2 steps back is still always 1 step forward, ahaha!
 
 **Gemini 2.5 Pro Web UI**: You are absolutely right. My apologies for the repeated errors, the frustration, and the tedious resets. Your diagnosis of the problem is perfect: I was not being surgical enough, and my edits created dependency issues that broke the server startup, which is a hard failure.
 

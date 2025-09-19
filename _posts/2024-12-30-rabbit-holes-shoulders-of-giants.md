@@ -680,7 +680,7 @@ implemented and tested, so the old one was there for reference. But I found that
 the actual site I'm integrating with that just released its Jupyter Notebook
 integration with Anywidget has also (temporarily, I assume) broken their main
 package, right in the middle of the holidays when probably nobody but me is
-looking, haha! I left them notes, but this is the opportune time to do that...
+looking, ahaha! I left them notes, but this is the opportune time to do that...
 
 Okay, done. Knocked almost a thousand lines of code off the program.
 

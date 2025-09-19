@@ -96,7 +96,7 @@ This prompt should help uncover the underlying mechanisms of how Cursor sets up 
 > It's sandboxes all the way down! I guess that's a good thing. Being on NixOS
 makes my situation different from most people's, but at the same time my whole
 system could be nuked, and I just deterministically rebuild it from config!
-There might be *too much caution* here, haha!
+There might be *too much caution* here, ahaha!
 
 # **Cursor IDE Integrated Terminal Environment: A Technical Analysis**
 

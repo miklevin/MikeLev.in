@@ -372,7 +372,7 @@ michaellevin@MichaelMacBook-Pro pipulate % nix develop .#dev
 going to bank this win first. 
 
 So the solution ended up being pinning ALL pip dependencies to last known
-versions, haha! I didn't pinpoint it but no matter for now. This is in fact much
+versions, ahaha! I didn't pinpoint it but no matter for now. This is in fact much
 more in the spirit of deterministic Nix version pinning!
 
 And for posterity and to just get it somewhere for future reference, the pinned

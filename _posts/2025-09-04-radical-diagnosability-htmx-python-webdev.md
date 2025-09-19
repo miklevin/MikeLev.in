@@ -138,7 +138,7 @@ Did I say back to the work at hand? No sorry, a little more reason-for-things
 first. The iron is hot for measuring whether the intelligence in AI is *"real"*
 along with its capacity for having genuinely original creative thoughts and even
 self-directed initiative. We haven't even answered these questions about humans
-ourselves yet, haha! And so... and so... well, the projects are so friggn
+ourselves yet, ahaha! And so... and so... well, the projects are so friggn
 accessible now and almost the same thing as what I've already built with
 Pipulate, I can't resist blending the two right as I do this big cleanup
 rule-of-7's thing I have planned.

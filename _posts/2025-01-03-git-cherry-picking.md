@@ -1166,7 +1166,7 @@ is. That's what's happening here. Now, I probably could have figured out this
 git cherry-picking thing on my own just googling up a storm and reading all
 those stackoverflow posts, sorting fact from fiction and good advice from bad.
 But here I have... well, AI where I have to sort fact from fiction and good
-advice from bad, haha! AI ain't gonna replace stupid anytime soon. No, rather
+advice from bad, ahaha! AI ain't gonna replace stupid anytime soon. No, rather
 it's gonna learn from it and attempt a continuation of those stupid, but very
 mainstream loved by the flock concepts. Outliers, be warned.
 
@@ -1438,7 +1438,7 @@ hardly ever do this. But I guess I would like to merge the changes I just did
 back into the main branch, then switch again to the main branch and get back
 into my linear way of working until I need to hop between parallel timelines
 again, making causality-disassociated patches when I need, now that I have the
-mental model, haha!
+mental model, ahaha!
 
 So what now, oh great o1 Pro big thinker?
 

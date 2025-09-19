@@ -67,7 +67,7 @@ Nvidia pivoted from gaming cards in home computers to massive GPU-farms in data
 centers for AI, which eventually led to their becoming the first trillion-dollar
 company. People using gaming cards for Bitcoin-mining likely showed up in a
 spreadsheet-style pivot of the first kind to make the business practice
-adjustments of the second kind. Doing the math on doing the math... haha! The
+adjustments of the second kind. Doing the math on doing the math... ahaha! The
 example becomes very meta in the case of NVidia where the hardware helps to the
 spreadsheet style pivot calculations. 
 

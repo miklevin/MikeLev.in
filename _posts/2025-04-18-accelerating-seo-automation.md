@@ -88,7 +88,7 @@ Jupyter Notebook top-down cell execution flow, it they might be more Rails-like
 CRUD apps (create, read, update, delete). Either way, there will be more and
 more of them as starting templates in the `pipulate/plugins` folder. It's a lot
 like how AIs are good at vibe coding with you when you tell them the GitHub
-project that you want your program to be exactly like. Examples help, haha!
+project that you want your program to be exactly like. Examples help, ahaha!
 
 ### The Need for Pipulate-Specific Examples
 

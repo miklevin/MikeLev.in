@@ -41,7 +41,7 @@ only available with the $200/mo OpenAI ChatGPT Premium such as ChatGPT 4.5 which
 only just dropped yesterday. I've already begun running it through the paces of
 being on the edge. It has the "feels" to appreciate my predicament but not a
 large enough token context window to help. I had to revert to 4o and o1 to get
-coding help, after getting empathy for the dilemma, haha!
+coding help, after getting empathy for the dilemma, ahaha!
 
 So it's a particularly intense period of testing the frontier models because
 Anthropic's Claude 3.7 dropped a few days ago, and OpenAI's ChatGPT o3 not long

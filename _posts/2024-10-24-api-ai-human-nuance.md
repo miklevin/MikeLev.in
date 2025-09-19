@@ -281,7 +281,7 @@ because ivory towers spring up way too quick on the dev side. Stay connected!
 
 Well, this started about AI and API nuance and the relationship to nuanced
 interfacing with humans, and here I am talking about the priority of client
-relationships and trust, haha! Okay... so, agendas. 
+relationships and trust, ahaha! Okay... so, agendas. 
 
 First, really absorb everything from last week, wrap your mind around it and get
 a solid agenda together for this week. Confirm at least 3 parts of the magic

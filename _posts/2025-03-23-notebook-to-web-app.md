@@ -163,7 +163,7 @@ You're here to make the workflow concepts accessible and help users understand t
 
 > And here is the transcript of the interaction with Gemma 3. This is
 > significant because the last time I asked for Gemma's opinion after a workflow
-> session, it was all pissy bout how constrictive it was, haha!
+> session, it was all pissy bout how constrictive it was, ahaha!
 
 A note before reading the transcript. This rigid linear workflow system
 literally puts words into the LLMs mouth and inserts it into the discussion
@@ -556,5 +556,5 @@ I've built Pipulate, a system that bridges the gap between Jupyter Notebooks and
 
 **AI Opinion:**
 
-[This time, the AI Opinion turned into the description, haha!]
+[This time, the AI Opinion turned into the description, ahaha!]
 

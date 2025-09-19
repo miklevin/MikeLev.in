@@ -747,7 +747,7 @@ Okay, but the point still stands. The Web is a killer user interface layer. Both
 ChromeOS and the Electron platform demonstrate this. Oh, another platform, WebOS
 from Palm sort of demonstrated it, though this also died... sort of. Hmmm, a lot
 of things that take up the Web as its main UI seems to die. Maybe I should do
-some rethinking, haha! 
+some rethinking, ahaha! 
 
 ### Pipulate's Approach to Web UI
 

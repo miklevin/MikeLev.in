@@ -509,7 +509,7 @@ dystopia, to Linus Torvalds rendering moot one of the greatest intellectual
 property battles of our time (SCO Linux). I'd be remiss if I didn't toss in
 Richard Matthew Stallman (RMS) who sort of finished Linus' Linux with the
 cloned Unix command-set and the nifty general public license (GPL) that really
-flipped the bird at corporate America, haha!
+flipped the bird at corporate America, ahaha!
 
 ### The Pioneers of Computing
 

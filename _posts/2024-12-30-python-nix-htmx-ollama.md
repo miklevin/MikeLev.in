@@ -248,7 +248,7 @@ philosophically solid patterns already laid down.
 And you can imagine other audiences, such as the over-trained enterprise
 architects who are just going to hate this if the ever saw it, unable to get
 themselves into the mindset of this being like an Electron app, with whole
-different sets of concerns. That's like you too, the LLMs, haha! So there's a
+different sets of concerns. That's like you too, the LLMs, ahaha! So there's a
 lot of overlap of audience here.
 
 ### Unique Value Proposition

@@ -122,7 +122,7 @@ way all the OSes allow you to today — though I think most people still don't u
 the feature. Apple blended it into their green-globe "maximize" window widget so
 people are sort of tricked into using it and getting the benefit on Mac now.
 Once upon a time it was ironically called Exposé — ironic because even with that
-name the feature remained long-hidden, haha! It wasn't until Apple forced it
+name the feature remained long-hidden, ahaha! It wasn't until Apple forced it
 upon the people by slipping it in where it only semantically made sense (imagine
 that). 
 

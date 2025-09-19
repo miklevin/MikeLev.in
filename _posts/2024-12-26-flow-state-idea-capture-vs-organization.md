@@ -421,7 +421,7 @@ rest of your life, so long as that thing you emailed yourself or that note that
 you jotted on your hand makes it into that text-file. But still, it's unwieldy.
 It's my old "no time to organize" mentality that has kept me a technology
 artisan into my mid-fifties, and not my own gallery owner or at least retired
-artisan, haha! But there's time. The iron is hot. We are at the dawn of AI, and
+artisan, ahaha! But there's time. The iron is hot. We are at the dawn of AI, and
 all my skills are uniquely keyed for this future. I just need to organize.
 
 ### The Evolution of Note-Taking Tools

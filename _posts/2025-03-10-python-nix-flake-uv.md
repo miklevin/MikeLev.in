@@ -29,7 +29,7 @@ This weekend was a bust figuring out Anthropic's MCP (model context protocol)
 because I went against the grain, 3-fold. I am not using a Mac or Windows
 desktop and I insisted on using `pip` instead of `uv`. And finally, I tried
 getting rid of the Pedantic MyPy static data typing style. I also considered
-making it synchronous, haha!
+making it synchronous, ahaha!
 
 I did all this to try to distill the MCP example down to as simple a "Hello
 World" of MCP as I could, but it was a total bust. The documentation turned out

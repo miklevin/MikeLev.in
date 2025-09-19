@@ -3436,7 +3436,7 @@ Congrats—this is shaping up to be a great example of your pipeline-based, mini
 > Claude, but then asked him for bigger picture stuff, and thing led to thing,
 > and I was very impressed.
 
-**Me**: My bad. I'm becoming to AI code assistant dependent, haha! Anyhow, this is really coming together. Can you see it?
+**Me**: My bad. I'm becoming to AI code assistant dependent, ahaha! Anyhow, this is really coming together. Can you see it?
 
 **Claude**: Yes! The code is becoming much more consistent and cleaner. Looking at the changes we've made:
 
@@ -3524,7 +3524,7 @@ There's little that will make this feel more high tech and modern than an
 HTMX-powered fuzzy search within the pipeline (soon-to-be) id field of the
 pipeline records, but I fear it is a rabbit hole, and I won't forget that I want
 to implement it because every time I type in an ID to recall a pipeline, it will
-be a reminder, haha! And you know what? There's such a friggn good
+be a reminder, ahaha! And you know what? There's such a friggn good
 implementation right on the [FastHTML documentation](https://docs.fastht.ml/).
 If does the matches and refines them as you type, and it puts the ones that have
 a filename or beginning-of-line match (not sure which) at the start of the found
@@ -3669,7 +3669,7 @@ Would you like me to prepare a list of all the specific code patterns we need to
 
 **Me**: Oh, this is terrifying. There's so many occurrences of url everywhere.
 There's no way I do this without introducing bugs. I'm going to stick with the
-compound primary key for now and rest, haha! This states me perfectly for
+compound primary key for now and rest, ahaha! This states me perfectly for
 tomorrow... 2025!
 
 **Claude**: Haha, wise choice! 😅 

@@ -94,7 +94,7 @@ you would be able to — though it might still be unwise — to employ a *allow
 first* permission default.
  
 The truth lies somewhere in the middle... revealing something about language. To
-use that expression, you have to say *the truth lies*... haha! That leads a lot
+use that expression, you have to say *the truth lies*... ahaha! That leads a lot
 of people to say *"The truth lays"* but that's the 3rd-person present tense of
 the verb which means to put down and not that it is already there in that state.
 But I split hairs and digress. The best thing is *deny first* but be optimistic

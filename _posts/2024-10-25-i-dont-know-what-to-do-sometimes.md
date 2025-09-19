@@ -696,7 +696,7 @@ form Google. This NixOS/nix, FastHTML, Ollama union into... what?
 
 It's a web app chipped as flakes off the core. Connect all the dots of this
 project in one easy installer. I will work from NixOS as my daily use core stone
-from which I chip off (from Chip O'Theseus) new `flake.nix`'s, haha! IaC
+from which I chip off (from Chip O'Theseus) new `flake.nix`'s, ahaha! IaC
 subsystems carried around with git repos. Who cares if it's actually Linux there
 if you're on Mac or Windows? It's similar to  how Electron aps like VSCode or
 Slack work, but without NodeJS and not trying to hide that it's a webserver.

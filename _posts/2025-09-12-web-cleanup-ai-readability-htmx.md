@@ -256,8 +256,8 @@ but I know that the installation copies and puts it in location. This is a
 perfect opportunity to test the new *partial install* feature that I added with
 the `nix develop .#dev` command which lets me run the installation procedure
 without automatically doing the `git pull` that does the auto-update off the
-GitHub repo thus writing-over and cancelling out my new local work, haha! I
-wrote an accidental *Useless Machine* aka "Leave Me Alone Box" haha! And I had
+GitHub repo thus writing-over and cancelling out my new local work, ahaha! I
+wrote an accidental *Useless Machine* aka "Leave Me Alone Box" ahaha! And I had
 to support optionally disabling the auto-update if I wanted to test anything
 that was part of the installation procedure. And this is perfect.
 
@@ -291,7 +291,7 @@ README.md flake.nix
 [mike@nixos:~/repos/pipulate]$
 ```
 
-Wow, nice. Talk about a *Useless Machine* haha! This pipes from `rg` to `xargs`
+Wow, nice. Talk about a *Useless Machine* ahaha! This pipes from `rg` to `xargs`
 without applying it against any program needing the args. And we can do that in
 a sort of testing mode by simply leaving off the `-i` argument of `sed` which
 stands for *in-location* so without it doesn't actually write the search/replace

@@ -372,7 +372,7 @@ really your main job, well that's the formula for frustration and burnout.
 
 Yeah, I'm in my mid-50s and not in the position to take up that sort of nonsense
 again. So nix flakes lets me shift the burden of hosting onto infinitely
-scalable little instances that I indemnify myself from, haha! Local hosting is a
+scalable little instances that I indemnify myself from, ahaha! Local hosting is a
 great option when the localhost is whatever machine you're sitting at, and it
 works every time... for everyone... on every OS... forever into the future,
 because versions are uniquely pinned on a uniquely "normalized" or common
@@ -421,7 +421,7 @@ work, but then look for opportunities to automate the proprietary work we do
 USING this framework. Shifting form "explore" to "exploit", such as the
 Algorithms for Life book talks about. And of course in my mid-50s, this really
 resonates with me, as I'm far further than the 30% optimal stopping distance
-they suggest before switching from explore to exploit, haha! I'm going to be an
+they suggest before switching from explore to exploit, ahaha! I'm going to be an
 old man coding Python, joking with the AIs about how it used to be in the good
 old days when they were just barely coming alive.
 

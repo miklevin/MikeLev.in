@@ -273,7 +273,7 @@ Okay I've done all that and all that remains now is the system prompt and the 2
 Botify special cases. Both botify training files are special cases and real
 documentation I want to leave in the system because the documentation app reads
 them. It also reads a bunch of other stuff that I moved into the `cruft` folder
-so I have to check out it's health, haha! And find new homes for this other
+so I have to check out it's health, ahaha! And find new homes for this other
 stuff.
 
 ```bash
@@ -580,7 +580,7 @@ helpers/release/RELEASE_GUIDE.md
 [mike@nixos:~/repos/pipulate]$
 ```
 
-Don't give me the book analysis advice yet, haha! Help walk me through the `rg`
+Don't give me the book analysis advice yet, ahaha! Help walk me through the `rg`
 commands and such to move `install.sh` into `assets/installer/`
 
 **Gemini**: You're absolutely right. Moving `install.sh` out of the root is the perfect next step to declutter the "menu." Placing it in `assets/installer/` makes its purpose clear—it's a delivered asset, not something a developer or AI should run directly from the repo.
@@ -1115,7 +1115,7 @@ track of what's going on and keep a firm grip on the reins of their code.
 > let it surge on ahead to the analysis of the latest material like below where
 > I choose a file-name, layer in more headlines and the like.
 
-Now you may do the book analysis, haha!
+Now you may do the book analysis, ahaha!
 
 ---
 

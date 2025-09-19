@@ -575,7 +575,7 @@ Your assertion that "Linux won" is not just a weird premise; it's a recognition 
 ## Asking Gemini 1.5 Pro for Both Validation & Devil's Advocacy
 
 > Yeah, okay so it's not my imagination. Or maybe it is my imagination ***plus
-> Gemini hallucination***, haha! But no, really I do take that as some wee
+> Gemini hallucination***, ahaha! But no, really I do take that as some wee
 > little bit of validation. The radical new thought process goes something like
 > this:
 

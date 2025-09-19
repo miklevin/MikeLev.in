@@ -49,7 +49,7 @@ controlled deterministic Nix Flake packages, so relative file-locations work and
 ### Creating the Botify Token Workflow
 
 Okay, so a whole Pipulate Workflow will be dedicated to just acquiring the
-Botify token, and that will be my first example for workflows, haha! It only
+Botify token, and that will be my first example for workflows, ahaha! It only
 applies to Botify employees, but the technique can apply to anything. You start
 the workflow. It checks if a value is in location. If not, it immediately pops
 open a page from the Web -- maybe even immediately upon choosing the plugin from
@@ -106,7 +106,7 @@ Okay, so we want it to read "Connect With Botify" in a sort of marketing sense.
 It's going to get into the main Pipulate repo and the dropdown menu choice has
 to make sense. It's actually to connect with Botify API-wise, but it can be read
 the other way as a sales function, and I'll be sure to put the correct wording
-in the user interface so that it works that way as well, haha! Maybe I should
+in the user interface so that it works that way as well, ahaha! Maybe I should
 ask for commission on any Botify sales that happen as a result of Pipulate.
 
 ### The Plugin Creation Process

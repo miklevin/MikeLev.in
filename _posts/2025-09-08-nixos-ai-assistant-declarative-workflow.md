@@ -201,7 +201,7 @@ have a system without something and you need to add something and you don't want
 some stupid dependency to get it, it's almost always some variation of how
 Homebrew is installed. That is to say something is *fetched from the Internet*
 and then *executed* with some reliable executor for that host OS. Oddly it's
-*still* `/bin/bash` on the Mac even though they switch to `zsh`, haha! Anyhow,
+*still* `/bin/bash` on the Mac even though they switch to `zsh`, ahaha! Anyhow,
 this is the command to install Homebrew:
 
 ```bash
@@ -244,7 +244,7 @@ I'm working towards using the *magic rolling pin* procedure here on this
 blog-like tech journal I'm making as the fodder for the *Future-proofing in the
 age of AI* book. It's all in here, just spread across stream of consciousness
 writing as I go from one pivotal crossroads point to the next to the next to the
-next, haha! It's a time of great change and transition and the safe harbors are
+next, ahaha! It's a time of great change and transition and the safe harbors are
 in these weird oldschool places that have become inextricable parts of the
 fabric of the tech landscape; things like the command-line and vim. It's a
 bitter pill to swallow, but most people are going to be caught in the middle of

@@ -1236,7 +1236,7 @@ organization, per the teachings of the economic guru Peter Drucker. And to do it
 in a way where I manage the total quality (total quality management aka TQM)
 per the teachings of another economic guru Edwards Deming. The former often
 credited with the recovery of Japan post WWII, and the later with the recovery
-of Harley Davidson, haha! In either case, it's a one/two-punch of clarity in the
+of Harley Davidson, ahaha! In either case, it's a one/two-punch of clarity in the
 types of things I'm doing here.
 
 ### Practical Implementation

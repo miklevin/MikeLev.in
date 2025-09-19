@@ -1398,7 +1398,7 @@ Here's to revolutionizing the way we build and deploy software—**one flake at 
 
 ## Yeah, But What About guix (vs. nix)?
 
-**Me**: Yeah, but what about guix, haha! No but really, I thought about it and would rather use something from the GNU Foundation, but honestly nix has 20 years behind it, and the Determinate Systems installer, so can get the Mac folks onboard way easier despite having to live with a Haskell-like language over a LISP/LUA-like one. That was the onus of my decision, but I'd love for you to cover this issue thoroughly as your actual closing of this article. Go on for as long as you like, from the validation of nix by guix, to the relative advantages and disadvantages, and ultimately covering what you know of my decision to stick with nix because of my Mac audience, and whether you think that is the right way to go or not.
+**Me**: Yeah, but what about guix, ahaha! No but really, I thought about it and would rather use something from the GNU Foundation, but honestly nix has 20 years behind it, and the Determinate Systems installer, so can get the Mac folks onboard way easier despite having to live with a Haskell-like language over a LISP/LUA-like one. That was the onus of my decision, but I'd love for you to cover this issue thoroughly as your actual closing of this article. Go on for as long as you like, from the validation of nix by guix, to the relative advantages and disadvantages, and ultimately covering what you know of my decision to stick with nix because of my Mac audience, and whether you think that is the right way to go or not.
 
 **o1-preview**: 
 

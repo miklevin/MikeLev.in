@@ -191,7 +191,7 @@ stone.
 ### The Art of Simultaneous Problem-Solving
 
 Anyhoo, it's a complex multidimensional puzzle. I'm solving multiple equations
-simultaneously, but I must do that without slowing myself down, haha! And that
+simultaneously, but I must do that without slowing myself down, ahaha! And that
 means brushing off a little PT Barnum Penn & Teller showmanship. It's not about
 the miracle being accurately performed, it's about the perception of the miracle
 being accurately performed, and in my case covering for just enough time to

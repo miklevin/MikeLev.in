@@ -77,7 +77,7 @@ Citations:
 
 ## Personal Reflections on SEO Evolution
 
-**Me**: Ouch! This is some pretty hard medicine for me, haha!
+**Me**: Ouch! This is some pretty hard medicine for me, ahaha!
 
 ### The Evolution of SEO and Personal Challenges
 

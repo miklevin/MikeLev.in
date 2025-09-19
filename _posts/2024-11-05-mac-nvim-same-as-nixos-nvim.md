@@ -164,7 +164,7 @@ that***.
 Have a plan for all the things that are going to be done, not disappointing
 anybody and not disappointing myself. And that means putting this sort of
 strategic thinking in on the client issues, and real soon now too, and somewhere
-other than the public work journal, haha! I share a certain amount here based on
+other than the public work journal, ahaha! I share a certain amount here based on
 the Robert Cialdini principle of commitment and consistency. Tell a story and
 commit yourself to that story and it becomes real. We do that anyway in our
 lives, so why not do it as a self-improving life-hack with intentionality and
@@ -223,7 +223,7 @@ while you make it `jekyll serve --livereload`, and back to the reason for this
 entry— delighting the clients! This was the "settling in" that you have to
 do after such a long stint not coming into the office and not being on Mac as
 your primary machine. Once again, it's that concept of doing kata during warm-up
-to (re-)train your muscle memory. It's just like being an AI, haha! Hot prompt
+to (re-)train your muscle memory. It's just like being an AI, ahaha! Hot prompt
 injection. The Kung Fu download. Okay, okay...
 
 Cursor AI earned its place as Screen 2, even on the Mac in day-job context
@@ -427,7 +427,7 @@ Alright, I can feel more comfortable coming into the office again knowing that
 my Macbook experience is going to not be sub-par with my increasingly awesome
 NixOS experience. The difference in how you work when big chunks of your system
 are deterministically built from textfiles is transforming. Literally,
-transforming haha! I was impressed by `configuration.nix` with its ability to
+transforming ahaha! I was impressed by `configuration.nix` with its ability to
 apply the single textfile-builds-machine trick to your whole system, but now
 it's really dawning on me that you have a ***core stone*** from which you
 ***chip flakes***. The core rock is `configuration.nix` and the chipped flakes

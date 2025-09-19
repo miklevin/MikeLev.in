@@ -18,7 +18,7 @@ What follows is a raw, in-the-moment thought process that weighs the benefits of
 
 ## The Privacy Paradox: To Train or Not to Train
 
-Alright, it's always a pivotal point in the Pipulate project, haha! Okay, let's
+Alright, it's always a pivotal point in the Pipulate project, ahaha! Okay, let's
 think! I've always kept Cursor AI in Privacy Mode which they now call Legacy. I
 don't really even know whether Cursor is abiding by Privacy Mode anymore. The
 intent is to keep the models from training on your data, especially if you have
@@ -230,7 +230,7 @@ it has to result in that hierarchical structure that abides by the rule of 7.
 And we're working up to that. It helps solve my immediate problem with the glut
 of files in Pipulate and it also helps massage this public website into the
 eventual book — organically, repeatedly and... as the Vulcans say, in infinite
-diversity in infinite combinations, haha! 
+diversity in infinite combinations, ahaha! 
 
 There will be various extracted and derived versions for different purposes and
 audiences. Some will be illustrated and light while some will be text-only and

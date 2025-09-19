@@ -109,7 +109,7 @@ cp -r workflows ../pipulate/
 
 Okay, the pipulate repo is set up to become my new main working directory. This
 effectively amounts to a re-basing of the code. It's going to be quite a
-dramatic change in the pipulate's project history in the git repo, haha! But I'm
+dramatic change in the pipulate's project history in the git repo, ahaha! But I'm
 keeping it intact and in the main branch. Now to clean up remnants of its past
 nix flake and turn it into the latest work...
 
@@ -139,7 +139,7 @@ when `app_name.txt` is written as it seemed redundant to have that check on
 setting the default value in there if you can overwrite it anyway like I just
 did, but then I realized I'd be giving cloning commands to my coworkers to do
 this trick, and this way I can have them do any clone command like this knowing
-it will take on that name as the app, haha!
+it will take on that name as the app, ahaha!
 
 ```bash
 git glone git@github.com:miklevin/pipulate botifybot

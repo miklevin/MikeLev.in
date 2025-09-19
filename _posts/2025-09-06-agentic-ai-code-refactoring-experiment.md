@@ -279,7 +279,7 @@ After adding this and rebuilding your system (`sudo nixos-rebuild switch`), the 
 
 Okay, that worked and I now have Gemini 2.5 Pro in the "command-line". Okay,
 true it is running in the command-line but I can see all the webbiness about
-this. This Gemini CLI interface is written in TypeScript, haha! That is ironic
+this. This Gemini CLI interface is written in TypeScript, ahaha! That is ironic
 for so many reasons. Okay, sure Google is jumping on the bandwagon that GooseAI
 somewhat innovated and probably something before that, but Goose is what made
 the command-line agent tools penetrate my radar. And Anthropic jumped on the

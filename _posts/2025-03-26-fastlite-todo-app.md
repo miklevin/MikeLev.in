@@ -837,7 +837,7 @@ that would work with any LLM. You basically super-simplify the task and train it
 right before you ask it to do the thing, and it slips JSON into the response
 stream. But now there's MCP, and if that home-spun function tool calling broke
 when I externalized Todo, so be it! It was a chance to gut out some old code
-that the LLMs themselves call fragile, haha! MCP is the right way to do that
+that the LLMs themselves call fragile, ahaha! MCP is the right way to do that
 stuff these days, or at least formal tool-call protocol per one of the competing
 protocols. 
 

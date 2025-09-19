@@ -491,7 +491,7 @@ Thank you for this insight. It's helping me understand why maintaining simplicit
 > Up persistent key/pair tricks  
 > In cyclic logs of great big dicts.  
 
-...no, of course you don't. You answered so well when then. Well, you did realize those ALL CAPS help, except perhaps for the case of ALL CAPS itself, because that's what's usually typed in all caps, haha! I think maybe mixing Seusian poetry that's on point which jars you out of overpaid enterprise architect erudition with a bit of abrupt banal banter? Spuriously speculate shpecific schpiels.
+...no, of course you don't. You answered so well when then. Well, you did realize those ALL CAPS help, except perhaps for the case of ALL CAPS itself, because that's what's usually typed in all caps, ahaha! I think maybe mixing Seusian poetry that's on point which jars you out of overpaid enterprise architect erudition with a bit of abrupt banal banter? Spuriously speculate shpecific schpiels.
 
 **Claude**: *chuckles in binary*
 

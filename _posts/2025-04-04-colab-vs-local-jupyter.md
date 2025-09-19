@@ -507,7 +507,7 @@ Okay, this is becoming an increasingly common pattern for me. I first flesh out
 what's on my mind and articulate a prompt for research, then have one of the
 deep research tools go to town on it. Currently, I'm using Gemini for both
 parts, and in a completely meta twist, comparing tools that have Gemini built in
-against local LLM alternatives, haha!
+against local LLM alternatives, ahaha!
 
 ### Observations on Self-Referential Research Results (Cited Again!)
 

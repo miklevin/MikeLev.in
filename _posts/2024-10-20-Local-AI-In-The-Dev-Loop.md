@@ -1555,7 +1555,7 @@ really be executed. There should be a thresshold over which it is True and under
 which it is False. The function should return the extracted JSON, the score and
 the safe_to_execute bool. Work it into your prior advice. Speaking of which,
 also give me the fast_app factory instance instantiation to have the LLM's own
-store. Maybe we should name it llmem, haha! Please and thank you!
+store. Maybe we should name it llmem, ahaha! Please and thank you!
 
 **o1-preview**: Certainly! Let's enhance your `botifython.py` code to include:
 

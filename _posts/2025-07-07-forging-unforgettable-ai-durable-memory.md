@@ -28,7 +28,7 @@ lost control, regained control, lost control and regained it again.
 
 > Here's Claude's organized summation of my weekend's work. I put it up-front in
 > the article to counterbalance the *"chaotic"* writing style that comes later,
-> haha!
+> ahaha!
 
 &lt;think&gt;
 

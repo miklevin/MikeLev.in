@@ -170,7 +170,7 @@ Citations:
 
 Hmmm, I can rule out ChatML. I don't want pointy brackets required in my
 markdown. Not having pointy brackets is why we're using markdown (over HTML) in
-the first place, haha!
+the first place, ahaha!
 
 Similarly, I don't want JSON. It's got to be comfortably readable documents for
 humans. Looking at it should almost not scream AI training material. It should
@@ -182,7 +182,7 @@ transition for both humans and LLMs reading it. The format I choose should lean
 into that and make the most of it. Surprising, humorous, but totally sensible!
 
 Context-Question-Answer format seems the most sensible. I'm literally switching
-context on them from README to AI/Human training material, haha! So I get to
+context on them from README to AI/Human training material, ahaha! So I get to
 literally spell out the context switch. I love a good use of literally that is
 literally correct!
 

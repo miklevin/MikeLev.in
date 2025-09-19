@@ -149,7 +149,7 @@ This was fresh after the Electron platform came out which let Chrome become the
 user-interface component of desktop software providing easy cross-platform
 porting and GitHub ATOM jumped on that. It was taking over. Then Microsoft came
 along and bought GitHub for $7.5 billion dollars and put the kibosh on ATOM
-after they promised they wouldn't. And now you're all on VSCode, haha!
+after they promised they wouldn't. And now you're all on VSCode, ahaha!
 
 Just like when I felt I had to switch from vim to NeoVim to kick the tires of AI
 in the closes thing to my favorite environment, I also held my nose and became a

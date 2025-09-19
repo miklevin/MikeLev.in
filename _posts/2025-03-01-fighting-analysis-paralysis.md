@@ -272,7 +272,7 @@ built with my framework:
 
 > As usual, I go for a summary of the article to get a good description for the
 > top. As of yet, I have not been able to get Gemini to do 1st-person first
-> pass, haha!
+> pass, ahaha!
 
 **Gemini 2.0 Advanced**: This article is a personal reflection on overcoming analysis paralysis in SEO consulting, emphasizing action over planning. The author advocates for immediate client communication and iterative, two-week project cycles, leveraging JavaScript SEO edits via PageWorkers. They explore transitioning from traditional PowerPoint presentations to YAML-based storytelling for structured data and streamlined workflows, while navigating the complexities of a NixOS replatforming and HTMX learning curve to simplify and future-proof their system.
 

@@ -128,7 +128,7 @@ learn to do full accumulating conversation-history postbacks again. It's like
 the days of ASP.NET with its kooky postback system. Magic payload bundles will
 have to assemble themselves quietly and transparently in the background (just
 like they do today with chatbots), except that ugly workload is going to be on
-the webdev people instead of the back-end cloud people, haha! Expect a new round
+the webdev people instead of the back-end cloud people, ahaha! Expect a new round
 of frameworks-galore! It's really an amazing way for a new breed of heavyweight
 JavaScript frameworks to steal the glory from Angular/React/Vue/Svelte. Ready or
 not, here comes NLWeb!
@@ -179,7 +179,7 @@ where and whether people spend time, and presumably the correlations with what
 they searched with in Google to get there. If people like what they find, you
 get more search results and the ball gets rolling and the mass builds and
 compounding returns start to accumulate. Or the reverse and your site traffic
-tanks, haha! Anyway, even though correlation doesn't mean causation, the
+tanks, ahaha! Anyway, even though correlation doesn't mean causation, the
 connection between receiving search traffic and accumulating CWV data (for
 better or for worse) is undeniable.
 

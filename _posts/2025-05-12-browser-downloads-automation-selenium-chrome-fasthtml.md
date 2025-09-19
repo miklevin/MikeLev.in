@@ -331,7 +331,7 @@ select these files from your download directory and upload them into the
 workflow. And suddenly the next step of what we're working on becomes file
 uploads! And now we're in well-traveled FastHTML territory! And I can work on it
 like a standalone widget: multiple file uploads! You just happen to do it
-typically in this use case from out of your Downloads directory, haha!
+typically in this use case from out of your Downloads directory, ahaha!
 
 Okay, for this next bit of this long article for establishing super-prompt
 context, I outright lift this from [Daniel Corin's Way Enough

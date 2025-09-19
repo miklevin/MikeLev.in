@@ -19,7 +19,7 @@ Consider this your backstage pass to the chaotic yet beautiful process of buildi
 ### The Day Begins
 
 Okay, I've wrapped up my first day of coding work on this fine Saturday, and
-it's time to start my second, haha! It's only coming up on 7:00 PM. I started at
+it's time to start my second, ahaha! It's only coming up on 7:00 PM. I started at
 around 8:00 AM, and I'm not out of steam yet and there's a project that's
 sparked my interest that truly gives this whole thing the sort of polish and
 "something special" feeling it's going to need to go viral.
@@ -169,7 +169,7 @@ down, because it's so strongly visualized. That was the case with creating
 something that blended the Cells of Jupyter Notebooks with the command-line Unix
 pipe concept, all under something that used HTMX as the API in a Python
 framework. Ugh! It was indeed like solving simultaneous equations — solving
-a multi-dimensional jigsaw puzzle just to get it flat and linear again, haha!
+a multi-dimensional jigsaw puzzle just to get it flat and linear again, ahaha!
 
 ## The Jupyter Notebook Evolution
 

@@ -397,7 +397,7 @@ vim-mode.
 Ugh, am I just avoiding now getting to the meat of the matter? I think I am.
 Okay, this is the agency and autonomy piece. Thinking and talking "out loud" by
 articulating thoughts as you type them into vim can help you correct your
-course. It might take you days, or even weeks or years in my case... haha! But
+course. It might take you days, or even weeks or years in my case... ahaha! But
 you get it done. You become aware of the course of your ship and make tiny
 course corrections.
 

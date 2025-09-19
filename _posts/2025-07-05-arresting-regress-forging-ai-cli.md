@@ -696,7 +696,7 @@ else:
 ```
 
 ...every time. I mean it's impressive and all, but not every LLM I'm going to be
-enlisting to do this stuff is Claude 4 Sonnet, haha! And I know there's
+enlisting to do this stuff is Claude 4 Sonnet, ahaha! And I know there's
 registering MCP tools in with the host program like Cursor, and maybe that's the
 way. Investigate a bunch of stuff. If we controlled the ENV and aliases better,
 we'd just make a simple terminal command that apes the official MCP protocol but

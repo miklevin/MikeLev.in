@@ -10,7 +10,7 @@ sort_order: 2
 > I fed the prior article into Claude 4 Sonnet directly from the Anthropic site
 > to see what it thought about it given it was all an exercise in using the
 > Cursor Small model. It immediately re-wrote it to be more *accessible* to you,
-> haha! So here it is.
+> ahaha! So here it is.
 
 ## The Meta-Irony of AI Collaboration
 

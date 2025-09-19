@@ -816,7 +816,7 @@ Embrace the shift. Dive into the world of HTML over the wire, and discover how a
 
 > Alright. It's afternoon, and I've done enough studying, rambling and learning.
 > Now it's time to shift gears to some doing, following my own step-by-step
-> guide... on the next article, haha!
+> guide... on the next article, ahaha!
 
 ---
 

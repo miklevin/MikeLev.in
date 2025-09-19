@@ -70,7 +70,7 @@ individually outside the FastHTML `fast_app` constructor and these are the best
 initial targets for the transplant because they should only occur one place in
 all the Pipulate code and so have no search/replace.
 
-Okay, all the rest in the JavaScript family are the s's, haha!
+Okay, all the rest in the JavaScript family are the s's, ahaha!
 
 - split.js
 - Sortable.js

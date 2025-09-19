@@ -2580,7 +2580,7 @@ This solution requires only minimal changes—no heavy refactoring or extra synt
 Does that seem like a workable, low‑overhead approach that aligns with your goals?
 
 **Me**: Okay, I'm game. This is going to illustrate the pain of not using a
-BaseFlow superclass, haha! Okay, let's start with a full training on MiniDataAPI
+BaseFlow superclass, ahaha! Okay, let's start with a full training on MiniDataAPI
 spec so that you don't get it wrong:
 
 [Pastes from the FastHT.ML readthedocs site]

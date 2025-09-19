@@ -400,7 +400,7 @@ pattern in the sed command.
 
 Anyway, please update the prompt one more time to compensate for Google's shitty
 tool-calling. If it's any consolation it took Anthropic Claude forever to
-overcome these kinds of hurdles in Cursor AI too, haha!
+overcome these kinds of hurdles in Cursor AI too, ahaha!
 
 **Gemini 2.5 Pro Web UI**: You've hit the nail on the head. The agent is getting stuck in a loop because its built-in `replace` tool is too rigid and lacks the power of proper shell utilities. Forcing it to use a more robust, battle-tested tool like `sed` combined with `git` for verification is the correct path forward.
 
@@ -734,7 +734,7 @@ my bases detail as you can so that when I approach the next challenge like this
 I have a super-effective "pre" prompt to help me write a super effective prompt.
 Make sure it includes each thing that was a snafu, especially those things that
 were recurring snafu's — which is perhaps redundant considering the definition
-of snafu, haha!
+of snafu, ahaha!
 
 Whereas a typical military operation proceeds from SNAFU to TARFU to FUBAR with
 a predictable and avoidable downward spiral — the best-laid plans never survive

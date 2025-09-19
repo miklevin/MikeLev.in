@@ -242,7 +242,7 @@ anything else, though such flakes stop being portable, of course.
 
 So this article ended up being a general overview of Nix and NixOS. I only
 really intended for it to be a reminder to myself about the `--upgrade` switch
-after the word `switch`, which is not a switch but rather a subcommand, haha!
+after the word `switch`, which is not a switch but rather a subcommand, ahaha!
 
 ### Command Inconsistencies
 

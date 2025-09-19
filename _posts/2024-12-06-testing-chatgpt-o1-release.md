@@ -771,7 +771,7 @@ Here are some thoughts and potential next steps:
 Thanks, Gemini Advanced Pro. You always know how to sum up gargantuan amounts of
 tokens. That's why I pay for you for now. You know, o1's catching up. Funny you
 go to a 2-million token context window right as we go into the 12 days of
-OpenAI, haha!
+OpenAI, ahaha!
 
 ---
 

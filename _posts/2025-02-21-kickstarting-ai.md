@@ -225,7 +225,7 @@ president of the United States if asked. And it's not because of the training
 cutoff date. It's got specific keyword filtering in place. It's utterly
 ridiculous, a month into the new presidency. It's eroding Gemini's credibility
 in my mind, no matter how smart it is. More specifically, it's eroding Google's
-credibility in my mind. Don't be evil? Evil thus announces itself, haha! They
+credibility in my mind. Don't be evil? Evil thus announces itself, ahaha! They
 are the epitome of "if you don't pay for the product, you are the product." And
 this is particularly sad and poignant given how vocal about and opposed to that
 very issue they were in their early days. And then they went public.

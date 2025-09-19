@@ -914,7 +914,7 @@ cells" from Jupyter Notebooks — a particular impression I'm trying to instill.
 
 And then finally, if I went this far I really should go the rest of the way
 making this example have a Step 6 that does properly implent MarkedJS, where all
-of this began, haha! If I'm really simulating Jupyter Notebooks without the
+of this began, ahaha! If I'm really simulating Jupyter Notebooks without the
 Python then I should certainly support Markdown cells.
 
 ## Oh Yeah, Markdown

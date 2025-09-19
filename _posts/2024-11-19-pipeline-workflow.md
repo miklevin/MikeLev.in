@@ -306,7 +306,7 @@ Okay... don't have to write it right now. Just have to bank the win. Pipeline.
 Workflow. Tuple-spitting SQLite components... but no database libraries imported
 beyond `from fasthtml.common import *`... wow! Everyone's gonna hate this from
 the VSCode linters to the enterprise snobs who're first gonna try to web host
-it, then malign it as bad code, haha! Yup. Be brave and bold, Mike. This is not
+it, then malign it as bad code, ahaha! Yup. Be brave and bold, Mike. This is not
 a Web app. It's a web app.
 
 Oh, I get it! That's what it is to Pipulate. I've been wondering. Okay, so this
@@ -1971,7 +1971,7 @@ The 2 great gurus of modern business:
   using feedback from the right sources (e.g, the factory floor workers)
 
 Get like 1-hour of power-nap sleep, then spring back. 3 client meetings today.
-The big one is at 10:00 AM, haha! It's 4:30 AM. You got this, Mike.
+The big one is at 10:00 AM, ahaha! It's 4:30 AM. You got this, Mike.
 
 And there's always Gemini-Advanced who can take this entire article as input,
 and whose output I'll sleep on... and plug the url back into Card 1 in an hour,

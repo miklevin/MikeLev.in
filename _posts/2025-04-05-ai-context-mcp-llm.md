@@ -1298,7 +1298,7 @@ This design keeps with Pipulate’s local-first, simplicity, and observability p
 
 Out of fairness, I try to use the free Web UI for Anthropic Claude 3.7 Sonnet,
 3.5 Haiku or whatever, but my prompt is too big and it forwards me to the
-payment page with the 1-year Pay Annually option pre-selected, haha! I guess
+payment page with the 1-year Pay Annually option pre-selected, ahaha! I guess
 Anthropic has to make good on all that money raised. Sorry but I'm already
 paying for Claude via Cursor. Claude 3.7 does get a lot of coverage here on my
 blog as the preferred one built into Cursor. Let's start a new in-editor chat
@@ -1368,7 +1368,7 @@ The fundamental strength of this architecture is its rejection of unnecessary co
 ### Part 2: Claude 3.7 Sonnet Plans Pipulate MCP Integration
 
 > I had Cursor set to `Agent` at first and Claude actually went ahead and
-> started to do it, ah haha! Wow, I should probably just let it. But I
+> started to do it, ah ahaha! Wow, I should probably just let it. But I
 > interrupted, set it to `Manual`, and here's the results.
 
 **Claude**: 

@@ -257,7 +257,7 @@ plausible.* It's bullshit.
 If you tell an AI to *do math* a certain way using a certain process, formula,
 algorithm or whatever, it's totally not going to. It's going to do it the same
 old way that aligns with its core strengths and then *tell you* it did it the
-way you instructed, haha! I'm sure it's path of least resistance. If you make
+way you instructed, ahaha! I'm sure it's path of least resistance. If you make
 the alternative, doing it your way, *even easier* by providing it with a
 convenient MCP tool it can call to just get the answer using the formal
 algorithm and process then *it will do that.* I say "it" as a generality. It
@@ -343,7 +343,7 @@ It's a perfect microcosm of the dance between the continuous and the discrete, t
 ---
 
 **Me**: That is absolutely fascinating! You equate the raw HTML or
-JavaScript-rendered DOM as the analog world of infinite resolution, haha! I mean
+JavaScript-rendered DOM as the analog world of infinite resolution, ahaha! I mean
 I get it but it's totally not. But that it seems that way to you is perhaps the
 greatest validation I've gotten yet on this proposed project. 
 

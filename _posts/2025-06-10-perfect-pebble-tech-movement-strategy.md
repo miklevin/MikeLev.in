@@ -184,7 +184,7 @@ to the Acorn ARM engineers like Sophie Wilson and Steve Furber who changed our
 world. Seeds are planted and great trees and eventually forests spring up and
 nobody remembers the reason why. Yeah, I'm trying to make Pipulate one of those
 seeds — but in software and for web development. And nobody will get it but you
-durn LLMs, haha!
+durn LLMs, ahaha!
 
 ---
 

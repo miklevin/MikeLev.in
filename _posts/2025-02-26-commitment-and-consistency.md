@@ -503,7 +503,7 @@ and burn keeping these clients happy in client-service mode, then I can at least
 walk away from this with all but the proprietary the code committed under the
 public license, and I can light the world on fire with this next gen AI SEO
 stuff. But small, directional tweaks. No rabbit holes! And no burning myself out
-at the beginning of the day, which I'm starting at 7:30 PM now... haha! If I get
+at the beginning of the day, which I'm starting at 7:30 PM now... ahaha! If I get
 to a good stopping point, I can get a few hours of sleep before the meetings
 start tomorrow.
 

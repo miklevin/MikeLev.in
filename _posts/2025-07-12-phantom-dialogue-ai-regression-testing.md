@@ -184,7 +184,7 @@ to be swapped out occasionally as we upgrade.
 
 It's super-interesting that in trying to get the demo to survive across server
 reboots you found the continuous discussion system. You know that I think is
-actually still broken since the last major regression last week, haha! I haven't
+actually still broken since the last major regression last week, ahaha! I haven't
 gotten around to fixing it because I got so fixed on the golden path, the robust
 graceful opposite-of-degradation mcp tool calling system and this
 anti-regression demo. I figured fixing discussion history that survives server
@@ -469,7 +469,7 @@ most unfortunate series of coincidences set us back. Look at LISP losing to
 Unix/C. It's as uncanny as the Wolfgang Pauli effect and really makes you
 wonder. I try not to be superstitious about it but if the powers that be were
 subtly trying to push back humanity's achieving of AI, the buttery effect
-(reverse butterfly effect?) couldn't be stronger (weaker?), haha!
+(reverse butterfly effect?) couldn't be stronger (weaker?), ahaha!
 
 **Claude**: 
 

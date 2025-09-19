@@ -1293,7 +1293,7 @@ parameter/argument `preserve=<bool>`. Don't forget!
 ### One Step Back, Two Steps Forward
 
 This is one of those 1 step back, 2 steps forward sorts of things, and one of
-those places where literally literally applies, haha! Okay, think! Next steps?
+those places where literally literally applies, ahaha! Okay, think! Next steps?
 Simplification! This is about the music. There are parts of this I am just not
 happy with and this is the time to strike! To chisel-strike. 
 

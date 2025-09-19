@@ -261,7 +261,7 @@ data as the case may be.
 And so I write this article, mostly so that I can do one of those super-prompts
 with Gemini Advanced 2.5 Pro (preview) providing enough of the program code to
 take it all in. Earlier today I managed to get through one of these superprompts
-with 120K tokens so I'm hopeful, haha!
+with 120K tokens so I'm hopeful, ahaha!
 
 Hi Gemini, wazzup? Pontificate, ramble, riff, enumerate, annunciate, adjudicate
 or whatever else you think might be righteous and whatever you AI-analogue-to

@@ -140,7 +140,7 @@ Regardless of your business structure, you should also have these in place:
 ---
 
 I really need to jump into this head-first and start getting my feet wet. Is
-that a mixed metaphor, haha! 
+that a mixed metaphor, ahaha! 
 
 It's an overarching system for forging one's way into the future. Who knows what
 the future holds, but you want to be positive about it and have some sort of

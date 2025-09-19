@@ -784,7 +784,7 @@ Everything else—**leave for a day** when you’re ready to do it safely. That�
    way, and 25 examples of me doing the `"finalized" in` check. So it's the
    clearest example, but also the worst because the code being externalized is
    almost as short as the `is_finalized` method in Pipulate, and I could
-   un-externalize just as easily, haha! The point is going for consistency, or
+   un-externalize just as easily, ahaha! The point is going for consistency, or
    preparing for future complexity if what being finalized is changes.
 
    A better example is how I right-align the buttons in the forms with the
@@ -2904,7 +2904,7 @@ This should properly pass the preserve flag through the HTMX chain and show the 
 
 ## BONK!
 
-**Me**: Well, that worked! That's some heavy handed baton passing there, haha! I know you're a machine, but that's like passing the baton by konking the receiver over the head with it.
+**Me**: Well, that worked! That's some heavy handed baton passing there, ahaha! I know you're a machine, but that's like passing the baton by konking the receiver over the head with it.
 
 **Claude**: 😄 You're right! It's like instead of a smooth handoff in a relay race, we're throwing the baton and yelling "CATCH!" 
 

@@ -670,7 +670,7 @@ output). These are `vim` controls that the `less` program also uses which is
 typical of *nerd-level* software throughout the world and another excellent
 example of why there is a bedrock of tech. Saying that there is a *bedrock* of
 tech absolutely does have a Unix/C/vim bias to it, but that's what won. You lean
-into what won — so long as that's not JavaScript in the browser, haha!
+into what won — so long as that's not JavaScript in the browser, ahaha!
 
 ## Pre-Op: Setting a `git tag` Safety Net
 

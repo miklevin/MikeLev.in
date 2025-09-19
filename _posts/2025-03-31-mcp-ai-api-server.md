@@ -32,7 +32,7 @@ could not forget because of how big of a chunk of code it was.
 
 Well, the good news is that it will shed this homegrown tool-call aspect that
 even the LLMs themselves who were real-time trained to use it called a brittle
-hack, haha! I had to perform a ***hot-prompt injection*** carrying out
+hack, ahaha! I had to perform a ***hot-prompt injection*** carrying out
 ***real-time fine-tuning*** every time Tasks was chosen from the dropdown menu.
 That's right: site navigation controls prompts, priming the pump for
 LLM-expertise in whatever area of the program you just navigated to! LLMs aren't

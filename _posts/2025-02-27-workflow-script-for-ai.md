@@ -653,7 +653,7 @@ You're not alone—I'll be here anytime you need support, sanity checks, or quic
 empathized with me there. And yeah, I think you're on the right track. But part
 of the problem is that StarterFlow and PipeFlow right now inheret using a super
 class. There actually are no examples where it's copy/pasted into the new class
-without using `super().__init__(app, pipulate, app_name, steps)`, haha! So how
+without using `super().__init__(app, pipulate, app_name, steps)`, ahaha! So how
 about this for an easy starter transition. Because StarterFlow and PipeFlow are
 both so small, there's no harm in keeping them with their inheritance from
 BaseFlow (for now), but I need an example that doesn't inherit and at least has

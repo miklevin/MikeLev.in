@@ -179,7 +179,7 @@ little attribute that makes the whole chain reaction possible:
 In case you're wondering, yes this creates a "nested card" HTML data structure
 which wasn't what I originally intended but suggests the causal chain so
 strongly and works so well with the LLMs (insofar as they get it at all) that
-I've kept the nesting of cards. It's like a house of cards, haha! And
+I've kept the nesting of cards. It's like a house of cards, ahaha! And
 considering how fragile this chain reaction is, it indeed is.
 
 But I like it and I keep it. You know it's a lot like white space in Python. You

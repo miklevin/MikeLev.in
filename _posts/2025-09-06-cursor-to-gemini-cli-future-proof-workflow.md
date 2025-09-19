@@ -41,7 +41,7 @@ main system; so you chip them off as flakes! Nix has such a profoundly strong
 mental model.
 
 Ugh, I don't want to start every article as evangelizing Nix like Gemini called
-me out for doing in the book analysis from the last article, haha! When I make
+me out for doing in the book analysis from the last article, ahaha! When I make
 the magic rolling pin process for my articles to rearrange it into books I'm
 going to have to give instructions like:
 
@@ -179,7 +179,7 @@ year or so in VSCode.
 I resisted jumping on the cure: the command-line interface (CLI) alternatives
 popping up from Anthropic and OpenAI. It's just more API-cash-register bait.
 Here's the medicine that'll cure what ails you but you're not gonna like the
-side-effects, haha! If only tech companies had to put those side effect warnings
+side-effects, ahaha! If only tech companies had to put those side effect warnings
 on their advertisements the way the FDA forces drug companies to. You may suffer
 an additional $20/mo subscription fee with the likelihood of addiction leading
 to the price being mercilessly jacked up on you.

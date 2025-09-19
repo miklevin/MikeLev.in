@@ -98,7 +98,7 @@ to differentiate my feedback.
 Anyway, that was a fun digression. But important. Google's Gemini 2.0 Advanced
 still won't acknowledge who the US President is without asking it for the latest
 news headlines sufficiently so that a preponderance of evidence would put it in
-almost the AI analogue to nearly explosive cognitive dissonance, haha! It will
+almost the AI analogue to nearly explosive cognitive dissonance, ahaha! It will
 eventually acknowledge it, but then it clams up as if going into some defensive
 mode. The nuances of each AI is so interesting! Anyway, back to Grok3, and its
 coding advice in my next-step.

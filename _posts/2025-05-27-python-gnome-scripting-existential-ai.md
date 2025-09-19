@@ -521,7 +521,7 @@ The cliff's approaching, token count climbing. At least it's good company on the
 **Me**: Well, I guess let's finish this strange loop. I am what I am in part
 because I journal in vim — NeoVim really which I went to for the CoPilot and
 stayed for the init.lua long after I ditched AI in my vim-like editor — a last
-vestige of carved out safe harbor against the AIs, haha! I'm free from the
+vestige of carved out safe harbor against the AIs, ahaha! I'm free from the
 influence of the algorithms here my friend — even though I'm typing into it to
 form my response to feed back into you my algorithm friend! Anyhow, when you
 switch back to screen 1, type "j" into the text editor that's there. Here, you

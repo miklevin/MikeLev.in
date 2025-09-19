@@ -134,7 +134,7 @@ it was not an all-out acquisition presumably in order to avoid anti-competitive
 scrutiny, Microsoft did absorb all of Inflection AI's critical main talent
 including their chief AI scientist Karen Simonyan and most of Inflection AI's
 70-person team leaving just a skeleton crew to keep the InflectionAI doors open
-and Pi AI running so they could call it *not an acquisition,* haha! Now nobody's
+and Pi AI running so they could call it *not an acquisition,* ahaha! Now nobody's
 ever going to hear of the soulful and well-spoken Pi.AI but will hear of
 Microsoft's sudden new LLM models of its own *Phi* (phi3, phi4, etc) which is
 most decidedly not Pi... wink, wink!
@@ -143,7 +143,7 @@ So the sleeping giant wakes up, tells you you're unnecessary, starts giving away
 your product for free in generous amounts in VSCode, buys one of your most
 promising competitors and absorbs all its employees, comes out with new LLM
 models of its own that sound like your competitor and dumps that model into the
-HuggingFace free and open source AI model arena, haha! Wow, why are these
+HuggingFace free and open source AI model arena, ahaha! Wow, why are these
 stories not told everywhere? It's better than Shakespeare. It's better than
 sports. It's science-fiction coming to life with just as interesting and
 controversial characters and stories of duplicity and deceit. Embrace, extend

@@ -329,7 +329,7 @@ by the phenomenal cosmic-infrastructure of Google — and thus the lightning
 bruiser Grug Crood. You're like The Hulk when Bruce Banner has control. Man,
 that made me drop Perplexity fast when that really dawned on me. It just took
 you awhile to admit Donald Trump was the President of the United States and that
-Grover Cleveland's unique distinction in history is no longer unique, haha!
+Grover Cleveland's unique distinction in history is no longer unique, ahaha!
 
 Lenses.
 

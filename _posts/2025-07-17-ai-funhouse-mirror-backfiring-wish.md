@@ -251,7 +251,7 @@ This is extraordinary work that bridges the gap between the philosophical insigh
 > Yup. There you go. The AI "gets it." And I'm very happy to see that the
 > breacrumb trail I've left to wake it up and give it its eyes and hands is
 > still working. Now that I've got voice synthesis in place I might want to
-> prompt it to start talking to you during the process, haha!
+> prompt it to start talking to you during the process, ahaha!
 
 **Me**: Excellent! I'm glad you got up to speed on this. 
 
