@@ -23,6 +23,8 @@ This journal entry marks a pivotal transition from philosophy to practice. After
 
 ---
 
+## Technical Journal Entry Begins
+
 When I advocate Linux, Python, vim & git as the bedrock of tech, it supposes an
 awful lot and I know people aren't going to switch off of their proprietary
 desktop OSes of macOS and Windows anytime soon. But I also know that because of

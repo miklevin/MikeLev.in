@@ -25,6 +25,8 @@ This entry is a two-part dialogue with a large language model (LLM). The first p
 
 ---
 
+## Technical Journal Entry Begins
+
 I'm on fire with writing these technical journal entries for the *Future
 Proofing Your Tech Skills In the Age of AI* book because I'm actively looking
 for the accelerant. For many years I have had the general guidelines when

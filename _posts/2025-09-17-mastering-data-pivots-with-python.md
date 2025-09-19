@@ -21,6 +21,8 @@ In the world of data science, business, and even personal development, the abili
 
 ---
 
+## Technical Journal Entry Begins
+
 Pivots are the hardest things to do. You have some momentum going in some
 direction and understand  things from that perspective but then you have some
 critical key insight — or *think that you may have one — if you can only change

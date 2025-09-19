@@ -25,6 +25,8 @@ In the last entry, we got a bare-bones NixOS system running on spare hardware us
 
 ---
 
+## Technical Journal Entry Begins
+
 Ahhh, a freshly installed NixOS system. So friggin powerful and life-changing in
 so many ways, but also so befuddling and mysterious. No, you can't just start
 installing software with an *App Store*. There's not even the equivalent of the

@@ -23,6 +23,8 @@ This entry chronicles a pivotal late-night coding session where the focus shifte
 
 ---
 
+## Technical Journal Entry Begins
+
 After having talked and written about work-accelerants I couldn't help but doing
 the thought-work on the magic rolling pin project which is the largest amount of
 work for the largest payoff, rather than the lightest amount of work for the

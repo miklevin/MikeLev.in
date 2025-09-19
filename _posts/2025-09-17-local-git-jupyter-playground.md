@@ -25,6 +25,8 @@ This entry is part of my ongoing exploration into creating durable, future-proof
 
 ---
 
+## Technical Journal Entry Begins
+
 Wow okay that last article tested my accelerated article publishing ability.
 There are quite a few things in play that I have to pay attention to. I'm
 juggling a lot of moving parts and I don't want to drop any. I am effectively

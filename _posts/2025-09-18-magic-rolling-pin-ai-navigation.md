@@ -28,6 +28,8 @@ In this technical journal entry, I explore a core challenge in the age of AI age
 
 ---
 
+## Technical Journal Entry Begins
+
 The Magic Rolling Pin concept is about load-balancing the choices in a
 hierarchical menu so that as human or AI drills-down on menu choices they rarely
 encounter fewer than 5 nor more than 9 choices. This is not a hard and fast

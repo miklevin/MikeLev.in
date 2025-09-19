@@ -28,6 +28,8 @@ This journal entry is a raw, stream-of-consciousness exploration of a foundation
 
 ---
 
+## Technical Journal Entry Begins
+
 Acceleration is key. Things are getting so competitive out there that if the
 things you're doing aren't also somehow accelerating your overall process with
 some sort of self-improving iterative loop, you're going to fall behind the
