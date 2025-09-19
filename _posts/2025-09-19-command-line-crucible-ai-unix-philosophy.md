@@ -13,7 +13,7 @@ meta_description: A deep dive into abandoning ambiguous chat interfaces for a po
 meta_keywords: AI, command line, CLI, Gemini CLI, prompt engineering, Unix pipe, agentic
   AI, workflow, FOSS, developer tools
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ### Context for the Curious Book Reader
