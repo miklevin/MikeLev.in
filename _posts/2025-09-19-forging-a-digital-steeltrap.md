@@ -22,6 +22,15 @@ sort_order: 3
 
 This entry captures the unglamorous but essential work of building a reliable foundation. It begins with broad, philosophical musings on the nature of a digital 'home'—a stable, powerful environment like the command-line—and quickly dives into the messy reality of technical debt. What follows is a real-time, multi-turn collaboration with an AI assistant to diagnose and fix critical bugs in a web application's data backup and memory systems. This is a transparent look at the iterative process of 'prompt engineering'—not for generating content, but for directing a software agent to perform a complex, surgical refactoring of its own environment. It's a story of debugging, adaptation, and ultimately, building a system you can trust.
 
+> I ate the frog  
+> It did go well  
+> Although it was  
+> The job from hell.  
+> I buckled down  
+> And with a sigh  
+> I got it done  
+> With Gemini.  
+
 ---
 
 ## Technical Journal Entry Begins
