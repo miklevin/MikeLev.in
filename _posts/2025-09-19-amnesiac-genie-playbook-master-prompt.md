@@ -27,7 +27,7 @@ This journal entry marks a critical turning point in my collaboration with AI. I
 
 ## Technical Journal Entry Begins
 
-**Me**: Wow, okay. I'm not going to use the Prompt Foo system in a creative new
+**Me**: Wow, okay. I'm now going to use the Prompt Foo system in a creative new
 way. Instead of looking over the codebase I'm actually going to have it just
 look over my last few articles with their logical progression. My purpose here
 is to extract the best instructions on future prompting of Gemini CLI. Whether
