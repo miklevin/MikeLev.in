@@ -30,9 +30,11 @@ This journal entry captures a pivotal moment in the development of an AI-powered
 Alright I did quite a lot of getting a tight grip on the reins of the code
 again. We're back to the horse drawn carriage metaphors in which are the AIs are
 the horses pulling the wagon in different directions than you necessarily want
-to go. The funny thing is they might have taken you there and as the coachman.
-And the fact that it has the concept of coach in there is just too perfect.
-Let's do some coaching.
+to go. The funny thing is they might have taken you there and as the coachman
+you just didn't now. And the fact that it has the concept of a coach coaching
+the horses — intelligent entities who are the engine of the vehicle with a bit
+of self-steering capacity of their own — is just too perfect. Let's do some
+coaching.
 
 I am now up to the point where I really need to make sure the 2 databases that
 are in the system but are outside the FastHTML-managed databases are actually
