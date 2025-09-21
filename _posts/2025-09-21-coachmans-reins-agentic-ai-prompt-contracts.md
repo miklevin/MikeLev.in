@@ -104,7 +104,8 @@ command-line interface. Sometimes it takes over the whole terminal, and that's
 just what both vim does and gemini can do if you just type `gemini` with nothing
 following it.
 
-So if you want to "talk to an AI about your code" that's what you do.
+So if you want to "talk to an AI about your code" but you're using an AI CLI
+tool like Gemini CLI that's what you do.
 
 If you are working like a boss and you have a job that needs to be done with a
 very clear enough understanding of that job that you could write an RFP (request
