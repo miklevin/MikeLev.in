@@ -75,18 +75,18 @@ model overhead of the modern object-oriented C++. Still, C defeated me.
 
 To a vastly lesser degree, so has Linux, vim & git... but not enough to keep me
 from backing up, reorienting myself and trying again wonderfully successfully.
-This backing up and reorienting oneself with C leads to Python.
+This backing up and reorienting oneself with C leads to Python; plain and
+simple.
 
 ## The Bedrock: In Pursuit of a Stable Stack
 
-Plain and simple. Python is different. First and foremost it's different because
-of Guido van Rossum's remarkably skillful blending of an older *user friendly*
-language appropriately named *ABC* with the *by that time* modern and clearly
-dominant C programming language. But Python is then also different because of
-its genuinely effective *free and open source* license , which strikes a careful
-balance. The permissive, BSD-style Python Software Foundation License (PSF)
-allows for free and commercial use without the "copyleft" restrictions of
-licenses like the GNU GPL. 
+Python is different first and foremost because of Guido van Rossum's remarkably
+skillful blending of an older *user friendly* language appropriately named *ABC*
+with the *by that time* modern and clearly dominant C programming language.
+Python is also different because of its genuinely effective *free and open
+source* license , which strikes a careful balance. The permissive, BSD-style
+Python Software Foundation License (PSF) allows for free and commercial use
+without the "copyleft" restrictions of licenses like the GNU GPL. 
 
 This was a key factor in its widespread adoption, as it enabled corporations and
 small developers alike to incorporate Python into their proprietary applications
