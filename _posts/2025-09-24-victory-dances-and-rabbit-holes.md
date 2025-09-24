@@ -6,8 +6,8 @@ description: "I wrote this piece to finally codify the two competing but complem
   \ checklist for execution\u2014the 'left-brain' stuff. On the other, there's the\
   \ more intuitive, 'right-brain' framework of metaphors and questions: figure out\
   \ what's broken, get the biggest win first, and keep the plates spinning. I realized\
-  \ that my immediate client work was threatening to become a 'rabbit hole' if I tried\
-  \ to build a full Pipulate workflow. Applying my own rules, I saw that the pragmatic\
+  \ that my immediate client work was threatening to block client work as a 'rabbit hole'\
+  \ if I tried to build a full Pipulate workflow. Applying my own rules, I saw that the pragmatic\
   \ escape route was to start in a Jupyter Notebook. This entry is my blueprint for\
   \ that process\u2014a way to ensure I'm always rigged for a quick escape while still\
   \ putting on a magic show."
