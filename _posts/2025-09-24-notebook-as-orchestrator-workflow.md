@@ -16,7 +16,7 @@ meta_description: A developer's guide to working smarter by treating Jupyter Not
 meta_keywords: Jupyter Notebook, Python, development workflow, AI ergonomics, prompt
   engineering, Unix philosophy, vim, REPL, software architecture, modular code
 layout: post
-sort_order: 6
+sort_order: 5
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader

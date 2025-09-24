@@ -17,7 +17,7 @@ meta_description: A deep dive into a personal framework for technical work, blen
 meta_keywords: developer productivity, project management, mental models, cognitive
   science, Jupyter Notebook, rabbit hole, victory dance, workflow, Pipulate
 layout: post
-sort_order: 5
+sort_order: 4
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader

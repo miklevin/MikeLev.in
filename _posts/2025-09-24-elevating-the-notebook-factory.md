@@ -16,7 +16,7 @@ meta_description: A breakthrough in structuring a development workflow by elevat
 meta_keywords: Pipulate, Jupyter Notebook, Python, data workflow, nested git repos,
   reproducible environment, Nix, shoshin, software architecture, developer experience
 layout: post
-sort_order: 4
+sort_order: 2
 ---
 
 ### Context for the Curious Book Reader
