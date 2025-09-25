@@ -61,7 +61,7 @@ Bell's theorem provides a mathematical framework to experimentally test whether 
 
 You're suggesting that life "overcomes" Newton's 2nd Law and the 1st Law of Thermodynamics. It doesn't. Life is a master of *exploiting* the laws of physics, not breaking them.
 
-* **Newton's Second Law ($F=ma$)**: Life doesn't overcome this; it *uses* it. A muscle contracts (creating a force, $F$) to move a bone (an object with mass, $m$), causing it to accelerate ($a$). Every action a living thing takes is a perfect demonstration of this law in action.
+* **Newton's Second Law ($$F=ma$$)**: Life doesn't overcome this; it *uses* it. A muscle contracts (creating a force, $$F$$) to move a bone (an object with mass, $$m$$), causing it to accelerate ($$a$$). Every action a living thing takes is a perfect demonstration of this law in action.
 * **First Law of Thermodynamics (Conservation of Energy)**: Life is the ultimate example of this law. Energy is not created from nothing. Living things are open systems that take in high-quality energy from the environment (sunlight for plants, food for animals), use it to power their biological processes, and expel low-quality energy (heat) back out. Energy is transformed, never created or destroyed.
 
 You are, however, **spot-on about entropy**.
@@ -92,7 +92,7 @@ But an analogy is not an identity. The connection you're making falls apart unde
 
 The power of Bell's theorem is its **mathematical rigor**. It's not a philosophical argument; it's a cold, hard inequality derived from the axioms of classical, local-realist physics. It provides a specific, quantitative upper limit on the correlation you can expect between measurements of two separated-but-linked particles if the world is classical.
 
-$|E(a,b) - E(a,c)| \le 1 + E(b,c)$
+$$|E(a,b) - E(a,c)| \le 1 + E(b,c)$$
 
 Quantum mechanics predicts correlations that can *violate* this numerical limit. When physicists perform the experiment, they get results that consistently break the classical ceiling. Game over. Non-locality is a feature of our reality.
 

@@ -119,7 +119,7 @@ import sympy
 
 See that? We just made the invisible dependency visible. We're explicitly stating, "Hey, for what follows, we're using the `sympy` rulebook." No guesswork.
 
-Now, in algebra, you'd just write $y = x^2$ and be expected to know 'x' is a variable. Python is more honest. It forces you to declare your intentions.
+Now, in algebra, you'd just write $$y = x^2$$ and be expected to know 'x' is a variable. Python is more honest. It forces you to declare your intentions.
 
 ```python
 # Explicitly tell Python that 'x' is a symbol, not a number
@@ -129,7 +129,7 @@ x = sympy.Symbol('x')
 y = x**2
 ```
 
-We've built our curve. Now we want to build the slope-finding machine. In old-school math, this is where they'd hit you with the Leibniz notation ($dy/dx$) and just expect you to see the universe differently. But here, we just call a function. We ask the `sympy` tool to perform the "differentiate" action on our formula `y` with respect to our symbol `x`.
+We've built our curve. Now we want to build the slope-finding machine. In old-school math, this is where they'd hit you with the Leibniz notation ($$dy/dx$$) and just expect you to see the universe differently. But here, we just call a function. We ask the `sympy` tool to perform the "differentiate" action on our formula `y` with respect to our symbol `x`.
 
 ```python
 # Let's create the slope-finding formula.
@@ -139,7 +139,7 @@ slope_formula = sympy.diff(y, x)
 print(slope_formula)
 ```
 
-And what does it print? It prints `2*x`. There it is. No mystical leap of faith. It's a function call. `sympy.diff(y, x)` is so much more honest than $dy/dx$. It's not a fraction. It's an **operation** being performed on `y` and `x`, and the `.` in the middle tells you exactly which library of operations it came from. The context is explicit.
+And what does it print? It prints `2*x`. There it is. No mystical leap of faith. It's a function call. `sympy.diff(y, x)` is so much more honest than $$dy/dx$$. It's not a fraction. It's an **operation** being performed on `y` and `x`, and the `.` in the middle tells you exactly which library of operations it came from. The context is explicit.
 
 -----
 
@@ -147,11 +147,11 @@ And what does it print? It prints `2*x`. There it is. No mystical leap of faith.
 
 This is *exactly* how an AI-assisted workflow should function, and it perfectly maps back to that ASCII diagram.
 
-1.  **(Storytelling):** My part is the high-level, human-language request. I'm the one at the beginning of the chain saying, "I have this curve, $y = x^2$, and I need a way to find its slope at any point." I don't need to know the secret handshake notation; I just need to articulate the goal.
+1.  **(Storytelling):** My part is the high-level, human-language request. I'm the one at the beginning of the chain saying, "I have this curve, $$y = x^2$$, and I need a way to find its slope at any point." I don't need to know the secret handshake notation; I just need to articulate the goal.
 
 2.  **(Contract - The Planner AI):** The first AI, the "Implementation Planner," acts like that competent teacher. It hears my story and translates it into a formal plan, a "Contract." It identifies the core concept—"slope of a curve" means "derivative"—and maps it to the available tools. Its output isn't code yet; it's a blueprint:
 
-      * **Goal:** Find the derivative of $y = x^2$.
+      * **Goal:** Find the derivative of $$y = x^2$$.
       * **Dependency:** The `sympy` library is required for symbolic mathematics.
       * **Action:** Use the `sympy.diff()` function.
       * **Inputs:** The expression `x**2` and the symbol `x`.
