@@ -3596,8 +3596,6 @@ setback — or even made it unachievable at all.
 
 Now it's just one morning of back-up, re-evaluate and try again.
 
-## Banking the Win
-
 ---
 
 ## Book Analysis
