@@ -232,7 +232,7 @@ reality for the *like-magic* they enable within.
 > trilemma](https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma) thought
 > experiment proves that you don't know squat and even science is based on faith
 > to break the infinite regression problem. Seek a preponderance of evidence
-> with an emphasis on *new information* on old problems.
+> with an emphasis on *new information* to old problems.
 
 XML parsers are much stricter than web browsers and have all these rules about
 the XML data needing to be *well formed* (real XML) and *valid* (passing a
