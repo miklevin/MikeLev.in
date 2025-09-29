@@ -123,9 +123,9 @@ tech in today's world and really get stuff done. The Gemini CLI tool I use all
 the time now relies on the *web full stack* just for a command-line tool and
 I'll never get over that irony, haha! JupyterLab has NodeJS back in there
 somewhere too and the Jekyll static site generator I use uses Ruby under the
-covers. The old Java JRE is in there somewhere too recently, maybe Selenium
-browser automation. It's always something you don't like that has to be in the
-picture but what do you care if it's under the hood?
+covers. The old Java JRE is in there somewhere too recently I think for
+plantuml. It's always something you don't like that has to be in the picture but
+what do you care if it's under the hood?
 
 "But that's just exactly what Docker does, shove it all under the hood so you
 don't have to think about it" you say. True but it does it with a big binary
