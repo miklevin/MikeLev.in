@@ -18,7 +18,7 @@ meta_description: A developer's journal on refactoring a Python web app, rejecti
 meta_keywords: Python, refactoring, dependency injection, software architecture, AI
   collaboration, Uvicorn, FastHTML, HTMX, object-oriented programming, Jupyter Notebook
 layout: post
-sort_order: 4
+sort_order: 1
 ---
 
 ### Context for the Curious Book Reader
