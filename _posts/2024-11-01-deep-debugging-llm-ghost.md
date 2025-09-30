@@ -2972,7 +2972,8 @@ Absolutely, let's take a pragmatic, incremental approach. First, I need to see t
 
 1. First, let's modify `detect_embedded_crud_json` to handle the streaming context better:
 
-```python:botifymograph/botifymograph.py
+```python
+# botifymograph/botifymograph.py
 async def detect_embedded_crud_json(text, todo_app):
     fig("Begin Detect CRUD", font="big")
     json_objects = extract_json_objects(text)
@@ -3003,7 +3004,8 @@ async def detect_embedded_crud_json(text, todo_app):
 
 2. Then modify `chat_with_ollama` to handle the CRUD results:
 
-```python:botifymograph/botifymograph.py
+```python
+# botifymograph/botifymograph.py
 async def chat_with_ollama(model: str, messages: list, base_app=None) -> AsyncGenerator[str, None]:
     # ... existing setup code ...
 
@@ -3030,7 +3032,8 @@ async def chat_with_ollama(model: str, messages: list, base_app=None) -> AsyncGe
 
 3. Add a small WebSocket handler for CRUD updates:
 
-```python:botifymograph/botifymograph.py
+```python
+# botifymograph/botifymograph.py
 @chat_playground.message("crud_update")
 async def handle_crud_update(websocket: WebSocket, message: dict):
     """Handle CRUD updates via WebSocket"""

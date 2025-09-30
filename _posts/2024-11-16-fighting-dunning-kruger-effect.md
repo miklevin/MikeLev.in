@@ -2430,7 +2430,8 @@ class StateManager:
 
 ## 2. Unit Tests
 
-```````python:tests/test_link_graph.py
+```````python
+# tests/test_link_graph.py
 import pytest
 from datetime import datetime
 from botifymograph.state import StateManager, AnalysisStatus
@@ -2497,7 +2498,8 @@ class TestStateManager:
 
 ## 3. Integration Tests
 
-```````python:tests/test_integration.py
+```````python
+# tests/test_integration.py
 import pytest
 from fasthtml import FastHTML
 from botifymograph.link_graph import BotifyLinkGraph
@@ -2547,7 +2549,8 @@ class TestLinkGraphIntegration:
 
 ## 4. End-to-End Tests
 
-```````python:tests/test_e2e.py
+```````python
+# tests/test_e2e.py
 import pytest
 from playwright.sync_api import Page, expect
 
@@ -2595,7 +2598,8 @@ class TestLinkGraphE2E:
 
 ## 5. Test Utilities
 
-```````python:tests/utils.py
+```````python
+# tests/utils.py
 from contextlib import contextmanager
 from typing import Generator
 from pathlib import Path
@@ -2632,7 +2636,8 @@ def assert_htmx_attributes(element, expected_attrs):
 
 ## 6. Performance Tests
 
-```````python:tests/test_performance.py
+```````python
+# tests/test_performance.py
 import pytest
 import asyncio
 from time import perf_counter
@@ -2722,7 +2727,8 @@ API_DOCUMENTATION = [
 
 ## 2. User Documentation
 
-```````markdown:docs/user_guide.md
+```````markdown
+# docs/user_guide.md
 # LinkGraph User Guide
 
 ## Quick Start
@@ -2819,7 +2825,8 @@ class DeveloperGuide:
 
 ## 4. Deployment Configuration
 
-```````yaml:deployment/docker-compose.yml
+```````yaml
+# deployment/docker-compose.yml
 version: '3.8'
 
 services:
@@ -2845,7 +2852,8 @@ volumes:
   linkgraph_data:
 ```````
 
-```````dockerfile:deployment/Dockerfile
+```````dockerfile
+# deployment/Dockerfile
 # Use multi-stage build for smaller final image
 FROM python:3.11-slim as builder
 

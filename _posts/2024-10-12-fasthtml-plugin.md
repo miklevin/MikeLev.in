@@ -977,7 +977,8 @@ To parameterize the table name from the start and ensure collision avoidance, yo
 
 Update the `BaseApp` class to accept a table name as a parameter. This will allow you to specify different table names for different instances, avoiding collisions.
 
-```python:botifython.py
+```python
+# botifython.py
 class BaseApp:
     def __init__(self, name, schema, table_name=None):
         self.name = name
@@ -999,7 +1000,8 @@ class BaseApp:
 
 Modify the `TodoApp` class to pass the desired table name when initializing `BaseApp`.
 
-```python:botifython.py
+```python
+# botifython.py
 class TodoApp(BaseApp):
     def __init__(self, table_name='TODO'):
         super().__init__(name='todo', schema=TODO, table_name=table_name)
@@ -1018,7 +1020,8 @@ class TodoApp(BaseApp):
 
 When you create an instance of `TodoApp`, specify the table name to avoid collisions.
 
-```python:botifython.py
+```python
+# botifython.py
 # Create a TodoApp instance with a custom table name
 todo_app_instance = TodoApp(table_name='CUSTOM_TODO')
 ```
@@ -1031,7 +1034,8 @@ Make sure that the rest of your application is compatible with this change. This
 
 Ensure that your test suite is updated to reflect these changes. You may need to adjust the tests to interact with the new `TodoApp` instance and its table.
 
-```python:test_botifython.py
+```python
+# test_botifython.py
 def test_create_todo_with_custom_table(self):
     new_todo = {"title": "Test Todo Item"}
     response = requests.post(f"{self.base_url}/CUSTOM_TODO", data=new_todo)
@@ -1056,7 +1060,8 @@ Here's how you can rework your classes to fit within these confines:
 
 Update the `BaseApp` class to accept a table instance directly, which will be provided by `fast_app`. This removes the need to manually create or manage tables within `BaseApp`.
 
-```python:botifython.py
+```python
+# botifython.py
 class BaseApp:
     def __init__(self, name, table):
         self.name = name
@@ -1101,7 +1106,8 @@ class BaseApp:
 
 Modify the `TodoApp` class to accept the table instance from `fast_app` and pass it to `BaseApp`.
 
-```python:botifython.py
+```python
+# botifython.py
 class TodoApp(BaseApp):
     def __init__(self, table):
         super().__init__(name='todo', table=table)
@@ -1120,7 +1126,8 @@ class TodoApp(BaseApp):
 
 Use the `fast_app` function to create your application and tables, and then pass the table instances to your app classes.
 
-```python:botifython.py
+```python
+# botifython.py
 # Define the schema for the TODO table
 TODO = {
     "id": int,

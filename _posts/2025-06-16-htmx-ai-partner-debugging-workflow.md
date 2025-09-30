@@ -869,7 +869,8 @@ Based on your feedback and a clearer understanding, here are the precise, minima
 
 This method is the most broken, as it contains the core GSC logic. It needs to be replaced with a simple version that just shows a progress bar and triggers the background processing, just like the other working steps.
 
-```python:plugins/130_link_graph2.py
+```python
+# plugins/130_link_graph2.py
 {% raw %}# --- REPLACE THE ENTIRE step_crawl_basic_submit METHOD ---
 
     async def step_crawl_basic_submit(self, request):
@@ -900,7 +901,8 @@ This method is the most broken, as it contains the core GSC logic. It needs to b
 
 This method will now contain the correct logic for downloading the basic crawl data, replacing the incorrect GSC logic.
 
-```python:plugins/130_link_graph2.py
+```python
+# plugins/130_link_graph2.py
 # --- REPLACE THE ENTIRE step_crawl_basic_complete METHOD ---
 
     async def step_crawl_basic_complete(self, request):
@@ -941,7 +943,8 @@ This method will now contain the correct logic for downloading the basic crawl d
 
 Finally, let's clean up the initial UI method to remove any remaining GSC text and ensure it checks the cache correctly.
 
-```python:plugins/130_link_graph2.py
+```python
+# plugins/130_link_graph2.py
 # --- REPLACE THE ENTIRE step_crawl_basic METHOD ---
 
     async def step_crawl_basic(self, request):
@@ -1022,7 +1025,8 @@ Based on your feedback and a clearer understanding, here are the precise, minima
 
 This method is the most broken, as it contains the core GSC logic. It needs to be replaced with a simple version that just shows a progress bar and triggers the background processing, just like the other working steps.
 
-```python:plugins/130_link_graph2.py
+```python
+# plugins/130_link_graph2.py
 # --- REPLACE THE ENTIRE step_crawl_basic_submit METHOD ---
 
 {% raw %}    async def step_crawl_basic_submit(self, request):
@@ -1053,7 +1057,8 @@ This method is the most broken, as it contains the core GSC logic. It needs to b
 
 This method will now contain the correct logic for downloading the basic crawl data, replacing the incorrect GSC logic.
 
-```python:plugins/130_link_graph2.py
+```python
+# plugins/130_link_graph2.py
 # --- REPLACE THE ENTIRE step_crawl_basic_complete METHOD ---
 
     async def step_crawl_basic_complete(self, request):
@@ -1094,7 +1099,8 @@ This method will now contain the correct logic for downloading the basic crawl d
 
 Finally, let's clean up the initial UI method to remove any remaining GSC text and ensure it checks the cache correctly.
 
-```python:plugins/130_link_graph2.py
+```python
+# plugins/130_link_graph2.py
 # --- REPLACE THE ENTIRE step_crawl_basic METHOD ---
 
     async def step_crawl_basic(self, request):
@@ -1193,7 +1199,8 @@ No major refactoring, just a clean fix. Here is the implementation plan to corre
 
 First, the core logic within the `step_crawl_basic` methods needs to be completely replaced. The current versions are fundamentally flawed as they check for and process Google Search Console data. The following replacements will align them with the correct "Crawl Basic" template, use the right data types, and display the correct user-facing messages.
 
-```python:plugins/130_link_graph2.py
+```python
+# plugins/130_link_graph2.py
 # --- REPLACE THE ENTIRE step_crawl_basic METHOD ---
 
     async def step_crawl_basic(self, request):
@@ -1311,7 +1318,8 @@ First, the core logic within the `step_crawl_basic` methods needs to be complete
 
 The `step_crawl_basic_complete` method needs a route. I'll add it in the `__init__` method along with the others. I also noticed the `step_analysis_process` method can accept a `step_context` which simplifies the `step_crawl_basic_complete` method greatly. I'll add the new route and adjust `step_analysis_process` to handle this.
 
-```python:plugins/130_link_graph2.py
+```python
+# plugins/130_link_graph2.py
 # --- In the __init__ method ---
 
         # ... existing route registrations
@@ -1325,7 +1333,8 @@ The `step_crawl_basic_complete` method needs a route. I'll add it in the `__init
 
 To make the solution cleaner and avoid duplicating the entire download/poll/extract logic, I'll adjust `step_analysis_process` to accept a `step_context`. This allows `step_crawl_basic_complete` to call it, specifying which step it's acting for.
 
-```python:plugins/130_link_graph2.py
+```python
+# plugins/130_link_graph2.py
 # --- Modify the signature and logic of step_analysis_process ---
 
     async def step_analysis_process(self, request, step_context=None):

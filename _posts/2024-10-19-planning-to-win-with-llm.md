@@ -1862,7 +1862,8 @@ This implementation should provide a comprehensive integration of the LLM with a
 
 1. First, let's modify the `chatq` function:
 
-```python:botifython/botifython.py
+```python
+# botifython/botifython.py
 import json
 import asyncio
 import logging
@@ -1973,7 +1974,8 @@ Claude: Yes, that's correct. Right now, this implementation acts as a transparen
 
 To clarify the current behavior and next steps, let's review the `chatq` function:
 
-```python:botifython/botifython.py
+```python
+# botifython/botifython.py
 async def chatq(message: str, action_data: str = None):
     """
     Queue a message for the chat stream and log the action data.

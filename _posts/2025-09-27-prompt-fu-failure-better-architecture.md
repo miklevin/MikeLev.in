@@ -290,7 +290,8 @@ statistically prevalent conventions. There's the triple backtick fencing with
 the colon:filename convention. I notice Claude doing that a lot over in Cursor.
 It looks something like this:
 
-```python:path/to/file.py
+```python
+# path/to/file.py
 # file stuff here
 ```
 
@@ -353,17 +354,20 @@ This document contains the source code and related files for analysis.
 ---
 ## File Content
 
-```python:server.py
+```python
+# server.py
 # Contents of server.py go here...
 # ...
 ````
 
-```python:imports/stream_orchestrator.py
+```python
+# imports/stream_orchestrator.py
 # Contents of stream_orchestrator.py go here...
 # ...
 ```
 
-```python:imports/mcp_orchestrator.py
+```python
+# imports/mcp_orchestrator.py
 # Contents of mcp_orchestrator.py go here...
 # ...
 ```
