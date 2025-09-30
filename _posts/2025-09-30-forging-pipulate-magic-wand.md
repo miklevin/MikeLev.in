@@ -465,7 +465,8 @@ First, let's add the necessary imports to `pipulate/core.py` that will be needed
 
 <!-- end list -->
 
-```python:/home/mike/repos/pipulate/pipulate/core.py
+```python
+# /home/mike/repos/pipulate/pipulate/core.py
 import inspect
 import importlib
 from pathlib import Path
@@ -498,7 +499,8 @@ Now, we'll perform the primary move, relocating the `DictLikeDB` class and its `
 
 <!-- end list -->
 
-```python:/home/mike/repos/pipulate/pipulate/core.py
+```python
+# /home/mike/repos/pipulate/pipulate/core.py
 # ... (imports) ...
 
 def title_name(word: str) -> str:
@@ -618,7 +620,8 @@ This is the key to the "Parallel Universe DB" pattern. We'll modify the `Pipulat
 
 <!-- end list -->
 
-```python:/home/mike/repos/pipulate/pipulate/core.py
+```python
+# /home/mike/repos/pipulate/pipulate/core.py
 class Pipulate:
     # ... (PRESERVE_REFILL, UNLOCK_BUTTON_LABEL) ...
 
@@ -671,7 +674,8 @@ Now that the `Pipulate` class is smarter, we need to adjust how `server.py` crea
 
 <!-- end list -->
 
-```python:/home/mike/repos/pipulate/server.py
+```python
+# /home/mike/repos/pipulate/server.py
 # ... (around line 1058)
 
 db = DictLikeDB(store, Store)
@@ -697,7 +701,8 @@ This is the main event. We'll remove the global `db` object from `server.py` and
 
 *This is a significant change affecting many functions in `server.py`. Here's a summary of the changes:*
 
-```python:/home/mike/repos/pipulate/server.py
+```python
+# /home/mike/repos/pipulate/server.py
 # REMOVE THIS LINE ENTIRELY
 # db = DictLikeDB(store, Store)
 
@@ -743,7 +748,8 @@ Finally, let's remove the manual `pip install -e .` step. We'll add it to the `f
 
 <!-- end list -->
 
-```nix:/home/mike/repos/pipulate/flake.nix
+```nix
+# /home/mike/repos/pipulate/flake.nix
 # ... (inside runScript definition)
         if pip install --upgrade pip --quiet && \
            pip install -r requirements.txt --quiet && \
@@ -913,7 +919,8 @@ First, we'll add all the necessary imports to `pipulate/core.py`. This includes 
 
 <!-- end list -->
 
-```python:/home/mike/repos/pipulate/pipulate/core.py
+```python
+# /home/mike/repos/pipulate/pipulate/core.py
 import inspect
 import importlib
 from pathlib import Path
@@ -952,7 +959,8 @@ This is the refined step. Instead of calling `fast_app`, we'll directly use `fas
 
 <!-- end list -->
 
-```python:/home/mike/repos/pipulate/pipulate/core.py
+```python
+# /home/mike/repos/pipulate/pipulate/core.py
 class Pipulate:
     # ... (class attributes) ...
 
@@ -1007,7 +1015,8 @@ Now we perform the major refactoring in `server.py`. We'll remove the global `db
 
 <!-- end list -->
 
-```python:/home/mike/repos/pipulate/server.py
+```python
+# /home/mike/repos/pipulate/server.py
 # ... other imports ...
 from pipulate.core import Pipulate, DictLikeDB # Add DictLikeDB here
 
@@ -1042,7 +1051,8 @@ This step is crucial for a smooth developer experience and removes the "nuance" 
 
 <!-- end list -->
 
-```nix:/home/mike/repos/pipulate/flake.nix
+```nix
+# /home/mike/repos/pipulate/flake.nix
 # ... (inside pythonInstallLogic definition) ...
        pip install -r requirements.txt --quiet
        
@@ -1056,7 +1066,8 @@ This step is crucial for a smooth developer experience and removes the "nuance" 
 
 *Action Update:* Ensure `pythonInstallLogic` is called from the `default` and `dev` shell hooks.
 
-```nix:/home/mike/repos/pipulate/flake.nix
+```nix
+# /home/mike/repos/pipulate/flake.nix
 # ... (inside mkShells function)
         default = pkgs.mkShell {
           buildInputs = commonPackages;
