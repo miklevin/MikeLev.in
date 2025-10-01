@@ -236,6 +236,16 @@ pip.set(job, step="full")
 print(full)
 ```
 
+This workflow mirrors the linear, one-way data flow of a classic Unix pipe, but
+with one crucial difference: **persistence**. A Unix pipe (`command1 |
+command2`) is a stateless, in-memory stream; the output of one command is
+immediately fed to the next, and if the process stops, the data is gone.
+Pipulate, in contrast, is **stateful**. Each `pip.set()` call acts like a dam,
+saving the result of that "command" to a persistent reservoir on disk. This
+allows the workflow to be paused and resumed at any time—even after a full
+system restart—because the data for each completed step is securely stored and
+waiting for the next cell to retrieve it.
+
 So a few things are obvious to me. First, I'm changing method names and making
 subtle changes to the API. I am aware I could fix this with massive search and
 replaces against the entire codebase, but I don't want to. Maybe later when I
