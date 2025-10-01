@@ -18,7 +18,7 @@ sort_order: 4
 
 ## Setting the Stage: Context for the Curious Book Reader
 
-### Context for the Curious Book Reader
+### 200,000-token Narrative in 1 Textarea Submit
 
 This entry documents a crucial side-quest born from necessity. In the midst of a complex software refactoring, I realized that for my AI coding assistant to provide truly insightful guidance, it needed the full, unabridged story of the project's evolution. My technical journal entries held that story, but they were not easily accessible in the correct chronological sequence. This is the chronicle of how I paused the main project to build a specific tool—a Python script—to solve this ordering problem. The result was a breakthrough: the ability to feed the AI a massive, 200,000-token narrative, leading to a level of collaboration and precise feedback that proved the entire effort was not a diversion, but a necessary step in process integration.
 
