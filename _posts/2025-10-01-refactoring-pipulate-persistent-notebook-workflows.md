@@ -19,8 +19,6 @@ sort_order: 3
 
 ## Setting the Stage: Context for the Curious Book Reader
 
-### Context for the Curious Book Reader
-
 This entry captures a live working session between myself and a large language model, Gemini. The subject is a significant architectural pivot for my software project, Pipulate. My goal is to embed its core principle—a simple, linear, and persistent workflow—directly into the familiar environment of Jupyter Notebooks. I'm not just asking for code; I'm providing a vision, a target user experience, and a strict methodology for a safe, deterministic refactoring process using Abstract Syntax Tree (AST) validation. The AI's response isn't just a suggestion; it's a comprehensive, multi-phase implementation blueprint that serves as the direct path forward for the project.
 
 ---
@@ -465,10 +463,6 @@ This choice strongly aligns with Pipulate's core philosophy of **"Your data. You
 The implementation will be slightly more complex, but it creates a far more resilient and user-friendly experience that truly empowers the user to work from anywhere. My plan will use this decoupled strategy.
 
 ## The Step-by-Step Implementation Plan
-
------
-
-## Implementation Plan
 
 Here is a step-by-step plan to refactor the codebase using the sentinel-based, AST-validated approach you've outlined. This ensures each change is atomic, safe, and syntactically correct.
 
