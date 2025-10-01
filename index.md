@@ -34,7 +34,7 @@ group: home
 </div>
 
 <div class="bunny-trail">
-<p><b>LPvgn</b> is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim, git & nix. I use them daily to build AI and automation systems — but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years. Jump down the rabbit hole.</p>
+<p><b>LPvg</b> is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim & git (+nix). I use them daily to build AI and automation systems — but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years. Jump down the rabbit hole.</p>
 {% include bunny.html %}</div>
 {%- assign sorted_posts = site.posts | sort: 'date' -%}
 {%- assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse -%}
