@@ -1615,7 +1615,7 @@ You are seeing a **transitive dependency** problem. Your hunch is exactly rightâ
 
 -----
 
-### \#\# The Diagnosis: It's Not the Invited Guest, It's Their +1
+### The Diagnosis: It's Not the Invited Guest, It's Their +1
 
 Hereâ€™s what the evidence tells us:
 
