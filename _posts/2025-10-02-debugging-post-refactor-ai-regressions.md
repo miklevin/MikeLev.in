@@ -1626,6 +1626,28 @@ first pass I think. I did directly use our `ai_edit.py` file to apply a
 more easily do what it was instructing manually in nvim. There's a lot to be
 gleaned here as a follow-up to all that prior refactoring work.
 
+NOTE: That whole scroller fix was a wild goose chase! The answer simply was
+editing out this style I had there to help tool-tips work better:
+
+```css
+/* Ensure dropdown containers don't clip tooltips 
+ * But it would kill APP dropdown scrolling
+details.dropdown,
+details.dropdown summary + ul {
+    overflow: visible !important;
+}*/
+```
+
+CSS is... uhhh... cascading. And ya gotta be very careful about fixing one thing
+and breaking another. The answer to this turned out to be using yet ANOTHER face
+of (likely) Gemini in the form of the "Ask AI" button in the DOM Element tab of
+DevTools! So I'm using Gemini from:
+
+1. Gemini Web
+2. Gemini CLI
+3. Gemini API
+4. Ask AI in DevTools
+
 And I think I'm very close to doing a main branch takeover.
 
 ## Debrief: An Epic Debugging Session
