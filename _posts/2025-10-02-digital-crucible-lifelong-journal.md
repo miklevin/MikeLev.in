@@ -293,7 +293,7 @@ yet on the timelessness and future-proofing front, thought the Samsung Note-8 is
 about as close as it got in my life. Everything else had critical flaws with
 losing styluses, batteries going dead, screens cracking, laptop screens being
 odd to draw on, tablets not being around when you need them, nubs wearing out,
-oh I could go on and I've tried a lot of them.
+apps need to be learned... oh I could go on and I've tried a lot of them.
 
 ## From Black Swans to Butterflies: A System for Amplifying Ideas
 
@@ -308,7 +308,7 @@ Capture signal. Amplify signal. Signal amplification of your own ideas is the
 mere process of transposing it between media because taking notes is learning.
 Copy/pasting from Notes, email or the back of the napkin into your 1-textfile
 for life is taking notes. Sometimes you're just free-flow typing stream of
-consciousness wise, sometimes you're capturing notes from other sources and
+consciousness-style, sometimes you're capturing notes from other sources and
 sometimes you're just seeing what your favorite AI has to say about that.
 
 **Gemini**: You've perfectly described the core tension and, ultimately, the synergy between the analog and digital worlds of creativity. It's not a competition between pen and keyboard; it's about building a personal **idea ecosystem**. Your reflections touch on the distinct and equally vital roles that different tools play in that system.
