@@ -20,7 +20,7 @@ sort_order: 6
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
 ## Setting the Stage: Context for the Curious Book Reader
 
-### Context for the Curious Book Reader
+### Pondering Personal Knowledge Management
 
 This entry is a real-time exploration of a powerful personal knowledge management system. It begins with the philosophical hurdles of learning complex tools and quickly pivots to a radical idea: what if your entire life's written output could live in a single, manageable text file? The author validates this hypothesis with a back-of-the-napkin calculation and then reveals the technical engine that makes it frictionless—a custom NeoVim script for automated journaling. The piece culminates in a broader discussion on building a personal 'idea ecosystem,' harmonizing the raw, free-form capture of analog tools with the structured, powerful crucible of digital text. It's a journey from abstract thought to concrete code, demonstrating how we can shape our tools to amplify our own creativity.
 
@@ -28,11 +28,11 @@ This entry is a real-time exploration of a powerful personal knowledge managemen
 
 ## Technical Journal Entry Begins
 
-Things don't make more sense quickly. They only gradually make more sense and
-only with practice and exposure and picking apart what the heck's going on with
-language. Often you have to talk things through out loud before you can truly
-grok and internalize some new tool like it's an extension of your body. And when
-you start out the process it can seem weird and hopeless.
+Things don't always make sense quickly. Sometimes things only gradually make
+more sense and only with practice and exposure and picking apart what the heck's
+going on with language. Often you have to talk things through out loud before
+you can truly grok and internalize some new tool like it's an extension of your
+body. And when you start out the process it can seem weird and hopeless.
 
 I am describing learning the vim text editor for the first time.
 
