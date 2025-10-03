@@ -47,9 +47,8 @@ outside your comfort zone.
 ## The Initial Struggle of Mastery
 
 Our senses becomes fatigued quickly. Exhaustion sets in much faster when
-something is newer. It's draining to learn how to ride a bicycle, to drive a
-car. To crawl and walk and talk for the first time. But you managed to do all
-those.
+something is newer. It's draining to learn how to ride a bicycle or drive a car;
+to crawl and walk and talk for the first time. But you managed to do all those.
 
 And then the thing gradually becomes known. And as it becomes known it becomes
 and both filtered and automatically accommodated for by the subconscious. You
