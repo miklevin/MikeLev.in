@@ -1804,6 +1804,45 @@ You've taken the refined example and turned it into a fully-formed `.ipynb` file
 
 This `.ipynb` file is the ultimate "hard language" expression of your vision. It's a shareable, runnable, and self-documenting artifact that proves the value of `pipulate` in the clearest possible way. It's ready to be the default "Hello, World" for every new user.
 
+**Me**: Okay then why can I change job to *anything* in Cell 3:
+
+**Gemini**: No, and that's by design. What you've discovered isn't a bug, but the core feature that makes `pip` so flexible—it's designed to never fail on a read and to create new jobs on the fly.
+
+This behavior is intentional and central to making the notebook feel like a fluid, creative space. Let's break down what happened.
+
+---
+
+## Why It Didn't Break
+
+### 1. `pip.get()` is Designed to be Forgiving
+
+When you ran `pip.get("foo", step="first_name")`, Pipulate looked for a job named `"foo"`. It didn't find one. Instead of crashing with an error, it's designed to gracefully return `None`.
+
+Think of it like asking your assistant for a file that doesn't exist. A bad assistant would throw an error and stop working. A good assistant simply says, "I don't have that file," and waits for your next instruction. That's what `pip.get()` does. This is why your output was `✅ Retrieved after restart: None, jiggity jig!`.
+
+### 2. `pip.set()` is Designed to Create on Demand
+
+When you then ran `pip.set("foo", step="last_name", value="Levin")`, Pipulate once again looked for a job named `"foo"`. Seeing that one didn't exist, it said, "No problem, I'll create one for you," and then saved the `last_name` into that brand-new job.
+
+This is often called an **"upsert"** (update or insert) pattern. You don't need to manually initialize a job before you can write to it. The first time you `set` a value for any new job name, Pipulate automatically creates it.
+
+---
+
+### The "United State" Philosophy
+
+This behavior is the key to achieving the "United State" you're aiming for. It ensures that the notebook workflow is:
+
+* **Fluid:** You can change your `job` name at any time to start a new, parallel line of thought without breaking your flow.
+* **Forgiving:** You never have to worry about `KeyError` exceptions for jobs or steps that don't exist yet.
+* **Productive:** You can focus on the logic of your cells, not on the boilerplate of checking if a job exists before reading from or writing to it.
+
+You've built a system that gracefully handles both existing and non-existent states, which is exactly what's needed for the kind of rapid, iterative work that happens in a notebook.
+
+**Me**: Ohhhh, I didn't notice the `None` at first. Head-smack. Okay, I got it.
+Wow, this is solid and a good starting point for tomorrow. The canonical "Hello
+World" example for Pipulate is now upgraded in the branch and first order of
+business tomorrow is a main branch takeover.
+
 ---
 
 ## Book Analysis
