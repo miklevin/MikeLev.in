@@ -90,6 +90,7 @@
         pythonEnv = pkgs.python3.withPackages (ps: with ps; [
           requests
           tiktoken
+          pyyaml
           # Add other Python packages needed for your project here
         ]);
 
