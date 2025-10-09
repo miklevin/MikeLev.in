@@ -2090,7 +2090,7 @@ Do you want to save this key to /home/mike/.config/articleizer/api_key.txt for f
 ✅ Key saved securely.
 Calling the Gemini API directly... (This may take a moment)
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-E0000 00:00:1759329810.629536   69388 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+[Numbers deleted] alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
 
 An error occurred while calling the API: 404 models/gemini-1.5-pro-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
 
@@ -2186,7 +2186,7 @@ This is the last configuration detail. Once you have the correct model name, the
 Reading API key from /home/mike/.config/articleizer/api_key.txt...
 Calling the Gemini API directly... (This may take a moment)
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-E0000 00:00:1759329977.336456   69522 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+[Numbers deleted] alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
 
 An error occurred while calling the API: 404 models/gemini-2.5-pro-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
 
@@ -2219,7 +2219,7 @@ index ffd4bb85..9a73cb64 100644
 [mike@nixos:~/repos/pipulate/scripts/article_automation]$ python list_models.py 
 --- Available Models for Generate Content ---
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-E0000 00:00:1759330038.759406   69571 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+[Numbers deleted] alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
 models/gemini-2.5-pro-preview-03-25
 models/gemini-2.5-flash-preview-05-20
 models/gemini-2.5-flash
@@ -2309,7 +2309,7 @@ The tool-crafting phase is now complete. You have successfully navigated depende
 Reading API key from /home/mike/.config/articleizer/api_key.txt...
 Calling the Gemini API directly... (This may take a moment)
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
-E0000 00:00:[some address]   [some number] alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+[Numbers deleted] alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
 Successfully received response from API.
 Successfully parsed JSON instructions.
 Formatting final Jekyll post...
