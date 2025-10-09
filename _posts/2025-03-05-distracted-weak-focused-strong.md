@@ -30,7 +30,7 @@ Science covers this with quantum mechanics, the Heisenberg uncertainty principle
 
 ### Asimov's Psychohistory: Individual vs Collective Prediction
 
-One of the best sci-fi stories of all time that goes back to 1942 addresses this as the concept of psychohistory in Asimov's Foundation where are the scientist Harry Seldon determined that the outcome of vast societies in civilizations was more or less predictable, but the actions of individuals not so much. Predicting the movement of the herd is easier than predicting the movement of individuals within it. Outliers will be outliers. And if the butterfly effect happens to kick in with an outlier, the overall flock's direction and destiny may change. The little things do matter.
+One of the best sci-fi stories of all time that goes back to 1942 addresses this as the concept of psychohistory in Asimov's Foundation where are the scientist Hari Seldon determined that the outcome of vast societies in civilizations was more or less predictable, but the actions of individuals not so much. Predicting the movement of the herd is easier than predicting the movement of individuals within it. Outliers will be outliers. And if the butterfly effect happens to kick in with an outlier, the overall flock's direction and destiny may change. The little things do matter.
 
 ### The Power of Small Actions
 

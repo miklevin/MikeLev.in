@@ -46,7 +46,7 @@ astoundingly been brought to the public in the form of *The Foundation* series
 on Apple TV, but I couldn't get through it. The *books were some of the most
 impactful things I've read in my life* but the TV series... meh
 
-Harry Seldon and *psychohistory* I'm telling you is quantum physics for
+Hari Seldon and *psychohistory* I'm telling you is quantum physics for
 psychology and sociology. The maths can predict what the crowds and masses of
 people are going to do as the whole of society, but drill-down to an individual
 and all bets are off. Superimposition, non-locality and all that. Asimov didn't
