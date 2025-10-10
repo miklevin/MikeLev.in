@@ -17,7 +17,6 @@ layout: post
 sort_order: 6
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Pondering Personal Knowledge Management

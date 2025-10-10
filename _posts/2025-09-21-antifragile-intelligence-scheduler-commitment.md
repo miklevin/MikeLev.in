@@ -21,7 +21,6 @@ sort_order: 4
 ---
 
 ### Context for the Curious Book Reader
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
 
 This entry captures a pivotal moment where a technical discussion about an AI scheduling system evolves into a profound philosophical exploration. The author connects the dots between advanced AI, systems thinking, and the psychological principles of commitment and consistency, as described by Robert Cialdini. It reframes the mundane task of scheduling into a powerful 'self-hack' for ensuring personal and project-level progress. The dialogue proposes a multi-phased approach to building an 'antifragile' scheduler—one that grows organically, reacts to events like a living network, and operates with intelligent constraints. This piece is a testament to the idea that the most robust technical solutions are often reflections of deeper human and natural principles, moving beyond brittle optimization toward sustainable, resilient intelligence.
 

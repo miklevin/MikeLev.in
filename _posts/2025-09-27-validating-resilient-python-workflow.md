@@ -18,7 +18,6 @@ layout: post
 sort_order: 2
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
 ### Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the creative process: the transition from high-level philosophy to a grounded, validated technical plan. It begins with broad analogies—music, gaming, history—as a mental warm-up to tackle a complex problem: how to build a truly resilient and future-proof development workflow. What follows is a raw, stream-of-consciousness dialogue that crystallizes this 'Ark' concept into a concrete API and, most importantly, subjects it to a series of rigorous 'pre-flight checks.' This is the messy, critical work of ensuring a beautiful idea can actually survive contact with the command line.

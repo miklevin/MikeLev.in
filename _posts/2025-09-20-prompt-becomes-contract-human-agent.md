@@ -19,7 +19,6 @@ layout: post
 sort_order: 1
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
 ## Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment in my journey to create a truly collaborative software development process with AI. I was moving beyond simple conversational pair-programming to a more robust model where I act as a 'general contractor' and the AI acts as a subcontractor. The core of this model is the 'prompt-as-contract'—a detailed, non-negotiable set of instructions for the AI agent to perform. This entry documents the raw, unfiltered process of drafting these contracts, the repeated, frustrating failures of the AI to execute them on a complex codebase, and the critical insight I gained when the system broke down. It's a story about failure, debugging the human-AI workflow itself, and the surprising realization that sometimes, the most effective agent for executing an AI's meticulously crafted plan is the human who commissioned it.

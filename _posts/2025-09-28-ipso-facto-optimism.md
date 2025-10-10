@@ -20,7 +20,6 @@ layout: post
 sort_order: 1
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
 ## Context for the Curious Book Reader
 
 What you're about to read is a raw, unedited excerpt from my personal technical journal. It's a free-flowing dialogue with my AI research assistant, Gemini, where I attempt to connect the dots between biology, sci-fi, game theory, and the philosophy of science. My goal is to forge a robust, evidence-based argument for optimism about humanity's future, challenging the pervasive dystopian narratives by asserting that our messy, chaotic nature is our greatest strength.

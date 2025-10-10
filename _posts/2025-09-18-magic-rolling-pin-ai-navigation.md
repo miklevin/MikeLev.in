@@ -21,7 +21,6 @@ layout: post
 sort_order: 5
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this technical journal entry, I explore a core challenge in the age of AI agents: website navigability. I introduce a concept I'm calling the 'Magic Rolling Pin,' guided by a 'Rule of 7,' to combat the prevalent 'Deathstar' problem where flat, heavily cross-linked navigation structures confuse both humans and bots. The piece details my evolving thoughts on using this principle to restructure information, not just in software repositories but for entire websites, making them logically traversable. I document my conversation with an AI, critically examining the assumptions and potential of this approach, including using Hierarchical Agglomerative Clustering to create stable, SEO-friendly navigational hubs. This is a blueprint for a future where websites are designed for efficient AI interaction.
