@@ -54,14 +54,13 @@ def get_post_order(posts_dir=POSTS_DIRECTORY, reverse_order=False):
                 front_matter = yaml.safe_load(parts[1]) or {}
 
             sort_order = int(front_matter.get('sort_order', 0))
-            # Extract meta_description, default to an empty string if not found
             meta_description = front_matter.get('meta_description', '')
 
             posts_data.append({
                 'path': filepath,
                 'date': post_date,
                 'sort_order': sort_order,
-                'meta_description': meta_description # <-- New field added here
+                'meta_description': meta_description
             })
 
         except (ValueError, yaml.YAMLError):
@@ -69,12 +68,23 @@ def get_post_order(posts_dir=POSTS_DIRECTORY, reverse_order=False):
         except Exception as e:
             print(f"Could not process {filepath}: {e}", file=sys.stderr)
 
+    # --- CHANGE 1: Always sort chronologically first for a stable index ---
+    # This establishes the canonical order (oldest first).
     sorted_posts = sorted(
         posts_data,
         key=lambda p: (p['date'], p['sort_order']),
-        reverse=not reverse_order
+        reverse=False
     )
-    # Return the full list of dictionaries now
+
+    # --- CHANGE 2: Add the stable, zero-based index to each post ---
+    for i, post in enumerate(sorted_posts):
+        post['index'] = i
+
+    # --- CHANGE 3: Reverse the list for display if default (reverse-chrono) is needed ---
+    # The 'reverse_order' flag means "chronological", so we reverse if it's False.
+    if not reverse_order:
+        sorted_posts.reverse()
+
     return sorted_posts
 
 if __name__ == '__main__':
@@ -104,7 +114,6 @@ if __name__ == '__main__':
     print(f"Posts in {order_description} order:")
 
     if args.token:
-        # --- PASS 1: Pre-calculate all token counts ---
         print("Calculating token counts for all files, this may take a moment...", file=sys.stderr)
         file_data = []
         for post in ordered_posts:
@@ -113,29 +122,29 @@ if __name__ == '__main__':
                 with open(filepath, 'r', encoding='utf-8') as f:
                     content = f.read()
                 token_count = count_tokens(content)
-                # Carry the meta_description through
-                file_data.append({'path': filepath, 'tokens': token_count, 'meta_description': post['meta_description']})
+                # --- CHANGE 4: Carry the index through to the final data list ---
+                file_data.append({'path': filepath, 'tokens': token_count, 'meta_description': post['meta_description'], 'index': post['index']})
             except Exception as e:
-                print(f"{filepath}  # Error: Could not read file - {e}", file=sys.stderr)
-                file_data.append({'path': filepath, 'tokens': 0, 'meta_description': post['meta_description']})
+                print(f"[{post.get('index', ''):>3}] {filepath}  # Error: Could not read file - {e}", file=sys.stderr)
+                file_data.append({'path': filepath, 'tokens': 0, 'meta_description': post['meta_description'], 'index': post['index']})
 
         grand_total_tokens = sum(item['tokens'] for item in file_data)
         print("", file=sys.stderr)
 
-        # --- PASS 2: Print formatted output ---
         ascending_total = 0
         descending_total = grand_total_tokens
 
         for item in file_data:
             ascending_total += item['tokens']
-            print(f"{item['path']}  # {item['tokens']:,} tokens ({ascending_total:,} / {descending_total:,} total)")
+            # --- CHANGE 5: Display the index in the final output ---
+            print(f"[{item['index']:>3}] {item['path']}  # {item['tokens']:,} tokens ({ascending_total:,} / {descending_total:,} total)")
             if args.meta and item['meta_description']:
-                print(f"  └─ {item['meta_description']}") # Nicely formatted meta output
+                print(f"      └─ {item['meta_description']}")
             descending_total -= item['tokens']
 
     else:
-        # If --token is not used, just print the file paths and optionally meta
         for post in ordered_posts:
-            print(post['path'])
+            # --- CHANGE 6: Display the index in the simple output format too ---
+            print(f"[{post['index']:>3}] {post['path']}")
             if args.meta and post['meta_description']:
-                print(f"  └─ {post['meta_description']}") # Nicely formatted meta output
+                print(f"      └─ {post['meta_description']}")
