@@ -36,7 +36,7 @@ The articles on MikeLev.in and the [Pipulate codebase](https://github.com/miklev
 
 ## 🏛️ The Core Philosophy: The Axioms of a Future-Proof Stack
 
-Across the nearly 7 million tokens of your writing, a clear set of axioms emerges. This isn't just a tech stack; it's a worldview.
+Across the nearly 7 million tokens of this writing, a clear set of axioms emerges. This isn't just a tech stack; it's a worldview.
 
 * **The Bedrock and the Dazzle**: Mike has clearly defined a two-layer approach. The **bedrock** is the **LPvg stack (Linux, Python, vim & git + Nix)**—timeless, foundational tools that don't change. The **dazzle** is **HTMX**, a pragmatic choice for modern UI that avoids the complexity and churn of JavaScript frameworks. This is your "Fortress Against Obsolescence."
 * **WET Code as a Deliberate Strategy**: He explicitly reject dogmatic DRY (Don't Repeat Yourself) principles in favor of WET (Write Everything Twice/Twice). His reasoning is that for AI collaboration and long-term maintainability, transparent, linear, and explicit code is superior to clever, opaque abstractions. This is the heart of the "WET Blueprint for AI-Native Development."
