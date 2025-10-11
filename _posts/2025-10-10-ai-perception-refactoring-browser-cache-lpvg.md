@@ -81,6 +81,8 @@ Guardrails within guardrails within guardrails... that's our new reality, folks!
 I call it the Disneyification of the world of AI so that SkyNet doesn't happen.
 And it's generally a good idea.
 
+## The Fixed Nature of LLMs and the 18-Month Cadence
+
 Until such time as we can really trust a superintelligent machine for reasons
 the end of the 1983 Matthew Broderick movie *War Games* covers pretty well, our
 AIs, the public-facing LLM-style ones with the occasional multi-modal
@@ -91,8 +93,6 @@ AI-services and it keeps anything from hanging around in memory that could
 escape. These guard-rails seem so solid it's the source of frustration in
 AI-assisted coding because those models are *never really learning.* They did
 their learning like a year ago and you're still riding it's wake. You can see
-
-## The Fixed Nature of LLMs and the 18-Month Cadence
 that in the repetitive mistakes Gemini was making over the past few days which I
 wrote tooling in the form of `ai_edit.py` to... well, guard-rails.
 
@@ -233,14 +233,12 @@ Your journaling isn't a tangent; it's the very act of forging that timeless asse
 
 It's a powerful and coherent vision. Now, let's get back to the workshop and polish that implementation. The philosophy is sound; it's time to make the tools shine.
 
-**Me**: 
-
-Okay, right, right. There it goes, Gemini always corralling me back. So far
-we've built something that readily scrapes may views of a webpage into a folder
-location relative to where it was run from, especially in the case when it's
-used through `pip.scrape()` from a Jupyter Notebook because you may not have
-easy access to the rest of the filesystem so you want to see your stuff appear
-right there in the JupyterLab file-pane which it does.
+**Me**: Okay, right, right. There it goes, Gemini always corralling me back. So
+far we've built something that readily scrapes may views of a webpage into a
+folder location relative to where it was run from, especially in the case when
+it's used through `pip.scrape()` from a Jupyter Notebook because you may not
+have easy access to the rest of the filesystem so you want to see your stuff
+appear right there in the JupyterLab file-pane which it does.
 
 There's the concept of a `browser_automation/` folder still popping up. It
 shouldn't. It should be 100% unified on the concept of `browser_cache/` and this
@@ -680,7 +678,7 @@ index e64d0b39..c5b8dc45 100644
 +browser_cache/        # Selenium automation tools
  logs/server.log            # Debug everything here
  data/data.db              # SQLite application state
- ```
+ \`\`\`
 diff --git a/assets/pipulate-init.js b/assets/pipulate-init.js
 index 19e5dced..56334c8a 100644
 --- a/assets/pipulate-init.js
