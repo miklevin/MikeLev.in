@@ -5,7 +5,7 @@ description: Exploring Gemini Advanced, I use fresh web logs each session to fin
 meta_description: "Debugging LLM 'Ghost In The Machine' actions in FastHTML/HTMX. Covers AI-assisted refactoring, enhanced logging via decorators & NixOS helper scripts."
 meta_keywords: LLM integration, Ghost In The Machine, command execution, debugging, AI code assist, Cursor AI, Gemini Advanced, FastHTML, HTMX, CRUD, logging decorator, functools, NixOS, helper script, writeShellScriptBin, code refactoring, Python
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 What's happening here is I have my web logs set to start fresh every time. In

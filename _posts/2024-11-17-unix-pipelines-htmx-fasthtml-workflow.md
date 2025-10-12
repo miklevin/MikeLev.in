@@ -5,8 +5,7 @@ description: "Unix Pipeline Philosophy in HTMX + FastHTML Workflows: Enhance you
 meta_description: Embrace a Unix-inspired workflow in FastHTML and HTMX to simplify state management, persistence, and debugging in a single-tenant pipeline.
 meta_keywords: unix pipeline, htmx, fasthtml, workflow, state management, persistent logging, single-tenant, debugging, file system, progressive enhancement, agile web development, simple design
 layout: post
-sort_order: 2
-date: 2024-11-16
+sort_order: 1
 ---
 
 What you see immediately below is me feeding this article (so far) into Gemini

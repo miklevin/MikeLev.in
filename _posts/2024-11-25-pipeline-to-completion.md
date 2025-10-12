@@ -5,7 +5,7 @@ description: "I am creating a minimalist, self-healing workflow design based on 
 meta_description: "Complete workflows seamlessly with a minimalist pipeline design—using URL keys and a self-healing JSON blob for consistent state transitions."
 meta_keywords: pipeline workflow, minimalist design, self-healing, URL primary key, JSON blob, state transitions, UNIX pipe, re-serialization, workflow development, time-travel prompting, code orchestration
 layout: post
-sort_order: 5
+sort_order: 1
 ---
 
 Don't jump into trying to implement anything. Just mull it over.

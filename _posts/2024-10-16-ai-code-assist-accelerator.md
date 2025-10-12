@@ -6,7 +6,7 @@ meta_description: Optimize Cursor AI assistance by consolidating NixOS & NeoVim 
 meta_keywords: AI code assist, Cursor AI, development scope, folder structure, NixOS configuration, NeoVim configuration, init.lua, Lua, Vimscript, migration, coding efficiency, NixOS, NeoVim, Python, workflow optimization, unittest
 layout: post
 date: 2024-10-15
-sort_order: 2
+sort_order: 1
 ---
 
 ## Moving Nix OS Configuration to Cursor AI Repository
