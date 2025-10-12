@@ -91,6 +91,7 @@
           requests
           tiktoken
           pyyaml
+          rich
           # Add other Python packages needed for your project here
         ]);
 
