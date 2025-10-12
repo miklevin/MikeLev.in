@@ -14,7 +14,7 @@ meta_description: An analysis of the AI boom, arguing it's not a bubble but a fu
 meta_keywords: "AI bubble, strange loop, dot-com bust, intelligence as a utility,\
   \ data centers, human-AI collaboration, G\xF6del Escher Bach, AI development"
 layout: post
-sort_order: 3
+sort_order: 1
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader

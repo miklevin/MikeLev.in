@@ -13,7 +13,7 @@ meta_description: Follow the journey of debugging a persistent state management 
 meta_keywords: Pipulate, Jupyter Notebook, Python, debugging, software architecture,
   fastlite, state management, AI collaboration, ConstraintError, upsert, persistence
 layout: post
-sort_order: 3
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader

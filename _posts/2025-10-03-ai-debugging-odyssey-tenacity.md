@@ -19,7 +19,7 @@ meta_description: A raw look at a developer's tenacious journey debugging a comp
 meta_keywords: AI collaboration, software development, Python scripting, Jupyter Notebook,
   debugging, prompt engineering, NixOS, PlantUML, LLM, Gemini CLI, agentic AI
 layout: post
-sort_order: 2
+sort_order: 3
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
