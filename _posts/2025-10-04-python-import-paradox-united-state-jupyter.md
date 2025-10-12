@@ -15,7 +15,7 @@ meta_description: A developer journal entry debugging Python's import system to 
 meta_keywords: Python import, Jupyter Notebook, state management, pipulate, from import
   vs import as, Python packaging, sys.modules, software architecture, AI pair programming
 layout: post
-sort_order: 2
+sort_order: 1
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader

@@ -16,7 +16,7 @@ meta_description: A deep dive into debugging an AI's flawed advice by upgrading 
 meta_keywords: AI collaboration, prompt engineering, AI development workflow, Gemini,
   context verification, AI debugging, prompt fu, automated testing, Python, pip install
 layout: post
-sort_order: 4
+sort_order: 3
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
