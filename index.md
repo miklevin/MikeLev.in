@@ -109,7 +109,7 @@ Webmaster feeling.
 
 I was born the same year and only 50-miles away from where Unix was born. While
 I worked in the halls of Commodore as a roving student intern, I never got to
-experience a Jack Attack. Superman and Green Jobs had ain't got nothing on
+experience a Jack Attack. Superman and Steve Jobs had ain't got nothing on
 Tramiel. Today, I work as an SEO in NYC.
 
 <ol reversed id="index">
