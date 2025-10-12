@@ -1,5 +1,5 @@
 ---
-title: 'Python''s `__init__.py`: Unlocking Packages and Refining Project Architecture'
+title: 'Python''s __init__.py: Unlocking Packages and Refining Project Architecture'
 permalink: /futureproof/python-init-py-packages-architecture/
 description: The author navigates the challenges of codebase growth, detailing a personal
   journey of discovery into Python's module and package system, particularly the nuanced
