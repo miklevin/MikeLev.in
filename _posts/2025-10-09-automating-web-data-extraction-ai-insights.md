@@ -13,7 +13,7 @@ meta_description: This technical journal entry details the practical implementat
 meta_keywords: AI enrichment, web scraping, data extraction, pipulate, sqlitedict,
   BeautifulSoup, Gemini AI, SEO elements, Python workflow, automated insights
 layout: post
-sort_order: 5
+sort_order: 4
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
