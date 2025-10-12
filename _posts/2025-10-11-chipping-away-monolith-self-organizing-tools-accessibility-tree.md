@@ -17,7 +17,7 @@ meta_keywords: refactoring, accessibility tree, browser automation, selenium, py
   packages, __init__.py, ripgrep, DevTools, chisel-strike, future-proofing, technical
   debt
 layout: post
-sort_order: 1
+sort_order: 7
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
