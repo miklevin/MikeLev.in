@@ -5,7 +5,7 @@ description: Need to select indented code blocks like Python functions in Vim wi
 meta_description: Optimized Lunr.js search fields boost client-side indexing with concise meta tags and focused keywords for precise search results.
 meta_keywords: Lunr.js, search fields, optimized indexing, meta tags, client-side search, keyword optimization, content indexing
 layout: post
-sort_order: 2
+sort_order: 1
 ---
 
 Alright, let's get to the heart of this.  So, I was on a quest to find a simple,

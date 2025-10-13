@@ -5,7 +5,7 @@ description: "I wanted to share how I recently used AI code assistance to help m
 meta_description: "Debugging SEO issues caused by AI-assisted CLS fixes. How using 'visibility: hidden' tanked traffic and the switch to 'opacity' for better indexing."
 meta_keywords: CLS, Cumulative Layout Shift, SEO, AI code assistance, traffic drop, visibility hidden, opacity, JavaScript indexing, search engine optimization, Google Search Console, GSC, Core Web Vitals, CWV, TocBot, Table of Contents, CSS, JavaScript, site performance, web vitals, indexing issue, search visibility, noscript, requestAnimationFrame
 layout: post
-sort_order: 2
+sort_order: 1
 ---
 
 ## Understanding AI Code Assistance and Website Performance

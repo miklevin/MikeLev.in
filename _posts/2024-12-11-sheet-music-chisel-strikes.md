@@ -5,7 +5,7 @@ description: This article explores approaching coding with a beginner's mind and
 meta_description: "Discover how coding can be like writing sheet music—daily chisel-strikes create clear, teachable code and inspire steady progress."
 meta_keywords: sheet music, chisel strikes, coding philosophy, incremental progress, beginner's mind, clear code, programming teaching, daily improvements, code as art, software craftsmanship
 layout: post
-sort_order: 2
+sort_order: 1
 ---
 
 ## The Daily Work

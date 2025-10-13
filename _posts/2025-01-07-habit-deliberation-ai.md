@@ -5,7 +5,7 @@ description: We navigate life through a dynamic interplay of habits, deliberate 
 meta_description: Master rapid decision-making with a speed-chess mindset that fuses instinctive habits with thoughtful analysis for smarter, agile choices.
 meta_keywords: speed chess, decision-making, habits, deliberate thought, AI adaptation, journaling, cognitive flow, rapid decisions, self-reflection, heuristics, adaptive learning
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Decision Making and Daily Life

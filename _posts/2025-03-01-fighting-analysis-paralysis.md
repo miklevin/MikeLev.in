@@ -5,7 +5,7 @@ description: I'm fighting analysis paralysis by pushing for action over abstract
 meta_description: Beat analysis paralysis with agile, action-driven SEO workflows and client communication using YAML storytelling and modern tech strategies.
 meta_keywords: analysis paralysis, agile workflow, SEO consulting, client communication, YAML storytelling, iterative cycles, PageWorkers, replatforming, HTMX, JavaScript SEO edits
 layout: post
-sort_order: 2
+sort_order: 1
 ---
 
 ## Taking Action Over Analysis
