@@ -14,7 +14,7 @@ meta_description: Explore a novel approach to AI-assisted coding where the AI ac
 meta_keywords: AI coding assistant, AI tutor, developer education, codebase control,
   prompt engineering, Gemini, software development workflow, debugging with AI
 layout: post
-sort_order: 1
+sort_order: 3
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader

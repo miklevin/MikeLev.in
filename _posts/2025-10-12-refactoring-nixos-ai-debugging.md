@@ -16,7 +16,7 @@ meta_description: Chronicles a challenging refactoring effort in a NixOS develop
 meta_keywords: NixOS, Git, refactoring, JupyterLab, ripgrep, sed, AI collaboration,
   debugging, flake.nix, developer environment
 layout: post
-sort_order: 1
+sort_order: 7
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
