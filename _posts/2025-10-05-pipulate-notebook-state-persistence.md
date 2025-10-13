@@ -13,7 +13,7 @@ meta_description: Explore how Pipulate achieves persistent state in Jupyter Note
 meta_keywords: Pipulate, Jupyter Notebook, state management, persistence, Google Colab,
   sqlite3, fastlite, Python, Nix, AI code assistant
 layout: post
-sort_order: 5
+sort_order: 4
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
