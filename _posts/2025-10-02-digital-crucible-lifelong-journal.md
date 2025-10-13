@@ -14,7 +14,7 @@ meta_description: An exploration of using Vim and Git to maintain a single text 
 meta_keywords: Vim, NeoVim, Git, journaling, idea capture, workflow automation, Lua
   script, lifelong learning, personal knowledge management, digital crucible
 layout: post
-sort_order: 6
+sort_order: 5
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
