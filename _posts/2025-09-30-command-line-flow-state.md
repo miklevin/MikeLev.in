@@ -14,7 +14,7 @@ meta_description: An exploration of achieving developer flow-state through comma
 meta_keywords: AI CLI, flow state, developer productivity, command line, virtual workspaces,
   Claude, OpenAI Codex, Gemini, llm, Python, PyPI, developer tools
 layout: post
-sort_order: 5
+sort_order: 4
 ---
 
 ## Context for the Curious Book Reader

@@ -17,7 +17,7 @@ meta_keywords: SEO, Project Pipulate, Data Science, AI, Machine Learning, Webmas
   Google, Mobile Revolution, Mobilegeddon, Accessibility Tree, AI Perception, Agentic
   Usability, dom_tools.py
 layout: post
-sort_order: 3
+sort_order: 4
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader

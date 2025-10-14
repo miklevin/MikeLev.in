@@ -15,7 +15,7 @@ meta_keywords: AI, artificial intelligence, Genie Backfire Wish Syndrome, embodi
   problem, RAG, mechanistic intelligence, technology as magic, Iain McGilchrist, human
   agency, panpsychism, future of AI
 layout: post
-sort_order: 5
+sort_order: 6
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader

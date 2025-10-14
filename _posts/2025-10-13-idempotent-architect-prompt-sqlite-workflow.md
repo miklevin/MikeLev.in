@@ -14,7 +14,7 @@ meta_description: A deep dive into debugging an AI-driven FAQ generation pipelin
 meta_keywords: AI, workflow, debugging, prompt engineering, idempotency, SQLite, pipulate,
   JSON, Python, git, version control, technical journal, content generation
 layout: post
-sort_order: 4
+sort_order: 5
 ---
 
 {% raw %}
