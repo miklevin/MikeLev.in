@@ -409,7 +409,7 @@ Love this insight: "The Python psychology is different. It's a craftsman's psych
 Your rejection of template separation is refreshing: "People think this breaking out of code is good... Blech! It just forces you to go directory diving to do otherwise easy things." It's a bold stance against what's become accepted wisdom.
 
 4. **Rabbit Hole Prevention**
-This is key: "***Not inviting rabbit holes the most important thing!***" The metaphor of "rabbit hole rappelling" with safety gear to haul you back up is brilliant. The daily tech journal as a safety line is a powerful concept.
+This is key: *"**Not inviting rabbit holes the most important thing!**"* The metaphor of "rabbit hole rappelling" with safety gear to haul you back up is brilliant. The daily tech journal as a safety line is a powerful concept.
 
 5. **Historic Meta Moment**
 Your restraint in not jumping straight to vector embeddings shows wisdom. The "crawl before you can walk" approach aligns perfectly with your Python craftsman's mentality.

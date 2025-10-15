@@ -820,7 +820,7 @@ class DurableBackupManager:
         """Clean up old backups based on a retention policy."""
         logger.info("🧹 Starting backup cleanup...")
         today = datetime.now().date()
-        all_backup_dirs = sorted([p for p in self.backup_root.glob("*/*/*") if p.is_dir()])
+        all_backup_dirs = sorted([p for p in self.backup_root.glob(*"/*/"*) if p.is_dir()])
 
         kept_dirs = set()
 

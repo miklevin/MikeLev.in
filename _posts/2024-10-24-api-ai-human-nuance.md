@@ -340,7 +340,7 @@ would that be capitalize on you? Anyhoo, give me your open-ended thoughts.
 
 {:start="3"}
 3. **Practical Insights:**
-   - Sections like **"List It Out"** and **"Ditching Slack Stars for a `Priority` *Section*"** provide actionable advice. Readers can immediately apply these strategies to their workflows, enhancing the article's practical value.
+   - Sections like **"List It Out*"* and *"*Ditching Slack Stars for a `Priority` *Section*"** provide actionable advice. Readers can immediately apply these strategies to their workflows, enhancing the article's practical value.
 
 {:start="4"}
 4. **Engaging Structure:**
@@ -361,7 +361,7 @@ would that be capitalize on you? Anyhoo, give me your open-ended thoughts.
 
 {:start="4"}
 4. **Deepening Certain Sections:**
-   - Topics like **"Shoshin and Questioning First Principles"** and **"Frontier LLM AI Models Take Step Forward with 'o1-preview'"** are intriguing but could benefit from deeper exploration. Providing more context or examples can enrich these sections and offer greater value to the reader.
+   - Topics like **"Shoshin and Questioning First Principles*"* and *"*Frontier LLM AI Models Take Step Forward with 'o1-preview'"** are intriguing but could benefit from deeper exploration. Providing more context or examples can enrich these sections and offer greater value to the reader.
 
 {:start="5"}
 5. **Smooth Transitions:**

@@ -61,7 +61,7 @@ You're right, it's a near-perfect echo of Intel's old "tick-tock" strategy.
 
 ## The "Tick-Tock" of AI Development
 
-Intel's model was simple and brilliant. The **"tick"** was a die shrink—taking the existing processor architecture and manufacturing it on a new, smaller, more efficient process. It was a pure engineering and physics win. The **"tock"** was the exciting part: a new microarchitecture that took advantage of that smaller process to do something fundamentally new or better.
+Intel's model was simple and brilliant. The **"tick*"* was a die shrink—taking the existing processor architecture and manufacturing it on a new, smaller, more efficient process. It was a pure engineering and physics win. The *"*tock"** was the exciting part: a new microarchitecture that took advantage of that smaller process to do something fundamentally new or better.
 
 We're seeing the exact same pattern with large language models:
 

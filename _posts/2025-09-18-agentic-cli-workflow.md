@@ -619,7 +619,7 @@ Yes, **Neovim is indeed more permissive by default.** One of its core goals was 
 
 ## Clipboard Security 🔐
 
-Your observation about clipboard security is also timely and accurate. The practice of websites reading clipboard content without permission is known as **"clipboard sniffing"** or **"clipboard hijacking."**
+Your observation about clipboard security is also timely and accurate. The practice of websites reading clipboard content without permission is known as **"clipboard sniffing*"* or *"*clipboard hijacking."**
 
 For years, it was a largely unchecked privacy risk. Modern browsers have been progressively locking this down. Now, access to the clipboard through the web's Clipboard API generally requires explicit user permission or a direct, user-initiated action like a paste event (`Ctrl+V` or `Cmd+V`). You're right that the broader security implications of a shared system clipboard have only been seriously addressed in the last several years.
 

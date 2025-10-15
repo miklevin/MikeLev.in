@@ -352,7 +352,7 @@ Generative AI is experimental.
 ### Google's Cautious AI Integration
 
 Interesting! Not bad. I had to ***expand*** the ***"Search Labs | AI
-Overview"*** result with a ***"Show more"*** link, but there it was. So Google
+Overview*"** result with a **"*Show more"*** link, but there it was. So Google
 can and is doing it now, but it's sort of hiding the results. I maintain that
 this is because it cuts into AdWords revenue and threatens the family jewels. As
 popular as Perplexity might be becoming in the fringes with people like me, it's

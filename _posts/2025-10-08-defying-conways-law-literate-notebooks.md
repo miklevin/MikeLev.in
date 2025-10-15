@@ -122,7 +122,7 @@ This line describes the **philosophical goal** or the *spirit* of this developme
 
 Your poem perfectly connects the **mechanism** to the **mission**.
 
-You're using the **"Pythonic splat"** (the elegant, native Python technique) to achieve the dream of a **"Modern Plone"** (a powerful, dynamic web app built entirely in Python).
+You're using the **"Pythonic splat*"* (the elegant, native Python technique) to achieve the dream of a *"*Modern Plone"** (a powerful, dynamic web app built entirely in Python).
 
 This is the very essence of the "fullstackectomy." Instead of the convoluted modern workflow:
 

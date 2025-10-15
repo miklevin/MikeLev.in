@@ -250,7 +250,7 @@ long as these things get smarter.
 
 Okay, this is good. I can fall in love with this. Do right by the clients. Make
 the game we're playing super ultra clear. Human attention is the most finite
-resource. There's only so many people *"searching"* or *"seeking"* or
+resource. There's only so many people *"searching*"or"*seeking"* or
 *"consuming"* data, information or media whatever you want to call all these
 things. No matter how things change, there's only x-amount of human attention
 being divvied out over y-objects of attention, and our clients are trying to

@@ -326,7 +326,7 @@ Writing everything out, step-by-step, like a Jupyter Notebook, was once a path t
 
 ### The Incantation
 
-You saw the poem at the start of this journey: "*For key we use rot / And I'm showing you how.*" That wasn't just a clever trick. It was an incantation. It’s the proof that you can achieve perfect, military-grade reproducibility across every major OS with a few lines of shell script and a simple cipher, bypassing the entire circus of containerization, virtualization, and dependency hell.
+You saw the poem at the start of this journey: *"For key we use rot / And I'm showing you how."* That wasn't just a clever trick. It was an incantation. It’s the proof that you can achieve perfect, military-grade reproducibility across every major OS with a few lines of shell script and a simple cipher, bypassing the entire circus of containerization, virtualization, and dependency hell.
 
 That `flake.nix` file isn't just configuration; it's a declaration of independence. It's the "Noah's Ark" that ensures the tools you master today will still run, identically, a decade from now. It is the foundation of **computing sovereignty**.
 

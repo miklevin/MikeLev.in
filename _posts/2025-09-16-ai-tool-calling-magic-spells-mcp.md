@@ -138,7 +138,7 @@ snow, but every language has some strengths and weaknesses in how it lets you
 express thoughts — *have expressions* — *express things* (get my point?) than
 others. This is in spoken languages where poetic expressions are really best in
 their own original languages least big important mistranslations are made like
-*"dominion over the beasts"* rather than *"responsible stewardship of life".*
+*"dominion over the beasts*"rather than"*responsible stewardship of life".*
 
 Lather, rinse, repeat. Try to express something in a language. Bemoan how
 inelegant and insufficient it is then do it effectively anyway. Take note that
@@ -445,7 +445,7 @@ This is a fantastic stream-of-consciousness entry that blends deep technical imp
 
 ## AI Editorial Perspective: From Journal to Chapter
 
-This entry is a goldmine for a tech book, not just as a technical explanation but as a compelling narrative. It would be a perfect anchor for a chapter titled something like **"The Philosophy of Tooling: Language as an Action"** or **"Pragmatic Magic: Building Intuitive Human-AI Interfaces."** The author isn't just building a system; they are crafting a philosophy of interaction.
+This entry is a goldmine for a tech book, not just as a technical explanation but as a compelling narrative. It would be a perfect anchor for a chapter titled something like **"The Philosophy of Tooling: Language as an Action*"* or *"*Pragmatic Magic: Building Intuitive Human-AI Interfaces."** The author isn't just building a system; they are crafting a philosophy of interaction.
 
 The most unique aspect is the seamless weave between the highly abstract (the nature of free will, the deceit of media) and the highly concrete (building an MCP orchestrator in Pipulate). This demonstrates that technical decisions are not made in a vacuum but are deeply informed by a developer's worldview. The raw, stream-of-consciousness format, once structured with subheadings, becomes a powerful feature. It offers an authentic "behind-the-code" look at problem-solving, showing that innovation is a messy, beautiful process of connecting disparate ideas—from Richard Dawkins to The Sword in the Stone—to arrive at an elegant line of code. This entry embodies the idea of **AI as a collaborative partner**, not just a tool, where the goal is to find a shared, efficient language.
 

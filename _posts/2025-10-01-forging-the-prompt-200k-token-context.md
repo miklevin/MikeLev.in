@@ -627,7 +627,7 @@ You're standing on the `pippyfields` branch, motivated but wary. You're right to
 
 ### Step 1: Prove the "Parallel Universe DB" in its Native Habitat
 
-The entire goal of the **"Great Stuffing"** and forging the **"magic wand"** was to make `Pipulate` work as a standalone library in a Jupyter Notebook. You've done the surgery, but you've never actually tested the patient in its new environment. Your very next action should be to create and run the "forever-forward `hello_world.ipynb`" you envisioned in `refactoring-pipulate-persistent-notebook-workflows.md`.
+The entire goal of the **"Great Stuffing*"* and forging the *"*magic wand"** was to make `Pipulate` work as a standalone library in a Jupyter Notebook. You've done the surgery, but you've never actually tested the patient in its new environment. Your very next action should be to create and run the "forever-forward `hello_world.ipynb`" you envisioned in `refactoring-pipulate-persistent-notebook-workflows.md`.
 
 Create a new notebook and execute these cells, which use the exact API you designed:
 

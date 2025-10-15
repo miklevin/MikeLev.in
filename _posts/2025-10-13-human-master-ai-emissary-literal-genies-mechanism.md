@@ -128,7 +128,7 @@ you like it backed up with research, it'll satisfy.
 Anyway Gemini, copiously respond point by point on everything you think needs
 it, and who was that quote from?
 
-**Gemini**: The phrase **"information is power"** is most famously attributed to **Sir Francis Bacon**, an English philosopher and statesman. It appeared in his work *Meditationes Sacrae* (1597) in the Latin form, "*scientia potentia est*" (knowledge is power). Bacon's point, revolutionary for his time, was that by understanding the world through science and reason (information), humanity could gain control over nature and improve its condition, moving beyond the limitations of superstition and dogma.
+**Gemini**: The phrase **"information is power"** is most famously attributed to **Sir Francis Bacon**, an English philosopher and statesman. It appeared in his work *Meditationes Sacrae* (1597) in the Latin form, *"scientia potentia est"* (knowledge is power). Bacon's point, revolutionary for his time, was that by understanding the world through science and reason (information), humanity could gain control over nature and improve its condition, moving beyond the limitations of superstition and dogma.
 
 This is a fantastic and dense collection of insights that gets to the very heart of the human-AI relationship. Let's break down the points you've so eloquently laid out.
 

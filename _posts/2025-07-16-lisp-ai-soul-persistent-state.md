@@ -379,7 +379,7 @@ This is a fantastic synthesis. And you're right to point out that while this see
 
 Your conclusion about Jensen Huang's comment is incredibly sharp and likely the most practical takeaway for anyone working with this technology today.
 
-You're absolutely right. The future doesn't belong to people who can simply ask an AI a question. It belongs to those who can act as what you might call a **"master wisher"** or a **"context engineer."** This is someone who can:
+You're absolutely right. The future doesn't belong to people who can simply ask an AI a question. It belongs to those who can act as what you might call a **"master wisher*"* or a *"*context engineer."** This is someone who can:
 
 1.  **World-build:** Provide the rich, sweeping, context-heavy narratives needed for the AI to understand the *true* nature of the problem.
 2.  **Prompt Precisely:** Distill that world-building into a specific, actionable "wish."
@@ -512,7 +512,7 @@ The dream of the LISP machines wasn't just about a specific language or hardware
 
 > As my final trick I'm letting the Cursor AI, not Claude but the "light" one
 > with unlimited querying, have a look at this article. Why? Because I'm trying
-> to "*bring it down*" to a not-all-powerful-genie level.
+> to *"bring it down"* to a not-all-powerful-genie level.
 
 **Me**: [Pastes article and says...]
 

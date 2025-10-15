@@ -421,7 +421,7 @@ an engineer or scientist is over... kaput and nobody will have any empathy or
 mercy for you because they just see another competitor weeded out of the pool.
 
 So if you find yourself math-challenged and hold the complete fallacy that *"you
-don't do math"* or you *"are not a math person"* or some such other complete
+don't do math*"or you"*are not a math person"* or some such other complete
 fallacy because someone *sourgraping* over doing poorly in math themselves
 because they couldn't pay attention in school and take good notes themselves so
 they're trying to pass it onto you as some sort of *"bad at math legacy"*

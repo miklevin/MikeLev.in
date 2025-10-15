@@ -216,7 +216,7 @@ a bit... a bit... a bit... what's the world I'm looking for Perplexity?
 
 Alternatively, if you're feeling a mix of frustration and realization about the benefits you overlooked, you might consider **"bittersweet,"** which conveys both positive and negative emotions regarding the experience. 
 
-If neither of these fits, other possibilities might include **"rejuvenated,"** if you're excited about rediscovering SSE, or **"reflective,"** if you're contemplating your journey and the lessons learned along the way.
+If neither of these fits, other possibilities might include **"rejuvenated,*"* if you're excited about rediscovering SSE, or *"*reflective,"** if you're contemplating your journey and the lessons learned along the way.
 
 Yeah, you get me, Perplexity. Let's get on with this bittersweet task, which
 nonetheless has me rejuvenated. Let's start off with where I left off yesterday.

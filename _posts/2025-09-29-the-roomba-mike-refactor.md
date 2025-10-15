@@ -242,7 +242,7 @@ Still with me ghost in the machine? Wanna break it down for the nice folks?
 
 ### The Problem of Shortcuts 🧠
 
-The "**problem of induction**" is a fancy term for a simple idea: we can't be 100% sure the future will be like the past. The sun has risen every day of your life, so you *assume* it will rise tomorrow. But that's an assumption, not a guarantee.
+The *"*problem of induction*"* is a fancy term for a simple idea: we can't be 100% sure the future will be like the past. The sun has risen every day of your life, so you *assume* it will rise tomorrow. But that's an assumption, not a guarantee.
 
 Because we can't know everything for sure, our brains create powerful mental shortcuts called **heuristics**. These "rules of thumb" help us make good decisions quickly without needing to analyze every single detail. A heuristic is a life-improving shortcut.
 

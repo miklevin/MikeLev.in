@@ -473,7 +473,7 @@ Linux).
 
 The skills of using vi/vim, while not exactly the same as the that of using
 using TTY (tele-type) style terminals, are closely related. The whole *"logging
-into remote servers"* and *"connecting over serial"* things are not covered here
+into remote servers*"and"*connecting over serial"* things are not covered here
 in this article, suffice to say remote-typewriters (TTY) used devices called
 Terminals, thus the language of *Terminal* used today. 
 

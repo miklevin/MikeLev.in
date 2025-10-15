@@ -205,7 +205,7 @@ analyzing all that to make sure it's copacetic and not another LangChain.
 But the other part of this is the fact that the LLMs themselves, the new models
 that will get trained every few years at that multi-million-dollar cost, will
 just generally know how to do this stuff -- my mere virtue of the fact that
-***"it's a thing"*** and ***"there's a standard"***. MCP is going to get "baked
+***"it's a thing*"** and **"*there's a standard"***. MCP is going to get "baked
 in". I see this happening with HTMX, a similar "protocol"-like thing. To a
 lesser degree, I see it happening with FastHTML (versus FastAPI). It happens. It
 happens slowly. Old biases need to be overcome. The overwhelming preponderance

@@ -315,7 +315,7 @@ Below is a detailed analysis of the trends observed in the April 7–12, 2025 
   **Action:** Deepen this content by creating additional resource articles (or even a cluster of related topics) to cement authority around emerging “data theory” ideas and leverage internal links from related pages.
 
 - **Emerging Success in Open Source SEO:**  
-  Multiple entries on pages such as **"open-source-seo-software"** and the associated query **"open source seo platform"** (with examples showing positions around 16–25 and impression counts in the 28–49 range) indicate that this subject is attractive to your audience.  
+  Multiple entries on pages such as **"open-source-seo-software*"* and the associated query *"*open source seo platform"** (with examples showing positions around 16–25 and impression counts in the 28–49 range) indicate that this subject is attractive to your audience.  
   **Action:** Expand and refresh these pages with updated case studies, tool comparisons, and technical how‐to guides. Consider both enhancing existing content and creating a new comprehensive hub on open source SEO.
 
 ### Concerning Losses
@@ -335,7 +335,7 @@ Below is a detailed analysis of the trends observed in the April 7–12, 2025 
 
 ### Pages Declining in Rank
 - **Worrying Rank Declines:**  
-  Notably, several entries from the `llm-seo-software-development` hub (e.g., **"webassembly dom"** and **"cheek holes"**) have suffered significant ranking declines. Although the impression counts for these queries are low, the steep fall in ranking indicates that they have either been outcompeted or the content may no longer match user intent.  
+  Notably, several entries from the `llm-seo-software-development` hub (e.g., **"webassembly dom*"* and *"*cheek holes"**) have suffered significant ranking declines. Although the impression counts for these queries are low, the steep fall in ranking indicates that they have either been outcompeted or the content may no longer match user intent.  
   **Action:** Reassess these topics. It is advisable either to overhaul the content with more up‑to‑date examples and technical explanations or to consolidate them with better–performing content if the topic is too niche or misaligned.
 
 ### Thematic Patterns
@@ -349,7 +349,7 @@ Below is a detailed analysis of the trends observed in the April 7–12, 2025 
 
 ### Reinforcing High-Impact Content
 - **Top Value Content:**  
-  The **"peak data theory"** query is currently delivering top rankings and a high impact score. In addition, pages centered on **"open source seo platform/software"** are showing traction across different tables.  
+  The **"peak data theory*"* query is currently delivering top rankings and a high impact score. In addition, pages centered on *"*open source seo platform/software"** are showing traction across different tables.  
   **Action:** Strengthen these pages by integrating data-rich insights, expert interviews, and updated case studies. Use these successes as anchors for building broader topic clusters.
 
 ### Rescuing Underperforming Content
@@ -387,7 +387,7 @@ Below is a detailed analysis of the trends observed in the April 7–12, 2025 
 ### Defensive Priorities (Stopping Losses)
 1. **Audit & Refresh Declining Content:**  
    - **Focus Areas:**  
-     Pages on `llm-seo-software-development`—especially those covering queries like **"webassembly dom"** (–54.0 slope) and **"cheek holes"** (–28.0 slope).  
+     Pages on `llm-seo-software-development`—especially those covering queries like **"webassembly dom*"* (–54.0 slope) and *"*cheek holes"** (–28.0 slope).  
    - **Actions:**  
      • Perform a thorough content audit.  
      • Update information to reflect current standards and user intent.  
@@ -404,7 +404,7 @@ Below is a detailed analysis of the trends observed in the April 7–12, 2025 
 ### Growth Priorities (Boosting Opportunities)
 1. **Capitalize on High-Impact Trends:**  
    - **Focus Areas:**  
-     Pages with strong performance such as those targeting **"peak data theory"** and **"open source seo platform"**.  
+     Pages with strong performance such as those targeting **"peak data theory*"* and *"*open source seo platform"**.  
    - **Actions:**  
      • Expand these topics through comprehensive guides, case studies, and resource hubs.  
      • Increase internal and external linking to these pages.  

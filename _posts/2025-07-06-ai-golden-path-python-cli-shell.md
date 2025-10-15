@@ -733,7 +733,7 @@ I have to grease the wheels of *PRECISELY* what you've described.
 The fact that you were already so eager to inhabit it in its under-implemented
 form is a testament to its design. 
 
-I have indeed "*bottled it*" — but precisely what it is is what we must finish fleshing out.
+I have indeed *"bottled it"* — but precisely what it is is what we must finish fleshing out.
 
 I need the rigged-for-success magic words.
 

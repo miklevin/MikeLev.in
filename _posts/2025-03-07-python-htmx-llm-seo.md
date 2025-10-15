@@ -37,7 +37,7 @@ It's just getting in the practice!
 ## Custom Workflow Development Philosophy
 
 I believe this verbose WET approach is necessary because of how custom every
-workflow becomes. ***"Do-this"***, ***"then-do-that"*** sort of stuff, where the
+workflow becomes. ***"Do-this*"**, **"*then-do-that"*** sort of stuff, where the
 this-and-that may be anything at all possible on the Web, with the Internet, and
 beyond. It's effectively looking for a way to avoid extreme custom programming
 every time.

@@ -81,7 +81,7 @@ The key is to think of your consulting sessions or packages as "products." Hereâ
 
 4.  **Manage Fulfillment (Scheduling):** This is the most important part. When someone buys your "product," you need a way to schedule the session. You have a few great options:
     * **Manual Scheduling:** After a client pays, you receive an order notification. You can then email them personally with a link to your calendar (like Calendly, Acuity, or SavvyCal) to book their time. This is simple and effective when you're starting out.
-    * **Automated Scheduling with Apps:** For a more seamless experience, you can use Shopify apps that integrate with scheduling software. Apps like **"Appointment Booking - Appointo"** or **"Easy Appointment Booking"** can add a calendar directly to your product page, allowing clients to choose their time slot *before* they check out.
+    * **Automated Scheduling with Apps:** For a more seamless experience, you can use Shopify apps that integrate with scheduling software. Apps like **"Appointment Booking - Appointo*"* or *"*Easy Appointment Booking"** can add a calendar directly to your product page, allowing clients to choose their time slot *before* they check out.
     * **Post-Purchase Automation:** You can also set up an automated email (using Shopify Email or a tool like Klaviyo) that is sent immediately after purchase, containing the link to your scheduling calendar.
 
 **Why Shopify is a Great Choice for Consultants:**

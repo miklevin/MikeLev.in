@@ -92,7 +92,7 @@ their life, the ecosystem shut-in trick is so effective and all the rest of the
 
 Above all else is the way virtual screens operate. It seems like despite some
 very strong features like actually allowing you to easily *use* virtual screens
-with the *"maximize"* or *"full-screen"* little green globe, actually managing
+with the *"maximize*"or"*full-screen"* little green globe, actually managing
 those different virtual screens is way harder than even Windows. GNOME has it
 perfect now where you can choose a fixed-number of virtual desktops because that
 plays right into muscle memory and fixed-indexes. Screen 1 has such-and-such a

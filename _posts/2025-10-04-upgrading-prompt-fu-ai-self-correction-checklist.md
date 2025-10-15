@@ -1692,7 +1692,7 @@ This version is still incredibly brief, but it perfectly demonstrates the full, 
    "metadata": {},
    "source": [
     "### ⚙️ Now, Restart the Kernel!\n",
-    "**Press `Esc` then `0` `0` (zero-zero), or use the menu, to restart the kernel and test persistence.**"
+    *"*Press `Esc` then `0` `0` (zero-zero), or use the menu, to restart the kernel and test persistence.*"*
    ]
   },
   {

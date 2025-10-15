@@ -2198,7 +2198,7 @@ With these changes, the MCP proof-of-concept is now dynamic and far more impress
 1.  **Start the server.**
 2.  Click the **Poke button** (🤖).
 3.  **Observe the Console:** You'll see the full chain of events: the MCP request, the call to the external Bored API, the response from it, and the final prompt to the LLM.
-4.  **Observe the Chat UI:** The LLM will now respond with a unique, fun activity suggestion, such as: *"How about you learn to play a new instrument?"* or *"Why not organize a remote-controlled car race with your friends?"*
+4.  **Observe the Chat UI:** The LLM will now respond with a unique, fun activity suggestion, such as: *"How about you learn to play a new instrument?*"or"*Why not organize a remote-controlled car race with your friends?"*
 
 Each time you click the Poke button, you'll get a brand new suggestion, providing clear, repeatable proof that the entire tool-calling loop is working with live external data.
 
@@ -2366,7 +2366,7 @@ Of course. This is a fascinating and highly valuable journal entry, capturing th
 
 ### AI Editorial Perspective: From Journal to Chapter
 
-This entry is an absolute gem for a technical book. Its raw, unvarnished format is its greatest strength. It's a perfect anchor for a chapter titled **"The Debugging Journey: Building a Local-First AI Agent from Scratch"** or **"Beyond Frameworks: Understanding Tool-Calling from First Principles."** While polished tutorials show an idealized path, this entry reveals the messy, iterative, and ultimately more instructive reality of software engineering. The back-and-forth, the small failures, the "Eureka!" moments—this is what true development looks like.
+This entry is an absolute gem for a technical book. Its raw, unvarnished format is its greatest strength. It's a perfect anchor for a chapter titled **"The Debugging Journey: Building a Local-First AI Agent from Scratch*"* or *"*Beyond Frameworks: Understanding Tool-Calling from First Principles."** While polished tutorials show an idealized path, this entry reveals the messy, iterative, and ultimately more instructive reality of software engineering. The back-and-forth, the small failures, the "Eureka!" moments—this is what true development looks like.
 
 The most compelling narrative thread is the evolution of the stream-monitoring logic. The progression from naive character-matching to a robust state machine that can cleanly intercept a tool call mid-stream is a masterclass in solving asynchronous problems. For a book, this journey serves as a powerful case study in debugging, illustrating how initial assumptions can be flawed and how careful observation of logs leads to a more resilient architecture. By preserving the conversational format and annotating it with explanations, this entry can teach not just *what* the final code is, but *why* it had to be that way. It's an authentic story of discovery that will resonate deeply with any developer who has wrestled with a complex system.
 

@@ -42,7 +42,7 @@ databases of the AI Code Editor vendors. Instead, squeeze all that lovely
 context directly into your git commit messages with the intent of instructing
 your future AI Code Assistants to scour over those messages.
 
-In this way, you're *"banking"* or *"pinning"* those wins. All that *lightning
+In this way, you're *"banking*"or"*pinning"* those wins. All that *lightning
 in a bottle* recovery context belongs to you because it's been baked into the
 repository proper.
 
@@ -220,7 +220,7 @@ git checkout ascii-multiplication-defense-v1.0
 
 ## 🛡️ **The Feynman Question Answered Forever**
 
-**"What if this valve fails?"** → **"What if markers get corrupted?"**
+**"What if this valve fails?*"* → *"*What if markers get corrupted?"**
 
 **Answer:** 🚨 **HARD STOP with surgical recovery guidance**
 
@@ -529,7 +529,7 @@ The ASCII art acts as a **forcing function** - when visual diagrams change, they
 
 **AI Editorial Perspective: From Journal to Chapter:**
 
-This entry holds immense potential as a case study within a tech book, particularly for chapters on **"Debugging Complex Systems," "AI as a Development Partner,"** or **"Building Resilient and Maintainable Documentation Architectures."** The problem-solving journey, from identifying a subtle flaw to implementing a "mathematically bulletproof" solution, is inherently engaging. The explicit integration of the AI's dialogue, including the comprehensive commit messages, offers a unique, transparent look at contemporary development workflows where human and artificial intelligences co-create. 
+This entry holds immense potential as a case study within a tech book, particularly for chapters on **"Debugging Complex Systems," "AI as a Development Partner,*"* or *"*Building Resilient and Maintainable Documentation Architectures."** The problem-solving journey, from identifying a subtle flaw to implementing a "mathematically bulletproof" solution, is inherently engaging. The explicit integration of the AI's dialogue, including the comprehensive commit messages, offers a unique, transparent look at contemporary development workflows where human and artificial intelligences co-create. 
 
 What stands out is the author's ability to abstract a specific technical bug (ASCII art multiplication) into a universally relatable engineering principle (Feynman's "what if this valve fails?"). This elevates the content beyond a mere bug fix log, transforming it into a narrative about foresight, system design, and defensive programming. The raw, "in-the-moment" nature of the journal entry, once curated, becomes a significant strength. It provides an authentic, "behind-the-scenes" look at the iterative, often messy, but ultimately rewarding process of technical problem-solving. Readers gain insight not just into *what* was built, but *how* it felt to build it, including moments of frustration and triumph.
 

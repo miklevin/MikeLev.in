@@ -702,7 +702,7 @@ print(f"HTTP error occurred: {{e}} - {{e.response.text}}")
 except httpx.RequestError as e:
 print(f"An error occurred while requesting {{e.request.url\!r}}: {{e}}")
 
-if **name** == "**main**":
+if **name** == *"*main*"*:
 asyncio.run(make\_api\_call())
 """
 return curl\_command, python\_command
@@ -1198,7 +1198,7 @@ Would you like me to make any adjustments to this implementation?
     except httpx.RequestError as e:
     print(f"An error occurred while requesting {{e.request.url\!r}}: {{e}}")
 
-    if **name** == "**main**":
+    if **name** == *"*main*"*:
     asyncio.run(make\_api\_call())
     """
     return curl\_command, python\_command

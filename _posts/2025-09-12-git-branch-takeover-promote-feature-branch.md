@@ -172,7 +172,7 @@ Your terminal prompt should now show that you are on the `main` branch, which co
 
 ### Step 2: Force Push to Remote `main` ⚠️
 
-This is the most important step. You need to **force push** your new local `main` branch to the remote repository (`origin`). A regular push will be rejected because the history of your new `main` has diverged from the old `main` on GitHub. A force push tells the remote, "**Discard your version of `main` and accept mine as the new, correct history.**"
+This is the most important step. You need to **force push** your new local `main` branch to the remote repository (`origin`). A regular push will be rejected because the history of your new `main` has diverged from the old `main` on GitHub. A force push tells the remote, *"*Discard your version of `main` and accept mine as the new, correct history.*"*
 
 ```bash
 git push --force origin main

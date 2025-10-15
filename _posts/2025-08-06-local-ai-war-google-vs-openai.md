@@ -29,7 +29,7 @@ changes with the local AI Ollama software. This is a story of at least 3 things:
    particular models, usually laptops but sometimes gaming rig.
 
 I give the 40K-foot view of the part that I think is least-well understood: the
-*"player engine"* which is called the *"inference engine"* but is for playing
+*"player engine*"which is called the"*inference engine"* but is for playing
 the models like Google's Gemma and OpenAI's gpt-oss directly on your laptop,
 gaming rig and soon-to-be phone. It's not really on phones yet, but I mention it
 to set the stage.
