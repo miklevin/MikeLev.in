@@ -47,15 +47,19 @@ Weeeee
 
 **Me**: Can I use the `rg` command to look for things that I accidentally wrapped like this:
 
-This is my mistaken "*italics inside quotes*" instead of what I really wanted to do:
+    This is my mistaken "*italics inside quotes*" instead of what I really wanted to do:
 
-This is the *"italicised quote"* the way it should be.
+**Rendered effect**: This is my mistaken "*italics inside quotes*" instead of what I really wanted to do:
+
+    This is the *"italicised quote"* the way it should be.
+
+**Rendered effect**: This is the *"italicised quote"* the way it should be.
 
 So the `rg` command should find the former so that I can do one of those fancy:
 
-rg foo | xargs sed 's/foo/bar/g'
+    rg foo | xargs sed 's/foo/bar/g'
 
-type patterns to fix.
+...type of CLI-patterns to fix it.
 
 ## First Attempt: `rg` and `sed` - A Blunt Instrument
 
