@@ -15,7 +15,7 @@ meta_description: Charting a personal journey through tech's upheavals, from the
 meta_keywords: Tech Sovereignty, NixOS, FOSS, Google Core Web Vitals, Levinux, GitHub
   Pages, SEO, Python, NodeJS, Richard Matthew Stallman, Computing Freedom
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
