@@ -14,7 +14,7 @@ meta_description: Explores the art of 'context painting' for AIs, emphasizing st
 meta_keywords: AI, prompt engineering, context, storytelling, tokens, tiktoken, prompt_foo.py,
   git diff, AI accountability, generative drift, Python
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 {% raw %}
