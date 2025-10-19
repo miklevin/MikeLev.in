@@ -1143,7 +1143,7 @@ if botify_export_df is not None:
 ```
 
 Please can I have the 2 code blocks of the distillation process, the part that
-goes into `gap_analysis_sauce.py` and the part that goes into the
+goes into `gap_analyzer_sauce.py` and the part that goes into the
 `GAPalyzer.ipynb` from which this code block was lifted, please and thank you.
 You can probably tell from the diff I skipped the part from your last
 instruction that no longer applies.
@@ -1645,7 +1645,7 @@ With the corrected signature for `_export_data`, the `TypeError` should be resol
 
 --- END LOOKAHEAD ---
 
-...to which I'm just going to say we put at the top of `gap_analysis_sauce.py`:
+...to which I'm just going to say we put at the top of `gap_analyzer_sauce.py`:
 
 ```python
 import keys
