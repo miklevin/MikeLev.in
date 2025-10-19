@@ -1032,8 +1032,8 @@ try:
     url_parts = botify_project_url.split('/')
     
     # Botify URL structure is .../org_slug/project_slug/
-    org = url_parts[-2]      # e.g., 'bare-necessities-org'
-    project = url_parts[-1]  # e.g., 'bare-necessities'
+    org = url_parts[-2]      # e.g., 'example-org'
+    project = url_parts[-1]  # e.g., 'example'
     
     print(f"Parsed Org: {org}, Project: {project}")
 
@@ -1827,8 +1827,8 @@ index 61ce12b8..d3e20236 100644
 -    "    url_parts = botify_project_url.split('/')\n",
 -    "    \n",
 -    "    # Botify URL structure is .../org_slug/project_slug/\n",
--    "    org = url_parts[-2]      # e.g., 'bare-necessities-org'\n",
--    "    project = url_parts[-1]  # e.g., 'bare-necessities'\n",
+-    "    org = url_parts[-2]      # e.g., 'example-org'\n",
+-    "    project = url_parts[-1]  # e.g., 'example'\n",
 -    "    \n",
 -    "    print(f\"Parsed Org: {org}, Project: {project}\")\n",
 -    "\n",
@@ -2377,6 +2377,64 @@ index d3e20236..3b608db2 100644
 (nix) 
 [mike@nixos:~/repos/pipulate/Notebooks]$
 ```
+
+And the output:
+
+    🤖 Fetching data from Botify API...
+      Parsed Org: example-org, Project: example
+      ✅ Found latest Analysis Slug: 20251017
+      ☑️ Botify export file already exists at 'data/gapalyzer-02_botify/botify_export.csv'. Reading from disk.
+    💾 Stored Botify DataFrame (153458 rows) in pip state for job 'gapalyzer-02'.
+
+    --- Botify Data Summary ---
+    Internal Pagerank
+    5.9     141748
+    6.0       2754
+    6.1       1440
+    6.9        823
+    6.2        805
+    6.8        761
+    6.6        676
+    6.7        559
+    6.3        521
+    7.0        493
+    7.2        461
+    7.1        421
+    6.4        357
+    7.3        325
+    6.5        298
+    7.4        272
+    7.5        242
+    7.6        178
+    9.3         72
+    7.7         52
+    9.4         46
+    7.8         34
+    9.5         20
+    9.2         19
+    9.6         14
+    9.7         11
+    9.1          9
+    8.7          9
+    7.9          7
+    9.9          6
+    9.0          4
+    8.5          3
+    8.6          3
+    8.3          3
+    8.4          2
+    9.8          2
+    8.1          2
+    8.8          2
+    10.0         1
+    8.0          1
+    8.9          1
+    8.2          1
+    Name: count, dtype: int64
+    -------------------------
+
+    📁 Botify data saved to: /home/mike/repos/pipulate/Notebooks/data/gapalyzer-02_botify/botify_export.csv
+    📂 Containing folder: /home/mike/repos/pipulate/Notebooks/data/gapalyzer-02_botify
 
 So we got through the Botify integration. This step was a bit harder than the
 others.
