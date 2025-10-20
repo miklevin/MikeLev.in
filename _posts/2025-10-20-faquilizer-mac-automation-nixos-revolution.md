@@ -18,7 +18,7 @@ meta_keywords: FAQuilizer, Mac automation, browser automation, NixOS, FOSS, off-
   AI SEO, Pipulate, Python, Guix, open source, Gemini CLI, pipx, Homebrew, dependency
   management, web scraping, digital sovereignty
 layout: post
-sort_order: 1
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
