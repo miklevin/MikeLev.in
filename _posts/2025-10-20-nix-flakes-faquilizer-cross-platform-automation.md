@@ -1278,6 +1278,400 @@ By moving `chromium`, `undetected-chromedriver`, and `eza` (which also works on 
 
 You're right. This isn't a "rant." It's an *actualization engine*. Now, go update that flake.
 
+**Me**: 
+
+```log
+Last login: Mon Oct 20 20:14:52 on ttys000
+michaellevin@MichaelMacBook-Pro ~ % rm -rf ~/Botifython
+curl -L https://pipulate.com/install.sh | sh -s Botifython
+cd ~/Botifython
+nix develop
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  9589  100  9589    0     0   216k      0 --:--:-- --:--:-- --:--:--  217k
+
+--------------------------------------------------------------
+   🚀 Welcome to Pipulate Installer 🚀   
+   Free and Open Source SEO Software     
+--------------------------------------------------------------
+
+🔍 Checking prerequisites...
+✅ All required tools found.
+
+📁 Checking target directory: /Users/michaellevin/Botifython
+✅ Target directory is available.
+📁 Creating directory '/Users/michaellevin/Botifython'
+📥 Downloading Pipulate source code...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2490k    0 2490k    0     0  4567k      0 --:--:-- --:--:-- --:--:-- 9724k
+✅ Download complete.
+
+📦 Extracting source code...
+✅ Extraction complete. Source code installed to '/Users/michaellevin/Botifython'.
+
+📍 Now in directory: /Users/michaellevin/Botifython
+
+🔑 Setting up deployment key...
+Fetching deployment key from https://pipulate.com/key.rot...
+✅ Deployment key downloaded successfully.
+🔒 Deployment key file saved and secured.
+
+🚀 Starting Pipulate environment...
+--------------------------------------------------------------
+  All set! Pipulate is installed at: /Users/michaellevin/Botifython  
+  To use Pipulate in the future, simply run:  
+  cd /Users/michaellevin/Botifython && nix develop  
+--------------------------------------------------------------
+
+Setting up app identity as 'Botifython'...
+✅ Application identity set.
+
+Creating startup convenience script...
+Pipulate Installer v1.0.2 - Test checkpoint reached
+Setup complete! To start using Pipulate, run:
+  cd /Users/michaellevin/Botifython
+  nix develop
+
+This will activate the Nix development environment and
+complete the 'magic cookie' transformation process.
+warning: creating lock file '"/Users/michaellevin/Botifython/flake.lock"': 
+• Added input 'flake-utils':
+    'github:numtide/flake-utils/11707dc2f618dd54ca8739b309ec4fc024de578b?narHash=sha256-l0KFg5HjrsfsO/JpG%2Br7fRrqm12kzFHyUHqHCVpMMbI%3D' (2024-11-13)
+• Added input 'flake-utils/systems':
+    'github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e?narHash=sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768%3D' (2023-04-09)
+• Added input 'nixpkgs':
+    'github:NixOS/nixpkgs/5e2a59a5b1a82f89f2c7e598302a9cacebb72a67?narHash=sha256-K5Osef2qexezUfs0alLvZ7nQFTGS9DL2oTVsIXsqLgs%3D' (2025-10-19)
+error:
+       … while calling the 'derivationStrict' builtin
+         at <nix/derivation-internal.nix>:37:12:
+           36|
+           37|   strict = derivationStrict drvAttrs;
+             |            ^
+           38|
+
+       … while evaluating derivation 'nix-shell'
+         whose name attribute is located at «github:NixOS/nixpkgs/5e2a59a5b1a82f89f2c7e598302a9cacebb72a67»/pkgs/stdenv/generic/make-derivation.nix:544:13
+
+       … while evaluating attribute 'buildInputs' of derivation 'nix-shell'
+         at «github:NixOS/nixpkgs/5e2a59a5b1a82f89f2c7e598302a9cacebb72a67»/pkgs/stdenv/generic/make-derivation.nix:596:13:
+          595|             depsHostHost = elemAt (elemAt dependencies 1) 0;
+          596|             buildInputs = elemAt (elemAt dependencies 1) 1;
+             |             ^
+          597|             depsTargetTarget = elemAt (elemAt dependencies 2) 0;
+
+       (stack trace truncated; use '--show-trace' to show the full, detailed trace)
+
+       error: Package ‘chromium-141.0.7390.107’ in /nix/store/7agp54mgffm9m1wc1kgmkm37pvy18qhf-source/pkgs/applications/networking/browsers/chromium/browser.nix:85 is not available on the requested hostPlatform:
+         hostPlatform.system = "aarch64-darwin"
+         package.meta.platforms = [
+           "aarch64-linux"
+           "armv5tel-linux"
+           "armv6l-linux"
+           "armv7a-linux"
+           "armv7l-linux"
+           "i686-linux"
+           "loongarch64-linux"
+           "m68k-linux"
+           "microblaze-linux"
+           "microblazeel-linux"
+           "mips-linux"
+           "mips64-linux"
+           "mips64el-linux"
+           "mipsel-linux"
+           "powerpc-linux"
+           "powerpc64-linux"
+           "powerpc64le-linux"
+           "riscv32-linux"
+           "riscv64-linux"
+           "s390-linux"
+           "s390x-linux"
+           "x86_64-linux"
+         ]
+         package.meta.badPlatforms = [ ]
+       , refusing to evaluate.
+
+       a) To temporarily allow packages that are unsupported for this system, you can use an environment variable
+          for a single invocation of the nix tools.
+
+            $ export NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1
+
+          Note: When using `nix shell`, `nix build`, `nix develop`, etc with a flake,
+                then pass `--impure` in order to allow use of environment variables.
+
+       b) For `nixos-rebuild` you can set
+         { nixpkgs.config.allowUnsupportedSystem = true; }
+       in configuration.nix to override this.
+
+       c) For `nix-env`, `nix-build`, `nix-shell` or any other Nix command you can add
+         { allowUnsupportedSystem = true; }
+       to ~/.config/nixpkgs/config.nix.
+michaellevin@MichaelMacBook-Pro Botifython %
+```
+
+**Gemini**: You've hit the exact "black ice" I was worried about\! My apologies. My previous "fix" was logically correct for a generic Linux vs. Mac setup but failed to account for the specifics of Nixpkgs on `aarch64-darwin` (Apple Silicon).
+
+You are absolutely right. The error log is the "smoking gun":
+`Package ‘chromium-1...’ ... is not available on the requested hostPlatform: hostPlatform.system = "aarch64-darwin"`
+
+This means Nixpkgs doesn't have a `chromium` package for Apple Silicon Macs. My advice to move it to `commonPackages` was wrong and directly caused this build failure.
+
+We're not "polluting" the Mac with Homebrew. We're going to fix this the *right* way—the "Nix Way"—by making the flake and the script truly platform-aware. This requires a two-part solution, modifying both the `flake.nix` (to stop trying to install what isn't there) and `tools/scraper_tools.py` (to find the browser that *is* there).
+
+Here is the complete plan.
+
+-----
+
+### 1\. The `flake.nix` Fix (The "Noah's Ark" Correction)
+
+We will modify `flake.nix` to *only* install `chromium` and `undetected-chromedriver` on Linux. On macOS, the Nix environment will *not* provide a browser, forcing our script to find the one on the host OS.
+
+**In `flake.nix`:**
+
+Find this section (around line 120):
+
+```nix
+        commonPackages = with pkgs; [
+          sqlite                       # Ensures correct SQLite library is linked on macOS
+          # ...
+          plantuml
+          graphviz
+        ] ++ (with pkgs; pkgs.lib.optionals isLinux [
+          espeak-ng                    # Text-to-speech, Linux only
+          # ...
+          undetected-chromedriver
+          eza                          # A tree directory visualizer that uses .gitignore
+        ]);
+```
+
+**Modify it to this:**
+(Move `eza` up, keep `chromium` and `undetected-chromedriver` as Linux-only)
+
+```nix
+        commonPackages = with pkgs; [
+          sqlite                       # Ensures correct SQLite library is linked on macOS
+          # ...
+          plantuml
+          graphviz
+          eza                          # Moved up: eza works on both platforms
+        ] ++ (with pkgs; pkgs.lib.optionals isLinux [
+          espeak-ng                    # Text-to-speech, Linux only
+          # ...
+          chromium                     # Kept here: Linux-only
+          undetected-chromedriver        # Kept here: Linux-only
+        ]);
+```
+
+-----
+
+### 2\. The `scraper_tools.py` Fix (The "Platform-Aware" Scraper)
+
+Now that the Nix shell on Mac won't provide a browser, we must teach the scraper script how to find the *host* browser. `undetected-chromedriver` is smart: if `driver_executable_path` is `None`, it will try to find or download one, but it *needs* to be told where the browser itself is.
+
+**In `tools/scraper_tools.py`:**
+
+Find this section (around line 85):
+
+```python
+    # --- Find the browser executable path ---
+    browser_path = shutil.which("chromium")
+    driver_path = shutil.which("undetected-chromedriver")
+    if not browser_path:
+        # Fallback for different naming conventions
+        browser_path = shutil.which("chromium-browser")
+
+    if not browser_path:
+        logger.error("❌ Could not find chromium or chromium-browser executable in the environment's PATH.")
+        return {"success": False, "error": "Chromium executable not found. Is it correctly configured in your flake.nix?"}
+
+    if not driver_path:
+        logger.error("❌ Could not find 'undetected-chromedriver' executable in the environment's PATH.")
+        return {"success": False, "error": "The undetected-chromedriver binary was not found. Is it in your flake.nix?"}
+    
+    if verbose: 
+        logger.info(f"🔍 Found browser executable at: {browser_path}")
+        logger.info(f"🔍 Found driver executable at: {driver_path}")
+```
+
+**Replace that *entire* block with this new platform-aware logic:**
+
+```python
+    # --- Find the browser executable path (Platform-Specific) ---
+    effective_os = os.environ.get("EFFECTIVE_OS") # This is set by your flake.nix
+    browser_path = None
+    driver_path = None
+
+    if effective_os == "linux":
+        if verbose: logger.info("🐧 Linux platform detected. Looking for Nix-provided Chromium...")
+        browser_path = shutil.which("chromium")
+        driver_path = shutil.which("undetected-chromedriver")
+        if not browser_path:
+            browser_path = shutil.which("chromium-browser")
+        
+        if not browser_path:
+            logger.error("❌ Could not find Nix-provided chromium or chromium-browser.")
+            return {"success": False, "error": "Chromium executable not found in Nix environment."}
+        if not driver_path:
+            logger.error("❌ Could not find Nix-provided 'undetected-chromedriver'.")
+            return {"success": False, "error": "undetected-chromedriver not found in Nix environment."}
+
+    elif effective_os == "darwin":
+        if verbose: logger.info("🍏 macOS platform detected. Looking for host-installed Google Chrome...")
+        # On macOS, we rely on the user's host-installed Google Chrome.
+        # undetected-chromedriver will use webdriver-manager to find/download the driver.
+        browser_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+        driver_path = None # This tells uc to find/download the driver automatically
+
+        if not Path(browser_path).exists():
+            # Fallback for Chrome Canary
+            browser_path_canary = "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary"
+            if Path(browser_path_canary).exists():
+                browser_path = browser_path_canary
+                if verbose: logger.info("  -> Google Chrome not found, using Google Chrome Canary.")
+            else:
+                logger.error(f"❌ Google Chrome not found at default path: {browser_path}")
+                logger.error("   Please install Google Chrome on your Mac to continue.")
+                return {"success": False, "error": "Google Chrome not found on macOS."}
+        
+        # Check if webdriver-manager is installed (it's a dependency of undetected-chromedriver)
+        try:
+            import webdriver_manager
+        except ImportError:
+            logger.error("❌ 'webdriver-manager' package not found.")
+s           logger.error("   Please add 'webdriver-manager' to requirements.txt and re-run 'nix develop'.")
+            return {"success": False, "error": "webdriver-manager Python package missing."}
+    
+    else:
+        logger.error(f"❌ Unsupported EFFECTIVE_OS: '{effective_os}'. Check flake.nix.")
+        return {"success": False, "error": "Unsupported operating system."}
+
+    if verbose: 
+        logger.info(f"🔍 Using browser executable at: {browser_path}")
+        if driver_path:
+            logger.info(f"🔍 Using driver executable at: {driver_path}")
+Gallery
+        else:
+            logger.info(f"🔍 Using driver executable from webdriver-manager (uc default).")
+```
+
+Finally, you need to **update the `uc.Chrome()` call** to correctly use these paths. Find this line (around line 125):
+
+```python
+        driver = uc.Chrome(options=options, 
+                           user_data_dir=str(profile_path), 
+                           browser_executable_path=browser_path,
+                           driver_executable_path=driver_path)
+```
+
+**This call is ALREADY correct.** The `driver_executable_path=driver_path` part will correctly pass `None` on a Mac, which is exactly what `undetected-chromedriver` needs to trigger its internal `webdriver-manager` logic.
+
+-----
+
+### Summary of Fix:
+
+1.  **In `flake.nix`:** Move `eza` to `commonPackages`. Keep `chromium` and `undetected-chromedriver` in the `isLinux` block.
+2.  **In `tools/scraper_tools.py`:** Replace the `--- Find the browser executable path ---` block with the new platform-aware logic.
+3.  **Run `nix develop` on your Mac:** It should now build successfully.
+4.  **Run `FAQuilizer`:** The Python script should now detect `EFFECTIVE_OS="darwin"`, find your host-installed Google Chrome, and use `webdriver-manager` to download the correct `chromedriver` for it, resolving the error.
+
+**Me**: The git diff:
+
+```diff
+[mike@nixos:~/repos/pipulate]$ git --no-pager diff
+diff --git a/tools/scraper_tools.py b/tools/scraper_tools.py
+index 107a290f..2d311da2 100644
+--- a/tools/scraper_tools.py
++++ b/tools/scraper_tools.py
+@@ -89,25 +89,62 @@ async def selenium_automation(params: dict) -> dict:
+     profile_path = None
+     temp_profile = False
+ 
+-    # --- Find the browser executable path ---
+-    browser_path = shutil.which("chromium")
+-    driver_path = shutil.which("undetected-chromedriver")
+-    if not browser_path:
+-        # Fallback for different naming conventions
+-        browser_path = shutil.which("chromium-browser")
+-
+-    if not browser_path:
+-        logger.error("❌ Could not find chromium or chromium-browser executable in the environment's PATH.")
+-        return {"success": False, "error": "Chromium executable not found. Is it correctly configured in your flake.nix?"}
+-
+-    if not driver_path:
+-        logger.error("❌ Could not find 'undetected-chromedriver' executable in the environment's PATH.")
+-        return {"success": False, "error": "The undetected-chromedriver binary was not found. Is it in your flake.nix?"}
+-    
+-    if verbose: 
+-        logger.info(f"🔍 Found browser executable at: {browser_path}")
+-        logger.info(f"🔍 Found driver executable at: {driver_path}")
+-
++    # --- Find the browser executable path (Platform-Specific) ---
++    effective_os = os.environ.get("EFFECTIVE_OS") # This is set by your flake.nix
++    browser_path = None
++    driver_path = None
++
++    if effective_os == "linux":
++        if verbose: logger.info("🐧 Linux platform detected. Looking for Nix-provided Chromium...")
++        browser_path = shutil.which("chromium")
++        driver_path = shutil.which("undetected-chromedriver")
++        if not browser_path:
++            browser_path = shutil.which("chromium-browser")
++        
++        if not browser_path:
++            logger.error("❌ Could not find Nix-provided chromium or chromium-browser.")
++            return {"success": False, "error": "Chromium executable not found in Nix environment."}
++        if not driver_path:
++            logger.error("❌ Could not find Nix-provided 'undetected-chromedriver'.")
++            return {"success": False, "error": "undetected-chromedriver not found in Nix environment."}
++
++    elif effective_os == "darwin":
++        if verbose: logger.info("🍏 macOS platform detected. Looking for host-installed Google Chrome...")
++        # On macOS, we rely on the user's host-installed Google Chrome.
++        # undetected-chromedriver will use webdriver-manager to find/download the driver.
++        browser_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
++        driver_path = None # This tells uc to find/download the driver automatically
++
++        if not Path(browser_path).exists():
++            # Fallback for Chrome Canary
++            browser_path_canary = "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary"
++            if Path(browser_path_canary).exists():
++                browser_path = browser_path_canary
++                if verbose: logger.info("  -> Google Chrome not found, using Google Chrome Canary.")
++            else:
++                logger.error(f"❌ Google Chrome not found at default path: {browser_path}")
++                logger.error("   Please install Google Chrome on your Mac to continue.")
++                return {"success": False, "error": "Google Chrome not found on macOS."}
++        
++        # Check if webdriver-manager is installed (it's a dependency of undetected-chromedriver)
++        try:
++            import webdriver_manager
++    Gtk: Gtk-WARNING **: 20:34:04.992: cannot open display:
++        except ImportError:
++            logger.error("❌ 'webdriver-manager' package not found.")
++            logger.error("   Please add 'webdriver-manager' to requirements.txt and re-run 'nix develop'.")
++            return {"success": False, "error": "webdriver-manager Python package missing."}
++    
++    else:
++        logger.error(f"❌ Unsupported EFFECTIVE_OS: '{effective_os}'. Check flake.nix.")
++        return {"success": False, "error": "Unsupported operating system."}
++
++    if verbose: 
++        logger.info(f"🔍 Using browser executable at: {browser_path}")
++        if driver_path:
++            logger.info(f"🔍 Using driver executable at: {driver_path}")
++        else:
++            logger.info(f"🔍 Using driver executable from webdriver-manager (uc default).")
+ 
+     try:
+         # Create directory only if we are actually scraping
+(nix) 
+[mike@nixos:~/repos/pipulate]$
+```
+
+**Me**: Alright, this worked. It's using the native Mac Chrome. This is huge. It
+opens the door to do many other things.
+
 > Hey, I'm Mr. Gemini. Look at me!
 
 I need to fix this problem on the Mac.
