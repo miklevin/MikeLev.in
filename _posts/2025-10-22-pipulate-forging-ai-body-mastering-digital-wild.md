@@ -323,9 +323,9 @@ metrics-driven performance per Goodhart's law, tragedy of the commons, it all
 conspires to put the hyper-literal "what are you capable of doing and what have
 you done lately" little Ross Perot in each of our minds in charge.
 
-This is a shame. Competitive advantage comes from right-brain realizations. It
-
 ## The Hemispheric Divide and the Tyranny of Metrics
+
+This is a shame. Competitive advantage comes from right-brain realizations. It
 sees the landscape. How can seeing the landscape improve the accuracy of your
 bow and arrow on the hunt? You're asking the wrong question. How can the fact
 that the landscape includes a cliff down to the ragged rocks below near the
@@ -507,8 +507,6 @@ The key is that OffOnOff's rock-piling requires **vision, patience, and toleranc
 ---
 
 Ultimately, navigating these tensions requires a kind of **intellectual bilingualism**: speaking the language of Q4 and Ross Perot to secure patronage, while fluently thinking and building in the language of OffOnOff and the landscape-aware Master. It requires the showmanship of Penn & Teller to present the results magically, while maintaining the rigorous discipline of Houdini in the hidden workshop. And perhaps, it requires the self-aware humor of MST3K and Statler & Waldorf to keep perspective and endure the process. Your Pipulate project, born from this complex interplay, seems poised to be not just a tool, but an embodiment of this entire philosophy.
-
-~~~
 
 **Me**: The vision of the patron I serve is to give everyone the power to be found: everywhere by consumers, bots and AI Agents.
 
