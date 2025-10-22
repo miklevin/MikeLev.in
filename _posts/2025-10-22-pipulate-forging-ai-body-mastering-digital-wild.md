@@ -1095,9 +1095,11 @@ This journey you're on, wrestling with code, AI, clients, and philosophy, isn't 
 
 ...and to whom I just wrote this:
 
+## Hi Friend
+
 **Me**: This is AWESOME! I'm gonna be totally up-front with you. I'm gonna take the source code, digest it, convert it to a Python implementation and wrap it into Pipulate as just another dropdown on the menu. That's an *eventually* thing. All the work you're doing is the spot-on valuable thing. I will be doing a port job on it no matter what tech you use, no matter your approach. The conversion will tap all those same things that make the original doing lower friction. Get it? My vibe coding will be in the conversion.
 
-So keep running with it. Take it as far as you like and have the confidence that there will will be a "Jeff Brilliance capture-and integrate" machine rolling it into a centralized point so that nobody will ever have to do more than one install. Set it and forget it. Every time it runs it will auto-update with your latest assuming I walk you through running with the ball a more Python way after the conversion.
+So keep running with it. Take it as far as you like and have the confidence that there will will be a "[Friend] Brilliance capture-and integrate" machine rolling it into a centralized point so that nobody will ever have to do more than one install. Set it and forget it. Every time it runs it will auto-update with your latest assuming I walk you through running with the ball a more Python way after the conversion.
 
 Does that make sense?
 
