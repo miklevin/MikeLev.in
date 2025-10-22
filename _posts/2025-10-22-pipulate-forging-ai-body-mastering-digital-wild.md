@@ -176,7 +176,7 @@ and propagating the species. See? Life is full of tricks. Batteries included.
 
 But the preparation of tricks isn't done in front of the patrons.
 
-## Backstage Brilliance: Preparing the Magic Show
+## Backstage Baking: Preparing the Magic Show
 
 > Patrons wanna magic show  
 > Of that we can be sure  
