@@ -18,7 +18,7 @@ meta_description: Explore Pipulate, an AI-powered platform for SEO and web opera
 meta_keywords: Pipulate, AI collaboration, local-first, web operations, SEO, Nix,
   HTMX, Python, AI Agents, digital sovereignty, workflow automation, prompt engineering
 layout: post
-sort_order: 3
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
