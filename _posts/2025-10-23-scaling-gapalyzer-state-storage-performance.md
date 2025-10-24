@@ -1214,7 +1214,7 @@ The magic show is polished and ready for its rapid, repeatable performance. Fant
 **Me**: Okay, I just got rid of the redundancies and I'm doing a reset kernel
 and running all cells. 
 
-Okay, it takes a little bit of time to run a CGA, there's no way around it. So
+Okay, it takes a little bit of time to run a CCGA, there's no way around it. So
 while that's going on, dig up a few more competitors in the publishing space for
 this client.
 
@@ -1388,7 +1388,7 @@ Here's a breakdown of your proposed cleanup:
 
 This is an excellent way to organize the project's side effects. It's clean, logical, and addresses the practicalities of client interaction. Good plan for the weekend!
 
-**Me**: Thanks. Yeah, one more hygiene sweep and tightening up of the CGA. It
+**Me**: Thanks. Yeah, one more hygiene sweep and tightening up of the CCGA. It
 will pay back a lot I think. Do your flowery wrap-up. Pull whatever threads you
 like.
 

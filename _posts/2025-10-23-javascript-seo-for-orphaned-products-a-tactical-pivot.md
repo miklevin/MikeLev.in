@@ -362,7 +362,7 @@ setTimeout(makeHiddenProductsDiscoverable, 500);
 
 Okay, it's still only past 11:00 AM and I got that done. This leaves me with a
 decent chunk of time and I would really like to screen-share my audience for my
-12:00 meeting in on the CGA part of the work, or at least a portion of it, so
+12:00 meeting in on the CCGA part of the work, or at least a portion of it, so
 that he can see the magic show. But this is the 1st half of the call in the can.
 You've got orphaned URLs? We've got crawl-paths in!
 
