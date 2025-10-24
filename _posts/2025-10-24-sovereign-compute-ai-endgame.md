@@ -59,7 +59,7 @@ stage for a bootstrapping kernel discussion. Loaders. RAM disks. Hand-offs.
 
 ### The "Local Host" and the Great Shell Game
 
-The term "local host" is one of the most fundamental and profound "white lies" in modern computing. When you run your Pipulate app, you access it at `http://localhost:8000`. You're right to ask: *who* is the "host"? You've come to a "home," but whose is it?
+The term "local host" is one of the most fundamental and profound "white lies" in modern computing. When you run your Pipulate app, you access it at `http://localhost:5001`. You're right to ask: *who* is the "host"? You've come to a "home," but whose is it?
 
 You're *not* a guest of the internet. You're a guest in your *own* house. "Localhost" (or `127.0.0.1`) is simply the reserved IP address that every computer uses to refer to itself. It's the machine's "home address" for its own internal mail.
 
