@@ -17,7 +17,7 @@ meta_keywords: AI education, Master Prompt, Pipulate, NixOS, Git workflow, AI co
   Prompt Fu, reproducible environments, software development philosophy, technical
   journaling
 layout: post
-sort_order: 1
+sort_order: 3
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
