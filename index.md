@@ -7,6 +7,8 @@ group: home
 
 # Book: Future Proofing Yourself in the Age of AI
 
+<a href="https://mikelev.in/futureproof/future-proof-python-nix-pipulate-ai/">Getting Started</a>
+
 <div class="bunny-trail">
 <p><b>LPvg</b> is a time-tested tech stack that gives you superpowers. It's five simple tools that work together: Linux, Python, vim & git (+nix). I use them daily to build AI and automation systems — but they're perfect for any technical challenge. Master these fundamentals, and you'll have a career foundation that lasts. Levinux and Pipulate are the two main projects I've spun out of it over the years. Jump down the rabbit hole.</p>
 {% include bunny.html %}</div>
