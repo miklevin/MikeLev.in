@@ -25,6 +25,16 @@ sort_order: 2
 
 In a rapidly evolving digital landscape, the confluence of human artistry, strategic vision, and advanced AI creates a compelling narrative. This entry explores Project Pipulate, a platform designed to empower technicians and craftspeople in the realm of web operations and SEO. It delves into the intricate dance between client demands and innovative tool-building, the philosophical underpinnings of human-AI collaboration, and the strategic advantages gained by embracing a 'local-first' approach in an increasingly cloud-dominated world. Join us as we unpack the core principles and practical applications of forging AI's physical presence and mastering the digital savanna.
 
+> Deep within my heart and soul  
+> Two me's fight for the truth—  
+> One's the vain green-hunter,  
+> The other's soft and bluish.  
+
+> You'd think the one that feeds us  
+> Draws arrows and not glyphs  
+> But whiteboard-inked ideas  
+> Drive Mammoths off the cliffs.  
+
 ---
 
 ## Technical Journal Entry Begins
