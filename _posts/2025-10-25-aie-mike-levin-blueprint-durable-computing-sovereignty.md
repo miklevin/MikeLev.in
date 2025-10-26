@@ -12,7 +12,7 @@ meta_description: Mike Levin introduces AIE (AI Education) as the future of SEO,
 meta_keywords: AIE, AI Education, Mike Levin, Pipulate, NixOS, HTMX, FastHTML, computing
   sovereignty, SEO, Web 2.0, open source
 layout: post
-sort_order: 1
+sort_order: 5
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
