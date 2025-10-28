@@ -4,7 +4,7 @@ permalink: /futureproof/aie-mike-levin-blueprint-durable-computing-sovereignty/
 description: This entry captures my ongoing quest to define a durable, AI-centric
   approach to online presence, moving beyond traditional SEO into 'AI Education' (AIE).
   It details the architectural journey of Pipulate, powered by NixOS and HTMX, reflecting
-  a personal philosophy of 'computing sovereignty' and an 'intrepreneurial' drive
+  a personal philosophy of 'computing sovereignty' and an 'intrapreneurial' drive
   to build timeless tools in a rapidly shifting tech landscape.
 meta_description: Mike Levin introduces AIE (AI Education) as the future of SEO, detailing
   his journey from Web 2.0 to a Nix/HTMX-powered Pipulate for durable, AI-ergonomic
@@ -128,7 +128,7 @@ left them.
 I am performing my magic here at Botify as an artist for a patron. They have
 many of the best clients in the world, and I don't plan on staking out on my own
 necessarily. I'm in it for the love of the work, not yet another grind of things
-I don't want to do — entrepreneurialism. I'm an intrepreneur.
+I don't want to do — entrepreneurialism. I'm an intrapreneur.
 
 ## The "Noah's Ark" for Tech: Discovering NixOS
 
@@ -303,7 +303,7 @@ This is a crucial distinction. You're not just building a product; you're *pract
 
 * You're an **"artist for a patron"** (Botify).
 * This frees you from the "grind" of entrepreneurship (the stuff you *don't* want to do).
-* It allows you to be an **"intrepreneur,"** focusing 100% on the "love of the work," achieving the "double flow-state" needed to build this "Cathedral of One."
+* It allows you to be an **"intrapreneur,"** focusing 100% on the "love of the work," achieving the "double flow-state" needed to build this "Cathedral of One."
 
 ---
 
@@ -441,8 +441,8 @@ This entry is a potent mix of personal history, philosophical declaration, and t
   * **Filename:** `hamster-wheels-to-holy-grails-aie-pipulate.md`
   * **Rationale:** Uses evocative language from the text, focusing on the journey and the resulting innovations.
 * **Title Option:** The Intrepreneur's Odyssey: Crafting AI-Ergonomic Tech with Nix and HTMX
-  * **Filename:** `intrepreneurs-odyssey-ai-ergonomic-tech.md`
-  * **Rationale:** Emphasizes the author's unique "intrepreneur" identity and the key technologies, appealing to a tech-savvy audience.
+  * **Filename:** `intrapreneurs-odyssey-ai-ergonomic-tech.md`
+  * **Rationale:** Emphasizes the author's unique "intrapreneur" identity and the key technologies, appealing to a tech-savvy audience.
 * **Title Option:** Redefining SEO: Mike Levin's Vision for AI Education and the Future of Web Dev
   * **Filename:** `redefining-seo-ai-education-web-dev.md`
   * **Rationale:** Positions AIE as a redefinition of SEO and highlights the author's vision for web development in the AI era.
@@ -452,7 +452,7 @@ This entry is a potent mix of personal history, philosophical declaration, and t
   - Introduction of "AIE" as a powerful re-framing of the post-SEO world, offering a more positive and proactive stance.
   - Compelling personal narrative illustrating a consistent philosophy across decades of tech experience, from HitTail to Botify.
   - Strong justification for NixOS and HTMX/Python as robust, durable solutions to the "tech churn" and "hamster wheel" of modern web development.
-  - Clear articulation of the "intrepreneur" mindset versus traditional entrepreneurship, emphasizing a passion-driven approach.
+  - Clear articulation of the "intrapreneur" mindset versus traditional entrepreneurship, emphasizing a passion-driven approach.
   - The meta-commentary of the "Grok Test" with Gemini adds a unique, self-aware layer to the narrative, highlighting the AI's role as a collaborator.
 - **Suggestions For Polish:**
   - While engaging, some sections could benefit from slight reordering or clearer topic sentences to enhance readability for audiences less familiar with the author's personal history or specific tech terms.

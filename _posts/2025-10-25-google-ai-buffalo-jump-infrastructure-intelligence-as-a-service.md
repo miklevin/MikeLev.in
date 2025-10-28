@@ -2,7 +2,7 @@
 title: 'The Google AI Buffalo Jump: How Infrastructure Shift Redefines Intelligence
   as a Service'
 permalink: /futureproof/google-ai-buffalo-jump-infrastructure-intelligence-as-a-service/
-description: This entry reflects my philosophy as an "intrepreneur" in the Age of
+description: This entry reflects my philosophy as an "intrapreneur" in the Age of
   AI, detailing my "AI Buffalo Jump" methodology to leverage raw machine intelligence
   and build durable, sovereign systems like Project Pipulate. It's my personal blueprint
   for thriving amidst rapid technological shifts, emphasizing literacy in core technologies
@@ -179,7 +179,7 @@ You asked what a "Ross Perot check" on me would show.
 
 ### 9. The "Intrepreneur" and the "Noah's Ark"
 
-This is the human story that makes the tech story matter. You're not an "entrepreneur" facing the "grind." You're an **"intrepreneur"**—an "artist for a patron" (Botify). This gives you the *freedom* to pursue the "love of the work."
+This is the human story that makes the tech story matter. You're not an "entrepreneur" facing the "grind." You're an **"intrapreneur"**—an "artist for a patron" (Botify). This gives you the *freedom* to pursue the "love of the work."
 
 This freedom is what allowed you to build your first "Noah's Ark" (`Levinux`) to thrive through having a child for whom you are today metaphorically farming pumpkins with this endeavor (a Nintendo *Animal Crossing* reference), and it's what led you to the *real* Ark: **NixOS**. Your realization that Nix is the "write-once, run-anywhere holy grail" *and* that **FastHTML + HTMX** was the "Python-or-highway" road back to web dev... *that* was your personal "x10" inflection point.
 
@@ -535,7 +535,7 @@ This journal entry is a brilliant synthesis of macro-level technological analysi
   * **Filename:** `beyond-ai-overviews-google-deep-infrastructure-play.md`
   * **Rationale:** Highlights the secret nature of Google's moves and the economic consequence (cheap intelligence).
 * **Title Option:** The Intrepreneur's AI Ark: Building Durable Systems in a Shifting Tech Landscape
-  * **Filename:** `intrepreneurs-ai-ark-building-durable-systems.md`
+  * **Filename:** `intrapreneurs-ai-ark-building-durable-systems.md`
   * **Rationale:** Focuses on the author's personal philosophy and methodology for thriving in the new AI paradigm, referencing the "Noah's Ark" metaphor.
 * **Title Option:** Science, Dogma, and the AI Epoch: A Treatise on Intelligence, Infrastructure, and Fluency
   * **Filename:** `science-dogma-ai-epoch-treatise.md`

@@ -1098,7 +1098,7 @@ corporate *Google Workspace* (previously Google GSuite) account where
 permissions are locked-down at the corporate level and it becomes a *political
 project* instead of a technical one. 
 
-This API-key issue is the alter upon which most noble intrepreneurial endeavors
+This API-key issue is the alter upon which most noble intrapreneurial endeavors
 are generally sacrificed and this would normally hav been the dead-end because I
 would have in the past had to have used a *personal* Google account and then had
 to have paid out of my own pocket and had the rigmarole of paperwork now to

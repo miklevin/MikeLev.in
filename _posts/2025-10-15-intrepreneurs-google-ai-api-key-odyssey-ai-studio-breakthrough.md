@@ -1,6 +1,6 @@
 ---
 title: 'The Intrepreneur''s Odyssey: Conquering Google AI API Keys with AI Studio'
-permalink: /futureproof/intrepreneurs-google-ai-api-key-odyssey-ai-studio-breakthrough/
+permalink: /futureproof/intrapreneurs-google-ai-api-key-odyssey-ai-studio-breakthrough/
 description: This entry captures the essence of the modern developer's friction with
   enterprise tools and the constant evolution of cloud platforms. It's a personal
   testament to the persistence required to integrate new technologies, blending practical
@@ -18,7 +18,7 @@ sort_order: 5
 
 ## Setting the Stage: Context for the Curious Book Reader
 
-Welcome, curious reader, to another dispatch from the front lines of technology. In this entry, we chronicle a journey that many modern developers, especially those navigating large corporate environments, will find all too familiar: the quest for seamless access to cutting-edge AI services. What begins as a practical technical challenge—getting pure JSON from Google's Gemini AI—unravels into a deeper exploration of corporate gatekeeping, the shifting sands of cloud platforms, and the surprising strategic shifts designed to empower the 'intrepreneur.' Join us as we uncover how a simple API key became a modern-day 'Alice in Wonderland' dilemma, and how the pursuit of automation reveals profound truths about human and artificial intelligence alike.
+Welcome, curious reader, to another dispatch from the front lines of technology. In this entry, we chronicle a journey that many modern developers, especially those navigating large corporate environments, will find all too familiar: the quest for seamless access to cutting-edge AI services. What begins as a practical technical challenge—getting pure JSON from Google's Gemini AI—unravels into a deeper exploration of corporate gatekeeping, the shifting sands of cloud platforms, and the surprising strategic shifts designed to empower the 'intrapreneur.' Join us as we uncover how a simple API key became a modern-day 'Alice in Wonderland' dilemma, and how the pursuit of automation reveals profound truths about human and artificial intelligence alike.
 
 ---
 
@@ -56,7 +56,7 @@ corporate clock-punching jobs to chase their dreams of getting a Firebase
 back-ended and Flutter front-end app forking some framework the found on GitHub
 and flighting it the App Store and Google Play.
 
-But it sucks for winning over intrepreneurs like me who prefer to draw a
+But it sucks for winning over intrapreneurs like me who prefer to draw a
 paycheck and have someone else do all the not-fun work.
 
 Homie don't play that credit card gotcha API key game.
@@ -246,7 +246,7 @@ And so, we can read into this and infer 1 of 2 things:
    switch for a bunch of us (I never asked for it, I never do — I'm not Oliver
    twist begging for more).
 2. Google toggled this on for everyone everywhere using *Google Workspace*
-   because they need to fish for intrepreneurs like me in addition to
+   because they need to fish for intrapreneurs like me in addition to
    entrepreneurs who will put their personal credit cards on the line.
 
 And presumably given all the free AI intelligence as a service Google gives out
@@ -596,12 +596,12 @@ If you want, I can sketch a tiny **router** snippet (model switch + schema) you 
 ## Book Analysis
 
 ### Ai Editorial Take
-This journal entry is a prime candidate for the book, offering a compelling blend of technical challenge, personal journey, and philosophical insight. It skillfully captures the essence of 'intrepreneurship' within a corporate framework, detailing a common frustration (API access) and its surprising resolution. The embedded AI dialogue not only provides external validation and additional technical detail but also adds a rich, meta-narrative layer, truly making it a conversation *with* AI about *using* AI. Its strengths lie in its relatability and the unique way it uses storytelling to unpack complex technological and organizational shifts.
+This journal entry is a prime candidate for the book, offering a compelling blend of technical challenge, personal journey, and philosophical insight. It skillfully captures the essence of 'intrapreneurship' within a corporate framework, detailing a common frustration (API access) and its surprising resolution. The embedded AI dialogue not only provides external validation and additional technical detail but also adds a rich, meta-narrative layer, truly making it a conversation *with* AI about *using* AI. Its strengths lie in its relatability and the unique way it uses storytelling to unpack complex technological and organizational shifts.
 
 ### Title Brainstorm
 * **Title Option:** The Intrepreneur's Odyssey: Conquering Google AI API Keys with AI Studio
-  * **Filename:** `intrepreneurs-google-ai-api-key-odyssey-ai-studio-breakthrough.md`
-  * **Rationale:** Clearly states the protagonist (intrepreneur), the challenge (API keys), the solution (AI Studio), and the journey (odyssey), making it comprehensive and engaging.
+  * **Filename:** `intrapreneurs-google-ai-api-key-odyssey-ai-studio-breakthrough.md`
+  * **Rationale:** Clearly states the protagonist (intrapreneur), the challenge (API keys), the solution (AI Studio), and the journey (odyssey), making it comprehensive and engaging.
 * **Title Option:** Google AI's Shell Game: A Developer's Path to API Enlightenment
   * **Filename:** `google-ai-shell-game-api-enlightenment.md`
   * **Rationale:** Leverages the 'shell game' metaphor from the text and emphasizes the enlightenment aspect of solving the API access problem.

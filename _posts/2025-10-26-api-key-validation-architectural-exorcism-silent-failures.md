@@ -216,7 +216,7 @@ This act of translation—of *publishing* to your "1 text-file for life"—is th
 So yes. Language is the tool we use to "mine" the abstract world for ideas. It also "undermines" our certainty by being an incomplete representation (Gödel's point). And, in the process, it "lies" to us by presenting itself as the truth, when it's only a very nifty, very useful trick.
 
 **Me**: I have to make certain parts of my work, the things I need to do to
-satisfy the conditions of working as an intrepreneur with a patron not hateful
+satisfy the conditions of working as an intrapreneur with a patron not hateful
 work. This is a trick of the mind. It's always how you look at a thing.
 
 The work before me is actually quite intimidating, but I can crank a first
