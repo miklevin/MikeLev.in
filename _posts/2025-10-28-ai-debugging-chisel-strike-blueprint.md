@@ -16,7 +16,7 @@ meta_keywords: AI debugging, idempotent processing, Python errors, prompt engine
   Gemini AI, pandas dataframe, collaborative development, technical workflow, AI content
   architect
 layout: post
-sort_order: 1
+sort_order: 7
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
