@@ -677,7 +677,8 @@ This is the "magic cookie" part. You need to teach `flake.nix` that `VIDeditor.i
 
 **Edit `flake.nix`:**
 
-```nix:/home/mike/repos/pipulate/flake.nix
+```nix
+# /home/mike/repos/pipulate/flake.nix
 # ... (inside the `let` block) ...
 
         # --- CORRECTED: Declarative list for notebooks to copy ---
