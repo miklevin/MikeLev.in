@@ -479,7 +479,7 @@
         buildInputs = [
           pkgs.ruby                     # Ruby for Jekyll and Bundler
           pkgs.jekyll                   # Jekyll from Nixpkgs
-          pkgs.rubyPackages_3_2.rouge   # Rouge (provides rougify)
+          pkgs.rubyPackages.rouge   # Rouge (provides rougify)
           pkgs.neovim                   # Neovim for text editing
           pkgs.git                      # Git for version control
           pythonEnv                     # Use the Python environment defined above
