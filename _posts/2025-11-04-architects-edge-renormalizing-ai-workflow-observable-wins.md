@@ -292,7 +292,7 @@ now. From the article I just published:
 
 > But before I show you how to install-nix,   
 > I'm going to show you how to **un***install-nix*  
-> So come on all you technical Betnicks  
+> So come on all you technical Beatnicks  
 
 > This is not like Homebrew  
 > Because brew pollutes your machine over time.  
