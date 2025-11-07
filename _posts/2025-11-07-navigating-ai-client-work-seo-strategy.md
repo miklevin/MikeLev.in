@@ -22,6 +22,19 @@ This entry captures a pivotal moment in the ongoing exploration of leveraging AI
 
 ## Technical Journal Entry Begins
 
+I managed to do the whole hub and spoke JavaScript SEO strategy based on the brief demonstration by a coworker.
+
+I self-canonicalized all PDPs on a site that's only 100K URLs whose green footprint was only 3K.
+
+I am injecting the links into the footer for new virtual category pages made from their site search tool.
+
+I am converting the search landing pages (only when a match) into self-canonicalized virtual category pages with re-written titles, metas and h1.
+
+All from my super-cool coworkers oh so casual by the way here's what we can do during our meeting, ahaha!
+
+This all required a sort of *forced re-engaging* int he client work from being
+off in abstraction-land for a little while.
+
 Ironically, the way to re-engage is yet more typing in vim and yet more AI, but
 that's fine because it's walking you through *how* to most effectively
 re-engage. It's like any tool. It's how you use it. And if you use it too much
