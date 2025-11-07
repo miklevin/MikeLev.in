@@ -15,7 +15,7 @@ meta_description: Explore a personal journey through computing challenges, from 
 meta_keywords: Nix, Pipulate, computational sovereignty, AI safety, deterministic
   systems, Linux, QEMU, LXD, software architecture, digital artisan, Ikigai, Kaizen
 layout: post
-sort_order: 3
+sort_order: 1
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
