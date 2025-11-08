@@ -639,7 +639,7 @@ const VIRTUAL_COLLECTIONS = {
     },
     "Red+Widgets": {
         title: "Women's Red Widgets - Ankle, Combat & Knee-High | [Brand Name]",
-        metaDesc: "Stand out in our collection of red boots. From cherry leather to deep suede, find your perfect pair. Shop now.",
+        metaDesc: "Stand out in our collection of red widgets. Shop now.",
         h1: "Red Widgets Collection"
     },
     "Clearance": {
@@ -811,7 +811,7 @@ const VC_HUB_CONFIG = {
     },
     "Red Widgets": { // Note: "Red+Widgets" in URL might decode to "Red Widgets" depending on platform. Test this!
         title: "Women's Red Widgets Collection | [Brand Name]",
-        metaDesc: "Stand out in cherry leather, deep suede, and ankle red boots.",
+        metaDesc: "Stand out with our red widgets.",
         h1: "Red Widgets"
     },
     "Clearance": {
@@ -935,7 +935,7 @@ analysis to identify the very best things to target using this system.
 * **What it is:** Technology that detects *specific* high-value search queries and transforms them instantly.
 * **The Transformation:**
     * **Generic Search Page** → **Curated Landing Page**.
-    * Updates **Page Title** to be SEO-optimized (e.g., from "Search: red boots" to "Women's Red Widgets Collection").
+    * Updates **Page Title** to be SEO-optimized (e.g., from "Search: red widgets" to "Women's Red Widgets Collection").
     * Updates **Meta Description** to improve click-through rates from Google.
     * **Self-Canonicalizes:** Tells Google "This is a real, permanent page. Index it."
 * *(Placeholder: Side-by-side comparison of a raw search result vs. the "Transformed" version with bespoke metadata)*
@@ -963,6 +963,539 @@ We have to have a 4-tiered plan.
 4. Make sure these collection pages are strategically targeting the correct
    keywords to target the gaps in traffic.
 
+Me: Okay, so the remaining parts of this project are:
+
+1. Better matching the look of the site with link-injection.
+2. Better content gap targeting based on the competitive gap analysis.
+3. Submitting the new URLs via Google Search Console (GSC).
+4. Investigating getting these new URLs into the sitemap.
+
+Right, right. This is what full engagement looks and feels like. I did more in a
+2-hour condensed period of time than I did all week. But that's fine. This is
+not a worker-drone factory. This is getting better and better so that we work
+smarter and smarter. It's that old expression of the mastercraftsman taking a
+couple of minutes to do a thing and the person in awe says how did you do that
+so fast and the answer is that it wasn't done fast. It took thirty years.
+
+Gotta put in the time.
+
+Hmm, there's also the possibility of Deck-ifying this. Shoot, I hate that part.
+But sometimes if it's not doled out in PowerPoint deck-sized chunks it's like it
+doesn't exist. Okay, so work with all due haste. BUT! And this is a big but...
+match the look of their site first for link injection, fast, fast, fast!
+
+Since we have the AI completely primed for this work let's see how easily I can
+get the good answer and improved script. The old script is this:
+
+[Old script provided]
+
+But now instead of just appending to the end of `#footer-default` which DOES
+work, I want to append to the end of the list here using the same pattern they
+established.
+
+[DOM frag inserted]
+
+**Gemini**: This is the difference between a "hack" and an "integration." By adopting their DOM structure and CSS classes, these links will survive design refreshes (usually) and look completely native to both users and bots.
+
+Here is the updated **Optimization A** script. It now targets that specific unordered list (`<ul>`) and wraps your new links in list items (`<li>`) with the correct `mE2bFG9m` class so they inherit all the site's existing styling.
+
+### OPTIMIZATION A (v2): Native-Look Link Injector
+
+```javascript
+/**
+ * OPTIMIZATION A (v2): Virtual Collection Link Injector (Native Look)
+ * Scope: /collections/ pages
+ */
+
+const VC_INJECTOR_CONFIG = {
+    // Tactic: Find the header we want, then get the UL immediately after it.
+    // This is more robust than generic classes if multiple columns use the same class.
+    // If you want a new column entirely, that's a different script.
+    targetHeaderText: "Fit Tips and Advice",
+    columnClass: ".[oneclass]",
+
+    // The class stolen from existing <a> tags in that list to ensure perfect style matching
+    linkClass: "[twoclass]",
+
+    searchBase: "/search?q=",
+    links: [
+        { query: "Holiday", anchor: "Shop Holiday 2025" },
+        { query: "Red+Widgets", anchor: "Womens Red Widgets" },
+        { query: "Clearance", anchor: "Final Sale Clearance" }
+    ]
+};
+
+function injectVirtualSpokes() {
+    // 1. Find the correct column by matching the header text.
+    // This avoids dumping links into the wrong column if they all share the '.TkdvArvc' class.
+    const columns = document.querySelectorAll(VC_INJECTOR_CONFIG.columnClass);
+    let targetUL = null;
+
+    for (const col of columns) {
+        const header = col.querySelector('h3');
+        if (header && header.textContent.trim() === VC_INJECTOR_CONFIG.targetHeaderText) {
+            targetUL = col.querySelector('ul');
+            break;
+        }
+    }
+
+    // Fallback: If we couldn't find it by text, try just grabbing the first UL in that class.
+    if (!targetUL) {
+        targetUL = document.querySelector(`${VC_INJECTOR_CONFIG.columnClass} ul`);
+    }
+
+    if (!targetUL) {
+        console.warn("[VC Injector] Could not locate target footer list.");
+        return;
+    }
+
+    // 2. Build the native-looking list items
+    const frag = document.createDocumentFragment();
+
+    VC_INJECTOR_CONFIG.links.forEach(link => {
+        const li = document.createElement("li"); // Match their structure <li>...</li>
+
+        const a = document.createElement("a");
+        a.href = VC_INJECTOR_CONFIG.searchBase + encodeURIComponent(link.query);
+        a.textContent = link.anchor;
+        a.className = VC_INJECTOR_CONFIG.linkClass; // <a class="mE2bFG9m">
+        a.setAttribute("data-vc-spoke", "true");
+
+        li.appendChild(a);
+        frag.appendChild(li);
+    });
+
+    // 3. Append cleanly to the existing list
+    targetUL.appendChild(frag);
+}
+
+// Race-condition safety delay
+setTimeout(injectVirtualSpokes, 500);
+```
+
+### Key Upgrades in v2:
+
+1.  **Smart Targeting:** It tries to find the *specific* column by reading the `<h3>` text ("Fit Tips and Advice"). If standard e-comm sites use the same class for all four footer columns, this ensures you don't inject into "Customer Service" by mistake.
+2.  **Native DOM Structure:** It stops using `<br>` tags and switches to the site's native `<ul>` / `<li>` structure.
+3.  **CSS Inheritance:** By applying their obfuscated class (`mE2bFG9m`) to the new `<a>` tags, your links will instantly inherit all hover states, fonts, and spacing defined in their stylesheet.
+
+**Me**: Alright, that worked perfectly. I have the Google Slide deck almost
+together. It needs some visuals. Create a one or more mermaid diagrams that
+captures the essentials of:
+
+## Meeting Agenda: The "Virtual Collection" Growth Strategy
+
+### Slide 1: The Challenge & The Opportunity
+* **Current State:** Traffic is softening; the site's visible "footprint" in Google is shrinking.
+* **The Missed Opportunity:** Users are searching for specific combinations (e.g., "Holiday 2025," "Red Widgets") that we have products for, but *no dedicated landing page*.
+* **The Fix:** We don't need months of dev work to build new templates. We can use what we already have—the site search—and "dress it up" for Google.
+
+### Slide 2: Strategy Overview - The "Hub & Spoke" Model
+* **Concept:** We are artificially creating new, high-value landing pages without touching the backend code.
+* **The Hub (Destination):** A search results page that looks and acts like a permanent category page.
+* **The Spokes (Pathways):** Strategic links placed *only* on relevant parent pages to guide Googlebot to these new hubs.
+* *(Placeholder: Simple graphic showing existing Collection Page pointing to new Virtual Search Page)*
+
+### Slide 3: Tactic A - The "Spokes" (Surgical Link Injection)
+* **What it is:** Inserting highly relevant sub-category links into the footer area.
+* **Constraint:** These only appear on existing `/collections/` pages.
+    * *Why?* Keeps it relevant. We don't want e-comm links on the "Contact Us" page.
+* **Goal:** Creates the "crawl path." Google can't index what it can't find.
+* *(Placeholder: "Before" screenshot of a standard collection footer vs. "After" screenshot showing the new targeted links blended into the design)*
+
+### Slide 4: Tactic B - The "Hubs" (Search Page Transformer)
+* **What it is:** Technology that detects *specific* high-value search queries and transforms them instantly.
+* **The Transformation:**
+    * **Generic Search Page** → **Curated Landing Page**.
+    * Updates **Page Title** to be SEO-optimized (e.g., from "Search: red widgets" to "Women's Red Widgets Collection").
+    * Updates **Meta Description** to improve click-through rates from Google.
+    * **Self-Canonicalizes:** Tells Google "This is a real, permanent page. Index it."
+* *(Placeholder: Side-by-side comparison of a raw search result vs. the "Transformed" version with bespoke metadata)*
+
+### Slide 5: Why This Wins (Immediate Impact)
+* **Speed to Market:** Deployed via our edge layer, bypassing long internal dev backlogs.
+* **Scalable:** Once confirmed working, we can launch dozens of new "Virtual Collections" simply by updating a list.
+* **Low Risk:** Highly targeted. Standard user searches remain unaffected; only our targeted terms get the "VIP treatment."
+
+### Slide 6: Next Steps
+* **Monitor:** Watch indexation rates of the new Virtual Collections in standard SEO tooling.
+* **Expand:** Perform "Content Gap Analysis" to find the next 20 high-value terms that need their own Virtual Collection.
+* **Iterate:** Refine the look and feel based on data.
+
+PLEASE don't be clever with the mermaid diagrams. They ALWAYS have rendering
+problems. Watch your quoting and termination and that sort of thing. Err on the
+conservative side because I don't want to be struggling against mermaid
+rendering bombs.
+
+> **NOTE**💣: Despite this warning, Gemini produced complete dog render-bombs on
+> the first pass and I had to do the time-traveling prompt trick to show it the
+> mistakes it was about to make. AIs apparently can't resist making
+> over-complicated Mermaid diagrams.
+
+**Gemini**: Here are two highly conservative Mermaid diagrams. I have removed all custom styling, complex subgraphs, and non-standard characters to ensure maximum compatibility with finicky renderers.
+
+### Diagram 1: The Strategy Model (Hub & Spoke)
+
+This simple flow illustrates **Slide 2**, showing how an existing asset creates the new virtual asset.
+
+```mermaid
+graph TD
+    A[Existing Collection Page] -->|Spoke: Injected Footer Link| B(Virtual Hub: Search Result Page)
+    B -->|Transformation Script| C[Final Indexed 'Virtual Collection']
+```
+
+-----
+
+### Diagram 2: The Technical Execution Flow
+
+This illustrates the interaction between the two tactics described in **Slides 3 & 4**, showing the decision logic that keeps it safe.
+
+```mermaid
+graph TD
+    Start[Googlebot Crawls Site] -->|Lands on| A[Existing Collection Page]
+    A -->|Tactic A executes| B[Injects new 'Spoke' links in footer]
+    B -->|Googlebot follows new link| C[Loads Search Result Page]
+    C -->|Tactic B executes| D{Is Search Term Targeted?}
+    D -- No --> E[Remain Standard Search Page]
+    D -- Yes --> F[Overwrite Title, H1 & Meta Description]
+    F --> G[Inject Self-Canonical Tag]
+    G --> H[Google Indexes as 'Virtual Collection']
+```
+
+**Me**: Alright, so I have the look of the site matched. I have the Google Slide
+Deck mostly made. I have the screenshot of what the link insertion looks like.
+Oh, I need the screenshot of what the landing page looks like. A before and
+after. Okay, I got that done. So there's a before/after for both:
+
+- Link Injection
+- Landing Page Customization
+
+Good, good. Now it's... what?
+
+Make me a new slide explaining how we can submit these to Google through Google
+Search Console (GSC) and how we can use the following trick:
+
+No, you cannot directly add arbitrary URLs to Shopify's default  file because it's automatically generated and cannot be manually edited. However, you can use a workaround by uploading a custom sitemap to your Shopify files and then creating a URL redirect from a desired path to the file's URL. This allows you to submit a custom sitemap to search engines. [1, 2, 3, 4]  
+How to add a custom sitemap to Shopify 
+
+1. Create your sitemap: Generate an XML sitemap with the URLs you want to include. 
+2. Upload the sitemap: Go to Online Store &gt; Files in your Shopify admin and upload your custom  file. 
+3. Copy the file's URL: After uploading, find your file in the list and copy its URL. 
+4. Create a URL redirect: 
+
+	• Go to Online Store &gt; Navigation &gt; View URL redirects. 
+	• Click Create URL redirect. 
+	• In the Redirect from field, enter the arbitrary URL you want to use (e.g., ). 
+	• In the Redirect to field, paste the copied URL of your uploaded sitemap file. 
+	• Save the redirect. 
+
+5. Submit the new sitemap: Submit the new redirect URL (e.g., ) to search engines like Google Search Console. [1, 2, 5, 6]  
+
+AI responses may include mistakes.
+
+    [1] https://community.shopify.com/c/shopify-discussions/how-do-i-edit-sitemap-xml-without-using-ftp/m-p/1933476
+    [2] https://community.shopify.com/c/shopify-discussions/how-do-i-edit-sitemap-xml-without-using-ftp/m-p/1933511
+    [3] https://gofishdigital.com/blog/shopify-xml-sitemaps/
+    [4] https://magefan.com/blog/shopify-sitemap
+    [5] https://thisisnovos.com/blog/how-to-create-a-custom-xml-sitemap-in-shopify/
+    [6] https://www.shopify.com/blog/how-to-create-a-sitemap
+
+...to make sure they're on a sitemap.xml as well. Follow the same prior format
+for the deck slides and break it into more then one slide as necessary.
+
+**Gemini**: Here are the additional slides for your deck, following the established high-level, punchy format. I've broken it into two slides: one defining the problem (Shopify's rigidity) and one outlining your clever solution (the "Sidecar" sitemap).
+
+***
+
+### Slide 7: The Discovery Challenge
+* **The Hurdle:** Shopify automatically generates its `sitemap.xml` based *only* on standard database pages (Products, Collections, Blogs).
+* **The Gap:** Our new "Virtual Collections" do not exist in Shopify's database, so they will **never** appear in the default sitemap.
+* **Why it Matters:** While our new footer links provide *crawl paths*, an XML sitemap provides *certainty* to Google that these are important pages.
+
+### Slide 8: Solution - The "Sidecar" Sitemap
+* **The Workaround:** We bypass Shopify's limitations using a proven redirect trick.
+    1.  **Create:** We generate a custom XML sitemap listing our new Virtual Collections.
+    2.  **Host:** We upload this file to Shopify's CDN (Content Delivery Network).
+    3.  **Mask:** We create a URL redirect (e.g., `domain.com/virtual-sitemap.xml`) that points to that CDN file.
+* **The Result:** We can submit a perfectly valid, "native-looking" sitemap to **Google Search Console**, guaranteeing these new pages are prioritized for indexing.
+
+**Me**: Excellent. Create an extremely simple mermaid diagram explaining the
+sitemap process you just laid out. Also include submitting the individual URLs
+through GSC which is also a thing.
+
+> Note: The parenthesis around "(CDN)" below blows up mermaid diagram renderers.
+> Had to figure that out myself. Gemini and from my experience other AIs can
+> only make bad Mermaid Diagrams by default. They must be extremely wrangled
+> more than with other languages.
+
+**Gemini**: Here is a conservative Mermaid diagram for your sitemap process, broken down into key steps for clarity.
+
+### Diagram 3: "Sidecar" Sitemap & GSC Submission Flow
+
+````mermaid
+graph TD
+    A[Create Custom sitemap.xml] --> B[Upload to Shopify Files (CDN)]
+    B --> C[Get CDN File URL]
+    C --> D[Create Shopify URL Redirect]
+    D --> E[Submit Redirect URL to GSC]
+    E --> F[Google Crawls & Indexes Virtual Collections]
+    
+    G[Manually Submit Individual URL to GSC] --> F
+```http://googleusercontent.com/image_generation_content/0
+
+````
+
+**Me**: Okay, pshwew! Now I have one hour to do more gap analysis stuff. And an
+agenda. I'll ask Gemini directly in Google Slides to provide that.
+
+  * **Meeting Context** (Slide 1)
+      * Date and Advantage Worksession
+  * **The Challenge & The Opportunity** (Slide 2)
+      * Current State: Softening traffic and shrinking Google footprint.
+      * The Fix: Using existing site search to create new landing pages.
+  * **Strategy Overview - The "Hub & Spoke" Model** (Slide 3)
+      * Concept: Artificially creating new, high-value landing pages.
+  * **Tactic A - The "Spokes" (Surgical Link Injection)** (Slide 5)
+      * Inserting sub-category links into the footer area to create a crawl path.
+  * **Tactic B - The "Hubs" (Search Page Transformer)** (Slide 9)
+      * Transforming high-value search queries into curated, SEO-optimized landing pages.
+  * **Why This Wins (Immediate Impact)** (Slide 12)
+      * Speed to Market, Scalability, and Low Risk.
+  * **Next Steps** (Slide 13)
+      * Monitoring, Expansion, and Iteration.
+  * **The Discovery Challenge** (Slide 14)
+      * The gap: "Virtual Collections" are missing from the default sitemap.
+  * **Solution - The "Sidecar" Sitemap** (Slide 15)
+      * Workaround: Creating a custom XML sitemap for new Virtual Collections.
+
+Hey Gemini, can you clean up the agenda a bit? Take out references to particular
+slides and just make it more abstract and high level. It need not be any more
+than 5 to 10 lines. Make sure you hit on both tactics, the link injection AND
+the search landing page transformation.
+
+**Gemini**: Here is a streamlined, high-level agenda for your presentation:
+
+* **The Challenge:** Reversing current traffic trends by capitalizing on missed search demand.
+* **Strategy Overview:** Introducing the "Hub & Spoke" model for rapid organic growth.
+* **Tactic A (The Spokes):** Surgical link injection to create new crawler pathways.
+* **Tactic B (The Hubs):** Transforming raw internal search results into indexed "Virtual Collections."
+* **Technical Implementation:** Overcoming platform limitations with the "Sidecar Sitemap."
+* **GAPs from Analysis:** Using competitive content gap analysis for new landing pages (Hubs).
+* **Forward Outlook:** Expected impact, scalability, and immediate next steps.
+
+Okay, that covers it for this call.
+
+I am very ready. I have some time between now and the call, so it's time to look
+at the existing GAP Analysis and see if I can have some sample landing page
+generation set up with them for demonstration.
+
+I do believe it is a one, two punch here editing the 2 PageWorkers optimizations
+to keep the scripts in sync. Can you give me the instructions Gemini? Not like
+finished code. Just a high-level talk through walk through please and thank you.
+
+**Gemini**: Here is the high-level walkthrough for maintaining synchronization between your two optimization scripts as you scale this up.
+
+Think of this as managing a very small, manual database where you have two different tables that must align perfectly.
+
+### The Synchronization Protocol
+
+You are essentially playing matchmaker between a **Link** (Script A) and a **Landing Experience** (Script B).
+
+#### Step 1: Define the "Hub" (Script B - The Transformer)
+Always start here. Before you build a road, you need a destination.
+* Open the **Search Page Transformer** script.
+* Locate the main configuration object (e.g., `VC_HUB_CONFIG`).
+* Create a new entry where the **Key** is your exact desired search term (e.g., "Blue Widgets").
+* Fill in the payload: the bespoke Page Title, Meta Description, and H1.
+* *Crucial:* Copy that **Key** perfectly to your clipboard. It is the unique ID that bridges the two scripts.
+
+#### Step 2: Build the "Spoke" (Script A - The Injector)
+Now, create the pathway to that destination.
+* Open the **Link Injector** script.
+* Locate the links array (e.g., `links` inside `VC_INJECTOR_CONFIG`).
+* Add a new object to the list.
+* Paste the **Key** from Step 1 into the `query` field.
+* Define the `anchor` text (this is what the user/bot will actually see in the footer).
+
+#### Step 3: The Handshake Test (QA)
+Never deploy without checking the handshake.
+1.  Go to a collection page. Do you see the new link? (Test Script A)
+2.  Click the link.
+3.  Does the resulting search page have your new Title and H1? (Test Script B)
+    * *If standard search results load:* Your **Keys** didn't match (check for casing, spaces vs. `+` signs, or trailing whitespace).
+    * *If it transforms correctly:* The handshake is solid.
+
+### Summary for the Mental Model
+* **Script B** is your "Inventory" of virtual pages.
+* **Script A** is your "Map" to those pages.
+* If it's in the Map but not the Inventory, you send users to a generic search page (bad CX).
+* If it's in the Inventory but not the Map, it's an orphaned island (no SEO value).
+
+**Me**: I need to adjust this because I don't have control of the encoding. I need to
+make it so that the search tool which uses URLs like:
+
+https://www.client.com/search?q=Black%20Friday
+
+But the JavaScript doesn't let me explicitly control that:
+
+[1st optimization]
+
+...which links the following search landing page customizer:
+
+[2nd optimization]
+
+Please modify them so I can explicitly control the correct linking without
+having double encoding problems.
+
+**Gemini**: You identified the exact issue: double encoding.
+
+You were putting the *already encoded* version (`Black%2BFriday`) into the config, and then the script was running `encodeURIComponent` on it *again*, turning the `%` into `%25`.
+
+The cleanest fix is to standardize on **Human-Readable Keys** in your configurations.
+
+We will stop pre-encoding in the config. We will let the scripts handle the messy work so your config files remain readable and synced.
+
+Here are the two synced scripts.
+
+### The "Handshake" Protocol
+
+  * **Config A (Injector)**: Use the raw, human-readable search term (e.g., "Black Friday").
+  * **Config B (Activator)**: Use the EXACT SAME raw, human-readable search term as the key.
+  * **The Scripts**: Will automatically handle converting that to `Black+Friday` (or `%20`) in the URL and decoding it back to "Black Friday" on the landing page.
+
+-----
+
+### OPTIMIZATION A (v3): Link Injector (Auto-Encoding)
+
+I've added a tiny helper to prefer `+` over `%20` for spaces, as this usually looks cleaner in Shopify search URLs, but it's purely aesthetic; standard encoding would also work.
+
+```javascript
+/**
+ * OPTIMIZATION A (v3): Virtual Collection Link Injector
+ * Scope: /collections/ pages
+ */
+
+const VC_INJECTOR_CONFIG = {
+    targetHeaderText: "Fit Tips and Advice",
+    columnClass: ".TkdvArvc",
+    linkClass: "mE2bFG9m",
+    searchBase: "/search?q=",
+    links: [
+        // USAGE: Use raw, human-readable terms here. DO NOT pre-encode.
+        // "Black Friday" will automatically become "...?q=Black+Friday"
+        { query: "Holiday", anchor: "Shop Holiday 2025" },
+        { query: "Black Friday", anchor: "Black Friday Lingerie Gifts" }
+    ]
+};
+
+function injectVirtualSpokes() {
+    const columns = document.querySelectorAll(VC_INJECTOR_CONFIG.columnClass);
+    let targetUL = null;
+
+    for (const col of columns) {
+        const header = col.querySelector('h3');
+        if (header && header.textContent.trim() === VC_INJECTOR_CONFIG.targetHeaderText) {
+            targetUL = col.querySelector('ul');
+            break;
+        }
+    }
+
+    if (!targetUL) {
+         targetUL = document.querySelector(`${VC_INJECTOR_CONFIG.columnClass} ul`);
+    }
+
+    if (!targetUL) return;
+
+    const frag = document.createDocumentFragment();
+
+    VC_INJECTOR_CONFIG.links.forEach(link => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+
+        // ENCODING FIX: Standard encode, then swap %20 for + to look nice in standard site search
+        const safeQuery = encodeURIComponent(link.query).replace(/%20/g, "+");
+
+        a.href = VC_INJECTOR_CONFIG.searchBase + safeQuery;
+        a.textContent = link.anchor;
+        a.className = VC_INJECTOR_CONFIG.linkClass;
+        a.setAttribute("data-vc-spoke", "true");
+
+        li.appendChild(a);
+        frag.appendChild(li);
+    });
+
+    targetUL.appendChild(frag);
+}
+
+setTimeout(injectVirtualSpokes, 500);
+```
+
+### OPTIMIZATION B (v3): Hub Activator (Auto-Decoding)
+
+`URLSearchParams` automatically handles decoding `+` or `%20` back into spaces. So by using human-readable keys here, it will match whatever Tactic A generated.
+
+```javascript
+/**
+ * OPTIMIZATION B (v3): Virtual Collection Hub Activator
+ * Scope: /search results pages ONLY
+ */
+
+const VC_HUB_CONFIG = {
+    // USAGE: Keys must match the 'query' in Injector Config EXACTLY (case-sensitive).
+    // Use raw, human-readable terms (e.g., with spaces).
+    "Holiday": {
+        title: "Official Holiday 2025 Gift Collection | Client",
+        metaDesc: "Exclusive Holiday 2025 gifts. Fast shipping.",
+        h1: "The 2025 Holiday Shop"
+    },
+    "Black Friday": {
+        title: "Black Friday Lingerie Sale & Gift Guide 2025 | Client",
+        metaDesc: "Shop the best Black Friday deals! Limited time only.",
+        h1: "The Black Friday Lingerie Event"
+    }
+};
+
+function activateVirtualHub() {
+    // 1. Get URL params. This AUTOMATICALLY decodes "Black+Friday" or "Black%20Friday" into "Black Friday"
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get("q");
+
+    // 2. Guard Clause
+    if (!query || !VC_HUB_CONFIG.hasOwnProperty(query)) {
+        return;
+    }
+
+    console.log(`[VC Hub] Activating: ${query}`);
+    const data = VC_HUB_CONFIG[query];
+
+    // 3. The Takeover
+    if (data.title) document.title = data.title;
+    if (data.h1) {
+        const h1 = document.querySelector("h1") || document.querySelector(".search-title");
+        if (h1) h1.textContent = data.h1;
+    }
+    if (data.metaDesc) {
+        let meta = document.querySelector('meta[name="description"]');
+        if (!meta) {
+            meta = document.createElement('meta');
+            meta.name = "description";
+            document.head.appendChild(meta);
+        }
+        meta.content = data.metaDesc;
+    }
+
+    // 4. Self-Canonicalization
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+        canonical = document.createElement('link');
+        canonical.rel = "canonical";
+        document.head.appendChild(canonical);
+    }
+    canonical.href = window.location.href;
+}
+
+activateVirtualHub();
+```
 And that's where we WRAP UP this article.
 
 Respond by wrapping up this article and put a bow on it with a long flowery
