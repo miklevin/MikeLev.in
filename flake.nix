@@ -86,6 +86,11 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
+
+        # --- ADD THIS TOGGLE ---
+        useIncrementalBuild = true; # Set to false for a full rebuild on every change
+        # --- END TOGGLE ---
+
         # Python environment with required packages
         pythonEnv = pkgs.python3.withPackages (ps: with ps; [
           requests
@@ -98,6 +103,9 @@
         # Common hook for setting up the environment, variables, and functions.
         # This is used by both the 'default' and 'quiet' shells.
         commonHook = ''
+          # Pass the Nix-level toggle to a shell variable
+          useIncrementalBuild="${if useIncrementalBuild then "true" else "false"}"
+
           # Set up Ruby environment variables
           export GEM_HOME=$PWD/.gem
           export GEM_PATH=$GEM_HOME
@@ -366,10 +374,20 @@
             # Give processes time to terminate
             sleep 1
             
+            # --- ADD THIS LOGIC ---
+            local jekyll_build_flags="--verbose --incremental" # Default to fast
+            if [ "$useIncrementalBuild" = "false" ]; then
+                echo "🔥 Full rebuild mode enabled. --incremental is OFF."
+                jekyll_build_flags="--verbose"
+            else
+                echo "⚡ Incremental mode enabled."
+            fi
+            # --- END LOGIC ---
+            
             # Change to the site root
             cd "$site_root"
             echo "Serving from $(pwd) on port $port..."
-            RUBYOPT="-W0" bundle exec jekyll serve --verbose --incremental --port $port
+            RUBYOPT="-W0" bundle exec jekyll serve $jekyll_build_flags --port $port --host 0.0.0.0
             
             # Return to the original directory
             cd "$current_dir"
