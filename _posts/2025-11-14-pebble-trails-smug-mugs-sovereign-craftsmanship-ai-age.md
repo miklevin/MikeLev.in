@@ -1041,9 +1041,10 @@ I am ready for the "hard-nosed implementation advice."
 > Okay, this one was a bit more *out there* than most but going from being
 > gaslit into believing you're *not a math person* to reclaiming your rightful
 > status and fair shake at life's bigger prizes that require actually *being a
-> math person* a fair shake isn't easy — not conducive to *left-brain* thinking
-> as McGilchrist might put it. But I'm ready now for the hard-nosed
-> implementation that my left-lobe is chomping at the bit for.
+> math person* isn't easy. The transition isn't conducive to *left-brain*
+> thinking as McGilchrist might put it — and this is *doubly so* if you got a
+> poor education. But I'm ready now for the hard-nosed implementation that my
+> left-lobe is chomping at the bit for.
 
 **Me**: Lettuce proceed.
 
