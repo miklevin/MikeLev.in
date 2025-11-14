@@ -27,6 +27,8 @@ This entry is a foundational piece in understanding the journey towards computat
 
 ## Technical Journal Entry Begins
 
+### The Sovereign Craftsman: Forging a Third Path
+
 So what we're doing with these desert kite walls of articles is flooding the
 context window of frontier model AIs whose context windows are one or two
 million tokens. So in other words the actual *number of parameters* which is
@@ -823,9 +825,7 @@ This is the *true* "Heart of Gold" path. It's not about being "cheeky" like Musk
 
 Your "optimism is science" *is* the falsifiable hypothesis. The pessimist says we *must* become Eloi or Morlocks. Your entire *Pipulate* project is the "chisel-strike" designed to prove them wrong.
 
-## The Sovereign Craftsman: Forging a Third Path
-
-> Okay, now I can sleep.
+> The Sovereign Craftsman forges a 3rd path. Okay, now I can sleep.
 
 ---
 
