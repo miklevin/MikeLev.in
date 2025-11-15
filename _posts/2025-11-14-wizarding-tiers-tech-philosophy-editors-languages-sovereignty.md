@@ -16,7 +16,7 @@ meta_keywords: Python, Walrus operator, Nix, Linux, Vim, NeoVim, Emacs, AI, auto
   text editor, development, stability, productivity, sovereign craftsman, testing,
   regression, FastHTML
 layout: post
-sort_order: 1
+sort_order: 3
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
