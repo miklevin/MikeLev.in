@@ -31,13 +31,15 @@ This next step is the hardest of all. Have you ever called yourself
 "non-technical" — akin to the way *that I've called myself "not a math person"?*
 The rub is, I was wrong. I am not an arbitrary syntax-changing person. I develop
 strong muscle memory for systems and I like everything to fit into that system.
-I am not a polyglot. English is quite enough, thank you very much. Yet I am a
+I am not a polyglot. English is quite enough, thank you very much. 
 
 ## The "Non-Technical" Lie and Python's Embrace
-polyglot because Python. I've put in my 10-years and 10,000 hours easily.
-Several times over. Thing is, there's always more to learn and I'm awaiting a
-chance to simultaneously do an evaluation and an assignment at the same time,
-violating a core tenet of Python to see what all the hullabaloo is about. 
+
+Yet I am a polyglot because Python. I've put in my 10-years and 10,000 hours
+easily. Several times over. Thing is, there's always more to learn and I'm
+awaiting a chance to simultaneously do an evaluation and an assignment at the
+same time, violating a core tenet of Python to see what all the hullabaloo is
+about. 
 
 Whereas before you would have done this:
 
@@ -99,11 +101,13 @@ infrastructure as a single text-file and just build it. That's Nix. And because
 you can do that you can just *show* that `flake.nix` infrastructure file to the
 AI and it just knows everything about your system down to the hardware. It's a
 *write-once run-anywhere* dream of tech come true just in time for it to *really
-help* with AI coding assistance. Having a normalized Linux running from a
+help* with AI coding assistance. 
 
 ## The Immutable Bedrock: Linux and Nix for AI's Foundation
-subfolder of your macOS, Windows or other Linux machine couldn't have come at a
-better time. This is like the complete opposite of the web full stack.
+
+Having a normalized Linux running from a subfolder of your macOS, Windows or
+other Linux machine couldn't have come at a better time. This is like the
+complete opposite of the web full stack.
 
 So right as the pace of change increases so too does the bedrock of tech settle
 down and become fewer things with less surface-area over time. The alternative
@@ -128,10 +132,11 @@ and more distros are putting the *brain-dead* nano text editor there and leaving
 out vi or vim. This is a disturbing trend and it creates terrible habits and
 cuts you of from the course of forever-increasing lifetime text-editing power
 that your muscle memory will be thanking you forever-forward for. When you see
-YouTubers leaning into nano, question their credibility. There's a reason
+YouTubers leaning into nano, question their credibility. 
+
+There's a reason they're doing YouTube and not coding.
 
 ## The Sovereign Craftsman's Weaponry: Vim, NeoVim, and Emacs
-they're doing YouTube and not coding.
 
 Every code editor worth their salt has a *vim emulation* mode and there's a
 reason for that. Having this muscle memory skill is *the skill* of all us Fred
