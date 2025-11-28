@@ -13,7 +13,7 @@ meta_description: 'Human resilience & AI symbiosis: Pipulate''s journey from phi
 meta_keywords: AI, automation, Pipulate, scenario engine, testing, training, symbiosis,
   context-aware, resilience, optimism, free will, superdeterminism, prompt fu, local-first
 layout: post
-sort_order: 3
+sort_order: 2
 ---
 
 ## Setting the Stage: Context for the Curious Book Reader
