@@ -28,7 +28,7 @@ This entry from the author's daily tech journal, forged in an ongoing dialogue w
 
 ## Technical Journal Entry Begins
 
-**Me**: See things that you don't normally see on various fronts where you don't normally look using techniques you don't usually use to create habits you don't yet have. 
+**Me**: The key to manufactured creativity is the use of systems enabling you to see things that you don't normally see on various fronts where you don't normally look using techniques you don't usually use to create habits you don't yet have. 
 
 If you haven't done something by now, isn't it about time that you did? Your daily bread journaling, your interior sounding wall, has a remarkable echo these days. That strange echo has much of the world's knowledge at its disposal. And so if you've been meaning to do something that only knowledge and know-how has been stopping you, there's no reason you can't, except for those old well worn daily grind rut patterns. You're riding a carriage whose wheels are in well-worn grooves. Sounds good, like being in the groove right? Well, grooves are also ruts. Routines. Ruts. The daily grind. 
 
