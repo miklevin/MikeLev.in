@@ -23,6 +23,8 @@ sort_order: 1
 
 This essay explores an important methodology for maintaining individual agency and fostering unpredictable innovation in the Age of AI. It delves into the philosophy and practical architecture of a 'Forever Machine'—a personal digital ecosystem designed to resist the forces of digital centralization and preserve the capacity for 'Black Swan' events. This discussion is foundational for anyone seeking to build a resilient, sovereign presence in a rapidly evolving cybernetic world.
 
+[Hear it discussed](https://illuminate.google.com/library?play=eYFUOc_4MAUr)
+
 ---
 
 ## Technical Journal Entry Begins
