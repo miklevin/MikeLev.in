@@ -27,6 +27,8 @@ This article delves into an important phase of Pipulate's ongoing development, f
 
 ## Technical Journal Entry Begins
 
+### Architects Dilemma: High-Resolution Relevance
+
 Alright, the last article became much about sizing the prompt to fit. The
 context-widow for Gemini 3 might be 1 or 2 million tokens, but as it turns out
 you can only drop 1-million UTF-8 byte payload into a Chrome webform textarea,
@@ -2532,8 +2534,6 @@ By splitting it this way, you ensure that when the AI writes the JSON for the "U
 This sets the stage for a frictionless Monday morning.
 
 > **Me**: Wow, now we're talking about laminar flow. I love this stuff.
-
-## Architects Dilemma: High-Resolution Relevance
 
 ---
 
