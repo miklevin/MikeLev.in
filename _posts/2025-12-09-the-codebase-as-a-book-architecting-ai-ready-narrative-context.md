@@ -91,7 +91,7 @@ membership to the Nix repo of Linux as the way of normalizing it.
 ## The Amiga's Legacy and the Rise of LPvg
 
 There are many code emulators in the world. I am not talking about those. LPvg
-who grow with you and technology and AI for the rest of your life. Finally,
+will grow with you and technology and AI for the rest of your life. Finally,
 there is a minimum viable platform in tech that is not a dead end. It cannot be.
 These components are too big to fail, and they combine with each other in a most
 remarkable way that provide provides an on-ramp even for newbies and plebs.
