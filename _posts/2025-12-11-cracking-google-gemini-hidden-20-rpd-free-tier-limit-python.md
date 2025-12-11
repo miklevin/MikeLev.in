@@ -3057,6 +3057,10 @@ This work validates the core tenant of the "Forever Machine": **Trust Code, Not 
 > **Me**: No. I think I'll check if I can now still articleize this using a
 > different model with one of those same keys, haha!
 
+> **NOTE**: Yep, I was able to publish this article using a same API key but a
+> different model. So the all-important rate per day (RPD) quota is on a
+> per-model basis. Use it up on one model, switch to the next!
+
 ---
 
 ## Book Analysis
