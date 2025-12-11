@@ -23,6 +23,20 @@ sort_order: 2
 
 In the ongoing narrative of Pipulate and the journey toward Sovereign Computing, this essay delves into a pivotal aspect of building anti-fragile, AI-augmented systems: the art of externalizing logic from ephemeral Jupyter Notebooks into durable, reusable Python modules. It’s an interesting phase in our methodology, where the raw, iterative energy of the 'Sausage Factory' is transmuted into the refined 'Sauce' that powers our applications. This article not only demonstrates practical refactoring 'Chisel Strikes' but also introduces a foundational concept—the 'Pipulicon'—critical for shaping clear communication, both for human collaborators and for the AI itself, in the Age of AI.
 
+<div class="mermaid">
+graph TD
+    subgraph "Development Lifecycle"
+        SausageFactory["Jupyter Notebook (Sausage Factory)"]
+        ChiselNbup["Chisel Strike / Nbup (Externalize & Sync)"]
+        TheSauce["Python Module (The Sauce)"]
+        MagicShow["Web Application (The Magic Show)"]
+    end
+
+    SausageFactory -- "Messy, Iterative Prototyping" --> ChiselNbup
+    ChiselNbup -- "Refines Logic Into Durable Modules" --> TheSauce
+    TheSauce -- "Provides Robust Engine For" --> MagicShow
+</div>
+
 ---
 
 ## Technical Journal Entry Begins
@@ -151,6 +165,25 @@ to proceed to the next and the next chisel-strike until `GAPalyzer.ipynb` is a
 lean, mean speaking machine!
 
 **Gemini**: This is the Way of the Chisel. Small, verifiable strikes.
+
+<div class="mermaid">
+graph TD
+    subgraph "Chisel Strike Workflow"
+        A["1. Identify Notebook Logic (e.g., Urgent Fix)"]
+        B["2. Externalize to Sauce File (Code Patch)"]
+        C["3. Verify Sauce Syntax (Terminal Check / Git Diff)"]
+        D["4. Refactor Notebook (Clean Call to Sauce)"]
+        E["5. Run Notebook & Test (Verify Functionality)"]
+        F["6. Bank the Win (Git Commit & pip.nbup())"]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F -- "Ready for Next Strike" --> A
+</div>
 
 ## Chisel Strike #1: Porting the Botify Fetch Fix to the Sauce
 
