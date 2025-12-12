@@ -31,6 +31,8 @@ In the tapestry of our ongoing exploration into digital sovereignty, this entry 
 
 ## Technical Journal Entry Begins
 
+### The Great Filtering: Evolution of the Actualizer Machine
+
 Centering is hard to do. Extremes are easy. For an extreme, you just pick a
 direction and go for as long as you can. When you hit a forced stop to the left,
 you have the beginning. When you hit a forced stop to the right, you have an
@@ -167,8 +169,6 @@ or `Ctrl`+`Alt`+`Right arrow`s to get to screen 4 in the middle from either end.
 So to get to the middle from the extremes all you need to know is the scale of
 your spectrum, hopefully an **odd** number so that there actually is a center
 screen. It's a bit harder to get to than the extremes, but just as with life
-
-## The Great Filtering: Evolution of the Actualizer Machine
 this is a good thing because it keeps you thinking and truly able to pivot,
 generally working in moderation and self-checking and self-balancing. 
 
