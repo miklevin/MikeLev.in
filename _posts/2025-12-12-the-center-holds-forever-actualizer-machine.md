@@ -69,11 +69,11 @@ have to worry about a technical matter again. And have that collar slapped
 around your neck and be led around by a leash as money is progressively picked
 out of your pocket for a financial death of 1000 cuts if what you built in the
 cloud doesn't somehow make more money for you than it does for them. And just
-
-## Escaping the Cloud's Embrace
 doing something *for play* that acquires thousands or millions of users? Forget
 it. If you can't make money on something like that, you can't host it in the
 cloud.
+
+## Escaping the Cloud's Embrace
 
 Seti@Home was an inspiration. I can't code anything like that. Distributed
 computing with shards and assembly to some greater thing at some
