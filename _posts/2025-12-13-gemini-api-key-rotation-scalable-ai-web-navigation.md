@@ -2422,6 +2422,11 @@ We have turned a script that required 35 days of manual babysitting into a machi
 
 > **Me**: I got some project/key-making to do.
 
+> **NOTE**: Important update: I was only able to go up to 10 projects total
+> within a single Google User login (on the free tier) so I may have to spread
+> out the projects over multiple users to complete the run in a single day, but
+> the same overarching concept applies.
+
 ---
 
 ## Book Analysis
