@@ -263,7 +263,7 @@ on vim pretty solidly for years. But then I had to edit my macros and needed
 AI-help and realized help on an `init.lua` was way easier than on a `.vimrc`.
 And Cursor came along forking VSCode, then Windsurf did too. And finally the
 writing is on the wall. I already hold my nose and lean into the strength of
-defaults — like using Jekyll over Hyde because it's the GitHub default — and so
+defaults — like using Jekyll over Hugo because it's the GitHub default — and so
 in the same sense, took up Cursor. VSCode and its forks are now okay because the
 Trojan horse gift has been taken, fumigated and used as a nice new home.
 

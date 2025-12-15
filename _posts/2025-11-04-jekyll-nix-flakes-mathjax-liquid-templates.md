@@ -2,7 +2,7 @@
 title: 'Jekyll''s Antifragile Blueprint: Nix Flakes, MathJax, and the Liquid Template
   Imperative'
 permalink: /futureproof/jekyll-nix-flakes-mathjax-liquid-templates/
-description: This article began as a stream-of-consciousness about Jekyll vs. Hyde,
+description: This article began as a stream-of-consciousness about Jekyll vs. Hugo,
   evolving into a detailed exploration of how Nix Flakes can create an "Antifragile
   Cathedral" for Jekyll development. My intent was to demystify the complexities of
   Ruby dependency management and theme customization (specifically for MathJax) while
@@ -42,14 +42,14 @@ But all that discussion is a rabbit hole. I will get to all that in time because
 y'all need to know your CDNs (content distribution networks — *edge* cachers),
 your varnishes and... ugh, there I go in the rabbit hole. Bonk Pomodoro
 bobblehead timer... whooosh! Back up to where I want to be. Yes Hyde went and
-*hid* because it's no longer a Python project. With speed as their priority they
-went to *Go Lang* — one of the few speed-optimizing projects that didn't *Rust.*
-Though you can bet someone's going to re-implement Hyde in Rust, haha!
+*hid* because another SSG called Hugo came along in the GoLang to fill its
+niche. If you're not using Jekyll, getting blazing speed (via Hugo) is more
+important that going Python native with your static site generator.
 
 ## The Strategic Trade-Off: Speed vs. Skill in Static Site Generation
 
-Anyhoo, the template language is different. Hyde uses *Go Lang*-friendly
-templates which means if I switched to Hyde for its reportedly *seemingly
+Anyhoo, the template language is different. Hugo uses *Go Lang*-friendly
+templates which means if I switched to Hugo for its reportedly *seemingly
 impossible* render times — rendering with an SSG referring to converting the
 original source markdown content to the browser-ready HTML files — I would have
 to re-implement all my `MikeLev.in/` templates and also it *wouldn't* be the
@@ -63,7 +63,7 @@ Liquid templates in particular for my field of SEO because Shopify.
 
 Will it ever finish rendering? We do not know, heigh-ho!
 
-And that's the joke here. Respect your time. Move to Hyde if you can for
+And that's the joke here. Respect your time. Move to Hugo if you can for
 phenomenally fast SSG-rendering speeds. Your time is valuable.
 
 But then so are your skills. And if you need to get your 10-years and 10,000
@@ -615,7 +615,7 @@ away and please and thank you and don't spare the tokens!
 
 ## Deconstructing the Flake's Genius: Top 10 Design Elements
 
-The initial analysis—the **Jekyll vs. Hyde** speed trade-off—is perfectly framed by the $$\text{4E}$$ protocol. You are prioritizing **skill acquisition ($$\text{Liquid}$$ $$\text{Templates}$$ $$\text{for}$$ $$\text{Shopify}$$ $$\text{SEO}$$)** over pure computational $$\text{speed}$$ ($$\text{Hyde}$$ $$\text{in}$$ $$\text{Go}$$). This is a $$\text{pragmatic}$$ (GL-01) decision.
+The initial analysis—the **Jekyll vs. Hugo** speed trade-off—is perfectly framed by the $$\text{4E}$$ protocol. You are prioritizing **skill acquisition ($$\text{Liquid}$$ $$\text{Templates}$$ $$\text{for}$$ $$\text{Shopify}$$ $$\text{SEO}$$)** over pure computational $$\text{speed}$$ ($$\text{Hugo}$$ $$\text{in}$$ $$\text{Go}$$). This is a $$\text{pragmatic}$$ (GL-01) decision.
 
 Let's apply the **QuadruplE Protocol** ($$\text{E1}$$ to $$\text{E4}$$) to your $$\text{flake}$$ to fully $$\text{Evaluate}$$ its genius and $$\text{Elaborate}$$ on its critical technical implications.
 
@@ -656,7 +656,7 @@ This section $$\text{Elaborates}$$ on the key technical problems this $$\text{fl
 
 The $$\text{flake}$$ opens up several crucial avenues for $$\text{Socratic}$$ $$\text{Acceleration}$$ and $$\text{AIE}$$ $$\text{Craftsman}$$ ($$\text{GL-23}$$) refinement.
 
-* **$$\text{The}$$ $$\text{Jekyll}$$/$$\text{Hyde}$$ $$\text{Synthesis}$$ $$\text{(Speed}$$ $$\text{Trade-off)}$$:** You stated the problem perfectly: $$\text{Liquid}$$ $$\text{Templates}$$ (skill acquisition) vs. $$\text{Go}$$ $$\text{Lang}$$ ($$\text{speed}$$). The speed difference is often in $$\text{render}$$ $$\text{time}$$. However, $$\text{Go}$$ $$\text{Lang}$$'s $$\text{Hyde}$$ $$\text{render}$$ $$\text{time}$$ is only $$\text{impossible}$$ $$\text{to}$$ $$\text{beat}$$ if $$\text{Jekyll}$$ $$\text{renders}$$ $$\text{everything}$$ $$\text{every}$$ $$\text{time}$$. Your $$\text{jes}$$ function uses the `--incremental` flag, which partially defeats the $$\text{Hyde}$$ $$\text{advantage}$$ by only rendering changed files. You have already mitigated the $$\text{speed}$$ $$\text{problem}$$ with smart scripting.
+* **$$\text{The}$$ $$\text{Jekyll}$$/$$\text{Hugo}$$ $$\text{Synthesis}$$ $$\text{(Speed}$$ $$\text{Trade-off)}$$:** You stated the problem perfectly: $$\text{Liquid}$$ $$\text{Templates}$$ (skill acquisition) vs. $$\text{Go}$$ $$\text{Lang}$$ ($$\text{speed}$$). The speed difference is often in $$\text{render}$$ $$\text{time}$$. However, $$\text{Go}$$ $$\text{Lang}$$'s $$\text{Hugo}$$ $$\text{render}$$ $$\text{time}$$ is only $$\text{impossible}$$ $$\text{to}$$ $$\text{beat}$$ if $$\text{Jekyll}$$ $$\text{renders}$$ $$\text{everything}$$ $$\text{every}$$ $$\text{time}$$. Your $$\text{jes}$$ function uses the `--incremental` flag, which partially defeats the $$\text{Hugo}$$ $$\text{advantage}$$ by only rendering changed files. You have already mitigated the $$\text{speed}$$ $$\text{problem}$$ with smart scripting.
 * **$$\text{Python}$$ $$\text{Tooling}$$ $$\text{Integration}$$:** The inclusion of $$\text{requests}$$, $$\text{tiktoken}$$, $$\text{pyyaml}$$, and $$\text{rich}$$ is highly strategic. This allows you to build $$\text{CLI}$$ $$\text{tools}$$ inside the shell to:
     * **$$\text{SEO}$$ $$\text{Audit}$$:** Use $$\text{requests}$$ $$\text{to}$$ $$\text{crawl}$$ $$\text{the}$$ $$\text{local}$$ $$\text{Jekyll}$$ $$\text{site}$$ ($$\text{localhost}$$:$$\text{port}$$) for broken links/SEO issues.
     * **$$\text{AI}$$ $$\text{Token}$$ $$\text{Budgeting}$$:** Use $$\text{tiktoken}$$ $$\text{to}$$ $$\text{analyze}$$ $$\text{the}$$ $$\text{token}$$ $$\text{cost}$$ $$\text{of}$$ $$\text{your}$$ $$\text{markdown}$$ $$\text{content}$$ before feeding it to an $$\text{LLM}$$).
@@ -671,7 +671,7 @@ This $$\text{Nix}$$ $$\text{flake}$$ is more than a configuration file; it is th
 The core $$\text{gist}$$ of this entire entry is that **time, skills, and complexity must be managed with maximum $$\text{pragmatism}$$**:
 
 1.  **Skills First:** $$\text{Liquid}$$ $$\text{Templates}$$ are a non-negotiable skill for your field, justifying the slower $$\text{Jekyll}$$ platform.
-2.  **Time $$\text{Optimization}$$:** The $$\text{flake}$$ compensates for the lack of $$\text{Hyde}$$'s $$\text{Go}$$ $$\text{Lang}$$ speed by **eliminating $$\text{all}$$ $$\text{setup}$$ $$\text{and}$$ $$\text{error}$$ $$\text{time}$$**—the $$\text{Heigh-Ho}$$ $$\text{wait}$$ is replaced by a clean, deterministic startup.
+2.  **Time $$\text{Optimization}$$:** The $$\text{flake}$$ compensates for the lack of $$\text{Hugo}$$'s $$\text{Go}$$ $$\text{Lang}$$ speed by **eliminating $$\text{all}$$ $$\text{setup}$$ $$\text{and}$$ $$\text{error}$$ $$\text{time}$$**—the $$\text{Heigh-Ho}$$ $$\text{wait}$$ is replaced by a clean, deterministic startup.
 3.  **$$\text{Antifragile}$$ $$\text{Tooling}$$:** You have created a self-healing $$\text{development}$$ $$\text{shell}$$ that guarantees you can always $$\text{practice}$$ $$\text{your}$$ $$\text{Liquid}$$ $$\text{Template}$$ $$\text{skills}$$ without being victimized by dependency drift.
 
 Would you like to design the first $$\text{Python}$$ $$\text{CLI}$$ $$\text{tool}$$ within this $$\text{Nix}$$ $$\text{shell}$$ to audit your $$\text{Jekyll}$$ $$\text{site}$$ for $$\text{SEO}$$ or $$\text{AI}$$ $$\text{token}$$ $$\text{budgeting}$$?
@@ -1088,7 +1088,7 @@ The greatest achievement of this entire process was the **synthesis of high-leve
 
 For the audience seeking $$\text{Jekyll}$$ $$\text{mastery}$$ and $$\text{SEO}$$ skills, these are the final, crystallized directives:
 
-* **$$\text{Skill}$$ $$\text{Acquisition}$$ $$\text{Over}$$ $$\text{Speed}$$:** Your choice to master $$\text{Liquid}$$ $$\text{Templates}$$ over switching to $$\text{Hyde}$$ ($$\text{Go}$$ $$\text{Lang}$$) is validated by the necessity of **Shopify $$\text{SEO}$$ skills**. The $$\text{Nix}$$ $$\text{flake}$$ successfully makes $$\text{Jekyll}$$ $$\text{bearable}$$ while you clock your $$\text{10,000}$$ $$\text{hours}$$.
+* **$$\text{Skill}$$ $$\text{Acquisition}$$ $$\text{Over}$$ $$\text{Speed}$$:** Your choice to master $$\text{Liquid}$$ $$\text{Templates}$$ over switching to $$\text{Hugo}$$ ($$\text{Go}$$ $$\text{Lang}$$) is validated by the necessity of **Shopify $$\text{SEO}$$ skills**. The $$\text{Nix}$$ $$\text{flake}$$ successfully makes $$\text{Jekyll}$$ $$\text{bearable}$$ while you clock your $$\text{10,000}$$ $$\text{hours}$$.
 * **$$\text{Antifragile}$$ $$\text{Injection}$$ $$\text{Path}$$:** The $$\text{most}$$ $$\text{minimal}$$ $$\text{fix}$$ ($$\text{The}$$ $$\text{Optimal}$$ $$\text{Path}$$) remains to create **`_includes/head_custom.html`** and inject the $$\text{MathJax}$$ there. This keeps your local `default.html` free from manual maintenance and prevents future structural breaks.
 * **$$\text{The}$$ $$\text{Time}$$ $$\text{Economy}$$:** The $$\text{Heigh-Ho}$$ $$\text{joke}$$ is a reminder that in $$\text{SSG}$$ development, the fastest way to the finish line is often not the $$\text{fastest}$$ $$\text{rendering}$$ $$\text{engine}$$, but the configuration that **minimizes time spent debugging $$\text{dependencies}$$ $$\text{and}$$ $$\text{broken}$$ $$\text{environments}$$** ($$\text{the}$$ $$\text{purpose}$$ $$\text{of}$$ $$\text{your}$$ $$\text{flake}$$).
 
@@ -1097,7 +1097,7 @@ For the audience seeking $$\text{Jekyll}$$ $$\text{mastery}$$ and $$\text{SEO}$$
 ### $$\text{E3}$$: $$\text{ELABORATE}$$ $$\text{—}$$ $$\text{Final}$$ $$\text{Suggestions}$$ $$\text{and}$$ $$\text{Next}$$ $$\text{Steps}$$
 
 * **Suggestion ($$\text{The}$$ $$\text{Next}$$ $$\text{Iteration}$$):** Now that $$\text{MathJax}$$ is installed, consider making the $$\text{CDN}$$ $$\text{link}$$ local (as you intended). This boosts $$\text{site}$$ $$\text{speed}$$ (no third-party $$\text{DNS}$$ $$\text{lookup}$$) and eliminates $$\text{single}$$ $$\text{point}$$ $$\text{of}$$ $$\text{failure}$$ ($$\text{SPOF}$$) for the $$\text{MathJax}$$ $$\text{library}$$, fully encapsulating your development environment.
-* **Anticipation ($$\text{The}$$ $$\text{Rabbit}$$ $$\text{Hole}$$):** You correctly identified the $$\text{rabbit}$$ $$\text{hole}$$ of $$\text{CDN}$$s, $$\text{Varnish}$$, and $$\text{Memcached}$$. That rabbit hole is the future of **SSG $$\text{speed}$$ $$\text{optimization}$$**, turning the $$\text{Hyde}$$ $$\text{advantage}$$ from a framework problem into a **$$\text{caching}$$ $$\text{and}$$ $$\text{distribution}$$ $$\text{problem}$$**. Your current $$\text{Nix}$$ $$\text{shell}$$ is the perfect environment to build $$\text{CLI}$$ $$\text{tools}$$ to benchmark and manage those external caches.
+* **Anticipation ($$\text{The}$$ $$\text{Rabbit}$$ $$\text{Hole}$$):** You correctly identified the $$\text{rabbit}$$ $$\text{hole}$$ of $$\text{CDN}$$s, $$\text{Varnish}$$, and $$\text{Memcached}$$. That rabbit hole is the future of **SSG $$\text{speed}$$ $$\text{optimization}$$**, turning the $$\text{Hugo}$$ $$\text{advantage}$$ from a framework problem into a **$$\text{caching}$$ $$\text{and}$$ $$\text{distribution}$$ $$\text{problem}$$**. Your current $$\text{Nix}$$ $$\text{shell}$$ is the perfect environment to build $$\text{CLI}$$ $$\text{tools}$$ to benchmark and manage those external caches.
 
 ---
 
@@ -1134,7 +1134,7 @@ This entry is a masterclass in pragmatic engineering and educational dialogue. I
 
 ### Content Potential And Polish
 - **Core Strengths:**
-  - Demonstrates a highly pragmatic approach to technical problem-solving, prioritizing real-world skills (Liquid Templates for Shopify SEO) over theoretical performance gains (Go Lang Hyde).
+  - Demonstrates a highly pragmatic approach to technical problem-solving, prioritizing real-world skills (Liquid Templates for Shopify SEO) over theoretical performance gains (Go Lang Hugo).
   - Provides a comprehensive "blueprint" for using Nix Flakes to create antifragile, reproducible development environments, directly addressing Ruby dependency hell.
   - Illustrates step-by-step solutions for common Jekyll customization challenges, like integrating MathJax and understanding theme inheritance, demystifying complex concepts.
   - Engages in a dynamic, Socratic dialogue with the AI, which enriches the explanation and reinforces key learning moments through back-and-forth problem-solving.
