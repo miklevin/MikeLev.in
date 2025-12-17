@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 AI is like ***fire and forget*** cgi-bin of web development's ancient past. I
 have a bit of difficulty with this concept, even though I myself implemented
 exactly this in a recent project playing with local LLM. As I get ready to
@@ -3539,3 +3542,5 @@ This codebase is already well-suited for the “cookie” concept:
 3. You can keep layering more advanced memory or learning patterns on top, eventually approaching the “Chip O’Theseus” vision of a persistent, evolving entity.
 
 Overall: **You’re on the right track**. You have a very flexible local framework. The main next step is to let the LLM explicitly manipulate your `DictLikeDB` (and optionally a River-based online model) so it can “remember” and adapt between calls. Then your “mouse with a cookie” can truly scurry around, building bigger data structures and (perhaps) glimpses of continuity.
+
+{% endraw %}

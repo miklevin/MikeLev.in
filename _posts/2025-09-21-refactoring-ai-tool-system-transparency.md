@@ -19,6 +19,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This journal entry captures the raw, iterative reality of software development, especially when working on complex AI systems. It's a candid look at the back-and-forth between a developer and an AI assistant as they work to solve a cascade of bugs that emerged from a single, well-intentioned refactoring effort. The narrative follows a common arc: a clean architectural improvement leads to an unexpected error, the fix for which reveals a deeper problem—a lack of system transparency. This entry is a practical case study in debugging, the importance of robust logging, and how moving from manual processes to dynamic discovery can create a more maintainable and powerful system, even if the path there is fraught with unexpected challenges.
@@ -774,3 +777,5 @@ This entry is an exceptional case study in human-AI collaboration for software e
 ### Next Step Prompts
 - Based on the discussion of 'hardwired logic' in the stream orchestrator, draft a technical proposal for a more robust argument-parsing system for bracket commands. The proposal should evaluate two options: 1) a convention-based parser that infers parameters from the tool function's signature, and 2) using a lightweight argument parsing library. Include Python code examples for each.
 - Generate a Mermaid.js sequence diagram illustrating the entire lifecycle of a `[note]` command, from user input to the final syntax-highlighted log appearing in the console. The diagram should include the user, the stream orchestrator, the tool alias registry, the `keychain_set` function, and the `log_tool_call` function.
+
+{% endraw %}

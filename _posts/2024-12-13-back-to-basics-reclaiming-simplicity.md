@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Introduction
 
 Let’s face it: technology today can feel like a never-ending treadmill of complexity. As soon as we master one framework or cloud service, along comes another must-have tool or trend, promising to save us time and effort—only to add more layers of confusion and cost. We’ve been told that everything worthwhile lives in the cloud, that we need to embrace proprietary platforms, or that the fundamental principles we once held dear no longer matter. But what if that’s not true? What if the timeless patterns and simple building blocks of old—like the humble Unix pipe—still hold the keys to creating reliable, sustainable systems right on our own machines? This article will challenge the status quo, encouraging you to think differently about what you build, how you build it, and who really benefits when you choose one solution over another. It’s a call to remember your roots, to celebrate simplicity, and to reclaim the power that comes from building on solid, open foundations rather than the latest glossy facade.
@@ -882,3 +885,5 @@ The article is a mixture of technical facts, historical references, and philosop
 The more speculative parts—like the trend back to self-hosting and "forever-wins"—are opinion-based forecasts. While not guaranteed, they are not without precedent or logic, given the rise of reproducible builds, NixOS, and dissatisfaction with heavy vendor lock-in. These ideas at least hold conceptual merit and align with a growing interest in local-first software development approaches.
 
 In sum, the article’s technical and historical claims hold up under scrutiny. The philosophical and predictive elements are clearly subjective but grounded in reasoned arguments. The piece stands as a reflective, opinionated, yet factually consistent narrative about software development evolution, tooling, philosophy, and personal methodology.
+
+{% endraw %}

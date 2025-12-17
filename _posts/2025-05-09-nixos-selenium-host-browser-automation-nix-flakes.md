@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding Browser Automation in Reproducible Environments: Getting Started
 
 Automating web browsers – making them perform tasks like navigating websites, filling forms, or extracting data without manual intervention – is a powerful technique used in many areas, from software testing to data scraping. When developers want these automations to run reliably across different computers and operating systems (like Windows, macOS, or various Linux versions including NixOS), they often turn to tools that create "reproducible environments." Nix and Nix Flakes are such tools, ensuring that the software setup is identical for everyone.
@@ -494,3 +497,5 @@ if __name__ == "__main__":
 This article provides an excellent, in-depth account of solving a non-trivial technical problem. Its strength lies in its detailed, experience-based approach, clearly articulating the challenges faced with NixOS and FHS-expectant binaries and presenting a well-reasoned, working solution using Selenium. For developers working with Nix/NixOS and needing browser automation, or those trying to integrate tools with specific system interaction patterns into Nix, this is a highly valuable piece of "tribal knowledge" and a practical guide.
 
 The candid description of the "recursive gotchas" with alternative approaches makes the presented Selenium solution more compelling. While deeply technical and assuming a certain level of familiarity with Nix and Python development, the explanations for *why* the successful approach works are clear. It's a solid foundation for a more polished guide or a chapter in Pipulate's documentation.
+
+{% endraw %}

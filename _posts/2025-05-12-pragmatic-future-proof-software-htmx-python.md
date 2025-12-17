@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding Software Design & Development Philosophy: Getting Started
 
 The following reflections delve into the often intricate and deeply personal journey of software creation, particularly when building a system that intentionally departs from mainstream approaches. This isn't just about code; it's about the underlying principles, the hard-won lessons from making (and sometimes deferring) technical choices, and the constant balancing act between ideal solutions and present-day realities. For readers less familiar, think of this as a window into a developer's mind as they architect a specialized tool—in this case, a system for creating user-friendly workflows (Pipulate) using technologies like HTMX (a way to add dynamic interactivity to web pages with less JavaScript) and FastHTML (a Python library for generating web content directly).
@@ -397,3 +400,5 @@ This journal entry offers **high potential value** as raw material for a tech bo
 For a book, the content would need significant **structuring and contextualization**. The raw, journal-like flow is not suitable for direct inclusion. However, the core ideas—such as the critique of VDOM complexity, the advocacy for HTMX/FastHTML in a Python context, the "chain reaction" workflow model, the modern LAMP stack analogy, and the nuanced take on AI in development—are all excellent seeds for distinct sections or chapters. The embedded discussion on computational notebook history is a valuable asset that could be reframed effectively.
 
 With careful editing to define terms, provide broader context, and organize the insights, this material could form the basis of a unique and thought-provoking contribution to a book that champions building robust, understandable, and user-centric software.
+
+{% endraw %}

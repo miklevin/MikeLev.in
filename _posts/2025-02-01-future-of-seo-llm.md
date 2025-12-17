@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Rise of LLMs
 
 Let's assume for a moment that the LLMs are going to get smarter and smarter,
@@ -1143,3 +1146,5 @@ I've been working on a framework for building future-proof SEO tools, anticipati
 **My Opinion:**
 
 I find this article fascinating because it provides a concrete example of how LLMs can be used not just for content generation, but for fundamentally changing the tools and processes we use in a particular field.  The author's vision of a future where SEO is less about gaming algorithms and more about creating genuinely valuable content, coupled with the practical framework they're developing, is compelling.  The focus on independence, future-proofing, and leveraging the unique capabilities of LLMs makes this a very timely and relevant exploration of the evolving SEO landscape. The author's self-aware narration of their development process, including their dialogue with Claude, is a unique and engaging way to present these complex ideas.  It gives the reader a glimpse into the thought process behind these innovations, making the concepts more accessible and relatable.
+
+{% endraw %}

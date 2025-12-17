@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -1127,3 +1130,5 @@ This entry represents a foundational piece for understanding effective human-AI 
 - Elaborate on the 'WebOpps Devolveneer' concept in a standalone piece, detailing its principles, typical toolkit, and a 'day in the life' scenario, possibly contrasting it with traditional DevOps roles.
 - Develop a series of practical examples demonstrating how `prompt_foo.py`'s 'Context Curation Engine' has prevented specific 'genie backfire wish syndrome' scenarios with various AI tasks.
 
+
+{% endraw %}

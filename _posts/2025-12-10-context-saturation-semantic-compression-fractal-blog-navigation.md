@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -1959,3 +1962,5 @@ This entry represents a significant conceptual and practical leap. It transcends
 - Draft the `prompt_foo.py` modification to ingest all JSON 'Holographic Shards' from `_posts/_context/` into a single context payload, ready for clustering.
 - Generate a high-level Python pseudocode outline for a new script that would take the fully ingested JSON shard array and propose a 'Rule of 7' hierarchical structure, including example category names and associated article IDs.
 
+
+{% endraw %}

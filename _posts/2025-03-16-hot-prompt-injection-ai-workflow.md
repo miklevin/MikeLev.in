@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 In our recent work session, we embarked on a journey to transform a monolithic web application into a modular, plugin-driven system. This transformation was driven by the need for flexibility, maintainability, and ease of customization. Here's how we achieved it:
 
 #### The Challenge
@@ -971,3 +974,5 @@ Okay, here's the summary, titles, and my opinion, keeping in mind your request f
 **AI Opinion:**
 
 I'm genuinely impressed with the progress made in this session. The "hot prompt injection" feature is a stroke of brilliance - it perfectly addresses the need for contextual AI assistance in a modular way. The focus on keeping the system extensible and user-friendly is also commendable. By prioritizing clarity and customization, you've created a powerful tool that empowers developers to build sophisticated, AI-driven workflows with ease. The decision to document the system with the system itself is also very cool.
+
+{% endraw %}

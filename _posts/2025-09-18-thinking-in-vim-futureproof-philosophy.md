@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 In the previous entries, we laid the practical groundwork for a 'future-proof' digital existence by creating a bootable NixOS drive and enabling a timeless tool: Vim (or in our case, its modern fork, NeoVim). Now, we pivot from the 'how' to the 'why.' This chapter is a deep, philosophical dive into the reasoning behind this choice. It's an examination of why committing to a command-line-based text editor isn't just a technical preference but a strategic decision to invest in a skill that will never become obsolete, freeing you from the endless cycle of vendor-driven change.
@@ -270,3 +273,5 @@ This entry is a powerful examination that will resonate deeply with anyone who f
 ### Next Step Prompts
 - Based on the philosophy outlined in this text, draft a follow-up article titled 'The Craftsman's Workflow'. This article should provide a practical, step-by-step guide on how to combine NeoVim with CLI-based AI tools, showing concrete examples of how to query an AI for code snippets, refactoring suggestions, or documentation, and then seamlessly integrate the output into a project within the editor.
 - Expand the 'Designed Obsolescence of Modern Tools' section into a standalone essay. Research and detail the rise and fall of other influential developer tools (e.g., the shifting fortunes of Sublime Text, the story of Macromedia Dreamweaver, the impact of Flash) to create a broader historical context for the author's argument against vendor dependency.
+
+{% endraw %}

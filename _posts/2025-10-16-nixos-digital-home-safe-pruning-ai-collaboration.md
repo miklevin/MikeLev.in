@@ -16,6 +16,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the intricate world of NixOS, illustrating how a declarative operating system can become a 'digital home for life.' It explores practical challenges in system maintenance, specifically safe garbage collection, and showcases a real-world collaboration with an AI to refine critical maintenance scripts. For the broader context of building future-proof systems, this piece highlights the power of treating personal infrastructure as code and leveraging AI for robust, self-documenting solutions.
@@ -540,3 +543,5 @@ This entry is a strong example of how AI can move beyond simple content generati
 ### Next Step Prompts
 - Draft a follow-up article exploring other ways AI can assist in managing a NixOS 'digital home,' focusing on debugging configurations or optimizing package selection.
 - Create a simplified, step-by-step tutorial based on the revised `n2` alias script, aimed at new NixOS users who want to implement safe system cleanup.
+
+{% endraw %}

@@ -16,6 +16,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 For the curious book reader, this journal entry dives deep into the practical challenges and solutions encountered while building a robust, AI-driven data enrichment pipeline. It chronicles the journey to make complex API operations 'idempotent'—meaning they can be run multiple times without unintended side effects—a critical principle for reliable and cost-effective automation. Follow along as we transform a fragile script into a resilient 'Stack 'Em, FAQ 'Em, Rack 'Em' workflow, highlighting the debugging process and key lessons learned.
@@ -366,3 +369,5 @@ This entry is a compelling testament to the iterative and often challenging natu
 ### Next Step Prompts
 - Generate a detailed implementation plan for the `rack_em` function, including example input and desired output DataFrame structures, and considering various pivoting and formatting options.
 - Create a concise, non-technical executive summary of this debugging saga, focusing on the business value of idempotency and the efficiency gains achieved for the 'Faquilizer' project.
+
+{% endraw %}

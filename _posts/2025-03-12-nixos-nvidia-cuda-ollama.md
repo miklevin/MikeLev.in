@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## NixOS and CUDA: The Perfect AI Platform
 
 We're a bit in the wild west with NixOS, but nix is the perfect platform for
@@ -144,3 +147,5 @@ This combination ensures Ollama has direct access to CUDA libraries and your GPU
 
 This article provides a valuable, real-world perspective on a complex technical challenge. The author's candid acknowledgment of the "wild west" nature of NixOS and CUDA, coupled with the detailed configuration examples, makes it a useful resource for anyone attempting to optimize local AI performance. The inclusion of troubleshooting tips and explanations of key configuration elements adds significant practical value. The article is very helpful for a very specific type of user.
 
+
+{% endraw %}

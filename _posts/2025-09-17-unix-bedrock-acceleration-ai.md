@@ -20,6 +20,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Context for the Curious Book Reader
@@ -238,3 +241,5 @@ This entry is a potent blend of blueprint and history lesson. Its core value lie
 ### Next Step Prompts
 - Expand the final paragraph into a practical tutorial titled 'Thinking in Pipelines.' Provide three concrete examples of command-line pipelines that solve a common developer problem, and explain how the same modular, input-output thinking applies to designing modern microservices or data processing workflows.
 - Based on the historical anecdotes, write a short, dramatic narrative of the 'Unix vs. LISP' timeline divergence, personifying the technologies and key figures to create a compelling 'What If?' scenario for the book's introduction to Part II.
+
+{% endraw %}

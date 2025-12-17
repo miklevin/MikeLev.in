@@ -19,6 +19,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles an interesting moment in the `pipulate` project, where the "Articulate Ape" philosophy meets the practical challenges of building new features within a robust, future-proof ecosystem. It’s an exploration of how immutable infrastructure (Nix Flakes) and a disciplined workflow coalesce to scaffold a new "NoGooey Video Editing" tool, revealing both the power of the system and the inevitable human element of development.
@@ -893,3 +896,5 @@ This article is an important demonstration of resilient, human-centered software
 ### Next Step Prompts
 - Continue scaffolding the 'VIDeditor' by detailing the initial Python code for `videditor_sauce.py` and the first few cells of `VIDeditor.ipynb`, focusing on basic video processing concepts (e.g., loading video, basic manipulation) and how `pipulate`'s existing tooling can be leveraged.
 - Elaborate on the `pip.nbup()` script's internal workings and how it precisely handles the 'two-way mirror' synchronization for both notebooks and associated modules, providing a detailed breakdown of its logic and importance.
+
+{% endraw %}

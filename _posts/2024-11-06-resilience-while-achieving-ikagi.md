@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Path to Resilience
 
 Tough times will happen and life can't be infinite bliss. But we do what we can to survive and maybe a little bit more to eke out some pleasure and satisfaction from this existence—no matter what else is going on in the world or parts of your life beyond your control. There's consolation. There's healing salve. And there is mental conditioning to get back on the horse and charge ahead thriving. 
@@ -293,3 +296,5 @@ part of your life. But I am very willing to try. Check out the YouTube videos on
 it. It's pretty amazing and I think the very retro computing platform you've
 asked for over the years.
 
+
+{% endraw %}

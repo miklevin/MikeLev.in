@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a custom-built platform designed for creating flexible, chain-reaction style data processing workflows. At its core, Pipulate allows developers to assemble complex tasks from smaller, reusable steps. The central concept being explored here is the evolution from a rigid, numbered-step system to a far more modular "workflow factory" paradigm. This shift hinges on a key architectural insight: decoupling the display order of steps from their underlying execution logic.
@@ -353,3 +356,5 @@ The dialogue with "Claude" is particularly compelling. It’s not just about gen
 2.  **Task Suggestion 2:** Generate Author Interview Questions.
     * **Potential Prompt Snippet for Next AI:** "Act as a technical editor preparing to interview the author about this journal entry. Generate 5-7 specific questions designed to extract deeper insights for a book chapter. Focus on the 'why' behind decisions, the trade-offs of the 'convection of plugins' idea, and the specific feelings associated with the 'success assured' moment."
 
+
+{% endraw %}

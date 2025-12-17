@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry plunges us into the heart of a modern software development paradox: the immense power and subtle peril of collaborating with Large Language Models (LLMs). The author is working on a project called Pipulate, which utilizes a lightweight, unconventional tech stack (FastHTML) to remain nimble. The core challenge explored here isn't just a simple bug, but an *insidious regression*—a class of error where an AI assistant, trained on vast amounts of popular code, "helpfully" overwrites the author's specific, deliberate architectural choices with more common but incorrect patterns. This turns the AI from a co-pilot into an unwitting saboteur.
@@ -1068,3 +1071,5 @@ The narrative beautifully illustrates a critical paradox: the AI is both the sou
 2.  **Task Suggestion 2:** Create an explanatory dialogue.
     * **Potential Prompt Snippet for Next AI:** "Write a short, reflective Socratic dialogue between 'The Developer' and 'The AI' based on this entry. The dialogue should explore the question: 'Did the AI truly *learn* and *understand*, or did it just execute a successful feedback loop?' Have the AI explain the difference between its static base training and the dynamic, task-specific 'world' it inhabited during the recovery, touching on the nature of its emergent capabilities."
 
+
+{% endraw %}

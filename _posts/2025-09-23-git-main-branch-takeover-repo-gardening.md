@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Context for the Curious Book Reader
 
 This entry captures a powerful, if unconventional, Git workflow I've adopted as a solo developer: the 'main branch takeover.' It moves beyond a simple tutorial on commands to explore the *philosophy* of treating a code repository like a garden—a space that requires regular weeding to remain healthy and productive. I document the entire process, from the initial 'why' of decluttering to the local branch rename, and finally to synchronizing this radical change with the remote repository on GitHub. This is a practical demonstration of how modern tooling and a direct, conversational approach with an AI assistant can streamline complex tasks, turning a potentially risky operation into a clean, decisive act of digital craftsmanship.
@@ -520,3 +523,5 @@ This is a stellar example of a 'work-in-public' technical journal. It's more tha
 ### Next Step Prompts
 - Based on the decision made in the final paragraph, write the next technical journal entry. Start with a concise summary of the 'main branch takeover' and then proceed to document the process of 'epic pruning,' starting with the feather icons and cruft folder.
 - Expand the section on 'AI Editor Independence' into a standalone guide. Detail the 'Prompt Fu' process, the setup for the `gemini -y` command-line tool, and provide examples of how file-naming conventions create a 'gravity-well' for AI assistants.
+
+{% endraw %}

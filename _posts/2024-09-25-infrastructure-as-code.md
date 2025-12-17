@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Digital Renaissance Person Is Reborn In A Simplified World
 
 Hey there, fellow tech enthusiasts. Remember the days of the Webmaster? Yeah, I'm talking about that jack-of-all-trades who could whip up a whole website from scratch, handle the server, and still have time for a coffee break. Well, I was one of those digital Renaissance folks back in the day. But then came the era of hyper-specialization, where keeping up with just one slice of the tech pie—like JavaScript frameworks—became a full-time hamster wheel. It seemed like Conway's Law was running amok, making everything more complex and calling for ever-growing teams of specialists.
@@ -717,3 +720,5 @@ As a finishing touch on this article, I went in an struggled with those pesky ba
     });
 }
 ```
+
+{% endraw %}

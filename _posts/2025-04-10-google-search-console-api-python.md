@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 Something's up in my personal test-site's Google Search Console (GSC) — and
 that something is impressions. Looking at a hockeystick curve like this makes
 you wonder what's the story? There is a per-keyword / per-URL story here — an
@@ -1971,3 +1974,5 @@ Okay, here is the analysis and generated outputs based *only* on the provided ar
 * **AI Opinion:**
     This is a high-quality, technically detailed article demonstrating a practical approach to advanced Google Search Console analysis using Python and the GSC API. Its strengths lie in the step-by-step code development, clear explanation of the need for API access, and the introduction of specific trend analysis techniques (linear regression slopes). The inclusion of working code, caching, and a final AI analysis prompt adds significant value. While potentially challenging for Python novices due to its length and complexity, it's highly useful for technical SEOs seeking to automate granular performance monitoring and identify actionable opportunities beyond the standard GSC interface.
 
+
+{% endraw %}

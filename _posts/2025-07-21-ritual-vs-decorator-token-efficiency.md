@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of "Pipulate," a web automation and data processing framework designed with a unique philosophy. Unlike conventional software that strives for maximum abstraction and DRY (Don't Repeat Yourself) principles, Pipulate intentionally favors explicitness, often keeping related logic bundled together in what the author calls a "WET" (Write Everything Twice) approach. This philosophy aims to make the codebase more transparent and easier for both human developers and AI coding assistants to understand in context, without hunting for definitions in other files.
@@ -1265,3 +1268,5 @@ The turning point—where the author rejects the AI's "elegant" solution based o
 2.  **Task Suggestion 2:** Draft Explanatory Analogies
     * **Potential Prompt Snippet for Next AI:** "Review the 'Ritual vs. Decorator' debate in the entry. For a non-expert reader in a tech book, generate two simple analogies to explain the core trade-off. One analogy should explain why the author's 'ritual' is like having your most-used tools on a workbench, while the decorator is like fetching them from a perfectly organized but distant cabinet for every single task."
 
+
+{% endraw %}

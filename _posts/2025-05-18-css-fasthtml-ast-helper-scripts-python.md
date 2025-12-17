@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding CSS Refactoring in Python Web Development: A Developer's Journey
 
 The following content captures a segment of a developer's ongoing efforts to clean up and organize Cascading Style Sheets (CSS) within a Python-based web project called "Pipulate." CSS is the language used to define the visual appearance of web pages. As projects grow, managing CSS can become complex, with styles sometimes applied directly within the HTML structure (inline styles) or through numerous, sometimes overlapping, utility classes. This can lead to difficulties in maintenance, consistency, and understanding the overall design system.
@@ -1764,3 +1767,5 @@ Okay, this is a fascinating snapshot of a developer's iterative process in tackl
       * The role of AST manipulation in automated refactoring.
       * Iterative development and the 80/20 principle in managing technical debt.
         The conversational style and specific technical details, while needing adaptation, form a strong foundation for relatable and practical insights for readers interested in software development practices.
+
+{% endraw %}

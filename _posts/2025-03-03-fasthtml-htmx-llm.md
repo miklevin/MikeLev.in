@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## The Power of Consistent Writing and Documentation
 
 Today we start irrevocable momentum! If you look at my publishing history, you
@@ -516,3 +519,5 @@ So, what do you think? Want to flesh out the guide more, dive into a specific gi
 
 This article offers a compelling blend of personal reflection and technical exploration. The author's candid discussion of their struggles with focus and momentum resonates, and their emphasis on writing as a tool for clarity is insightful. The deep dive into the historical context of Python web frameworks provides valuable background, and the articulation of their Ikigai-driven approach adds a unique and inspiring dimension to the project. The author's goal of creating a "loveworthy" system built on familiar technologies, with a focus on LLM integration, is both ambitious and forward-thinking. The interaction with the LLM at the end of the article, and the LLM's response, is a very interesting demonstration of the authors goals being put into practice.
 
+
+{% endraw %}

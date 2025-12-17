@@ -22,6 +22,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Context for the Curious Book Reader
@@ -793,3 +796,5 @@ This entry is an exemplar of human-AI collaborative 'sense-making' in the Age of
 ### Next Step Prompts
 - Elaborate on the 'Waluigi Effect' and 'Coherent Extrapolated Volition' in detail, applying the 4E framework to explore how we might align AI goals with human values without creating unintended, latent 'evil' within the system.
 - Expand on the practical applications and ethical considerations of 'AI Antibodies' in real-world scenarios, discussing the balance between privacy, security, and global existential risk mitigation.
+
+{% endraw %}

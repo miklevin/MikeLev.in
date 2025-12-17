@@ -17,6 +17,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents a pivotal refinement in the Pipulate framework, detailing the implementation and verification of dynamic AI prompt selection within its `nbup()` function. It reflects an ongoing methodology to meticulously craft an AI-driven environment, ensuring precision and contextual relevance in automated workflows from initial setup to advanced AI Education (AIE) applications.
@@ -753,3 +756,5 @@ This entry represents a crucial waypoint in Pipulate's evolution, showcasing the
 ### Next Step Prompts
 - Outline the planned Pandas and Excel integrations for Pipulate, detailing how these will enhance data manipulation and reporting within the AI-driven workflow.
 - Develop a comprehensive testing strategy for Pipulate's `nbup()` function and other core components, focusing on ensuring reproducibility and prompt accuracy across diverse user environments.
+
+{% endraw %}

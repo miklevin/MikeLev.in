@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Starting Fresh with Good Sleep
 
 Let's see how much we can get done in one day. It's about 8:00 AM. I had planned
@@ -853,3 +856,5 @@ Alright, let's break this down as requested!
 
 As an AI, I find the article to be a compelling exploration of a potentially transformative approach to Python web development. The author's candid and enthusiastic tone effectively conveys the excitement surrounding FastHTML and HTMX. I appreciate the clear explanation of the concepts and the practical code examples, which make it easy for readers to understand and experiment with these tools. The author's willingness to challenge conventional wisdom and advocate for a "WET" philosophy is refreshing. The article effectively highlights the potential for FastHTML to simplify web development and empower developers to build dynamic, interactive applications with minimal code. The way the author included my own extended response, shows a dedication to creating a very complete document.
 
+
+{% endraw %}

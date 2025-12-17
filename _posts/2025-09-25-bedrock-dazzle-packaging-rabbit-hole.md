@@ -16,6 +16,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Context for the Curious Book Reader
 
 This is a raw, real-time journal entry detailing the unglamorous but essential work of building a robust software development environment. It begins with a philosophical exploration of sci-fi's influence on technical vision and quickly descends into a deep, multi-layered debugging session. The narrative follows a developer (and their AI assistant) as they wrestle with getting a Python project to be importable within Jupyter Notebooks, a journey that touches on Nix flakes, Python packaging (`pyproject.toml`), release automation, and the Python Package Index (PyPI). It's a testament to the persistence required to lay a solid foundation—the bedrock—before any of the dazzling applications can be built upon it.
@@ -3628,3 +3631,5 @@ This journal entry is a masterful example of a 'show, don't tell' narrative. It 
 ### Next Step Prompts
 - Based on the final state of the `flake.nix` and the decision to use a manual `pip install -e .` step, generate a concise, user-facing markdown guide titled 'Setting Up Your Pipulate Development Environment' to be included in the project's README.
 - Analyze the final successful release log. Identify the key stages (version sync, git commit, build, upload) and create a Mermaid sequence diagram visualizing the automated `publish.py` workflow.
+
+{% endraw %}

@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry is a foundational piece in understanding the journey towards computational sovereignty. It starts by revealing how to ethically "corral" frontier AI models using massive context windows, evolving into a philosophy for building "gooeyless" tools that empower, rather than consume, the individual. This treatise confronts dystopian prophecies like H.G. Wells' "Eloi and Morlocks," reinterprets historical market consolidations, and pioneers a human-readable, S-expression-based "keychain" method for personal knowledge management at scale. Crucially, it critically examines the ethical implications of AI terminology, challenging us to forge a "Sovereign Craftsman" path that rejects predation and embraces creativity, culminating in practical applications for advanced SEO navigation.
@@ -865,3 +868,5 @@ This entry is a monumental 'blueprint' for achieving computational sovereignty i
 ### Next Step Prompts
 - Develop a detailed technical specification for the 'keychain' S-expression structure for article indexing, including required fields, optional attributes, and a JSON schema example for a single article's 'Index Card'.
 - Draft an introductory chapter for 'The Sovereign Craftsman's Way' book, summarizing this article's core arguments and establishing the overarching philosophy of computational sovereignty for the book's audience.
+
+{% endraw %}

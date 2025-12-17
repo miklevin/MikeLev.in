@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the spirit of continuous iteration and building robust foundations, this entry chronicles the development of a critical utility: `list_articles.py`. What began as a simple tool to manage content for large language models evolves into a highly flexible command-line interface, demonstrating the power of Python's slice API and the effectiveness of small, focused improvements. This deep dive into practical tooling highlights how refined command-line control and clear content indexing are indispensable for managing extensive information archives and fostering intelligent AI interaction within projects like Pipulate.
@@ -1476,3 +1479,5 @@ This entry is a stellar example of an AI-assisted development journal, showcasin
 ### Next Step Prompts
 - Draft an article outlining how to integrate the enhanced `list_articles.py` into the `prompt_foo.py` process, including code examples and workflow diagrams.
 - Explore implementing a similar slice API for other content management or data processing scripts mentioned in the Pipulate project, building on the success of this iteration.
+
+{% endraw %}

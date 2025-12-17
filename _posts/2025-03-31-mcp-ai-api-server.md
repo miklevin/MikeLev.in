@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Replacing Homegrown AI Server Tool-Calling with MCP
 
 Having gutted Pipulate of its homegrown tool-call feature that worked with any
@@ -1454,3 +1457,5 @@ This article is a goldmine for anyone grappling with the practicalities of integ
 What stands out is the clear articulation of the problem (the need for LLMs to go beyond chat and take action), the rationale for choosing MCP as a potential solution, and the specific research objectives. The inclusion of the clarifying questions and answers with ChatGPT is a brilliant way to showcase the iterative process of refining a research task.
 
 The article effectively communicates the complexity of protocol standardization, the importance of developer tools and ecosystems, and the trade-offs involved in local vs. remote LLM implementations. It's a valuable resource for developers who are not just interested in the "what" of LLM integration but also the "how" and the "why."
+
+{% endraw %}

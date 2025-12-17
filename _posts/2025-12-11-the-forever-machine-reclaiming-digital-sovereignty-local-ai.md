@@ -16,6 +16,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In an era dominated by opaque cloud services and fragmented digital experiences, this treatise lays bare a blueprint for reclaiming individual digital sovereignty. It introduces the concept of the 'Forever Machine' and the accompanying Digital Daemon, Chip O'Theseus—a self-contained, AI-powered system designed to reside and operate entirely on your local machine. This philosophy challenges the prevailing paradigm of web development, offering a path to immutable environments, persistent memory, and a direct, unmediated interaction with your computational tools. What follows is a journey through the architecture and practical implementation of a truly independent digital workshop, where the user becomes the ultimate Webmaster, free from external dependencies and subscription models.
@@ -2270,3 +2273,5 @@ This blueprint is a particularly interesting piece in the 'Forever Machine' narr
 ### Next Step Prompts
 - Develop a detailed `apps/040_hello_workflow.py` implementation that showcases the 'Notebook-to-App' porting strategy and incorporates functional narration, as discussed, to demonstrate the 'how'.
 - Create a 'Phantom User' scenario JSON (`assets/scenarios/introduction_demo.json`) that fully automates the narration and navigation of the `010_introduction.py` app, ready for screen capture, to exemplify the 'performance' aspect.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Vision
 
 It's time to push forward with my work, taking it to the next level. I'm going
@@ -454,3 +457,5 @@ long-term vision and emphasis on building sustainable skills resonate, and the
 article successfully captures the complexities and opportunities of the rapidly
 evolving tech world.
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 When I first encountered Jupyter Notebooks, I was struck by their elegance for data exploration and prototyping. The cell-by-cell execution model creates a natural narrative flow that's perfect for iterative development and sharing insights.
 
 But there's always been a gap between these exploratory notebooks and production web applications. Traditionally, moving from a notebook to a web app requires a complete rewrite - different paradigms, different frameworks, different mindsets.
@@ -558,3 +561,5 @@ I've built Pipulate, a system that bridges the gap between Jupyter Notebooks and
 
 [This time, the AI Opinion turned into the description, ahaha!]
 
+
+{% endraw %}

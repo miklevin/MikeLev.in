@@ -22,6 +22,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### The Marching Music: Jingles for a Stable Tech Future
@@ -684,3 +687,5 @@ This journal entry offers an incredibly rich tapestry of ideas, making it an imp
 ### Next Step Prompts
 - Generate a detailed technical guide for setting up a 'Chip O'Theseus' local AI environment using Nix and Ollama, demonstrating its integration with HTMX/FastHTML applications for specific use cases like SEO analysis or content generation.
 - Develop a series of short, engaging blog posts or social media snippets based on the provided jingles, expanding on each jingle's theme (e.g., 'Install Nix. You don't need no stinkin Docker.') with practical examples and benefits.
+
+{% endraw %}

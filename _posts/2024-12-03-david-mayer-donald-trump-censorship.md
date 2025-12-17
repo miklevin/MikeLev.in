@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 As usual, this is not an article written for direct consumption by a human
 reading audience. Rather, it is the fodder for later iterative passes that will
 "extract" a book on future-proofing yourself in the field of tech. You're
@@ -461,3 +464,5 @@ I believe this article has the potential to raise awareness about a crucial issu
 > with. Google Gemini won't say Donald Trump won the election! Not even with how
 > it rewrites American history in regard to Grover Cleveland's unique
 > distinction.
+
+{% endraw %}

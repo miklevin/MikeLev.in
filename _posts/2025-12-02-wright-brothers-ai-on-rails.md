@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the ongoing narrative of 'futureproof' computing, this entry captures a profound philosophical and practical pivot. We delve into the distinctions between linear 'normal distribution' growth and the exponential 'power law' scaling, particularly as it applies to Free and Open Source Software (FOSS) empowered by AI agents. This essay documents the journey of building a foundational testing infrastructure for Pipulate, a project designed to bring back the 'Webmaster Era' through single-tenant architecture, yet achieve unbounded distributed scaling. It culminates in a 'Wright Brothers moment'—the successful implementation of a deterministic, cross-platform keyboard shortcut system, serving as both a robust testing mechanism and a blueprint for automated, self-narrating demos. This isn't just about code; it's about engineering trust and a new way of creating leverage in the Age of AI.
@@ -1440,3 +1443,5 @@ This journal entry is a prime example of 'manufactured creativity' and a 'deriva
 ### Next Step Prompts
 - Draft the `040_hello_workflow_test.json` scenario, combining the new HUD trigger with existing Voice Synthesis to create the first fully autonomous, self-narrating video blip.
 - Develop an article or guide explaining how to install Nix and Pipulate on a user's machine, detailing the process to get the entire distributed, deterministic system running locally.
+
+{% endraw %}

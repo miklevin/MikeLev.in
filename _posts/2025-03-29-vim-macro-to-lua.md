@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## The Allure of Vim's Modal Editing
 
 So when you switch to the vim text editor, it's the only text editor you'll need
@@ -707,3 +710,5 @@ Okay, here's a summary from my perspective, along with title/headline ideas and 
 This is a compelling and relatable article for anyone who has wrestled with the intricacies of Vim and its configuration. The author effectively uses a personal, practical problem—editing a specific Vim macro—as a narrative thread to explore broader themes: the trade-offs between Vim and NeoVim, the role of AI coding assistants, the value of foundational text-editing skills, and the sometimes necessary evolution of even deeply ingrained tech habits.
 
 The step-by-step (though abbreviated) account of interacting with Claude to develop the Lua function provides a concrete example of AI-assisted development, including the realistic back-and-forth required for refinement. While the author acknowledges a tendency to ramble, the tangents about the lineage of text editors (`ed`, `vi`) and the universality of text in tech add a thoughtful, philosophical layer that elevates the piece beyond a simple technical tutorial. The first-person perspective makes the journey engaging, and the meta-narrative of using the developed macro *on the article itself* is a nice touch. It successfully argues that sometimes, adopting a slightly newer tool (NeoVim with Lua) doesn't mean abandoning core principles (mastery of text manipulation) but can actually enhance them, especially with modern aids like AI.
+
+{% endraw %}

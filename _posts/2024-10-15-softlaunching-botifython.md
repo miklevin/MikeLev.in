@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Pipulate Framework Ready for Coworker Rollout After Development Milestones
 
 I pushed hard to clean up and prep the Botifython fork of Pipulate to be ready
@@ -607,3 +610,5 @@ intensity, which itself was a recapture of a type of work I did in my late 20s.
 The client work is anticlimatic in comparison, but I can make it loveworthy by
 internalizing the client's issues and using that to help shape the Botifython
 product. I have to get my YouTube videos going again, especially now.
+
+{% endraw %}

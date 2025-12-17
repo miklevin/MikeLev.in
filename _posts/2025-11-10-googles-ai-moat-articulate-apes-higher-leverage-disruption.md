@@ -15,6 +15,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the intricate dynamics of the modern AI landscape, examining Google's unique market position through vertical integration and its implications for the commoditization of intelligence. It further explores the 'Articulate Ape' theory, drawing parallels from evolutionary psychology and historical disruptions like the printing press and photography, to illustrate how individuals can harness 'higher-leverage effort' through tools like Python and AI to gain disproportionate agency in an increasingly automated world. This serves as a pragmatic philosophy for navigating and thriving amidst the evolving technological shifts.
@@ -509,3 +512,5 @@ This article represents a pivotal blueprint for understanding and thriving in th
 ### Next Step Prompts
 - Develop a detailed, step-by-step 'Mid-Day Ratchet' implementation guide, outlining specific Python/Pipulate tasks that exemplify 'higher-leverage effort' for content creation and project management.
 - Generate script outlines and visual concepts for a series of short 'blipvert' videos, focusing on explaining Google's AI price dumping, the 'Articulate Ape' theory, and the transition from automation to augmentation, as discussed in the article.
+
+{% endraw %}

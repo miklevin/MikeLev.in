@@ -24,6 +24,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment of synthesis, where months of struggle and philosophical opposition to software complexity crystallize into a tangible, elegant solution. It begins with a declaration of independence from the 'full stack' web development world, transitions into a Socratic dialogue with an AI to refine a core design philosophy, and culminates in the collaborative creation of a sophisticated, resilient AI data processing pipeline. This is a real-time look at how abstract principles like Literate Programming and Gall's Law can be applied to build practical, future-proof tools, moving from a 1-to-1 data task to a more complex 1-to-many enrichment workflow.
@@ -1319,3 +1322,5 @@ This entry is a masterclass in modern, AI-augmented software development. It tra
 ### Next Step Prompts
 - Based on the `secretsauce.py` for 'Faquilizer2', generate the `transform_and_display_pivot` function discussed. It should take the long-form DataFrame and pivot it into a wide format where each URL has a single row with columns for each of the five insights and their rationales, flattening the hierarchical columns into a readable format.
 - Draft a separate, concise blog post explaining the philosophy of 'Prompt Fu' as demonstrated in this entry. Explain how pre-loading an AI's context with file trees, UML diagrams, and source code transforms the interaction from a simple chat into a rigorous engineering briefing, thereby preventing 'autosycophancy' and grounding the AI's output in verifiable facts.
+
+{% endraw %}

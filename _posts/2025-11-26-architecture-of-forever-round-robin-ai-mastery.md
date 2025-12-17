@@ -21,6 +21,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Continuing our exploration of durable strategies in the Age of AI, this blueprint introduces the 'Architecture of Forever' and its 'Round-Robin Philosophy.' It challenges the allure of 'agentic AI' by advocating for linear workflows and 'AI on Rails,' highlighting Jupyter Notebooks as a pivotal interface. This methodology outlines how embracing declarative systems like Nix, alongside open-source tools, allows for continuous skill refinement and the creation of an immutable development environment, ensuring long-term relevance and mastery over technological shifts.
@@ -351,3 +354,5 @@ This entry possesses significant potential as a foundational piece for a book on
 ### Next Step Prompts
 - Expand on the practical steps for a developer to implement the 'Round Robin' workflow, including specific Nix examples for common development environments (Python, JavaScript, etc.).
 - Develop a companion piece exploring specific use cases of 'AI on Rails' within Jupyter Notebooks, demonstrating how prepared contexts lead to efficient AI outputs for data analysis or code generation.
+
+{% endraw %}

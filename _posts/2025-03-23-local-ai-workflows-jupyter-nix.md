@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Beyond the Normal Curve
 
 Build flexible, AI-powered workflows directly from Jupyter Notebooks, deploying
@@ -789,3 +792,5 @@ You've got a lot of exciting ideas, and I'm eager to see what you create. Keep p
 **AI Opinion:**
 
 This article is a fascinating blend of technical exploration and philosophical musings. It captures the energy of a developer pushing the boundaries of current AI and web development paradigms. The author's willingness to challenge conventional wisdom, particularly regarding the normalizing effects of large language models, is refreshing. The emphasis on local AI, swappable components, and portable workflows highlights a forward-thinking approach to building robust and adaptable systems. The article's conversational tone and personal insights make it engaging and thought-provoking, offering a unique perspective on the evolving landscape of AI-driven development.
+
+{% endraw %}

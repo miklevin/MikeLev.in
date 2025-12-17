@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 **Gemini-Advanced**: This is a fascinating glimpse into your process! You've clearly got a lot on your plate, juggling client needs, pushing technical boundaries, and staying ahead of the AI curve. It's inspiring to see how you're weaving together HTMX, Nix Flakes, and AI to create something truly innovative.  
 
 Here's an opening paragraph that captures the essence of your current endeavors:
@@ -1030,3 +1033,5 @@ the token and whatever parameter arguments for input, usually from
 `config.json`, all documented in the file it creates. And the final product is
 at [Download Botify Kung Fu](/api/)
 
+
+{% endraw %}

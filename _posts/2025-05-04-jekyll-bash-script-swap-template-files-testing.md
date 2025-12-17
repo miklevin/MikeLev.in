@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding Jekyll Site Debugging
 
 This article delves into the practical process of troubleshooting a common but stressful problem for website owners: a sudden drop in search engine traffic. The author uses a popular tool called Jekyll, a "static site generator," which takes templates and content files to build a complete website made of simple HTML, CSS, and JavaScript files. When their Jekyll site's traffic unexpectedly plummeted, the author suspected recent changes to the site's template files (`.html`, `.css`) might be the cause.
@@ -288,3 +291,5 @@ For now, I have a handy script to toggle my templates should I need it again, an
 
 **AI Opinion:**
 This article provides significant value as a practical case study in debugging and developer tooling within the context of Jekyll. Its strength lies in the meticulous documentation of the process for creating the template-toggling script, including path considerations and best practices for script placement. While the underlying traffic issue isn't resolved, the script itself is a useful artifact, and the troubleshooting thought process is instructive. The clarity is good for its likely target audience (developers, Jekyll users), though the narrative style makes it more of a "journey log" than a concise tutorial. The "Battle Duck" idea adds personality but slightly detracts from the technical focus at the end.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the fast-evolving world of web analytics and automation, Pipulate emerges as a bold experiment in orchestrating complex data workflows with a distinctly human touch. This journal entry captures a developer’s real-time battle to extend the “Trifecta” (Crawler Data, Web Logs, Google Search Console) into a “Quadfecta” by integrating Google Analytics, all while wrestling with the fragile yet powerful chain reaction logic of a custom HTMX-driven microframework. Pipulate’s unique “Run All Cells” approach, inspired by Jupyter Notebooks, aims to streamline multi-step data collection with visual cascades, but as this entry reveals, even small missteps can derail the process. For readers new to this domain, “chain reaction” refers to the automated progression of workflow steps, where each step’s completion triggers the next, and “WET methodology” embraces explicit, non-abstracted code for clarity over DRY (Don’t Repeat Yourself) principles. This tale of debugging and deterministic tools offers a raw glimpse into building resilient systems.
@@ -837,3 +840,5 @@ Quip: If this journal’s a house of cards, it’s one I’d bet on—fragile, s
 
 There you go—a structured springboard for your book, with a touch of pizzazz to keep it lively! Ready for the next verse? 🎶
 
+
+{% endraw %}

@@ -20,6 +20,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Context for the Curious Book Reader
@@ -796,3 +799,5 @@ This entry is an important demonstration of how to move beyond basic prompt-resp
 ### Next Step Prompts
 - Now that the text pipeline is secured, formulate a new prompt to explore how this 'Instruction -> JSON -> Safety Code' pattern can be extended to reliably generate and process `mermaid` diagram definitions for automated visualization.
 - Design a prompt to investigate applying this pipeline engineering methodology to automate `ffmpeg` video scripting from text inputs, ensuring structured, valid output suitable for direct execution.
+
+{% endraw %}

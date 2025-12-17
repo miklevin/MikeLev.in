@@ -22,6 +22,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment in developing a robust content gap analysis tool. It chronicles the journey of moving from conceptual understanding to practical implementation, embracing a 'Shoshin' (beginner's mind) approach. Join the author as they architect a scalable data pipeline using Python and Pandas within Jupyter Notebooks, demonstrating how strategic planning and iterative wins can transform complex data challenges into actionable insights, even leaving hooks for advanced integrations like Botify.
@@ -1042,3 +1045,5 @@ This entry is exceptionally valuable as it transcends a mere technical tutorial.
 ### Next Step Prompts
 - Generate a sample screenshot for the final Excel export, showing banded rows, auto-sized columns, and a few example content gaps.
 - Elaborate on the 'Tag 'Em' step by providing a simplified, step-by-step example of how keywords are clustered and how the 'opportunity_score' might be refined using additional metrics.
+
+{% endraw %}

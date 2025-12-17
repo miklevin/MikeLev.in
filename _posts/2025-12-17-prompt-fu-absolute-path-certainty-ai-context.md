@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -1386,3 +1389,5 @@ This entry represents a significant evolution in managing large AI context windo
 - Develop a utility within Prompt Fu to auto-generate foo_files.py by analyzing git-tracked files and project dependencies, simplifying context curation.
 - Investigate integrating advanced semantic search capabilities directly into the Manifest (Table of Contents), allowing LLMs to query the context more intelligently than simple token matching.
 
+
+{% endraw %}

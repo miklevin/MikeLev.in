@@ -21,6 +21,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay chronicles an important step in fortifying the foundational environment for Pipulate, a philosophy designed to integrate left and right hemisphere thinking against the fragmented worldview warned of in Iain McGilchrist's *The Master and His Emissary*. After a system-wide crash, the prior articles detailed a 'Marie Condo' style cleanup, distilling a 'Heavy Cruiser' configuration into a 'Light Scout' of stability. This entry documents the crucial next phase: the re-ignition of the local AI core. We explore the architectural blueprint to modularly re-enable NVIDIA GPU acceleration and the Ollama AI server, essential for Pipulate's functions, while navigating unforeseen network conflicts, demonstrating the resilience and power of Infrastructure as Code.
@@ -713,3 +716,5 @@ This entry serves as an important blueprint for system resilience and modular ar
 ### Next Step Prompts
 - Draft a follow-up entry detailing how to integrate Mullvad VPN as a user-space application rather than a system service, allowing for dynamic control over network privacy without kernel-level conflicts.
 - Develop a 'Pipulate Health Check' script for NixOS, using `nvtop`, `curl localhost:11434`, and network connectivity tests, to quickly verify the AI acceleration stack's operational status.
+
+{% endraw %}

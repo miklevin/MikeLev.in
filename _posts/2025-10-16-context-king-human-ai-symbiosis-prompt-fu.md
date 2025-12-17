@@ -18,6 +18,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -1353,3 +1356,5 @@ This entry stands out as a prime example of metacognition applied to AI developm
 - Analyze the impact of the WET programming philosophy (Write Everything Twice) as discussed in the article, on the long-term maintainability and AI-readability of codebase files. Provide specific examples from the provided `prompt_foo.py` and suggest further applications.
 - Develop a strategy for documenting the evolving `prompt_foo.py` script and its philosophy, potentially as a series of short, interconnected articles, emphasizing the 'Context King' principle for a broader technical audience.
 
+
+{% endraw %}

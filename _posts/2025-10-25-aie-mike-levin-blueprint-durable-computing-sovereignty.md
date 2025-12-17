@@ -15,6 +15,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this introspective treatise, veteran tech architect Mike Levin charts his decades-long quest for 'computing sovereignty,' culminating in the philosophy of AIE (AI Education) and the architectural blueprint of Pipulate. He recounts the evolution from the challenges of Web 2.0 to the durable, AI-ergonomic solutions offered by NixOS and HTMX, positioning these innovations as essential in the rapidly evolving Age of AI.
@@ -462,3 +465,5 @@ This entry is a potent mix of personal history, philosophical declaration, and t
 ### Next Step Prompts
 - Expand on the practical implementation of AIE, providing concrete examples or use cases for how individuals or businesses can 'educate themselves about ever-improving AI' and 'educate ever-improving AIs about us' in daily workflows.
 - Draft a short, compelling pitch for AIE that can be used to introduce the concept to a broader audience, highlighting its distinction from traditional SEO, GEO, and AEO in a concise and impactful way.
+
+{% endraw %}

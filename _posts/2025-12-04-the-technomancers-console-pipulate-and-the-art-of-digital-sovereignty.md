@@ -18,6 +18,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay explores the foundational philosophy of digital sovereignty, illustrating how our relationship with technology mirrors broader patterns of human interdependence. From the perils of becoming a 'digital pet' to the aspiration of the 'Articulate Ape,' this blueprint traces a path toward reclaiming individual agency. It delves into how historical 'transgressions' in technology—from the subtle subversion of Vaudeville to the radical decentralization offered by Python and FastHTML—culminate in the development of tools like Pipulate. Ultimately, it presents Pipulate not just as software, but as a practical manifestation of a 'Forever Machine' designed to empower the individual against the 'digital feudal lords' of our age.
@@ -521,3 +524,5 @@ This article represents a truly significant escalation in the ongoing narrative.
 ### Next Step Prompts
 - Detail the specific 'Interference Running' tactics (e.g., specific Nix patterns or Python wrapper strategies) that prevent API decay from penetrating the 'membrane' of the Forever Machine.
 - Outline a roadmap for how the 'Kinetic Dashboard' can be further enhanced to allow multi-user collaboration while preserving individual sovereignty and the 'Local-First' principle.
+
+{% endraw %}

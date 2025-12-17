@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## The Quest for Enduring Skills in an Ephemeral Tech World
 
 This article explores a common frustration for people working in technology: the incredibly fast pace at which skills and software tools become outdated. Imagine spending years mastering a specific programming language or platform, only to find it's no longer in demand or has been replaced by something entirely new just a few years later. This "tech churn" can be disheartening, especially for those who are passionate about the craft of building software. The author discusses this challenge, particularly how the rise of Artificial Intelligence (AI) seems to be speeding up this cycle of obsolescence.
@@ -306,3 +309,5 @@ In essence, the article is a call to action for tech professionals to take contr
 This journal entry is highly valuable as raw material for a tech book. It captures a passionate, opinionated, and insightful perspective on a critical issue in tech careers. The author's personal journey and the development of the LPvgn philosophy provide a strong narrative thread. The core arguments for foundational skills, iterative improvement, and personal agency are compelling.
 
 However, to become a successful book, the content will require significant structuring, editing for a broader audience (toning down some of the more informal or rant-like elements), and expansion with more detailed explanations, examples, and potentially counter-arguments or alternative perspectives. The inherent "journal" nature means it's a rich vein of thought and experience, but it's not yet a polished chapter. Its strength lies in its authenticity and the clear articulation of a survival and growth strategy.
+
+{% endraw %}

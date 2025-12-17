@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Change is in the Air
 
 Often times I start out these daily tech journal entries with a topic that
@@ -315,3 +318,5 @@ article focuses on the challenges, it also offers some solutions, such as adding
 value to products and services and leveraging technology. Overall, I found the
 article to be informative and helpful.
 
+
+{% endraw %}

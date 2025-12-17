@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Moving Too Fast to Cover it All
 
 A lot has happened since the last article post. I feel like I've got an AI in a
@@ -2668,3 +2671,5 @@ By following this plan, you'll implement the critical features in a logical orde
 ---
 
 If you have any questions or need further assistance with any of the steps, feel free to ask. Good luck with your coding!
+
+{% endraw %}

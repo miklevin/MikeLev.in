@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 This is super-obscure and super-important to those of us who need to maintain
 that creative flow state while doing FastHTML no-build web development. We love
 turning on the ***live-reload*** feature, aka ***auto-restart*** so that every
@@ -326,3 +329,5 @@ command for a more resilient approach, keeping syntax errors in check and
 ensuring that no stubborn SSE connections linger behind. It’s not just about
 making the server restart—it’s about making it do so smoothly, automatically,
 and reliably that we can get back into our beloved no-build webdev flow state.
+
+{% endraw %}

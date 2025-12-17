@@ -25,6 +25,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry chronicles an intensive and iterative development cycle focused on automating complex SEO data reports within Excel's multi-tabbed `.xlsx` format. It delves into the foundational data structures underpinning modern computing, from the rows-and-columns paradigm of Fortran and Pandas to the flexibility of key-value stores. More crucially, it provides a candid, blow-by-blow account of the debugging process—highlighting challenges like `KeyError`, ensuring idempotency, and precisely identifying filter logic failures, all through dynamic collaboration with an AI assistant in a REPL-like environment. This piece offers invaluable insights into the practical realities of building robust, data-intensive applications and the meticulous diagnostics required to achieve true data fidelity.
@@ -2296,3 +2299,5 @@ This journal entry is a standout piece, serving as an exceptional case study in 
 ### Next Step Prompts
 - Draft the next journal entry focusing on the 'painterly' phase: how to apply advanced Excel formatting (conditional formatting, column widths, header styles, pivot tables) to the generated tabs using Python libraries (e.g., `xlsxwriter`, `openpyxl`).
 - Develop a module for all common Excel helper functions (column reordering, normalization, scoring, keyword filtering) to streamline the main Notebook code and improve reusability, documenting its API.
+
+{% endraw %}

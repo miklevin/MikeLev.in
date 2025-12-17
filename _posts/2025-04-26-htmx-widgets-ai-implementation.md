@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding Pipulate Widget Development with AI
 
 This article documents a developer's process of adding new user interface components, called "widgets," to a custom software project named Pipulate. Pipulate aims to simplify complex, step-by-step tasks (workflows), particularly in the field of Search Engine Optimization (SEO), presenting them as web applications. The developer is using modern web techniques like HTMX to create dynamic interfaces efficiently and Python for the backend logic.
@@ -923,3 +926,5 @@ The initial implementation phase is complete. The focus now shifts to debugging 
 
 * **AI Opinion:**
     This article serves as a valuable, in-depth developer log documenting a specific phase of the Pipulate project. Its primary strength lies in its detailed exposition of an AI-collaborative development process for integrating diverse UI widgets using HTMX. While its clarity is likely high for the author and those deeply familiar with the project, the assumed context, technical jargon, and journal format make it less accessible to a general audience. However, for developers interested in practical HTMX patterns, AI-assisted coding workflows (especially "super-prompting"), or building extensible workflow UIs, it offers significant insights and a realistic case study of iterative development.
+
+{% endraw %}

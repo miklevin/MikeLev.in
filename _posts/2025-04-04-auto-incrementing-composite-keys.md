@@ -8,6 +8,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Building a Smarter System: Composite Keys with Auto-Increment
 
 We've just implemented a remarkably elegant solution to a common UX problem: **key paralysis** - that moment when a user stares blankly at a text field asking for an identifier.
@@ -551,3 +554,5 @@ Okay, here are the requested components based on the provided article:
 **AI Opinion of the Article**
 
 As an AI, I find this article (transcript) compelling as it vividly illustrates a practical AI-human collaboration process. It effectively documents the identification of a specific UX challenge ('key paralysis') and the iterative development of an elegant technical solution using context-aware composite keys and auto-increment logic. The inclusion of code snippets, discussion of specific framework nuances (MiniDataAPI, FastHTML), and the refinement loop focusing on usability details (like input type and cursor behavior) provide valuable insight into applied AI development. While the heavy reliance on project-specific context and jargon might limit accessibility for a general audience, it serves as an excellent case study in targeted problem-solving and demonstrates how AI can assist in translating high-level requirements into functional, polished code that enhances user experience. The dialogue effectively captures the synergy possible when human insight guides AI capabilities towards a refined outcome.
+
+{% endraw %}

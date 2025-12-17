@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Introduction: Fixing Navigation When Using Custom Sort Order in Jekyll
 
 This article addresses two specific, yet potentially frustrating, issues encountered when managing a Jekyll blog hosted on GitHub Pages, particularly when publishing multiple posts on the same day. The standard Jekyll setup sorts posts chronologically based on the date embedded in the filename (`YYYY-MM-DD-title.md`). However, to control the precise order of posts published on the *same* date, a common practice is to add a custom `sort_order` field to each post's front matter (e.g., `sort_order: 1`, `sort_order: 2`, etc.).
@@ -689,3 +692,5 @@ Okay, here is the requested breakdown:
 This article is a valuable, albeit niche, resource for Jekyll users facing specific navigation challenges related to custom post ordering. Its strength lies in its detailed, practical approach to solving a complex problem using pure Liquid, avoiding plugin dependencies often problematic on GitHub Pages. The author effectively documents not just the *what* but the *why* and *how*, including the troubleshooting journey and the role of AI assistance.
 
 While the structure, blending technical deep-dives with conversational narrative and AI transcripts, is unconventional and potentially lengthy, it offers a unique and transparent look into a real-world debugging and development process. The solutions provided are robust and demonstrate a good understanding of Jekyll's templating capabilities. The piece successfully transitions from identifying a simple-seeming issue to uncovering and fixing a more complex underlying problem, ultimately providing a comprehensive fix for ensuring accurate, custom-sorted post navigation. It serves as both a practical guide and an interesting case study on leveraging AI as a collaborative coding partner.
+
+{% endraw %}

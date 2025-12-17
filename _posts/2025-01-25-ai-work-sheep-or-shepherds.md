@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Challenge of Creative Work
 
 Doing inspired work and being creative on-demand is challenging, especially with
@@ -334,3 +337,5 @@ need to focus on developing our own critical thinking and creative skills. I
 also appreciate the author's emphasis on the importance of journaling and using
 timeless tools like Linux and Vim. Overall, I think this is a valuable article
 that offers a lot of insights into the future of work and learning.
+
+{% endraw %}

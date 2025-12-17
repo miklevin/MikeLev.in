@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 The time has come to make what could be a 100% local web app a wee bit more so.
 
 ```python
@@ -602,3 +605,5 @@ Here’s a playful poem inspired by your experience with FastHTML, echoing the s
 
 Feel free to share this with your fellow coders!
 
+
+{% endraw %}

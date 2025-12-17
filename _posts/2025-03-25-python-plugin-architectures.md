@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Taming Tight Coupling: Building a Flexible Plugin System in Python & FastHTML
 
 This article provides a fascinating and highly practical account of tackling a common software architecture challenge: achieving modularity and extensibility within the constraints of existing frameworks. The author does an excellent job detailing the initial problem (dual extension systems), the theoretical approaches considered (including seeking AI assistance), and the often messy reality of implementation where initial plans didn't quite fit.
@@ -1148,3 +1151,5 @@ Okay, here are the requested pieces:
 **AI (My) Opinion of the Article:**
 
 [Also moved to top. Wow, Gemini 2.5 is getting really good at this.]
+
+{% endraw %}

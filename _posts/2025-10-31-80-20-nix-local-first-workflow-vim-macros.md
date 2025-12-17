@@ -18,6 +18,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry is a fascinating glimpse into a mind actively grappling with the practicalities and philosophies of modern technical work. It's a blueprint for anyone seeking to optimize their workflow, reclaim agency from cloud dependencies, and master tools like Nix and Vim to build a resilient, local-first digital ecosystem. As you read, observe the continuous application of the 80/20 rule, the critical self-correction, and the elegant strategies for turning perceived procrastination into profound preparation for an important methodology in the Age of AI.
@@ -619,3 +622,5 @@ This entry is a standout example of dynamic problem-solving and philosophical ar
 ### Next Step Prompts
 - Based on the 'uninstall' video strategy, draft a detailed script outline for the initial video, emphasizing the 'signal, no noise' approach and the 'shaming dynamic' against polluting installers.
 - Develop a practical guide for setting up a multi-platform video editing workflow using exFAT USB drives and OBS, detailing configuration steps that align with the local-first, low-calorie burn philosophy.
+
+{% endraw %}

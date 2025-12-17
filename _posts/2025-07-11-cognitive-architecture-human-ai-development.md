@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry documents a pivotal shift in strategy while developing Pipulate, a local-first AI-powered SEO tool. Following a significant setback where an AI collaborator inadvertently introduced a deep, recurring bug—a phenomenon dubbed "infinite regression"—the focus moves from reactive recovery to proactive prevention. The core of this exploration is the design and philosophy behind a novel solution: giving the AI partner a form of "X-ray vision."
@@ -996,3 +999,5 @@ The raw, stream-of-consciousness style, when curated with the suggested subheadi
 2.  **Task Suggestion 2:** Develop a detailed "persona document" for the "Chip O'Theseus" AI character.
     * **Potential Prompt Snippet for Next AI:** "Create a persona document for a local LLM named 'Chip O'Theseus'. Define its core personality traits (e.g., brutally honest, helpful, a bit of a heckler), its primary directives (e.g., analyze DOMs, identify SEO issues, suggest improvements), and provide 3-5 sample 'heckles' it might generate when analyzing a website's DOM structure, based on the 'Rule of 7' and semantic HTML best practices."
 
+
+{% endraw %}

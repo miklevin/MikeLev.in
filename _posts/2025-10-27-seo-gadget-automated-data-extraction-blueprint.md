@@ -20,6 +20,9 @@ layout: post
 sort_order: 9
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents an important phase in the development of an automated content architect system, focusing on `seo_gadget.py`. What started as a functional script evolved into a more aesthetic and robust tool, designed for efficient SEO data extraction and HTML-to-Markdown conversion. This piece is a testament to the iterative process of software development, highlighting the crucial steps of refactoring, debugging, and building with future scalability in mind, ultimately contributing to a powerful new methodology for content harvesting in the Age of AI.
@@ -1911,3 +1914,5 @@ This journal entry is a robust technical narrative, showcasing a clear demonstra
 ### Next Step Prompts
 - Draft the `stack_em` equivalent function within `url_inspect_sauce.py` that loops through `browser_cache` directories, parses `seo.md` files (YAML front matter and Markdown body), and consolidates this into a Pandas DataFrame.
 - Outline the process for refining the `markdownify` conversion, specifically focusing on identifying and stripping irrelevant HTML elements (e.g., navigation, footers, scripts, styles) to isolate the core page content for more accurate markdown generation.
+
+{% endraw %}

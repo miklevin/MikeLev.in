@@ -17,6 +17,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome, curious reader! This entry chronicles a deep dive into automated text processing, a seemingly simple task that quickly unravelled into a fascinating debugging saga. Witness a real-time collaboration with AI to tackle a pervasive markdown formatting error across hundreds of files, revealing the subtle complexities of regular expressions and the iterative nature of problem-solving. This isn't just about fixing text; it's a testament to the meticulous dance between human intent and AI execution in refining a codebase.
@@ -3645,3 +3648,5 @@ This entry is a compelling case study for any book on modern development, partic
 ### Next Step Prompts
 - Generate a markdown table summarizing the regex patterns at each stage, explaining their flaws and improvements.
 - Write a brief 'post-mortem' section from the AI's perspective, reflecting on its initial missteps and the lessons learned about regex and context.
+
+{% endraw %}

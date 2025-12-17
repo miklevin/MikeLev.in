@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a local-first software framework designed from the ground up for **computational sovereignty**. Rejecting the endless churn of mainstream web technologies, Pipulate is built on a durable stack (Nix, Python, HTMX) and a unique philosophy that favors explicit, transparent code—believing such code is ideal for the emerging paradigm of human-AI collaborative development.
@@ -768,3 +771,5 @@ The raw, conversational nature of the entry is its greatest strength. A polished
 2.  **Task Suggestion 2:** Draft interview questions to enrich the narrative.
     * **Potential Prompt Snippet for Next AI:** "Act as a technical journalist preparing to interview the author about the 'WorkflowGenesis' moment. Based on the provided dialogue, generate 5-7 open-ended questions designed to elicit more detail about the author's thought process. Focus on questions like: 'What was the initial trigger that made you decide to build the helper scripts in the first place?' or 'Can you describe the moment you realized the AI's suggestion was something you had already built?'"
 
+
+{% endraw %}

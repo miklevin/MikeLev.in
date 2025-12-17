@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Building a Versatile flake.nix Configuration for Seamless Development
 
 Creating a seamless development environment that operates effortlessly across macOS, Linux, and even Windows with WSL can be challenging. Incorporating CUDA acceleration and specialized tools like JupyterLab and FastHTML adds further complexity. To tackle these challenges, I embarked on a journey to build a versatile `flake.nix` configuration. Starting with a minimal setup, I progressively added features to overcome each obstacle. A pivotal aspect of this approach was integrating a virtual environment, which not only allowed for the installation of packages not available in the Nix repository but also provided the flexibility needed for future data science endeavors. Below is a step-by-step account of how I developed the `flake.nix` to create a robust and adaptable setup.
@@ -433,3 +436,5 @@ Integrating a virtual environment within the `flake.nix` setup was a game-change
 5. **Automated Services:** Configured automatic startup for JupyterLab and the FastHTML server, ensuring a seamless development experience.
 
 By methodically expanding the `flake.nix`, I transformed a simple setup into a powerful, ready-to-use environment that elegantly handles dependencies and offers unparalleled flexibility for diverse development needs. This approach not only resolved immediate challenges but also laid a solid foundation for future scalability and adaptability.
+
+{% endraw %}

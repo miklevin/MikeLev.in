@@ -9,6 +9,9 @@ sort_order: 1
 date: 2024-11-07
 ---
 
+{% raw %}
+
+
 This article starts out discussing whether to use Google Sheets with ChatGPT
 plugins and such versus working in a Jupyter Notebook, but turns into once again
 one of my exercise sessions building-it-up from scratch, because I need to get
@@ -1183,3 +1186,5 @@ pprint.pprint(depth_distribution)
 ```
 
 
+
+{% endraw %}

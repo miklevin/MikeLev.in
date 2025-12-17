@@ -18,6 +18,9 @@ layout: post
 sort_order: 10
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles a significant evolution in the `list_articles.py` script, a foundational tool within Project Pipulate for managing and visualizing the technical journal. What began as a seemingly minor ergonomic improvement—displaying an intra-day `sort_order` alongside the main chronological index—quickly expanded into a deeper exploration of data integrity and self-correction. We delve into the implementation of this new feature, the philosophical decision behind its aesthetic presentation (the 'z-fill' question), and the subsequent, crucial development of an automated contiguity report using Python's `rich` library. This report acts as a powerful feedback loop, ensuring the precision and coherence of the journal's daily structure, embodying the 'chisel-strike' philosophy of iterative improvement and principled engineering.
@@ -874,3 +877,5 @@ This journal entry is a superb demonstration of how seemingly minor feature requ
 ### Next Step Prompts
 - Draft a more general 'Principles of Digital Hygiene' article, using this `list_articles.py` evolution as a primary example.
 - Explore applying a similar 'contiguity report' and automated feedback loop to another aspect of the journal or a related project, identifying a new area for self-correction.
+
+{% endraw %}

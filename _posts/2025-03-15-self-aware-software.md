@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Envisioning a Future of Self-Aware Software Systems
 
 This project feels like a glimpse into the future of software—a meeting point
@@ -1596,3 +1599,5 @@ Welcome aboard—and enjoy the journey as your local assistant helps you navigat
 ---
 
 Happy coding, and may your interactions be as smooth as HTMX updates!
+
+{% endraw %}

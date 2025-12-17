@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a classic moment in software development: a seemingly simple refactor that uncovers a deeper technical challenge. My goal was to 'promote' the `Notebooks/` folder to the root of my Pipulate project, making it more intuitive for both myself and the AI assistants I work with. This led me down a rabbit hole of how Git handles directories and, more specifically, what happens when you try to add a repository inside another repository. It's a story about problem-solving, mental models, and the importance of designing a project's structure with deliberate care.
@@ -585,3 +588,5 @@ This is a fantastic micro-narrative of everyday software development. It demonst
 ### Next Step Prompts
 - Based on this journal entry, write a standalone tutorial titled 'How to Fix the "warning: adding embedded git repository" Error' that explains what an embedded repository is, why it's a problem, and provides a step-by-step guide to fixing it, using the example from this article.
 - Expand on the concept of 'AI Ergonomics' introduced in this entry. Write an article that defines the term, explains why it's increasingly important, and lists 5 practical ways to improve a project's structure for better AI collaboration, using the `Notebooks/` folder example as a primary case study.
+
+{% endraw %}

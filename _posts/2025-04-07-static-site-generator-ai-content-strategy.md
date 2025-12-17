@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 This article? How to explain? Hmmm. I just go ahead and ask Claude to just explain to me what I'm doing.
 
 **Claude**: Based on the article content and code I've reviewed, you're developing a comprehensive approach to using static site generators (like Jekyll) with large language models for advanced content analysis and SEO optimization. Here's what you're doing:
@@ -422,3 +425,5 @@ Okay, here are the requested pieces based on the article:
 **My (AI) Opinion of the Article:**
 
 This is a highly insightful and valuable article that clearly articulates a significant, practical advantage of static site generator architecture in the age of large language models. The author effectively connects the technical characteristics of SSGs (plain text files, Markdown, YAML front matter) to tangible benefits in AI-driven content analysis (token efficiency, direct access, structured data). The "Context Kung Fu" metaphor is effective, and the real-world examples and code snippets provide a strong foundation for understanding and implementing the described techniques. While it might slightly understate the technical hurdles for some users migrating to or adopting SSGs, the core argument is sound and forward-thinking. It highlights a crucial intersection of web development practices and AI capabilities, offering a compelling vision for more powerful and efficient content strategy analysis for those equipped to leverage it.
+
+{% endraw %}

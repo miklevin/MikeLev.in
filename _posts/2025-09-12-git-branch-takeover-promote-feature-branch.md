@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This technical journal entry captures a developer regaining control over a project named Pipulate after a period of heavy reliance on AI coding assistants. The narrative is a compelling blend of high-level strategic decision-making and hands-on, command-line execution. At the heart of the entry is the developer's choice to prioritize momentum in codebase cleanup over tackling a new "rabbit hole" project like home-hosting. This decision leads to a series of practical refactoring and Git repository management tasks, all performed with a renewed focus on "internalizing" skills rather than delegating them.
@@ -490,3 +493,5 @@ The human-AI dialogue is particularly effective here. The AI acts as a Socratic 
 2.  **Task Suggestion 2:** Create a "Safety and Context" Advisory Box.
     * **Potential Prompt Snippet for Next AI:** "Based on the git commands for force-pushing and deleting branches, write a concise 'Warning' or 'Use With Caution' advisory box. Explain in what specific situations (e.g., collaborative projects with shared branches) this workflow would be dangerous and should be avoided, contrasting it with the solo-developer context where it is safe."
 
+
+{% endraw %}

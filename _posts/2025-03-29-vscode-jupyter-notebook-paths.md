@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Creating Cross-Platform Jupyter Notebooks in Pipulate
 
 Alright, so yesterday I made the first Jupyter Notebook that's officially in the
@@ -796,3 +799,5 @@ The deep dive into the technical reasons *why* this is difficult – the kernel/
 The author's conclusion to abandon complex auto-discovery in favor of hardcoded paths for their specific use case (creating clear example notebooks for later porting) is a pragmatic and well-reasoned decision. It highlights a practical trade-off developers often face between striving for fully automated solutions and opting for simplicity, clarity, and robustness, especially in contexts like documentation or examples.
 
 The commentary on the AI research experience itself, including the speed difference and output formatting challenges (especially with Gemini's export), and the amusing "strange loop" of being cited by the AI, adds personality and relatability to the technical narrative. Overall, it's an informative and engaging piece detailing a technical investigation that leads to a practical, if perhaps philosophically unsatisfying, conclusion.
+
+{% endraw %}

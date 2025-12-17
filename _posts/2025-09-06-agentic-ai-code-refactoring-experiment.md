@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in modern software development: the intersection of declarative system management and AI-driven coding. The author begins by evangelizing **Nix**, a powerful tool that treats an entire operating system like a reproducible recipe, a stark contrast to the often messy, imperative methods of traditional software installation. This philosophy of clean, predictable environments sets the stage for the core of the piece: a real-world test of the **Gemini CLI**, a new command-line AI assistant.
@@ -976,3 +979,5 @@ The narrative arc—from philosophical musings on Nix, to the practical struggle
 2.  **Task Suggestion 2:** Draft a "Lessons Learned" Section
     * **Potential Prompt Snippet for Next AI:** "Analyze the entire human-AI interaction in the entry. Draft a bulleted list of 5-7 key 'Lessons Learned' for developers who are starting to use agentic command-line AI tools. Focus on effective communication strategies, handling AI errors, and structuring a collaborative refactoring session."
 
+
+{% endraw %}

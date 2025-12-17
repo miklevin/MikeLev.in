@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Fast Libraries and Pythonic Philosophy
 
 FastHTML, fastcore, fastlite... Oh MY! Jeremy Howard likes it fast, and one of
@@ -1104,3 +1107,5 @@ Okay, here's the summary, title ideas, and my opinion based on the article provi
 This article provides a valuable, hands-on account of refactoring a web application built with a specific, modern Python framework (FastHTML). The author does an excellent job clearly outlining the initial problem – the tight coupling introduced by the `fast_app` convenience function – and the motivation for moving towards a more modular plugin architecture. The step-by-step thought process, including the comparison with other frameworks and the use of a concrete example (`CompetitorPlugin` as a template for `TodoPlugin`), makes the technical journey easy to follow.
 
 The author's strong, opinionated voice regarding Pythonic practices (like duck-typing vs. static typing via Pydantic) and library choices adds personality and context, though it might be polarizing for some readers. The piece effectively serves as both a practical guide for developers facing similar challenges with framework conveniences and a narrative about evolving software architecture. The discussion about shedding older, perhaps less robust code (like the custom LLM tool-calling) in favour of cleaner separation is a relatable aspect of software maintenance and evolution. Overall, it's an insightful read for anyone interested in web development with FastHTML, plugin architectures, or the practical trade-offs involved in using framework helpers.
+
+{% endraw %}

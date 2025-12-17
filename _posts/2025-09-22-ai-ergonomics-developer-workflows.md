@@ -19,6 +19,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry chronicles a breakthrough in AI-assisted development, moving from frustrating, cluttered context files to a clean, automated workflow. By leveraging modern command-line tools that respect `.gitignore`, I was able to streamline the process of providing my AI collaborator with a clear view of the codebase. This simple change, rooted in the principles of good tool design, had a profound impact on the efficiency and accuracy of our work, highlighting the critical importance of what I call 'AI Ergonomics.'
@@ -1137,3 +1140,5 @@ This is an exceptional journal entry that masterfully blends philosophical musin
 ### Next Step Prompts
 - Based on the provided article, write a new, standalone blog post titled 'The Single Source of Truth: Why Your Tools Should Respect Your .gitignore' that expands on the DRY principle and its importance in modern development and AI-driven workflows.
 - Analyze the 'Magic Cookie' auto-updating system described in the `flake.nix` file. Create a technical diagram using Mermaid syntax that visualizes the entire installation and update process, from the initial `curl` command to the final git-enabled, auto-updating environment.
+
+{% endraw %}

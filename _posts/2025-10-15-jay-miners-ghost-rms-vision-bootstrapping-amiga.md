@@ -21,6 +21,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry is a rich, free-flowing dialogue that weaves together personal reflections, deep dives into tech history, and philosophical arguments. It functions as a masterclass in "thinking out loud" within the realm of technology. The author explores the profound implications of vendor lock-in, the historical ironies of projects like the Apple Newton, and the philosophical underpinnings of the Free Software movement through figures like Richard Stallman and projects like Guix. This builds to a deeply personal understanding of the "craftsman's journey" – a quest to build elegant, sovereign systems, akin to a modern "Amiga" – and how this journey mirrors the very bootstrapping processes of life itself. It's a testament to the power of dialogue and relentless inquiry in uncovering profound truths about technology and self-determination.
@@ -466,3 +469,5 @@ This entry is a prime example of high-value co-creation. The user's profound and
 ### Next Step Prompts
 - Elaborate on the 'WET programming philosophy' and how its principles apply not just to code but to personal knowledge management and system design, using examples from the text.
 - Draft a 'manifesto for the modern artificer,' drawing upon the themes of sovereignty, explicit systems, creation over conquest, and the craftsman's journey as discussed in this dialogue.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Getting Started with Pipulate: Enhancing Workflows with Code Visualization
 
 This article delves into the practical development process of enhancing a specific web application called "Pipulate." Pipulate utilizes a "workflow" system, essentially sequences of automated steps, and the author is focused on improving the visual components, known as "widgets," within these workflows. The main challenge discussed is adding the capability to display computer code (specifically JavaScript) within a workflow step, complete with syntax highlighting (colors to make the code readable) and an easy way to copy it.
@@ -1050,3 +1053,5 @@ This implementation covers all the high-priority items you identified:
 
 * **AI Opinion:**
     This article serves as a valuable, detailed developer log documenting a specific problem-solving process within the Pipulate project. Its strength lies in its transparency regarding the iterative nature of development, dependency management strategies (local JS files), and the practical application of AI assistants (Gemini, Claude) for research and planning. While its high specificity and reliance on prior context limit its utility as a general tutorial, it offers significant value to the author or others deeply involved in the project as a record of decisions and implementation steps. The comparison between different AI responses also provides an interesting meta-commentary on the current state of AI coding assistance.
+
+{% endraw %}

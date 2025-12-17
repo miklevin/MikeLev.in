@@ -18,6 +18,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into an important aspect of building production-ready AI tools: the continuous refinement and hardening of underlying data pipelines. We pick up with the `GAPalyzer` — a core SEO competitive analysis tool — as it undergoes significant architectural adjustments and hygiene improvements. This isn't just about fixing bugs; it's about transforming a functional script into an antifragile system, emphasizing meticulous code and repository management, all while navigating the nuances of AI-assisted development in the Age of AI.
@@ -1327,3 +1330,5 @@ This piece offers an interesting perspective on AI not merely as an answer engin
 ### Next Step Prompts
 - Generate a detailed markdown document for the new `temp/` directory structure, explaining the purpose of each file within it, and suggest a process for automated cleanup, possibly including a `cleanup_temp_files` function in `gap_analyzer_sauce.py`.
 - Refactor the `assets/nbs/` directory into more logical subdirectories (e.g., `analysis_modules/`, `utility_scripts/`, `experimental_components/`) and update `pip.nbup()` calls within the primary notebook accordingly, providing a structured plan for the migration.
+
+{% endraw %}

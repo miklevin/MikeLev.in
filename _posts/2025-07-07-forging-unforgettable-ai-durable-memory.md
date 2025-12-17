@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a local-first AI-native software framework. The author has just emerged from an intense, multi-day refactoring session aimed at solving one of the most critical challenges in building intelligent, long-term systems: persistence. The focus is on creating a "durable" foundation where both the application's core data and the AI's own "memory" can survive restarts, updates, and even full reinstalls. This involves implementing a robust backup system and a novel "AI Keychain" for the system's integrated assistant, Chip O'Theseus.
@@ -513,3 +516,5 @@ The human-AI dialogue at the end is particularly powerful. It's not just a summa
 
 2.  **Task Suggestion 2:** Diagram the Backup and Persistence Architecture
     * **Potential Prompt Snippet for Next AI:** "Generate a Mermaid.js diagram that visually represents the backup and persistence architecture described. The diagram should show the three critical databases (`ai_keychain.db`, `discussion.db`, `profile/task dbs`), the Son/Father/Grandfather backup retention schedule, and indicate that the process is triggered on server startup."
+
+{% endraw %}

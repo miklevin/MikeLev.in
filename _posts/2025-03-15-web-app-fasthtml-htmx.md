@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 **OpenAI ChatGPT o1-mini-high**: Here’s a holistic synthesis of our discussion so far:
 
 ---
@@ -2618,3 +2621,5 @@ spec so that you don't get it wrong:
 ###   AI's Opinion
 
    This article offers a fascinating insight into the challenges and rewards of building a web application with a focus on simplicity and control. The author's commitment to avoiding over-engineering and embracing "anti-patterns" is a refreshing counterpoint to the prevailing trend of complex, enterprise-focused development. The detailed account of the process, including the collaboration with AI and the step-by-step code refinements, provides valuable lessons for any developer seking to create maintainable, customizable, and user-friendly web experiences. The emphasis on clarity, modularity, and a "Jupyter Notebook" like workflow paradigm highlights an innovative approach to web development.
+
+{% endraw %}

@@ -17,6 +17,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay delves into an interesting perspective on digital sovereignty, connecting the thermodynamics of human effort to the architectural choices in computing. It traces the lineage from the fundamental schism between Alan Turing's stateful machines and Alonzo Church's stateless lambda calculus, arguing for the latter's importance in the Age of AI. By embracing reproducible environments like Nix and leveraging the enduring simplicity of tools like Jekyll, this philosophy outlines a way to build a personal 'forever machine' – a digital foundation designed to outlive ephemeral technologies and offer true long-term agency.
@@ -2058,3 +2061,5 @@ This entry is important to know in the Age of AI, as it provides a practical met
 ### Next Step Prompts
 - Generate a detailed 'First Contact' notebook outline for introducing new users to their sovereign Nix/Jekyll environment, incorporating the 'thermodynamic ledger' analogy.
 - Draft an introductory section for the book that further elaborates on the concept of 'Chimney Sweep's Broom' as the ultimate sovereign toolkit, drawing on the themes of simplicity, durability, and agency.
+
+{% endraw %}

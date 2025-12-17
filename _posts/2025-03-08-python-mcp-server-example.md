@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## UPDATE: MCP Is Currently a Dead End
 
 Anthropic's Model Context Protocol (MCP) initially appears as a promising open
@@ -2294,3 +2297,5 @@ Given these challenges, here are the options we can consider:
 Given the challenges you've faced and the time you've already invested, I recommend considering alternatives or focusing on other aspects of your project for now. Forking and adapting the `mcp` library could be a valuable learning experience but might not be the most efficient use of your time if you're primarily focused on building your application.
 
 Ultimately, the decision depends on your priorities and how critical MCP is to your project's success.
+
+{% endraw %}

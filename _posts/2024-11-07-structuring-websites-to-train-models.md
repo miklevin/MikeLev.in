@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 > Because of life being what it is and mistakes I have made, I am missing
 > another very important birthday. I am sorry, but please know you are in my
 > every thought and I am doubling down professionally to be what I need to be
@@ -305,3 +308,5 @@ Citations:
     [8] https://growthnatives.com/blogs/digital-marketing/how-is-ai-trained/
 
 Okay, so let's do this. 
+
+{% endraw %}

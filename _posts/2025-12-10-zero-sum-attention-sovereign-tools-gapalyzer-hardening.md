@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the intricate process of refining the GAPalyzer, a cornerstone deliverable designed to navigate the zero-sum game of human attention in the Age of AI. More than just a technical breakdown, this is a philosophy, a way of building resilient, self-sovereign tools that resist vendor lock-in and stand the test of time. It illustrates how an iterative, text-centric development approach, coupled with a deep understanding of core systems like Git and Vim, creates a robust and future-proof codebase. We follow a detailed debugging journey, from identifying subtle code leaks to integrating multi-modal feedback, showcasing a meticulous methodology for maintaining control and clarity in complex projects. This tapestry of articles highlights interesting points in the development of, well, everything. Each piece builds on the last, forming a cohesive narrative of evolving best practices.
@@ -1252,3 +1255,5 @@ This journal entry is a standout example of profound technical discourse intertw
 ### Next Step Prompts
 - Elaborate on the 'Proper use of `pip` state and side-effects in prep for the port' for the GAPalyzer, providing specific code examples and architectural considerations for moving logic out of the Notebook.
 - Design the next 'chisel strike' focusing on pushing 'almost everything' into the `gap_analyzer_sauce.py` file, identifying specific functions or blocks of code in the Notebook that should be refactored and moved.
+
+{% endraw %}

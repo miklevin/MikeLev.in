@@ -17,6 +17,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Continuing our journey in *Future Proofing Yourself in the Age of AI*, this essay marks an important turn from theoretical visualization to practical implementation. Having previously explored how to architect content into a coherent link graph, we now delve into the methodology of transforming that ideal structure into a tangible, AI-ready navigation system. This deep dive introduces the NavGraph, a dynamic blueprint for generating intelligent hub pages that make your content accessible and navigable for both human and machine agents. It's an important step in weaving the fabric of a truly future-proof digital presence.
@@ -1048,3 +1051,5 @@ This entry serves as an important blueprint in the tapestry of AI-driven content
 ### Next Step Prompts
 - Generate the `generate_jekyll_pages.py` script that recursively reads `navgraph.json` and creates Markdown files for hubs and articles, including YAML frontmatter and content rendering based on the NavGraph structure.
 - Develop a 'Semantic Disambiguation Agent' that, given a `navgraph.json` with duplicate hub labels, queries an LLM to suggest more descriptive and unique labels based on the contained articles' content, then updates the JSON.
+
+{% endraw %}

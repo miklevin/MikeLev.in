@@ -22,6 +22,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment of frustration with the tech
@@ -540,3 +543,5 @@ This is more than a journal entry; it's a manifesto. It powerfully articulates a
 ### Next Step Prompts
 - Using the 'book_analysis_content', write a compelling LinkedIn post (under 250 words) from the author's perspective that summarizes the article's core message about tech churn and the search for a 'future-proof' development philosophy, ending with a link to the article.
 - Expand the final section of the article into a standalone tutorial outline titled 'Creating a Dazzling Show in Jupyter: A Guide to ITables and Pandas Styling'. The outline should include steps for setup, code snippets for basic interactivity with ITables, and examples of applying conditional formatting with the Pandas Styler API.
+
+{% endraw %}

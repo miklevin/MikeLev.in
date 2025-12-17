@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this entry, we delve into the core tenets of self-determination and digital sovereignty, illustrating how foundational command-line skills, particularly with Git, can be leveraged to build truly private and resilient development environments. From setting up local bare repositories to strategically employing `.gitignore` for managing nested projects, we explore a 'grammar of intent' that transcends specific tools, ensuring your intellectual property remains under your complete control and is future-proofed for decades to come.
@@ -422,3 +425,5 @@ This journal entry is a profound exploration of digital craftsmanship and person
 ### Next Step Prompts
 - Develop a follow-up article detailing the specific NixOS configuration required for automating backups of these local bare Git repositories, integrating it into a comprehensive backup strategy.
 - Create a practical guide for setting up a local `git-daemon` or `ssh` remote for controlled network access to these bare repositories within a private network, further expanding on the 'private micro-GitHub' concept without relying on third-party services.
+
+{% endraw %}

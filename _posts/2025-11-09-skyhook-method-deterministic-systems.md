@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into a compelling philosophy for achieving enduring progress in a chaotic world. It's an important treatise for anyone navigating the complexities of the Age of AI, revealing how to build personal and technological systems that are resilient against constant change and unexpected setbacks. This blueprint explores the power of "chisel-strike wins," connecting ancient survival strategies to modern, deterministic tech stacks, ultimately advocating for a proactive way of engineering momentum against entropy.
@@ -520,3 +523,5 @@ This entry is a fascinating and profoundly insightful piece that beautifully wea
 ### Next Step Prompts
 - Elaborate on the practical steps and resources for a beginner to start implementing an 'LPvg' (Linux, Python, Vim, Git) stack, and then transition to Nix/Guix for system determinism.
 - Explore the psychological and philosophical implications of internalizing skills ('inside of you') as the ultimate anti-fragile asset, perhaps drawing more on stoicism or cognitive science.
+
+{% endraw %}

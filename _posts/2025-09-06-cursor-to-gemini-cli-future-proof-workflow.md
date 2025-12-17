@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in a developer's journey to integrate modern AI capabilities directly into a command-line-centric workflow. The author, a proponent of the NixOS operating system and the classic vim editor, chronicles their deliberate shift away from popular AI-integrated graphical editors like Cursor (a fork of VSCode). The core of this exploration is the adoption of Google's Gemini CLI, a free and open-source (FOSS) tool that promises powerful, "agentic" AI assistance without the bloat or potential vendor lock-in of graphical applications.
@@ -552,3 +555,5 @@ The human-AI dynamic here is particularly noteworthy. The author isn't just usin
 2.  **Task Suggestion 2:** Create a Comparative Framework.
     * **Potential Prompt Snippet for Next AI:** "From the author's perspective in the article, create a two-column markdown table comparing Cursor AI and Gemini CLI. Base the comparison on factors mentioned or implied in the text, such as 'Workflow Integration,' 'Development Philosophy,' 'Business Model,' and 'Future Viability.'"
 
+
+{% endraw %}

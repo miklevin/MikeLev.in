@@ -19,6 +19,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Bull in a China Shop Refactoring Leads to Whack-a-Mole Debugging
@@ -1751,3 +1754,5 @@ This entry is a goldmine for illustrating the reality of modern, AI-assisted sof
 ### Next Step Prompts
 - Based on the `TypeError` identified as a 'generative AI regression,' write a short essay exploring the common pitfalls of using generative AI for code refactoring and propose a set of best practices for developers to avoid or mitigate them, using this entry as a primary example.
 - Analyze the final CSS fix for the dropdown menu. Write a short, technical blog post titled 'The Cascade Conundrum: How a Tooltip Fix Broke Our UI and How We Solved It,' using the debugging process from this journal entry as a case study.
+
+{% endraw %}

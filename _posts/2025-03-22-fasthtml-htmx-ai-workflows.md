@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 Okay, I've put off the actual work long enough. There are so many rabbit hole
 projects I want to chase, but they are all AI-assisted linear workflows, and
 this is the blocker. The sooner I get this done, the sooner I get all those
@@ -2140,3 +2143,5 @@ Okay, here's a summary, titles/headlines, and my opinion, keeping your instructi
 **My Opinion:**
 
 I find this article fascinating! It provides a very detailed and honest look into the challenges and thought processes involved in refactoring a complex codebase. The author's decision to move towards a WET approach is counterintuitive but clearly driven by a need for increased flexibility and control. The emphasis on cognitive overhead and code clarity is commendable, and the use of HTMX to manage workflow interactions is a clever touch. The inclusion of the "Grok 3" persona adds an entertaining and insightful dimension to the discussion. Overall, it's a valuable exploration of practical software development considerations that go beyond textbook principles.
+
+{% endraw %}

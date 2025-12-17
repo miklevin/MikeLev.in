@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Intersection of AI and Operating System Management
 
 This article discusses the intersection of modern software development tools and specialized operating system management. In recent years, code editors, the primary tools programmers use to write software, have increasingly incorporated artificial intelligence (AI) to assist with coding tasks. Cursor is one such "AI-assisted" editor, competing in a rapidly evolving market. Simultaneously, the article delves into NixOS, a unique distribution of the Linux operating system known for its distinctive approach to managing software installations and system configurations. NixOS uses a declarative method, meaning the entire system setup is defined in configuration files.
@@ -256,3 +259,5 @@ This solution ensures you're always working with the latest AI features while ma
 
 * **AI Opinion:**
     This article offers significant value as a practical guide for its specific target audience: NixOS users who want to run the latest version of the Cursor AI editor. While the initial conversational tone might feel like a developer log, the core of the article presents a clear, well-documented technical solution with code. Its clarity is high for someone already familiar with NixOS configuration, but would be very low for a general reader or even a Linux user unfamiliar with Nix. Its usefulness lies in the specific, actionable script provided, solving a tangible problem faced by users at the intersection of these particular technologies.
+
+{% endraw %}

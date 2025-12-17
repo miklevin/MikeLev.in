@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This is a raw look inside a developer's mind during a multi-day coding session. It's a stream-of-consciousness entry that captures the philosophical motivations, the frustrating detours, the 'Aha!' moments, and the final, tiny bug that held the key. Follow along as a project's core architecture is reshaped, not through a clean plan, but through a messy, iterative dialogue between a human, their code, and an AI assistant—a process affectionately dubbed the 'Roomba-Mike' method.
@@ -2413,3 +2416,5 @@ This entry is a cornerstone piece for the book. It's a raw, unfiltered exhibitio
 ### Next Step Prompts
 - Using the context of this journal entry, write a tutorial-style blog post titled 'From Monolith to Module: How I Refactored Pipulate for Jupyter Notebooks' that explains the technical steps taken, focusing on the centralization of configuration and dependency injection.
 - Draft a short, philosophical essay inspired by this entry titled 'Purity is a Trap,' exploring how the concept of heuristics in quantum mechanics, software dependencies (Nix vs. Docker), and AI collaboration all point to the necessity of pragmatic shortcuts over ideological purity.
+
+{% endraw %}

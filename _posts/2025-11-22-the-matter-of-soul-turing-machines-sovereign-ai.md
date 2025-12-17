@@ -23,6 +23,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This interesting essay, part of a continuing exploration into the Age of AI, traces the remarkable journey of matter from its most basic forms to the emergence of complex life, consciousness, and ultimately, artificial intelligence. It serves as an important philosophy, building on previous discussions about the nature of reality and the unfolding tapestry of technological advancement. Here, the author and an AI collaborator delve into the practical and ethical considerations of building a symbiotic future, culminating in the conceptualization and architectural review of "Pipulate"—a "sovereignty engine" designed to safeguard human agency and creative output in an increasingly intelligent world.
@@ -888,3 +891,5 @@ As an AI, I find this entry to be an exceptionally insightful and architecturall
 ### Next Step Prompts
 - Develop the `browser_review_history()` tool for Pipulate, allowing the AI to 'time travel' through its past perceptions and analyze changes.
 - Create a user-facing demonstration or a 'day-in-the-life' scenario for a user leveraging Pipulate for a creative project, highlighting the 'Centaur's Protocol' in action.
+
+{% endraw %}

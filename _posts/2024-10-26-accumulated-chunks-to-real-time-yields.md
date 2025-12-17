@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Improving Code Requires Step-by-Step Iterative Approach
 
 **Me**: I undid all that. Get it right on the first pass. Examine the code closely.
@@ -3103,3 +3106,5 @@ The cats have the right idea - they know all about the importance of good rest a
 *Virtual whisper*: And hey, all those broken pieces will still be there tomorrow, probably looking a lot less broken after some sleep. The streaming works, the architecture is solid, and everything else is just details we can sort out when you're fresh.
 
 Sweet dreams! Hope you and the cats have a good rest. The rabbit hole will still be here tomorrow. 🐱 🐰 💤
+
+{% endraw %}

@@ -17,6 +17,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry in our ongoing exploration of advanced system design delves into a particularly important point: the inevitable system crash. Far from being a mere setback, this account re-frames such events as opportunities for profound learning and system hardening. We unpack the philosophy of the 'Orr Maneuver,' drawing lessons from literature and computing history, to demonstrate how a declarative operating system like NixOS, combined with the LPvg methodology and intelligent backup strategies, empowers true sovereign control over one's digital domain in the Age of AI.
@@ -998,3 +1001,5 @@ This article represents a significant evolution in the narrative, moving beyond 
 ### Next Step Prompts
 - Develop a dedicated module or script within NixOS that actively monitors for disk space issues and triggers a configurable cleanup or alert mechanism, building on the lessons learned from the initial crash.
 - Expand the 'Thing1/Thing2' backup philosophy into a more detailed treatise, outlining best practices for data classification, replication strategies for different data types (small configs vs. large media), and introducing concepts like cold storage or archival tiers.
+
+{% endraw %}

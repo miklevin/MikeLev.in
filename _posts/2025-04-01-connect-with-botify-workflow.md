@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Early Morning Productivity at 3:30 AM
 
 Good Morning! It's about 3:30 AM, and I actually got about 5 hours sleep because
@@ -522,3 +525,5 @@ This article provides a fascinating and highly detailed look into the thought pr
 * **Assumed Knowledge:** The article assumes a fair amount of familiarity with the author's previous work (Pipulate, FastHTML) and technologies like Nix Flakes and HTMX. A brief introductory context could broaden the audience.
 
 Overall, it's a rich, authentic, and technically informative piece that serves well as a development log and a practical demonstration of the author's framework and development philosophy. The detailed account of interacting with an AI assistant for coding tasks is also a timely and valuable contribution.
+
+{% endraw %}

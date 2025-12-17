@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting The Stage
 
 This is a purposeful post, psyching myself up to go directionally where I have
@@ -2031,3 +2034,5 @@ Do you want to try one more time with exactly that approach - just a straight co
 **My opinion of the article:**
 
 I think this is a very interesting and insightful article. I appreciate the author's honesty and vulnerability in sharing their thoughts and feelings about their work. I also appreciate their willingness to experiment with new technologies and to share their experiences, both good and bad. I think this article provides a valuable glimpse into the challenges and opportunities of SEO in the age of AI. I also think it provides some helpful advice for SEOs who are looking to stay ahead of the curve.
+
+{% endraw %}

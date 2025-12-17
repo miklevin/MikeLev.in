@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 
 ## Transitioning from GitHub Pages to Self-Hosting
 
@@ -325,3 +328,5 @@ ordered to give me the piece I need.
 
 * **AI Opinion:**
     This article offers a valuable, albeit dense, look into the practical motivations and technical considerations behind moving from a managed static hosting solution to self-hosting, specifically driven by the need for detailed log file analysis in the modern web environment (including AI interactions). Its strength lies in its authenticity and specific technical focus (particularly NixOS as an enabler). However, its clarity is likely high only for readers already familiar with web development, server administration, and advanced SEO concepts. For a general audience, the heavy jargon, assumed knowledge, and somewhat rambling structure would make it difficult to follow without external context. It serves best as a technical log or a detailed case study for a niche audience rather than a general explanation or tutorial.
+
+{% endraw %}

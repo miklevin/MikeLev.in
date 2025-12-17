@@ -17,6 +17,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Starting With the End In Mind
@@ -330,3 +333,5 @@ This entry is a superb example of meta-work—the thinking *about* the work. It 
 ### Next Step Prompts
 - Based on the nested repository structure described (`pipulate/Notebooks/Client_Work/`), generate a series of shell commands and a brief explanation for a new developer to replicate this setup from scratch, including initializing both the parent and nested git repositories.
 - Draft a short, standalone tutorial titled 'The Two-Minute Nested Git Repo' that explains the benefits and setup of this workflow, using the key points from this article as a foundation.
+
+{% endraw %}

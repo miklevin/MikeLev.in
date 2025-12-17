@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Have you ever wished you could effortlessly recreate your entire computer setup on any machine, regardless of its operating system? Imagine a world where sharing your exact development environment with colleagues is as simple as sharing a text file. Enter Nix and NixOS, revolutionary tools that are changing the game in system management and software development. Whether you're a seasoned programmer or just starting out, this article will introduce you to a powerful approach that can save you countless hours of setup time, eliminate "it works on my machine" problems, and give you unprecedented control over your computing environment. Get ready to discover how Nix can transform the way you think about software installation, system configuration, and project reproducibility.
 
 ## Introduction to Nix
@@ -331,3 +334,5 @@ The above flake is still a bit more complicated than it needs to be, because of 
 ## Conclusion
 
 And there it is. That's a system and flake template. All you need is one `/etc/nixos/configuration.nix` to define your system, and then you can sprinkle `flake.nix` files throughout your system and share them with others.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 > **LUCKY YOU**: You found the long article where I researched and rambled on about my personal connection to this topic. But you may be looking for is the summarized version where I debunk [peak data theory](https://mikelev.in/peak-data-theory).
 
 ## Summary
@@ -1247,3 +1250,5 @@ This article details my journey through the evolving search landscape, from earl
 **My Opinion of the Article:**
 
 This article is a fascinating blend of personal narrative and technical insight, offering a unique perspective on the evolution of search and the challenges facing the industry today. The author's candid reflections on their career, combined with their critical analysis of "peak data" theories, make for a compelling read. The article effectively bridges the gap between historical context and future possibilities, highlighting the importance of open-source tools and innovative workflows in an AI-driven world. The author's passion for democratizing access to information shines through, making this piece both informative and inspiring.
+
+{% endraw %}

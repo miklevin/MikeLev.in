@@ -20,6 +20,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Context for the Curious Book Reader
 
 This journal entry is a deep dive into a core philosophy for surviving and thriving in the tech world: the deliberate cultivation of a durable, open-source skill set that acts as a fortress against the winds of change and planned obsolescence. It starts with the analogy of a technical stack as a musical instrument—something to be mastered until it's an extension of your body—and contrasts this with the pain inflicted by proprietary vendors who arbitrarily change the rules. The narrative then walks through a real-world workflow, demonstrating how tools like Nix and NixOS can encapsulate this entire 'instrument,' making it reproducible, portable, and effectively immortal. This isn't just theory; it's the foundational 'why' that leads to a very practical 'how': a plan to build a new tool that brings this philosophy of permanence and stability into the often-ephemeral world of Jupyter Notebooks.
@@ -776,3 +779,5 @@ This entry is a powerful manifesto for technological sovereignty. It transcends 
 ### Next Step Prompts
 - Draft the README.md for the 'pipulate' Python library. Use the narrative from the 'From Metaphor to Module' section to explain the library's core philosophy: bringing Unix-pipe-like 'object permanence' to ephemeral Jupyter Notebooks. Include the provided Python code as a usage example.
 - Write a blog post titled 'Why I Replaced My OS with a Single Configuration File'. Expand on the sections discussing NixOS, explaining the concepts of immutability, the Nix store, and flakes for a developer who is tired of the 'works on my machine' problem.
+
+{% endraw %}

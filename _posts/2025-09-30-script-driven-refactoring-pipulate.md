@@ -22,6 +22,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this technical journal entry, I'm documenting the final phase of a major refactoring effort for my Python project, Pipulate. The goal is to decouple its database dependencies from the main web server environment, allowing it to run standalone in environments like Jupyter Notebooks. I've already solved the core problem for the main 'store' database but realize the 'pipeline' table has the same issue. This log captures the realization, the architectural validation, and my plan to automate the final, repetitive code changes across numerous plugin files using a deterministic Python script, ensuring a clean and verifiable update.
@@ -588,3 +591,5 @@ This is a high-value technical entry that captures a complete, modern software d
 ### Next Step Prompts
 - Based on the provided `runme.py` script, generate a new version with detailed, line-by-line comments explaining what each regex pattern does and why it's constructed that way. Frame it as a tutorial for others wanting to perform similar automated refactoring.
 - Write a short, standalone blog post titled 'The Architect and the Carpenter: A Simple Analogy for Database Connections' using the core explanation from this journal entry. Expand on the concept for a general developer audience.
+
+{% endraw %}

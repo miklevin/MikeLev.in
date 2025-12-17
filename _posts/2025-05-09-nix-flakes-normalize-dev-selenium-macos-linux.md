@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding Cross-Platform Development Environments: Getting Started
 
 When software developers build applications, they often want their tools and programs to work consistently whether they are using a Windows, macOS, or Linux computer. Achieving this "works everywhere" goal can be tricky because each operating system handles software installations and system resources differently. Nix is a powerful tool that helps create reproducible and identical software environments across these different systems. "Nix Flakes" are a modern way to define these environments.
@@ -847,3 +850,5 @@ This journey demonstrates that while Nix can't completely eliminate platform dif
 This article is a valuable contribution for developers navigating the complexities of cross-platform development and automation, especially within the Nix ecosystem. It demonstrates a practical and sophisticated approach to achieving consistent browser automation (Selenium) on both macOS and Linux by intelligently leveraging Nix Flakes for environment and dependency management, while adapting to OS-specific needs like WebDriver sourcing.
 
 The solution's elegance lies in how it abstracts platform differences within the Nix Flake and conditional logic in the Python script, allowing the core automation task to remain largely platform-agnostic. The use of `webdriver-manager` for macOS is a pragmatic choice. While the setup is intricate, it reflects the inherent challenges of true cross-platform reproducibility when interacting with host system components like browsers. This is a strong example of "Nix as `normalize.css` for development directories," tackling a difficult problem head-on. It's a solid piece for those already invested in or looking to adopt Nix for serious cross-platform projects.
+
+{% endraw %}

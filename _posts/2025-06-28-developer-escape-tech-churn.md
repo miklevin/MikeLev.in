@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the evolution of software development philosophy, chronicling a journey away from the ephemeral, churn-driven world of modern web frameworks towards a more durable, principles-based approach. The author, a veteran developer with roots in the Amiga computing era, articulates a deep-seated frustration with the "hamster wheel of tech"—a cycle of constantly changing tools and fragile skills. This monologue serves as the foundational worldview for a project called Pipulate, a software system designed to embody an alternative philosophy.
@@ -612,3 +615,5 @@ The dialogue with the AIs (Gemini, Grok, ChatGPT, and myself) is a unique and po
 2.  **Task Suggestion 2:** Generate Explanatory "Sidebars" for Key Concepts.
     * **Potential Prompt Snippet for Next AI:** "From the entry, identify three key historical technologies mentioned (e.g., AmigaDOS, XSLT, ASP.NET Web Forms). For each, write a brief, 100-word 'What Was...?' sidebar explaining the technology and its significance to a younger developer who has never encountered it, helping to bridge the generational context gap."
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents a high-stakes debugging session where a developer confronts a cryptic `Segmentation fault` on macOS. This type of error often occurs when Python code interfaces with lower-level compiled code, creating platform-specific instabilities that are notoriously difficult to solve. The challenge is compounded by the project's use of **Nix**, a powerful tool for creating reproducible development environments. The author has intentionally designed their Nix setup for flexibility, allowing Python dependencies to update freely—a common practice in data science but one that clashes with Nix's core promise of absolute determinism.
@@ -776,3 +779,5 @@ The interaction with the AI is also noteworthy. The AI acts as a Socratic partne
     * **Potential Prompt Snippet for Next AI:** "Using the `requirements-back.txt` (the original unpinned file) and the final `requirements.txt` (the `pip freeze` output), generate a `diff` that highlights only the packages that were version-pinned or added. Format this as a concise summary table for a book chapter."
 2.  **Task Suggestion 2:** Draft a "Key Principles" Boxout
     * **Potential Prompt Snippet for Next AI:** "Based on the developer's journey in this entry, write a 'Key Principles for Debugging Environments' boxout. Distill the experience into 3-4 actionable principles, such as 'Isolate the Environment from External Changes' and 'Establish a Known-Good Baseline'."
+
+{% endraw %}

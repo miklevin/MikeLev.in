@@ -19,6 +19,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry chronicles a critical debugging odyssey in the `pipulate` project. What began as a quest to simply quiet verbose log output in Jupyter Notebooks rapidly escalated into a complex investigation, touching upon Python's logging mechanisms, low-level C++ library interactions, and the intricate world of dependency management. It's a testament to the unpredictable nature of software development and the indispensable role of human persistence in untangling digital knots.
@@ -989,3 +992,5 @@ This entry is a potent case study in the realities of modern software developmen
 ### Next Step Prompts
 - Generate a simplified diagram illustrating the layers of libraries and dependencies involved in this debugging journey, from `pipulate` down to `grpcio`, highlighting where each issue occurred.
 - Draft a section that generalizes the 'Lessons Learned' from this debugging saga into a set of best practices for dependency management and log silencing in Python projects, suitable for a book chapter.
+
+{% endraw %}

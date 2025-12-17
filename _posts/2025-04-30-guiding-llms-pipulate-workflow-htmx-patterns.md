@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding Pipulate Workflows: Getting Started
 
 This document dives into the technical specifics of building automated processes, called "workflows," within a software framework known as Pipulate. Modern web applications often need ways to guide users through multiple steps, and updating the user interface smoothly between these steps can be complex. The approach discussed here uses a technology called HTMX, which helps manage these dynamic updates efficiently, often reducing the need for extensive custom JavaScript.
@@ -1176,3 +1179,5 @@ By carefully following the patterns established in the codebase and documented i
 **AI Opinion:**
 
 This document appears to be a highly valuable technical resource *for its intended audience* – likely the author, collaborators on the Pipulate project, or as training material for an AI coding assistant. Its strength lies in the detailed, explicit documentation of non-obvious but critical implementation patterns within the Pipulate framework, particularly the HTMX chain reaction. While clarity is high for someone already familiar with the context, it would be largely impenetrable to a newcomer due to jargon and assumed knowledge. Its usefulness seems high for the specific task of ensuring consistent and correct implementation of Pipulate workflows, especially when automating or assisting development with LLMs. It serves well as a technical log or pattern repository.
+
+{% endraw %}

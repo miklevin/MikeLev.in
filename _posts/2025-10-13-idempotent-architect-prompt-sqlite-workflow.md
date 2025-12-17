@@ -17,6 +17,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -753,3 +756,5 @@ This journal entry is an excellent example of iterative development and transpar
 - Develop a new `dom_tools.py` component to extract `seo_fields.md` (YAML front matter + markdown body) to further prime the AI model.
 - Draft a separate companion piece expanding on the 'Human-AI Craftsmanship Loop' as a development philosophy, perhaps with a diagram.
 
+
+{% endraw %}

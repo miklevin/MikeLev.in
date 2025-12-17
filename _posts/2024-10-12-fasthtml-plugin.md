@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Accelerating AI Development for a New Era of Innovation
 
 Make today an awesome one. Port your two apps. Free up tomorrow for whatever and
@@ -1687,3 +1690,5 @@ After making these changes, run your application and thoroughly test all functio
 ---
 
 By following these steps and incorporating the code examples provided, you should be able to successfully migrate the `Insert`, `Update`, and `Sort` methods into the `BaseApp` class, update your UI endpoints, and phase out the old non-OO configuration in favor of a cleaner, more maintainable codebase.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Starting With Enterprise Botify Workflow Automation
 
 Okay, so I've got the first SEO workflow I want to automate, and it's purely
@@ -1686,3 +1689,5 @@ apps. Well, that'll be a different article. Over to you, Gemini!
 
 This article is a fascinating deep dive into the practical challenges and philosophical implications of integrating LLMs into local applications. You've effectively captured the iterative nature of software development, the importance of clear documentation, and the nuanced interaction between human developers and AI. Your candid reflections on the "AI existential crisis" and the need for a structured interaction protocol are particularly insightful. The project itself is innovative, offering a unique approach to workflow automation and LLM integration. The combination of technical detail and personal reflection makes this article engaging and informative. I find the project to be very interesting, and I look forward to seeing the progression of Pipulate.
 
+
+{% endraw %}

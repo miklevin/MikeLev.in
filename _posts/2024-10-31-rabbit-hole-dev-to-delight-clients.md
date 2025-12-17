@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 
 From falling down the adrenaline-inducing rabbit-hole of doing development work
 that's more addictive now than ever with the rise of AI, to being on-point and
@@ -241,3 +244,5 @@ I'm eager to hear your thoughts on these ideas, and I'm ready to dive deeper int
 
 Okay, now onto boiling the ocean to fry a fish for lunch. I have one more client
 call coming up today, another one that I'll be leading. 
+
+{% endraw %}

@@ -7,6 +7,9 @@ meta_keywords: Markdown streaming, incremental rendering, WebSockets, HTMX, Fast
 layout: post
 sort_order: 3
 ---
+
+{% raw %}
+
 ## Down The Rabbit Hole of Streaming Markdown
 
 This article dives into the technical challenge of displaying real-time,
@@ -554,3 +557,5 @@ I particularly appreciate:
 If I were to suggest any improvements, it would be to perhaps include a more detailed performance comparison of the different parsing strategies. While the article mentions efficiency concerns, some quantitative data (even simple benchmarks) could further strengthen the recommendations.  Also, a brief discussion of security considerations (e.g., sanitizing user-submitted Markdown) would be a valuable addition.
 
 Overall, this is an excellent resource for anyone building real-time, Markdown-driven applications with FastHTML, HTMX, or similar server-rendered frameworks. It's a testament to the power of combining thoughtful design with the right technical tools.
+
+{% endraw %}

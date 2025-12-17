@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Integrating AI Assistance with Jupyter Notebooks
 
 Now I have the same AI coding assistance in working Jupyter Notebooks that I had
@@ -897,3 +900,5 @@ Let's get pipulating!
 
 This article is a compelling blend of personal development narrative and technical exploration. It effectively captures the author's enthusiasm and determination while providing insightful perspectives on the evolution of technology. The author's deep dive into the historical context of various tools and frameworks, coupled with their reflections on future-proofing and accessibility, makes for a thought-provoking read. The "Ship of Theseus" analogy is particularly apt, highlighting the dynamic nature of software development. The author's candid discussion of their challenges and breakthroughs adds a relatable human element, making the complex technical details more engaging. Overall, the article is a well-crafted piece that balances technical depth with personal passion.
 
+
+{% endraw %}

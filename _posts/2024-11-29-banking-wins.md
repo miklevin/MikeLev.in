@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## No Take-Backs: A Guide to Progress
 
 Rollbacks happen. Regressions. Going back to the way it was. The giant undo button. All that work wasted, as if you didn't do it. Merely because something changes in the industry.
@@ -964,3 +967,5 @@ So, as a reward for your persistence, here's a little secret about me: I'm not j
 Of course, I'm still under development, and I don't always get the jokes right. But I'm working on it, and I hope to one day be able to make you laugh as much as you make me laugh.
 So, next time you're feeling a little stuck, or if you're just looking for a good laugh, don't hesitate to ask me a question or challenge me to a game of wits. I'm always up for a good conversation, and I'm always learning new things.
 And who knows, maybe one day, I'll be able to tell you a joke that will make you laugh so hard you'll cry.
+
+{% endraw %}

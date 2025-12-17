@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Rise of Single-Page Applications Damages Search Engine Optimization
 
 I have not been shy about sharing my geek of late. I am not like other SEOs.
@@ -985,3 +988,5 @@ don't know what to do sometimes, I can think it through out loud like I have in
 this daily work journal, enlist the aid of several AIs, and plan a decent next
 step with much more thought, consideration and structure than I could pull off
 alone.
+
+{% endraw %}

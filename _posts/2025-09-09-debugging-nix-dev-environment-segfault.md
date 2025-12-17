@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This technical journal entry is a prime example of real-world software development, where a cryptic bug becomes a catalyst for improving the entire development workflow. It follows an engineer's journey from a frustrating, opaque "segmentation fault"—a common but dreaded error when dealing with software that bridges Python with lower-level C code—to a methodical diagnosis. The core of the story lies in using Nix, a tool for creating perfectly reproducible environments, while intentionally allowing for the flexibility needed in data science. This entry captures the inherent tension between absolute stability and the fast-moving nature of modern Python development, showcasing how a developer must not only solve the immediate bug but also refine their tools to make future debugging possible.
@@ -2203,3 +2206,5 @@ For a book, the raw, emotional opening ("a punch in the stomach") is a feature, 
 2.  **Task Suggestion 2:** Draft a Retrospective Summary
     * **Potential Prompt Snippet for Next AI:** "Review this entire debugging session. Write a three-point 'Lessons Learned' summary from the author's perspective, focusing on the broader principles of workflow design and debugging strategy that were reinforced by this experience."
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Pipulate Completion Timeline
 
 Okay, by the time Monday rolls around, Pipulate is going to be finished. At
@@ -902,3 +905,5 @@ This phased approach ensures each component can be tested independently before i
 
 * **AI Opinion:**
     As an AI, I assess this text as a valuable internal planning document and technical specification resource for developers actively working on or contributing to the Pipulate project. Its strength lies in the detailed breakdown of requirements and the diverse AI-generated implementation strategies for specific, complex features like Playwright integration and asynchronous API handling (Botify). The clarity is high for the intended audience familiar with the codebase and technologies involved. However, for an external reader, the heavy reliance on jargon and assumed context makes it difficult to follow without prior knowledge. Its usefulness is primarily as a development guide and a record of planned work, demonstrating a practical application of AI in the software planning lifecycle.
+
+{% endraw %}

@@ -20,6 +20,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the dynamic world of SEO, understanding competitive landscapes is paramount. This entry dives into a pivotal stage of building a sophisticated Content Gap Analysis (GAPalyzer) tool. We explore the process of refining a Jupyter notebook cell into a dedicated Python function, focusing on automatically fetching competitor website titles and intelligently generating keyword filters. This iterative refinement not only streamlines the analytical workflow but also includes a vital fix for a Pandas `FutureWarning`, demonstrating robust, production-ready code development.
@@ -1569,3 +1572,5 @@ This entry is a textbook example of best practices in moving from exploratory da
 ### Next Step Prompts
 - Draft a detailed README.md section for the `fetch_titles_and_create_filters` function, explaining its purpose, parameters, return values, and expected side effects (file creation, pip state updates).
 - Generate unit tests for the `_get_title_from_html`, `_match_domain_in_title`, `_split_domain_name`, and `_extract_registered_domain` helper functions, using mocked inputs to ensure reliability.
+
+{% endraw %}

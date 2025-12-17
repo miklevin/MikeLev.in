@@ -17,6 +17,9 @@ layout: post
 sort_order: 9
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles a detailed and often challenging journey to establish robust, internal-only HTTPS on a NixOS system using Caddy as a reverse proxy. It serves as a practical blueprint, methodology, and philosophy for debugging complex infrastructure issues with collaborative AI, covering everything from initial setup and firewall hardening to intricate NixOS packaging nuances and script permission errors. This is an important piece to know in the Age of AI, showcasing how persistence and precise interaction can unravel deep technical problems.
@@ -1230,3 +1233,5 @@ This entry is a compelling testament to the power of human-AI collaboration in t
 ### Next Step Prompts
 - Generate a detailed guide on configuring Caddy for multiple internal services (e.g., Trilium, Grafana, OpenWebUI) using subdomains and a local DNS solution on NixOS.
 - Explore alternative methods for deploying internal CA certificates to Windows and macOS clients, potentially discussing enterprise-level solutions or script-based automation for those platforms.
+
+{% endraw %}

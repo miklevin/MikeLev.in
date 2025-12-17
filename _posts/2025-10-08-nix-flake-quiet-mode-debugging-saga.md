@@ -17,6 +17,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry is a perfect, unfiltered snapshot of my daily development loop: identify a small friction point, use an AI as a collaborator to propose a code change, and then rigorously test the result. What begins as a simple request to add a 'quiet mode' to a Nix development environment quickly pivots into a classic debugging session. It's a real-world demonstration of how Infrastructure as Code (IaC) provides immense power through precision, but demands that same precision in return. The story culminates in the discovery and fixing of a single, undeclared Python dependency—a satisfyingly simple solution to a show-stopping problem, all validated by the very tools the environment was built to support.
@@ -3727,3 +3730,5 @@ This entry is a gem. It’s a microcosm of the entire book's philosophy: using p
 ### Next Step Prompts
 - Using the final, successful `list_articles.py` output, generate a new analysis. Identify the top 5 most frequently occurring keywords from the meta descriptions and suggest 3 new thematic clusters for the book's table of contents based on this data.
 - Based on the `flake.nix` refactoring, write a short, generic tutorial titled 'How to Create Multiple Shells (e.g., quiet, dev) in a Single Nix Flake' that explains the pattern of using a `commonHook` and multiple `devShells` for different use cases.
+
+{% endraw %}

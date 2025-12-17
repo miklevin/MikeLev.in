@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## From Local RAG to Frontier Models: A Strategic Pivot
 
 My initial plan for tackling the disorganized sprawl of my blog archive involved
@@ -1845,3 +1848,5 @@ Here are the revised summary and introductory paragraph:
 **(Introductory Paragraph Framing the Transition)**
 
 [Moved to top]
+
+{% endraw %}

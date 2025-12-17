@@ -19,6 +19,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment in my journey to create a truly collaborative software development process with AI. I was moving beyond simple conversational pair-programming to a more robust model where I act as a 'general contractor' and the AI acts as a subcontractor. The core of this model is the 'prompt-as-contract'—a detailed, non-negotiable set of instructions for the AI agent to perform. This entry documents the raw, unfiltered process of drafting these contracts, the repeated, frustrating failures of the AI to execute them on a complex codebase, and the critical insight I gained when the system broke down. It's a story about failure, debugging the human-AI workflow itself, and the surprising realization that sometimes, the most effective agent for executing an AI's meticulously crafted plan is the human who commissioned it.
@@ -1685,3 +1688,5 @@ This entry is exceptionally valuable because it transcends a simple technical tu
 ### Next Step Prompts
 - Write the follow-up journal entry detailing the manual execution of the AI's refactoring plan. Title it 'The Master Craftsman: Executing an AI's Perfect Plan.' Describe the experience of using Vim to perform the code transplant, confirm the successful restart of the server, and demonstrate the now-working `[ls]` command. Conclude by teeing up the next attempt to have the AI agent work on the newly modularized code.
 - Draft a conceptual article for a technical blog titled 'Designing AI-Friendly Codebases.' Use the `ImportError` from this journal entry as the central case study. Distill the lessons learned into actionable principles for other developers, such as favoring modularity over monoliths, understanding initialization order, and creating simple, atomic entry points for AI edits.
+
+{% endraw %}

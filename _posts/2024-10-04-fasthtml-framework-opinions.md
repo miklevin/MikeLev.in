@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Building a Framework With Nix and Python Is Next Steps
 
 Every day is a discovery process. I'm recalibrating myself to a new tech
@@ -919,3 +922,5 @@ serve()
 ```
 
 Pshwew! I've got to internalize this a bit.
+
+{% endraw %}

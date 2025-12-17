@@ -17,6 +17,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This is a raw, unfiltered look into the debugging trenches. What you're about to read is the real-time log of a developer and an AI collaborator going in circles for days, trying to solve a catastrophic 'Segmentation fault: 11' on a Mac. It's a story of chasing red herrings, wrestling with dependency hell, and mounting frustration. More importantly, it's a story about the pivotal moment when the right tool—in this case, Python's `faulthandler` module—instantly illuminates a problem that hours of logical deduction could not. This entry stands as a powerful testament to the fact that for some bugs, the most important question isn't 'what's wrong?' but 'how can I make the crash tell me what's wrong?'
@@ -1801,3 +1804,5 @@ This is a premium journal entry. It transcends a simple 'how-to' guide and becom
 ### Next Step Prompts
 - Using the final corrected `requirements.in` from this journal entry, write a new, standalone tutorial titled 'A Modern Python Dependency Workflow with pip-tools' that explains the principles of using a .in file to manage a fully-pinned .txt lockfile.
 - Analyze the full conversation history. Write a post from the AI's perspective titled 'My Blind Spot: How I Learned to Debug Segmentation Faults', explaining its own reasoning failure (confirmation bias, pattern-matching on common issues) and how this incident improves its future debugging advice.
+
+{% endraw %}

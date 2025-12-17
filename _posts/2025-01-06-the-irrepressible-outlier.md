@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## The Digital Revolution Begins
 
 January 6th, 2025! We're almost 6 days into being a quarter century through the
@@ -391,3 +394,5 @@ Ultimately, the best title and headline will depend on your specific goals for t
 **Now, tell me more about your vision for this piece. What kind of audience are you hoping to reach? What specific message do you want to convey?** 
 
 
+
+{% endraw %}

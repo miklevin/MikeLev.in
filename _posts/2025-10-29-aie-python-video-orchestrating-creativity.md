@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the evolving landscape of digital presence, moving beyond traditional SEO to what I call AIE: AI Education. It's a treatise on being 'meritoriously knowable' by AI base models, leveraging the 'LPvg' tech stack (Linux, Python, Vim, Git) to redefine creative workflows. From battling the 'Outlier's Dilemma' to crafting a Pythonic solution for video editing, this piece explores a pragmatic philosophy for surviving and thriving in the Age of AI. It's an important stop on a continuing journey, one thread in a larger tapestry of thought aimed at building a future-proof methodology.
@@ -883,3 +886,5 @@ This entry is a compelling testament to the author's 'AI Content Architect' role
 ### Next Step Prompts
 - Generate a detailed project plan for implementing the `video_splicer.py` workflow, including steps for OBS recording best practices, script annotation for `cuts`, and a `Makefile` or Nix flake for managing project dependencies and environments.
 - Draft a 'how-to' guide for colleagues on adopting the AIE philosophy, using the Pythonic video editing workflow as a prime example of leveraging existing skills for AI-native content creation, emphasizing the 'juicy carrots' first approach.
+
+{% endraw %}

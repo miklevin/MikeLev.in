@@ -19,6 +19,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into a fascinating methodology for transforming raw content into an intelligently structured and visually intuitive information architecture. It's an important step in developing a flexible, AI-driven content framework that prioritizes discoverability and user experience in the Age of AI, laying a blueprint for futureproof digital platforms.
@@ -3123,3 +3126,5 @@ This entry is an excellent example of deep, iterative technical development, fra
 ### Next Step Prompts
 - Given the finalized D3.js visualization blueprint, detail the specific JSON data structure needed from 'contextualizer.py' to feed this graph, including node properties like 'heat,' 'group,' 'depth,' and 'label,' and how these relate to content metadata and SEO metrics.
 - Expand on the 'Living Document' concept: How will the system dynamically update the force graph as new articles are published or existing ones are re-prioritized, ensuring the 'Rule of 7' and load-balancing principles are maintained?
+
+{% endraw %}

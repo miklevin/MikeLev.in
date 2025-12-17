@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Building A Python Environment In Nix Requires Some Workarounds
 
 While **Nix** is flexible, you still must manage software and dependencies the Nix way to reap its benefits. That deterministic re-building of the exact same environment is the point, after all. However, when you're building a Python environment, you might need to use libraries that aren't yet in the Nix package management system, such as `fast-html`. The obvious solution is to simply `pip install` them the classic (non-Nix) way. The previous article covered the basic template to do that.
@@ -425,3 +428,5 @@ It's important to note there is a distinct audience split for this kind of infor
 2. **Flake Users:** These users simply pull a git repository (or use a `curl` command) to obtain the flake and run `nix develop` in that directory. The environment setup is handled automatically.
 
 The second audience, while not preparing flakes themselves, are free to `pip install` as they always have in a Python environment without fear of polluting their system. They are more like data scientist developers who don't need to understand all the IT intricacies. They just answer a few questions about their API key secrets and dive into a Jupyter Notebook, Python IDE, or command-line shell—**and they're golden**.
+
+{% endraw %}

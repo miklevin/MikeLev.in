@@ -18,6 +18,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry provides an interesting look into the real-time problem-solving of a developer navigating the complexities of a Python codebase. It's a soliloquy on the art of architectural refactoring, the pragmatic choices behind web scraping toolchains, and the iterative dance between human insight and AI-assisted diagnostics. As part of a larger tapestry of articles, this piece illustrates the tangible process of evolving an automation system for SEO data extraction, emphasizing the constant need for control, adaptation, and a keen eye in the Age of AI.
@@ -639,3 +642,5 @@ This entry is an important demonstration of agile development and AI-assisted pr
 ### Next Step Prompts
 - Draft the initial Python code for the `inspect_seo.py` script, focusing on Beautiful Soup extraction of standard SEO fields and placeholder logic for YAKE/AI keyword targeting.
 - Outline a strategy for integrating SEMRush keyword volume data with the extracted targeted keywords, considering API integration and data structure for the final spreadsheet output.
+
+{% endraw %}

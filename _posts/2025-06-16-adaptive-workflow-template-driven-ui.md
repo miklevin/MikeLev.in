@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents a pivotal architectural refinement within the Pipulate project, an advanced SEO and data analysis tool. The central challenge explored here is evolving a complex, multi-step data workflow beyond a fixed sequence of operations into something far more intelligent and adaptable. At the heart of this discussion is the concept of **template-driven design**, where the user-facing workflow dynamically changes its structure and steps based on a single configuration setting. This moves the system away from rigid, hardcoded paths toward a more fluid architecture that can serve multiple distinct use cases—like a "Link Graph" analysis versus a "Parameter Buster" audit—from a single, elegant template file.
@@ -873,3 +876,5 @@ The most unique aspect is the frank and effective human-AI collaboration. The au
 2.  **Task Suggestion 2:** Draft a "Key Architectural Principles" Section
     * **Potential Prompt Snippet for Next AI:** "From the provided entry, extract three key architectural principles demonstrated. For each principle (e.g., 'Configuration over Controls,' 'Hybrid Compatibility for Tooling,' 'The Force Multiplier Template'), write a one-paragraph explanation suitable for a book chapter that defines the principle and explains its strategic value in software development."
 
+
+{% endraw %}

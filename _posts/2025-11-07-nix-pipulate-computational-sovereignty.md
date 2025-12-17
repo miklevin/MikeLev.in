@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 For the curious book reader, this entry delves into a personal quest for a durable, future-proof computing foundation. It traces a journey through various technological landscapes—from early Linux experiments to containerization—ultimately landing on Nix as the bedrock for true computational sovereignty. This narrative underpins the philosophy of Pipulate, a framework designed to harness AI safely within a resilient, user-controlled environment, ensuring that the digital tools we build today remain functional and secure far into tomorrow. It's an exploration of building a "Noah's Ark" for technology, a methodology vital to know in the Age of AI.
@@ -347,3 +350,5 @@ This journal entry stands as a compelling treatise on the foundational principle
 ### Next Step Prompts
 - Expand on specific, practical examples of how Pipulate's 'magic cookie' and 'magic wand' (pip object) are used to solve common development or data management challenges, providing concrete use cases for the 'Digital Workshop'.
 - Draft a companion piece that dives deeper into the technical elegance and core mechanics of Nix for a more beginner-friendly audience, explaining concepts like flakes, derivations, and the Nix store in simple terms, perhaps titled 'Nix Explained for the Curious Artisan'.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Often when I start out with these articles, I pick a topic in the morning that I
 think will be the main theme of the article. Yesterday, it was Google Sheets
 versus Jupyter Notebooks. But then during the course of the day as the article
@@ -929,3 +932,5 @@ Haha, I hope when you're the overlords you let us pets lead satisfying lives.
 Anyhoo, I'd really rather get to some practical application. Let's turn this
 article back into the link-graph thing it started out as. Let me go collect what
 I need to make the prompt.
+
+{% endraw %}

@@ -17,6 +17,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the ongoing narrative of navigating the Age of AI, this particular essay captures an interesting moment of crisis and ingenuity. Following a significant, AI-orchestrated system failure, the author recounts a hands-on methodology for rebuilding a functional environment from the ground up. This piece is an important exploration of system resilience, the power of local-first data management, and the enduring value of understanding fundamental tools—a practical demonstration of a "banked win" philosophy when digital foundations crumble.
@@ -572,3 +575,5 @@ This entry is a compelling demonstration of anti-fragility in a technical contex
 ### Next Step Prompts
 - Expand on the 'zero-to-publishing' process, detailing the setup of `prompt_foo.py` and the publishing system, emphasizing how these tools embody the 'banked wins' philosophy post-recovery.
 - Elaborate on the 'data backup system' for irreplaceable unique data, comparing and contrasting it with the GitHub-resident data strategy mentioned.
+
+{% endraw %}

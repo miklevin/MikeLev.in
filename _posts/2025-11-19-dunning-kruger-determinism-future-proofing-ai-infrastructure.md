@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In an era saturated with information, where the line between fact and algorithmic fiction blurs, this blueprint delves into the fundamental challenges facing those seeking to future-proof their skills. From the innate human tendency towards overconfidence, famously articulated by the Dunning-Kruger effect, to the sophisticated mechanisms of modern media manipulation and the transformative power of AI, we navigate a landscape designed to obscure truth. This essay argues that true resilience lies in embracing verifiable, reproducible realities—a "bedrock" of logic that stands firm against the shifting sands of digital gaslighting.
@@ -838,3 +841,5 @@ This article is a powerful, integrated treatise on the necessity of verifiable r
 ### Next Step Prompts
 - Develop a detailed outline for the 'No-Gooey Video' project, applying the 'Bedrock' philosophy of reproducible, declarative video production using Python (MoviePy) and potentially Nix for environment management.
 - Draft a follow-up article that delves into the 'friction as a feature' concept, exploring how embracing strictness in software development ultimately leads to greater freedom and resilience against entropy.
+
+{% endraw %}

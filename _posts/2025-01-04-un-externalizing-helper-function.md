@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 > Yesterday I got very distracted with getting better at git. It was a rabbit
 > hole, but one I'm very glad I took. However, that leaves me still at the
 > analysis of the Pipulate pipeline workflows to squeeze a bit more elegance out
@@ -3033,3 +3036,5 @@ This title captures the creative and expressive nature of the refactoring proces
 
 I'm eager to hear which title resonates most with you! 😊
 
+
+{% endraw %}

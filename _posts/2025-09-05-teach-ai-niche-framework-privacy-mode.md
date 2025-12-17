@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a local-first software project built with the niche Python web framework, FastHTML. At its core, Pipulate is designed as a "digital workshop" where the author and AI coding assistants collaborate directly. The central challenge explored here is a classic catch-22 of the modern AI era: how can an AI assistant help write code for an unpopular framework it was never trained on? The author's code, which could serve as vital training data, has been kept private out of caution.
@@ -475,3 +478,5 @@ The raw, conversational format, including the dialogue with "Grok," is a signifi
 
 2.  **Task Suggestion 2:** Create a list of key takeaways.
     * **Potential Prompt Snippet for Next AI:** "From the entry about the 'Magic Rolling Pin' and turning off AI privacy mode, extract the 5 most important strategic takeaways for a software developer working with niche technologies in the age of AI. Present them as a bulleted list with brief explanations."
+
+{% endraw %}

@@ -19,6 +19,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This document is a raw, real-time log of a sophisticated collaboration with an AI coding agent. The overarching goal was to make the AI perform a delicate, multi-step code refactoring task autonomously. What unfolds is a fascinating journey of debugging not the code, but the AI's instructions. Each failure—a misunderstood environment, a clumsy tool, an inability to recognize completion—becomes a crucial data point. This process leads to the development of a highly resilient, self-correcting workflow, which I've dubbed the 'SNEFU to ROFSA' playbook. It's a powerful demonstration of how to build an external 'memory' and a robust operational procedure for an amnesiac AI agent, turning the typical downward spiral of software errors into a guaranteed upward spiral of progress.
@@ -869,3 +872,5 @@ This entry is a masterclass in modern prompt engineering. It transcends simple i
 ### Next Step Prompts
 - Based on the 'Pre-Prompting Framework' detailed in the text, generate a generic, reusable `prompt_template.md` file. This template should use placeholder variables (e.g., `{{MISSION}}`, `{{ENVIRONMENT_RULES}}`, `{{IMPLEMENTATION_PLAN}}`) that a user can fill in to rapidly construct a robust, failure-proof prompt for a new agentic task.
 - You are a 'Red Team' AI agent specializing in finding loopholes in instructions. Your goal is to break the workflow defined in the final `prompt.md`. Analyze the prompt for any remaining ambiguities, edge cases, or unstated assumptions. Describe three specific scenarios where a literal-minded AI agent could still fail or enter a loop despite these instructions, and suggest modifications to the 'Prime Directives' to close these loopholes.
+
+{% endraw %}

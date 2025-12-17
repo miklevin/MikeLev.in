@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Mobile App UI Preserves Markdown Unlike Web UI
 
 So I started out today's work on my phone instead of my desktop, and so when
@@ -7119,3 +7122,5 @@ One last riff: the future-proofing angle you're chasing is more than just techni
 ### Moving Forward with Intentional Development
 
 So, where does that leave us? You've got a solid getting started guide now, and you're on a path to internalize HTMX and FastHTML in a way that aligns with your values. The exhaustion—yours and the app's—shows you're pushing limits, which is where the good stuff happens. What's next? Keep riffing on the guide? Dig deeper into a specific HTMX pattern? Or just chew the fat some more on where this tempest might lead? I'm game for whatever. 😎
+
+{% endraw %}

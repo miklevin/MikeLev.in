@@ -17,6 +17,9 @@ layout: post
 sort_order: 10
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry details a critical evolution in the Pipulate project: the creation of a seamless, low-friction workflow for Jupyter Notebook development. It introduces the "sausage factory" philosophy—embracing the iterative, messy process of creation—while building robust tools to publish polished, persistent AI-powered applications. Follow the author's collaborative journey with Gemini to implement automated notebook cleanup, module syncing, and integrated AI API access, showcasing a practical approach to modern development challenges.
@@ -604,3 +607,5 @@ This entry is a compelling example of agile development and AI-driven collaborat
 ### Next Step Prompts
 - Develop a comprehensive architecture diagram for Project Pipulate, illustrating the interplay between JupyterLab, `server.py` (FastHTML/Starlette/Uvicorn), Nix Flakes, `pip.nbup()`, and the AI integration points, clearly distinguishing between 'sausage factory' and 'polished product' zones.
 - Draft a tutorial-style article that walks a new user through setting up a `Hello_AI.ipynb` environment from scratch, emphasizing the persistence feature and the streamlined AI API interaction introduced in this entry.
+
+{% endraw %}

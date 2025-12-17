@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This case study documents the resolution of a classic conflict in modern software deployment: how to maintain a seamless, self-updating application for users while still providing them with templates or tools they can freely modify. The project at the heart of this entry, Pipulate, relies on a sophisticated "magic cookie" installation process. This process uses Nix Flakes to create a perfectly reproducible, git-powered environment on a user's machine, even if they don't have git installed initially. A key feature is its ability to automatically update itself with a simple `git pull` every time the user starts the application.
@@ -964,3 +967,5 @@ The narrative isn't just about code; it's about a philosophy of development that
 2.  **Task Suggestion 2:** Create a Visual Explanation.
     * **Potential Prompt Snippet for Next AI:** "Generate a Mermaid.js 'gitGraph' diagram that visualizes the problem and solution from the attached text. The 'before' state should show a `main` branch with a commit, a local modification to `botify_api.ipynb`, and a failing `git pull`. The 'after' state should show a `main` branch with a commit, a successful `git pull`, and a separate, untracked `botify_api_local.ipynb` file with user edits."
 
+
+{% endraw %}

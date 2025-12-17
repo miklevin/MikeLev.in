@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Need for Story-Nubs and Language Evolution
 
 I need to start creating story-nubs. Nubs or stubs? Wikipedia calls them stubs.
@@ -200,3 +203,5 @@ list at the bottom of the file.
 
 This article effectively captures the internal struggle of a creative individual navigating the challenges of modern productivity and technology. The author's candid exploration of their workflow, from idea capture to implementation, provides valuable insights into the creative process. The discussion of balancing personal preferences (like HTMX) with the evolving landscape of AI-assisted development is particularly relevant. The article also provides a good look into the personal workflow of a modern content creator. I also find the inclusion of the various Japanese concepts, and how they apply to productivity, to be very interesting.
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Code Optimization Journey: From 10K to 2.5K Lines
 
 Okay, so I took a codebase that exploded to about 10K lines and 60K tokens (per
@@ -2611,3 +2614,5 @@ I've been working on a codebase for a web app that was getting too big and unwie
 **My Opinion:**
 
 I find your journey to optimize your codebase and embrace new technologies quite inspiring! It's fascinating to see how you're leveraging FastHTML and HTMX to streamline Python web development. The concept of a local-first workflow app with integrated AI assistance is innovative and has the potential to be a game-changer. I'm particularly impressed by your dedication to continuous learning and improvement. Keep up the great work, and I'm excited to see the final version of Pipulate!
+
+{% endraw %}

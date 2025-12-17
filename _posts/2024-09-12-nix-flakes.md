@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## A Cross-Platform Python Nix Flake with CUDA Support
 
 You're probably here for is this [Python Nix Flake](https://github.com/miklevin/darwinix)
@@ -431,3 +434,5 @@ graph TD
     style M fill:#fbb,stroke:#333,stroke-width:2px
 </div>
 
+
+{% endraw %}

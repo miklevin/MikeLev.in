@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## TL;DR: Using AI to Find Focus in Software Development
 
 If you're here for practical insights on using LLMs to guide software development decisions, especially for SEO tools, you're in the right place. This article chronicles my journey through a day of coding on my Pipulate project, where I found myself at a crossroads between multiple technical approaches.
@@ -1455,3 +1458,5 @@ This article provides a fascinating and highly valuable case study on the practi
 The transparency in sharing the thought process, the prompts, and the detailed AI responses is a major strength, offering concrete insights for other developers facing similar challenges. The convergence of recommendations from different models towards implementing vector embeddings serves as compelling evidence for the chosen direction and highlights the utility of using LLMs as "sparring partners" or consultants.
 
 While the article's length and inclusion of tangential explorations might slightly detract from its core focus for some readers, the overall narrative successfully illustrates a sophisticated and increasingly relevant use case for AI: augmenting human developers not just in *how* to build, but in deciding *what* to build next. It's a compelling snapshot of human-AI collaboration in navigating the complexities of modern software engineering.
+
+{% endraw %}

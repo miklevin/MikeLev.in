@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Cleaning Up Digital Text: Automating Fixes with Code
 
 When transferring text between different applications, like from Google Docs to a format called Markdown (commonly used for web content or plain text notes), formatting often gets messy. Tools used within Google Docs, like AI assistants, can sometimes add to this complexity. Things like footnote numbers, special characters (backslashes, pipe symbols `|`), and citations might not appear correctly in the final Markdown text, requiring manual cleanup which takes time.
@@ -192,3 +195,5 @@ By applying these targeted Vim commands, especially using the `.,$` range for co
 **AI Opinion:**
 This article offers high practical value for its intended audience: Vim/Neovim users who frequently work with Markdown exported from Google Docs. It directly addresses a common pain point with concrete, well-explained solutions. While the technical jargon and assumed knowledge limit its general accessibility, the clarity for a user familiar with Vim and regex is excellent. The inclusion of workflow tips (confirmation, resuming) significantly enhances its usefulness for real-world application. It functions effectively as a targeted technical guide or reusable snippet collection.
 
+
+{% endraw %}

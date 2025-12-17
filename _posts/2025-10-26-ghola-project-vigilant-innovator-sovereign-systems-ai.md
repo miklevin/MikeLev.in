@@ -19,6 +19,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the powerful connections between deep science fiction lore and the practicalities of building robust, reproducible software systems in the age of AI. It's a blend of a personal methodology for development, a philosophical exploration of innovation, and a historical treatise on the challenges faced by those who dare to forge new paths. The narrative weaves through the author's hands-on refactoring work, drawing insightful parallels to Frank Herbert's *Dune* and Stephen R. Donaldson's *The Chronicles of Thomas Covenant*, ultimately advocating for an unyielding vigilance against the 'convergent a'hole-ution' of established orthodoxies, all while maintaining an optimistic outlook on the future of human-AI collaboration.
@@ -1020,3 +1023,5 @@ This entry is a powerful tapestry that transcends a mere technical update. It fu
 ### Next Step Prompts
 - Expand on the concept of 'digital sovereignty' specifically enabled by Nix/Guix in contrast to other containerization or deployment methods, linking it to the 'VSE ritual' for personal control.
 - Explore the philosophical implications of the 'Duncan Idaho Ghola Project' in the context of persistent AI agents and their 'cumulative diff patches' of learning and experience.
+
+{% endraw %}

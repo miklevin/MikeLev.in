@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the compelling narrative of software development, viewed through the lens of a 'wizarding' hierarchy. It begins with a personal reflection on ambitious projects and the pursuit of a 'technical artistic vision,' then swiftly transitions into an exploration of programming's foundational figures, their iconic text editors, and the philosophical battles that have shaped how we build technology today. From the primal forces of minimalism versus maximalism embodied by vi and Emacs, to the modern relevance of languages like Python and Rust, and the current 'alignment battle' between VS Code and Neovim, the piece uncovers the rich history and enduring relevance of these choices for anyone aspiring to mastery in the craft of code.
@@ -297,3 +300,5 @@ This entry is a compelling blend of personal reflection, historical analysis, an
 - Expand on the 'Tier 2 Master Builders' in your own voice, focusing on how their work exemplifies a specific kind of wizardry distinct from the architects or system weavers, providing more concrete examples.
 - Draft a short personal reflection (1-2 paragraphs) after the 'Gemini' section, explicitly detailing which text editor philosophy (vi/vim, Emacs, or VS Code) currently resonates most with you and why, linking it back to your FAQuilizer project and 'technical artistic vision.'
 - Develop the concept of 'FAQuilizer' further within its own journal entry, describing its core purpose, how it embodies your 'Tier 3 System Weaver' aspirations, and the specific technical challenges you are overcoming.
+
+{% endraw %}

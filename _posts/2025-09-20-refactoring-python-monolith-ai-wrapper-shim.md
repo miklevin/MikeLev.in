@@ -20,6 +20,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry is a raw, real-time account of a critical engineering challenge: how do you perform major architectural surgery on a live system without killing the patient? The narrative captures the tension between a hyper-strict, live-reloading development environment—where any error is catastrophic—and the desire to use an AI agent for complex refactoring. It documents a series of frustrating failures caused by a classic circular dependency trap, followed by a breakthrough insight. The solution wasn't just a clever bit of code (the 'wrapper shim'), but a new, more sophisticated model for human-AI collaboration, redefining the roles of architect and craftsman in software development.
@@ -855,3 +858,5 @@ This journal entry is more than a technical write-up; it's a stellar case study 
 ### Next Step Prompts
 - Using the principles from 'The Steeltrap Playbook', create a new prompt contract for an AI agent. The goal is to generalize the tool-calling logic inside the newly created `imports/stream_orchestrator.py` file to handle more complex command structures. The contract must specify the target file, forbid any edits to `server.py`, and define the expected input and output behavior.
 - Draft a new journal entry reflecting on the first attempt to use an AI agent to edit `imports/stream_orchestrator.py`. Analyze whether the 'Steeltrap Playbook' held up. Did the agent succeed? If it failed, how did the smaller, isolated module make the failure easier to diagnose and roll back compared to the previous attempts on the monolithic `server.py`?
+
+{% endraw %}

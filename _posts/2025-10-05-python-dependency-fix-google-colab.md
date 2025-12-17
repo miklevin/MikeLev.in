@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment in software development: the successful completion of an entire bug-fix-and-release cycle. It begins with a simple test on a neutral platform, Google Colab, which uncovers a critical dependency issue. What follows is a detailed walkthrough of the diagnosis, the precise code fix, and the execution of a fully automated release pipeline, culminating in a validated, public-facing solution on PyPI. It's a testament to the power of robust testing and elegant automation, turning a minor hiccup into a major system-wide validation.
@@ -827,3 +830,5 @@ This entry is a gold-standard example of a 'show, don't tell' technical narrativ
 ### Next Step Prompts
 - Based on the release script's output, generate a MermaidJS flowchart diagram illustrating the stages of the `publish.py` script, from 'PREPARATION PHASE' through 'PYPI PUBLISHING PHASE'.
 - Write a short, standalone tutorial titled 'How to Add Missing Dependencies to `pyproject.toml` for a PyPI Release', using the code snippets from this article as the primary example.
+
+{% endraw %}

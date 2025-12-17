@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 We're all different. Some people thrive on being in the moment and responding to
 interruptions and multitasking. That's not me, no siree. I love accomplishing
 more than it seems like I should be able to, and I find that doing so requires
@@ -1011,3 +1014,5 @@ between the different AIs. It's solid. I just need to implement... need to
 implement... need to implement... NEXT DAY'S ENTRY COMING UP!
 
 Pipulte Pipeline Born Again Now
+
+{% endraw %}

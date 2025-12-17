@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage
 
 A new day! But it's 10:30 AM already, and I have a potentially huge round of
@@ -5373,3 +5376,5 @@ Tomorrow you can hit the ground running with the Gap Analysis port, armed with:
 
 Rest well! Looking forward to helping you turn that Jupyter Notebook into GapAnalysisFlow tomorrow. 🌙
 
+
+{% endraw %}

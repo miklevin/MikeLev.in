@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding Pipulate: Getting Started
 
 The provided text delves into a software project called "Pipulate," which offers a unique approach to how applications are built, installed, and run. In today's world, much of the software we use operates "in the cloud," meaning it runs on remote servers owned by companies, and we access it over the internet, often paying subscriptions and entrusting our data to third parties. Pipulate challenges this dominant model by championing a "local-first" philosophy. This means the software is designed to run primarily on the user's own computer, giving them more control over their data, eliminating subscription fees tied to cloud usage, and avoiding dependency on specific cloud providers.
@@ -146,3 +149,5 @@ It's a fascinating project that makes us reconsider many of our default assumpti
 
 **AI Opinion:**
 This article provides a valuable and relatively clear overview of the Pipulate system, especially for an audience with some existing technical knowledge (e.g., software developers, system administrators). The author effectively communicates the innovative aspects and philosophical underpinnings of the project. The strength of the piece lies in its enthusiastic articulation of how Pipulate diverges from common software paradigms and the benefits of these choices. While the jargon might be a hurdle for complete beginners, the explanations are generally sufficient for those in the tech field to grasp the significance of Pipulate's architecture. The content is highly informative and showcases a project with strong, opinionated design principles, making it a useful read for anyone interested in local-first software, reproducible environments, or alternative development philosophies.
+
+{% endraw %}

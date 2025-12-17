@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Building a Strong Foundation in Tech with Timeless Skills
 
 Are you tired of feeling like technology is always one step ahead, changing faster than you can keep up? Here’s the good news: you don’t need to chase every new trend to stay relevant. The truth is, there are no absolute truths in tech—just timeless skills and tools that, with a bit of effort, anyone can master. Whether you’re a tech enthusiast or a slow-but-steady learner, this guide will help you build a solid foundation using the essentials like Linux, Python, Vim, Git, and NixOS. Invest in these core skills, and you’ll find yourself not just surviving, but thriving, no matter how fads or AI evolve. Let’s dive in and discover how to keep your tech game strong for life.
@@ -609,3 +612,5 @@ graph TB
 </div>
 
 *This diagram demonstrates how the LPvg stack integrates with NixOS and Jupyter to form a cohesive and powerful toolkit.*
+
+{% endraw %}

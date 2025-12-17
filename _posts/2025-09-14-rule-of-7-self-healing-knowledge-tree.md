@@ -8,6 +8,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a live-wire moment in the development of Pipulate, a local-first automation tool designed for deep interaction with AI. The author is grappling with a foundational challenge in information architecture: how to organize a large and growing body of knowledge—be it files in a code repository or articles on a website—without overwhelming the user, whether human or AI. The exploration is guided by a core philosophy called the **"Rule of 7,"** a principle inspired by cognitive science suggesting that presenting 5 to 9 choices at any given point is optimal for decision-making.
@@ -710,3 +713,5 @@ The human-AI dynamic is the standout feature. The author sets the philosophical 
 2.  **Task Suggestion 2:** Draft a "Key Takeaways" Section
     * **Potential Prompt Snippet for Next AI:** "Analyze the provided technical design session and draft a 'Key Architectural Decisions' summary in 3-5 bullet points. For each point, briefly state the problem, the chosen solution, and the primary benefit of that choice."
 
+
+{% endraw %}

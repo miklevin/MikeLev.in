@@ -17,6 +17,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome to a raw, unfiltered entry from my ongoing book project. This piece is a stream-of-consciousness dive into the core philosophy that drives my work: a rebellion against the ephemeral, complex state of modern software development. Here, I lay the groundwork for a return to simplicity, durability, and what I call 'computing sovereignty,' all made possible by leaning into a new era of AI collaboration and foundational tools like Nix. It's a personal story, a technical treatise, and an invitation to build your own 'Cathedral of One.'
@@ -377,3 +380,5 @@ This journal entry is a potent and timely treatise. It taps directly into the gr
 ### Next Step Prompts
 - Based on the article's description of Pipulate and Unix pipes, generate a short, practical tutorial titled 'Building Your First Web Pipe.' The tutorial should show a simple, concrete example of chaining web-based actions (e.g., fetching data from a URL, processing it with a simple Python script, and displaying the result) using the author's described philosophy, even if it has to invent a simplified syntax for the example.
 - Expand the 'Parting Shot' section into a standalone conclusion for the book's introductory chapter. Elaborate on the concepts of the 'Third Act,' the 'Heresy' of AI-native code, and the 'Cathedral of One,' weaving in the core technical arguments about Nix and reproducibility to create a powerful closing statement.
+
+{% endraw %}

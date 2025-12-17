@@ -19,6 +19,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores the fascinating confluence of technological acceleration and strategic market dynamics in the Age of AI. It delves into the profound advantages held by vertically integrated giants like Google, who leverage vast data reservoirs and proprietary hardware to redefine "Intelligence as a Service." This blueprint reveals how one individual, anticipating these shifts for decades, is now harnessing this new utility to transform abstract thought into tangible machine reality through innovative tools, exemplifying a philosophy of building for the future, not just reacting to it.
@@ -217,3 +220,5 @@ This entry serves as a potent cornerstone for the overall philosophy, providing 
 ### Next Step Prompts
 - Develop a short, illustrative anecdote or example of 'Pipulate' transforming an abstract idea from 'Morning Pages' into a tangible outcome, making the 'actualizer layer' more vivid and relatable.
 - Draft a section exploring the 'Invisible Backend' (Nix/Local AI) in more detail, connecting it to the 'build-to-scale locally' strategy and the concept of 'Chip O'Theseus' for a deeper technical dive.
+
+{% endraw %}

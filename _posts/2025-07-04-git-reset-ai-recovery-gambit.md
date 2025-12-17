@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a local-first automation framework designed for complex, long-running tasks. The author, a proponent of trunk-based development, confronts the direct consequences of this high-risk, high-reward strategy after a significant misstep. The core of this narrative is the recovery from a flawed implementation of a "zero-compromise" backup and restore system, a feature critical for ensuring data durability for the software's users.
@@ -1615,3 +1618,5 @@ The raw, conversational nature of the dialogue is its greatest strength. A polis
 2.  **Task Suggestion 2:** Analyze the "Lost" Code
     * **Potential Prompt Snippet for Next AI:** "Review the 'Left Unrecovered' commit table. Identify the top 3 'good ideas' that were abandoned due to complexity or risk. For each, describe the original goal and propose a new, simplified implementation strategy that aligns with the new philosophy of 'bulletproof and unambiguous' systems."
 
+
+{% endraw %}

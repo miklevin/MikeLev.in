@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## A 15-Hour Saturday Coding Marathon
 
 Okay, it's still Saturday and just about 11:00 PM. Today's coding saga started
@@ -877,3 +880,5 @@ This approach gives users both the simple conceptual model (the notebook cells) 
 
 This article is a fascinating blend of technical deep-dive and personal reflection. The author's journey through various programming languages and operating systems, culminating in their current focus on HTMX and AI-assisted workflows, is both informative and engaging. The detailed historical context, particularly the discussions around Unix, LISP, and the evolution of programming tools, provides valuable insights into the foundations of modern computing. The author's enthusiasm for their project and their vision for the future of AI-driven workflows is palpable, making this a compelling read for anyone interested in the intersection of technology and creativity. The candidness about the challenges and the "WET" coding approach adds a relatable human touch to the technical narrative.
 
+
+{% endraw %}

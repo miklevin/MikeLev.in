@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry dives into the practical application of HTMX, a library that challenges the modern JavaScript-heavy approach to web development by extending HTML's native capabilities. The exploration takes place within Pipulate, a local-first application framework designed for running powerful, server-driven workflows directly on a user's machine. In this context, the server and browser are immediate neighbors, creating a uniquely low-latency environment where the server can be the undisputed "source of truth" for the user interface.
@@ -249,3 +252,5 @@ This case study beautifully illustrates a core principle: that profound architec
 2.  **Task Suggestion 2:** Expand on the Architectural Choice
     * **Potential Prompt Snippet for Next AI:** "Using the provided text as a case study, write a concise 'Alternative Approaches' section for a book. Briefly explain how this same 'ghosting button' feature would be implemented using a) vanilla JavaScript with `fetch()` and an event listener, and b) a client-side framework like React using `useState` and `useEffect` hooks. Compare the approaches in terms of state management location, code complexity, and network dependency."
 
+
+{% endraw %}

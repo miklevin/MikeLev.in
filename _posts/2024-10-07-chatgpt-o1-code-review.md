@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## App Development Progress Continues with Methodical Review and Planning
 
 Now it's time to step through the app methodically and look for weak points. I
@@ -767,3 +770,5 @@ a service when when ollama quits in order to re-launch it. So bottom line, I
 check that the first fix suggested above over on the Mac, and it checks out
 good. One prompt from o1-preview, one fix.
 
+
+{% endraw %}

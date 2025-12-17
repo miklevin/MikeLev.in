@@ -20,6 +20,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry begins as a reflection on procrastination and the nature of focus, quickly diving into the historical rabbit holes of Marvin Minsky's 'AI Winter' and Bill Joy's creation of the `vi` editor. These seemingly random detours become the philosophical backdrop for the main event: a complex, multi-step code refactoring of a Python application. The author partners with an AI, not just for code generation, but to create a deterministic, executable plan. What follows is a real-world, unvarnished chronicle of that process—a series of failures, rollbacks, and corrections that powerfully illustrates the difference between brittle and robust development strategies, and the messy, iterative reality of programming.
@@ -1399,3 +1402,5 @@ This is an exceptional entry. It's a raw, authentic capture of the modern develo
 ### Next Step Prompts
 - Write the follow-up entry that resolves the cliffhanger. Start by performing the successful manual `vim` fix, and then reflect on the entire five-take process. What were the key lessons learned about the limits of automation and the irreplaceable value of manual intervention?
 - Draft a standalone chapter for the book titled 'The Brittle, The Robust, and The Agentic'. Use the `sed` vs. `python -c` dilemma from this entry as the central, illustrative example to explain these software engineering concepts to a less technical audience.
+
+{% endraw %}

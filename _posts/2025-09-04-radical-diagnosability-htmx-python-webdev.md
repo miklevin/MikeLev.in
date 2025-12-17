@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a local-first AI and SEO software tool. The author, an experienced developer, finds himself at a philosophical and technical crossroads after a period of rapid, AI-assisted coding. The very tools that accelerated his work also led to a sprawling codebase that violates his core principles of simplicity and transparency. This sets the stage for a critical discussion on the nature of modern web development and the author's deliberate choice to reject its complexities.
@@ -516,3 +519,5 @@ The sprawling, almost chaotic, journey from a messy codebase to the nature of qu
 2.  **Task Suggestion 2:** Narrative Structuring
     * **Potential Prompt Snippet for Next AI:** "Review this journal entry and propose a narrative outline for a book chapter. Identify the key sections: The Problem (Code Sprawl), The Philosophical Detour (Critique of Modern Dev & Physics), The Solution (HTMX/FastHTML), and The Recommitment (Return to Discipline). For each section, list the key arguments the author makes."
 
+
+{% endraw %}

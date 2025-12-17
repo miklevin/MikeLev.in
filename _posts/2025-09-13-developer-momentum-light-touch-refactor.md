@@ -8,6 +8,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry offers a unique window into the mind and methodology of a developer building **Pipulate**, a platform for personal AI agents. It moves beyond a simple coding log to explore the philosophy of sustainable progress in a tech landscape defined by constant, often exhausting, change. The author grapples with the desire to build a stable "bedrock" of skills and architecture, contrasting it with the industry's "hamster wheel." The core technical task is deceptively small but strategically significant: beginning the transition of Pipulate's AI tool system from a single, massive file to a clean, automatic plugin architecture.
@@ -274,3 +277,5 @@ The AI's role here is subtle but crucial. It acts as a facilitator, a low-fricti
     * **Potential Prompt Snippet for Next AI:** "Take the author's analogy of 'AI is oil' and 'GPUs are today's scale trees.' Expand this into a 300-word introduction for a book chapter. Frame the current AI moment as a new industrial revolution, and argue that building personal, local-first tools is akin to building the innovative engines and vehicles that will run on this new fuel."
 
 
+
+{% endraw %}

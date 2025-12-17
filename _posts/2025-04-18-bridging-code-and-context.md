@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## The Common Developer's Dilemma
@@ -712,3 +715,5 @@ and doing some context-foo without the subproject distraction.
 This article offers valuable insights into a specific technical challenge: effectively combining narrative explanations (articles) with source code for AI processing. Its strength lies in the detailed, step-by-step documentation of developing the "Article Mode" feature, including the rationale, technical implementation choices, and even the refinement process through dialogue with an AI. For readers familiar with the author's project (`prompt_foo.py`, `Pipulate`) or facing similar challenges in providing rich context to large language models for code-related tasks, the content is highly relevant and useful.
 
 However, its clarity for a general audience is limited due to the conversational, journal-style format and heavy reliance on internal project specifics and jargon. It reads more like a developer's log or a targeted update for an existing audience than a standalone piece. Despite this, the core concept and the described solution represent a practical approach to a common problem in AI-assisted software development.
+
+{% endraw %}

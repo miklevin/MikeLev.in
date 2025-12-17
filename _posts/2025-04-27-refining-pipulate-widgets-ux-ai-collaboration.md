@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Widget Wonders: Crafting Consistent User Experiences
 
 This article dives into the practical details of refining a web application's user interface (UI), specifically focusing on a set of interactive components called "widgets." Think of widgets as mini-tools within a webpage – like a text input area, a diagram generator, or a code display box. The author is meticulously improving how these widgets look and behave, ensuring they are consistent and user-friendly, even when part of a "locked" or finalized process. This involves collaborating with AI coding assistants (like Gemini and Claude) to plan and write the necessary code, using modern web technologies (like Python, HTMX, FastHTML, and CSS) to achieve a polished and predictable user experience (UX).
@@ -1088,3 +1091,5 @@ This plan adds the final requested widget example, bringing the plugin closer to
 
 * **AI Opinion:**
     This article is a valuable, in-depth technical log detailing a specific phase of UI/UX development for the "Pipulate Widgets." Its primary strength is the transparent documentation of an iterative refinement process, showcasing effective human-AI collaboration. While the conversational style and reliance on implicit project knowledge reduce its accessibility for a broad audience, it offers significant practical insights for developers engaged in similar work, those interested in AI-assisted coding workflows, or followers of this specific project. The content clearly highlights solutions for achieving UI consistency across diverse web components.
+
+{% endraw %}

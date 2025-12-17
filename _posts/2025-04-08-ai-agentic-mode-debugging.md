@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding the True Value of AI Agent Mode
 
 The important nuance to appreciate in this article is that the new `Agent` or
@@ -523,3 +526,5 @@ I nearly lost significant progress due to a tricky `asyncio.create_task()` timin
 
 This article provides a compelling and detailed case study of advanced AI-assisted software development. It moves beyond theoretical capabilities to showcase a practical application where an AI agent diagnoses and resolves a non-trivial bug involving asynchronous programming, version control analysis, and system interaction. The inclusion of the AI's own explanations and the step-by-step refinement of the solution (from delays to a custom queue) offers valuable insights into the collaborative potential between developers and sophisticated AI tools like Claude within an environment like Cursor. While the specific technical details might target a developer audience, the narrative effectively illustrates the power of agentic AI in tackling complex, multi-step problems that previously required significant manual effort and debugging expertise. The honesty about the implementation challenges (like the `BaseCrud` integration attempt) adds realism and underscores that AI assistance is part of an iterative process, not always a one-shot magic solution. Overall, it's a strong testament to the evolving capabilities of AI in software engineering workflows.
 
+
+{% endraw %}

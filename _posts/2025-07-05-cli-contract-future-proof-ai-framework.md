@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, an automation framework designed for direct collaboration with AI assistants. At its core, the project grapples with a fundamental challenge in modern software: how to build durable, future-proof tools without getting trapped on the "hamster wheel" of ever-changing technologies. The author argues for a philosophy of "standing on the shoulders of giants," deliberately choosing foundational, time-tested technologies to create a stable platform.
@@ -727,3 +730,5 @@ For a book, this entry provides a powerful narrative backbone. It begins with a 
 2.  **Task Suggestion 2:** Create an Explanatory Sidebar
     * **Potential Prompt Snippet for Next AI:** "Using the historical context provided (from vacuum tubes to Nix), write a short 'Why This Matters' sidebar. Explain for a non-expert reader how choosing a stable foundation like Nix directly impacts the daily work of building reliable AI automation tools, connecting the abstract history to the concrete `mcp` command."
 
+
+{% endraw %}

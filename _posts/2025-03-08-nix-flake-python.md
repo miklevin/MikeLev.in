@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## A Cross-Platform Python Solution with Nix Flakes
 
 Are you looking for a Nix Flake Python solution that works on Macs or Windows,
@@ -306,3 +309,5 @@ Enjoy!
 
 This article presents a very practical and useful solution for developers who struggle with environment consistency across different operating systems. The author clearly addresses the common pain points of setting up Python environments, especially for data science, and leverages the power of Nix to create a reproducible and portable solution. The inclusion of CUDA support and the focus on simplifying `pip install` enhance its utility. The step by step instructions within the nix file, and the start and stop scripts are very useful. Overall, it's a well-written and valuable resource for anyone looking to streamline their Python development workflow.
 
+
+{% endraw %}

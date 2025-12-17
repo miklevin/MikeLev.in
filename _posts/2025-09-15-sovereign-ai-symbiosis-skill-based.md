@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents the author's philosophical approach to integrating Artificial Intelligence into a personal workflow, framing it as a form of non-invasive symbiosis. Drawing analogies to mitochondria in a cell and the mastery of a musical instrument, the author explores how a tool like the Vim editor can become a seamless extension of thought. This principle of a detachable, skill-based "exosymbiosis" is contrasted with more invasive technologies like Neuralink.
@@ -807,3 +810,5 @@ The raw, journal-like quality is a major strength. The detailed breakdown of the
 2.  **Task Suggestion 2:** Create an Explanatory Analogy
     * **Potential Prompt Snippet for Next AI:** "Generate a simple, powerful analogy to explain the author's concept of 'Sovereign AI Symbiosis.' The analogy should clearly differentiate it from both invasive transhumanism (like Neuralink) and being passively consumed by a larger digital entity (like social media). The analogy should be suitable for a non-technical audience."
 
+
+{% endraw %}

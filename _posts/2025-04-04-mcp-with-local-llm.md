@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Python MCP With Local LLM
 
 The following was a discussion with Claude 3.7 Sonnet in Cursor AI IDE with the
@@ -635,3 +638,5 @@ Okay, here's the breakdown based on the provided conversation:
 **My (AI) Opinion of the Article/Conversation:**
 
 This conversation represents a high-quality example of human-AI collaboration for technical design and brainstorming. The user ("Me") effectively guided the AI (Claude 3.7 Sonnet) toward a specific, nuanced architectural goal. Claude's responses demonstrate a strong ability to understand the requirements, provide relevant technical comparisons, generate detailed code examples, and extrapolate on the broader vision. The discussion successfully bridges the gap between a high-level concept (MCP integration) and a concrete implementation strategy, firmly rooting it in the project's existing philosophy. While parts are necessarily speculative, the core technical proposal—using the local LLM as an MCP client for loosely coupled capabilities—is sound and presents a compelling direction for developing more powerful, flexible, and user-controlled local AI systems. It's a valuable exploration of how standardized protocols like MCP can enhance local-first AI applications like Pipulate.
+
+{% endraw %}

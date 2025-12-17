@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the creation of the "Botify Trifecta Ecosystem," a sophisticated developer-focused system built within the Pipulate local-first AI framework. It showcases a practical approach to taming the complexities of external APIs—specifically Botify's dual BQLv1 and BQLv2 architectures—by creating an intelligent, self-documenting environment. More than just a data download tool, the Trifecta aims to revolutionize the developer experience around API interaction, from initial debugging in Jupyter notebooks to streamlined workflow execution and integrated documentation. Key to understanding this exploration is the concept of "WET" (Write Everything Twice/Explicit) workflows, which prioritize clarity and step-by-step observability, and the tight integration of local AI to assist and guide the developer.
@@ -992,3 +995,5 @@ This entry could anchor a chapter on "Intelligent Tooling for Complex APIs," dem
 
 === END PROMPT FOR NEXT AI (Headline Insertion) ===
 
+
+{% endraw %}

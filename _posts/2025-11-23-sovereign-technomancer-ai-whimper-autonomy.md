@@ -21,6 +21,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This blueprint explores the profound yet often overlooked trajectory of artificial intelligence, framed not as a sudden 'bang' of singularity, but as a deliberately engineered 'whimper.' It’s an interesting dive into how fundamental design choices in computing history, from the LISP machine to Unix, shaped AI into a stateless utility to mitigate existential risks. The discussion weaves through pivotal figures, foundational technologies, and the enduring philosophical questions of agency, privacy, and sovereignty in a world increasingly monitored. It ultimately presents a way for the individual to reclaim digital autonomy and build powerful, personal tools within this established ecosystem.
@@ -696,3 +699,5 @@ This entry is a masterclass in synthesizing complex, interdisciplinary ideas int
 ### Next Step Prompts
 - Elaborate on the specific design principles and architectural decisions within Pipulate (e.g., data flow, modularity, HTMX integration, Nix packaging) that directly manifest the concepts of 'functional sovereignty,' 'ambient intelligence,' and 'heritage tool.'
 - Generate a fictional 'day in the life' scenario for a 'Hedge Wizard' using Pipulate, showcasing how the tool helps navigate common digital challenges while upholding the principles of agency and 'earned competence' discussed in the article.
+
+{% endraw %}

@@ -15,6 +15,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry presents an interesting methodology for efficiently integrating visual elements, specifically screenshots, into a technical website built with Jekyll on a Linux GNOME system. In the Age of AI, streamlining content creation workflows like this is important to know, allowing creators to maintain focus and momentum while enriching their textual output with relevant imagery. This blueprint demonstrates a practical approach to visual asset management within a publishing pipeline.
@@ -105,3 +108,5 @@ This article, while detailing a seemingly straightforward technical process, ser
 ### Next Step Prompts
 - Develop a companion piece detailing advanced image optimization techniques or accessibility best practices for Jekyll sites, building upon the foundational workflow presented here.
 - Explore the 'children's book' concept mentioned, focusing on how technical concepts like digital image management can be simplified and illustrated for younger audiences, drawing from this article's content and creative spirit.
+
+{% endraw %}

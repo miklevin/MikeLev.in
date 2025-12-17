@@ -17,6 +17,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles a deeply practical journey through NixOS system recovery after a significant crash. It highlights the pivotal role of declarative system configuration in rebuilding from scratch and re-establishing a robust, version-controlled environment. More than a mere technical walkthrough, it delves into the philosophical underpinnings of NixOS design, the critical importance of user control over system defaults, and the indispensable partnership between human intuition and AI assistance in navigating complex technical challenges in the Age of AI. It serves as an important blueprint for mastering system resilience.
@@ -1952,3 +1955,5 @@ This article is a goldmine for the 'Future-proofing Your Tech Skills in the Age 
 ### Next Step Prompts
 - Draft the next article (Article #4) in the NixOS recovery series, focusing on 'Sweep 3: The Safety Net (Reimplementing Backups)' as discussed, ensuring modular script integration.
 - Generate a simplified diagram illustrating the symlink structure from `/etc/nixos` to `~/repos/nixos` within a Git repository.
+
+{% endraw %}

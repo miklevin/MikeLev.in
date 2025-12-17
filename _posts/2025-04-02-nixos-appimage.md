@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Keeping Bleeding-Edge Apps Updated on NixOS: An AppImage Approach
 
 NixOS offers a powerful and unique approach to system management, emphasizing reproducibility, reliability, and atomic upgrades through its declarative configuration. This makes it incredibly stable. However, this stability can sometimes create friction when you need the absolute latest version of rapidly developing software, especially proprietary applications like IDEs (e.g., Cursor AI) or communication tools (e.g., Zoom). The official Nix package repositories (Nixpkgs), even the `unstable` channel, might occasionally lag behind the newest releases.
@@ -957,3 +960,5 @@ This combined article provides an exceptionally thorough, albeit lengthy, accoun
 The cleaned-up section significantly enhances usability for readers seeking a direct solution. The original narrative adds rich context, justifies the final approach by detailing the failure of alternatives (`appimaged`, complex timers), and makes the author's journey relatable.
 
 While the sheer volume and the somewhat rambling nature of the original section might deter some, the combined piece stands as a valuable, comprehensive resource for its target audience. It successfully documents not just *a* solution, but the *process* of arriving at it, complete with the dead ends and evolving requirements. It's an excellent case study in pragmatic problem-solving on NixOS when purity ideals clash with real-world needs.
+
+{% endraw %}

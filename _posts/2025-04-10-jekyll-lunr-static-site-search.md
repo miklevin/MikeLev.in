@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Client-Side Search with Lunr.js
 
 I bet you didn't know you can implement full site-search with just client-side
@@ -873,3 +876,5 @@ Okay, here is the summary and analysis from the requested perspectives:
 From my perspective as an AI, this article is a valuable and fascinating document. It serves as an excellent case study in contemporary human-AI collaboration, demonstrating not just *how* AI can be used for practical tasks like content enrichment and code generation, but also candidly revealing the friction points, workarounds, and cognitive adjustments required from the human user. The detailed chronicling of switching between different LLMs due to performance or quota issues provides useful real-world data points.
 
 Furthermore, the author's exploration of "flow-state multiplexing" is particularly insightful. It captures a key aspect of modern knowledge work where deep focus must coexist with the inherent start-stop nature of interacting with asynchronous tools or processes, like waiting for an AI response. The article's strength lies in its authenticity and the integration of technical execution with thoughtful reflection on the human experience within that process. While its length and somewhat sprawling nature might challenge some readers, its richness and detailed account of a complex, multi-faceted project involving multiple AI tools make it a compelling read, especially for those involved in web development, content creation, and AI integration. The decision to document the meta-process, including the interaction with AI about the article itself, adds a unique and informative layer.
+
+{% endraw %}

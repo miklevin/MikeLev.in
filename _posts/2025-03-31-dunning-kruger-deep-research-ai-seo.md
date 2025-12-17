@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 > Gemini said I rambled too much, so I challenged it to write an improved
 > version that is also crafted to be a prompt for further Deep Researched
 > version, included after. My long rambling version is at the bottom.
@@ -739,3 +742,5 @@ The "Original Rambling Article" offers a candid and passionate perspective on th
 * **Potential Alienation:** The strong dismissal of social media and video, while honest, might overlook their practical utility in content discovery and could feel overly dismissive to readers who utilize those channels effectively.
 
 Overall, the original article is a raw, insightful, and stimulating piece brimming with personality and interesting ideas. Its strength lies in its unique perspective and honesty, though its impact could be broadened with clearer organization and a slightly more tempered approach to certain topics, as demonstrated in the revised versions.
+
+{% endraw %}

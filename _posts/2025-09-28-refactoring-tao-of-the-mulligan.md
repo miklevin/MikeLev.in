@@ -21,6 +21,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Context for the Curious Book Reader
 
 This entry is a raw, unfiltered look into the heart of a difficult software refactoring. It's a blow-by-blow account of the struggle to detangle a core component of a long-running project. More importantly, it's a dialogue—between a human programmer and an AI assistant—that showcases a modern workflow. We don't just solve the technical problem; we wrestle with the philosophy of coding, the value of manual craftsmanship, and the profound realization that in a world of version control, every mistake is just a 'mulligan'—a free do-over that provides invaluable information.
@@ -1700,3 +1703,5 @@ This entry is a superb case study in modern software development. It perfectly e
 ### Next Step Prompts
 - Based on the final plan to refactor `config.py` and the identified tracebacks, generate a precise, step-by-step plan for the next session. Detail which functions move from `server.py` to `config.py` and which new imports are required in both `server.py` and `imports/pipulate.py` to resolve the `NameError`.
 - Write a short, standalone blog post titled 'The Tao of the Mulligan' that expands on the philosophy of using version control and an iterative workflow to remove the fear of making mistakes during complex software refactoring, using the experience from this journal as the core example.
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome, curious reader, to an interesting exploration within our growing collection of technical philosophies. This blueprint delves deep into the foundational schism of computing paradigms: the imperative world championed by Alan Turing and the functional universe defined by Alonzo Church's lambda calculus. You'll discover how Lisp, as the embodiment of Church's vision, rose to dominate early AI research, birthed its own specialized hardware, only to face an 'AI Winter' and see its crown passed to Python. Understanding this historical and philosophical journey is important in the Age of AI, as it illuminates the underlying currents that still shape our technological landscape.
@@ -744,3 +747,5 @@ This article is a profoundly rich and insightful exploration of computer science
 ### Next Step Prompts
 - Expand on the 'Worse is Better' philosophy (often associated with Lisp's decline and Unix/C's rise) and how it manifests in modern software development, specifically in the context of Python's success and its ecosystem.
 - Trace the influence of Lisp's functional concepts and homoiconicity on other modern programming languages beyond Python, such as Clojure (on the JVM), Scala, F#, or even JavaScript (with its functional libraries and metaprogramming capabilities), providing code examples where appropriate.
+
+{% endraw %}

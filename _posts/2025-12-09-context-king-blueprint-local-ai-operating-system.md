@@ -23,6 +23,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome, curious reader, to an exploration of Pipulate, a philosophy and methodology for building a **Sovereign Intelligence Engine**. This treatise documents the architectural journey of creating a local-first, AI-orchestrated operating system designed to overcome the inherent limitations of large language models—specifically their stateless, 'amnesiac genie' nature. Through this dialogue, we delve into how explicit context management, WET (Write Everything Twice) workflows, and a radical commitment to transparency are converging to form a 'Forever Machine' where the human provides the continuity (Soul) and the machine provides the actuation (Body), shifting from renting intelligence to owning it. We examine the foundational concepts from bootstrapping to spell-casting, the DNA of workflows, and the heavy-lifting logic that powers a new era of personal computing.
@@ -986,3 +989,5 @@ This treatise is a pivotal blueprint for the future of AI application developmen
 ### Next Step Prompts
 - Develop a detailed 'Pipulate Architecture Diagram' outlining the data flow, component interactions, and key philosophical tenets (WET, Radical Transparency, Context Painting) to visually complement this blueprint.
 - Create a 'Pipulate Quickstart Guide' that walks a new user through setting up a basic workflow, including a 'Hello World' example, showcasing the seamless transition from Jupyter to web app, and demonstrating the 'One-Take' video generation.
+
+{% endraw %}

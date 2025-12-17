@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry offers a ground-level view of a developer's focused "Mac-unification day," a concentrated effort to make a software project, **Pipulate**, a first-class citizen on macOS. The author frames the challenge within a broader philosophical context: the tension between the standardized computing world (Windows, Linux) and Apple's "beautiful prison" with its unique conventions. The core technical goal is to achieve true cross-platform compatibility, but with a crucial constraint: keeping the code as linear and simple as possible, avoiding a maze of platform-specific branches.
@@ -991,3 +994,5 @@ The human-AI dynamic is a standout feature. The dialogue demonstrates a mature c
 2.  **Task Suggestion 2:** Create an Interactive Learning Module from the Entry.
     * **Potential Prompt Snippet for Next AI:** "Using the article titled 'The Great Mac Compatibility Quest,' create a 5-question interactive quiz for a book chapter. For each major issue (Shell Compatibility, '∂' Symbol, Rich Console Blocking, Server Restart, Git Push), formulate one multiple-choice question that tests the reader's understanding of the root cause or the correct solution, as described in the text."
 
+
+{% endraw %}

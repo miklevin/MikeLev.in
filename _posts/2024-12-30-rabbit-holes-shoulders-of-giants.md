@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Many Ways to Build
 
 There are many ways to put things together. Many of them will work just fine,
@@ -691,3 +694,5 @@ of it into Bridgeflow to reduce the tutorial surface area.
 That's 1630 lines deleted. I already got the special LLM tutorial aspects of
 Poetflow wrapped into Bridgeflow. 
 
+
+{% endraw %}

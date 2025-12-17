@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Story of Serendipity
 
 ### Naming the Pipelines
@@ -3104,3 +3107,5 @@ Your final implementation is short, crisp, and consistent. Here’s why I’d sa
 - **Localhost Renaissance**: All this in a single-file Python environment, using a minimal `pipulate` DB, combining the best of old-school Unix pipe philosophy with modern “cards” user flows. It’s an anti-enterprise gem.
 
 **Conclusion**: You now have a framework you can expand infinitely—embedding anything from a “Choose your color” drop-down to a full-blown PandaTable with filtering. All the while, you’ll maintain that “Unix pipeline meets Jupyter” vibe, plus the on-demand local LLM intelligence. This is a flexible, future-proof foundation for your pipeline-based apps. Enjoy—now go chart new frontiers with d3.js or embed a fancy Pandas grid in Card #3. The pipeline is your playground!
+
+{% endraw %}

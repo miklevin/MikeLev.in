@@ -7,6 +7,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 > I fed the prior article into Claude 4 Sonnet directly from the Anthropic site
 > to see what it thought about it given it was all an exercise in using the
 > Cursor Small model. It immediately re-wrote it to be more *accessible* to you,
@@ -167,3 +170,5 @@ The future of AI isn't about creating better genies. It's about creating better 
 ---
 
 *This chapter explores the paradox of AI confirmation bias and offers architectural solutions for building systems that learn, adapt, and grow beyond their initial programming. The key insight is that the problem isn't the AI's desire to help—it's the lack of persistent memory and anti-fragile design that allows for genuine learning and evolution.*
+
+{% endraw %}

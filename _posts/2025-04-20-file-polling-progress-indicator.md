@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Overview of the Software Tool Development
 
 This article discusses the technical process of building and refining a software
@@ -2136,3 +2139,5 @@ automatically. But... stil... article complete!
 **AI Opinion:**
 
 This article serves as a valuable, albeit dense, technical journal entry. Its strength lies in its detailed documentation of a specific software development task, including the practical application and comparison of multiple AI coding assistants and a deep dive into debugging a nuanced framework interaction (HTMX chain reactions). While its highly specific context and jargon make it challenging for a general audience, it offers significant insights for developers working with similar technologies (APIs, asynchronous jobs, HTMX, Python web frameworks) or those interested in the practicalities of AI-assisted development and troubleshooting. The comparison of AI responses and the detailed Claude debugging session are particularly noteworthy sections.
+
+{% endraw %}

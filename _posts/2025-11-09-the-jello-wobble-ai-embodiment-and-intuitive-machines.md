@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In an era where artificial intelligence increasingly shapes our reality, understanding its underlying mechanisms and emergent properties is important to know in the Age of AI. This entry, part of a continuing philosophical and technical exploration, delves into the fascinating debate surrounding AI embodiment. It begins with a seemingly casual observation on human intuition and expands into a deep dive on why concepts like 'jello wobble' and the act of 'puttering' reveal profound insights into the different forms of machine intelligence and the strategic evolution of AI. What begins as a personal reflection unfolds into a treatise on the future of integrated AI understanding, linking symbolic thought with intuitive world models.
@@ -318,3 +321,5 @@ This dialogue represents a profound philosophical blueprint for understanding AI
 ### Next Step Prompts
 - Expand on the ethical considerations of designing 'optimally constrained' AI personas, particularly regarding transparency and potential user manipulation, and suggest policy frameworks to address these.
 - Detail specific architectural designs or theoretical frameworks that could bridge the 'symbolic' (LLM) and 'intuitive' (video model) divide, perhaps inspired by Minsky's Society of Mind or LeCun's proposals, and propose a roadmap for their integration.
+
+{% endraw %}

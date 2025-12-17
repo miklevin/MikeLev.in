@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Now, we embark on WebDev-style application development in Nix, moving forward in earnest. Everything so far in this blog has been akin to designing Dorothy's *"There's no place like home"* spell—a tricky thing to describe, but much like cleansing the palate or returning to a martial arts ready stance. Just as your taste buds and physical prowess shouldn't sway to the whims of vendors, neither should your technical abilities. It is the pursuit of **generic** technical skills that can future-proof you, even as AI rapidly advances.
 
 ## The Idea of 'Home' in Unix/Linux
@@ -865,3 +868,5 @@ starting gate, we are hit with that complication.
 And with these 3 examples in-hand, Hello World, HTMX SPA and Secret Handling, I
 have everything I need to jump head-first into Web Application development
 again. Ugh!
+
+{% endraw %}

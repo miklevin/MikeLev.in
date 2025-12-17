@@ -18,6 +18,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry delves into a personal odyssey through the ever-shifting landscape of the tech industry, chronicling the author's search for durable, future-proof skills amidst a series of significant challenges—dubbed the 'quintuple whammy.' It explores early attempts at self-contained systems like Levinux, the disillusionment with ephemeral trends, and the ultimate discovery of computing sovereignty through Nix and the philosophical underpinnings of Free and Open Source Software (FOSS). This narrative serves as a foundational context for understanding the ethos behind the broader project of future-proofing oneself in the age of technology.
@@ -354,3 +357,5 @@ This monologue perfectly connects the frustrations of the past to the 'unbounded
 ### Next Step Prompts
 - Proceed with the immediate task of finishing the Pandas work and Excel-like output for the FAQuilizer Jupyter Notebook-based Pipulate workflow.
 - Draft a follow-up entry specifically detailing the practical implementation and benefits of Nix in the current workflow, directly addressing how it solves the 'Noah's Ark' problem that Levinux hinted at.
+
+{% endraw %}

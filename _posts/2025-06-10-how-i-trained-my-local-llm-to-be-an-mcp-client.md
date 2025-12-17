@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This exploration dives into the heart of a cutting-edge software development practice: building autonomous capabilities into a local-first AI application named Pipulate. The central challenge is to enable a locally run Large Language Model (LLM), powered by Ollama, to interact with external tools and APIs. This process, known as "tool calling" or "function calling," is the key to transforming a conversational chatbot into an active agent that can perform tasks in the digital world. However, the goal here is to achieve this from first principles, deliberately avoiding heavy, opinionated frameworks like LangChain to gain a foundational understanding of the underlying mechanics.
@@ -2378,3 +2381,5 @@ The most compelling narrative thread is the evolution of the stream-monitoring l
 2.  **Task Suggestion 2:** Extract Core Engineering Principles.
     * **Potential Prompt Snippet for Next AI:** "Analyze the provided technical journal entry about building an MCP tool-caller. Identify the top 3-5 core engineering principles or 'lessons learned' from the iterative debugging process. For each principle, provide a one-sentence summary and a brief explanation of how the developer's journey illustrates it. Examples might include 'Principle: Server-Side Formatting for Reliability' or 'Principle: State Machines for Parsing Streams'."
 
+
+{% endraw %}

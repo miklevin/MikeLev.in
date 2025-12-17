@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Early Morning Reflections on Client Work and System Development
 
 It's coming up on 5:00 AM on a Thursday. I have 2 client calls today, one
@@ -433,3 +436,5 @@ The integration of personal experience with the MikeLev.in site adds authenticit
 
 While the structure reflects its nature as an early-morning "priming-the-pump" piece, its strength lies in its thoughtful integration of diverse ideas around a central theme: navigating the future with skill, purpose, and ethical awareness, rather than succumbing to either dystopian fears or the allure of easy, superficial automation. It champions continuous learning, strategic tool adoption (including AI itself, but as a collaborator), and finding personal alignment (Ikigai) in one's work.
 
+
+{% endraw %}

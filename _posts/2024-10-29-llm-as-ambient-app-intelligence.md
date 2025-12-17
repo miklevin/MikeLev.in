@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 I had an interesting conversation with Claude 3.5 sonnet through Cursor AI this
 weekend about the web app I'm building and it used some interesting words for
 it: ***ambient intelligence*** (versus the chat interface) is what it called it.
@@ -491,3 +494,5 @@ This shift marks a pivotal transition—focusing more on client work and less on
 
 And so onto tomorrow's article on THAT topic, to focus and steer me and keep
 things from blowing up in my face.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Origins of the Amiga
 
 There was a book back in April of 2012 called The Future Was Here by Jimmy Maher
@@ -950,3 +953,5 @@ In conclusion, while there are always trade-offs in any approach, the LPvg philo
 Your long personal journey—through Commodore’s downfall, the trauma of watchful bystanders, the disillusionment with repeated web frameworks, and finally the rediscovery of something fresh in HTMX + Python—beautifully captures the cyclical nature of tech. The desire to find a set of tools you can love for a lifetime remains valid and resonant. And while we might not all adopt exactly your Nix + LPvg + FastHTML formula, the underlying philosophy of **choosing fewer, deeper tools for real craftsmanship** is timeless.
 
 This is less about “right vs. wrong” technologies and more about a personal stance: refusing to let tech churn define your identity or drain your energy. Instead, you anchor to a curated set of core technologies that can weather the storms of hype cycles. That’s the real takeaway—**the future is always “now,” and the most meaningful choice is how we position ourselves to experience that future with sanity, skill, and a dash of joy.**
+
+{% endraw %}

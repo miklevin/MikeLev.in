@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding API Interaction and AI-Assisted Development: A Pipulate Case Study
 
 This document delves into the intricate world of software development, specifically focusing on how a developer interacts with complex Application Programming Interfaces (APIs)—in this case, Botify's API for SEO data—and the evolving practice of using AI coding assistants (like Gemini and Cursor AI) to write and refactor code. The author is working on a project called "Pipulate," a local-first application designed to automate SEO workflows. The core of this journal entry revolves around enhancing the transparency of API calls made by Pipulate, particularly those using Botify Query Language (BQL). This involves creating detailed logs of API requests and responses, including generating runnable Python code snippets for easier debugging and experimentation in a Jupyter Notebook environment. The narrative highlights the challenges of making precise code changes with AI tools, the importance of detailed "Prompt Fu" (skillful prompting), and the iterative process of refining software to achieve specific technical and usability goals. It's a candid look at problem-solving, API exploration, and the practical realities of building specialized tools in the age of AI.
@@ -658,3 +661,5 @@ Okay, this is a rich and incredibly detailed account of your development journey
 * **AI Opinion (on Value for Future Book):**
     This journal entry is exceptionally valuable as raw material for a tech book. It's a treasure trove of authentic, "in-the-moment" developer experience that is often lost in polished, after-the-fact accounts. The detailed interactions with AI coding assistants, the methodical approach to API exploration and debugging, and the clear articulation of both technical goals and the challenges in achieving them provide a rich foundation for multiple case studies or illustrative chapters.
     The narrative on "Prompt Fu" and the explicit strategies for managing AI behavior (like the "lightest touch" principle and the "time-traveling prompt") are particularly insightful and timely. The evolution of the `api.log` feature, from a simple idea to a sophisticated, reproducible debugging tool, perfectly demonstrates iterative development and the importance of robust logging in complex systems. While it requires significant curation to be book-ready, its current rawness is also its strength, offering a unique and credible perspective on modern software engineering practices with AI. This is the kind of content that can make a tech book deeply engaging and practically useful.
+
+{% endraw %}

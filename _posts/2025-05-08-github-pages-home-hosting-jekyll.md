@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding Jekyll, Nix, and Local Web Development: Getting Started
 
 Websites are often built using tools that help manage content and structure. One such tool is **Jekyll**, a popular "static site generator." This means it takes your raw content (like text written in a simple format called Markdown) and templates (which define the look and feel), and builds them into a complete set of HTML, CSS, and JavaScript files that can be easily hosted online. Many developers use services like **GitHub Pages** to host these static sites for free. GitHub Pages works seamlessly with Jekyll, automatically rebuilding and publishing your site when you update your content.
@@ -221,3 +224,5 @@ In a future post, we'll look at setting up the NixOS server and configuring it f
 
 * **AI Opinion:**
 This article provides a valuable, albeit highly technical, walkthrough of creating a sophisticated local development environment for managing multiple Jekyll websites using Nix flakes. For developers already versed in Nix and facing the described challenges with Jekyll, this content is likely very useful and offers a robust solution. The clarity is high for its intended audience, but the steep learning curve of Nix means it's not easily accessible to beginners or those unfamiliar with declarative package management. The article serves well as a technical log or a blueprint for a specific problem, demonstrating a practical application of Nix for web development workflows. Its potential for a book chapter is strong, provided it's expanded with more complete examples and perhaps some foundational explanations of Nix for those less familiar.
+
+{% endraw %}

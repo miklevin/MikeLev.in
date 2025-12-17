@@ -17,6 +17,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### The Methodical Beat: A Rhythmic Approach to Distillation
@@ -1473,3 +1476,5 @@ This entry is a strong demonstration of effective AI collaboration in a technica
 ### Next Step Prompts
 - Distill the next logical cell in `GAPalyzer.ipynb` which involves fetching competitor homepage titles, integrating `wordninja` for keyword filtering, and generating brand keyword lists.
 - Draft a conceptual explanation of how the current DataFrame-in-memory 'big but' strategy might be evolved into a more robust, disk-persistent approach (e.g., Parquet, Feather) using Pipulate, outlining the pros and cons of such a transition.
+
+{% endraw %}

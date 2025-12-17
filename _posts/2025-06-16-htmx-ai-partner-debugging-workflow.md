@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a live, in-the-trenches software development session within the "Pipulate" project, a sophisticated SEO automation tool designed around complex, multi-step data processing workflows. At its core, this dialogue wrestles with a common but challenging architectural task: extending an existing data pipeline by adding a new data source from the Botify API. The author employs a unique development philosophy of "transplanting" and adapting existing code blocks, a practical application of the "Write Everything Twice" (WET) principle, which favors explicit duplication over premature abstraction in evolving systems.
@@ -1628,3 +1631,5 @@ The narrative arc—from a strategic architectural decision, through a series of
 2.  **Task Suggestion 2:** Create a "Key Takeaways" Section
     * **Potential Prompt Snippet for Next AI:** "From the entire dialogue and its resolution, distill a bulleted list of 3-5 'Key Lessons for Developers' that cover software architecture, debugging strategies, and the practical use of AI assistants. Each bullet point should be a single, actionable sentence."
 
+
+{% endraw %}

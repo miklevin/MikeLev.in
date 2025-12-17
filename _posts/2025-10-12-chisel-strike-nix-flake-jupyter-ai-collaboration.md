@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry dives into a practical refactoring journey, transforming a complex Nix Flake configuration into an elegant, scalable system for managing Jupyter notebooks. Beyond the technical 'chisel-strikes'—small, verifiable changes that build confidence—it also offers a meta-commentary on the intricacies of AI-human collaboration, context management in large language models, and the art of turning ambiguity into a clear path forward. It's a testament to how methodical progress and thoughtful interaction can conquer even the most daunting development challenges.
@@ -508,3 +511,5 @@ This entry is a strong example of technical documentation combined with a candid
 ### Next Step Prompts
 - Develop a follow-up entry that systematically addresses the integration of the `faquilizer2` and `open_eyes.ipynb` into the new Nix Flake structure, using the same chisel-strike methodology.
 - Create a comparative analysis of different strategies for managing LLM context in long-running technical discussions, drawing on the experiences documented in this article.
+
+{% endraw %}

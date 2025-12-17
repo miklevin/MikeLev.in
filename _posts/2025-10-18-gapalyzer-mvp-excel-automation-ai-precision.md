@@ -18,6 +18,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry marks a significant milestone in the Pipulate project: the successful completion of the Competitive Content Gap Analysis (GAPalyzer) Minimum Viable Product. It chronicles the intensive process of porting a complex, years-in-the-making Excel formatting workflow into a robust, automated Python script within a Jupyter Notebook environment. Beyond the technical achievement, this article highlights the nuanced collaboration with AI, navigating debugging challenges, and solidifying the architecture for future AI SEO capabilities.
@@ -1078,3 +1081,5 @@ This entry represents a crucial inflection point. It not only delivers a highly 
 ### Next Step Prompts
 - Draft a plan for refactoring the GAPalyzer Excel formatting logic, specifically identifying functions suitable for `secretsauce.py` and `pipulate/core.py` based on generalization principles. Provide example function signatures and module locations.
 - Outline a debugging strategy for browser automation on Mac, focusing on identifying compatible Chrome/Chromium binaries and ensuring stealth scraping functionalities are retained, including steps for verifying functionality on the problem site.
+
+{% endraw %}

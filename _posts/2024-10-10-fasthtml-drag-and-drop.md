@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Refining the Web Development Experience with Drag-and-Drop Functionality
 
 Well, the port from yesterday hasn't technically occurred yet, however the framework is so much cleaner for "receiving" the port. I've made nice Application placeholders in navigation and with blank pages. Conceptually, it's easy to see now how I plug in new apps. And I've ton a ton of refinements on the UI to make it solid and sexy. It's really amazing what the snappiness of HTMX allows, and it's time to do drag-and-drop to get rid of "yeah-but's". I'm not a big fan of webdev, but when you do it you've got to be pretty buttoned up to modern expectations, or you're crap. Nobody wants to deal with yet another crappy interface with so many sexy new bells and whistles in tech all the time. And I think if I leave drag-and-drop sorting out of this, I'm setting users up to be disappointed given how such lists permeate everything.
@@ -378,3 +381,5 @@ async def update_todo_order(values: dict):
 A cascading update! There's no transaction mode, so brute force and risking integrity it is, but `MiniDataAPI` spec only exposes so much (lowest common denominator) database capability.
 
 But people researching this hot topic of how to reorder and sort todo list items from the FastHTML tutorial and encountered SortableJS but didn't know how to implement the JavaScript front-end/Python back-end endpoint to commit the previously "fake" sort into a "real" one might find this useful.
+
+{% endraw %}

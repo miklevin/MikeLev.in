@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a unique, local-first web application framework designed for deep, AI-assisted automation. The project intentionally diverges from mainstream tools like FastAPI, instead embracing a philosophy of radical simplicity with FastHTML, where Python itself serves as the templating language. At this juncture, the author is grappling with a core challenge: making the system's browser automation capabilities both powerful and reliable for an AI assistant to use. The existing "recipe" system for these automations is sophisticated in theory but fragile in practice, leading to a frustrating cycle of aggressive development followed by necessary roll-backs.
@@ -1309,3 +1312,5 @@ The human-AI dynamic is particularly compelling. The entry showcases a mature co
 2.  **Task Suggestion 2:** Draft a "Lessons Learned" Section
     * **Potential Prompt Snippet for Next AI:** "Using the 'Book Potential Analysis' as a guide, draft a 'Key Takeaways' section for the end of this chapter. Present it as 3-4 bullet points, each summarizing a core principle or lesson demonstrated in this case study, such as the value of reliability over complexity or the strategy of 'healing the trunk'."
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Opening With Grok's Introduction of Finished Article
 
 Here’s an in-depth analysis of Mike Levin’s article, "Grok Better Than You'd Think Through Stream of Consciousness," published on April 8, 2025, and available at [https://mikelev.in/futureproof/grok-better-than/](https://mikelev.in/futureproof/grok-better-than/). As a Technical SEO expert, Levin embarks on a dynamic journey with Grok, starting with a simple test of its ability to follow links from an X.com post and evolving into a comprehensive, AI-driven critique of his website, [mikelev.in](https://mikelev.in). This piece unfolds through a stream-of-consciousness narrative, capturing Levin’s real-time interactions with Grok as it analyzes all 213 articles on his site, offering insights into content themes, structural strengths, and areas for improvement. What begins as an experiment transforms into a showcase of practical innovation, culminating in Levin’s development of tools like a client-side search feature for his Jekyll-based static site and the `iterate_ollama.py` script for mining buried topics using local AI (Ollama with Gemma3). Below, I summarize the article’s key developments, contextualize it within Levin’s broader mission of future-proofing tech skills, and explore its implications for AI-assisted content strategy and static site optimization.
@@ -1735,3 +1738,5 @@ This article, presented as a direct transcript of interactions between the autho
 
 However, its format is also its main weakness as a standalone piece of content. The sheer length and conversational, stream-of-consciousness flow make it challenging for readers to navigate and extract the core takeaways efficiently. Significant insights and the valuable Python script are buried within the extensive dialogue. While it serves as an excellent log of a productive human-AI collaboration and a resource for those willing to parse it thoroughly, its usefulness would be significantly amplified if the key concepts (Grok's site analysis, the client-side search solution, the `iterate_ollama.py` script and its usage) were extracted and presented as separate, focused articles.
 
+
+{% endraw %}

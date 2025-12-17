@@ -19,6 +19,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This fascinating blueprint delves into the fundamental shift required for the web in the Age of AI: moving beyond interfaces designed solely for human eyeballs to embrace structures that are readily consumable by intelligent agents. It argues that just as the web adapted for mobile, it must now adapt for AI, advocating for a return to clarity, hierarchy, and accessibility as the foundational principles for a truly AI-friendly online presence.
@@ -258,3 +261,5 @@ This powerful essay outlines an important methodology for the future of the web,
 ### Next Step Prompts
 - Develop a detailed technical guide for implementing an AI-friendly Jekyll site, including specific Liquid template examples for structured data and navigation.
 - Draft a follow-up explaining the 'Rule of 7' in depth, with practical examples of applying it to content organization and navigational design for AI agents.
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Fighting Regressive AI Generative Edits
@@ -1495,3 +1498,5 @@ This entry is a cornerstone piece. It documents not just a solution, but the bir
 ### Next Step Prompts
 - Using the new `AIRTIGHT AGENTIC PROMPT CONTRACT TEMPLATE v2.0`, create a new prompt to apply the `notebook_refactor.py` patch to the Pipulate codebase. The plan should instruct an AI to first add the sentinel comments to the target files, commit, then generate the patch file, commit, and finally run `ai_edit.py notebook_refactor.py` to complete the task.
 - Draft a new blog post titled 'The Sentinel Philosophy' that distills the core concepts of the `ai_edit.py` tool. Explain why sentinel-based editing is superior to `sed` or generative replacement for complex code changes, and frame it as a general pattern for any developer to adopt.
+
+{% endraw %}

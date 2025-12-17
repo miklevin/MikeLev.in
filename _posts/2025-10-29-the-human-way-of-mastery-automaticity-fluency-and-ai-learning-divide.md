@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this insightful entry, we delve into the intricate journey of human skill acquisition, from initial literacy to ultimate fluency. This soliloquy unpacks the stages of learning, highlighting the often-underestimated role of "automaticity" and its profound impact on our cognitive energy. We explore the fundamental differences between the continuous, adaptive learning of a human and the 'static file' nature of current LLMs, setting the stage for an important discussion about agency in the Age of AI. The author also reflects on personal struggles with Python, illustrating the high-calorie cost of hacking new mental pathways even for a seasoned practitioner.
@@ -459,3 +462,5 @@ This entry is a potent conceptual blueprint for understanding learning in the Ag
 ### Next Step Prompts
 - Generate a practical guide for readers on how to apply the 5-stage skill acquisition model to their own learning goals, including actionable steps and self-assessment questions for each stage.
 - Draft a follow-up article exploring the author's vision for "The Engineer's Path" (Augment and Agency), specifically focusing on how individuals can build their "cognitive exoskeletons" using AI tools for enhanced personal productivity and creative output.
+
+{% endraw %}

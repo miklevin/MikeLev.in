@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## The User's Lament: When Wishes Backfire
 
 As someone who frequently works with AI coding assistants, I've learned that asking them for help is like dealing with mythical genies - you have to be incredibly precise with your wishes. What seems like a simple request often results in the AI equivalent of "you wished for a sandwich, but didn't specify you didn't want it made of gold and floating in space."
@@ -76,3 +79,5 @@ In the end, it's like conducting an orchestra where half the musicians are enthu
 Remember: When working with code genies, the art isn't in making wishes - it's in making wishes genie-proof. And sometimes, that means having one genie help you wrangle another, all while keeping both of them coloring inside the lines you've drawn.
 
 P.S. Yes, I know you wanted to add machine learning to that navigation system. No, we're not doing that today. Put the neural networks away, code genie. Just update the variables like we discussed. 😉
+
+{% endraw %}

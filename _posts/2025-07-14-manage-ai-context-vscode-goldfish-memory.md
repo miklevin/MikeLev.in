@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal, introspective moment in a developer's journey, grappling with the profound impact of AI on established workflows. The author, a long-time `vim` user, confronts the rise of VSCode and its AI-powered forks (like Cursor) as a new industry "default." The narrative isn't just about choosing a text editor; it's a deep dive into the practical and philosophical trade-offs required to work effectively with Large Language Models (LLMs). The core conflict centers on a seemingly simple choice: should a developer's workspace contain all their projects for easy access, or be narrowly focused on a single repository?
@@ -1310,3 +1313,5 @@ The raw, conversational style is its greatest strength. A polished, academic exp
 2.  **Task Suggestion 2:** Create an Explanatory Analogy
     * **Potential Prompt Snippet for Next AI:** "Expand on the author's 'Building a World for a Goldfish' metaphor. Write a short, allegorical story (2-3 paragraphs) about a brilliant but forgetful artisan and the apprentice who must constantly arrange the workshop perfectly before every task. This will serve as a creative sidebar to illustrate the core concept of AI context management."
 
+
+{% endraw %}

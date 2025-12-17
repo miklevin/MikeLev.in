@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This technical journal entry is a stream-of-consciousness exploration of a developer's strategy for navigating the rapidly changing tech landscape, particularly in the age of AI. The author, working on a project called Pipulate, grapples with both high-level philosophical principles and immediate, practical coding tasks. The central theme is a rejection of the ephemeral, complex JavaScript frameworks that have dominated web development in favor of a "future-proof" stack rooted in durable, open-source technologies like Python, HTMX, and NixOS. This approach is driven by the belief that the next major shift in web design will be driven by the need for websites to be easily "readable" by AIs, much like the last shift was driven by the need for readability on mobile phones.
@@ -452,3 +455,5 @@ The narrative arc, moving from a broad thesis about an "AI-driven web cleanup" d
     * **Potential Prompt Snippet for Next AI:** "Read the author's critique of JavaScript frameworks. Now, adopt the persona of a senior front-end developer at a large tech company. Write a 2-3 paragraph rebuttal that presents the strongest arguments *for* using complex frameworks like React or Angular, focusing on benefits like scalability, component ecosystems, and hiring pipelines, providing a balanced counter-argument to the author's thesis."
 
 
+
+{% endraw %}

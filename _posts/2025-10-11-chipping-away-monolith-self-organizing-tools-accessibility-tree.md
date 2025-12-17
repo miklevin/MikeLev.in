@@ -20,6 +20,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents a pivotal refactoring effort: the transformation of a monolithic, manually-managed set of tools into a self-organizing Python package. It's a journey driven by the 'chisel-strike' philosophy—incremental, deliberate improvements that fundamentally enhance system intelligence and resilience. The narrative culminates in the integration of the accessibility tree, a game-changing addition that empowers our AI with a deeper, semantic understanding of web pages, moving beyond superficial structure to grasp true meaning and purpose.
@@ -1058,3 +1061,5 @@ This article is a superb example of technical storytelling that intertwines prac
 ### Next Step Prompts
 - Analyze the generated `accessibility_tree.json` for several diverse websites to identify common patterns, key roles, and potential challenges for automated parsing and interaction strategies.
 - Propose a follow-up article detailing how an AI agent could leverage the semantic information from the accessibility tree to perform more robust, high-level interactions with a web page, compared to traditional CSS/XPath selectors.
+
+{% endraw %}

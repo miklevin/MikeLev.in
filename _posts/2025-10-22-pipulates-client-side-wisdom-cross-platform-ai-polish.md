@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry marks an interesting juncture in the Pipulate project, showcasing the intricate dance between server-side architecture and client-side intelligence. It highlights the shift from foundational development to a sophisticated polish phase, where seemingly minor UI details yield significant user experience improvements. Readers will discover the elegant solution to dynamic, platform-aware messaging, the triumphs over complex cross-platform technical hurdles, and the evolving philosophy of AI-assisted development (AIE) that Pipulate embodies. It's a testament to practical problem-solving in the Age of AI, demonstrating how existing tools and thoughtful design can overcome deep-seated technical challenges, especially when working with local LLMs on diverse hardware.
@@ -1054,3 +1057,5 @@ This entry is important to know in the Age of AI, as it perfectly illustrates th
 ### Next Step Prompts
 - Expand on the 'AIE' concept into a dedicated article, detailing its three facets (educating AI, being educated by AI, building educational tools with AI) with concrete examples from Pipulate's development.
 - Develop an article outlining the full implementation details of the 'Ruby Slippers' client-side platform detection and message adaptation, showcasing the JavaScript code and explaining its benefits for dynamic UI across platforms.
+
+{% endraw %}

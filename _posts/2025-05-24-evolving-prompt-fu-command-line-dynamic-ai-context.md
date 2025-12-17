@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding "Prompt Fu": Crafting Context for AI
 
 This journal entry delves into the world of "prompt engineering" and context management for Large Language Models (LLMs), the powerful AI systems that can understand and generate human-like text and code. Specifically, it focuses on a Python script, `prompt_foo.py`, designed by the author to help prepare and bundle large amounts of information—like entire codebases and documentation—into a structured XML format. This XML "payload" is then fed to an AI (like Gemini or Claude) to give it deep context for tasks such as code analysis, critique, or even generating new code.
@@ -1439,3 +1442,5 @@ Okay, this is a fascinating glimpse into the iterative process of building a spe
 Why did the Python programmer break up with the C++ programmer?
 Because they had too many arguments and couldn't find a common class!
 
+
+{% endraw %}

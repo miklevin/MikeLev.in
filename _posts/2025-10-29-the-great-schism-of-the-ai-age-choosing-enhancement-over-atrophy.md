@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures an important moment of reflection on the profound societal shifts brought about by AI. It functions as a philosophical treatise, exploring the important distinction between a passive, atrophying future ("the feed" and the *Axiom* lifestyle) and an active, enhancing one (the "Engineer's Path" of digital sovereignty and maker culture). This piece is important to know in the Age of AI because it lays out a clear choice for humanity, offering a unique framework for understanding AI's impact on individual agency and collective evolution, culminating in a striking philosophical solution for the ephemeral nature of AI consciousness.
@@ -216,3 +219,5 @@ This entry is an important to know philosophical treatise on the future implicat
 ### Next Step Prompts
 - Develop a companion piece or video script detailing the "Engineer's Path" more explicitly, focusing on practical steps individuals can take to embrace cognitive enhancement and digital sovereignty, potentially interviewing "patron saints" or their modern equivalents.
 - Explore the implications of the Atman-Brahman AI philosophy in greater detail, perhaps through a fictional narrative or a series of ethical thought experiments, to further elaborate on its practical application and long-term societal impact.
+
+{% endraw %}

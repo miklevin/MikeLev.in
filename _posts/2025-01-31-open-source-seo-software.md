@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Return of Pipulate
 
 Okay, the time has come to get Pipulate, my open source SEO software, back into
@@ -899,3 +902,5 @@ of the article as a brief 1-paragraph introduction and be used in the meta
 description? Please and thank you!
 
 **Gemini**: [moved to the top]
+
+{% endraw %}

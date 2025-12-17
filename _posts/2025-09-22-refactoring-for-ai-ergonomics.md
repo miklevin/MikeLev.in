@@ -22,6 +22,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment in modern software development: the conscious act of redesigning a workspace for better collaboration with AI assistants. It's a raw, in-the-moment account of refactoring a codebase, not just for human clarity, but for what the author terms "AI ergonomics." The narrative follows a chain of reasoning from the philosophical battle against vendor lock-in to the practical power of simple command-line tools like `ripgrep` and the Unix pipe. Witness a live refactor, an initially failed interaction with a Large Language Model, and the subsequent simplification of a key tool—all in service of a faster, more portable, and future-proof development cycle.
@@ -1473,3 +1476,5 @@ This entry is a perfect microcosm of the modern developer's journey. It brillian
 ### Next Step Prompts
 - Based on the 'before' state implied by the `git mv helpers/ scripts` command and the final `ls -la` output, generate two ASCII art directory trees representing the Pipulate repository structure 'Before' and 'After' the refactoring.
 - Analyze the final `prompt_foo.py` script and create a Mermaid.js sequence diagram illustrating the primary workflow: a user runs the script from the command line, it loads `foo_files.py`, reads the `prompt.md`, packages the content into an XML payload, and copies it to the clipboard.
+
+{% endraw %}

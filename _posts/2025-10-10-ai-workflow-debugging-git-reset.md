@@ -20,6 +20,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This technical journal entry captures a real-world debugging session, detailing the iterative process of identifying and resolving issues in an AI-assisted development workflow. From a practical fix for MathJax rendering to grappling with complex Python errors and the subtle nuances of shell commands, the narrative illustrates the challenges and lessons learned in integrating AI agents into a robust development pipeline. It culminates in a strategic reflection on the importance of knowing when to 'reset' and learn from failed attempts, much like an AI Roomba needing repositioning.
@@ -1112,3 +1115,5 @@ This entry is a powerful demonstration of the current state of AI-human collabor
 ### Next Step Prompts
 - Generate a Jupyter Notebook example that simulates the 'Roomba getting stuck' scenario, demonstrating the debugging steps for an `async` Python function calling an external (mocked) API, culminating in a `git reset --hard` equivalent in the notebook state.
 - Draft a follow-up article discussing how the 'AST Guardrail' (from `ai_edit.py`) can be expanded to catch common AI-introduced errors like incorrect f-string syntax or mismatched parentheses in different programming languages.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Improving Jekyll Page Generation Speed
 
 This article delves into the technical challenge of improving the speed at which a website built with a tool called Jekyll generates its pages. Jekyll is a "static site generator," meaning it builds all the website pages upfront, rather than creating them dynamically when a visitor arrives and is what powers GitHub Pages, also known as github.io. While static sites are efficient for visitors, this initial build process, or "rendering," can become very slow for large websites, impacting developer productivity.
@@ -141,3 +144,5 @@ This approach resulted in dramatically faster render times while maintaining the
 
     This article provides valuable, practical insights for developers working with Jekyll, especially on larger projects where build performance is critical. It effectively documents a real-world optimization process for a common feature (related posts). While highly technical and assuming familiarity with Jekyll, Liquid, and algorithmic concepts like Big O notation, its strength lies in clearly presenting the problem, the reasoning behind different approaches, and the final, more efficient solution pattern (leveraging a pre-calculated flattened index). Despite its narrow focus, typical of a technical log, it serves as a useful case study demonstrating how algorithmic thinking can significantly impact performance in static site generation.
 
+
+{% endraw %}

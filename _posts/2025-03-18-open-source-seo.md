@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Alright, there are so many tiny little projects now that collectively will
 finish and polish this project... okay, even though it's not the client work
 (which I'll get to momentarily), I'm in a very good state of mind to unify the
@@ -191,3 +194,5 @@ Here are some ideas for titles and headlines:
 Okay, now for my opinion as Brainstormer:
 
 I think this article provides a really insightful look into the often messy but ultimately rewarding process of software development and project management. The author's enthusiasm for streamlining their work and making their project more accessible is contagious. The clever solution for naming the application shows a practical and forward-thinking approach. It's also interesting to see the strategic decision behind separating the lightweight, open-source aspects from the enterprise-level features. Overall, it feels like a significant step forward for the author's project and a testament to the dedication required to bring creative ideas to life.
+
+{% endraw %}

@@ -16,6 +16,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the rich, often quirky, linguistic and cultural history that underpins modern computing. Understanding these foundational concepts and the pioneering communities that forged them is important to know in the Age of AI, revealing the interconnected evolution of hardware, software, and human ingenuity that continues to shape our technological future.
@@ -321,3 +324,5 @@ This article is an excellent example of connecting historical dots to illustrate
 ### Next Step Prompts
 - Elaborate on other influential hacker terms like 'kludge,' 'thrash,' and 'mung,' connecting them to similar cultural origins or specific technological challenges of their time, further expanding the 'linguistic Kung Fu' section.
 - Explore the current status and future projections for RISC-V adoption, including key industry players, challenges, and its potential impact on democratizing hardware design globally, providing a deeper dive into the 'open hardware' frontier.
+
+{% endraw %}

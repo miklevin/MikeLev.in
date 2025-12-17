@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding Pipulate Workflow Tooling: Behind the Scenes
 
 Pipulate is a desktop application framework designed for building specialized, local-first tools, often with a focus on SEO and data processing tasks. A core concept in Pipulate is "workflows" – sequences of steps that guide a user through a process, often involving data input, transformation, and output. To facilitate the creation and modification of these workflows, Pipulate developers utilize helper scripts. This journal entry captures a moment in the development lifecycle where the author is reflecting on recent architectural cleanups (like UI improvements and a new "Roles" feature for plugins) and is now pivoting to ensure the primary helper scripts for workflow generation (`create_workflow.py`) and step addition (`splice_workflow_step.py`) are functional and well-documented. The dialogue also touches upon the iterative nature of software development, the balance between rapid prototyping and code hygiene, and the role of AI in assisting with documentation and conceptualization.
@@ -346,3 +349,5 @@ Okay, this journal entry provides a fascinating real-time snapshot of the Pipula
 
 
 
+
+{% endraw %}

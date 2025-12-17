@@ -20,6 +20,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry marks a pivotal moment in the *Pipulate Chronicles*, a long-running technical journal documenting the evolution of a personal project. It captures the philosophical shift from traditional software development towards a new paradigm: **AI Experimentalism**. The author lays out their motivation for building a local, user-owned AI, dubbed "Chip O'Theseus," as a direct response to the dominance of large corporations in the AI space. This piece serves as the foundational argument for the project's entire tech stack, articulating a deliberate choice to build on the stable, "future-proof" pillars of Python and HTML, with a clever concession to HTMX, thereby sidestepping the ephemeral nature of mainstream JavaScript frameworks. It's a declaration of independence and a blueprint for a lasting, co-evolving partnership between a human and their AI.
@@ -812,3 +815,5 @@ This is an exceptional piece of technical journaling that transcends a simple pr
 ### Next Step Prompts
 - Create a visual diagram illustrating the 'Physics of Pipulate' (server.py, apps/, tools/, etc.) as described by the AI. Use this to create a more formal architectural overview for the project's documentation.
 - Take the AI's proposal for the `[execute_plan]` tool and write the next journal entry, detailing the process of implementing this 'hand' for the AI's 'mind,' including the challenges of ensuring safe, supervised execution.
+
+{% endraw %}

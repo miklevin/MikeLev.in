@@ -23,6 +23,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the tapestry of our ongoing exploration into digital sovereignty, this entry delves into a core philosophy: the art of 'centering.' In an Age of AI increasingly dominated by extremes—from complex system-building to ephemeral cloud dependencies—we uncover why finding the pragmatic middle ground is not just desirable, but essential. This essay illustrates how the LPvg (Linux, Python, Vim, Git) stack, augmented by local AI and fortified by Nix, forms the bedrock of a 'forever actualizer machine,' offering a powerful antidote to digital feudalism and the insidious march of enshittification. It's an important step in understanding how to truly own and evolve your digital self.
@@ -428,3 +431,5 @@ This entry serves as a foundational blueprint, elegantly weaving philosophical c
 ### Next Step Prompts
 - Develop the detailed 'Lollipop Guild' routine as the next implementation step, focusing on the user onboarding for the Nix/Pipulate install. This should replace the 'AI Hello World' Notebook and guide the user through confirming the external Ollama/Gemma 3 installation.
 - Draft a 'Hello World' guide for the 'Actualizer Machine' itself, showcasing a simple but impactful task that demonstrates the combined power of LPvg, Nix, and local AI (e.g., a personalized text analysis from a local journal entry).
+
+{% endraw %}

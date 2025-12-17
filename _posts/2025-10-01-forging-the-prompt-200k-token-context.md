@@ -16,6 +16,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### 200,000-token Narrative in 1 Textarea Submit
@@ -853,3 +856,5 @@ This is a cornerstone entry. It's not just about a feature; it's about the philo
 ### Next Step Prompts
 - Based on the final state of the `list_articles.py` script, generate a user-friendly `README.md` file for it. Explain its purpose, dependencies (`tiktoken`, `PyYAML`), configuration (`POSTS_DIRECTORY`), and usage examples for all command-line flags.
 - Analyze the `flake.nix` solution provided at the end of the article. Explain in detail why placing the `pip install -e .` command within the `pythonInstallLogic` block is the correct approach and why previous attempts might have failed. Discuss the role of the shell hook and virtual environment activation in the Nix development lifecycle.
+
+{% endraw %}

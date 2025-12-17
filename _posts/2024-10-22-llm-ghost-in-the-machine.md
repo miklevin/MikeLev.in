@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## OpenAI's Newest Models Sometimes Help with Code Refactoring
 
 Sometimes you can dump a codebase into OpenAI o1-preview and it will give you
@@ -690,3 +693,5 @@ Citations:
     [6] https://www.anthropic.com/news/3-5-models-and-computer-use
     [7] https://www.cnbc.com/2024/10/22/anthropic-announces-ai-agents-for-complex-tasks-racing-openai.html
     [8] https://www.youtube.com/watch?v=Iabue7wtE4g
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Power of Default Hardware States
 
 Forget the media. Controlling the feed controls the public discourse. And
@@ -458,3 +461,5 @@ From my perspective, the core of this piece argues that control over the informa
 
 The article provides a compelling analysis of the power dynamics within the information ecosystem. It effectively illustrates how control over hardware and software directly influences the content users consume. The author's concern regarding the ad-driven bias and the suppression of generative AI's potential is valid, highlighting the need for more transparent and user-centric information platforms. The discussion of "super apps" and the challenges of breaking existing monopolies offers a thought-provoking perspective on the future of information access. The use of personal anecdotes and reflections adds a relatable layer to the complex subject matter.
 
+
+{% endraw %}

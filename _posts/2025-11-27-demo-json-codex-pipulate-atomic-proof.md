@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay traces a deeply personal journey through computing's history, from the spellbinding Amiga to the pragmatic ASP era, culminating in Pipulate as a "Third Act"—a quest to reconcile digital magic with lasting utility. It's a philosophy for building sovereign, "atomic-proof" systems through Nix, Python, Vim, and Git, where `demo.json` evolves into a critical truth-teller. The narrative highlights the challenge of focusing on durable architecture over ephemeral trends, especially when collaborating with AIs, laying out a blueprint for a "Cathedral of One" where magic and utility coalesce under human control.
@@ -1284,3 +1287,5 @@ This entry is a compelling treatise on architectural resilience and digital auto
 ### Next Step Prompts
 - Generate a simplified Python pseudo-code example demonstrating the core structure of `demo.json` and how a `pytest` runner would iterate through its entries to execute and validate actions within Pipulate.
 - Draft a 'PHILOSOPHY.md' document for the Pipulate repository, drawing from the core themes of this article (sovereignty, antifragility, AI as chorus, durable tooling) to articulate the project's guiding principles and 'way'.
+
+{% endraw %}

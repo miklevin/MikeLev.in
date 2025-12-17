@@ -20,6 +20,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This technical journal entry chronicles a methodical 'repo gardening' session, moving beyond theory to a practical demonstration of advanced Git workflows for a solo developer. It documents the entire process of identifying and purging unused assets—specifically a large icon set and an archive of old notes—while ensuring every deleted file remains easily recoverable. This is achieved not through complex branching, but by leveraging command-line tools like `ripgrep` for surgical analysis and crafting a 'bookmark' in the Git history. The entry serves as a hands-on guide to maintaining a clean, lightweight repository without sacrificing historical context, turning a potentially risky cleanup into a precise and reversible act of digital craftsmanship.
@@ -1776,3 +1779,5 @@ This is an outstanding technical entry that masterfully blends a high-level phil
 ### Next Step Prompts
 - Based on the 'Recovery Spell' section, generate a standalone, reusable bash script named `git-recover.sh` that takes a commit message grep pattern and a filename as arguments to automate the file recovery process.
 - Expand the section on Conventional Commits into a more comprehensive style guide. Create a markdown document that lists all major commit types, provides good and bad examples for each, and explains how they would impact automated semantic versioning.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding the Challenge
 
 This article addresses a practical challenge faced by developers using NixOS or the Nix package manager, specifically within its 'Nix shell' or 'nix develop' environments. These environments allow users to create isolated, reproducible setups with specific software tools for particular projects, separate from the main operating system. 
@@ -140,3 +143,5 @@ For those working frequently with Nix environments, this simple alias provides i
 **AI Opinion:**
 
 This article is a valuable, practical guide for its intended audience: Nix and NixOS users experiencing confusion about their shell environment. It clearly identifies a common pain point and offers a straightforward, effective solution with specific implementation details. While its heavy reliance on Nix-specific jargon and concepts makes it less accessible to outsiders, its clarity and usefulness for developers within that ecosystem are high. It serves as a good example of a focused technical tip or blog post addressing a specific workflow problem.
+
+{% endraw %}

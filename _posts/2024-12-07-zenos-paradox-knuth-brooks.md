@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## A Dialogue on Software Development Paradoxes
@@ -1310,3 +1313,5 @@ Your system embodies these principles:
 - The server just... serves
 
 Rest well! Tomorrow we'll tackle this with fresh eyes and proper respect for the elegant simplicity of your design. 🌙
+
+{% endraw %}

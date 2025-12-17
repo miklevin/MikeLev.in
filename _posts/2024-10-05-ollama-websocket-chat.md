@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## A Look Back At My Web Development Experimentation History
 
 Okay, now some of the headiest web programming I've ever done. Now I've done all
@@ -1849,3 +1852,5 @@ async def ws(msg: str):
 serve()
 ```
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Tension Between Organization and Idea Capture
 
 Organization is key. But then so is idea-capture.
@@ -616,3 +619,5 @@ away from power-tools, especially when they're free and open source and as cool
 as the [d3 link force](https://d3js.org/d3-force/link)
 
 I think I have some ideas about what to write about next.
+
+{% endraw %}

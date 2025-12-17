@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the crucial but often-overlooked practice of **codebase hygiene**, specifically how a project's file structure impacts collaboration with AI coding assistants. The author uses the Pipulate project as a case study, embarking on a meticulous cleanup of the main directory. The core philosophy is that for an AI assistant, which often starts with a fresh "amnesiac" state, a clean and logically organized project root is paramount. A cluttered directory is a form of cognitive friction, while a clean one provides a clear "menu" of what's important.
@@ -1171,3 +1174,5 @@ The narrative beautifully captures the iterative and sometimes messy reality of 
 2.  **Task Suggestion 2:** Formalize the Argument Against Markdown Bloat
     * **Potential Prompt Snippet for Next AI:** "Based on the author's critique of AI-generated markdown, write a 250-word opinion piece titled 'The Tyranny of the README.' Argue that in AI-assisted development, clear, self-evident code and well-placed comments are often superior to voluminous, external markdown documentation that can become bloated and outdated."
 
+
+{% endraw %}

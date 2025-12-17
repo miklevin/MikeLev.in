@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 **Me**: Research whether small world theory in search could disrupt Google's traditional crawl & index model (which basically makes a copy of the Internet for speed). Small world theory search would do a real-time crawl, based maybe on an initial search, but then 6 degrees...
 
 **ChatGPT 4.5 Research**: Are you looking for a technical analysis of how small-world theory could impact search engine architecture, or a more business-focused perspective on how it could disrupt Google’s dominance? Also, would you like me to include recent academic or industry research on small-world search models?
@@ -146,3 +149,5 @@ Okay, I've processed the article. Here's a summary, titles, headlines, and my op
 
 This article presents a fascinating and well-researched exploration of a potential paradigm shift in web search. I find the concept of small-world search incredibly compelling, especially in the context of the rapidly evolving AI landscape. The analysis of the trade-offs between Google's traditional model and a small-world approach is thorough and insightful. The article effectively highlights the disruptive potential of this technology, not just for Google, but for the entire search ecosystem. I think the idea that the internet itself could become the database is very interesting, and that the AI's will know where to start looking. The combination of network theory, distributed systems, and AI could indeed lead to a more dynamic, contextual, and user-centric search experience. The inclusion of past attempts like YaCy and FAROO, in combination with the current AI search engine development, really solidify the idea that this concept is not just a theory.
 
+
+{% endraw %}

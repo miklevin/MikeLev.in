@@ -16,6 +16,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### PyPI Release, Overcoming Invisible `U+00A0`, Typo & More
@@ -3298,3 +3301,5 @@ This entry is pure gold. It's a high-value, deeply technical narrative that read
 ### Next Step Prompts
 - Based on this journal entry, write a tutorial-style blog post titled 'How to Debug Python Packaging Issues in 2024,' using the `ModuleNotFoundError` from the article as the primary case study. Structure it by error type, providing the final correct `pyproject.toml` for a `src` layout as the definitive solution.
 - Analyze the conversation between Mike and Gemini in this article. Identify 3 key moments where the AI was helpful and 2 moments where its advice was a red herring. Write a short analysis on the current state of AI as a pair programmer for complex, cascading debugging tasks.
+
+{% endraw %}

@@ -15,6 +15,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the world of data science, business, and even personal development, the ability to 'pivot'—to change perspective and reframe a problem—is a critical skill. This essay explores the concept of pivoting, moving from the intuitive, momentary shifts we make in life to the structured, analytical pivots performed on datasets. It argues that traditional spreadsheet tools like Excel, while familiar, often obscure the core concepts and create dependencies. This entry makes the case for moving to more powerful, open-source tools like Python's Pandas library, demonstrating how a clear mental model and repeatable code can unlock deeper insights and make the difficult act of pivoting second nature.
@@ -266,3 +269,5 @@ The raw, conversational nature of the dialogue with an AI to generate the code e
 ### Next Step Prompts
 - Based on the provided article about data pivoting, generate a short, illustrative analogy to explain the difference between row-optimized dataframes (like Pandas) and column-optimized dataframes (like Polars) for a beginner.
 - Expand the provided Pandas pivot table example. Add a second pivot that uses a different aggregation function, such as 'mean' or 'sum' on a new numeric column, and explain the different insight it provides.
+
+{% endraw %}

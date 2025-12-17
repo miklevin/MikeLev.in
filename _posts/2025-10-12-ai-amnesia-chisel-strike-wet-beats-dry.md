@@ -19,6 +19,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the fundamental challenges of managing human energy and collaborating with stateless AI models. It introduces a compelling argument for the 'WET' (We Enjoy Typing / Write Everything Twice) coding philosophy as a superior alternative to the traditional 'DRY' (Don't Repeat Yourself) principle when working with amnesic AI agents. The author masterfully weaves together concepts of personal productivity, the nature of genius, and the evolution of ideas, all through the lens of designing systems that allow for both human and artificial intelligence to thrive effectively.
@@ -520,3 +523,5 @@ This journal entry is a goldmine. It articulates a nuanced, deeply practical und
 ### Next Step Prompts
 - Elaborate on the practical implementation details of the 'WET code' philosophy within the `Pipulate` project, providing concrete code examples or architectural diagrams that demonstrate its benefits in an AI-assisted workflow.
 - Develop a chapter outline that positions the WET vs. DRY argument as a central pillar of 'AI-Native Development,' integrating the concepts of AI ergonomics, local-first AI, and the chisel-strike methodology into a structured framework.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## My Journey from Mac, Windows (and Amiga) to NixOS
 
 I am on NixOS now (at home), and a Macbook when using the office-provided
@@ -343,3 +346,5 @@ As the author, I've found a new home in NixOS, a revolutionary operating system 
 This article provides a very useful overview of NixOS. The author does a good job of explaining complex concepts in a relatively accessible way, especially for those familiar with Linux and development workflows. The focus on practical usage, particularly the `nixos-rebuild` command, makes it valuable for anyone considering or already using NixOS. The comparison to other package managers and virtualization technologies helps to contextualize Nix's unique advantages. The author's enthusiasm for the technology is evident and contagious. The explanation of the command line switches and subcommands is very useful.
 
 
+
+{% endraw %}

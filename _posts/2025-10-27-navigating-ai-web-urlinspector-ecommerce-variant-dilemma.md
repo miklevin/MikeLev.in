@@ -16,6 +16,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the evolving landscape of the web in the Age of AI, revealing an important blueprint for adapting digital strategies. It explores the foundational challenges of e-commerce SEO, particularly the intricate "Variant Dilemma," and introduces URLinspector as a key methodology for future-proofing websites against the coming tide of AI-driven traffic. More than a technical treatise, it's a reflection on the disciplined creative process essential for building robust tools for an unpredictable future.
@@ -805,3 +808,5 @@ This entry is an important philosophical and technical way for understanding the
 ### Next Step Prompts
 - Generate a detailed technical specification for the URLinspector.ipynb and its url_inspect_sauce.py and inspect_seo.py modules, outlining the precise functions and data structures required for an initial MVP.
 - Develop a comparative analysis demonstrating how the Nix/HTMX/Python stack offers superior 'AI legibility' and maintainability compared to a typical modern JavaScript framework, providing concrete code examples for each.
+
+{% endraw %}

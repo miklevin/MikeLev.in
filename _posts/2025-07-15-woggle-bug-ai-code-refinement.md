@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles a crucial phase in the development of "Pipulate," a software project built around the philosophy of human-AI collaboration. Using the extended metaphor of a journey through Oz, the author describes moving from the creative "Brains, Heart, and Courage" phases into the "Woggle-Bug" stage: a period of intense, academically rigorous code cleanup. This process is not just about tidiness; it's a necessary step to ensure the codebase is legible and robust enough for AI partners to understand and safely modify.
@@ -1264,3 +1267,5 @@ The author's framing of this work as a necessary chore to appease the "Woggle-Bu
 2.  **Task Suggestion 2:** Create a Reusable Workflow Checklist.
     * **Potential Prompt Snippet for Next AI:** "Analyze the step-by-step interaction with Claude in the text. Create a reusable Markdown checklist for a 'Code Beautification Sprint' that a developer could follow. Include sections for 'Initial Analysis (Linters)', 'Engaging the AI (Prompts)', and 'Verification and Commit Cycle'."
 
+
+{% endraw %}

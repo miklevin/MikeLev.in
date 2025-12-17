@@ -18,6 +18,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures an interesting moment in the development of the 'No-Gooey' way, showcasing how a deep understanding of one's own system architecture, combined with a precise AI partner, can lead to seemingly impossible 'one-take' programming triumphs. It illustrates a practical application of the 'Jiu-Jitsu' development philosophy, transforming complex integration challenges into streamlined, automated victories within the Pipulate ecosystem. What follows is a direct account of the iterative process, highlighting the unexpected efficiencies gained when AI becomes a true architectural collaborator.
@@ -932,3 +935,5 @@ This entry is an important milestone, not just for the `Pipulate` project, but f
 ### Next Step Prompts
 - Draft a follow-up article detailing the 'Nix Uninstall' blipvert script, formatted for the 9:16 aspect ratio, using this new plugin as a core part of the workflow.
 - Generate a series of prompts that could be used to guide an AI in performing a 'weak-link analysis' on a new project idea, then 'counter those criticisms innately, ipso facto by design'.
+
+{% endraw %}

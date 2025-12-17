@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a unique, local-first web application framework built on an unconventional stack of Python, Nix, and HTMX. The author is engaging in a real-time dialogue with an AI coding assistant to refine the project's core architecture. The central challenge is not about adding new features, but about increasing the system's internal elegance and maintainability—a process the author metaphorically calls "grinding and polishing the lenses."
@@ -1810,3 +1813,5 @@ The raw, conversational nature of the text is its greatest strength. When curate
 
 2.  **Task Suggestion 2:** Draft a "Lessons Learned" Section
     * **Potential Prompt Snippet for Next AI:** "From the provided dialogue, distill a 'Key Principles for AI-Assisted Refactoring' section. Based on the author's reasoning, create 3-5 bullet points that a reader could apply to their own projects when working with an AI to improve code quality and maintainability."
+
+{% endraw %}

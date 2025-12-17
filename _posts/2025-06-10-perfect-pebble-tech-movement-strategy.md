@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 The following text introduces the Pipulate project, a software development framework born from a reaction against the complexity and churn of the modern web. It centers on a philosophy of "local-first" development, where applications run entirely on the user's machine, ensuring privacy, control, and simplicity. This approach deliberately avoids cloud-based infrastructure and heavy JavaScript frameworks in favor of a durable, transparent stack built on three core technologies: Nix for creating reproducible environments, Python for its stability and power, and HTMX for building dynamic interfaces directly in HTML.
@@ -526,3 +529,5 @@ The dialogue showcases a mature form of human-AI interaction. The author provide
 2.  **Task Suggestion 2:** Draft a script outline for the "Blueprint" video.
     * **Potential Prompt Snippet for Next AI:** "Using the 'Pebble 1: The Blueprint' strategy and the author's original text as a guide, create a bullet-point outline for a 3-4 minute YouTube video script. Structure it with a 'Hook,' 'Problem,' 'Philosophy,' a 'Demo Moment,' and a 'Call to Action.' Capture the author's passionate, authentic voice."
 
+
+{% endraw %}

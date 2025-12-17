@@ -19,6 +19,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry is part of my ongoing exploration into creating durable, future-proofed development workflows. Here, I document a significant breakthrough in managing experimental code and data science projects locally. By combining nested Git repositories with tools like `nbstripout` and leveraging shared Python virtual environments, I've established a private, efficient, and sovereign 'sausage factory' for turning rough ideas into polished, reusable AI-driven workflows. This setup not only accelerates my development but also provides robust versioning and backup without relying on public cloud services for every small iteration.
@@ -673,3 +676,5 @@ This journal entry is an outstanding piece of technical documentation disguised 
 ### Next Step Prompts
 - Given the editing instructions, act as an automated script and generate the full, edited Markdown file, including the YAML front matter, the new introduction, and the inserted subheadings.
 - Draft a follow-up article that expands on the 'bubble-up' concept, providing a step-by-step tutorial on how to migrate a specific function from a notebook in the `client_work` directory into a formal Pipulate workflow in the `apps` directory.
+
+{% endraw %}

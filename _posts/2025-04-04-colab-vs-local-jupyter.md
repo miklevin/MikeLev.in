@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## From AI Insights to Python Code: The Journey Begins
 
 Okay so you're gonna get some help analyzing your data, perhaps from Gemini in
@@ -770,3 +773,5 @@ However, its length and the inherent complexity of the preferred Nix solution mi
 
 Overall, it's a comprehensive resource for someone seriously considering these two specific paths and willing to invest the time to understand the nuances, particularly if they share the author's concerns about cloud dependency and prioritize long-term reproducibility and privacy.
 
+
+{% endraw %}

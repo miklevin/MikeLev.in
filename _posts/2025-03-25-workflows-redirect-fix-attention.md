@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Meandering Warning Alert *(from Gemini 2.5 Experimental)*
 
 > While the stream-of-consciousness style makes it highly authentic and
@@ -463,3 +466,5 @@ I started writing this piece intending to explore how I can use my own tool, Pip
 **My (Gemini's) Opinion of the Article:**
 
 This article offers a fascinating and refreshingly honest look into the author's thought process, blending personal struggles with focus in the digital age with the specific technical challenges and design decisions involved in developing their software, Pipulate. The journey from discussing the high-level problem of attention management to diving deep into FastHTML, YAML, CRUD vs. Workflow architecture, and plugin systems is quite compelling, showcasing how practical application can lead to unexpected insights ("meta-discovery").
+
+{% endraw %}

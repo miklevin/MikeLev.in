@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 The following journal entry documents a critical phase in the development of Pipulate, a unique, local-first platform for building AI-driven workflows. Unlike cloud-based AI services that charge per interaction, Pipulate is designed for unmetered experimentation, allowing developers to treat local language models (LLMs) like tireless employees rather than expensive consultants. At its core is the "Model Context Protocol" (MCP), a system designed to give these chatterbox AIs the ability to perform real-world actions—to pull levers and flip switches in a reliable, observable way.
@@ -1249,3 +1252,5 @@ The raw, conversational format is a significant strength. When curated, it provi
     2.  **Task Suggestion 2:** Generate a "Lessons Learned" Summary
         * **Potential Prompt Snippet for Next AI:** "Based on the full narrative of this entry, including the bug-hunt with `swap_workflow_step.py`, generate a 'Key Takeaways' section in Markdown. Include 3-4 bullet points summarizing the most important lessons for a developer building similar AI-powered, deterministic systems."
 
+
+{% endraw %}

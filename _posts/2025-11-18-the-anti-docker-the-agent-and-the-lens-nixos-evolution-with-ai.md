@@ -21,6 +21,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry marks a pivotal point in our exploration, chronicling not just a system crash and its recovery, but a profound multi-pass lens-grinding routine that underpins our entire philosophy of building resilient systems in the Age of AI. What began as a moment of frustration, exacerbated by a misstep with AI instructions and a human's blind trust, evolved into an invaluable lesson in architectural clarity. It's a raw look at how the abstract principles of determinism, control, and declarative system-building are forged into concrete, robust implementations, even (or especially) through the crucible of failure. This journey through a NixOS rebuild, from chaotic "big pile" to a lean, agent-ready Motherstone, serves as a testament to the continuous pursuit of clarity and the strategic integration of AI as a partner, not merely a tool.
@@ -1385,3 +1388,5 @@ This entry is a pivotal contribution to the overall narrative, brilliantly illus
 ### Next Step Prompts
 - Generate an introductory blog post that distills the core lessons from this article, inviting readers to explore the full 'Age of AI' series and the concept of 'lens-grinding'.
 - Develop a detailed technical guide for 'Article #5: The Automation,' focusing on building Nix Flakes for specific development environments (e.g., Python, Node.js) and integrating automated AI workflows within these environments.
+
+{% endraw %}

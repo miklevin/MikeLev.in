@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 > I do not like the bleeding edge.  
 > I cringe when I unearth it—  
 > But if you were to ask me so,  
@@ -722,3 +725,5 @@ Try a similar usage pattern—long Zoom call + screensharing. If flicker is gone
 Given the complexity of Nvidia + Wayland (especially with Zoom in the mix), many users find Xorg more stable. But if you do want Wayland, the snippet above is your best shot with current drivers. If it still glitches, you’ll either have to wait for newer Nvidia drivers (and keep “nix-channel --update” to get them) or try alternative Zoom or screensharing approaches until the driver stack matures further.
 
 Good luck, and I hope this two-tiered approach (Wayland fix → fallback to Xorg) keeps your system flicker-free!
+
+{% endraw %}

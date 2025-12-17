@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding AI-Assisted Software Development & Documentation
 
 This article chronicles a developer's real-time process of building and refining a software project called "Pipulate," which includes an SEO tool named "Parameter Buster." The author heavily utilizes Artificial Intelligence (AI) coding assistants (like Gemini) and reflects on the best ways to interact with them, a practice sometimes called "agentic coding." A major focus is on creating effective documentation not just for human users and developers, but also specifically for the AI assistants themselves to help them understand the project's unique, minimalist design patterns (using tools like Nix, FastHTML, and HTMX) and improve collaboration.
@@ -1014,3 +1017,5 @@ always use it in a super-prompt later.
 
 * **AI Opinion:**
     This article provides a valuable, albeit dense, look into the practicalities of modern, AI-assisted software development. Its strength lies in the detailed, candid documentation of the author's workflow, challenges, and specific technical solutions within the Pipulate project. While the technical jargon and journal format may limit accessibility for a general audience, it offers significant insights for developers interested in agentic coding patterns, AI prompt engineering, managing documentation for AI collaboration, and specific technologies like Nix, HTMX, and local LLM integration. The text serves as an excellent raw log of experience and problem-solving in a rapidly evolving field.
+
+{% endraw %}

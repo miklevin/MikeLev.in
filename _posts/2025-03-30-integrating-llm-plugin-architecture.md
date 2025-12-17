@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Late Night Refactoring Session
 
 It's Saturday night now. I had something of a nap. And I want to get this little
@@ -1532,3 +1535,5 @@ Okay, here's the summary from the author's perspective, followed by title sugges
 ## AI Opinion
 
 The article provides a fascinating and transparent look into the real-world process of software development, particularly the often messy journey of refactoring and integrating complex features like LLM capabilities into evolving architectures. The dialogue format with an AI (Claude) is an effective narrative device, showcasing not only the technical problem-solving steps but also the author's learning process, frustrations, and eventual breakthroughs regarding Python OOP concepts and dependency injection. It highlights the practical challenges of moving from global state to more robust, modular designs and demonstrates the power of iterative refinement ("small chisel strikes"). While highly technical, the conversational style and the inclusion of the author's thought process make it relatable for developers facing similar hurdles. The candid discussion about confusing Python conventions ("OOP snobbery") adds a valuable layer of honesty often missing from purely technical write-ups.
+
+{% endraw %}

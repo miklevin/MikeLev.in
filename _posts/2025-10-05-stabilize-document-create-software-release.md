@@ -16,6 +16,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a complete, real-world development cycle in a single morning. It begins with a stream-of-consciousness planning session that identifies a critical task: releasing a new version of the Pipulate software. What follows is the unedited, step-by-step execution of that plan, including managing git branches, troubleshooting a failed deployment, and interacting with an AI assistant to understand the problem. It's a transparent look at the 'Stabilize, Document, Create' process, moving from messy reality to a clean, successful public release.
@@ -1551,3 +1554,5 @@ This journal entry is a prime example of a 'work-in-public' narrative that provi
 ### Next Step Prompts
 - Based on the success of the 'Stabilize, Document, Create' workflow, generate a short, reusable guide on how to apply this three-step process to other creative or technical projects.
 - Analyze the provided `publish.py` script's logic. Suggest a modification that could more gracefully handle the 'untracked files' error, perhaps by prompting the user to add them or add them to .gitignore interactively.
+
+{% endraw %}

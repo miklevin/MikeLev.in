@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the architectural philosophy and practical implementation of Pipulate, a project aiming to revolutionize AI-assisted development. It specifically explores the concept of "Write Explicitly, Terminate" (WET) workflows, contrasting them with traditional "Don't Repeat Yourself" (DRY) principles in the context of Large Language Models (LLMs). The core problem addressed is the pervasive ambiguity and fragmented context that often hinder effective AI coding assistance, proposing a novel single-source-of-truth approach.
@@ -768,3 +771,5 @@ The unique aspects that stand out are the author's audacious "WET" philosophy, w
     * **Potential Prompt Snippet for Next AI:** "Based on the provided journal entry and the concept of 'WET code,' write a section titled 'Why WET? The Limitations of Traditional DRY for AI,' detailing specific historical frustrations and how WET directly addresses them."
 2.  **Task Suggestion 2:** Create a short analogy or metaphor that simplifies the "80-hyphen delimiter" concept and its multi-purpose function for a non-technical audience, explaining its role in content distribution and structure.
     * **Potential Prompt Snippet for Next AI:** "Develop a simple analogy (e.g., like a musical score, a multi-tool) for the 80-hyphen delimiter used in the README.md, explaining how it serves multiple functions for content organization, parsing, and distribution across different platforms."
+
+{% endraw %}

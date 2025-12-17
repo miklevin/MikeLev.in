@@ -16,6 +16,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures an important moment in the Pipulate project's evolution. It details the culmination of efforts to refine core features like 'stealth crawling' and, crucially, validates Pipulate's robust multi-platform compatibility across Mac, Linux, and even Windows Subsystem for Linux (WSL). More profoundly, it chronicles the dawning realization of Pipulate's true mission: not just 'AI SEO software,' but 'AI Education' (AIE), pronounced 'Ayyy!' This shift reflects a deeper ambition to empower users with simple, linear AI workflows, transforming how we interact with and teach AI models about our businesses.
@@ -750,3 +753,5 @@ This journal entry showcases the dynamic and iterative development that defines 
 ### Next Step Prompts
 - Generate a detailed content plan for the Pipulate YouTube video series, outlining specific topics for both internal (Google Workspace users) and public audiences, emphasizing the AIE message and user onboarding workflows.
 - Draft a comprehensive 'Getting Started with Pipulate on Windows WSL' guide that addresses all identified friction points (unzip, bash/sh, manual browser opening, Ollama setup) and provides clear, step-by-step instructions for new users.
+
+{% endraw %}

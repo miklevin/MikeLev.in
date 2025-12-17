@@ -22,6 +22,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In an Age of AI, understanding the intricate dance between our oldest instincts and our newest tools is more important than ever. This entry delves into a personal methodology, a practical way, that connects the primal impulses of our "animal brain" with the codified precision of linguistic thought and automated systems. From streamlining video workflows to conceptualizing the very evolution of human intelligence, this piece is an interesting exploration of how an individual navigates the complex terrain of creativity, productivity, and the evolving role of artificial intelligence.
@@ -571,3 +574,5 @@ This entry stands as an important treatise on the cognitive architecture of huma
 ### Next Step Prompts
 - Elaborate on the 'chisel-strike' methodology by providing concrete, step-by-step examples of how FAQuilizer, URLinspector, and GAPalyzer are integrated into a daily workflow for specific client deliverables.
 - Expand the 'Articulate Ape Theory' into a dedicated short essay, exploring its implications for education, team collaboration, and the design of AI systems, drawing more explicit connections to McGilchrist's work on hemispheric specialization.
+
+{% endraw %}

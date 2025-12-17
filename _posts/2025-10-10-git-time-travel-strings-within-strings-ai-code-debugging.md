@@ -21,6 +21,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a project at the forefront of AI-assisted browser automation. It delves into the intricate challenges of building self-modifying, AI-driven systems and the ingenious debugging strategies required to navigate them. Join us as we explore the author's firsthand account of using Git not just for version control, but as a time machine to dissect a critical coding dilemma, revealing profound insights into metaprogramming and the architecture of intelligent agents.
@@ -6587,3 +6590,5 @@ This entry is a masterclass in meta-debugging and architectural introspection wi
 ### Next Step Prompts
 - Generate a refactoring plan for `advanced_automation_tools.py`, outlining a staged migration of its various functionalities (player piano, system admin, LLM training, conversation management) into new, semantically aligned modules.
 - Draft an architectural diagram illustrating the 'strings within strings' pattern, showing `arcanist A` generating and executing `arcanist B`, and how the enhanced traceback logging bridges the debugging gap.
+
+{% endraw %}

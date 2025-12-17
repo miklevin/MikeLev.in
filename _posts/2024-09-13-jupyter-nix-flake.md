@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Creating a Portable JupyterLab Environment with Nix Flakes
 
 As someone who splits time between a NixOS desktop and a MacBook for work, I often face the challenge of keeping my development environments in sync. I work on automations that need to run anywhere, anytime—whether on NixOS or macOS. By constructing the entire environment with a Nix flake, I can share it with my coworkers, ensuring consistency and eliminating the "works on my machine" problem. This approach not only clarifies my workflow but also helps me declare my intent, methodology, and progress.
@@ -409,3 +412,5 @@ Whether you're a solo developer or part of a team, I highly recommend exploring 
 
 By sharing this journey, I hope to inspire others to take control of their development environments and embrace the power of Nix.
 
+
+{% endraw %}

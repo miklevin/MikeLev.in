@@ -20,6 +20,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 For the curious book reader, this entry delves into the architectural evolution of Pipulate, a system designed to democratize AI-powered SEO workflows. It showcases a unique methodology for collaborating with large language models, leveraging deep context-setting ('Prompt Fu') to overcome their inherent amnesia and guide them through complex software engineering tasks. At its heart, this piece demonstrates how decades of experience in coding for control, combined with modern tools like Nix for reproducible environments and FastHTML/HTMX for lean web applications, culminates in the precise distillation of intricate Jupyter Notebook workflows into robust, maintainable, and ultimately web-ready components, epitomized by the GAPalyzer project.
@@ -1173,3 +1176,5 @@ This entry stands out as a masterclass in AI-assisted development. It's not mere
 ### Next Step Prompts
 - Now, apply the same distillation process to the *next* logical code cell in `GAPalyzer.ipynb`, moving its core logic into `gap_analyzer_sauce.py` and implementing `pip.set()` for relevant intermediate results.
 - Given the complete GAPalyzer workflow and its refactored structure, generate a high-level data flow diagram (in Mermaid or PlantUML format) illustrating the main stages, data inputs/outputs, and how `pip.set/get` orchestrates persistence between steps.
+
+{% endraw %}

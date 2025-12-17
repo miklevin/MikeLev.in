@@ -21,6 +21,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the ongoing tapestry of our exploration into sovereign computing, this important essay delves into the evolution of my work on Pipulate, specifically the profound insights gained from `prompt_foo.py` and `foo_files.py`. It's a foundational piece, offering an interesting perspective on how we can transform amnesiac AI interactions into deterministic, narrative-driven intelligence, crucial for anyone navigating the Age of AI.
@@ -637,3 +640,5 @@ This entry is a fascinating and important philosophical blueprint for how we sho
 ### Next Step Prompts
 - Generate an article detailing best practices and advanced patterns for structuring `foo_files.py` 'chapters,' including conventions for linking, organizing, and querying narrative chunks for various project types.
 - Explore the architectural implications of extending the 'Book of Code' metaphor to integrate testing, documentation, and deployment workflows, further solidifying the codebase as a single, cohesive narrative.
+
+{% endraw %}

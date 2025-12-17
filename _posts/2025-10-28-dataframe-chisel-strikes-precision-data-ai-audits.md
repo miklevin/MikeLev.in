@@ -17,6 +17,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry details an important methodology in our journey to build highly efficient, AI-powered data processing workflows. It outlines a series of precise, iterative "chisel-strikes" used to transform raw web extraction data into a perfectly structured Pandas DataFrame, ready for advanced AI analysis. This philosophy emphasizes a deliberate, step-by-step approach to data engineering, ensuring clarity, quality, and optimal preparation for subsequent automated insights.
@@ -941,3 +944,5 @@ This entry stands out as a foundational treatise on disciplined data architectur
 ### Next Step Prompts
 - Develop a Python function that takes the refined DataFrame and, for each row, calls a specific AI prompt to generate an SEO audit summary or content optimization suggestions for that URL's markdown content.
 - Implement robust idempotency checks within `secretsauce.generate_extractions_post_scrape` and `secretsauce.fetch_http_info` to prevent unnecessary re-execution and resource usage upon repeated runs of the notebook.
+
+{% endraw %}

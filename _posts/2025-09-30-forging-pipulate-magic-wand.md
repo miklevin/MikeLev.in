@@ -21,6 +21,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry captures a pivotal moment in a complex software refactoring project. The goal is to transform a web-server-dependent tool called `Pipulate` into a self-contained, importable 'magic wand' that can be used directly within a Jupyter Notebook for rapid, AI-driven prototyping. You are reading my real-time thought process as I grapple with the architecture, uncover a key insight about the underlying database libraries (`fasthtml` vs. `fastlite`), and then collaborate with an AI assistant to forge a precise, commit-by-commit implementation plan. This is a look inside the sausage factory of modern, AI-assisted software development.
@@ -1159,3 +1162,5 @@ This entry is a superb example of the modern, AI-augmented development process. 
 ### Next Step Prompts
 - Based on the final implementation plan, generate a MermaidJS sequence diagram illustrating the two initialization paths for the `Pipulate` class: the 'Server Context' and the 'Standalone/Notebook Context'. Show the calls to `fast_app` or `fastlite.FL` and the instantiation of `DictLikeDB` in each path.
 - Write a follow-up journal entry from the perspective of having successfully implemented this plan. Describe the first new workflow you prototyped in a Jupyter Notebook using `import pipulate as pip`. Reflect on how the new process felt and whether the 'magic wand' lived up to its name.
+
+{% endraw %}

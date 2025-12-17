@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This journal entry marks a pivotal transition from philosophy to practice. After exploring the 'why' behind adopting a Linux-based, future-proof toolkit, this entry dives headfirst into the 'how.' It's a raw, hands-on account of the very first practical step: creating a bootable NixOS installer and breathing new life into a machine that proprietary systems have left behind. This is the bootstrapping moment, the creation of the 'outside force' needed to begin the journey.
@@ -789,3 +792,5 @@ This is a cornerstone entry for the book. It successfully bridges the gap betwee
 ### Next Step Prompts
 - Based on the final paragraph of this entry, generate a follow-up technical journal entry titled 'The Noah's Ark of Tech: Replicating Your System with configuration.nix'. Explain the concept of declarative configuration, provide a commented example of a basic `configuration.nix` file, and walk through the process of copying it to a new NixOS install and running `nixos-rebuild switch` to replicate the original system's software environment.
 - Create a visual aid generation plan for this article. List 6 key moments in the process (e.g., `lsblk` before/after, UEFI Boot Order screen, NixOS WiFi setup, NixOS partition screen) and write a detailed prompt for each to generate an illustrative, generic screenshot-style image.
+
+{% endraw %}

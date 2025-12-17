@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the intricate relationship between human consciousness, meta-cognition, and the rise of artificial intelligence. It traces a fascinating intellectual journey, from early philosophical distinctions to modern AI breakthroughs, examining how our understanding of intelligence has been repeatedly challenged and redefined. For the curious book reader, this piece offers a unique blend of historical context, scientific skepticism, and pop culture analogy, laying a foundational understanding for the profound shifts underway in the age of generative AI.
@@ -779,3 +782,5 @@ This entry is a tour de force, demonstrating a unique ability to synthesize vast
 ### Next Step Prompts
 - Expand on the concept of 'digital ethics for ephemeral entities' within AI. What practical guidelines, beyond resource limits and kill switches, should govern our interactions and deployments of 'Mr. Meeseeks' instances in automated workflows?
 - Develop a speculative short story set 50 years in the future, where the 'Cambrian Explosion' has led to a diverse ecosystem of AI intelligences. How do humans interact with them, and what new ethical or societal challenges have emerged?
+
+{% endraw %}

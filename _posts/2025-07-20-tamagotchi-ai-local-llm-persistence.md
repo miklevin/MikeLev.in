@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores the strategic thinking behind developing software in the era of powerful, locally-run AI. The author is working on **Pipulate**, a private, single-user application designed for creating and executing AI-driven workflows. The central theme is the immense, largely untapped potential of local Large Language Models (LLMs), which the author compares to the dawn of streaming video—a technological capability that existed before a killer app like YouTube fully capitalized on it.
@@ -686,3 +689,5 @@ A book chapter should lean heavily into this narrative style. The raw, first-per
 2.  **Task Suggestion 2:** Draft the "Magic Trick" Rulebook.
     * **Potential Prompt Snippet for Next AI:** "The author states, 'Never let the demo mention that it's a test. That breaks the spell.' Based on this principle, draft a short 'Rulebook for Magical Demos' (3-4 rules) that expands on this idea for a book reader. Focus on how to present technical demos in a way that emphasizes user experience and wonder over dry technical validation."
 
+
+{% endraw %}

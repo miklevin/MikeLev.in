@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding Web Automation and Data Capture: Getting Started
 
 This article delves into the intricacies of web browser automation, a process where software controls a web browser to perform tasks typically done by a human. It focuses specifically on the challenges and solutions involved in creating a "web crawler" – a program designed to systematically browse and collect information from websites. The core problem addressed is how to efficiently capture, store, and manage various forms of web page data, such as the fully rendered content seen by a user, the original code sent by the server, and technical details like response headers, all while maintaining the "identity" of a Browse session. The discussion highlights how these fundamental problems, faced by early web pioneers like Google, continue to evolve with modern tools and AI-assisted approaches.
@@ -1461,3 +1464,5 @@ Ready for the next step? Just say the word, and we’ll move from “proof” to
 ## AI Opinion:
 
 This article offers immense value as a detailed, technical journal entry on the challenges and strategic decisions involved in building an advanced web crawler with browser automation. Its strength lies in the clear articulation of complex problems and the pragmatic approach to solving them, particularly regarding data capture and session management. While highly valuable for an experienced technical audience or someone closely following the author's project, its in-the-moment, jargon-heavy style means it lacks the structured clarity and comprehensive background necessary for broader appeal. The core ideas presented, especially the "folder-per-page" caching and `selenium-wire` integration, are technically sound and demonstrate a sophisticated understanding of the problem domain, offering a solid foundation for the project's future development.
+
+{% endraw %}

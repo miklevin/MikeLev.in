@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Introduction
 
 ### The Problem with Window Management
@@ -289,3 +292,5 @@ However, the article's strong opinions and occasional use of hyperbolic language
 
 Overall, the article is a thought-provoking read that offers valuable insights into the world of open-source desktops and the importance of user agency in the digital age. It is likely to resonate with developers, power users, and anyone who shares the author's concerns about the direction of mainstream operating systems. While the article is a good starting point, there is an opportunity to build on the author's premise, and to go deeper into many of the topics and points that are only touched on briefly, particularly in the area of Linux and open-source software, the GNU Project, and the Free Software Foundation (FSF).
 
+
+{% endraw %}

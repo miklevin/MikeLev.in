@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Improving Pipulate's Workflow UI
 
 This article chronicles the technical process of improving a software component within a framework called "Pipulate," which is used to build user interfaces (UIs) for step-by-step digital processes or "workflows." 
@@ -1731,3 +1734,5 @@ The pattern we developed is more than just a solution to a spacing problem - it'
 
 * **AI Opinion:**
     This article provides significant value as a detailed technical log or case study for developers working directly with the Pipulate framework or facing very similar challenges in composing UIs with FastHTML, HTMX, and a CSS framework like PicoCSS. Its strength lies in the practical, step-by-step demonstration of identifying a UI inconsistency, developing a standardized component pattern, and iteratively refining it based on observed issues (like styling glitches). While the clarity is high for its intended niche audience (likely the author and immediate collaborators), it is very low for anyone outside that context due to heavy jargon and assumed knowledge. The later sections abstracting the solution into a "Widget Container" pattern and speculating on AnyWidget/D3.js integration significantly broaden its potential usefulness as an example of UI pattern evolution.
+
+{% endraw %}

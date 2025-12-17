@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in a developer's workflow, chronicling the deliberate shift from a graphical, VSCode-based AI assistant (Cursor AI) to a command-line tool (Gemini CLI). This decision isn't merely about swapping one product for another; it's a practical application of a deep-seated philosophy that champions the command-line interface (CLI) for its power, longevity, and resistance to corporate "vendor lock-in." The author delves into the importance of **Free and Open Source Software (FOSS)**, arguing that true ownership and control over one's tools are paramount for serious development work.
@@ -386,3 +389,5 @@ The unique value here is the seamless integration of high-level philosophy with 
 2.  **Task Suggestion 2:** Generate explanatory analogies for complex concepts.
     * **Potential Prompt Snippet for Next AI:** "From the text, identify the author's distinction between 'flow-state' and 'Steve Jobs-mode' (hunt-and-peck GUI interaction). Generate two distinct analogies a novice developer could understand to explain the value of uninterrupted, keyboard-driven workflow."
 
+
+{% endraw %}

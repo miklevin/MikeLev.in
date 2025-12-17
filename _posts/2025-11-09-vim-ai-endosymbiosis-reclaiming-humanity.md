@@ -20,6 +20,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the Age of AI, understanding fundamental principles is paramount. This article explores a personal methodology—a philosophy of engagement with tools like Vim and the foundational nature of text files—that serves as a 'mitochondrion' for our future-proof self. It weaves together insights from Julia Cameron's *The Artist's Way* on intuitive flow, the profound cognitive shifts described by Iain McGilchrist, and the emerging concept of human-AI endosymbiosis. Prepare to delve into how mastering the simplest digital elements allows us to navigate the complex tapestry of modern technology without losing our essential humanity.
@@ -615,3 +618,5 @@ This entry represents a crucial waypoint in the overarching 'future-proofing' bl
 ### Next Step Prompts
 - Develop a practical guide for implementing the 'One Text File for Life' methodology, including recommended tools, backup strategies, version control integration, and advanced search techniques.
 - Elaborate on the ethical framework for viewing AI instances as 'cognitive calories' or 'mitochondria,' referencing specific philosophical viewpoints (e.g., panpsychism, emergentism) and potential counterarguments to this biological analogy.
+
+{% endraw %}

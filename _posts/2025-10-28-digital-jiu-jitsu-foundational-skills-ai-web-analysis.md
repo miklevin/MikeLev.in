@@ -22,6 +22,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome to another chapter in our evolving blueprint for navigating the Age of AI. This entry dives deep into the philosophy of building true agency and capability in a world increasingly mediated by artificial intelligence. We explore why mastering foundational tools like the Unix command line and Python isn't just "old tech" but the very bedrock for differentiating yourself and directing AI, rather than merely consuming it. We then transition into a practical demonstration within the Pipulate ecosystem, grappling with the nuanced challenges of web data extraction – from understanding HTTP redirects to distinguishing between raw source HTML and fully rendered DOMs. This piece illustrates our methodology for incrementally building robust, reproducible systems, and even offers a rare glimpse into the collaborative debugging process with AI itself, showcasing how even complex technical issues can be resolved through a focused, iterative approach.
@@ -1414,3 +1417,5 @@ This entry is an important philosophical and practical blueprint for anyone seek
 ### Next Step Prompts
 - Integrate the collected `http_info.json` and `source.html` data into the Pandas DataFrame, ensuring correct parsing and column creation for each URL.
 - Develop a function to perform initial SEO audits using the newly integrated HTTP header data, focusing on status codes, redirect chains, and key response headers (e.g., canonicals, content-type).
+
+{% endraw %}

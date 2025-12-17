@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The LPvg Stack: A Foundation for Future-Proof Skills
 
 I believe in mastering a set of fundamental, versatile tools that I call the "LPvg stack". These form the core of what I consider a future-proof skill set. I advocate for avoiding the "hamster wheel" of constantly chasing the latest tech trends and instead focusing on timeless fundamentals that remain relevant across different eras of technology.
@@ -230,3 +233,5 @@ I advocate for mastering the fundamental LPvg stack—Linux, Python, Vim, and Gi
 * **"Minimalist" Scope:** The LPvg stack is powerful but might be *too* minimalist for complex, large-scale application development without incorporating *some* higher-level libraries or frameworks built upon Python (like Django, FastAPI, etc., which the author acknowledges briefly).
 
 Overall, the article offers valuable wisdom, particularly for professionals seeking long-term relevance, independence, and a way to integrate technology thoughtfully into their domain expertise. It champions a philosophy of deliberate practice, sustainability, and control over one's tools, which resonates strongly against the backdrop of rapid technological change and vendor-driven ecosystems. It's a refreshing perspective that encourages investing in skills that endure.
+
+{% endraw %}

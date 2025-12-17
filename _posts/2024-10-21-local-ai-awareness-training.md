@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Building a Scalable FastHTML CRUD App with Local LLM In The Loop
 
 > The time has come the walrus said to teach our local LLM to do CRUD
@@ -913,3 +916,5 @@ something useful out of this exercise.
 
 **Next up**: making the UI update to these CRUD operations to complete the ***"ghost in
 the machine"*** illusion—or maybe not so much illusion.
+
+{% endraw %}

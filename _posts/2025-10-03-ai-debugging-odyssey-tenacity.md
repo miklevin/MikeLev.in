@@ -22,6 +22,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Friendly Sparring With a Machine
@@ -3034,3 +3037,5 @@ This entry is a cornerstone piece for any work on the future of software develop
 ### Next Step Prompts
 - Based on the debugging journey in this entry, extract a list of 5-7 best practices for developers when debugging code collaboratively with an AI agent. Frame them as actionable tips for a chapter titled 'The Art of AI Debugging'.
 - Analyze the final, working `prompt_foo.py` script. Based on its functionality, write a concise `README.md` section explaining how to use it, its command-line arguments, and the purpose of the `foo_files.py` configuration.
+
+{% endraw %}

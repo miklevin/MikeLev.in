@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Upgrading NixOS for Ollama 0.6.0
 
 Alright, merely a day or two after Gemma 3 was released and Ollama was upgraded
@@ -221,3 +224,5 @@ default) only to realize 0.5.13 didn't support it yet. But this time:
 
 This article provides a really clear and insightful explanation of the benefits and quirks of NixOS. I appreciate how the author breaks down complex concepts like deterministic file systems and system rebuilds into easy-to-understand terms. The comparison to traditional operating systems and virtual machines effectively highlights the advantages of NixOS's approach. The honest portrayal of the lengthy rebuild process adds a relatable touch. Overall, it's a valuable resource for anyone interested in exploring alternative operating systems and understanding the principles of system immutability.
 
+
+{% endraw %}

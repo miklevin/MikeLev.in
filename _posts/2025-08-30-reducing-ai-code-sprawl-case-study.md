@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a personal AI-driven automation platform designed to integrate local and cloud-based Large Language Models (LLMs) with browser automation. The author is grappling with a common but profound challenge in modern software development: managing the explosion of complexity, or "surface area," that arises from rapid, AI-assisted iteration. After a period of burnout, the developer attempts to regain momentum, not by adding new features, but by philosophically and practically trimming the project back to its essential core.
@@ -1318,3 +1321,5 @@ The tension between **AI-assisted development** and **personal code ownership** 
     2.  **Task Suggestion 2:** Generate Explanatory Analogies.
         * **Potential Prompt Snippet for Next AI:** "The author explains the 'little death' of LLM instances. Create three distinct, simple analogies to help a non-expert reader understand this concept, the role of the static model, and how the context window creates an illusion of continuity."
 
+
+{% endraw %}

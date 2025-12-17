@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 No matter how much I want to keep things in Python Jupyter Notebooks to avoid Web development frontend work, all roads seem to lead to webdev. You can't just ask everyone to go into a Notebook and change values or interact with ipywidgets or use it like a dashboard. People expect easy self-serve web apps. What's more, when you do go into the code, people expect AI coding assistants.
 
 ### The Rise of AI Coding Assistants
@@ -192,3 +195,5 @@ This Nix Flake provides a baseline set of capabilities necessary to bring a form
 By embracing this approach, we create a flexible, powerful, and accessible
 development environment that caters to various needs while leveraging the
 benefits of open-source tools and AI assistance.
+
+{% endraw %}

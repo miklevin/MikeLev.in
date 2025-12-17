@@ -8,6 +8,9 @@ meta_keywords: AI collaboration, infinite regression, disaster recovery, anti-pa
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the real-world challenges and innovative solutions encountered while developing Pipulate, a local-first AI SEO tool. It specifically unpacks a critical "infinite regression" bug where an AI coding partner inadvertently broke core data persistence, leading to a significant loss of work. Far from a simple bug fix, this narrative explores a novel human-AI collaboration strategy, dubbed the "strange loop," to recover lost features and fundamentally restructure the development workflow to prevent similar regressions, ensuring both stability and continued creative exploration in AI-assisted coding.
@@ -1860,3 +1863,5 @@ What truly stands out is the author's proactive and philosophical approach to pr
 2.  **Task Suggestion 2:** Expand on the technical details of the "infinite regression" and "strange loop" with a brief, high-level code example or pseudo-code illustrating the core pattern.
     * **Potential Prompt Snippet for Next AI:** "Provide a small, illustrative pseudo-code or simplified Python/FastHTML code snippet that clearly demonstrates the 'infinite regression' bug described in the text, and then a corresponding snippet showing how the 'strange loop' approach (e.g., auto_picker.py logic) breaks that cycle."
 
+
+{% endraw %}

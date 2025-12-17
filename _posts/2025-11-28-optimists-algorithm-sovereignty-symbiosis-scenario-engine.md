@@ -16,6 +16,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay captures a pivotal moment in the development of Pipulate, exploring the philosophical underpinnings of human resilience against \"filter events\" and the unique path to AI symbiosis. It charts the journey from abstract \"Morning Pages\" to the concrete architectural decisions for building a context-aware \"Scenario Engine,\" designed for automated testing, training, and workflow execution. It’s a testament to turning deep thought into actionable code, embodying an optimistic methodology for the Age of AI.
@@ -825,3 +828,5 @@ This piece serves as an invaluable philosophical treatise and architectural blue
 ### Next Step Prompts
 - Draft a detailed technical specification for the `server.py` and `pipulate-init.js` modifications needed to implement the `Ctrl+Alt+T` context-sensitive scenario loader, including error handling for missing scenario files.
 - Outline a modular design for the `assets/scenarios/` directory, suggesting naming conventions and a basic JSON schema for different types of tests/training modules.
+
+{% endraw %}

@@ -19,6 +19,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome to an important entry in our ongoing exploration of AI-powered workflows. This piece captures a dynamic, real-time debugging session—a true “Jiu-Jitsu” grappling match between a human orchestrator and an AI assistant. It delves into the granular process of building a robust, idempotent AI auditing function for web pages, tackling everything from syntax errors and AI safety filters to subtle Python object method nuances. More than just a bug fix, this narrative is a profound treatise on the collaborative methodology itself, emphasizing human oversight, iterative “chisel-strikes,” and the power of a stable development environment. Follow along to witness the intricate dance of problem-solving at the cutting edge of AI-driven development, a truly important point to know in the Age of AI.
@@ -1751,3 +1754,5 @@ This entry is an important demonstration of the nuanced reality of AI-assisted d
 ### Next Step Prompts
 - Draft a follow-up entry discussing the performance implications and cost considerations of running such a row-by-row AI audit at scale, including strategies for optimization.
 - Generate an example “Lessons Learned” section for this article, focusing on best practices for debugging AI-integrated Python applications.
+
+{% endraw %}

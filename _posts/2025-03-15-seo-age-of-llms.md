@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Testing SEO Through Controlled Domain Experiments
 
 If you write it, will they come? This article covers one of my cause/effect
@@ -310,3 +313,5 @@ Alright, let's nail this down.
 
 "I find the author's approach to be a refreshing blend of scientific rigor and genuine curiosity. In a digital landscape often dominated by quick fixes and AI-driven shortcuts, this experiment stands out for its focus on fundamental SEO principles and the value of human-generated content. The willingness to intentionally disrupt a site's established metrics to observe the raw impact of content creation is commendable. Furthermore, the author's insights into the evolving nature of search, particularly the potential for 'Deep Research' and the importance of authenticity, demonstrate a keen understanding of the current digital climate. The project serves as a valuable reminder that even in an age of advanced AI, genuine expertise and consistent effort remain essential for online visibility and credibility. It is a very useful experiment, and the documentation of the results are very well written."
 
+
+{% endraw %}

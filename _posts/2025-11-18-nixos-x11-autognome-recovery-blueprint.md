@@ -19,6 +19,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this important installment of our ongoing journey to build a resilient and highly personalized computing environment, we tackle the critical process of system recovery and refinement. Following a significant system crash, this entry chronicles the methodical steps taken to restore core automated workflows, specifically focusing on the `autognome.py` script for multi-screen setup. It's a tapestry woven with technical solutions, iterative problem-solving, and a deep dive into NixOS configurations, showcasing how a modular system can be brought back from the brink, more robust than before, and how automation becomes a philosophy rather than merely a tool in the Age of AI.
@@ -1164,3 +1167,5 @@ This article is an excellent practical demonstration of building resilience and 
 ### Next Step Prompts
 - Detail the process of re-integrating day-job specific tools (e.g., Zoom, Slack, VPNs) into the newly recovered NixOS environment, ensuring they respect the established modularity and X11 setup.
 - Explore potential future-proofing strategies for `autognome.py` or similar automation scripts, considering alternatives to `xdotool`/`wmctrl` that might be Wayland-compatible, or a deeper dive into Wayland's security model and how it impacts system-level scripting.
+
+{% endraw %}

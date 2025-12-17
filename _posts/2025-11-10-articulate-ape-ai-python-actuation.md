@@ -23,6 +23,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This article flows from a series of profound reflections on human adaptation, the nature of intelligence, and the unfolding implications of artificial intelligence. It traces a fascinating lineage from the earliest forms of human "articulation"—be it cooperative grunts, complex language, or the "techniques" of early tool-making—to the modern "sorcery" of coding. The discussion challenges conventional views of evolution, explores historical scientific heresies, and critiques the promises of AI, particularly through the lens of Ira Levin's dystopian classic, *This Perfect Day*, and the strategic pronouncements of NVIDIA's Jensen Huang. Ultimately, it frames contemporary programming as the latest iteration of humanity's drive to actuate its will upon reality, a crucial skill for maintaining agency in a world increasingly shaped by algorithms.
@@ -606,3 +609,5 @@ This entry is a fascinating and profoundly insightful treatise on the evolving n
 ### Next Step Prompts
 - Expand on the concept of 'dogfooding' this philosophy by outlining specific, actionable Python projects or methodologies that exemplify 'Chip O'Theseus' in practice, demonstrating how individuals can build their personal 'actuators' for agency.
 - Explore the ethical implications of 'actuation' vs. 'automation,' delving into the responsibility of the 'Programmer' (the human using code) in a world where machines can generate complex outputs, drawing further parallels to historical power dynamics.
+
+{% endraw %}

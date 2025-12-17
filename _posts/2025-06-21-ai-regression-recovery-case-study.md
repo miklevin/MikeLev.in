@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a local-first web framework designed for radical transparency in AI-assisted coding. The author, wrestling with the challenges and rewards of this philosophy, chronicles the evolution of their collaboration with an AI coding assistant. The narrative begins with manual data sharing via server logs and progresses to a sophisticated, agentic workflow where the AI can directly interact with the development environment using tools like `grep`, `git`, and `curl`.
@@ -1102,3 +1105,5 @@ Here is a comprehensive analysis and transformation of the provided entry, struc
     2.  **Task Suggestion 2:** Extract the Core Methodology
         * **Potential Prompt Snippet for Next AI:** "Based on the full entry, extract the 'Radical Transparency Recovery' process into a standalone, step-by-step checklist. Format it as a practical guide a developer could use to debug their own AI-related issues, including specific `git` and `grep` commands, and principles for analyzing the situation."
 
+
+{% endraw %}

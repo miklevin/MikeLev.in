@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Introduction
 
 This article chronicles my attempt to switch from the GNOME desktop environment to the Hyprland tiling window manager on my NixOS system.  Initially drawn to Hyprland's promise of speed, customizability, and strong Wayland support, I embarked on a detailed configuration journey, meticulously documented through conversations with the AI assistant, Claude.
@@ -1049,3 +1052,5 @@ explain but even kicking Windows and macOS's butt in my opinion.
 And I hardly even realized it until I tried Hyprland, hahaha!
 
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## FastHTML App Plugin Framework Takes Shape
 
 What I want now is a FastHTML ***app plugin*** framework. Or would that just be
@@ -977,3 +980,5 @@ Creating a robust testing suite using Python's `unittest` has proven to be inval
 As I prepare to transition from building this foundational framework to actual client work, I’m excited about the prospects of this project. The core principles of reliability and maintainability are now embedded within the application, setting the stage for future enhancements. With this solid base in place, I look forward to expanding the functionality of my FastHTML app, diving into client projects, and ultimately providing a powerful tool that users can depend on.
 
 In conclusion, having a comprehensive test framework isn't just a nice-to-have; it's essential for ensuring that my application can evolve without losing its core functionality. As I continue on this path, I am more prepared than ever to tackle the challenges ahead and to deliver a robust solution that meets the needs of my users.
+
+{% endraw %}

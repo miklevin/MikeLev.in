@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -3505,3 +3508,5 @@ This entry is a powerful treatise for a specific approach to software developmen
 - Expand on the concept of 'Computational Sovereignty' as a standalone philosophy, drawing parallels to historical technological shifts and current data privacy concerns. What are its core tenets for the book?
 - Draft a dedicated section or a set of bullet points explaining Nix's role in achieving the 'Universe in a Folder' concept, tailored for a non-Nix-expert audience, using analogies if helpful.
 
+
+{% endraw %}

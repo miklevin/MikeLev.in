@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment in the development of an AI-powered coding assistant. The author, acting as a "coachman," grapples with directing powerful but unpredictable "agentic" AIs. It details the shift from conversational AI interfaces to a more structured, contract-based approach using precise prompts and atomic `git` operations. This method aims to enforce transactional integrity—either the AI completes the task perfectly, or the system rolls back completely, preserving the lessons from the failure. The author reflects on the challenge of balancing this strict control with the need for the AI to learn from its mistakes, setting the stage for a deep dive into debugging two non-standard databases within the system.
@@ -732,3 +735,5 @@ This is an excellent entry for a book on advanced AI development practices. It m
 ### Next Step Prompts
 - Based on the successful code refactoring, generate a new journal entry reflecting on how modularizing the MCP tools impacted the AI's ability to diagnose and fix the database issues. Detail the next set of challenges that emerged.
 - Write a short, conceptual guide titled 'The Git-Powered Undo Button for AI' that expands on the idea of atomic commits and rollbacks as a safety mechanism for agentic workflows, intended for an audience of software developers new to AI.
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry delves into a critical aspect of software development, particularly for tools that handle sensitive client data: ensuring that proprietary information never accidentally leaks into version-controlled repositories. We explore a specific enhancement to `pipulate`'s `nbup` method, designed to automatically sanitize Jupyter notebooks by replacing client-specific prompts and URLs with safe, generic sample data before committing. This ensures robust data privacy while maintaining functional templates.
@@ -814,3 +817,5 @@ This journal entry represents a highly practical and essential contribution to s
 ### Next Step Prompts
 - Draft a comprehensive unit test suite for the `nbup` method's new data scrubbing functionality, ensuring all tagged cells are correctly identified and replaced with the specified sample data.
 - Develop a detailed documentation update for the `pipulate` project, explaining the enhanced `nbup` method's data sanitization features, configuration options, and usage guidelines for developers, including best practices for tagging sensitive cells.
+
+{% endraw %}

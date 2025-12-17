@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Three Wise Men of Python's Readability Journey
 
 ### ABC: The Original Readability Crusaders
@@ -2855,3 +2858,5 @@ The key benefits are:
 ---
 
 Evaluating why this is a genie wish. Probably not going to implement it.
+
+{% endraw %}

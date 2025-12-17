@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the philosophical and practical challenges of elevating AI coding assistants from mere tools to genuine collaborators. It explores a core concept driving the Pipulate project: **AI Embodiment**. The author argues that the primary limitation of modern AI isn't its raw intelligence, but its disembodied, "brain-in-a-vat" existence. The solution proposed is to give the AI a functional "body" within the software environment, complete with senses (access to logs, file systems, and server state) and hands (the ability to execute tools, manipulate code, and use `git`).
@@ -511,3 +514,5 @@ The inclusion of the dialogues with both Claude and Grok is a masterstroke. It e
 
 2.  **Task Suggestion 2:** Create an Analogy-Driven Explainer
     * **Potential Prompt Snippet for Next AI:** "Using the author's metaphors (Helen Keller, Give a Mouse a Cookie, Mitochondria), write a short, accessible explanation of the Pipulate framework's core philosophy. The explanation should be suitable for a non-technical introduction in a book, clarifying how these analogies relate to specific technical features like the AI Keychain and server-side state."
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 > It's 6:00 AM on a Sunday.  
 > A good night of sleep is secured  
 > The race is now on before Monday  
@@ -2612,3 +2615,5 @@ response: {
 ```
 
 Let's take it one thing at a time, top-down.
+
+{% endraw %}

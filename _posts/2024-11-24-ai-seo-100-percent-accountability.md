@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## The Rabbit Hole Beckons
 
 Once again, I must not let ***THIS*** become a rabbit hole. Inevitably, it will
@@ -748,3 +751,5 @@ supposed to be. I played momentarily with `/brainstorm/` and `/techbook/` to
 capture other spirits of the thing, but then finally settled on `/futureproof/`,
 as the actual targeted concept of what this thing I'm doing is really
 solidifying, materializing and otherwise congealing in my mind.
+
+{% endraw %}

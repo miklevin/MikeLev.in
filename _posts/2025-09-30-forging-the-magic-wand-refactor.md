@@ -16,6 +16,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This is a raw, real-time look at a complex software refactoring—the process of forging a 'magic wand.' I'm transforming a core part of my application, consolidating scattered logic into a single, powerful, self-contained class. This entry captures the messy middle of development: the initial plan, the unexpected errors, the collaboration with an AI to correct course, and the satisfaction of stabilizing the 'patient' after major surgery. It's a testament to the fact that even with powerful AI tools, development is a process of diagnosis, execution, and iterative correction.
@@ -1729,3 +1732,5 @@ This entry is a superb example of 'Show, Don't Tell.' It doesn't just describe a
 ### Next Step Prompts
 - Write the follow-up journal entry detailing the process of refactoring the `apps/` plugins using the `rg` and `sed` commands, completing the 'reconnecting the nerves' phase of the surgery.
 - Create a visual diagram, perhaps using Mermaid.js, that shows the 'before' architecture (scattered `db` access) and the 'after' architecture (centralized `pipulate.db` access) to visually summarize the goal of this refactor.
+
+{% endraw %}

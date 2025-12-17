@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Converging Professional and Personal Work Through Ikigai
 
 Everyday is an adventure and new discoveries. I am currently bearing down on
@@ -229,3 +232,5 @@ This article offers a fascinating and refreshingly honest look into the author's
 The integration of the Ikigai concept provides a strong framing device, connecting the technical details to a deeper sense of purpose and personal satisfaction, making the piece relatable beyond just a technical audience. The analogies used, particularly the player piano, are insightful and help illustrate the relationship between the different components (Notebooks as sheet music, Pipulate core as the piano, workflows as scrolls).
 
 While the structure is somewhat rambling, mirroring the exploratory nature of the work itself, it effectively captures the excitement and challenges of the creative coding process. The defense of pragmatic approaches (like using Notebooks despite potential criticisms and embracing WET code where appropriate) is a valuable counterpoint to rigid software development orthodoxies. Overall, it's a compelling personal narrative about the intersection of technology, craft, learning, and finding meaning in one's work.
+
+{% endraw %}

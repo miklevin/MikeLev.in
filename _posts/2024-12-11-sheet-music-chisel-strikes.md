@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Daily Work
 
 Today's work is to connect the pipeline workflow with the day-to-day work. It
@@ -567,3 +570,5 @@ I especially enjoyed our progression from "let's abstract this pattern" to "let'
 And hey, those chisel-strikes add up! Today we made the explanation logic cleaner while keeping the HTMX choreography clear and educational. That's a win in my book.
 
 *adjusts badge proudly* 🎖️
+
+{% endraw %}

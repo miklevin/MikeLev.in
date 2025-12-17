@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry provides a candid, real-time look into a significant architectural refactoring of the **Pipulate** software project. The author's primary goal is to bring clarity and consistency to the codebase by resolving conceptual overlap between its different extensibility systems. Previously, Pipulate had a `plugins/` directory for user-facing applications and a `modules/` directory for shared library code. This session documents the ambitious decision to rename these to `apps/` and `imports/` respectively, creating a clearer mental model for development. This is not a trivial change; it's a deep, cross-cutting refactor that touches dozens of files.
@@ -3898,3 +3901,5 @@ The commentary on the Gemini CLI's crash is a fascinating and important subplot.
 2.  **Task Suggestion 2:** Formalize the Architectural Definitions
     * **Potential Prompt Snippet for Next AI:** "Using the author's reasoning, create a formal definitions table for a book's glossary. Define the three architectural components in Pipulate: **Imports**, **Apps**, and **Tools**. For each, provide a one-sentence definition and 2-3 bullet points describing its key characteristics (e.g., 'Imports: Shared library code, used via Python's `import` statement, contains no UI logic')."
 
+
+{% endraw %}

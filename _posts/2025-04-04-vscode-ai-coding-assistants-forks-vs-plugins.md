@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Pipulate as a Local Alternative
 
 Pipulate provides an alternative Jupyter Notebook environment for you to run
@@ -411,3 +414,5 @@ Facing the rapidly expanding and confusing landscape of AI-powered coding assist
 The article, particularly the embedded research report, offers a valuable and well-structured analysis of the AI-powered coding assistant landscape specifically tailored to the Visual Studio Code ecosystem as of early 2025. Its primary strength lies in clearly defining and investigating the crucial distinction between VSCode forks and plugins/extensions, providing detailed examples and a thoughtful comparative analysis of the two approaches. The systematic verification of specific tools and the discovery of others add significant value.
 
 However, the report's utility is inherently time-limited due to the rapid evolution of AI tools. A significant omission within the research report section is the lack of consistent pricing information, a key decision factor for developers. While the author's framing and reflections provide useful context about the motivation and reaction to the research, the core research report stands out as a competent and informative piece of targeted analysis, effectively fulfilling the specific objectives laid out in the research prompt. It successfully clarifies a complex and dynamic segment of the developer tool market.
+
+{% endraw %}

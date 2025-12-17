@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This article, a core component of the 'Sovereign Craftsman's Weaponry' treatise, marks a pivotal shift from historical analysis to the foundational philosophy of tooling. It delves into the reasoned choices behind embracing stable, transparent, and efficient technologies like Python, Nix, and Vim—a deliberate counterpoint to the 'churn' of the web stack and the 'infinite regress' of more complex systems. This blueprint lays the groundwork for understanding the 'instrument' required before embarking on building the 'Test Harness' for the Age of AI.
@@ -519,3 +522,5 @@ This article serves as the philosophical "Constitution" for the Sovereign Crafts
 ### Next Step Prompts
 - Now that we have defined the *tools* (the "Wizarding Tiers") and the *philosophy* ("Cured Meat" / "Pebble Trails"), we must return to the *action*. Please generate the `pipulate-init.js` and `demo.json` code blocks required to implement the "Test Harness" that validates the "nuke-proof" profile persistence.
 - Create the `durable_backup_system.py` module that will serve as the "Pebble Store" for this test harness, ensuring it handles the `~/.pipulate/backups/` logic safely outside the repo.
+
+{% endraw %}

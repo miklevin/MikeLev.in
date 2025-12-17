@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -1150,3 +1153,5 @@ This entry is a masterclass in pragmatic engineering and educational dialogue. I
 - Design a Python CLI tool, integrated within the Nix shell, to audit the Jekyll site for SEO issues (e.g., broken links, missing alt text) or to calculate AI token budgets for markdown content.
 - Elaborate on the 'rabbit hole' of SSG speed optimization, specifically detailing how CDNs, Varnish, and Memcached can be leveraged with a Nix-fortified Jekyll site, including example configurations.
 
+
+{% endraw %}

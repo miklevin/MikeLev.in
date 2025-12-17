@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Introduction
 
 This article explores how to simplify a complex, multi-step workflow system, like those found in online forms and applications, to make it more user-friendly and easier to manage. Through a collaborative effort between the author and an AI assistant, the article describes a journey of refactoring – a process of improving the underlying code – to create a cleaner, more organized system.  Key improvements include streamlining how user progress is tracked, making it easier for users to go back and change previous entries (reverts), and employing a particularly elegant solution to handle these "go back" actions without overcomplicating the system. The result is a workflow that's easier to use, understand, and maintain.
@@ -1236,3 +1239,5 @@ Would you like to see how we could adapt LinkGraphFlow to use BaseFlow while kee
 
 This article provides a fascinating glimpse into the collaborative process of refactoring code for improved clarity and efficiency. The conversational style effectively conveys the challenges and "aha!" moments encountered along the way. The author and Claude demonstrate a thoughtful approach to problem-solving, carefully considering various options and their implications before arriving at an elegant solution. The final result is a testament to the power of collaborative design and the pursuit of simplicity in code.
 
+
+{% endraw %}

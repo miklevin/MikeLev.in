@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores a powerful personal philosophy for navigating the ever-evolving landscape of technology: **The Vigilant Rabbit**. It posits that true progress isn't just consistent effort, but consistent effort that *banks irreversible wins* against the backdrop of technological churn. The author details the development of a foundational, future-proof tech stack (LPvg: Linux, Python, Vim, and Git), the integration of modern, durable web technologies like FastHTML and HTMX, and the leveraging of AI as a force multiplier. This culminates in a strategic approach to enterprise SEO, exemplified by work with Botify's 'activation products,' where fear of high-stakes environments is overcome through methodical 'chisel-strike' practices and deliberate, low-stakes 'puttering'—all captured and amplified by AI-assisted self-reflection.
@@ -602,3 +605,5 @@ This entry is an important demonstration of a unified field theory for modern te
 ### Next Step Prompts
 - Draft a separate article or section detailing a specific 'chisel-strike' client win using Botify PageWorkers/SpeedWorkers, including the problem, solution, and measurable impact.
 - Elaborate on the planned refactor of MikeLev.in, outlining specific 'puttering' projects (e.g., hierarchical navigation, CLS fixes) and how they serve as a testing ground for client solutions, reinforcing the 'deliberate practice' theme.
+
+{% endraw %}

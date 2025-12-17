@@ -20,6 +20,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores the pivotal shift required for web content in the Age of AI, moving beyond traditional human-centric design to embrace machine comprehension. We journey from the historical pitfalls of web navigation patterns and the critical role of caching, to the emerging landscape of vector databases and the challenges of open-source licensing. This deep dive culminates in the vision for a 'NavGraph' – a structured, semantically optimized blueprint for websites, designed to serve as an 'External Hippocampus' for intelligent agents.
@@ -816,3 +819,5 @@ This journal entry is an invaluable blueprint for navigating the complexities of
 ### Next Step Prompts
 - Develop the Python script to generate the `_data/navigation.json` NavGraph, adhering to the specified data structure, and detail the ETL process.
 - Draft a follow-up article focusing on the practical implementation of `sqlite-vec` for a home-spun semantic cache, including code examples and use cases for the generated `NavGraph`.
+
+{% endraw %}

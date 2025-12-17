@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Eggcorns and Expressions
 
 The time is ripe... or is that the time is right... or is that an eggcorn? Nope!
@@ -435,3 +438,5 @@ graphics library called Wayland, which could be its own can of worms. And it
 risks the loss of the gaining traction. But I can afford it, and it could be
 fundamental to how I work with lots of forever-forward habit and muscle memory
 ramifications, so I'm going to give it a try.
+
+{% endraw %}

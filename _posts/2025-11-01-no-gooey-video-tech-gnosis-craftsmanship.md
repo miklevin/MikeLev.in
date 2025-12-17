@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the 'No-Gooey' video methodology, an important to know in the Age of AI blueprint for sovereign craftsmanship. Born from a blend of 'NoSQL' philosophy and a rejection of 'gooey' GUI interfaces, it outlines a data-centric approach to video creation using Python and `MoviePy`. The author, an 'Articulate Ape' with deep Amiga roots, navigates complex technical and philosophical threads—from the efficiency of `LPvg NoSys` to the 'Gnostic' pursuit of hidden knowledge—all while harnessing AI as a "James Clerk Maxwell" to codify his "Michael Faraday" intuitions. This treatise details the 'chromosome trick' of video compression, the strategic adoption of vertical video, and the overarching goal of transforming the 'high-calorie burn' of creation into a 'joyride' of artistic and technical independence.
@@ -479,3 +482,5 @@ This journal entry is an important to know in the Age of AI 'blueprint' that per
 ### Next Step Prompts
 - Generate a detailed `MoviePy` script for `VIDeditor.ipynb` that demonstrates the 9x16 center-cropping for vertical video, concatenates multiple 'blipverts' from a Pandas DataFrame, and applies a basic audio normalization filter.
 - Draft an outline for the next article, focusing on the practical implementation of the 'No-Gooey' video workflow, including specific `Nix` flake configurations for `MoviePy` dependencies, `vim` macros for script generation, and a step-by-step guide to producing the 'Nix Uninstall' anti-pattern video.
+
+{% endraw %}

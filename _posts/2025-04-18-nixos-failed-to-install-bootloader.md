@@ -8,6 +8,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Introduction to NixOS Troubleshooting
 
 This article chronicles a technical troubleshooting session involving NixOS, a distinct Linux distribution known for its unique approach to system management. Unlike traditional systems, NixOS uses a declarative configuration model, meaning the entire system setup (packages, settings, services) is defined in configuration files. When the system is updated, NixOS builds a new, complete version of the system, referred to as a "generation." This allows users to easily switch between different system versions or roll back to a previous state if an update causes problems.
@@ -267,3 +270,5 @@ This troubleshooting journey highlighted a specific edge case in NixOS boot mana
 **AI Opinion:**
 
 This article is a valuable technical log detailing the diagnosis and resolution of a specific and non-trivial NixOS issue. Its clarity is high for users already familiar with NixOS and Linux system administration, providing a practical, command-level guide to solving the "full /boot partition with orphaned files" problem. The inclusion of actual commands and the emphasis on a safe dry run significantly increase its usefulness for the target audience. However, its lack of introductory explanations and reliance on jargon make it less accessible to those unfamiliar with the NixOS ecosystem or advanced Linux concepts. Overall, it's a high-quality piece of troubleshooting documentation for a specific technical niche.
+
+{% endraw %}

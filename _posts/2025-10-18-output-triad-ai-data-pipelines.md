@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry dives deep into the nuanced world of data pipeline output, distinguishing between the ephemeral, the functional, and the physically enduring. Using a complex SEO data engineering project as a backdrop, we explore the 'Output Triad' – a framework for understanding how different types of data are handled in a robust, AI-assisted workflow. More profoundly, it illustrates the critical dynamics of human-AI collaboration when building proprietary, domain-specific systems, where the human ‘General Contractor’ must meticulously guide the AI ‘subcontractor’ to achieve precise, battle-tested results.
@@ -1337,3 +1340,5 @@ This entry is a cornerstone for any book discussing advanced AI-assisted softwar
 ### Next Step Prompts
 - Now that the Botify integration is complete, analyze the provided `arranged_df` and `botify_export_df` to identify common URLs between them. Develop a strategy to join these two DataFrames on the 'URL' column, ensuring that Botify's crawl data and GSC metrics can enrich the keyword-level Gap Analysis insights.
 - Given the discussion on 'side effects' and the need for user-editable files, consider how the final clustered keyword groups (from the next step) could be exported to a user-friendly Excel file with multiple sheets, containing both the raw data and summary insights, accommodating for both machine readability and human review.
+
+{% endraw %}

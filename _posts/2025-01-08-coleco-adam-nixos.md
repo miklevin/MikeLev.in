@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 In a world of constant technological churn, where software and platforms become obsolete faster than ever, finding a stable and reliable computing environment is a challenge. This article explores the author's journey through various computing platforms and their eventual discovery of NixOS, a powerful operating system that offers a deterministic and reproducible approach to system configuration. Discover how NixOS can help you escape the upgrade treadmill, preserve your valuable skills, and build a computing foundation that lasts a lifetime.
 
 ---
@@ -277,3 +280,5 @@ Here's an introductory paragraph:
 > In a world of constant technological churn, where software and platforms become obsolete faster than ever, finding a stable and reliable computing environment is a challenge. This article explores the author's journey through various computing platforms and their eventual discovery of NixOS, a powerful operating system that offers a deterministic and reproducible approach to system configuration. Discover how NixOS can help you escape the upgrade treadmill, preserve your valuable skills, and build a computing foundation that lasts a lifetime.
 > 
  
+
+{% endraw %}

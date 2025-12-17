@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 > NOTE: I have figured out that the actual domain [grok.com](https://grok.com/)
 > is handling markdown correctly. This article was written when I thought Grok
 > was only reachable through [X.com](https://x.com/).
@@ -121,3 +124,5 @@ This article provides a valuable, detailed account of a specific user-facing iss
 > actual domain [grok.com](https://grok.com/) is handling markdown correctly.
 > This article was written when I thought Grok was only reachable through
 > [X.com](https://x.com/).
+
+{% endraw %}

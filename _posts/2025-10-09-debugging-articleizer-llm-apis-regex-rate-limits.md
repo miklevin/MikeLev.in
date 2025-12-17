@@ -16,6 +16,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles the real-world development and debugging of `articleizer.py`, a Python script designed to automate the formatting and publishing of technical journal entries to a Jekyll-based static site. It offers an authentic look into the challenges and solutions encountered when integrating Large Language Model (LLM) APIs, specifically Gemini, for tasks like content structuring, YAML front matter generation, and dynamic subheading insertion. Readers will gain insight into practical software development, API interaction nuances (including model versioning and rate limiting), and the iterative problem-solving inherent in building automated content workflows.
@@ -1612,3 +1615,5 @@ This entry serves as an excellent case study for a book on practical AI integrat
 ### Next Step Prompts
 - Elaborate on the 'grammar of intent' mentioned in a previous article (referenced by the filename in the debug output) and how `articleizer.py` helps enforce it.
 - Write a follow-up entry detailing the process of migrating `articleizer.py` to use `pip install llm` or a similar intermediary library, discussing the pros and cons.
+
+{% endraw %}

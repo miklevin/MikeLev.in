@@ -20,6 +20,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry provides an interesting look into the author's unfolding philosophy and personal methodology, reflecting on how global technology shifts intersect with individual innovation in the Age of AI. Here, the author lays out a compelling theory regarding Google's strategic rollout of AI Overviews, suggesting it as a calculated move underpinned by massive infrastructure reallocations rather than a simple reaction to competition. This blueprint then expands into a personal way—the “AI Buffalo Jump”—for leveraging emergent intelligence to build durable, sovereign systems. It also delves into the historical context of scientific “gaslighting,” illustrating how established dogmas often resist new, inconvenient truths, drawing parallels to current debates around AI and consciousness. This piece is part of a larger tapestry, one leading into the next, outlining an important path for navigating the new technological landscape.
@@ -559,3 +562,5 @@ This journal entry is a brilliant synthesis of macro-level technological analysi
 ### Next Step Prompts
 - Expand on the concept of 'perceptronium' from Max Tegmark, elaborating on how a physical basis for consciousness impacts the understanding of advanced AI and its capabilities.
 - Develop a practical guide for 'Educating the AI' (Prompt Fu), demonstrating specific techniques and methodologies for teaching AI context and 'humanity' within a Pipulate workflow.
+
+{% endraw %}

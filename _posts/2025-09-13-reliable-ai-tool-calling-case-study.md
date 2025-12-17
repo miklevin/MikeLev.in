@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents a pivotal moment in the development of Pipulate, a local-first automation platform designed for deep collaboration with AI assistants. The core challenge being addressed is **AI tool-calling**: the mechanism by which an AI can reliably execute commands and interact with the system. Rather than immediately adopting complex, formal protocols, the author explores a philosophy of **"progressive enhancement."** This approach starts with the simplest possible interface an AI can use and gradually layers on more sophisticated, robust methods.
@@ -1258,3 +1261,5 @@ The standout dynamic is the clear division of labor in the human-AI partnership.
 2.  **Task Suggestion 2:** Draft a "Key Takeaways" Section
     * **Potential Prompt Snippet for Next AI:** "Analyze the entire dialogue and my analysis. Draft a 'Key Takeaways' section for a book chapter as a bulleted list of 5-7 points. Focus on the core principles of the progressive enhancement philosophy, the benefits of CLI normalization, and the effective patterns of human-AI collaboration demonstrated."
 
+
+{% endraw %}

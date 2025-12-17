@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### A Serendipitous Spiral Into Python Packaging History
@@ -1580,3 +1583,5 @@ This entry is a tour de force of 'connective tissue' thinking. It brilliantly de
 ### Next Step Prompts
 - Based on the 'Chameleon Constructor' pattern detailed in the article, generate a standalone, commented Python script that demonstrates this principle in a simplified, generic example. The script should define a `ResourceConnector` class with an `__init__` method that can either accept a pre-configured database object or a file path to create one itself, clearly showing the two initialization branches.
 - Using the provided Vim RegEx commands and the challenges described in formatting the research paper, write a Python script using the `re` module that automates this cleanup process. The script should take a Markdown file as input and produce a cleaned-up file as output, applying the same logic for escaping pipes in citations and wrapping footnotes in `<sup>` tags.
+
+{% endraw %}

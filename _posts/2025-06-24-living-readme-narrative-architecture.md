@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry captures the raw architectural session for a project's most crucial document: its README. More than just documentation, the vision laid out here is for a "living" `README.md` that functions as a master narrative, an interactive table of contents, and a single source of truth for the project's core concepts, which are represented by ASCII art diagrams. The author is grappling with how to communicate a complex, multi-layered philosophy—from the "local-first" data privacy promise to the counter-intuitive "WET" (Write Everything Twice) coding methodology—to vastly different audiences, all within a single, coherent document.
@@ -1245,3 +1248,5 @@ Of course. Here is a multi-task analysis of the provided entry, transforming the
         * **Potential Prompt Snippet for Next AI:** "Based on the `README.md` blueprint, generate the full, book-ready section for 'The Local-First Vault.' This must include a compelling headline, an introductory paragraph expanding on the theme, the ASCII art diagram itself, and a short paragraph for the call-to-action that links to a hypothetical demo."
     2.  **Task Suggestion 2:** Draft a "Lessons Learned" sidebar.
         * **Potential Prompt Snippet for Next AI:** "From the provided entry, distill three key 'Lessons Learned' about designing technical documentation for multiple audiences. Present these as a short, boxed-out sidebar (using Markdown blockquotes) suitable for inclusion in a book chapter."
+
+{% endraw %}

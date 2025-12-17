@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## A Brief History of My Web Development Antics
 
 Okay, this is one for the history books (at least mine). I've been doing systems
@@ -4482,3 +4485,5 @@ For further assistance or queries, refer to the in-line comments within the code
 ---
 
 By meticulously following this guide, you can elevate your web application to cater to data scientists seeking interactive and dynamic reporting tools, bridging the capabilities of data analysis in notebooks with the accessibility and reach of web applications.
+
+{% endraw %}

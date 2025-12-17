@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Here's a refined version that maintains your voice while toning down the corniness:
 
 ---
@@ -345,3 +348,5 @@ need a better mastery over the BQL language that Botify uses. So what I'm going
 to do is create a blog post dedicated to that.
 
 
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 For the curious book reader, this entry marks an important transition in our NixOS crash/recovery saga. Having restored basic system functionality in previous articles, we now shift our focus from mere survival to intentional architecture. This article delves into the important step of refactoring a monolithic NixOS configuration into modular components, leveraging the power of AI agents like Gemini CLI. It demonstrates a practical workflow for delegating complex system tasks, debugging unexpected issues (such as the infamous \"unfree license\" trap), and ultimately building a more robust, maintainable, and future-proof system through intelligent automation and iterative verification. Consider this a key methodology in using AI to not just fix, but fundamentally improve your infrastructure.
@@ -1200,3 +1203,5 @@ This article is an important piece in the 'Future-Proofing in the Age of AI' ser
 ### Next Step Prompts
 - Elaborate on 'Article #6: The Flake Revolution' by outlining a step-by-step process for transitioning a NixOS system to a flake-based structure, focusing on a specific application like Python or a Jekyll blog.
 - Develop a 'meta-prompt' that an AI agent could use to automatically generate and commit `prompt.md` files for future configuration changes, thus fully automating the 'Literate DevOps' concept.
+
+{% endraw %}

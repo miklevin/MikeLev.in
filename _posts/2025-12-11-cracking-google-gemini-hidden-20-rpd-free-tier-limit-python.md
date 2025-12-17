@@ -19,6 +19,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -3099,3 +3102,5 @@ This entry is a pivotal example of practical problem-solving in the volatile lan
 - Expand the `contextualizer.py` to include a dynamic model selector based on available RPD/RPM limits, allowing the script to automatically switch to the most efficient model for a large batch run based on a pre-defined 'limit profile' JSON.
 
 
+
+{% endraw %}

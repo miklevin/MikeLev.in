@@ -19,6 +19,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -2970,3 +2973,5 @@ This entry is a cornerstone for the book. It doesn't just describe a technical s
 - Generate the `pipulate/core.py` and `requirements.in` code necessary to integrate Simon Willison's `llm` library, replacing the explicit Ollama and Gemini API biases with a unified interface.
 - Draft the 'AI Hello World' Notebook that progressively reveals Pipulate's capabilities, leveraging the newly integrated universal AI interface and adhering to the 'Tree vs. Grass' metaphor.
 
+
+{% endraw %}

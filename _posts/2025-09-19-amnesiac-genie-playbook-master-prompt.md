@@ -19,6 +19,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This journal entry marks a critical turning point in my collaboration with AI. I moved beyond simply giving instructions and started architecting a resilient, self-correcting workflow for an AI agent. The core realization was that an agent's repeated failures were not a bug, but a source of invaluable data. By treating the AI like an 'Amnesiac Genie'—powerful but stateless—I could build a system around it that codifies the 'physics' of its world. This entry details the distillation of that entire process into a single, powerful 'Master Prompt,' a playbook designed to make any future agentic task more robust, predictable, and successful from the very first attempt.
@@ -189,3 +192,5 @@ This is an exceptionally high-value entry. It transcends a simple 'how-to' and d
 ### Next Step Prompts
 - Based on the 'Master Prompt Template' and its five core principles, write a new journal entry that applies this methodology to a completely different task, such as database schema migration or automated refactoring of legacy code. Document the setup of the `prompt.md` and the agent's execution.
 - Take the five core principles identified in the article and write a short, allegorical story or fable about 'The Programmer and the Amnesiac Genie' to illustrate these concepts in a more narrative and accessible format.
+
+{% endraw %}

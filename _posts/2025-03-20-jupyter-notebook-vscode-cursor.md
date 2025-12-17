@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Running Jupyter Notebooks with Cursor AI
 
 This article is about getting AI assistance on a Jupyter Notebook in Cursor AI
@@ -257,3 +260,5 @@ Here are some title and headline ideas:
 My opinion of the article:
 
 The article provides a very detailed and specific solution to a niche problem, which is valuable for those in a similar situation. The author's personal journey and explanations of the technical nuances are helpful. The inclusion of Nix Flakes and Pipulate adds a layer of sophistication and portability to the solution. The tone is engaging, although the author's strong opinions on VSCode and other tools might not resonate with everyone. Overall, it's a useful guide for users seeking to integrate Jupyter Notebooks with Cursor AI in a complex environment.
+
+{% endraw %}

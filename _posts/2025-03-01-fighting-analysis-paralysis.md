@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Taking Action Over Analysis
 
 Okay, don't let yourself get paralyzed into inaction through the abstract. Get a
@@ -291,3 +294,5 @@ built with my framework:
 
 The article provides a candid look into the author's process of refining their SEO workflow and overcoming common productivity hurdles. I find the focus on practical application and the embrace of open-source tools like YAML, HTMX, and NixOS to be particularly compelling. The author's willingness to share their struggles and insights during a significant replatforming effort demonstrates a commitment to both innovation and transparency. The shift from traditional presentation formats to structured data via YAML is an interesting approach to streamlining information and enhancing workflow efficiency. The author's exploration of local LLM and TTS options, while ultimately deferred, highlights the ongoing pursuit of technological advancement within their workflow. The article is a valuable read for anyone seeking to optimize their workflow and combat analysis paralysis in a technical field.
 
+
+{% endraw %}

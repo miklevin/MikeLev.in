@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores a crucial, often-overlooked aspect of modern software development: how to manage version control with `git` when an AI coding partner is involved. It moves beyond basic commands to address a subtle but significant risk—the danger of an AI learning from buggy, experimental code that has been merged into a project's main history too soon. This can lead to a state of "infinite regression," where the AI continuously reintroduces old mistakes because it sees them as established patterns.
@@ -848,3 +851,5 @@ The true genius here is the proposed solution: the "Universal Translator" for to
     * **Potential Prompt Snippet for Next AI:** "Create a sample regression test in a plain text file named `test_simple_scrape.txt`. The test should be a sequence of bracket-syntax tool calls that 1) scrape a page, 2) analyze the title, and 3) print the result. This file should be human-readable and demonstrate the concept of a 'conversational proof'."
 
 
+
+{% endraw %}

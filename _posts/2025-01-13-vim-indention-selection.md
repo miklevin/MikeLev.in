@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Alright, let's get to the heart of this.  So, I was on a quest to find a simple,
 plugin-free way in Vim to select entire indented blocks like Python functions or
 methods. Turns out, it's a bit of a letdown. Vanilla Vim doesn't have a built-in
@@ -221,3 +224,5 @@ But if you truly must remain plugin-free, there’s no built-in text object that
 3. Or define a small mapping in your vimrc to automate the search, still “no external plugins” but your own script.
 
 There simply isn’t a built-in keystroke in vanilla Vim (or emulated Vim) that automatically selects “the current Python method block based on indentation” the way we wish it did.
+
+{% endraw %}

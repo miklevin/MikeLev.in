@@ -20,6 +20,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### A Tale of Two DOM Visualizers
@@ -2290,3 +2293,5 @@ This journal entry brilliantly illustrates the iterative and thoughtful process 
 ### Next Step Prompts
 - Integrate the `visualize_dom_hierarchy` tool into the `selenium_automation` function in `tools/scraper_tools.py`, saving its output as `dom_hierarchy.txt` to complete the dual-vision 'AI-eyes' for the digital fossil record.
 - Begin research and experimentation on how to extract or generate an 'accessibility tree' artifact using Selenium (or other browser automation protocols), outlining potential methods and challenges for its integration into Pipulate's scraping capabilities.
+
+{% endraw %}

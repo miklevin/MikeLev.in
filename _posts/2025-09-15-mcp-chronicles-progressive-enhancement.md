@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry provides a deep dive into the practical implementation of a core philosophy for the **Pipulate** project: creating a stable, understandable environment for an AI to "wake up" into and perform useful work. The central challenge explored here is the transition from a monolithic system to a modular, self-discovering plugin architecture. This is a crucial step in giving an AI a "body" with a clear set of tools it can use.
@@ -1871,3 +1874,5 @@ This could anchor a chapter titled **"The Art of Command-Line Surgery: A Human-A
 2.  **Task Suggestion 2:** Generate a "Lessons Learned" Section
     * **Potential Prompt Snippet for Next AI:** "From this entry, extract five key 'Lessons Learned' for developers working with AI code assistants. Frame them as concise, actionable principles, covering topics like debugging, codebase hygiene for AI, and managing legacy code during refactoring."
 
+
+{% endraw %}

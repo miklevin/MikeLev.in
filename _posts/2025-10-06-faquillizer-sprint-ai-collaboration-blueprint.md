@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Planning a 5-hour Work Sprint
@@ -784,3 +787,5 @@ This entry is a masterclass in symbiotic creation. It transcends a mere journal 
 ### Next Step Prompts
 - Based on the provided `faquillizer` implementation plan, write the full source code for the `src/faqulizer/template.py` file. The output should be a single Python string variable containing the JSON for a complete, runnable Jupyter Notebook that follows the plan's cell structure, code, and markdown instructions.
 - Draft a follow-up journal entry from the author's perspective that chronicles the *execution* of the `faquillizer` sprint. Detail any challenges encountered, deviations from the AI-generated plan, the final outcome of the coding session, and reflections on the effectiveness of the initial planning phase.
+
+{% endraw %}

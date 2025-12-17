@@ -17,6 +17,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 For the curious book reader, this entry delves into an interesting, and at times comically frustrating, debugging session that unfolded in the Age of AI. What began as a seemingly simple task—a minor formatting tweak in an Excel output—unfurled into a deep dive into code architecture, error handling, and the nuanced dynamics of human-AI collaboration. This methodology serves as a powerful illustration of how the interplay between human intuition and AI's rapid execution can navigate complex technical challenges, revealing profound insights into modern software development practices.
@@ -905,3 +908,5 @@ This entry is a cornerstone for the `Futureproof` book. It's not just a technica
 ### Next Step Prompts
 - Generate a short, illustrative Python code example (before and after) demonstrating the `_apply_conditional_formatting` fix discussed, suitable for inclusion in the article to clarify the 'light touch' solution visually.
 - Draft an additional paragraph to be inserted at the end of the article, briefly explaining the `pipulate` framework's `pip` state and `pip.nbup()` command for readers unfamiliar with the system context.
+
+{% endraw %}

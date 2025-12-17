@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Hail Mary at Porting Apps Tonight
 
 Ugh, it's weeks later and I still haven't ported the 2 key apps. But that's
@@ -998,3 +1001,5 @@ have to make some strategic moves forward and have it all wrapped up by no later
 than 11:00 AM so I can shift gears and make a good showing on my first
 management of a client meeting in some time. But it feels really good to be this
 engaged in technical work again. That old tech-craft feeling is back.
+
+{% endraw %}

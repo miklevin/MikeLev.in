@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a winding, yet deeply insightful, conversation chronicling the evolution of the Pipulate project's technical architecture. It delves into the philosophical underpinnings of software development in the age of AI, contrasting the 'nitroglycerin' potential of LISP machines with the 'gunpowder' pragmatism of Unix-based systems. A central theme is the relentless pursuit of friction reduction through 'self-aware' Jupyter notebooks, a custom `pip` object, and the hermetic guarantees of Nix. The dialogue candidly explores the 'Unearthed Arcana' of integrating these complex systems, particularly around vexing Git filter issues and the challenge of building a robust, developer-friendly environment for AI experimentation.
@@ -1736,3 +1739,5 @@ This entry is a goldmine for the book, serving as a powerful demonstration of th
 ### Next Step Prompts
 - Based on the philosophical discussions in this entry (e.g., LISP vs. Unix, nitroglycerin vs. gunpowder AI), generate a concise 'Manifesto for AI-Assisted Architecture' that distills the core principles.
 - Create a 'Troubleshooting Guide: Git Filters in Nix Environments' drawing directly from the `nbstripout` debugging session, presenting common pitfalls and their robust solutions in a pedagogical format.
+
+{% endraw %}

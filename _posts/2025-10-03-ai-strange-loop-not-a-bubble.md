@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Brightening the Dim LAMP of Excess Capacity
@@ -346,3 +349,5 @@ This entry is a superb example of meta-commentary. It doesn't just describe the 
 ### Next Step Prompts
 - Based on the themes in this entry, draft a chapter outline for a section of the book titled 'The Tools We Build Together,' focusing on the concept of 'AI Ergonomics' and how developers can create better environments for their AI partners to work in.
 - Take the concept of the 'Strange Loop' and expand it. Write three short case studies—one in drug discovery, one in materials science, and one in software engineering—that illustrate how this self-improving feedback loop could accelerate progress in those fields.
+
+{% endraw %}

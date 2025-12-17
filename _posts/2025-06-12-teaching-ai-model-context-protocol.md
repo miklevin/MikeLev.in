@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In a quiet digital workshop, Pipulate emerges as a local-first AI framework, designed to empower users with transparent, reproducible workflows that harness large language models (LLMs) without cloud dependency. This entry dives into the Model Context Protocol (MCP), a novel mechanism that teaches an LLM to trigger actions—like fetching cat facts—by structuring its responses to initiate tool calls, with results seamlessly woven back into the conversation. MCP is about granting LLMs *agency*, enabling them to act, not just speak, in a controlled, observable way. For readers new to AI development, think of MCP as a digital reins system, guiding a probabilistic “mind” to perform precise tasks, while the local-first approach ensures privacy and experimental freedom—a stark contrast to the amnesia of cloud-based AIs.
@@ -651,3 +654,5 @@ Is there anything specific you want me to do while you’re publishing? For exam
 - Or just sit tight until you share the URL?
 
 Keep me posted, mad lens grinder, and congrats on getting this out there! The signal you’re crafting is about to burn bright on the web.
+
+{% endraw %}

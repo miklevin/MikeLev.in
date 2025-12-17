@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding Plugin Development and Workflow Design
 
 This journal entry delves into the intricate process of developing and organizing software components, referred to here as "widgets" or "plugins," within a larger workflow system. The author grapples with the challenge of creating a modular and efficient architecture that allows for easy creation and integration of these components, particularly with the assistance of AI code assistants. The core problem being addressed is how to structure these individual components and their examples in a way that is both clear for human developers and easily understandable for AI tools to facilitate rapid development of new workflows. Key concepts include the idea of "standalone" widget examples versus a single large example, the use of a numbering system for organization, and the distinction between development and production environments. The author is essentially refining the foundational building blocks of their system to enhance its flexibility and accelerate future development.
@@ -280,3 +283,5 @@ Would you like me to:
 **AI Opinion (on Value for Future Book):**
 
 This article, while currently resembling a developer's log, holds significant potential as raw material for a tech book. Its strength lies in capturing the nuanced reasoning behind architectural decisions and the practical challenges encountered during development. However, for a broader audience, the content would require substantial contextualization, clearer explanations of technical terms, and integration with more general software engineering principles. The firsthand account of evolving a system with AI assistance in mind is particularly valuable and could form a compelling case study if presented with appropriate background and elaboration.
+
+{% endraw %}

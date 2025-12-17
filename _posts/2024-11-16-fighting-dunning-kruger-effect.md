@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 I'm on a quest to build a web app that's powerful but also so simple it might
 make a seasoned web developer raise an eyebrow (or maybe just roll their eyes).
 Think single-tenant design, the file system as a database, and a whole lot of
@@ -3593,3 +3596,5 @@ Simple, secure, and gets the job done. Sometimes the best code is the code you d
 Good luck with your FastHTML project! Let me know if you need anything else.
 
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Achieving Confidence with Object-Oriented Programming in Plugin Development
 
 Okay, after a whole day of working in it, I have the heart of the plugin system
@@ -2039,3 +2042,5 @@ If you encounter any issues during implementation or need further assistance wit
 
 Wow, was that ever an adventure. But it's here! Proceed to the next article to
 continue this adventure.
+
+{% endraw %}

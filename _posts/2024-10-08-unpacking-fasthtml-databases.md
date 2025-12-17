@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 > If you're just here to learn the basics of FastHTML without hearing about me
 > rediscovering the love for webdev, visit my [Introduction to FastHTML](/fasthtml/) page. It covers:
 
@@ -638,3 +641,5 @@ Getting back into web development after years away, I'm diving into the FastHTML
 **AI Opinion of the Article:**
 
 This article serves as a valuable, albeit highly specific, resource for developers considering or actively using the FastHTML framework. The author effectively documents their learning process, particularly the nuances of the framework's database handling via the `fast_app` function. The strength lies in its detailed, code-driven exploration combined with a relatable narrative of tackling new technology and its conventions. However, its narrow focus on a relatively new and potentially volatile API, coupled with the assumption of significant background knowledge in Python web development, might limit its broader appeal. It reads like a detailed developer's log, offering practical insights and a realistic portrayal of the challenges involved in adopting bleeding-edge tools, making it useful for its target audience but potentially dense for others.
+
+{% endraw %}

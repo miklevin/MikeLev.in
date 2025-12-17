@@ -23,6 +23,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Picking up from a previous reflection on the 'Sanitation Engineer' philosophy of code cleanup and the evolution of system design—from early Object-Oriented principles to modern Nix-powered determinism—this entry dives into the practical challenge of empowering AI with 'eyes.' We recount a critical debugging session, where an initial attempt to automate browser scraping for AI perception encountered a subtle but foundational Python asynchronous programming error (`AttributeError: 'coroutine' object has no attribute 'get'`). This narrative not only highlights the iterative nature of building robust AI tools but also reinforces the indispensable role of deterministic processes and rigorous validation in software development, even when working with generative AI.
@@ -1246,3 +1249,5 @@ This journal entry is an exemplary case study in robust AI-assisted development.
 ### Next Step Prompts
 - Given the successful application of the patch, the `AttributeError: 'coroutine' object has no attribute 'get'` error from the test, and Gemini's diagnosis, the next task is to apply the proposed two-line `async/await` fix to `secretsauce.py` and `workflow_test.ipynb`, and then re-run the test to confirm full functionality of the advanced scrape.
 - After successful execution of the advanced scrape test, document the complete `browser_scrape_page` functionality, including how the `browser_cache/looking_at` directory is populated and how these artifacts are intended to be consumed by other AI perception modules or downstream processes.
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this early morning reflection, the author tackles two critical development challenges: securing proprietary information within Jupyter notebooks and maintaining a clean Git repository. Discover how a subtle `.gitignore` mistake leads to a robust solution for tracking notebook templates while ignoring local working copies. Follow the journey to enhance a custom `pip.nbup()` function, introducing advanced Abstract Syntax Tree (AST) parsing for generalized API key scrubbing, ensuring backward compatibility and eliminating a perpetual source of developer friction.
@@ -898,3 +901,5 @@ This entry is a compelling case study for any book on practical software enginee
 ### Next Step Prompts
 - Expand on the 'Shoshin' concept mentioned, exploring its application in overcoming diverse technical challenges and learning new skills.
 - Detail the complete `pipulate` project structure and explain how `pip.nbup()` fits into the overall automated build/deployment pipeline, including how users consume the templates.
+
+{% endraw %}

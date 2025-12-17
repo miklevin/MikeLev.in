@@ -16,6 +16,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -3312,3 +3315,5 @@ This journal entry provides a fascinating window into the iterative process of b
 - Generate a Python script to automate the selection and trimming of context files from `foo_files.py` based on a target byte limit, prioritizing smaller, higher-value files (e.g., specific Python modules over large narrative articles).
 - Develop a strategy and initial code snippets for `prompt_foo.py` to intelligently segment an overly large prompt into multiple, sequentially numbered submissions for an AI, ensuring continuity of context across chunks.
 
+
+{% endraw %}

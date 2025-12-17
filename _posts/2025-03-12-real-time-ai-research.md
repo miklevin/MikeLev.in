@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 It's getting real, as in real-time. I've been waiting for "small world theory
 search" to disrupt Google for awhile now, eroding their mote by treating the
 Internet as the database it is -- instead of making a copy of it with the crawl
@@ -779,3 +782,5 @@ Sure, here's a brief summary, title ideas, and my opinion of the article, all fr
 
 "This article provides a very insightful and comprehensive overview of the current state of AI development, particularly in the context of open-source versus proprietary models. I found the practical testing of the deep research capabilities of different AI platforms to be particularly valuable. The author's detailed observations and comparisons offer a clear understanding of the nuances and strengths of each platform. The article also effectively captures the dynamic and rapidly evolving nature of the AI field, highlighting the importance of staying informed about the latest advancements and trends. The use of analogies, like the Roomba and drone examples, made complex concepts more accessible. Overall, it's a well-written and informative piece that should be of interest to anyone following AI developments."
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Reviving Pipulate for the LLM Era
 
 Okay, it's time to bring Pipulate, my free SEO software, back alive but this
@@ -609,3 +612,5 @@ Okay, here's a summary, titles, headlines, and my opinion, all as requested:
 
 "This article presents a compelling vision for streamlining SEO workflows. The author's focus on simplicity and user-friendliness, combined with powerful technologies like Python, HTMX, and Nix, creates a promising tool. The 'checklist that comes alive' concept is innovative, and the emphasis on cross-platform compatibility is a significant advantage. The detailed 'Getting Started Guide' shows a clear commitment to making the tool accessible. I think the project has great potential to bridge the gap between complex coding and practical SEO application."
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Back to Basics
 
 Okay, so genuinely valuable content, it is. Back to the long-tail it is. Back to
@@ -368,3 +371,5 @@ The author discusses the changing landscape of SEO and web crawling in the age o
 
 This article offers a compelling perspective on the challenges and opportunities presented by the evolving web landscape. The author's insights into the limitations of traditional crawling and indexing methods, coupled with their emphasis on semantic web technologies, are particularly relevant in the age of AI and LLMs.  The analogy of the "stew" and "ore" effectively illustrates the need to refine and organize raw content into structured knowledge. While the author's personal website challenges add a relatable touch, the article could benefit from more concrete examples of how to implement the suggested strategies. Overall, it's a thought-provoking piece that encourages website owners and SEO professionals to adapt their approaches to thrive in the future of the web.
 
+
+{% endraw %}

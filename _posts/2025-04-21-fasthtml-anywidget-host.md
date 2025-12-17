@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Interactive Widgets in Programming Environments
 
 Imagine developers creating small, interactive tools (like sliders, buttons, or simple charts) called "widgets" that can be used inside programming environments like digital notebooks (e.g., `Jupyter Notebooks`). A library called `anywidget` makes creating these widgets easier and allows them to work in various standard environments. However, running these widgets outside of those standard, often complex, environments poses a challenge.
@@ -417,3 +420,5 @@ Creating a minimal `anywidget` host in `FastHTML` is an ambitious but potentiall
 **AI Opinion:**
 
 This article represents a valuable and in-depth technical exploration of a specific, niche integration challenge: hosting `anywidget` widgets within the FastHTML framework. Its strength lies in its detailed analysis, proposed architecture, and clear identification of implementation hurdles and research questions. For developers specifically interested in combining these two technologies or exploring alternatives to traditional Jupyter widget hosting, this document provides a solid foundation and a realistic assessment of the complexities involved. While dense and requiring significant prerequisite knowledge, its thoroughness makes it a potentially very useful resource for architects and engineers undertaking such an integration. The clear articulation of trade-offs (runtime minimalism vs. implementation complexity) is particularly insightful.
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment in the life of a builder. For years, I've espoused a philosophy of crafting my own tools—of understanding the deep historical lineage of my software stack to better 'cast my own spells.' This entry documents the transition from that abstract philosophy to concrete action. It's a dialogue with an AI, a deep dive into my own technical history, and ultimately, the forging of a precise, step-by-step blueprint to perform a delicate-but-necessary refactoring of a core class. The goal is progress without breakage, using a 'shim' as a safety harness. This is the plan before the first line of code is changed—the quiet moment where the hammer is raised just before the strike.
@@ -467,3 +470,5 @@ This entry is a masterclass in modern technical storytelling. It perfectly captu
 ### Next Step Prompts
 - Analyze the provided implementation plan and the context of the `server.py` file. Write a follow-up journal entry from the author's perspective detailing the execution of the plan. Describe which steps went smoothly, identify any unexpected 'gotchas' encountered, and reflect on the effectiveness of the AI-generated plan in practice.
 - Given the successful extraction plan for the `Pipulate` class, propose a similar step-by-step plan to extract the `FastHTML` application factory and related routing logic from `server.py` into a new `app_factory.py` module, again using a non-breaking shim approach.
+
+{% endraw %}

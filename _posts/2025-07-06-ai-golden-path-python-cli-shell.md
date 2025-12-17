@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry plunges into the heart of a critical challenge in modern software development: creating a reliable bridge between a human developer, a powerful AI assistant, and a local development environment. The project, "Pipulate," aims to build a sovereign, AI-augmented automation framework. This particular log captures a pivotal "aha!" moment in that journey. The author is grappling with how to give an AI the ability to reliably execute commands on the user's machine—to give the disembodied intelligence a pair of "hands" to interact with the world.
@@ -1689,3 +1692,5 @@ The raw, stream-of-consciousness nature of the entry is its greatest strength. A
 
 2.  **Task Suggestion 2:** Generate Explanatory Analogies.
     * **Potential Prompt Snippet for Next AI:** "The author uses metaphors like 'player piano' and 'mitochondria'. Generate two new, simple analogies to explain the difference between the unreliable 'alias' approach and the robust 'explicit path' solution for giving an AI commands. One analogy should be related to giving instructions to a person, and the other related to a physical or mechanical system."
+
+{% endraw %}

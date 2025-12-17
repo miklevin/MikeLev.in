@@ -21,6 +21,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### The Methodical Beat: A Rhythmic Approach to Distillation
@@ -1116,3 +1119,5 @@ This piece is a meta-masterclass in practical AI-assisted software development. 
 ### Next Step Prompts
 - Using the revised prompt structure, distill the next cell, focusing on aggregating SEMRush dataframes (`df`'s) while keeping display logic within the `gap_analyzer_sauce.py` function.
 - Develop a strategy document outlining the future transition of DataFrame persistence from in-memory passing to disk-based (`CSV`/`Parquet`) via `pip.set/get` for subsequent distillation rounds, considering the 'Gemini 3' context.
+
+{% endraw %}

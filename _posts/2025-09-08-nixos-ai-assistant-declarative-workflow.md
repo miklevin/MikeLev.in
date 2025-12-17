@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a developer's real-time problem-solving session at the intersection of system administration, workflow automation, and human-AI collaboration. The author is working within NixOS, a unique Linux distribution where the entire operating system is defined "as code" in configuration files, a concept known as a declarative system. This provides incredible reproducibility but introduces challenges when integrating cutting-edge tools that aren't yet officially packaged.
@@ -1562,3 +1565,5 @@ The most compelling aspect is the raw, un-sanitized nature of the interaction, i
 
 2.  **Task Suggestion 2:** Generalize the Technical Solution
     * **Potential Prompt Snippet for Next AI:** "Analyze the final Nix code used to install Gemini CLI in `configuration.nix`. Generalize this into a reusable template called 'The Bleeding-Edge Wrapper Pattern'. Provide a generic Nix code block with placeholders and a brief tutorial explaining how a user could adapt it to install other auto-updating tools, like a specific AppImage or another npm package, on their NixOS system."
+
+{% endraw %}

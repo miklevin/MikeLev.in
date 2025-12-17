@@ -18,6 +18,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This piece delves into the practical challenges and innovative solutions behind building an AI-driven, highly navigable website structure. It chronicles the journey of scaling content processing with strategic API key rotation, the technical considerations of moving to a static site, and the exciting implementation of d3 force graphs to visualize a 'Rule of 7' hierarchy. Discover the underlying architecture for transforming flat content archives into a dynamic, user-friendly experience important to know in the Age of AI.
@@ -430,3 +433,5 @@ This entry serves as an interesting blueprint for integrating AI-driven content 
 ### Next Step Prompts
 - Given the 'Two Rule of 7s' and the 'Graph Builder' strategy, provide pseudocode for the `process_batch` function within `graph_builder.py` that handles the recursive clustering and assignment of articles to hybrid nodes.
 - Elaborate on the specific `d3.force*` configurations (e.g., strength, distance) required to visually represent the 'Two Rule of 7s' architecture, providing a small JavaScript snippet for context.
+
+{% endraw %}

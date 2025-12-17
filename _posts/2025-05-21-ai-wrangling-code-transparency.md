@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Turn Back Now!
 
 Don't even bother to read this. Turn back now! It's not for you. It's for AI's consolidating my daily technical work experience fodder into a book. This is here to be digested by AIs following an epic step-by-step story from the beginning of the Pipulate project through what I expect to be the last 20 years of my career. I'm already in my mid-50s, so I plan on working into my mid-70s right through the full rise of AI. Anything less would be walking away from a golden opportunity, given this old-timer Sci-Fi (reading) fan (genuine Asimov, Clarke and such). It's a sheer delight experiencing the books "coming alive" to reach out to teach you how to use and activate the very knowledge contained in those books. Yes please, thankyouverymuch! And so this journal entry is one of the more densely packed examples as I deal with the most paramount of issues: wrangling AIs that wrangle other AIs!
@@ -2795,3 +2798,5 @@ While currently a dense, context-heavy log, it's a treasure trove of:
 
 For a book using Pipulate as a case study, this entry offers a compelling narrative of problem-solving, tool usage, and the practical realities of building software with AI partners. It perfectly illustrates the "WET" philosophy in action, where explicit understanding and control are paramount, even when leveraging powerful AI. The journey to achieve BQL transparency and the reflections on preemptive API checks offer excellent material for chapters on system observability and robust API integration. With careful curation, contextualization, and the addition of explanatory narratives, this content can be transformed into highly engaging and instructive chapters.
 
+
+{% endraw %}

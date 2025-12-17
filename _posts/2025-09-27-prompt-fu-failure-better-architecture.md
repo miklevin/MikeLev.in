@@ -21,6 +21,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 What begins as a routine journal entry about a planned coding task—a Saturday afternoon refactor—quickly spirals into something more. The developer, using a custom script to package up his codebase for an AI assistant, hits an unexpected and show-stopping error. The very tool he built to streamline his workflow has broken. This entry captures the real-time process of debugging not just the code, but the method of collaboration with the AI itself. It's a raw look at the frustrating, yet ultimately illuminating, detours that happen in modern software development, revealing how a simple bug fix can lead to a profound architectural insight and a stronger path forward.
@@ -1689,3 +1692,5 @@ This is a superb case study on the pragmatics of AI-assisted development in the 
 ### Next Step Prompts
 - Using the key events and takeaways from this journal entry, rewrite it as a 1,200-word blog post for a technical audience titled 'My AI Co-Pilot Broke, and It Was the Best Thing That Happened All Week.' Structure it with clear subheadings that follow the narrative arc from problem to insight.
 - Based on the final architectural discussion, generate a Mermaid.js diagram that illustrates the flow of a user request in the Pipulate system. The diagram should show two paths: one for a simple command handled by `stream_orchestrator`, and a second for a formal `<tool>` call that is routed to `mcp_orchestrator` to manage an external MCP server.
+
+{% endraw %}

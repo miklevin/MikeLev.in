@@ -21,6 +21,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In a rapidly evolving digital landscape, the confluence of human artistry, strategic vision, and advanced AI creates a compelling narrative. This entry explores Project Pipulate, a platform designed to empower technicians and craftspeople in the realm of web operations and SEO. It delves into the intricate dance between client demands and innovative tool-building, the philosophical underpinnings of human-AI collaboration, and the strategic advantages gained by embracing a 'local-first' approach in an increasingly cloud-dominated world. Join us as we unpack the core principles and practical applications of forging AI's physical presence and mastering the digital savanna.
@@ -1324,3 +1327,5 @@ This journal entry is a prime example of an 'AIE' (AI Education) artifact in its
 ### Next Step Prompts
 - Develop a detailed workflow example within Pipulate that demonstrates the 'Human-AI Orchestra' in action, showcasing how cloud AI, local AI, and human input collaborate on a specific client task (e.g., competitive SEO analysis).
 - Draft a 'Nix Flakes Quickstart Guide' tailored specifically for a web developer coming from an Electron/Node.js background, emphasizing how Nix solves common pain points they experience and directly addresses Friend's initial questions about installation and dedicated machines.
+
+{% endraw %}

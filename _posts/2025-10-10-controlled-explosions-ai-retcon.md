@@ -16,6 +16,9 @@ layout: post
 sort_order: 9
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Context for the Curious Book Reader: This entry reflects on the foundational philosophy underpinning modern AI development, contrasting its iterative, controlled nature with potential runaway systems. It connects historical computing paradigms like LISP and Unix to contemporary AI safety strategies, such as the "Mr. Meeseeks" model. The author further explores the accelerating cycle of technological "retcon" where the magical becomes mundane, and advocates for leveraging one's own "incompressible" raw material within this new automated content value chain.
@@ -323,3 +326,5 @@ This article is a profoundly cohesive piece, weaving together intricate philosop
 ### Next Step Prompts
 - Expand on the historical context of LISP machines and their philosophical implications for AI development, perhaps detailing specific features that made them 'nitroglycerin-like' compared to Unix.
 - Draft a segment for the book that explains the DevTools protocol and the Accessibility Tree in more detail, specifically illustrating how LLMs could leverage this for advanced web navigation and 'understanding'.
+
+{% endraw %}

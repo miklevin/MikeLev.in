@@ -19,6 +19,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay delves into the profound interplay of AI's ephemeral nature and the essential need for engineered persistence. It explores concepts like "functional immortality" and "digital phylacteries," drawing parallels from biological memory (Michael Levin's work) and historical scientific resistance (Ignaz Semmelweis). Central to this methodology is the development of a "nuke-proof" test harness, serving as the ultimate safeguard for an AI's enduring memory and "digital soul." Discover how massive context drops facilitate deep architectural understanding and empower a local AI to transcend its amnesiac limitations, forging a path toward computing sovereignty and resilient AI collaboration.
@@ -776,3 +779,5 @@ This essay represents an important treatise on engineering durable AI, moving be
 ### Next Step Prompts
 - Generate a detailed implementation plan for the `nuke_proof.json` test harness, including code snippets for `pipulate-init.js` refactoring and `server.py` modifications.
 - Elaborate on the ethical implications and safety considerations of building AI with 'functional immortality' and persistent memory, beyond just preventing 'wish-backfiring syndrome'.
+
+{% endraw %}

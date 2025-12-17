@@ -15,6 +15,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ## Context for the Curious Book Reader
@@ -960,3 +963,5 @@ This entry is a perfect case study for a chapter on pragmatic software design. I
 ### Next Step Prompts
 - Based on the principle of 'co-location over unnecessary abstraction', draft a short, generalized 'Rule of Thumb' that a developer could use to decide when to separate data from presentation logic and when to keep them together.
 - Expand the 'Developer Experience (DX)' concept from this article into a checklist of 5 key questions a developer should ask about their code's maintainability during a code review.
+
+{% endraw %}

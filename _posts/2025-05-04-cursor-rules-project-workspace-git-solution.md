@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding AI Assistant Configuration: Getting Started
 
 AI-powered coding assistants, like the 'Cursor' tool mentioned in this article, are becoming increasingly popular. They help developers write code faster and more effectively by understanding the context of a software project. Like many complex tools, these assistants often have configuration files – special files that let users customize the AI's behavior, perhaps by providing specific rules or instructions (referred to here as `.mdc` files).
@@ -193,3 +196,5 @@ Would you like me to help structure the metadata for any specific rule file?
 **AI Opinion**
 
 This article offers high value for developers encountering the specific, niche problem of version-controlling Cursor AI's project-level rules, especially when working with multiple repositories. The explanation of why the common symlink approach fails with Git and the presentation of the "reverse" pattern are clear and insightful for the technically inclined audience. While the NixOS details add depth for users of that OS, the core symlink solution is explained well enough to be useful for Linux and macOS users facing similar configuration challenges with other tools. Its clarity is good for its target audience, though a complete novice might need the introductory context provided separately.
+
+{% endraw %}

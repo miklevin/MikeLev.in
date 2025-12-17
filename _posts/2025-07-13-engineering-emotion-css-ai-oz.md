@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents a pivotal moment in the development of a product demo for a system called "Pipulate." Moving beyond the foundational "brains" of the system—its ability to function robustly and survive restarts—the author shifts focus to instilling it with "heart." The central task is to create a powerful, emotionally resonant user experience by implementing a cinematic visual effect. This is not just a technical exercise; it's an exploration into narrative-driven development, where the story of *The Wizard of Oz* becomes a direct blueprint for feature implementation.
@@ -811,3 +814,5 @@ The raw, conversational nature of the log is its greatest strength. With light c
 2.  **Task Suggestion 2:** Extract Key Development Principles
     * **Potential Prompt Snippet for Next AI:** "Based on the entire interaction log, identify 3-5 core principles of effective, narrative-driven development demonstrated by the author. Phrase each as a concise, actionable piece of advice for a software developer. For each principle, provide a brief explanation and cite a specific moment from the log as an example."
 
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay extends a core philosophy: the struggle for individual agency in an increasingly centralized digital world. Following our exploration of the "Articulate Ape" as a "Kantian Unit"—an independent agent capable of generating unexpected value—and the "Sovereignty Stack" as an architectural defense, we now examine "Pipulate." This blueprint stands as the ultimate practical manifestation of these ideas, demonstrating how a single individual can build a "Forever Machine" that reclaims control from digital feudal lords, future-proofing intellectual output and technological capability against obsolescence and vendor lock-in. It challenges conventional software development by embracing a philosophy of intentional transgression and resilient, local-first intelligence.
@@ -705,3 +708,5 @@ This article represents an important moment in the "Forever Machine" narrative, 
 ### Next Step Prompts
 - Develop a detailed architectural diagram illustrating the `LLMProvider` shim's role, showing data flow from workflow `pip.ask()` to various LLM backend integrations (Ollama, OpenAI, Gemini) through the `llm` library.
 - Generate pseudocode for the `llm_shim.py` module, including examples of `generate()`, `stream()`, and `get_available_models()` methods, along with mock `llm` library calls.
+
+{% endraw %}

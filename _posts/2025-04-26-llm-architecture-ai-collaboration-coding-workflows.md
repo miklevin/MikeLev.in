@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding AI Collaboration and LLM Architecture
 
 This article explores modern Artificial Intelligence (AI), focusing on the Large
@@ -513,3 +516,5 @@ Ready to proceed with the markdown widget implementation?
 
 * **AI Opinion:**
     This article provides a valuable and insightful look into the process of conceptualizing and planning the integration of advanced AI capabilities into a specific software project (Pipulate). Its strength lies in the blend of philosophical underpinning, architectural explanation (LLM ephemerality), and concrete technical planning, including the interaction with another AI. While the clarity is high for readers familiar with the project and technologies involved, it would be challenging for a general audience due to assumed knowledge and jargon. Its usefulness is significant as a development log, a statement of vision, and a detailed technical roadmap for the Pipulate project or for others tackling similar LLM/workflow integration challenges.
+
+{% endraw %}

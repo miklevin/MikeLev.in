@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 The world of artificial intelligence is often dominated by talk of massive, cloud-based models that require immense computational power. This entry, however, dives into a burgeoning and arguably more accessible frontier: **local AI**. This is the movement focused on running powerful AI models directly on personal hardware, like a laptop or gaming PC, free from cloud subscriptions and privacy concerns. To understand this space, it's crucial to grasp the role of an **inference engine**. Think of it as a "player" for AI models; software like **Ollama** or **LM Studio** that you install on your machine to "play" models from creators like Google or OpenAI.
@@ -319,3 +322,5 @@ The entry excels as a case study in **asymmetric competition**. It pits the mini
 2.  **Task Suggestion 2:** Extract Key Takeaways for a Summary Box
     * **Potential Prompt Snippet for Next AI:** "Analyze the provided entry and draft three to four bullet points for a 'Key Takeaways' section. Each point should summarize a major strategic insight or technical conclusion, such as the performance difference between gpt-oss and Gemma, or the strategic importance of Ollama's new UI and default model."
 
+
+{% endraw %}

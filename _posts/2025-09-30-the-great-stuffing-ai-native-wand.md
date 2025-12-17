@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry is a raw, unfiltered look into the process of architectural discovery. It captures a developer in mid-thought, wrestling with the practical consequences of a philosophical choice. The journey begins with a simple code refactor but spirals into a deep examination of programming dogma, the nature of dependency injection, and a quest to build a powerful, self-contained Python object—an 'Elder Wand'—designed from the ground up for seamless collaboration with an AI partner. What you are about to read is the dialogue, the frustration, and the breakthrough, exactly as it happened.
@@ -914,3 +917,5 @@ This entry is a goldmine. It transcends a simple coding journal to become a prim
 ### Next Step Prompts
 - Based on the 'Bicameral Mind' architecture and the 'Parallel Universe DB' pattern discussed, generate a MermaidJS sequence diagram illustrating the instantiation process of the `Pipulate` object in two scenarios: 1) being imported and used in a Jupyter Notebook, and 2) being instantiated within the `server.py` file.
 - Draft the Python class structure for `pipulate/core.py`, including the `Pipulate` class with its 'Hydrating `__init__`' method and the `DictLikeDB` class. Populate the methods with docstrings that explicitly explain the logic for handling the 'Notebook Universe' vs. the 'Server Universe'.
+
+{% endraw %}

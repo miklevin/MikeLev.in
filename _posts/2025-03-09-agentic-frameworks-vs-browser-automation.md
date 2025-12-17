@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Okay, so Manus is taking the world by storm right now, along with OpenManus
 right on its tails. I don't have an invite to Manus, and my OpenManus attempts
 have been about as successful as my MCP (model context protocol) attempts.
@@ -536,3 +539,5 @@ Skyvern’s use of multiple specialized agents allows it to handle complex scena
 The article presents a compelling case for simplifying browser automation using local LLMs. The author's desire for a more natural and intuitive way to interact with web pages is understandable, and the proposed approach of combining Playwright or Puppeteer with a local LLM like Llama 2 seems promising. The exploration of various open-source tools and the emphasis on avoiding cloud dependencies are also noteworthy.
 
 It's clear that the author is passionate about finding the right tool for the job, and their willingness to experiment and explore different options is commendable. The article is informative and insightful, and it provides a valuable perspective on the current state of browser automation.
+
+{% endraw %}

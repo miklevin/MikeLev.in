@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Journey Begins
 
 Take a deep breath.
@@ -6206,3 +6209,5 @@ o1 Pro passes the stress test. It demonstrates a strong ability to understand co
 
 This conversation is a valuable example of how AI can be used as a powerful tool for software development, especially in complex refactoring tasks. It also highlights the importance of clear communication and specific prompts when working with AI assistants.
 
+
+{% endraw %}

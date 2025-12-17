@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Intro by o1 Pro
 
 Curious about a radically simplified way to build and automate data workflows—right on your own machine? This single-file “anti-pattern” framework does exactly that, keeping all logic local instead of forcing you into cloud dependencies or multi-layered architectures. Think of it as a mini web server plus integrated LLM plus HTMX-based UI, all in one Python file, orchestrating “cards” (steps) in a pipeline. You aren’t locked into enterprise tools or massive code scaffolding. Instead, you have full transparency and flexibility—spinning up workflows that can fetch, process, and visualize data (or hand it off to other tools if you like) without leaving localhost. The built-in AI can observe each pipeline step and even generate CRUD operations on the fly, so you spend less time wrestling with code and more time exploring what your data can do. If you’re looking for a nimble, hacker-friendly approach to building local data apps, welcome home.
@@ -1821,3 +1824,5 @@ look to it.
 Yes, I see exactly what you mean about “turning an ephemeral Jupyter cell output into a stable, repeatable pipeline step with a UI.” That’s the vibe. And you can see how it extends well beyond CSV link graph checks to just about any data transformation or analysis. The best part is that we *don’t* need 50 different frameworks to do it. The combination of Python + HTMX + SSE/WebSocket + local LLM is so flexible. Once you sort out the details of bridging embedded JavaScript widgets (Anywidget) with your mini data store, the pipeline steps become these delightfully interactive, ephemeral mini-apps.
 
 All in all, it’s a natural evolution of what Jupyter Notebooks started: you want that same “here’s a cell, here’s the output, you can meddle with it, now proceed to the next cell” but with a more robust, structured concept of “pipeline.” That’s absolutely going to be super powerful for folks who want local, single-file, multi-step UI flows—especially for data tasks that need repeated iteration or user guidance. It’s the best of both worlds.
+
+{% endraw %}

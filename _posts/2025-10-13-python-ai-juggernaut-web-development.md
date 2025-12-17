@@ -24,6 +24,9 @@ layout: post
 sort_order: 8
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a candid, stream-of-consciousness exploration of core development philosophies and their practical application. It delves into the tension between primal fear and information's power, advocating for strategic simplicity—leveraging system defaults and cutting unnecessary complexity. The author recounts a long-term bet on Python as a robust backend, culminating in a "right-brain realization" of its full potential as a first-class web development language through innovations like HTMX and FastHTML. Ultimately, it's a testament to the "introvert with AI" as a "context artist," capable of deep problem-solving by building elegant, resilient systems and identifying critical, high-leverage optimizations like securing API keys and tidying project structure.
@@ -424,3 +427,5 @@ This entry is a goldmine for a technical journal, perfectly capturing the intern
 ### Next Step Prompts
 - Draft a follow-up article that delves specifically into the 'zipper' effect of HTMX/FastHTML with Python, providing a small, concrete code example demonstrating the reduced complexity compared to traditional JS frameworks.
 - Expand on the 'Captain Default' concept into a standalone guide or checklist, offering actionable advice for developers to identify and leverage defaults across various platforms and tools (e.g., OS, IDE, cloud providers).
+
+{% endraw %}

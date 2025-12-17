@@ -20,6 +20,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the Age of AI, the ability for a system to test and verify its own operations isn't just a feature; it's a foundational pillar of trust and rapid development. This blueprint chronicles a pivotal moment in the Pipulate narrative: the evolution from a passive "telemarketer" demo to an "agentic partner" capable of autonomously navigating and validating complex web application flows. Join us as we confront and conquer the notorious race conditions inherent in reactive UIs, forging a "Ghost Driver" that gives our AI eyes, hands, and an honest voice to assert its own functionality.
@@ -3121,3 +3124,5 @@ This entry represents a crucial evolutionary leap for Pipulate. It's the moment 
 ### Next Step Prompts
 - Develop a `dom_action` 'assert_element_exists' or 'assert_text_in_element' step type, independent of `click` or `set_value`, to enable more explicit and robust verification points in test scenarios.
 - Explore how to dynamically generate or suggest new `hello_workflow_test.json` steps based on observed UI elements, further automating test creation for new workflows.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Introduction
 
 Welcome to a raw and unfiltered glimpse into the mind of a coder! This journal entry captures a day in my life as I navigate the world of web development, wrestling with code, and stumbling upon unexpected solutions.  I'll be sharing my thoughts, frustrations, and triumphs as I work on a project close to my heart.  Along the way, we'll delve into the quirks of HTMX, the elegance of FastHTML, and the power of embracing simplicity.
@@ -1155,3 +1158,5 @@ Ultimately, the best title will depend on the specific focus and tone you want t
 ## A Note on Focus
 
 Specific focus? Bah! That's for later. This is book fodder to be mined and organized. Anyhow, give me a brief 1 paragraph description for this that's short and to the point, sprawling as the topics might be.
+
+{% endraw %}

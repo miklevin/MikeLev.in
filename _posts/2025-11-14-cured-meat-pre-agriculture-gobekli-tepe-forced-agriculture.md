@@ -23,6 +23,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into an interesting hypothesis, proposing that the transition from nomadic hunter-gatherer societies to settled agriculture was significantly shaped by the availability of cured meat. Far from the traditional narrative, this perspective offers a fresh blueprint for understanding how monumental sites like Göbekli Tepe could have thrived millennia before widespread farming. It’s a compelling way to view human ingenuity and adaptation, providing important context for how early societies managed resources and faced existential pressures, lessons still relevant in the Age of AI.
@@ -563,3 +566,5 @@ This entry is a brilliant exemplar of AI-augmented thought, moving from raw intu
 ### Next Step Prompts
 - Detail the specific steps and pseudo-code required for the `pipulate-init.js` and `demo.json` to implement the 'Test Harness Framework' that validates profile/task data persistence through a 'nuke the place from orbit' reinstall. Focus on the 'store pebble,' 'light fire,' and 'resurrection' mechanics.
 - Outline the architectural design for the `durable_backup_system.py` that enables the 'pebble' storage and retrieval, ensuring it survives environment resets and provides a clear API for the demo scripts to interact with.
+
+{% endraw %}

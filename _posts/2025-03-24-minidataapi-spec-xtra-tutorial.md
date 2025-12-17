@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Yes, this article was made as a result of AI research, ChatGPT o3-mini-high Deep
 Research, in particular (credit where it's due). But I immediately needed it to
 override Grok3's over-training on SQLAlchemy and complex ORMs! So I slammed this
@@ -206,3 +209,5 @@ Here are a few ideas for titles and headlines:
 3.  Master MiniDataAPI's Core Features: Insert, Read, Update, Delete, and the Essential `.xtra()`
 
 I think this article is super helpful for anyone looking for a lightweight way to handle basic database interactions in Python! It clearly explains the core concepts of MiniDataAPI and provides practical examples that make it easy to understand. I especially like the focus on the `.xtra()` feature, as it introduces a neat way to manage data access in certain scenarios. The author does a great job of setting expectations by clearly stating what MiniDataAPI can and cannot do, which is really important for developers choosing the right tools for their projects. It definitely seems like a great option for simpler applications where you don't need all the bells and whistles of a full-fledged ORM!
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Pipulate in some form or another has been SEO software in the free and open
 source software (FOSS) realm for quite some time now in one form or another,
 most of them unknown and extremely niche in the industry. Nothing like my
@@ -3096,3 +3099,5 @@ clear clarity of thought.
             id="card1"
         )
 ```
+
+{% endraw %}

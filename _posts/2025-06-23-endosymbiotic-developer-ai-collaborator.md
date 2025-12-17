@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in modern software development: the first "handshake" between a human developer and a frontier AI model, establishing a deep, collaborative partnership. The author, Mike, isn't just asking a question; he's testing a custom-built system designed to give an AI, Gemini, a comprehensive understanding of his project, Pipulate. This is achieved through a "Kung Fu prompt system" that packages the entire codebase, development philosophy, and personal history into a single, massive context file.
@@ -410,3 +413,5 @@ The most unique aspect of this interaction is the proactive, systems-level appro
 2.  **Task Suggestion 2:** Generate Author Interview Questions
     * **Potential Prompt Snippet for Next AI:** "You are a book editor preparing to interview the author about this specific entry. Generate 5-7 open-ended questions designed to elicit deeper reflection on the motivations behind this experiment, the specific 'aha' moment that led to the 'endosymbiosis' analogy, and the biggest surprises (either positive or negative) from this initial, high-context interaction with Gemini."
 
+
+{% endraw %}

@@ -17,6 +17,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -1568,3 +1571,5 @@ This entry provides an excellent blueprint for understanding the transition from
 - Develop a detailed outline for the 'shallow crawler' that uses 'AI eyes' to traverse and validate the newly generated Jekyll site hierarchy, focusing on how it interprets the 'Rule of 7' in practice.
 - Explore integrating a YAML or JSON configuration layer directly into the Jekyll templates to dynamically adjust site layout elements (like the 'Home' link) based on crawler-specific settings or A/B testing parameters.
 
+
+{% endraw %}

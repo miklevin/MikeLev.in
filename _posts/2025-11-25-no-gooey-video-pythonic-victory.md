@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles a month-long quest to automate video editing, rejecting the conventional 'Gooey' interfaces of traditional software in favor of a programmatic, Python-driven approach. It explores the philosophical underpinnings of this 'No-Gooey' methodology, likening modern AI-driven systems to the intelligent 'horse and buggy' of old, and details the practical journey from initial de-risking to overcoming technical challenges like API changes and resolution mismatches, ultimately achieving a 'banked win' in automated content creation.
@@ -1275,3 +1278,5 @@ This entry is a compelling case study in applied philosophy and pragmatic engine
 ### Next Step Prompts
 - Draft a `flake.nix` snippet for a NixOS environment that includes MoviePy with `ffmpeg-full` and NVENC headers, configured for hardware-accelerated video processing.
 - Generate a detailed project plan for creating `test_the_bedrock.py`, outlining steps to formalize the 'Golden Master' integration test for Pipulate's core demo workflow.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding Secure Home Networks for Hosting: Getting Started
 
 If you've ever thought about running your own website, cloud storage, or game server directly from your home, you might realize that simply plugging it into your regular internet setup isn't the safest option. Standard internet routers provided by companies like Verizon Fios are designed for convenience but often lack the robust security features needed when exposing services to the public internet. If someone were to compromise your home-hosted server, they could potentially gain access to your entire home network, including personal computers and devices.
@@ -228,3 +231,5 @@ While the initial IPv6 setup encountered more hurdles than IPv4, resolving them 
 
 * **AI Opinion:**
     This article provides significant value as a detailed, practical walkthrough for users looking to implement a pfSense firewall for secure home hosting, particularly within the Verizon Fios ecosystem. Its strength lies in documenting not just the steps but also the common pitfalls (like the ISP router IP conflict) and the specific hardware/software choices made. While its technical depth and journal-like structure might make it challenging for absolute beginners, it serves as an excellent resource or log for intermediate users undertaking a similar project. It clearly outlines the foundational steps necessary before proceeding to more complex DMZ and server configurations.
+
+{% endraw %}

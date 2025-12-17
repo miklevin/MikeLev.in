@@ -21,6 +21,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome to a pivotal entry in our journey through automated data enrichment! This article builds directly on previous explorations, showcasing the successful implementation of a "1-to-many" AI insight generation workflow. We'll delve into the practical code, the challenges overcome, and the philosophical underpinnings of creating resilient, user-empowering technical systems. Prepare to see the "Faquillizer 2" in action, transforming raw URLs into rich, multi-faceted AI insights, all while pushing the boundaries of what a technical journal can achieve.
@@ -1052,3 +1055,5 @@ This article is a compelling demonstration of applied AI engineering and thought
 - Develop the `prompt.txt` dynamic loading mechanism in `secretsauce.py` and provide an example of a fine-tuned `prompt.txt`.
 - Implement the intermediate CSV export functionality in `secretsauce.py` for each major data transformation step, documenting the new file paths and content.
 - Refine the `export_to_excel` function to correctly handle and format the new log-file structure for better presentation and Google Sheets import.
+
+{% endraw %}

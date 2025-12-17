@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry dives into the philosophy and practice of designing a software testing strategy specifically for the age of AI co-development. The author, working on the **Pipulate** project, grapples with a critical vulnerability: the tendency for even advanced AI coding assistants to introduce subtle, "whack-a-mole" bugs by misinterpreting unconventional code patterns. The author rejects traditional, complex unit testing frameworks like `unittest` and `pytest`, instead advocating for a more pragmatic, user-centric approach.
@@ -912,3 +915,5 @@ The most valuable aspect of this entry is its focus on proactive "world-building
     * **Potential Prompt Snippet for Next AI:** "Using the 'whack-a-mole' concept from the journal, write a 400-word section for a book chapter. Start by describing the problem of AIs reverting intentional anti-patterns. Provide a simple, contrasting code example (FastAPI vs. FastHTML). Conclude by introducing browser automation testing as a practical defense mechanism."
 
 
+
+{% endraw %}

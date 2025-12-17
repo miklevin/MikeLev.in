@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the burgeoning AI Age, the distinction between ephemeral 'breadcrumbs' and enduring 'pebbles' defines the sovereign craftsman's journey. This entry, a veritable blueprint, delves into the philosophy of 'small queues'—manifested in everything from a 'smug mug' coffee ritual to robust data architecture—and contrasts it with the 'whitewashing' of meaning found in conventional systems. Through the lens of the 'Hansel & Gretel Protocol' and the 'Grothendieck method,' we explore how a meticulous 'pebble trail' ensures data durability, auditable dependencies, and human agency in a world increasingly dominated by 'amnesiac genies' and fleeting digital 'breadcrumbs.' It's a treatise on building systems that don't just work, but endure, empowering the craftsman to navigate the complex 'light-cones' of hardware and software with confidence and clarity.
@@ -1085,3 +1088,5 @@ This entry is a pivotal blueprint for the 'Sovereign Craftsman' navigating the A
 ### Next Step Prompts
 - Outline the step-by-step implementation plan for refactoring `apps/020_profiles.py` to utilize `DurableBackupManager`, including specific code modifications, test considerations, and a rollback strategy.
 - Develop a conceptual framework and initial API design for the '1-page page-loader/DOM renderer' (Choice 3), focusing on how it will leverage 'pebble-trailed' crawl-saves and explicitly prepare for subsequent LLM tool-calls.
+
+{% endraw %}

@@ -17,6 +17,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the fascinating parallels between today's AI-driven exponential shifts and humanity's past moments of profound change. From the information revolution of 11th-century China to the architectural marvels of Göbekli Tepe 12,000 years ago, we explore how groundbreaking technologies, much like AI acting as a 'buffalo jump,' have always enabled unprecedented abundance and reshaped civilization's blueprint.
@@ -195,3 +198,5 @@ This entry is an important to know blueprint for understanding the true scale of
 ### Next Step Prompts
 - Elaborate on specific architectural or societal implications of the 'AI buffalo jump' in a modern context, beyond just coding workflows. For example, how does this metaphor apply to scientific research, education, or governance?
 - Develop a detailed 'blueprint' for individuals or small teams to leverage AI as a 'Cathedral of One,' drawing concrete steps and strategies from the historical examples provided to build their own systems of abundance.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the intricate world of training Large Language Models (LLMs) to effectively interact with and guide users through complex web interfaces. It chronicles a real-world development journey within the "Pipulate" framework, which emphasizes transparency in its Model Control Protocol (MCP) architecture. The core problem tackled is bridging the gap between an LLM's understanding and its ability to provide real-time visual cues, culminating in the creation of a sophisticated "Simon Says MCP UI Flash System." Understanding MCP as a standardized way for LLMs to make external tool calls is fundamental to appreciating this exploration.
@@ -649,3 +652,5 @@ The narrative arc—from frustration with broken functionality to the realizatio
 2.  **Task Suggestion 2:** Create a detailed comparison table outlining the pros and cons of using WebSocket for real-time UI updates versus other potential methods (e.g., polling, server-sent events).
     * **Potential Prompt Snippet for Next AI:** "Compare WebSocket, Server-Sent Events (SSE), and traditional polling for real-time UI updates in the context of an AI-driven system like the 'Simon Says MCP UI Flash System'. Discuss pros and cons, including latency, overhead, and complexity for each. Present as a Markdown table."
 
+
+{% endraw %}

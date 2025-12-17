@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry begins a multi-part saga detailing a challenging NixOS system crash and the intricate, often frustrating, process of rebuilding it. What starts as a technical rescue mission quickly evolves into a philosophical exploration of system design, debugging, and the nuanced interplay between digital abstractions and physical realities. It serves as an important lesson for understanding resilience and problem-solving in the Age of AI, revealing the unforeseen obstacles that can arise even in the most declarative of systems.
@@ -1253,3 +1256,5 @@ This journal entry is an unexpectedly rich narrative, transforming a complex tec
 ### Next Step Prompts
 - Expand on the 'Treachery of Abstractions' by discussing other common examples in modern computing where physical or low-level constraints are obscured by high-level tools, and how this impacts future-proofing strategies.
 - Detail practical NixOS maintenance routines, including proactive monitoring of `/boot` and `/nix/store` with examples of `nix-store` and `df` commands, and advanced `bootclean` strategies to prevent such scenarios.
+
+{% endraw %}

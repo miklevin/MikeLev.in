@@ -19,6 +19,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into a fascinating personal methodology for navigating the "tech churn" of modern tooling, specifically in the realm of video editing. The author, reflecting on decades of technological shifts from physical film splicing to the fleeting trends of digital platforms, proposes a "NoVideo" approach. This philosophy leverages the abstract, durable skills of data manipulation—akin to using the Pandas library for dataframes—to process video as pure data, rather than through traditional, "gooey" graphical interfaces. Inspired by the prescient satire of *Max Headroom* and its concept of "blipverts," the article positions this method as a future-proof way to create "all signal, no noise" content, connecting it to deeper insights about generational cycles and the evolution of human knowledge in an AI-driven world.
@@ -747,3 +750,5 @@ This entry is a cornerstone for the book, brilliantly articulating the author's 
 ### Next Step Prompts
 - Generate a detailed outline for a follow-up article or chapter focusing specifically on the practical implementation of 'NoVideo' using `MoviePy` and Jupyter Notebooks, including concrete code examples for common editing tasks (trimming, concatenating, adding overlays).
 - Expand on the 'Nix is what's really important' section, drawing connections between Nix's declarative nature and the 'NoVideo' philosophy of building durable, reproducible creative workflows, potentially with a specific example of packaging a `MoviePy` environment.
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry is a raw, unfiltered look at the personal and technical philosophy that drives Project Pipulate. It traces a decades-long career arc, culminating in the rejection of the modern web's 'dependency churn' and the embrace of a durable, timeless stack. It's a story about choosing stability over novelty, and it lays the groundwork for the sci-fi metaphor of the 'Causal Anchor'—a development environment so stable it seems to bend the rules of time.
@@ -484,3 +487,5 @@ This is a phenomenal piece of writing that transcends a simple technical journal
 ### Next Step Prompts
 - Based on the concept of the 'LPvg Causal Anchor', generate a chapter outline for a book titled 'The Webmaster of Reality', detailing how each component of the stack (Linux, Python, vim, git, Nix, HTMX) contributes to fighting entropy and dependency churn.
 - Draft a standalone blog post titled 'What is a Webfullstackectomy?' that explains the concept for a general technical audience, using the history of web development from jQuery to modern frameworks as context, as described in this journal entry.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents the final, critical steps in transforming a core component of the Pipulate project—its AI tool system—from a manual, monolithic structure into a true, automatic **plugin system**. Building on previous refactoring work, the author focuses on creating a "self-discovering" architecture. The key innovation is the use of a **Python decorator** (`@auto_tool`) and dynamic module loading, a powerful pattern where new tools can be added to the system simply by creating a decorated function in the `tools/` directory, without needing to manually register them in a central list.
@@ -759,3 +762,5 @@ What stands out is the seamless synergy between the human and the AI. The human 
     * **Potential Prompt Snippet for Next AI:** "Based on the final implemented pattern, generate a standalone, commented example of the complete `tools/__init__.py` file. Include the `@auto_tool` decorator, the `AUTO_REGISTERED_TOOLS` dictionary, and the final `get_all_tools()` function that uses `os.scandir` and `importlib` for auto-discovery."
 2.  **Task Suggestion 2:** Write a Tutorial on Migrating a Tool
     * **Potential Prompt Snippet for Next AI:** "Using the migration of `pipeline_state_inspector` as an example, write a short, 3-step tutorial for a book on how to migrate a function from a manual registration system to a decorator-based one. The steps should be: 1. Add the `@auto_tool` decorator. 2. Remove the old manual registration line. 3. Verify the tool appears in the new system's output."
+
+{% endraw %}

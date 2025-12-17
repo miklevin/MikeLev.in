@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Okay, I am in the office. I am on the Mac. All that muscle memory stuff comes
 into effect. I have to do the real-time remapping sufficient so that flow state
 can still be achieved. Switching hardware, especially between different desktop
@@ -174,3 +177,5 @@ using `.gitattributes` for a portable, repository-level solution are excellent.
 Including commands for verification and troubleshooting existing configurations
 adds significant utility. It's a well-focused piece that directly addresses a
 specific technical pain point with an actionable fix.
+
+{% endraw %}

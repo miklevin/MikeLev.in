@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Prompt Fu Guardrails & Database Decoupling
@@ -1878,3 +1881,5 @@ This is a stellar entry that transcends a simple coding log. It serves as a mast
 ### Next Step Prompts
 - Based on the final `test_packages.sh` script, generate a `README.md` section titled 'Local Development & Testing'. Explain how to set up the environment and run the test, clarifying the purpose of the 'clean room' approach for ensuring package portability.
 - Draft an outline for a blog post or book chapter titled 'The Three Levels of AI Collaboration.' Use this journal entry as the primary example for demonstrating the crucial shift from Level 1 (Q&A) to Level 2 (Workflow Instrumentation), and speculate on what Level 3 (Proactive Agency) might look like.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Making the Unparsable Parsable!
 
 Got Unparsable Structured Data? Yeah, me too! Starting out with this blog, which
@@ -247,3 +250,5 @@ Alright, let's get this done!
 
 I found the author's experience quite relatable. Debugging structured data can be a real headache, especially when dealing with complex content and templating systems. The author's practical approach—simply removing the problematic element and relying on redundancy—demonstrates a pragmatic problem-solving mindset. The clarity in explaining the difference between HTML markup and JSON-LD, along with the code examples, makes the article valuable for anyone struggling with similar issues. It's a good example of how sometimes, simpler is better.
 
+
+{% endraw %}

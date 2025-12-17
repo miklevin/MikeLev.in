@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Modernizing Python Virtual Environments with UV and Nix
 
 This article is me adapting my older technique of creating a Python virtual
@@ -580,3 +583,5 @@ This article details the author's journey to modernize his Python Nix Flake by r
 
 This article is a valuable, practical guide for developers looking to optimize their Python development environments using Nix. The author's candid account of his initial struggles and subsequent success with `uv` makes the information relatable and actionable. The step-by-step code examples and clear explanations of the changes make it easy for readers to follow along and implement the solutions in their own projects. The author's connection of the changes to emerging AI platforms also provides relevant context, highlighting the importance of efficient dependency management in modern software development. The inclusion of the actual terminal output of the successful test is a great touch, and adds to the validity of the article.
 
+
+{% endraw %}

@@ -16,6 +16,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into a fundamental yet often misunderstood aspect of Large Language Models (LLMs): their inherent statelessness and lack of persistent memory. Dispelling the illusion of conversational continuity, the author presents a unique methodology—a sophisticated blueprint for engineering the 'context window'—to precisely guide AI interactions. This approach, exemplified through the author's 'Pipulate' project and custom 'prompt_foo.py' script, outlines how to effectively 'paint upon the canvas' of an LLM's temporary understanding, ensuring efficiency and control in the rapidly evolving Age of AI.
@@ -608,3 +611,5 @@ This entry is an important blueprint for effective human-AI collaboration. It de
 ### Next Step Prompts
 - Develop a detailed guide or tutorial for implementing the 'AI-Phooey Chop' and `prompt_foo.py` methodology, including code examples and best practices for structuring context payloads for different types of AI tasks.
 - Elaborate further on the 'Cathedral of One' and 'Computing Sovereignty' concepts, detailing how NixOS integrates with Pipulate to create a robust, reproducible development environment for AI projects, including the 'DurableBackupManager' for data preservation.
+
+{% endraw %}

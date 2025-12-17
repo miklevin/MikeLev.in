@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 I'm building a **FastHTML app with Cursor AI under NixOS**. The resulting Nix flake needs to be able to run on **Macs, Windows (under WSL), or Linux**. Talk about being off the beaten track and in the tech wilderness. But I'm going to make it work because there's a big payoff here.
 
 ## Navigating the Tech Wilderness
@@ -556,3 +559,5 @@ keeps you relevant on all platforms, tapping the power of your local machine
 while staying cloud-deployment ready. It's the best of all worlds, and does't
 even shut you out of the latest and greatest toys like Cursor AI.
 
+
+{% endraw %}

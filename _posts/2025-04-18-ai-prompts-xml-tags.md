@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Communicating with Large Language Models
 
 This article delves into the practical aspects of communicating effectively with Large Language Models (LLMs), the powerful AI systems behind tools like ChatGPT and Claude. The author explores a specific technique for improving these interactions: structuring the instructions, or "prompts," given to the AI using XML-like tags. This method, suggested by AI research company Anthropic, aims to help the AI better distinguish between different parts of a request, such as background information, specific instructions, and examples.
@@ -662,3 +665,5 @@ to use XML wrappers, and so, mission accomplished.
 
 * **AI Opinion:**
     This article appears to be a valuable technical log documenting a specific experiment in prompt engineering and AI model testing. Its strength lies in its practical detail and authenticity, showing the real-world application of using XML tags to structure complex AI prompts for codebase analysis and exploring advanced concepts like MCP integration. While its clarity is likely high for the author or those deeply familiar with the project, the heavy reliance on specific jargon and assumed context makes it less accessible to a general audience. Its usefulness is significant as a case study for developers working on similar problems (improving LLM interactions for complex tasks, integrating AI tools) or those following the author's specific project journey.
+
+{% endraw %}

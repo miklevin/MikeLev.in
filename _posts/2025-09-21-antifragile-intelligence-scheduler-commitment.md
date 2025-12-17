@@ -20,6 +20,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry captures a pivotal moment where a technical discussion about an AI scheduling system evolves into a profound philosophical exploration. The author connects the dots between advanced AI, systems thinking, and the psychological principles of commitment and consistency, as described by Robert Cialdini. It reframes the mundane task of scheduling into a powerful 'self-hack' for ensuring personal and project-level progress. The dialogue proposes a multi-phased approach to building an 'antifragile' scheduler—one that grows organically, reacts to events like a living network, and operates with intelligent constraints. This piece is a testament to the idea that the most robust technical solutions are often reflections of deeper human and natural principles, moving beyond brittle optimization toward sustainable, resilient intelligence.
@@ -383,3 +386,5 @@ This is an exceptional entry that demonstrates a rare synthesis of deep technica
 ### Next Step Prompts
 - Given the phased scheduler plan, generate a more detailed breakdown of the necessary changes to the `060_tasks.py` file for Phase 1, including modifications to the `CrudCustomizer` and `CrudUI` classes to support the new scheduling fields and UI elements.
 - Draft a new MCP tool called `system_check_resource_usage` that could be used in Phase 3 of the scheduler plan. The tool should return a JSON object with CPU and memory usage percentages. Provide the Python code for `tools/system_tools.py` and a brief description.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores the practical challenge of enabling Large Language Models (LLMs) to interact with external tools and data, a process often called "tool-calling." The author is working within their project, **Pipulate**, to implement an orchestrator for the **Model Context Protocol (MCP)**, an emerging standard for structuring these AI-to-tool communications. However, instead of adopting the full, often verbose, JSON-based protocol, the author is pioneering a more elegant and lightweight approach.
@@ -459,3 +462,5 @@ The most unique aspect is the seamless weave between the highly abstract (the na
 2.  **Task Suggestion 2:** Generate Explanatory Analogies
     * **Potential Prompt Snippet for Next AI:** "The author uses 'magic spells' as a central metaphor. Based on the entry's content, generate three other distinct analogies to explain the author's simplified tool-calling approach. For each, briefly explain what aspect it highlights (e.g., one for efficiency, one for universal accessibility, one for reliability)."
 
+
+{% endraw %}

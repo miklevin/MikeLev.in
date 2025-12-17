@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry plunges us into the practical, often messy, reality of cross-platform software development. The author is working on Pipulate, a tool designed to automate browser-based tasks, which relies heavily on keyboard shortcuts (hotkeys) for its interactive demo. The core challenge is a classic developer headache: making software behave consistently across different operating systems, in this case, Windows/Linux and macOS. Apple's historical divergence in keyboard design—using `Command` (⌘) and `Option` (⌥) keys where others use `Control` and `Alt`—creates a ripple effect that developers must manage.
@@ -1230,3 +1233,5 @@ For a book, the "raw" quality is its greatest strength. With the addition of the
 2.  **Task Suggestion 2:** Broaden the Core Lesson.
     * **Potential Prompt Snippet for Next AI:** "Using the discovery that `event.key` can be '∂' on a Mac as the primary example, write a concise 'General Principle' section (2-3 paragraphs) for a tech book. Explain the fundamental difference between `event.key` (representing the character value) and `event.code` (representing the physical key). Provide another brief example where this distinction is critical, such as configuring WASD controls for a browser-based game."
 
+
+{% endraw %}

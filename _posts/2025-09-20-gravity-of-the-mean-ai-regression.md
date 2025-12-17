@@ -22,6 +22,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Context for the Curious Book Reader
 
 This is a raw, unfiltered look into the reality of collaborating with an AI coding assistant. What begins as a seemingly straightforward task—fixing a few minor bugs after an AI-assisted code refactor—quickly spirals into a multi-layered investigation. This entry captures the frustrating, iterative, and ultimately enlightening process of debugging not just the code, but the very workflow between human and machine. It's a deep dive into a single, deceptively simple line-wrapping bug that exposes a fundamental challenge of working with generative AI: its tendency to 'smooth out' essential, custom logic in favor of more common patterns. This journey leads to the formulation of powerful new mental models, like using `git diff` as a 'Transparency Overlay' and understanding the 'Gravity of the Mean' that all AI developers must contend with.
@@ -673,3 +676,5 @@ This journal entry is a cornerstone piece. It transcends a simple 'how-to' and b
 ### Next Step Prompts
 - Analyze the principles of the 'Airtight Contract' and the 'AI Architect, Human Surgeon' workflow described in the text. Distill these into a concise, reusable Markdown checklist that a developer could use before starting a coding session with an AI assistant.
 - Based on the 'Gravity of the Mean' concept, generate a Mermaid.js 'mindmap' diagram script. The central node should be 'Common Code Patterns (High Gravity)'. It should have branches leading to examples like 'Standard Library Usage', 'Boilerplate Functions', and 'Typical Error Handling'. In a distant orbit, create nodes for 'Application-Specific Nuances (Low Gravity)' with examples from the text, like 'Custom `<br>` tag handling' and 'Niche API integrations'.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry tackles a pervasive yet often overlooked challenge in software development: **developer fatigue** caused by constantly shifting foundational technologies. The author argues for establishing a stable "bedrock" to counter the industry's trend of designed obsolescence. The focus is on the command-line interface (CLI), a timeless tool whose primary weakness is its fragility of context—a problem shared by modern AI assistants, which suffer from a form of "amnesia" with every interaction. This journal entry explores a novel solution within the **Pipulate project**, an AI-centric automation platform.
@@ -462,3 +465,5 @@ What's particularly unique is how the AI interaction itself becomes a core part 
 2.  **Task Suggestion 2:** Draft the Refactoring Commands
     * **Potential Prompt Snippet for Next AI:** "Act as a Linux command-line expert. Generate the specific `git`, `mv`, `rg`, and `sed` commands required to execute Phase 1 of the refactoring plan: moving `mcp_tools.py` to `tools/core_legacy.py` and updating all import statements across the Pipulate project."
 
+
+{% endraw %}

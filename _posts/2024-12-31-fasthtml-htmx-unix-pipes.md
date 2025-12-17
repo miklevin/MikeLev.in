@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Using AI Effectively
 
 So you ostensibly have a PhD-level intelligent employee in the new o1 Pro, and
@@ -3732,3 +3735,5 @@ I'm grateful too. These kinds of interactions where we can geek out about code, 
 Quack quack! 🦆 Here's to more creative coding in 2025! 🎉
 
 **Me**: Happy New Year to my child. I am never not thinking about you.
+
+{% endraw %}

@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles a pivotal late-night coding session where the focus shifted from ambitious, long-term projects to a small, high-leverage refactor: making my Pipulate application's homepage configurable. More than just a coding task, this became an exploration of my own workflow, leading to a significant breakthrough in how I interact with AI. I document my move away from cumbersome copy-pasting into Text-based User Interfaces (TUIs) to harnessing the true, non-interactive power of the command-line, turning a tedious process into a streamlined, agentic partnership with my AI assistant.
@@ -1063,3 +1066,5 @@ This is a fantastic entry that operates on multiple levels. It's a technical jou
 ### Next Step Prompts
 - Based on the final prompt, act as the Gemini CLI agent and generate the precise code edits for the 'A More Cautious, Non-Breaking Plan' to complete the refactor.
 - Write a short, standalone tutorial titled 'From TUI to CLI: A Guide to Agentic AI Interaction' based on the principles and commands discovered in this journal entry.
+
+{% endraw %}

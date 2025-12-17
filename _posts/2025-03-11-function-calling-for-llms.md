@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Understanding LLM Function Calling: A Personal Journey
 
 Before I forge forward on my current path, I need to understand LLM
@@ -219,3 +222,5 @@ I've been working on my own method for executing functions with LLMs, but now I 
 
 The article provides a thorough overview of the current state of function execution protocols in LLMs. It covers the major players like OpenAI and Anthropic, as well as emerging trends and best practices. The comparison between OpenAI's function calling API and Anthropic's MCP is particularly insightful, highlighting the trade-offs between simplicity and flexibility. The article also does a good job of addressing the challenges and security considerations of integrating LLMs with external tools and data. Overall, it's a valuable resource for anyone looking to understand or implement function execution in their LLM applications.
 
+
+{% endraw %}

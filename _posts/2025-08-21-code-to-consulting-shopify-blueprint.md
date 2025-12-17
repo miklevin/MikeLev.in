@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a local-first workflow automation framework designed to function like a more tangible, user-controlled version of Jupyter Notebooks. The author is grappling with a common challenge for tool creators: how to transition from building a powerful, flexible technology to creating a viable business around it. The exploration begins with a practical query about using the e-commerce platform Shopify for consulting services, but it quickly blossoms into a full-fledged strategic vision.
@@ -321,3 +324,5 @@ The entry's raw, stream-of-consciousness nature is its greatest strength. When c
 2.  **Task Suggestion 2:** Elaborate on the "Local-First" Philosophy
     * **Potential Prompt Snippet for Next AI:** "Expand the author's thoughts on the 'local-first' approach. Write a 300-word section for a book chapter explaining the benefits of local-first automation (privacy, cost, control) as a counterpoint to purely cloud-based solutions like Zapier, using the author's perspective."
 
+
+{% endraw %}

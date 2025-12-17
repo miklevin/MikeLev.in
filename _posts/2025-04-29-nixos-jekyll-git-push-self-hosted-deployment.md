@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding Secure Home Networks for Hosting: Getting Started
 
 This article delves into the technical process of moving a personal blog from a platform like GitHub Pages to being hosted on a server run from the author's own home network. It chronicles the author's experiments with website optimization (like improving navigation), the impact these changes had on search engine visibility (SEO), and the decision to gain more control by self-hosting.
@@ -630,3 +633,5 @@ thing.
 
 * **AI Opinion:**
     This article offers significant value as a technical reference, particularly the detailed NixOS configuration for setting up a Git-based Jekyll deployment. The transparency about the author's experiments, setbacks (SEO traffic tanking), and thought process adds a layer of real-world context often missing from purely technical guides. However, its hybrid nature—part journal, part deep technical guide—and heavy reliance on specialized jargon make it challenging for readers unfamiliar with NixOS, advanced Git workflows, or the author's ongoing projects. Its primary utility lies with users attempting a similar NixOS-based self-hosting setup, for whom the provided configurations and rationale could be extremely helpful.
+
+{% endraw %}

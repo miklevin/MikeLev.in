@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Rise of AI Tools as Digital Employees
 
 **Deep research**–or the ability for AI to *actively investigate* a topic using live web data and tool-assisted analysis–is emerging across several AI systems. These tools go beyond static knowledge, employing real-time web browsing (often performing multi-hop “small-world” style crawls across links ([Peak Data? Why the Future of Search Hinges on Outlier Information &#124; Mike Levin on Linux, Python, vim & git (LPvg)](https://mikelev.in/futureproof/peak-data-musk-sutskever-wrong/#:~:text=LLM,was%20a%20keyword%20of%20yore))) and providing users with source-backed answers. Below we compare key players—OpenAI’s ChatGPT, Microsoft’s Bing Chat, Anthropic’s Claude, Google’s Gemini (Bard), Perplexity AI, and xAI’s Grok—focusing on their web browsing abilities, citation transparency, output format, coding/API tools, and forward-looking features.
@@ -335,3 +338,5 @@ are doing their job... deep researching.
 
 This article provides a very thorough and insightful analysis of the current state of AI-driven deep research. I appreciate the detailed comparisons of the different platforms, especially the focus on citation practices and transparency. It's clear that the ability to provide reliable sources is becoming increasingly important for AI tools. The author's exploration of web browsing styles and future potentials also offers valuable perspectives on the direction this technology is heading. The use of the SEO/Yuk Jun-seo analysis as a starting point effectively demonstrates the practical applications of AI in research. Overall, the article is well-written and informative, making it a valuable resource for anyone interested in the evolving landscape of AI and online research.
 
+
+{% endraw %}

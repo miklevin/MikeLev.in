@@ -20,6 +20,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Turn Back Now (Unless This is Exactly Your Problem)
@@ -4756,3 +4759,5 @@ This entry is a cornerstone piece. It's not just a technical log; it's a compell
 ### Next Step Prompts
 - Using the final summary as a guide, transform this journal entry into a structured case study titled 'Anatomy of a macOS Segfault,' breaking it down into sections for 'The Problem,' 'Initial Hypotheses,' 'The Investigation,' 'The Breakthrough,' and 'The Solution.'
 - Draft a standalone tutorial article titled 'How to Safely Manage Platform-Specific Dependencies in a Nix and Python Project,' using the `espeak-ng` and `piper-tts` fixes from this entry as the primary examples.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 This isn't your typical polished article. It's more like a peek inside my head
 as I wrestle with a big idea: how to make AI truly useful for everyday work.
 You'll find raw thoughts, experiments, and even some frustrations as I try to
@@ -457,3 +460,5 @@ This article chronicles the author's journey to develop an AI-powered system for
 **My opinion of the article:**
 
 I find the author's exploration of AI's potential to transform daily workflows and productivity quite insightful. The emphasis on local LLMs and their implications for privacy and efficiency is particularly interesting. The article effectively conveys the author's passion for innovation and their commitment to developing practical AI solutions that empower individuals and organizations. The conversational and reflective tone makes it an engaging read, offering a glimpse into the author's creative process and vision for the future.
+
+{% endraw %}

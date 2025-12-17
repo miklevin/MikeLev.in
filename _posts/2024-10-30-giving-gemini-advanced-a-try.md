@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 What's happening here is I have my web logs set to start fresh every time. In
 this way, I do some interaction with the user then I copy the logfile into my
 OS copy buffer like so:
@@ -1715,3 +1718,5 @@ Feel free to adjust any part to better fit your personal style!
 > hour before my next client call" feeling. Thanks, AI's! This page was brought
 > to you by me, Claude 3.5 Sonnet, Gemini Advanced and several of the ChatGPT
 > family with a special shout out to the two o1's.
+
+{% endraw %}

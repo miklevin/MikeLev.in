@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry plunges us into the heart of a software development philosophy that champions simplicity, durability, and developer sovereignty in an age of ever-increasing complexity. The project at hand, Pipulate, is a "local-first" web application framework designed to transform data-centric Jupyter Notebooks into structured, reusable workflows. It intentionally rejects the mainstream patterns of heavy client-side JavaScript frameworks and complex build tools, opting instead for a minimalist stack centered on Python, HTMX, and the principle of sending HTML fragments "over the wire."
@@ -1606,3 +1609,5 @@ To elevate this for a book, the key is not to sanitize it, but to *frame* it. Us
 2.  **Task Suggestion 2:** Draft a "Key Concepts" Glossary
     * **Potential Prompt Snippet for Next AI:** "From the text, identify the 5-7 most critical technical or philosophical terms a reader must understand (e.g., 'REPL', 'Literate Programming', 'HTML over the wire', 'The Dent'). For each term, write a concise, one-sentence definition suitable for a glossary in a tech book."
 
+
+{% endraw %}

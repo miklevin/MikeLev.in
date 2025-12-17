@@ -17,6 +17,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome to a deep dive into future-proofing your technical skills. This chapter explores the philosophy behind the LPvg stack—Linux, Python, vim, and git—arguing that true technical prowess comes from mastering a core set of powerful, enduring tools. The author charts a personal journey through the limitations of popular technologies like Docker to the discovery of Nix, a system that promises a truly persistent and portable digital 'forever-home.' It's an opinionated guide to choosing robust, effective tools over fragile, mainstream alternatives.
@@ -309,3 +312,5 @@ This entry is a potent blend of a personal manifesto and a technical guide. Its 
 ### Next Step Prompts
 - Generate a detailed chapter outline for 'The LPvg Stack' based on the provided text, creating dedicated sections for the history of virtualization, the critique of Docker, the failed experiment with LXD on WSL, and the ultimate arrival at Nix as the solution.
 - Draft a technical tutorial titled 'Your First Hour with Nix,' explaining how to set up a basic, persistent environment as described in the journal entry, ensuring the tutorial maintains the author's conversational and slightly provocative tone.
+
+{% endraw %}

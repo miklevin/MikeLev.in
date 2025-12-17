@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures an important stage in the ongoing development of Pipulate, chronicling the integration of multi-platform voice synthesis for Chip O'Theseus. It explores the philosophical underpinnings of building a "Forever Machine"—a concept rooted in historical computing paradigms like the Amiga and Unix, and solidified by modern, reproducible systems like Nix. The narrative weaves together insights on digital sovereignty, AI safety, and the practical challenges of implementing a local, intelligent system, culminating in a significant technical achievement: interruptible voice capabilities for the AI companion. This piece serves as a fascinating blueprint for how a local-first, user-owned computing future is being meticulously constructed, pebble by pebble.
@@ -2308,3 +2311,5 @@ This article beautifully encapsulates the convergent evolution of several import
 ### Next Step Prompts
 - Generate the content and structure for the 'Zero-Hour' Notebook, focusing on proving the Ark's watertight integrity and guiding the user through essential local AI setup (Ollama/Gemma 3) and voice verification.
 - Design the UI/UX for integrating the voice toggle with a 'stop speaking' functionality into Pipulate's global settings fly-out menu, including the necessary FastHTML and backend logic in `010_introduction.py`.
+
+{% endraw %}

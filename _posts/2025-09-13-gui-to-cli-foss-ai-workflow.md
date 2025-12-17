@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in a developer's journey away from mainstream, GUI-centric AI coding tools towards a more sustainable and powerful command-line interface (CLI) workflow. The author, working on their project Pipulate, navigates the burnout of constant development and the allure of popular tools like Cursor AI, which leverages large language models from providers like Anthropic. This exploration is set against a backdrop of a rapidly commoditizing "Intelligence as a Service" market, where developers must weigh the benefits of proprietary, venture-backed tools against the long-term stability and flexibility of free and open-source software (FOSS).
@@ -637,3 +640,5 @@ The raw, journal-like nature of the entry is its greatest strength. When curated
     * **Potential Prompt Snippet for Next AI:** "Review the section on using a wrapper script to run nightly builds of Gemini CLI on NixOS. Develop a simple, non-technical analogy to explain this concept to a less technical reader. For example, compare it to 'subscribing to a magazine's daily online articles instead of buying the monthly print version from a newsstand.'"
 
 
+
+{% endraw %}

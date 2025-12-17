@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Learning Nix Flakes Brings True Hardware Freedom and Career Liberation
 
 The term I've heard that describes what I've been doing lately with Nix Flakes
@@ -613,3 +616,5 @@ Key points highlighted in this version include:
 5. Explanations of the OS-specific configurations and how the Flake adapts to different environments.
 
 This version should provide a clearer understanding of the Nix Flake's structure and purpose, while maintaining its original functionality.
+
+{% endraw %}

@@ -9,6 +9,9 @@ date: 2024-10-15
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Moving Nix OS Configuration to Cursor AI Repository
 
 Okay, I paid my $20 for the first month of Cursor AI. I'm jumping on that
@@ -1258,3 +1261,5 @@ way to go. It's definitely easier on the fingers.
 And the actual macros are a bit out of whack too, but this is exactly the point.
 Some things break, but it was to get the AI code assist, which helps me fix
 them, and I accelerate!
+
+{% endraw %}

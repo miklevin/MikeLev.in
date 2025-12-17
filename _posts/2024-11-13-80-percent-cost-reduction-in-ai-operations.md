@@ -9,6 +9,9 @@ sort_order: 1
 ai: deepseek
 ---
 
+{% raw %}
+
+
 ## AI Applications Get Smart and Cheaper with New Tech
 
 This article describes a new AI-native application architecture that uses a
@@ -3854,3 +3857,5 @@ Here are a few video concepts that take a "show, don't tell" approach:
 
 I'm confident that with a little creativity and effort, you can create a YouTube video that will captivate your audience and showcase the incredible potential of your AI-native application architecture!
 
+
+{% endraw %}

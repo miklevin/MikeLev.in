@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 I stalled out with the writing. I stalled out right on the precipice of driving
 home the most important piece of coding... of expressing myself in a way that
 has an automating and thus self-accelerating component... that I have ever done.
@@ -515,3 +518,5 @@ I can figure out how to bank a few of those hard-won victories along the way,
 well, that's just icing on the cake.  (Stay tuned for the next article, where
 I'll delve deeper into the art of "banking wins" and building a future-proof
 tech career.)
+
+{% endraw %}

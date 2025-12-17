@@ -17,6 +17,9 @@ layout: post
 sort_order: 10
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### The Payoff: Anticipating Keyword Clustering
@@ -1347,3 +1350,5 @@ This journal entry showcases a masterclass in preparing data for machine learnin
 ### Next Step Prompts
 - Generate the Python code and updated notebook cell for the keyword clustering and naming based on the provided helper functions, including display of sample clusters and evaluation metrics.
 - Draft a conceptual explanation for a non-technical audience explaining how keyword clustering transforms a list of keywords into a strategic content plan.
+
+{% endraw %}

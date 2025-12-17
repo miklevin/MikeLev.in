@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the world of web analytics and SEO, *Pipulate* is a custom-built powerhouse for streamlining complex data workflows, designed to tackle the intricacies of tools like Botify and Google Analytics. This journal entry captures a pivotal moment in the evolution of Pipulate’s “Quadfecta” workflow, where the author wrestles with integrating Google Analytics data, enhancing link graph visualizations, and refining user interfaces—all while collaborating with AI tools like Claude and Cursor. The entry dives into the nitty-gritty of API schema discovery and iterative debugging, offering a raw glimpse into the problem-solving dance of a solo developer. Key terms: *Botify* (an SEO analytics platform with a complex API) and *WET code* (Write Everything Twice, favoring explicit, minimal-abstraction coding). This exploration matters because it reveals how modern developers blend human intuition, AI assistance, and relentless iteration to conquer real-world technical challenges.
@@ -715,3 +718,5 @@ The rawness is its superpower. Unlike sanitized tutorials, this entry captures t
 Hope that hits the mark! I had a blast untangling this journal’s chaos into
 something book-ready. Let me know if you want to tweak the tone or dive deeper
 into any part—after all, we’re bottling lightning here, not chasing rabbits! 😎
+
+{% endraw %}

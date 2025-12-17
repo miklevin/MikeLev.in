@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In previous discussions, we established the foundational philosophy of Project Pipulate: a commitment to AI Education (AIE), sovereign environments via Nix, and radical context transparency with 'Prompt Fu.' This entry documents the ongoing refinement of the 'master prompt' — the initial interaction designed to onboard a powerful cloud AI into the Pipulate ecosystem. It delves into the practicalities of system installation, the AI's core interface (`pip` object), and the guided discovery process encapsulated in `AI_RUNME.py`, ensuring a robust, explicit, and 'AI-ergonomic' path to collaboration. This is about building a tapestry of understanding, one step at a time.
@@ -1219,3 +1222,5 @@ This journal entry represents a deeply insightful and effective methodology for 
 ### Next Step Prompts
 - Detail the 'Rule of 7' essential tools, providing their precise syntax, expected inputs, and typical outputs, along with a 'best practice' example for each.
 - Develop a 'challenge' prompt for the AI, requiring it to use `AI_RUNME.py`, discover a specific tool, and then execute a task with that tool, reporting its steps and outcome.
+
+{% endraw %}

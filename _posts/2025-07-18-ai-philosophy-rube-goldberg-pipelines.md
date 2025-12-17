@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the heart of the **Pipulate** project, an open-source AI SEO toolkit, but its implications reach far beyond. At its core, this is a live account of flipping a long-standing web development principle on its head to solve a modern problem: how to make AI, especially smaller models running on local machines, genuinely useful. The author grapples with the concept of "graceful degradation," where websites are built to work on less capable browsers by shedding features. Here, that idea is inverted into what the author terms **"willful ascension"** or *progressive enhancement* for AI.
@@ -2304,3 +2307,5 @@ What stands out is the deep empathy for the AI's "cognitive load." The author is
 2.  **Task Suggestion 2:** Draft a "Key Principles" Abstract.
     * **Potential Prompt Snippet for Next AI:** "Based on the full entry, synthesize the author's methodology into a 'Key Principles' list. Create 3-5 bullet points that summarize the core rules for designing the 'Simon Says' pattern and bootstrapping AI tool use."
 
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry details the profound architectural shift in content management, moving from a flat, unwieldy structure to a dynamic, AI-driven hierarchy. It introduces the "Gold Pan" methodology, a strategic approach to surfacing high-value content within a "Rule of 7" link-graph. Readers will gain insight into leveraging market data and performance metrics to build a resilient, SEO-optimized "Forever Machine" and understand the unique challenges and opportunities in collaborating with large language models in complex development.
@@ -2005,3 +2008,5 @@ This entry serves as an exceptional blueprint, essay, and methodology for addres
 ### Next Step Prompts
 - Now that the `graph.json` includes the 'Gold Pan' logic, generate the Jekyll markdown files (`.md`) for the new hub pages (e.g., `/python/`, `/ai/`) that incorporate the direct article links and sub-hub links as per the 'Rule of 7' structure. Ensure the YAML front matter for these hub pages is correctly populated from the `graph.json` node data.
 - Using the `graph.json` output, provide a clear specification or Python script to update the YAML front matter of *existing* article files (the 'leaf nodes') to include their `parentId` and `depth` for breadcrumb trail generation, without altering their existing `permalink` or `title`.
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment in the ongoing exploration of "future-proofing yourself in the Age of AI." What began as a raw technical reflection evolved into a multi-AI dialogue, revealing a powerful blueprint for durable software development. This conversation uncovers the core philosophy behind a methodology that combines reproducible environments, surgical context injection for AIs, and living, self-documenting systems to ensure creative control and longevity in an increasingly AI-driven landscape. It's an interesting read on navigating the 'AI Honeymoon' and building for the long haul.
@@ -1504,3 +1507,5 @@ This entry represents a truly important contribution to the discourse on AI-assi
 ### Next Step Prompts
 - Draft a detailed architectural diagram (ASCII or Mermaid) of the 'Infinite Combo' system, showing data flow and tool interaction, focusing on the integration of Nix, prompt_foo.py, and the demo/testing/video pipeline.
 - Develop a practical, hands-on tutorial for implementing a basic 'context painting' system using `prompt_foo.py` or a similar script, including example prompts and AI responses, suitable for a blog post or book chapter.
+
+{% endraw %}

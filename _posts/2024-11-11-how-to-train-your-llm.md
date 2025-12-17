@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Today’s Mission: Bringing It All Together
 
 Today is the day I bring it all together.
@@ -1175,3 +1178,5 @@ engineering. I use the same document to help coworkers or to give myself
 refreshers. This is crash-course educations in which theoretical learning has no
 line of separation from practical application. This is skill-infusion with
 CliffsNotes. Such is the nature of dragons in the information age.
+
+{% endraw %}

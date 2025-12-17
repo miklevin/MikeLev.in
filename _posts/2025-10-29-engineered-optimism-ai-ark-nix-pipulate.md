@@ -17,6 +17,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the profound shift brought by AI, not as a threat, but as an impetus for a new era of computational sovereignty. It outlines a philosophy of engineered optimism, championing tools like Nix and Pipulate as fundamental components for building a personal 'AI-proof ark.' This article explores how individual agency, supported by accessible technology, can navigate the evolving landscape, challenging traditional power structures and fostering a future where personal control over one's digital existence is paramount.
@@ -511,3 +514,5 @@ This entry is exceptionally rich, serving not just as a technical guide but as a
 ### Next Step Prompts
 - Elaborate on a practical, step-by-step guide for installing Nix and Pipulate, demonstrating the 'write once, run anywhere' principle with a simple project.
 - Develop a chapter outline that expands on the concept of 'computational sovereignty' as a direct counter-narrative to prevalent dystopian AI visions, integrating the themes of technocracy and engineered optimism.
+
+{% endraw %}

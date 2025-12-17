@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 I will not let this be a rabbit hole.
 
 I will make this a chisel strike.
@@ -436,3 +439,5 @@ ChatBot LLM AI to overcome the Dunning-Kruger Effect (DKE) is not enough. Sure,
 it might plant a memetic virus in the heads of millions if it's ever really
 recognized for whiat it is— but a talking frog... ***I mean real Python
 code that does something...*** that's cool.
+
+{% endraw %}

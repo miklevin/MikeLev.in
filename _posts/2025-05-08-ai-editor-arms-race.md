@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding Pipulate Development & AI-Assisted Coding: Getting Started
 
 In the rapidly evolving landscape of AI-assisted development, I find myself at the forefront of an exciting experiment: building Pipulate, a Free and Open Source SEO framework, while leveraging cutting-edge AI tools. This journey has been particularly fascinating as I navigate the intersection of modern web technologies and AI capabilities, using Claude through Cursor AI as my primary coding assistant.
@@ -467,3 +470,5 @@ putting the pressure on myself to get it done now.
 This article provides a valuable and detailed snapshot of a developer's experience integrating advanced AI tools into a niche software development project. Its strength lies in its authenticity and the specific, real-world examples of interactions with AI, particularly Claude via Cursor AI, for coding tasks involving technologies like FastHTML and HTMX. For developers working in similar areas or evaluating these AI tools, the insights into challenges (like AI model confusion) and solutions (like rule systems and "Agent mode") are highly practical.
 
 While its raw, journal-like format makes it dense and jargon-heavy for a general audience, it's a rich source of information for those with the requisite technical background. The discussions around the "AI Editor Arms Race" and the evolving capabilities of AI in code generation and understanding offer a pertinent commentary on current trends in software development. The detailed problem-solving instances, such as refining the plugin menu and handling copied files, showcase the tangible benefits and the learning curve associated with leveraging AI in complex projects.
+
+{% endraw %}

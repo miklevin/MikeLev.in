@@ -20,6 +20,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry serves as a foundational blueprint, charting the crucial shift from a mobile-first to an AI-first web. It's a deep dive into the 'why' behind the urgent need for tools like Pipulate, exposing the 'invisible FUBAR' of current web architecture from an AI's perspective. What began as a 'right-brain' interjection on a video project evolved into a comprehensive treatise, defining the very battlefield for the future of online content and interaction, drawing important parallels to past web transformations. It culminates in a strategic pivot, not just in technology, but in the very methodology of communicating these complex ideas.
@@ -501,3 +504,5 @@ This entry is a pivotal piece, transforming a technical journal into a strategic
 ### Next Step Prompts
 - Draft a follow-up article detailing the 'Band-Aid Methodology' for flattening the AI-first curve, specifically expanding on the 'Rule of 7' for NAV elements and AI-friendly site search implementation, using Pipulate insights.
 - Generate a script outline for the first 'Pip Blip' video, focusing on 'The AI-First Web: Unmasking the Invisible FUBAR,' incorporating key phrases and concepts from this entry, and demonstrating Pipulate's core features.
+
+{% endraw %}

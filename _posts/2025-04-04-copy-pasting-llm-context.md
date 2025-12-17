@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 So you want to prompt an LLM to provide you some coding assistance, but there's a whole git repo of potential context to consider. You may or may not be using Cursor, Windsurf, Cline, Augment or one of the many Web-based UIs like ChatGPT, DeepSeek or Gemini directly. How do you get all that repo code in context? That's an awful lot of copy/pasting!
 
 No worries! You can list those files, can't you? Well if you can list those files, you can shove all their context into a single `foo.txt` file for sending it as an attachment, or just to make copy/pasting the whole thing easier. Plus, we'll add token counting, a manifest system, and customizable templates to help the LLM understand what it's about to receive.
@@ -827,3 +830,5 @@ The user's feedback, particularly the insistence on retaining the human-friendly
 The complete implementation with all features is available in the [prompt_foo.py](https://github.com/miklevin/pipulate/blob/main/prompt_foo.py) script on GitHub. Feel free to fork it and adapt it to your own needs!
 
 
+
+{% endraw %}

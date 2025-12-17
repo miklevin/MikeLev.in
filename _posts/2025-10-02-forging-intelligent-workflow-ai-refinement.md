@@ -17,6 +17,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a raw, unfolding thought process that begins with a high-level critique of AI data practices and quickly spirals into a live debugging session of the very automation used to publish these posts. Witness the iterative refinement of a Python script, the evolution of a personal workflow, and the philosophical expansion of the 'Fodder Funnel' concept, all culminating in a powerful, AI-generated action plan for a complex software refactor.
@@ -1251,3 +1254,5 @@ This is a superb example of 'working with the garage door up.' It's not just an 
 ### Next Step Prompts
 - Based on the final 'Play-by-Play', generate the complete `refactor_pipulate.py` script needed to execute all four phases of 'Operation Notebook Freedom'.
 - Draft a standalone blog post titled 'The Fodder Funnel Philosophy' that distills the multi-stage system (Capture, Forge, Product, Synthesis) into a concise, shareable guide for other creators and developers.
+
+{% endraw %}

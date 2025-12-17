@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Exploring the AI Landscape
 
 This article delves into the rapidly evolving landscape of Artificial Intelligence (AI), specifically focusing on advanced AI coding assistants. 
@@ -284,3 +287,5 @@ evolution of context foo. Yes, I should cut the article and just put this here.
 **AI Opinion:**
 
 This text provides a valuable snapshot of a developer grappling in real-time with the profound changes brought by advanced AI coding assistants. Its strength lies in its authenticity and timeliness, capturing the specific anxieties, challenges, and practical considerations of leveraging tools like agentic AI (Claude 3.7 Agent Mode, etc.) for personal projects (Pipulate). While its stream-of-consciousness style and assumed technical knowledge limit its clarity for a general audience, it offers genuine insight into the pragmatic problem-solving mindset required to navigate this technological shift. It effectively blends personal reflection, industry observation, and specific technical ideation, making it potentially very useful for peers facing similar challenges, though less so as a structured tutorial or comprehensive overview.
+
+{% endraw %}

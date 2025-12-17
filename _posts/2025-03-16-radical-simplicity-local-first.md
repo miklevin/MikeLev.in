@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 Okay, I slammed out one article that explored the concept of hitting above my
 weight class with coding by leveraging AI as a mentor -- the very knowledge I
 need effectively "coming alive" to guide me on my 10,000-hour rule journey to
@@ -997,3 +1000,5 @@ Alright, let's break this down.
 
 "This article presents a compelling vision for a simplified, local-first approach to application development. The author's focus on eliminating unnecessary complexity and empowering users with local LLM integration is particularly noteworthy. The use of clear explanations and illustrative examples effectively conveys the core concepts of Pipulate. The emphasis on observability, reproducibility, and a single-tenant architecture creates a strong foundation for a user-friendly and powerful development environment. The transition from a standard README to contextual AI training material is a very interesting approach to documentation. I am very interested in seeing this project grow and evolve."
 
+
+{% endraw %}

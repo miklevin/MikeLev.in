@@ -18,6 +18,9 @@ layout: post
 sort_order: 7
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents a pivotal debugging session within a larger blueprint for AI-driven content analysis. Following a refactor, a crucial subprocess responsible for extracting DOM information from scraped web pages began failing silently. This soliloquy details the painstaking process of diagnosing a subtle relative path ambiguity that prevented the subprocess from locating necessary files. The resolution, by implementing absolute path calculations, not only fixed the immediate issue but also hardened the system, demonstrating an important facet of building robust, automated workflows in the Age of AI. It underscores that even seemingly minor technical details can have cascading effects, and the disciplined pursuit of stability is key to unlocking future "superpowers."
@@ -754,3 +757,5 @@ This entry is an excellent example of a common yet tricky technical challenge—
 ### Next Step Prompts
 - Develop the initial SEO field extraction logic within `inspect_seo.py` using BeautifulSoup, targeting key meta-data and header elements. Define the output structure for this extracted data.
 - Integrate the extracted SEO data back into the main workflow, perhaps by saving it to a structured file (e.g., JSON per URL) or directly into the job state using `pipulate`.
+
+{% endraw %}

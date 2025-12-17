@@ -20,6 +20,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry is a look under the hood at the author's personal operating system for tackling complex technical work. It reveals a dualistic approach: a 'left-brain' checklist for meticulous execution, and a 'right-brain' compass of metaphors and guiding questions for navigating the strategic uncertainties of any project. It's a thoughtful treatise on how to define success upfront, avoid common pitfalls, and use tools like Jupyter Notebooks as a pragmatic escape hatch from paralyzing complexity.
@@ -387,3 +390,5 @@ This journal entry is a valuable piece of 'meta-work' that provides a rare look 
 ### Next Step Prompts
 - Based on this entry, create a visual infographic (e.g., using Mermaid.js syntax) that illustrates the relationship between the '4 Questions' and the '3 Metaphors,' highlighting the 'sandwiching' principle.
 - Write a short, standalone blog post titled 'Rabbit Hole Rappelling: A Developer's Guide to Escaping Complexity' that expands on the metaphor and provides three practical tips for implementing this escape routine in a software project.
+
+{% endraw %}

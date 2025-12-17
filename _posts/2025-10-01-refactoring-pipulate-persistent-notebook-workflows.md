@@ -17,6 +17,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a live working session between myself and a large language model, Gemini. The subject is a significant architectural pivot for my software project, Pipulate. My goal is to embed its core principle—a simple, linear, and persistent workflow—directly into the familiar environment of Jupyter Notebooks. I'm not just asking for code; I'm providing a vision, a target user experience, and a strict methodology for a safe, deterministic refactoring process using Abstract Syntax Tree (AST) validation. The AI's response isn't just a suggestion; it's a comprehensive, multi-phase implementation blueprint that serves as the direct path forward for the project.
@@ -1031,3 +1034,5 @@ This entry is an exceptional artifact of modern software development, capturing 
 ### Next Step Prompts
 - Based on the implementation plan in Phase 1 and 2, generate the Python script `refactor_pipulate.py` that uses the provided `CodeRefactorer` class to apply the specified changes to `pipulate/core.py` and `pipulate/__init__.py` using the designated sentinel blocks.
 - Write a follow-up journal entry from the perspective of the author after attempting to implement the AI's refactoring plan. Detail what worked, what challenges were encountered (e.g., sentinel block names not existing), and how the `CodeRefactorer` class with AST validation prevented potential bugs.
+
+{% endraw %}

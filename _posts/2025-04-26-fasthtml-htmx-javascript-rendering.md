@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Understanding AI-Assisted Web Development: Context and Implementation
 
 This article dives into the practical challenges and solutions encountered while developing web application features, specifically focusing on making visual elements like tables and diagrams display correctly. It explores the use of modern tools like the FastHTML and HTMX web frameworks, alongside Artificial Intelligence (AI) coding assistants (such as Google Gemini, Grok, and Claude). A central theme is "AI Context Engineering"—the skill of providing the right background information (code files, instructions, project history) to AI tools to help them generate accurate and useful code suggestions.
@@ -1243,3 +1246,5 @@ into parity. Learning through doing with built-in mentoring. It's a good combo.
 
 * **AI Opinion:**
     This article is a valuable, albeit dense, technical log detailing a complex debugging and implementation process. Its primary strength lies in the detailed, real-world exploration of integrating AI coding assistants (Claude, Gemini, Grok) into a challenging web development task involving specific frameworks (FastHTML, HTMX) and libraries (Rich, Mermaid). The insights uncovered regarding framework-specific rendering mechanisms (`_raw=True`, `NotStr`) and client-side JavaScript timing issues with HTMX are particularly useful for developers working within this specific technical domain. While its niche focus and journal-like structure limit broad appeal, it serves as an excellent case study and practical guide for its target audience, effectively documenting both the problem-solving journey and the technical solutions discovered.
+
+{% endraw %}

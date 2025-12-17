@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This technical journal entry captures a developer's pivotal transition from GUI-based code searching to mastering powerful command-line tools. The dialogue revolves around replacing the "fuzzy search" capabilities of editors like VSCode with more robust and efficient terminal commands for a project named Pipulate. It begins with the simple need to find file references, a task fundamental to any refactoring effort, and quickly evolves into a deeper exploration of `grep`, `git grep`, and the modern, high-performance `ripgrep` (`rg`). The entry serves as a practical, step-by-step guide, documenting not just the solutions but the common pitfalls and refinements a developer encounters along the way.
@@ -762,3 +765,5 @@ by abiding by the `.gitignore` file.
     2.  **Task Suggestion 2:** Draft a "Key Takeaways" Section
         * **Potential Prompt Snippet for Next AI:** "From the provided technical journal entry, distill and draft a 'Key Takeaways' section in Markdown. Include 3-5 bullet points summarizing the most critical lessons learned about command-line tools, debugging aliases, and refactoring workflows."
 
+
+{% endraw %}

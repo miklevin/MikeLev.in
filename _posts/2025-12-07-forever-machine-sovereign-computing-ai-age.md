@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome to the 'Immunology Report of the Silicon Age,' a deep dive into the evolution of personal computing from chaotic vulnerability to a future of digital sovereignty. This blueprint, the 'Forever Machine,' explores how historical challenges—from early Lisp machines to the Amiga's heartbreaking obsolescence—forged a path toward resilient, portable, and truly owned digital identities. We chart the silent victory of Unix/Linux, the rise of declarative systems like NixOS, and the advent of a computing philosophy that ensures your digital life is not just a temporary rental, but an eternal possession, impervious to hardware failures and software churn, ready for the Age of AI.
@@ -700,3 +703,5 @@ This entry is a masterclass in weaving complex technical history with a compelli
 ### Next Step Prompts
 - Generate a short, engaging 'call to action' section for the end of the article, encouraging readers to explore NixOS and start building their own 'Forever Machine' using Pipulate as a foundational example.
 - Create an accompanying FAQ section that anticipates common mainstream questions about NixOS, declarative systems, and the practical implementation of the 'Forever Machine' concept.
+
+{% endraw %}

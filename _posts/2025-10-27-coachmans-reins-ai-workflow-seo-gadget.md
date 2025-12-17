@@ -16,6 +16,9 @@ layout: post
 sort_order: 8
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This article dives into the practicalities of evolving an automated AI-driven web scraping and data extraction system. It explores the delicate balance between creative exploration and focused execution, emphasizing strategic naming, technical consolidation, and a pragmatic development methodology that moves from rapid prototyping to robust, reusable components. Key insights include the human role as "coachman" guiding AI, the importance of incremental wins, and the systematic reduction of technical debt.
@@ -877,3 +880,5 @@ This entry is an important example of an AI acting as a co-architect and strateg
 ### Next Step Prompts
 - Draft the detailed implementation plan for enriching `seo_gadget.py` to extract all specified YAML front matter fields (meta title, description, H1s, canonicals) using Beautiful Soup, and integrate Markdownify for the body content, including handling potential edge cases.
 - Generate a comparative analysis of `Markdownify`, `html2text`, and `Pandoc` for HTML-to-Markdown conversion, highlighting their pros, cons, and suitability for technical web scraping applications, to inform the final tool selection for `seo_gadget.py`.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding Git for Website Recovery: A Practical Example**
 
 This article delves into a common challenge faced by website owners and developers: troubleshooting unexpected negative impacts after making changes. Specifically, it focuses on a website built using Jekyll, a popular tool for creating static websites (sites made of pre-built HTML files), often used for blogs hosted on platforms like GitHub Pages. When website performance, like visitor traffic, suddenly decreases after updates, pinpointing the exact cause and fixing it without losing valuable new content can be tricky.
@@ -624,3 +627,5 @@ that blog tagging and categorization project.
 
 * **AI Opinion:**
     This article offers significant value as a practical case study and mini-tutorial for intermediate-to-advanced Git users, particularly those working with static site generators like Jekyll. It clearly demonstrates a precise and useful Git workflow for targeted rollbacks, a common need in development. While its journal-like format and reliance on specific context might make it less accessible to absolute beginners, the detailed commands and explanations are highly useful for its likely technical audience. The inclusion of the AI interaction effectively showcases modern development assistance workflows. Its primary weakness is the lack of closure regarding the traffic recovery after the implemented fix.
+
+{% endraw %}

@@ -18,6 +18,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores the profound implications of AI's commoditization, examining how Google's strategic price-dumping reshapes our approach to workflow, personal sovereignty, and the very nature of intelligence. It's a pragmatic blueprint for leveraging frontier models alongside local AI, transforming the "Vigilant Hare" into a master of their digital domain, ready to navigate the "Great Squeezing" by building truly "AI-ready" systems and content.
@@ -1024,3 +1027,5 @@ This article masterfully articulates a compelling vision for leveraging the new 
 ### Next Step Prompts
 - Draft the Python code stub for the `apps/500_ai_readiness_audit.py` including the UI elements and the backend logic for the 5 baseline checks, integrating `pip.scrape` and the AI tool-call for search form identification.
 - Develop a detailed 'Experiential Checklist' focused on the 'Editorial Publisher' persona for auditing a Shopify homepage, including specific questions for visual layout, content, navigation, and 'latent intent' identification.
+
+{% endraw %}

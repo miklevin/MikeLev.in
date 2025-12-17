@@ -20,6 +20,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures an important moment in the author's development of Pipulate, moving from philosophical contemplation to concrete, AI-first engineering. It explores the \"fractal unfurling\" of intelligence, Pipulate's role in democratizing complex workflows (like data-driven video editing), and challenges established paradigms like Docker and \"Peak Data Theory.\" This piece serves as a foundational treatise on an AI-first way, blending deep thought with actionable steps, showcasing how the \"right-brain will-o-the-wisp\" transforms into \"left-brain chisel-strike execution\" important to know in the Age of AI.
@@ -826,3 +829,5 @@ This entry is a brilliant synthesis of high-level philosophical thought and gran
 ### Next Step Prompts
 - Generate a detailed, user-facing tutorial markdown for `VIDeditor.ipynb`, explaining the `MoviePy` concatenation process, file structure, and Nix environment setup for Pipulate users.
 - Develop a conceptual framework document explaining the \"Articulate Ape Theory\" in detail, drawing connections to cognitive science, evolutionary psychology, and its application in AI-first system design within Pipulate.
+
+{% endraw %}

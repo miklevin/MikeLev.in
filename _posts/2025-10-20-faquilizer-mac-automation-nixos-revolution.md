@@ -21,6 +21,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a moment of both philosophical reflection and pragmatic technical challenge. It chronicles the author's journey to establish "off-cloud" digital sovereignty for AI-assisted SEO workflows, exemplified by the FAQuilizer project. We delve into the intentionality behind whimsical naming conventions, contrast corporate AI infrastructure with the foundational bedrock of Free and Open Source Software (FOSS), and ultimately reveal how cutting-edge reproducibility platforms like NixOS are key to liberating developers from vendor lock-in and "it doesn't work on my machine" woes. The entry culminates in the immediate, practical hurdle of making stealth browser automation run reliably on macOS, setting the stage for future technical deep dives.
@@ -549,3 +552,5 @@ This journal entry is a magnificent tapestry woven from personal ambition, deep 
 ### Next Step Prompts
 - Generate a detailed technical diagnostic plan for troubleshooting `selenium-stealth` browser automation issues specifically on macOS, including potential causes related to `chromedriver` versions, browser paths, and Apple's security settings.
 - Draft an introductory section for a 'Nix/Guix for AI SEO' guide, explaining the core benefits of reproducible environments for AI development, particularly for bespoke, off-cloud solutions.
+
+{% endraw %}

@@ -16,6 +16,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 
 ## Setting the Stage: Context for the Curious Book Reader
 
@@ -3638,3 +3641,5 @@ This article captures a critical evolution in AI-assisted development paradigms.
 - Develop a companion script or an extension to `prompt_foo.py` that allows dynamic, conversational 'slicing' of historical articles based on user queries, using the current chronological context as a base.
 - Draft a proposal for integrating this 'narrative time machine' concept into a broader AI development framework, outlining API design, user experience, and potential impact on developer productivity.
 
+
+{% endraw %}

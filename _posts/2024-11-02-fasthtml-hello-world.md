@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 FastHTML is not FastAPI and your AI coding assistants will need frequent
 reminding. There is no template language but Python function names. See...
 
@@ -107,3 +110,5 @@ So what you've seen so far is basically Flask without the jinja2 templates. Cool
 enough. Getting templates out of your life is reason enough to take up FastHTML.
 
 
+
+{% endraw %}

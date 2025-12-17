@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment of strategic reflection before diving into a hands-on technical task: exploring the Gemini Command Line Interface (CLI). The author uses this "motivational ramp-up" to survey the broader landscape of modern AI, framing their personal project, Pipulate, within a larger struggle for developer autonomy. The core tension explored is the battle between relying on massive, centralized AI services from tech giants—a form of **exosymbiosis** where developers are absorbed into corporate ecosystems—and fostering personal, localized AI tools, an **endosymbiosis** where AI becomes an internalized, controllable partner.
@@ -458,3 +461,5 @@ The raw, stream-of-consciousness style is a significant asset. When curated with
 2.  **Task Suggestion 2:** Draft an Actionable Summary
     * **Potential Prompt Snippet for Next AI:** "Analyze the author's strategic conclusions in the text. Generate a bulleted list of 5 actionable 'Rules of Thumb' for developers to maintain their autonomy and avoid AI vendor lock-in. Each rule should be a concise, imperative statement derived from the entry's core arguments."
 
+
+{% endraw %}

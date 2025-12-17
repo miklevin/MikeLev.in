@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Context for the Curious Book Reader: This entry captures the essence of a modern developer's late-night coding session. It's a raw, unfiltered look at the non-linear process of debugging, where fixing one problem begins with a detour to refactor another. More importantly, it showcases the complex dance of collaborating with an AI coding assistant—celebrating its moments of brilliance in tasks like unearthing deleted files from git history, while also navigating its frustrating limitations and learning to extract value even from its failures.
@@ -1418,3 +1421,5 @@ This entry is a perfect microcosm of the current state of AI-assisted software d
 ### Next Step Prompts
 - Using the final `BlockingIOError` traceback from this entry, draft a prompt for an AI assistant to analyze the error in the context of the `rich` library and potential conflicts with non-blocking I/O in a web server environment.
 - Draft a standalone tutorial titled 'How to Resurrect Deleted Files with Git Log and Checkout', using the successful interaction and commands from this journal entry as the core example.
+
+{% endraw %}

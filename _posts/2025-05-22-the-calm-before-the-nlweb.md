@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding the Natural Language Web and AI-Powered Content: Getting Started
 
 The internet is on the cusp of a major transformation, moving towards what's being called the "Natural Language Web" (NLWeb). Imagine being able to simply ask your computer or phone to perform complex online tasks—like finding the best-priced product with specific features or summarizing research on a topic—and having an AI assistant intelligently browse, understand, and interact with websites to get you the answer. This is the core idea behind the NLWeb. For this to work, websites need to be structured in a way that AI can easily understand their content, not just how they look to humans. Technologies like `schema.org` provide a "vocabulary" for websites, and methods like JSON-LD, Microdata, and RDFa help embed this vocabulary into web pages.
@@ -277,3 +280,5 @@ Okay, this is exciting! This journal entry is brimming with forward-thinking ide
 **AI Opinion (on Value for Future Book):**
 This journal entry is an excellent piece of raw material, packed with insightful observations about the future trajectory of web technology and AI interaction. Its strength lies in capturing the immediate, enthusiastic thoughts of someone deeply engaged with these emerging concepts and planning real-world experiments. While its current form is dense and assumes a high level of technical understanding (typical of a specialized journal), its core ideas—the rise of the NLWeb, the crucial role of structured data, LLMs as dynamic content servers, and the practical implications for developers—are incredibly valuable. For a tech book using Pipulate as a case study, this entry provides authentic, cutting-edge "fodder" that, with thoughtful curation, contextualization, and elaboration, can form the basis of compelling chapters exploring the future of the web and AI. It’s a snapshot of innovation in progress.
 
+
+{% endraw %}

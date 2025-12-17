@@ -20,6 +20,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry marks a pivotal moment in the author's journey, capturing a profound sense of empowerment unlocked by AI. It's a deeply personal reflection that weaves together decades of experience in technology and design, from the early days of the Graphics Artists Guild to the modern realities of subscription-based software. The author channels the rebellious, self-sufficient spirit of the Unix pioneers to forge a new path forward, one that rejects corporate 'handcuffs' in favor of the freedom and raw power of the command line. More than just a technical diary, this is a philosophical exploration of the 'Cathedral and the Bazaar' model of development, culminating in the creation of Pipulate—a unique, 'AI-ergonomic' system designed not just to be open-source, but to be an active collaborator with an AI partner. It's a story about turning abstract ideas into concrete reality and defining the terms of a new, more productive relationship between human and machine.
@@ -699,3 +702,5 @@ This is an exceptional entry that operates on multiple levels. It is simultaneou
 ### Next Step Prompts
 - Analyze the `server.py` and `040_hello_workflow.py` files to extract and explain the 'WET' (Write Everything Twice) philosophy mentioned in the code's comments, and draft a new section for the article that elaborates on why this Bazaar-like tradeoff is a deliberate and powerful choice for building flexible, AI-editable workflows.
 - Based on the concept of an 'AI-ergonomic system', review `prompt_foo.py` and the `FINDER_TOKEN` system in `server_logging.py` to draft a technical section explaining how these components create a 'radically transparent' environment designed for AI collaboration, and suggest how this could be a new standard for developing AI-native applications.
+
+{% endraw %}

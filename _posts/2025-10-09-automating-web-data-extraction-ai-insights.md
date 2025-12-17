@@ -16,6 +16,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry outlines the critical transition from theoretical concepts to a concrete implementation plan for our AI-powered content enrichment system. It details the precise methods for extracting key SEO data from web crawls, establishing a resilient caching layer, and leveraging AI to generate structured insights, all while maintaining transparency through intermediate data outputs.
@@ -3647,3 +3650,5 @@ This journal entry provides an excellent technical blueprint for an AI-powered w
 ### Next Step Prompts
 - Develop the data transformation logic (e.g., using Pandas pivot operations) to convert the flat AI insights log into a wide, user-friendly Excel format, suitable for direct analysis, incorporating alternating row shading for improved readability.
 - Explore and integrate more resilient web scraping technologies (e.g., Selenium/Playwright) into the `cache_url_responses` function, designing a pluggable architecture to handle dynamic, JavaScript-heavy, or anti-bot protected websites without affecting downstream processes.
+
+{% endraw %}

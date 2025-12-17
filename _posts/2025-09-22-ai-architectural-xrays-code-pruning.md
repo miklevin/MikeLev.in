@@ -17,6 +17,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the world of software development, especially when working with AI assistants, the context provided is paramount. This journal entry documents the intricate, and often frustrating, journey of building a tool to automatically generate architectural diagrams of a Python codebase. The goal was to feed this rich context—a file tree, a dependency graph, and a visual UML diagram—to an AI to help intelligently prune an aging and complex repository. What started as a simple idea spiraled into a multi-step debugging process involving esoteric details of Nix environments, Python package management, and the nuances of command-line tool integration. This is the story of that process, a testament to the perseverance required to build robust, automated developer workflows.
@@ -1391,3 +1394,5 @@ This is a premium technical blog post. It's not just a 'how-to'; it's a 'how-we-
 ### Next Step Prompts
 - You are a DevOps engineer. Based on the successful creation of the automated context generator in the provided article, write a new Python script that consumes the final XML output, parses the 'pruning analysis' from the AI's response, and stages `git rm` commands for the files identified as 'High Confidence' orphans for manual review.
 - Write a new section for the article titled 'Beyond Code: Finding Orphaned Assets.' Using the context provided, detail a strategy using `ripgrep` and Python scripting to cross-reference the list of SVG files in `assets/feather/` against their usage in the entire codebase (Python files, JS, HTML) to identify unused icons.
+
+{% endraw %}

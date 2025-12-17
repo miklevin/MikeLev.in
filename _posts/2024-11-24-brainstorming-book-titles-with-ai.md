@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Okay, let's whip up a book outline that's both informative and engaging. I'm thinking a blend of technical depth and personal narrative, something that resonates with both the mind and the heart. Here's a possible structure:
 
 **Part 1: The localhost Way**
@@ -852,3 +855,5 @@ This expanded outline incorporates a broader theme of questioning everything and
 
 All right, all right. I get it. It's time for a MikeLev.in homepage update.
 Done.
+
+{% endraw %}

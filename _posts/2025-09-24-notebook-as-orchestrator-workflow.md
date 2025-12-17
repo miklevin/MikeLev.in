@@ -19,6 +19,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry details a powerful development pattern that blends the interactive, step-by-step nature of Jupyter Notebooks with the robustness of modular Python code. The author lays out a philosophy for 'working smarter,' using notebooks as high-level orchestrators that call functions from separate `.py` files. This approach is presented as a solution for improving developer productivity, avoiding common pitfalls, and creating a more effective collaboration workflow with AI coding assistants.
@@ -437,3 +440,5 @@ This entry is a superb articulation of a modern, expert-level development workfl
 ### Next Step Prompts
 - Create a project template directory structure that implements the 'Notebook as Orchestrator' pattern, including a sample `module.py` and an `orchestrator.ipynb` file that correctly imports and uses the module's functions.
 - Write a short, standalone tutorial titled '3 Reasons to Stop Putting All Your Code in Jupyter Notebooks,' using the arguments from this entry to explain the benefits of modularity for testing, reusability, and AI collaboration.
+
+{% endraw %}

@@ -19,6 +19,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a real-time coding session focused on a core principle of sustainable software development: reducing the surface area of monolithic files. I walk through my thought process, starting with a philosophical dive into why simpler web frameworks like FastHTML are preferable to their more complex, JSON-heavy counterparts like FastAPI. The main event is the step-by-step refactoring of Pipulate's `server.py`. I methodically externalize logging and display functions into a dedicated `imports/server_logging.py` module, using namespacing and careful, tool-assisted edits in Vim to ensure a clean transition. It's a practical look at how iterative cleanup, guided by a clear philosophy, leads to more maintainable and understandable code.
@@ -513,3 +516,5 @@ This is a high-value entry that perfectly blends technical tutorial with archite
 ### Next Step Prompts
 - Analyze the refactored `server.py` and the new `imports/server_logging.py` to identify the next most logical group of functions to externalize, focusing on database interaction or plugin management.
 - Draft a new journal entry that takes the concept of 'reducing surface area' and applies it to the project's frontend, discussing the move from complex JavaScript to HTMX-driven interactions.
+
+{% endraw %}

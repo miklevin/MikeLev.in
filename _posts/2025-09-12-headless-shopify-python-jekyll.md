@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This exploration documents a real-time, collaborative dialogue aimed at building a headless e-commerce storefront using Shopify's most basic plan. The project deliberately sidesteps the dominant, JavaScript-heavy frameworks like React or Next.js, which are typically considered standard for such tasks. Instead, it charts a "road less traveled," opting for a custom-built solution powered by Python and the classic static site generator, Jekyll. This approach is driven by a developer philosophy that prioritizes direct control, simplicity, and a deep understanding of the entire technology stack.
@@ -1456,3 +1459,5 @@ In a book, the raw, conversational nature of this entry should be curated but no
     * **Potential Prompt Snippet for Next AI:** "Based on the full dialogue and the provided outline, draft a 'Key Takeaways' section for the end of the chapter. Structure it with 3-5 bullet points, each summarizing a critical lesson learned, from the initial technical trade-offs to the final philosophical conclusions."
 
 
+
+{% endraw %}

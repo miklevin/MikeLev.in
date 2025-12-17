@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores the next frontier of AI collaboration: creating a persistent, evolving intelligence. Having already established a framework called **Pipulate** that gives AI a "body" to interact with the world, the author now confronts a deeper question: How does an AI truly learn and grow beyond a single session? The dialogue dismisses temporary application state—likened to simple "server-cookies"—as insufficient for genuine AI development, arguing that it doesn't contribute to the AI's long-term memory or personality.
@@ -590,3 +593,5 @@ For a book, this entry is the perfect anchor for a chapter on **"The Philosophy 
 
 2.  **Task Suggestion 2:** Generate a visual metaphor for the new memory system.
     * **Potential Prompt Snippet for Next AI:** "Create a simple concept diagram for a book chapter. The diagram should show a 'Message in a Bottle' labeled `keychain_set` being put into the 'Ocean of Time' (the persistent `ai_keychain.db`). A future AI instance should be shown on a shore finding the bottle, labeled `keychain_get`, illustrating the concept of passing knowledge forward."
+
+{% endraw %}

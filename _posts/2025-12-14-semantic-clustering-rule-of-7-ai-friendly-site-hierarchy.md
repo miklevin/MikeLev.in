@@ -17,6 +17,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this installment of the 'Forever Machine' blueprint, we shift our focus from individual components to their grand orchestration. Having established the foundation of sovereign computing with NixOS, Python, and Vim-Git (LPvg), we now address the crucial challenge of making a vast body of technical knowledge, like the MikeLev.in blog, not just accessible, but intuitively navigable for both human and AI agents. This essay details the philosophical and technical journey of transforming a 'content stew' into a dynamically organized, 'Rule of 7' compliant website hierarchy, ensuring durable craftsmanship in the Age of AI.
@@ -1462,3 +1465,5 @@ This article documents a pivotal 'Dayton Moment' in content architecture: the su
 ### Next Step Prompts
 - Draft the `generate_pages.py` script that walks the `graph.json` tree and creates Jekyll Markdown/HTML files for hub and article pages, including semantic blurbs and navigation links.
 - Develop the differential labeling algorithm for `get_cluster_label` within `build_hierarchy.py` to ensure unique and specific hub names based on distinguishing keywords from their parent clusters.
+
+{% endraw %}

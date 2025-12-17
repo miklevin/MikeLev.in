@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding Nix Flakes for Multi-Platform Development Basics
 
 This multi-platform stuff is epic. I've greated 2 massive Nix Flakes, each of
@@ -555,3 +558,5 @@ And now with optional Nvidia CUDA GPU acceleration support:
       });
 }
 ```
+
+{% endraw %}

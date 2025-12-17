@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding Web Development Workflows with AI
 
 This article delves into the practical aspects of modern web development, showcasing how interactive components, often called "widgets," are built and refined. The author uses a combination of technologies including Python for the backend logic, libraries like FastHTML and HTMX to create dynamic user interfaces efficiently, and JavaScript libraries like Prism.js for features such as displaying formatted code snippets. A key theme is the integration of Artificial Intelligence (AI) coding assistants (like Claude and Gemini) directly into the development workflow, not just for writing code, but also for planning implementation steps and documenting the process.
@@ -973,3 +976,5 @@ The consistent implementation patterns, improved error handling, and attention t
 
 * **AI Opinion:**
     This article offers significant value as a detailed technical log capturing a specific software development session focused on web widget implementation using Python, FastHTML, HTMX, and AI assistance. Its strength lies in the practical code examples and the authentic portrayal of integrating AI tools (Claude, Gemini) into the workflow for planning, coding, and documentation. While its clarity is high for readers familiar with the specific technologies and the project's context, the mix of personal reflection, philosophical tangents, and raw dialogue format makes it less accessible to a general audience without significant editing. It serves as excellent source material for a more structured tutorial or case study on modern, AI-assisted web development practices.
+
+{% endraw %}

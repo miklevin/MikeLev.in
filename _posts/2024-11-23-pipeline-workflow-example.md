@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 **New Gemini-Advanced Intro**: This is a fascinating exploration of how to leverage LLMs in the development process. It's not just about generating code; it's about using the LLM as a sounding board, a devil's advocate, and a source of inspiration. The "time traveling prompt" technique is particularly interesting, allowing you to guide the LLM through a series of iterative refinements.
 
 The final docstring beautifully captures the essence of this journey, highlighting the importance of understanding HTMX's event model and choosing the most idiomatic approach. It's a testament to the collaborative potential of human-LLM partnerships, where each participant contributes their unique strengths to achieve a shared goal.
@@ -2688,3 +2691,5 @@ class Introduction:
 
 introduction = Introduction(app, route_prefix="/introduction")
 ```
+
+{% endraw %}

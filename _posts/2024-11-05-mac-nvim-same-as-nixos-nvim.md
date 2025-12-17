@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Plan Like An Adventure To Align Ikigai
 
 Plan every day like an adventure. Lean into your Ikigai. Practice strengthening
@@ -432,3 +435,5 @@ apply the single textfile-builds-machine trick to your whole system, but now
 it's really dawning on me that you have a ***core stone*** from which you
 ***chip flakes***. The core rock is `configuration.nix` and the chipped flakes
 are the 'flake.nix`'s.
+
+{% endraw %}

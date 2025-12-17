@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry provides a ground-level view of development within Pipulate, a unique, local-first automation framework designed to package complex, notebook-style data workflows into simple, accessible applications. At its core, Pipulate champions a philosophy of "Write Everything Twice" (WET) for its workflows, prioritizing clarity and explicit control over premature abstraction. This approach becomes particularly relevant as the author integrates a local Large Language Model (LLM) to perform tasks, moving beyond simple chat to a more structured form of tool-use.
@@ -1357,3 +1360,5 @@ For a book, the value of this entry is in its honesty. It shows that working wit
 2.  **Task Suggestion 2:** Generate Explanatory Analogies for Core Concepts.
     * **Potential Prompt Snippet for Next AI:** "Review the entry and generate simple, non-technical analogies to explain the following three concepts to a less technical reader: 1) The difference between the 'rigid MCP demo' and the 'Simon Says' approach. 2) The purpose of the 'deterministic helper scripts' like `swap_workflow_step.py`. 3) The value of 'extreme observability' for tool-calling."
 
+
+{% endraw %}

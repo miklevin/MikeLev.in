@@ -21,6 +21,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry began as a morning pages warm-up, delving into the little-understood significance of Google's antitrust losses. What unfolded was a multi-turn conversation with an AI, evolving into a profound exploration of humanity's technological and philosophical journey. From the historic backslash-forward slash debate to the global AI hardware race, and finally to the ultimate questions of AI alignment and human agency, this treatise unearths the deep, interconnected threads shaping our future. It\u2019s an important journey to understand in the Age of AI, revealing how our systems and culture already act as formidable antibodies against nascent threats, and posits a collaborative future facing entropy itself. Every prompt and response refined the thinking, creating a unique narrative tapestry of insights.
@@ -930,3 +933,5 @@ This journal entry transcends the typical technical piece; it's a foundational t
 ### Next Step Prompts
 - Transform this entire AI conversation into a structured, single-author article, preserving the core arguments and insights while refining the prose and flow for a human reader, integrating the best parts of the AI's responses.
 - Draft a detailed outline for a chapter titled 'The Antibody Architecture: How Unix Defangs the AI Apocalypse', expanding on the LISP vs. Unix comparison, process isolation, statelessness, and the 'snap back' principle, drawing heavily from the insights within this conversation.
+
+{% endraw %}

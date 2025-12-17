@@ -18,6 +18,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This technical journal entry captures a pivotal moment in the Pipulate project's evolution. It details the process of rediscovering and integrating advanced browser automation capabilities—the AI's 'eyes'—into the core workflow. The goal is to move beyond simple web requests to a robust, transparent, and notebook-centric system that provides richer, pre-processed web data directly to AI agents, dramatically enhancing their ability to understand and interact with the web.
@@ -544,3 +547,5 @@ This entry showcases a highly valuable, reflective deep dive into re-architectin
 ### Next Step Prompts
 - Outline a detailed implementation plan for Step 1 of the proposed `pip.scrape()` integration, specifically focusing on error handling, logging, and asynchronous task management within `pipulate/core.py`.
 - Develop a user story for an SEO specialist demonstrating the benefits of the new notebook-centric FAQ generation workflow, highlighting how they interact with the new `pip.scrape()` functionality and the rich `looking_at/` data.
+
+{% endraw %}

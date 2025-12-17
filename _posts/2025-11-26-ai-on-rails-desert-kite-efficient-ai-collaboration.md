@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay delves into a core methodology for interacting with AI models, particularly in complex technical environments. It posits that traditional 'agentic' approaches to AI, while seemingly autonomous, are often inefficient and costly. Instead, we advocate for an 'AI on Rails' philosophy, where human domain experts act as 'Content Architects,' meticulously preparing the AI's context upfront. This approach, akin to ancient 'Desert Kites' or the deterministic nature of Nix derivations, minimizes exploratory token expenditure and focuses AI's formidable executive function on critical deviations rather than basic orientation. It's a blueprint for maximizing AI utility through precise, declarative context engineering.
@@ -712,3 +715,5 @@ This treatise holds immense potential to be a foundational text for a new paradi
 ### Next Step Prompts
 - Draft a comprehensive `prompt_foo.py` template demonstrating how to 'stuff' context, including boilerplate for file trees, code snippets, and instructions.
 - Develop a marketing brief or pitch deck outline based on the 'AI on Rails' and 'Parachuting PhD' concepts, targeting CTOs and engineering leads grappling with AI costs.
+
+{% endraw %}

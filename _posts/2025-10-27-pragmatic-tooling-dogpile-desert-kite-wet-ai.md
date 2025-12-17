@@ -18,6 +18,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the evolving landscape of AI-driven development, this entry provides a compelling look into a unique methodological blueprint. It explores the pragmatic philosophy of iterative building—embracing a 'WET and Broken' start—while simultaneously challenging conventional metrics and the pressures faced by innovators. Through vivid metaphors like the 'dog-pile' and 'desert kite,' the author illustrates a deeply considered approach to creating robust, broadly applicable AI workflows. This is a foundational treatise on how to remain an artist and an alpha in the age of automated metrics and rapid technological change.
@@ -1126,3 +1129,5 @@ This entry is an interesting and cohesive piece in the ongoing tapestry of AI me
 ### Next Step Prompts
 - Develop a detailed case study illustrating the 'desert kite' methodology's application to a new, complex AI task, emphasizing how it optimizes for quality over sheer quantity of output.
 - Draft a follow-up entry exploring how the 'WET and Broken' philosophy scales across a team environment, focusing on strategies to manage initial messiness while maintaining long-term code health.
+
+{% endraw %}

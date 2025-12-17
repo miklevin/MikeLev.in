@@ -20,6 +20,9 @@ layout: post
 sort_order: 9
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry documents the iterative development of `pip.nbup()`, a crucial function designed to streamline the Jupyter Notebook workflow. It details how to automatically synchronize notebooks from a live working directory to a Git-managed template repository, addressing complex pathing challenges and implementing a novel auto-pruning mechanism to prevent unwanted commands from contaminating the version-controlled source. This solution transforms a potentially high-friction task into a seamless, 'fire-and-forget' part of a robust literate programming environment.
@@ -539,3 +542,5 @@ This entry is a stellar example of technical problem-solving and AI-human co-cre
 ### Next Step Prompts
 - Draft a blog post explaining the `pip.nbup()` function for a general developer audience, focusing on the problem it solves and its benefits, using the 'Digital Corpus Callosum' metaphor.
 - Generate code examples demonstrating how `pip.nbup()` would be used in a typical Jupyter Notebook, including instructions for adding it to a `pipulate` project.
+
+{% endraw %}

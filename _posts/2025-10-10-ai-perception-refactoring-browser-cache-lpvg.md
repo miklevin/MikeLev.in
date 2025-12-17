@@ -22,6 +22,9 @@ layout: post
 sort_order: 8
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This technical journal entry captures a crucial development session focused on refactoring Pipulate's browser automation system. It weaves together insights on the predictable rhythms of AI technological advancement, the philosophy of building durable, vendor-agnostic tooling, and the practical application of these ideas through a targeted codebase rename. Readers will find a blend of high-level strategic thinking on AI co-evolution and hands-on command-line techniques for maintaining a robust, future-proof codebase.
@@ -1494,3 +1497,5 @@ This entry serves as an exemplary case study on navigating the evolving landscap
 ### Next Step Prompts
 - Expand on the 'AI on Rails' concept, specifically detailing how Pipulate implements guardrails for AI-driven processes, linking back to the 'Disneyification of AI' theme.
 - Develop a companion piece focusing on how to integrate new AI model capabilities (e.g., from Gemini 2.5 to 3.0) into an existing LPvg-based tooling system, demonstrating the 'tooling-for-today' principle in action.
+
+{% endraw %}

@@ -21,6 +21,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal debugging session, illustrating a deep collaboration between human developer and AI assistant. It delves into the granular, iterative process of resolving a complex `async`/`await` `TypeError` in Python, highlighting the value of resilient tooling like `ai_edit.py` with its AST validation. Beyond the technical fix, the narrative weaves in reflections on 'Computing Sovereignty,' the 'WET' philosophy (Write Everything Twice/Explicitly), and the author's unique, keyboard-driven workflow. It's a candid look at how AI serves as an 'endosymbiont' in the daily grind of crafting robust, future-proof software.
@@ -2399,3 +2402,5 @@ This journal entry is a compelling case study of advanced human-AI collaboration
 ### Next Step Prompts
 - Given the resolved `TypeError` and `async`/`await` issues, document the full, verified `pipulate.scrape()` and `browser_scrape_page()` code, explaining the final correct implementation and how it addresses all previous errors.
 - Reflect on the `r` prefix bug and the AST validator's role. Propose an enhancement to `ai_edit.py` that can detect and prevent such raw string prefix issues in future patch generations, ensuring even more robust prompt contracts.
+
+{% endraw %}

@@ -16,6 +16,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles a particularly exasperating, yet ultimately enlightening, debugging journey into the heart of NixOS development environments. What began as a stubborn `No module named nbstripout` error during a `git diff` operation on Jupyter Notebooks quickly escalated into a multi-pronged investigation involving virtual environments, intricate Nix flake configurations, and even deep-dive AI research agents. Join us as we navigate the perplexing "battle of the Pythons" and the nuances of Git's text conversion filters, culminating in a deceptively simple command-line flag that finally brought peace to the repository.
@@ -2764,3 +2767,5 @@ This entry is a goldmine for anyone working with Nix, Python, and Git. It brilli
 ### Next Step Prompts
 - Generate a markdown article specifically detailing how `jupytext` solves the Git version control problem for Jupyter Notebooks, including example Git diffs for both `.ipynb` and `.py` files.
 - Outline a strategy for automatically generating `secretsauce.py` (or similar modules) from an 'over-stuffed' Jupyter Notebook using AI, focusing on identifying logical function boundaries and dependencies.
+
+{% endraw %}

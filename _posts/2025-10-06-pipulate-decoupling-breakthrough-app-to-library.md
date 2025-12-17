@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Contemplating a Multi-User Hosted Pipulate Server
@@ -517,3 +520,5 @@ This entry represents a critical turning point in the project's narrative. It's 
 ### Next Step Prompts
 - Based on the 'Cathedral vs. Marketplace' architectural paths, draft a high-level technical spec for a multi-tenant `server.py`. What specific changes would be needed in `pipulate/core.py` and `imports/crud.py` to support user-based data namespacing and session management?
 - Write a mission statement for the open-source `pipulate` library. Define its core purpose, its ideal user (the 'client application' developer), and outline a minimalist API based on the `pip.get()` and `pip.set()` functions already created.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding AI-Assisted Development: Crafting Intelligent Tools
 
 The following journal entry explores the cutting edge of software development, where traditional, predictable programming techniques meet the powerful, yet sometimes unpredictable, capabilities of Large Language Models (LLMs) used as coding assistants. The author is in the process of building "Pipulate," an ambitious project aiming to create a "book that comes alive"—an interactive learning system with an embedded AI. This entry captures a pivotal moment: deciding how much to rely on explicit, deterministic helper scripts versus allowing AI to "leak into" the development process for creating and modifying software workflows.
@@ -602,3 +605,5 @@ This journal entry is exceptionally valuable as raw material for a future tech b
   * **Problem-Solving Insights:** The author's detailed thought process for the "SWAP" pattern and marker strategy offers a transparent look at iterative design.
 
 To transform this into book chapters, it will require significant structuring, contextualization for a wider audience (explaining Pipulate, FastHTML, etc., from the ground up), and careful editing to distill the core insights from the conversational flow. The embedded AI interactions are particularly interesting and could form a unique chapter on "Dialogues with Digital Muses: Co-creating with AI." The enthusiasm and depth of thought make this an exciting foundation for a book that could genuinely illuminate the future of building intelligent, interactive systems.
+
+{% endraw %}

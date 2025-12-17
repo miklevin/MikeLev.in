@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 I have perhaps never had a more important work journal entry. Everything is
 about workflows. More particularly, they are about pipeline workflows. I will
 avoid a rabbit hole of explanation, suffice to say google Unix pipes. Is google
@@ -3740,3 +3743,5 @@ localhost workflow for every kind of task, for the AI generation. A practical
 and simple alternative to agentic swarming. Unix pipe inspired agentic linear
 workflows!
 
+
+{% endraw %}

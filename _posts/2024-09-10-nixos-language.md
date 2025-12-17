@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding the Nix System Configuration Language Basics in Haskell
 
 This is an exchange between myself and Perplexity.AI (on the free Claude model
@@ -387,3 +390,5 @@ rapid succession and must grok, much to the chagrin of a monoglot Pythonista.
     And you'll master the magic of the language called Nix.
 
 
+
+{% endraw %}

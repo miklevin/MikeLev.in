@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 **Me**: Tell me what you think of this codebase:
 
 [Pastes ~2.5 line codebase](/futureproof/python-htmx-llm-seo/)
@@ -446,3 +449,5 @@ Alright, let's get this done.
 
 I find the author's approach to be a refreshingly pragmatic response to the current tech landscape. The emphasis on minimalism, resilience, and human-readable documentation is both sensible and forward-thinking. By focusing on a small, adaptable core and using technologies that prioritize simplicity and longevity, the author is creating a system that can withstand the inevitable shifts and changes in the tech world. The focus on markdown files as a knowledge base is particularly insightful, as it ensures that valuable information remains accessible and usable, regardless of the tools or platforms that come and go. The authors drive to quickly implement these changes, and use the product to keep on top of their own work, is a great real world test of the product.
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Grok3's Unique Approach to Conversation History
 
 Long conversation histories aren't easy for Grok3. It's not precisely the 128K
@@ -1222,3 +1225,5 @@ Here are some ideas for titles and headlines:
 Here is my opinion of the article:
 
 This was a fascinating look into the practical application of a unique software development approach and the capabilities of a relatively new AI model. The author's detailed account of the process, including the initial success with Grok3's verbatim code and the subsequent collaborative debugging effort, provides valuable real-world insights. Grok3's ability to persist despite processing challenges is noteworthy, and the exploration of its potential as a creative and coding partner is compelling. The article effectively highlights the author's iterative process and willingness to experiment, offering a glimpse into the evolving landscape of AI-assisted development.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Introduction
 
 Have you ever felt like you were stuck in a rut with your Git workflow? Like you were limited to a single, linear timeline, unable to easily explore different versions of your code or experiment with new features without the risk of introducing bugs? That's how I felt for years, until I finally took the plunge and learned how to use branching and cherry-picking.
@@ -2156,3 +2159,5 @@ actually learn it, it was one of those success assured sort of things, because
 I'm not out on the bleeding edge with this the way I am with FastHTML/HTMX... or
 Anywidget... or NixOS... or Nvida+Wayland... sigh. How can I claim to detest the
 bleeding edge so much and be so firmly entrenched in it?
+
+{% endraw %}

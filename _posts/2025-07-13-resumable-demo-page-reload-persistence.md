@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry plunges us into the heart of developing Pipulate, a sophisticated tool for "local-first" AI-driven SEO automation. The author is grappling with a common yet deceptively complex challenge: creating a polished, controlled, and memorable user experience for a product demo. The narrative captures a pivotal moment of refactoring, moving from messy, generic file structures to a clean, branded, and intentional architecture. This isn't just about tidying up; it's about embedding the project's "mythology" directly into the code.
@@ -1728,3 +1731,5 @@ The true strength of this entry, when curated for a book, is its authenticity. I
 2.  **Task Suggestion 2:** Extract and Formalize Design Principles
     * **Potential Prompt Snippet for Next AI:** "Analyze the author's commentary throughout the entire entry. Identify and list 3-5 core development principles or philosophies demonstrated (e.g., 'The Chisel-Strike Method,' 'Practicality Over Purity,' 'Mythology-Driven Refactoring'). For each principle, provide a one-sentence definition and a direct quote from the text that exemplifies it."
 
+
+{% endraw %}

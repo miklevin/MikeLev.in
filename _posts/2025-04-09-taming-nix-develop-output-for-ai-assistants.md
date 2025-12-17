@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Agentic Agents Everywhere
 
 Google held GPT-chatbots hostage in their LaMDA labs for how long before OpenAI
@@ -1283,3 +1286,5 @@ This is an excellent, practical article addressing a significant friction point 
 The core problem identified – AI context windows being overwhelmed by non-essential terminal output – is increasingly common. Your solution of using multiple, purpose-built Nix shells (`default` for humans, `quiet` for AI) is both elegant and technically appropriate within the Nix paradigm. It demonstrates a thoughtful approach to adapting infrastructure-as-code practices to accommodate the specific needs of AI tooling without sacrificing the developer experience for humans.
 
 The clear explanation, concrete code examples drawn from your own templates, and actionable best practices make this a valuable resource for any developer using Nix who wants to collaborate more effectively with AI assistants. It successfully bridges the gap between a complex environment management tool and the practical limitations of current AI models, offering a pattern that could likely be adapted in spirit even outside of Nix environments. Overall, it's a well-executed piece documenting a useful solution to a real-world challenge in the evolving landscape of AI-assisted development.
+
+{% endraw %}

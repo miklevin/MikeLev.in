@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry offers a deep dive into the philosophy of effective human-AI collaboration in software development. It moves beyond specific code examples to address a more fundamental question: how must we adapt our tools and workflows to get the best possible results from Large Language Models (LLMs)? The author argues that the chaotic, rapidly-changing nature of the modern JavaScript ecosystem creates a "noisy" and unreliable evidence base for AIs, leading to suboptimal or outdated code suggestions.
@@ -184,3 +187,5 @@ The raw, unfiltered nature of this entry is its greatest asset. In a book, it wo
 2.  **Task Suggestion 2:** Write the "Prompt Fu" Guide
     * **Potential Prompt Snippet for Next AI:** "You are writing a practical guide for developers. Based on the concept of 'Prompt Fu' and the 'One-Shot Novella' from the text, write a short, 3-paragraph tutorial titled 'How to Craft a High-Context Prompt.' Explain the principle, the goal (overriding the model's general training), and the key elements to include (code, philosophy, prior dialogue)."
 
+
+{% endraw %}

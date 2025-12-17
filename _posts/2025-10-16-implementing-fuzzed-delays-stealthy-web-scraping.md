@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry dives into the crucial task of making our `pipulate` project's web scraping capabilities more robust and undetectable. As `pipulate` aims to give AI agents 'eyes' on the web, directly accessing information, we often encounter sophisticated anti-bot systems. This piece documents a specific, iterative solution: introducing fuzzed, randomized delays between requests. It showcases the architectural considerations of threading a new feature across different layers of our Python codebase and highlights the dynamic, collaborative process of problem-solving with an AI, underscoring the vital role of 'context' in LLM interactions.
@@ -546,3 +549,5 @@ This entry is a strong demonstration of practical AI-assisted software developme
 ### Next Step Prompts
 - Analyze the author's stated next steps regarding 'Pandas portion of this project' and 'walking the folders.' Outline a plan for integrating data analysis (Pandas) and local file system content processing into the `pipulate` workflow, detailing potential API exposures and architecture changes needed.
 - Given the `secretsauce.py` and `FAQuilizer.ipynb` files, generate a concise API documentation for the `scrape_and_extract` function, including all its parameters, return values, and typical usage examples for the book's audience.
+
+{% endraw %}

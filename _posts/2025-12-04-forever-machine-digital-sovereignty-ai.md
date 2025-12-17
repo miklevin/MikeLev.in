@@ -19,6 +19,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay explores an important methodology for maintaining individual agency and fostering unpredictable innovation in the Age of AI. It delves into the philosophy and practical architecture of a 'Forever Machine'—a personal digital ecosystem designed to resist the forces of digital centralization and preserve the capacity for 'Black Swan' events. This discussion is foundational for anyone seeking to build a resilient, sovereign presence in a rapidly evolving cybernetic world.
@@ -204,3 +207,5 @@ This entry is exceptionally strong, serving as both a philosophical treatise and
 ### Next Step Prompts
 - Generate a detailed technical guide for setting up a 'Forever Machine' based on NixOS, incorporating specific steps for local LLM integration and Pipulate workflows.
 - Draft a companion piece exploring the societal and economic implications if a significant portion of the population adopted this 'Resistance Through Competence' approach, focusing on its potential to decentralize power and foster emergent innovation.
+
+{% endraw %}

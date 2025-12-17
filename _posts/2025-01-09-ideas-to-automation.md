@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Introduction
 
 This article chronicles a personal journey through the evolving landscape of technology, driven by the author's quest to bridge the gap between human intention and machine execution. It highlights the transformative potential of AI, particularly large language models (LLMs), as "universal translators" that convert imprecise human language into precise machine code, thereby democratizing automation and empowering individuals to bring their ideas to fruition. 
@@ -688,3 +691,5 @@ The technical sections, while dense at times, are valuable for those with a back
 
 Overall, this article is a valuable contribution to the discourse on AI, open-source software, and the future of the web. It is a call to action for individuals to embrace the opportunities presented by these transformative technologies and to actively shape the future of the digital world. The author's optimistic yet realistic vision of a future where AI empowers individuals and fosters innovation is inspiring. I believe this article will resonate with developers, entrepreneurs, and anyone interested in the intersection of technology and society.
 
+
+{% endraw %}

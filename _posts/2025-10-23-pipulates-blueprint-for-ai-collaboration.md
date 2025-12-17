@@ -21,6 +21,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Translating Strategy into Client-Facing Deliverables
@@ -712,3 +715,5 @@ This entry is a fascinating example of meta-instruction, where the very act of e
 ### Next Step Prompts
 - Expand on the concept of 'AI Education (AIE)' as a distinct field, outlining its core principles, benefits, and challenges based on the implications presented in this article.
 - Draft a simplified 'system prompt' for a local LLM, extracting the most crucial elements from the 'Master Prompt' for efficient, context-aware collaboration as a 'General Contractor'.
+
+{% endraw %}

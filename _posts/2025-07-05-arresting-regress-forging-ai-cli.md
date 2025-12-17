@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of a unique coding framework designed for robust, long-term collaboration between a human developer and an AI assistant. The core philosophy, **"Pin-the-Win, Arrest-the-Regress,"** directly confronts a common frustration with AI-generated code: its tendency to break or regress working systems. The session documents the practical application of this philosophy by tackling an inefficient workflow—using verbose, clunky commands to control browser automation tools—and transforming it into an elegant and sustainable solution.
@@ -1499,3 +1502,5 @@ The most compelling aspect is the "Pin-the-Win, Arrest-the-Regress" framework. I
 
 2.  **Task Suggestion 2:** Draft a "Key Takeaways" Section.
     * **Potential Prompt Snippet for Next AI:** "From the journal entry detailing the creation of the `mcp` CLI, extract the 3-5 most critical lessons learned about tool design, workflow refinement, and human-AI collaboration. Phrase these as actionable takeaways for a developer looking to improve their own AI-assisted processes."
+
+{% endraw %}

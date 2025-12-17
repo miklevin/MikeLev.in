@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 **A Deep Dive into the Fringes of NixOS: When the Bleeding Edge Cuts a Little Too Deep**
 
 This isn't your typical Linux tweak job. This is NixOS on the unstable channel, where the latest updates flow in like a torrent, sometimes leaving you high and dry on the shores of the unexpected. Join me as I navigate the choppy waters of a recent upgrade that wiped out my file manager, leaving me stranded in a sea of command-line interfaces. 
@@ -364,3 +367,5 @@ His practical, sailor's perspective and sharp vision make him crucial in first i
 ---
 
 Sigh, Perplexity just doesn't get geek humor like Gemini. Or would that in this context be guix humor? Anyone? Bueller?
+
+{% endraw %}

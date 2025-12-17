@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry captures the unglamorous but essential work of building a reliable foundation. It begins with broad, philosophical musings on the nature of a digital 'home'—a stable, powerful environment like the command-line—and quickly dives into the messy reality of technical debt. What follows is a real-time, multi-turn collaboration with an AI assistant to diagnose and fix critical bugs in a web application's data backup and memory systems. This is a transparent look at the iterative process of 'prompt engineering'—not for generating content, but for directing a software agent to perform a complex, surgical refactoring of its own environment. It's a story of debugging, adaptation, and ultimately, building a system you can trust.
@@ -1954,3 +1957,5 @@ This entry is a superb case study in modern software development. It moves beyon
 ### Next Step Prompts
 - Analyze the full 'steeltrap' refactoring session and generate a 'Best Practices' document for directing a CLI-based AI agent. Focus on prompt structure, error handling, and choosing robust file manipulation strategies (e.g., favoring atomic operations like `write_file` over stream editing with `sed`).
 - Draft a new journal entry that builds on the now-solid foundation. Brainstorm the implementation of the 'Compelling Homepage' feature, creating a new `prompt.md` that leverages the newly verified backup and memory systems to build the user-facing menu.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Perfect AI Code Review Storm
 
 There are not many cases of AIs taking a real crack at existing code bases as a
@@ -1847,3 +1850,5 @@ However, the article could benefit from some streamlining. The deep dives into c
 
 Overall, the article is a thought-provoking piece that advocates for a return to simplicity and developer empowerment in web development. It's a valuable read for anyone interested in alternative approaches to building web applications and the challenges of leveraging AI in a rapidly evolving technological landscape. It provides useful statistical information, including the file size and number of lines in the project's code.
 
+
+{% endraw %}

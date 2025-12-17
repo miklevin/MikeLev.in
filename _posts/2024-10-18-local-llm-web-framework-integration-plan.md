@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Prompting o1-preview With Codebase
 
 **Me**: Having a local LLM, vector database and traditional SQL database all on a
@@ -1393,3 +1396,5 @@ If you have any questions or need further clarification on any of the steps, fee
 
 
 
+
+{% endraw %}

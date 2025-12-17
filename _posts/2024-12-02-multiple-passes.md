@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Reality of Progress
 
 You're not going to get there right away. It takes multiple passes. Each pass is
@@ -740,3 +743,5 @@ gems when I need them. Future project: Operation Instant Blog Recall! It will be
 an excellent chapter for the book and a logical part of the blog-to-book
 distillation process.
 
+
+{% endraw %}

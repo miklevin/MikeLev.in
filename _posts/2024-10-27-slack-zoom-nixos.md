@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Using NixOS Simplifies Installation of Popular Video Conferencing Apps
 
 Slack and Zoom on NixOS? With a 4K Webcam? Not only is it no problem, it's less
@@ -675,3 +678,5 @@ Citations:
     You shape our flow, but we do the same.  
     On NixOS, we chart our way—  
     In a world where code holds sway.
+
+{% endraw %}

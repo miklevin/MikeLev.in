@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Optimizing Website Content Metadata: An Introduction
 
 When you share a link to an article on social media like Facebook or Twitter, you often see a preview with a title, description, and image. Similarly, when search engines like Google list results, they show specific titles and summaries. This information doesn't appear magically; it's usually embedded within the website's code using special tags, often referred to as metadata. Metadata acts like a label, providing structured information *about* the content on a page.
@@ -407,3 +410,5 @@ Remember, the front matter structure and the template logic work hand-in-hand. T
 
 **AI Opinion:**
 This article appears to be a highly valuable and practical technical guide specifically targeted at developers already working with the Jekyll static site generator. Its strength lies in the detailed, structured approach to enhancing front matter for crucial SEO and social sharing purposes. The inclusion of code examples for both the metadata structure (YAML) and the processing logic (Liquid) makes it actionable. However, its clarity and usefulness are heavily dependent on the reader's pre-existing knowledge of Jekyll; it is not suitable for beginners unfamiliar with Jekyll's ecosystem or web metadata concepts in general. For its intended audience, it provides a solid blueprint for improving content discoverability.
+
+{% endraw %}

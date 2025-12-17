@@ -16,6 +16,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This piece delves into an interesting approach to establishing a robust, future-proof development environment—a methodology important to know in the Age of AI. Beginning with a familiar "Hello, World!" in Python, it quickly transitions into a powerful way for installing and managing cutting-edge AI tools like Pipulate using the Nix package manager. This soliloquy emphasizes practical, hands-on setup, crucial for any developer looking to stay ahead in the rapidly evolving tech landscape, offering a foundation for future AI projects and continued learning within this evolving tapestry.
@@ -215,3 +218,5 @@ This entry offers a highly practical and opinionated guide to setting up a resil
 ### Next Step Prompts
 - Draft a follow-up article detailing the initial usage of Pipulate and JupyterLab once the installation is complete, focusing on a practical AI example.
 - Create a supplementary 'Nix for Beginners' guide that expands on the 'magic faerie dust' concept without overwhelming the reader, linking to this installation guide.
+
+{% endraw %}

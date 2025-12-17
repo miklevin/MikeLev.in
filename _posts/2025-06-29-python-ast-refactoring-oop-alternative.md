@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the development of Pipulate, a local-first software project built on a unique philosophy called "WET" (Write Everything Twice). As a direct counterpoint to the well-known "DRY" (Don't Repeat Yourself) principle, the WET approach prioritizes providing complete, explicit context in every interaction, especially when collaborating with AI coding assistants. By avoiding deep layers of abstraction, the code remains transparent and easier for both humans and AI to understand and modify.
@@ -580,3 +583,5 @@ Here is a comprehensive analysis and transformation of the provided technical jo
     2.  **Task Suggestion 2:** Extract Key Principles
         * **Potential Prompt Snippet for Next AI:** "From the provided journal entry, distill the author's argument against traditional OOP for this project and the benefits of their 'Inheritance Alternative' into a concise list of 3-5 'Key Principles for WET-Centric Refactoring.' Each principle should be a short, actionable statement suitable for a 'Key Takeaways' box in a book chapter."
 
+
+{% endraw %}

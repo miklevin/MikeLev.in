@@ -16,6 +16,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a pivotal moment in development: making a web-centric Python tool, Pipulate, work natively within the ephemeral world of Jupyter Notebooks. It's a raw, real-time dialogue with an AI assistant to dissect how this new 'alternate reality' of state persistence is achieved, exploring the technical underpinnings through creative metaphors of magic and different schools of sorcery.
@@ -425,3 +428,5 @@ This entry is a superb example of 'working in public.' It's not just a technical
 ### Next Step Prompts
 - Using the 'School of Cloud Sorcery' metaphor, draft the 'Master Template' Jupyter Notebook mentioned in the article. The notebook should take a list of items (e.g., URLs, company names), perform a simple operation on each (like scraping a title tag), and save the results, demonstrating the stateful, resumable pattern.
 - Write a follow-up article titled 'The School of Deep Magic,' contrasting the notebook workflow with a more complex, automated pipeline managed by `server.py` in a Nix environment, emphasizing the benefits of sovereignty and permanence.
+
+{% endraw %}

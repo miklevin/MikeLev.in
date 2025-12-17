@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Cost of Distraction
 
 Distraction causes weakness. It's not that I believe in military-like self discipline. that I believe if you have found two circles of your Ikagi, what you love to do and what you're good at, you should probably drill down on the third and fourth circles— what you can get paid for and what the world needs. 
@@ -173,3 +176,5 @@ In this article, I argue that focused effort, achievable through activities like
 
 This article offers a compelling perspective on the importance of focus and deliberate practice in a world filled with distractions. I appreciate the author's blend of philosophical musings, scientific references, and practical advice. The connection drawn between focused activities like reading and programming, and the pursuit of Ikigai, is particularly insightful. The author's enthusiasm for Python as a tool for both personal growth and creative expression is evident and contagious. It's a thoughtful piece that encourages readers to take control of their attention and invest in meaningful pursuits.
 
+
+{% endraw %}

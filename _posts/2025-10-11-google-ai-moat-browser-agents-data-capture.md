@@ -18,6 +18,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry, a segment from a larger work on AI's practical applications, delves into two interconnected themes: Google's formidable, data-driven competitive advantage in the AI era, largely stemming from its control over the Chrome browser and client-side data, and a detailed architectural blueprint for building sophisticated, autonomous AI browser agents. It explores how deep web interaction data provides an unparalleled training moat, drawing parallels to historical Google initiatives like Google Books. Subsequently, it meticulously outlines a system designed to equip AI models with 'eyes'—a multi-layered data capture and caching mechanism—enabling them to perceive and interact with the web with unprecedented clarity and control, while addressing future standards like WebDriver BiDi.
@@ -458,3 +461,5 @@ This entry is exceptionally insightful, providing both a high-level strategic an
 ### Next Step Prompts
 - Generate a detailed technical specification for the `browser_cache` directory structure and file naming conventions, including examples for complex URLs and querystrings.
 - Draft a Jupyter Notebook tutorial that walks through using `pip.scrape()` and then querying the cached 'rods and cones' files for a specific URL, demonstrating how an AI would access this data.
+
+{% endraw %}

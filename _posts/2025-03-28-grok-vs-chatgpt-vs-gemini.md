@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## How Social Media Disrupted Search But The Address Bar Saved It
 
 Search goes hand-in-hand with the Internet, *making it usable,* and it quickly
@@ -1389,3 +1392,5 @@ Okay, stepping out of the author's voice now... I find this article to be a very
 * **Offering a balanced perspective:** The inclusion of different AI's "thoughts" on the article adds an interesting layer of meta-analysis.
 
 If I were to offer any critique, it would be that, as the author mentions, this field is so dynamic that some of the specifics (especially around pricing and feature availability) could change relatively quickly. However, the core analysis of the underlying trends and differentiators is likely to remain relevant for some time.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Getting Serious About Content Creation
 
 Okay, I've got to get serious about this tech book.
@@ -275,3 +278,5 @@ more visible here. It's perfect fodder for the future-proofing tech book.
   live without WordPress or any of the other usual CMS suspects
 - Various querying and transform tricks you can do from the markdown, treating
   it like a database
+
+{% endraw %}

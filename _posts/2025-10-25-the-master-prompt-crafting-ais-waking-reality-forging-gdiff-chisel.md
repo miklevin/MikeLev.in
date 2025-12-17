@@ -20,6 +20,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this compelling entry, Mike delves into the philosophical and practical underpinnings of integrating AI into a robust development workflow. He unveils the "Master Prompt," a foundational text designed to orient new AI agents within his Pipulate project, treating AI education as a core component of his "Cathedral of One." The article then meticulously details his process of refining foundational tools, from standardizing configuration management to optimizing Git commands for AI-friendly interaction. This entry is a vibrant blueprint of a developer's journey to reduce friction and enhance collaboration at the bleeding edge of AI-assisted engineering, illustrating how fundamental philosophical insights can drive concrete, impactful technical decisions.
@@ -724,3 +727,5 @@ This entry is a fascinating and important blueprint for the future of AI-assiste
 ### Next Step Prompts
 - Elaborate on the 'AI Buffalo Jump' analogy, specifically detailing how each component of Pipulate (e.g., `prompt_foo.py`, `cli.py`, `pip` object) maps to parts of the "kite" or "cliff" in creating an "abundance of cornered carcasses" (actionable AI output).
 - Develop a section that expands on the 'AIE (AI Education)' concept, outlining a curriculum or specific pedagogical principles for teaching AIs to navigate and contribute within complex systems, drawing parallels to human education models.
+
+{% endraw %}

@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles a particularly grueling debugging adventure that spirals from a mysterious system crash into a subtle, platform-specific quirk. It's a raw, real-time look at peeling back the layers of a complex software problem, showcasing how even robust tools like Nix can't always shield a developer from the nuances of the underlying operating system. The dialogue captures a collaborative session with an AI, using it not just to write code, but to strategize, investigate, and ultimately pinpoint a 'smoking gun' hidden in plain sight.
@@ -1098,3 +1101,5 @@ This entry is a masterful case study in modern software development. It moves be
 ### Next Step Prompts
 - Using the final 'The Grand Unifying Theory' section as a source, write a standalone technical article for a developer blog titled 'How Abstractions Leak: A Debugging Story from Nix to macOS'.
 - Create a troubleshooting checklist for developers encountering platform-specific bugs when using Nix, based on the investigation steps taken in this journal entry.
+
+{% endraw %}

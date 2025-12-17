@@ -19,6 +19,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 In the last entry, we got a bare-bones NixOS system running on spare hardware using a live USB drive. That was the first critical step in bootstrapping a more resilient, self-owned tech stack. This entry documents the immediate next steps: bringing the system up-to-date, making a conscious choice about its update cadence, and beginning the crucial process of molding the default environment into one that reflects a philosophy of empowerment and durability—starting with the text editor itself.
@@ -405,3 +408,5 @@ This journal entry is a superb example of what makes this book project unique. I
 ### Next Step Prompts
 - Based on the author's frustration with default tools and their move to install `neovim`, generate a follow-up journal entry detailing the first steps of configuring Neovim on NixOS. The entry should explore creating a `home-manager` configuration for Neovim, explaining how this declarative approach aligns with the 'future-proofing' philosophy.
 - Expand on the 'Chip O'Theseus' concept. Write a detailed guide on how to source, select, and set up a refurbished enterprise machine (like the HP Z640) as a home server running NixOS. Cover hardware considerations, the NixOS installation process for servers, and a simple first project, like setting up a file-sharing service.
+
+{% endraw %}

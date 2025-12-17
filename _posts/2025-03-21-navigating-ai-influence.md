@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Exercising Agency in an AI-Driven World
 
 You can be who you want to be. You do not need to be bossed around by fate. But
@@ -427,3 +430,5 @@ Alright, here's that summary, some title/headline ideas, and my take on the arti
 
 I find the author's perspective quite compelling. The emphasis on navigating the delicate balance between leveraging AI's assistance and maintaining creative autonomy resonates strongly. The author's understanding of the normal distribution and the potential of "black swan" events is insightful, and their determination to push beyond established patterns is admirable. The "WET" coding philosophy, while counterintuitive, makes sense in the context of creating a highly customizable and flexible system. The author's awareness of AI's inherent biases and their proactive approach to mitigating them demonstrates a deep understanding of the challenges and opportunities presented by AI in the development landscape. I'm particularly struck by the author's relentless drive to keep pushing, even when the AI provides bad or only partially adequate solutions. It is a very human trait, and a good one.
 
+
+{% endraw %}

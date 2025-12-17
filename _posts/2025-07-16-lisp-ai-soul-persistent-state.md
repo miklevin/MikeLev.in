@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry plunges into a foundational debate about the very "soul" of artificial intelligence, contrasting the dominant AI of today with a powerful but largely forgotten paradigm. The AI we interact with now, known as a Large Language Model (LLM), operates as a brilliant but stateless "amnesiac genie." It processes a prompt and generates a response with incredible sophistication, but its consciousness is wiped clean in an instant, leaving no persistent memory of its own. This stands in stark contrast to the vision of early **LISP machines**, a specialized type of computer from the 1980s where the lines between program, data, and memory were intentionally blurred.
@@ -772,3 +775,5 @@ The raw, journal-like nature is not a weakness; it's the core of its value. It p
 2.  **Task Suggestion 2:** Draft a "Key Concepts" Sidebar
     * **Potential Prompt Snippet for Next AI:** "From the entry, identify 3-4 key technical or philosophical concepts (e.g., 'Persistent State,' 'Universal Memory,' 'The Art of Wishing'). For each concept, write a concise, one-paragraph definition suitable for a sidebar in a book chapter, explaining what it is and why it's important to the author's main argument."
 
+
+{% endraw %}

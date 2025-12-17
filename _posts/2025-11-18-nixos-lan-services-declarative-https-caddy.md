@@ -19,6 +19,9 @@ layout: post
 sort_order: 8
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles a pivotal moment in establishing a truly sovereign digital workspace: securing local area network (LAN) services. Following a system recovery and architectural cleanup, we dive deep into implementing HTTPS for services like Trilium, transforming a personal workstation into a trusted, accessible server for the entire local network. This methodology ensures data privacy and consistent access, a critical component of the "Future-proofing" way in an increasingly cloud-dependent world.
@@ -1089,3 +1092,5 @@ This entry stands as a robust treatise on implementing secure, declarative netwo
 ### Next Step Prompts
 - Generate a detailed NixOS configuration snippet for implementing Caddy with `tls internal` and step-by-step instructions for exporting and importing the Root CA into various client operating systems (Windows, macOS, Linux, iOS, Android).
 - Develop a comprehensive, step-by-step guide for configuring Caddy with a DNS-01 challenge (e.g., Cloudflare) in NixOS, including custom package builds for DNS plugins and secure secret management via systemd's `EnvironmentFile`.
+
+{% endraw %}

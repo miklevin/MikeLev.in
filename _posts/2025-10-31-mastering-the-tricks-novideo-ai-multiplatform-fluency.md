@@ -17,6 +17,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures an interesting thought-work interlude, documenting the genesis of the 'NoVideo' methodology. It's a testament to the power of de-risking complex technical projects and navigating multi-platform challenges with an AI-assisted approach. This article lays out the philosophical bedrock for an important new way of creating efficient content, revealing the 'tricks' that lead to practical, low-friction solutions, especially relevant in the Age of AI.
@@ -835,3 +838,5 @@ This entry is a compelling 'soliloquy' that perfectly encapsulates the author's 
 ### Next Step Prompts
 - Outline the complete 'NoVideo' workflow, from content ideation to final output, emphasizing the specific AI-assisted steps and Python libraries involved (e.g., MoviePy, Whisper).
 - Develop a 'Trick-Makers Handbook' based on the principles discussed, detailing practical examples of 'binary search' debugging, 80/20 solutions, and platform-specific 'idiosyncrasies' that engineers should master.
+
+{% endraw %}

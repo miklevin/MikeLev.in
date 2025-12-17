@@ -8,6 +8,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry captures a developer in the crucial, often messy, process of defining a project's soul. The project, Pipulate, is a framework designed for a future of deep human-AI collaboration, built on principles of digital sovereignty and user ownership. The author grapples with translating this grand vision into a tangible user experience and a clean codebase. This process is guided by a core design principle the author calls the "Rule of 7"—structuring choices in small, manageable groups of 5-9 items to make systems easily navigable for both humans and AIs, a concept they deem essential for "AI-preparedness."
@@ -401,3 +404,5 @@ The dialogue section, where the human prompts the AI for poetic expansion, is a 
 2.  **Task Suggestion 2:** Analyze Architectural Trade-offs.
     * **Potential Prompt Snippet for Next AI:** "The author expresses concern about the AI's persistent memory and their switch from `sqlitedict` to `fastlite`. Acting as a senior Python developer, write a brief analysis comparing these two approaches. Discuss the potential benefits and risks of using a framework-native solution (`fastlite`) versus a generic, single-purpose library (`sqlitedict`) for this use case."
 
+
+{% endraw %}

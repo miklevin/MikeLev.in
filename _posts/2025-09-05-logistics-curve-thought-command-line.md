@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a developer's real-time thought process while navigating the evolving landscape of AI-powered software development. The central project, "Pipulate," serves as the practical testbed for a broader philosophical and technical exploration. The author is grappling with how to maintain intellectual clarity and technical sovereignty in an era dominated by large tech platforms and generative AI.
@@ -297,3 +300,5 @@ The "raw" nature of the log is its greatest strength. When framed correctly in a
 2.  **Task Suggestion 2:** Draft a "Lessons Learned" Summary.
     * **Potential Prompt Snippet for Next AI:** "Review the entire journal entry and synthesize the author's journey of thought. Draft a 'Key Principles' section in bullet points that a book reader could take away, focusing on actionable advice regarding vendor lock-in, mental models, and the strategic value of the CLI."
 
+
+{% endraw %}

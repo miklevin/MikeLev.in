@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This entry documents a classic, real-world debugging session that arises in modern web development. The author is building a highly interactive, notebook-like interface within his project, Pipulate, using a minimalist tech stack. The goal is to have the user interface automatically scroll to the newest content after an action completes, creating a smooth, conversational flow. However, this feature works in simple workflows but fails in more complex, asynchronous ones, presenting a frustrating and elusive bug.
@@ -337,3 +340,5 @@ The raw, conversational format is a distinct advantage. It authentically capture
 
 2.  **Task Suggestion 2:** Draft a "Lessons Learned" Section
     * **Potential Prompt Snippet for Next AI:** "Based on the debugging dialogue, write a 'Lessons Learned' section for a book chapter. Focus on three key takeaways for developers building asynchronous applications with HTMX, covering the benefits of standard vs. custom events, strategies for debugging server-client interactions, and the value of using an AI as a 'fresh pair of eyes' to challenge assumptions."
+
+{% endraw %}

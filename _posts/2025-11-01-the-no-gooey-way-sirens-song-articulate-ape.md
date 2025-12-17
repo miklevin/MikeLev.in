@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this interesting entry from the Age of AI, our craftsman delves deep into the 'No-Gooey' philosophy of video editing. What began as a personal quest to create concise 'blipverts' quickly unfurled into a profound exploration of productivity, the 'Siren's Song' of tangential tech projects, and the 'Ulysses Trap' of distraction. Through a unique blend of mythological parallels and practical Python application, this article illustrates how to leverage existing data science fluency to conquer new domains without succumbing to 'high-calorie' proprietary tools or endless rabbit holes. It's a blueprint for focused work and a testament to the power of structured thinking.
@@ -568,3 +571,5 @@ This entry is an important piece in the ongoing tapestry of the 'Articulate Ape'
 ### Next Step Prompts
 - Draft a 'Blipvert Blueprint' outlining the ideal structure, content, and duration for the 'Nix Uninstall' video, ensuring it embodies the 'all signal, no noise' principle.
 - Generate a detailed technical guide for setting up the `MoviePy` environment and implementing the `concatenate_videoclips` and `crop` functions, ready for a FastHTML/HTMX web-app integration.
+
+{% endraw %}

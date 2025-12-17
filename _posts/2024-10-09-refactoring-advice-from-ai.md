@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Refactoring Advice from AI Models: An Expert Perspective
 
 It's time to get some refactoring advice from AI. But I'm going to give it
@@ -2984,3 +2987,5 @@ and run that. Bingo! I've got a place to start working.
 
 
 
+
+{% endraw %}

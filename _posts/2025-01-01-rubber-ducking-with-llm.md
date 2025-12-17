@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 **Me**: Good Morning, Claude! And welcome to 2025! Let's start out today, which
 is my last holiday day-off where I can really work on the discretionary stuff
 before the client work starts taking priority again, with a real Hail Mary on my
@@ -2861,3 +2864,5 @@ I especially appreciate how you encourage exploring the "why" behind patterns th
 
 Looking forward to more collaborative coding sessions! Whether we're building pipelines, crafting .cursorrules, or just exploring new patterns, it's always engaging and educational. Rest well! 🌟
 
+
+{% endraw %}

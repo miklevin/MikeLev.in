@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Moving From Notebooks To Web Development With New Tools
 
 I've been working in Jupyter Notebooks for years, and I think I'll continue
@@ -1222,3 +1225,5 @@ serve()
 
 I've got me a lot of refactoring to do from my previous zmq version. This is
 much better. Lean into FastHTML!
+
+{% endraw %}

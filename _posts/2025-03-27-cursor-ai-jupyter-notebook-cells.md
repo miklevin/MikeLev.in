@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## The Joy of Using Jupyter Notebooks with Cursor AI
 
 I now use Jupyter Notebooks in Cursor AI. Can you imagine the relief? I just
@@ -891,3 +894,5 @@ The piece effectively blends a specific technical investigation with broader con
 4.  **Historical Context:** It provides valuable background on the evolution of notebooks, grounding the current tools in their lineage.
 
 While the narrative follows the author's exploratory journey and is thus somewhat winding, this structure effectively mirrors the real-world process of discovery and learning when grappling with new tool integrations. The article is highly informative for anyone working at the intersection of AI development tools and data science notebooks, offering both immediate practical advice and valuable perspective. The concluding expression of gratitude adds a nice human touch.
+
+{% endraw %}

@@ -19,6 +19,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the fast-evolving landscape of AI-assisted development, even the smallest tasks can reveal unexpected complexities. This entry chronicles an important moment in navigating the Python dependency ecosystem, demonstrating how a seemingly minor update can cascade into a debugging challenge. It underscores the vigilance required to maintain robust development environments and introduces the concept of the "receipt"—a tangible record of change—as a powerful tool for clarity and accountability in the Age of AI, an important part of our methodology for future-proofing tech skills.
@@ -816,3 +819,5 @@ This journal entry is a prime example of an 'AIE' artifact. It's not just a tech
 ### Next Step Prompts
 - Generate a short Python code example demonstrating the usage of `moviepy` or `requests-toolbelt` to further contextualize the dependencies added.
 - Expand on the 'Little Dutch Boy' analogy, connecting the continuous battle against Murphy's Law to strategies for AI-assisted development and resilience.
+
+{% endraw %}

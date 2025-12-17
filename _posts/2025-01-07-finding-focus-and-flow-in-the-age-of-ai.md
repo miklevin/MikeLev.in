@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Power of Pipelines
 
 The whole point of the pipeline is to focus. It promotes linear procedures and
@@ -1308,3 +1311,5 @@ That's for another day, Gemini.
 
 
 
+
+{% endraw %}

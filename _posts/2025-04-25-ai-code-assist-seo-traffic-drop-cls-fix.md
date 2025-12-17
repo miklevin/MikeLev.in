@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Understanding AI Code Assistance and Website Performance
 
 This article explores the potential pitfalls of using Artificial Intelligence (AI) tools to help write or modify the code that runs a website. Specifically, it delves into a situation where attempting to improve a website's performance metric, known as Cumulative Layout Shift (CLS), inadvertently caused significant problems with Search Engine Optimization (SEO), leading to a sharp decline in website traffic. CLS is a measure used by search engines like Google to gauge how much a webpage's layout unexpectedly shifts during loading, which can be frustrating for users.
@@ -256,3 +259,5 @@ Since you're still using the width slider to dynamically resize content, you may
 
 * **AI Opinion:**
     This article serves as a valuable, albeit technical, case study illustrating the potential complexities and risks of using AI for website code modifications, particularly concerning SEO. Its strength lies in its specific, detailed account of diagnosing and resolving a nuanced problem where user experience optimization (CLS) conflicted with search engine visibility. While its clarity is high for readers already familiar with web development and SEO concepts, its narrative style and assumed knowledge might make it less accessible to beginners. It's a useful "lessons learned" piece for developers and SEO practitioners navigating AI tools and front-end optimization challenges.
+
+{% endraw %}

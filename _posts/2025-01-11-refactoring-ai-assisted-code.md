@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 > It's 9:00 AM on a Saturday.  
 > The regular mentality settles in.  
 > I start typing away on this white, snowy day.  
@@ -4807,3 +4810,5 @@ The stage is set. The tools are at hand. The AI is waiting.
 Let's create something amazing.
 
 ---
+
+{% endraw %}

@@ -21,6 +21,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry unveils an interesting methodology in the Age of AI, detailing a 'No-Gooey' approach to a common video production challenge: capturing screen recordings precisely for vertical video platforms like YouTube Shorts and TikTok. It documents the author's journey to develop a resolution-independent 'browser acetate' solution, allowing for perfect 9:16 framing without compromising the familiar aesthetics of the operating system desktop. This practical treatise highlights a philosophy of pre-production design, minimizing post-production effort and showcasing an elegant fusion of simple web technologies with robust video editing tools. It's an important insight into optimizing creative workflows, ensuring 'all signal, no noise' from capture to crop.
@@ -410,3 +413,5 @@ This entry serves as an important testament to the power of iterative problem-so
 ### Next Step Prompts
 - Develop a companion article detailing the 'No-Gooey' philosophy as a general approach to technical problem-solving, using this screen recording workflow as a primary case study. Include other minor examples of 'No-Gooey' implementations.
 - Generate a series of 'blipvert' scripts (similar to the Nix uninstaller example) for other common technical tasks or explanations, focusing on keeping them concise and 'all signal, no noise' for 9:16 vertical video.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Just focus on the port. I finished `server.py` in the `botifython` repo for work
 for the first of two special deliverable deliverers, and it's based on a bunch
 of capabilities that I'm replacing with `pipulate.com`, namely how Websockets
@@ -1142,3 +1145,5 @@ app, rt, (todos, Todo), (sessions, Session) = fast_app(  # Unpack the tables dir
 ```
 
 Alright, it's stunning that I cracked this nut. 
+
+{% endraw %}

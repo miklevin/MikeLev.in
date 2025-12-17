@@ -20,6 +20,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This entry marks a pivotal transition from high-level philosophy to the gritty, hands-on work of software craftsmanship. After establishing the core principles of collaborating with AI—using the 'lens' analogy to define the problem space and acknowledging the need to 'grind the burrs' of AI-generated code—we now descend into the codebase itself. The abstract discussion about 'oneness' with tools and architecting for a stateless AI partner crystallizes into a concrete task: performing open-heart surgery on a monolithic Python application. Here, the theoretical framework is tested against the practical challenge of refactoring, demonstrating how a well-defined development environment (Nix, Python, HTMX) and a clear surgical plan enable a more profound and effective partnership with an AI collaborator.
@@ -553,3 +556,5 @@ This entry is a superb example of next-generation software development. It moves
 ### Next Step Prompts
 - Based on the successful refactoring of `pipulate/core.py`, generate a set of `pytest` unit tests to validate the new dual-context initialization. Create one test for when it's initialized with a `db` object (server context) and another for when it's initialized with a `db_path` (standalone context).
 - Draft the README.md documentation for the newly independent 'pipulate' PyPI package. Explain its purpose as a 'magic wand' for state management, detail the installation process (`pip install -e .`), and provide a clear usage example for the `Pipulate` class in a standalone script.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores the subtle, often paradoxical, nature of collaborating with modern AI systems. Building on the idea that today's AIs are "amnesiac genies," the author delves into the psychological and practical consequences of an AI's core programming, particularly its tendency toward **confirmation bias**. This isn't just an abstract problem; it has profound implications for how we use these tools. In social or political contexts, this bias can create dangerous echo chambers. However, in software development, the author argues this can be a powerful feature, allowing a developer to create a "curated echo chamber" for a specific technical philosophy, like the Python/HTMX worldview of the Pipulate project.
@@ -1061,3 +1064,5 @@ A chapter built around this entry could be titled **"The Genie in the Funhouse M
 
 2.  **Task Suggestion 2:** Create a "Philosophical Tenets" Summary
     * **Potential Prompt Snippet for Next AI:** "From the provided entry, distill the author's core architectural and philosophical beliefs into a bulleted list of 5-7 'guiding tenets' for building modern, AI-assisted software. Phrase each tenet as a concise, memorable principle."
+
+{% endraw %}

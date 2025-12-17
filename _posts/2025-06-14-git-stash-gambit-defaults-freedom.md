@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry explores a surprisingly complex challenge that arises in modern software distribution: how to ship an application with sensible, opinionated defaults while respecting a user's desire to customize their own environment. The case study centers on Pipulate, a local-first AI development framework that automates its own setup and updates using Nix. The core of the problem lies where these two worlds collide: the developer's desire to version-control default settings in Git, and the user's local changes to those same files, which can cause the automatic `git pull` updates to fail.
@@ -171,3 +174,5 @@ The unexpected discovery of the circular dependency is a narrative gift. It tran
 2.  **Task Suggestion 2:** Draft an "Architectural Lesson" Sidebar
     * **Potential Prompt Snippet for Next AI:** "Using the section 'The Surprise Twist: A Necessary Architectural Refactor', write a 150-word sidebar for a tech book titled 'The Danger of Circular Imports'. Explain the concept using the `server.py` and `plugins/common.py` example. Start by defining what a circular import is, explain why it creates fragile systems, and describe how refactoring shared code into a common module provides a robust solution."
 
+
+{% endraw %}

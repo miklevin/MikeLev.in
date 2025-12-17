@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Introduction to Context Foo
 
 Alright, I'm practicing some *Context Foo* here. In a prior article, I describe
@@ -2062,3 +2065,5 @@ Okay, here is the summary, titles, analysis, and opinion based on the article pr
 This article serves as an excellent practical demonstration and case study on leveraging the large context windows of modern frontier language models for complex software development tasks. The author's `prompt_foo.py` script offers a pragmatic, developer-controlled alternative to more opaque, integrated RAG systems found in some AI-assisted editors. The strength lies in its direct, hands-on approach: defining a need (better context management), building a tool, and then rigorously testing it with multiple leading AI models on substantial, real-world problems (codebase analysis and designing a novel MCP integration).
 
 Including the full prompts and the detailed, multi-page responses from Gemini, Grok, ChatGPT, and Claude provides invaluable comparative insight that is rarely seen side-by-side. It highlights the current capabilities (and biases, as the author notes) of these models in understanding complex codebases and engaging in architectural design. While lengthy and technically dense, the article is a valuable resource for developers exploring how to effectively integrate LLMs into their workflow for tasks beyond simple code generation, particularly for planning and analysis stages. The methodology presented is transferable, even if the specific project (`Pipulate`) is unique to the author.
+
+{% endraw %}

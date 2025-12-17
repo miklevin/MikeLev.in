@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Getting started in the morning. Coffee time. Go to system. Organize the 7
 virtual desktops for a fresh start. Screen 1, fullscreen Terminal. New tech
 journal entry. Home.
@@ -573,3 +576,5 @@ Some ideas for titles and headlines:
 
 In my opinion, the article offers a thoughtful and insightful perspective on the evolving relationship between humans and technology. The author's passion for programming and their dedication to creating a more efficient and accessible web development experience are evident. Their emphasis on clear, human-readable code aligns with the growing need for transparency and collaboration in the field of AI.
 
+
+{% endraw %}

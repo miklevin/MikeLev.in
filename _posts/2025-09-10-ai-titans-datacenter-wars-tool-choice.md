@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal moment in the AI revolution, seen through the lens of a developer's seemingly simple choice: which AI coding assistant to use. The narrative unpacks how this personal decision is inextricably linked to the colossal power struggles between tech giants, often called the "Datacenter Wars." As the author navigates away from popular tools like Cursor AI, they reveal a landscape where a company's ownership of massive, global-scale datacenters—its "compute moat"—becomes the ultimate competitive advantage, often eclipsing the quality of the AI model itself.
@@ -504,3 +507,5 @@ The unique value here is the blend of deeply researched industry analysis with a
 2.  **Task Suggestion 2:** Generate Explanatory Analogies
     * **Potential Prompt Snippet for Next AI:** "The author uses the analogy of a '4-horse race' for the AI infrastructure giants. Based on the text, generate 2-3 additional simple analogies to explain complex concepts mentioned, such as 'the datacenter moat' and the difference between 'relatable LLM AI' and 'pattern-recognition AI' like AlphaFold."
 
+
+{% endraw %}

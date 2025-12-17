@@ -22,6 +22,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Context for the Curious Book Reader
 
 This journal entry captures a pivotal insight into the philosophy of radical simplification. The author, frustrated with the 'comical stack' of modern web development, uncovers a unifying principle that dissolves the boundaries between backend and frontend languages. The core idea is that seemingly different concepts—Python's arguments, HTML's attributes, and even command-line flags—are all just dialects of a single, universal language: the key-value pair. By embracing this 'Rosetta Stone,' the author charts a path toward building software that is not only simpler for humans to write but profoundly easier for AI to understand and edit.
@@ -663,3 +666,5 @@ This entry is exceptionally valuable because it articulates a development philos
 ### Next Step Prompts
 - Based on the philosophy and technical examples in this text, write a tutorial for building a simple 'live search' component. The tutorial must use only Python with FastHTML for the server-side and HTMX for the front-end, explicitly highlighting how this approach avoids custom JavaScript and JSON parsing.
 - Expand on the 'Guiding Principles' section. For each of the 10 principles, write a short paragraph elaborating on its meaning and providing a concrete example of how it would apply in the design of a web application.
+
+{% endraw %}

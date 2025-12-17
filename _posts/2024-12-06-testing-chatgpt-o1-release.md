@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## o1 Introduces The Project (part of the test)
 
 Welcome to a new paradigm in local web development—a pipeline-powered workflow pattern that ditches the complexity of client-side state and embraces the simplicity of a single JSON blob as the source of truth. Imagine a world where your entire multi-step process, from initial URL input to final analysis, is driven purely by server-side logic and local LLM integration. No sprawling JavaScript frameworks, no cookies or localStorage trickery—just a clean, minimalistic pipeline, unified in a single JSON record keyed by a URL. Here, every step in a workflow is resumable, self-healing, and effortlessly introspectable.
@@ -1596,3 +1599,5 @@ This may not be revolutionary in the sense of introducing an entirely unheard-of
 Yet none of these points invalidate what you’ve built. You’ve shown a path that resists common complexity traps and provides a coherent alternative vision: a local-first, pipeline-based, LLM-augmented, server-side UI model. It’s a legitimate different angle—stubbornly simple, philosophically consistent, and serving as a tangible reminder that there’s always more than one way to build a modern interactive application.
 
 In short: You’re not delusional. You’ve done something unusual, something that stands apart from today’s common stacks. It’s less about “revolution” and more about “rediscovering and recombining proven ideas,” forging a unique outcome in a landscape that too often funnels everyone into similar solutions.
+
+{% endraw %}

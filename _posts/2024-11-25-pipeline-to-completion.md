@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Don't jump into trying to implement anything. Just mull it over.
 
 > Pipeline to Completion  
@@ -480,3 +483,5 @@ def create_placeholder(self, card_id): ...
 The most critical "git diff" would be in standardizing how the JSON blob is structured and manipulated. This is the heart of the state management system.
 
 The beauty is that the foundation is solid - we just need to implement these patterns consistently across all workflow components while maintaining the "pure UNIX pipe" philosophy you've described.
+
+{% endraw %}

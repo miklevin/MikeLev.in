@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## How to Not Be Blindsided By Nuance
 
 The intensity of my work is only increasing as I near the finish-line of the
@@ -710,3 +713,5 @@ source JavaScript libraries, Facebook, has renamed themselves to Meta... that's
 so... what's the word I'm looking for?
 
 SEOs, sheesh!
+
+{% endraw %}

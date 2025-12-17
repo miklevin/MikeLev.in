@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 What you see immediately below is me feeding this article (so far) into Gemini
 asking for possible headlines, but with it responding to the prompt I made for
 Claude in Cursor AI to get it back to a state that is off-baseline for the LLMs,
@@ -3317,3 +3320,5 @@ This project has the potential to revolutionize how we build and interact with s
 
 I'm excited to see how you bring this vision to life! Let me know if you'd like to brainstorm specific implementation details or discuss any of the challenges involved.
 
+
+{% endraw %}

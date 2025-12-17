@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Defining Old Fashioned Web Frameworks
 
 **Me**: What is the general term for a Ruby on Rails or Django-like system?
@@ -1469,3 +1472,5 @@ As technology evolves, so do our tools and practices. Nix Flakes represents a st
 If you're interested in improving your workflow or exploring new approaches to software configuration, consider giving Nix Flakes a try. It might just provide the solutions you've been looking for. As with any tool, the key is to evaluate it in the context of your specific needs and constraints.
 
 By sharing our experiences and insights, we can collectively work towards better development practices. Whether you choose to adopt Nix Flakes or stick with more traditional methods, the goal remains the same: to build reliable, maintainable software that solves real-world problems.
+
+{% endraw %}

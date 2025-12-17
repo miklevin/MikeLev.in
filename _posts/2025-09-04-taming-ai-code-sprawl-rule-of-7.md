@@ -8,6 +8,9 @@ meta_keywords: refactoring, code complexity, AI coding assistant, git branch, Ru
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a developer at a crucial crossroads, grappling with a modern paradox: the very AI coding assistants that grant superhuman speed can also lead to unwieldy codebases that escape their creator's grasp. The project at the heart of this discussion is **Pipulate**, a local-first AI and SEO tool built on a philosophy of simplicity, user control, and long-term durability. After a period of ambitious, AI-fueled development, the author confronts the "Craftsman's Code Crisis"—a moment where the software works but its complexity has begun to betray its core principles.
@@ -745,3 +748,5 @@ The dialogue format, featuring multiple AIs, is a standout feature. It transform
     * **Potential Prompt Snippet for Next AI:** "Based on the decision in this entry to consolidate `mcp_tools.py` into `server.py`, act as a senior software architect. Generate a detailed, step-by-step technical plan for this refactoring. Include a checklist of files to modify, a list of import statements to search for and replace, and a sequence of tests to run to ensure no functionality is broken."
 2.  **Task Suggestion 2:** Philosophical Deep Dive
     * **Potential Prompt Snippet for Next AI:** "Act as a tech philosopher. Based on the author's preference for large, monolithic files and a Vim-centric workflow, write a short essay (2-3 paragraphs) for a 'Design Principle' call-out box in a book. Title it 'The Cathedral and the Command Line' and contrast this approach with the more common 'bazaar' of microservices and modular file structures, highlighting its benefits for cognitive flow and individual craftsmanship."
+
+{% endraw %}

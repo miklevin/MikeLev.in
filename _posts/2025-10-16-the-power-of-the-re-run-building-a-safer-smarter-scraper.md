@@ -15,6 +15,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry reflects on a pivotal moment in our development journey: transforming a destructive web scraping operation into a robust, idempotent process. It highlights the critical importance of designing automated systems that can be re-run safely and efficiently, a foundational principle for building resilient digital tools and fostering a truly iterative development environment.
@@ -1027,3 +1030,5 @@ This entry effectively distills a crucial software engineering principle—idemp
 ### Next Step Prompts
 - Draft a follow-up article on how to apply the principle of idempotency to the AI enrichment (FAQ generation) step, ensuring that AI calls are cached and only re-run when inputs change, or when specific 'freshness' criteria are met.
 - Generate a markdown table summarizing common idempotent and non-idempotent operations in web development and data processing, along with best practices for achieving idempotency in each case.
+
+{% endraw %}

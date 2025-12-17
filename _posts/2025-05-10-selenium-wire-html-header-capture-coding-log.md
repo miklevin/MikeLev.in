@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Understanding Web Automation and Data Persistence: Getting Started
 
 This article delves into the technical journey of developing a software tool, "Pipulate," designed for web automation. At its core, web automation involves using software to control a web browser to perform tasks automatically, such as navigating websites, extracting information, or interacting with web pages. The author is specifically focused on enabling Pipulate to "crawl" web pages—meaning systematically visit them and collect data like the page's source code (HTML), the way it looks after JavaScript has run (the DOM), and technical details about the server's response (headers).
@@ -732,3 +735,5 @@ report back soon!
 The article offers a valuable and transparent look into the iterative development process of a complex software feature, particularly concerning web automation and data persistence. Its strength lies in its detailed, real-time chronicling of problem-solving, including interactions with an AI assistant, and the practical application of software engineering principles.
 
 For its likely primary audience (the author, collaborators, or developers working on very similar problems with Pipulate or related technologies), the clarity is high due to shared context. However, for a broader technical audience unfamiliar with Pipulate or the specific "WET Workflow" paradigm, the text would require significant contextualization to be fully understood. The conversational and journal-like format, while authentic, makes it less directly useful as a tutorial or standalone technical documentation without further editing and structuring. Its current value is highest as a detailed development log and a case study in applying specific technologies and design philosophies to a real-world problem. The candid discussion of rollbacks and iterative refinement is a particularly useful insight into the realities of software development.
+
+{% endraw %}

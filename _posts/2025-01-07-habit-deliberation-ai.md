@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Decision Making and Daily Life
 
 Everything you do during the course of the day is some sort of decision or
@@ -348,3 +351,5 @@ I notice it contains some HTML entities (—) which appear to be em dashes. If t
 
 > And of course Claude ends with some practical coding advice, ahaha! I'll
 > eventually have to do a global search & replace on my em-dash codes.
+
+{% endraw %}

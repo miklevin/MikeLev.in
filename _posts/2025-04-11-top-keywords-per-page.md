@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 What you will witness here is a perfect example of modern development practices, where AI and human collaborate to achieve increasingly refined solutions. We start with a clear goal — enhancing search functionality and SEO with real-world search data — and approach it through carefully planned, incremental steps.
 
 The journey takes us through:
@@ -1279,3 +1282,5 @@ Okay, here is the analysis and generated content based on the provided article t
 
 * **AI Opinion:** The article provides a high-quality, detailed walkthrough of a practical development task enhanced by AI collaboration. Its strength lies in its transparency, showing the iterative nature of coding and debugging, especially when integrating different systems (GSC API, Python, Jekyll, Liquid, Lunr.js). While dense, it's highly valuable for developers working with Jekyll who want to leverage GSC data or see a realistic example of AI-assisted development. The clarity is generally good within each step, though the overall length and mix of formats require reader focus. It serves as an excellent case study and practical guide for its specific niche.
 
+
+{% endraw %}

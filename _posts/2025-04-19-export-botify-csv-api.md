@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Real-Time Development of Pipulate for SEO
 
 This article documents the real-time development process of a feature within a software project called "Pipulate," designed for Search Engine Optimization (SEO) tasks. 
@@ -5499,3 +5502,5 @@ The primary areas for potential future improvement revolve around enhancing user
 **AI Opinion:**
 
 This article offers significant value as a detailed, practical log of developing a specific, non-trivial software feature involving external API integration (Botify) and heavy AI assistance. Its strength lies in documenting the iterative process, the specific technical hurdles encountered (like BQL intricacies, API limits, state management in a custom framework), and comparing AI assistant outputs. While its raw, journal-style format makes it dense and potentially requires prior context about Pipulate or Botify for full comprehension, it serves as an excellent case study for developers working on similar integrations or those interested in the practical application and comparison of different AI coding tools. The later sections detailing the Botify API modes and the export registry add considerable technical depth.
+
+{% endraw %}

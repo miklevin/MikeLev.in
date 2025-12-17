@@ -17,6 +17,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this entry, we step back from the specific technical challenges to reflect on the meta-challenge: how we interact with and learn from AI in the development process. This particular interaction highlights an alternative paradigm for AI coding assistance—one less about immediate task completion and more about profound developer education and maintaining intimate control over the evolving codebase. It underscores the critical role of human comprehension even as AI capabilities expand, illustrated through an iterative refinement of verbose logging.
@@ -1194,3 +1197,5 @@ This entry offers a compelling argument for a human-in-the-loop AI coding assist
 ### Next Step Prompts
 - Elaborate on the 'Kung Fu drop' and 'time-traveling prompt technique' by providing concrete examples of how they are applied in practice to manage AI context effectively across different coding challenges.
 - Develop a brief tutorial or workflow example demonstrating how a developer might transition from a fully automated AI tool to a 'tutor' AI model for a specific, non-trivial coding task, highlighting the experienced benefits in understanding and control.
+
+{% endraw %}

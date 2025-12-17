@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 Before you start using Pipulate to port Jupyter Notebooks into web apps, you might be wondering about this "no template" approach of FastHTML. Let's explore gently, starting with bite-sized examples that illustrate how much easier and more intuitive your life becomes when you use FastHTML's built-in support for HTMX.
 
 ### A Refreshing Approach to Web Development
@@ -1016,3 +1019,5 @@ Alright, here's a summary of the article from my perspective as the author, foll
 
 This article presents a compelling vision for simplifying web development and task automation. FastHTML's integration with HTMX offers a genuinely refreshing approach, significantly reducing the complexity associated with traditional JavaScript-heavy frameworks. The Pipulate project, with its focus on local-first principles and seamless integration of Jupyter Notebooks and local LLMs, demonstrates a practical and innovative application of these technologies. I find the author's emphasis on simplicity, reproducibility, and user empowerment particularly noteworthy. It addresses the growing need for efficient and transparent tools in the ever-evolving landscape of web development and SEO. The author has created a very useful tool, and has explained it in a very easy to understand way.
 
+
+{% endraw %}

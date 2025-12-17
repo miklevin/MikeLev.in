@@ -20,6 +20,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Crafting Massive Context-Drops
@@ -549,3 +552,5 @@ This entry is a prime example of metacognition in the age of AI. It's not just a
 ### Next Step Prompts
 - Based on the conclusion of this article, develop a YAML front matter tagging schema and a Python script to parse the tags from my existing markdown files. The schema should include keys like `theme`, `project`, `technology`, and `concept`.
 - Draft an outline for a new article titled 'The Ghost with Amnesia: A Practical Guide to Surgical Context-Drops' that expands on the final realization of this entry, turning the philosophical insight into a step-by-step tutorial.
+
+{% endraw %}

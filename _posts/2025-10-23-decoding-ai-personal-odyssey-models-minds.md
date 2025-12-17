@@ -20,6 +20,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 For the curious book reader, this journal entry charts a pivotal personal journey through the rapidly accelerating landscape of Artificial Intelligence. It unpacks the distinctions between early AI models and their conversational counterparts, confronts the financial implications of reliance on proprietary tools, and lays the foundation for a philosophy of computational sovereignty. This narrative illustrates the author's deep dive into understanding AI's inherent nature, its emerging 'personalities,' and the strategic shift towards leveraging open-source and free-tier solutions to maintain agency in the Age of AI. It's a testament to adaptive thinking, moving from initial excitement to pragmatic, self-reliant engagement with this transformative technology.
@@ -363,3 +366,5 @@ This journal entry is an invaluable cornerstone for the 'Pipulate' book. It not 
 ### Next Step Prompts
 - Detail specific 'decloudification projects' and their outcomes, providing actionable blueprints for achieving greater computational sovereignty using FOSS tools and self-hosted solutions.
 - Elaborate on 'Prompt Fu' techniques, offering concrete, categorized examples of advanced prompt engineering strategies that exploit the insights gained about AI personalities and amnesia, translating theory into practical application.
+
+{% endraw %}

@@ -17,6 +17,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry begins with a granular technical challenge—simplifying a Python library's API to make it more intuitive for users. It quickly evolves into a profound exploration of the author's partnership with an AI assistant. As the AI generates a detailed, step-by-step refactoring plan, the author reflects on the nature of AI 'hallucination' versus high-fidelity simulation. This leads to a breakthrough: adopting a new workflow of 'intellectual warmup' before coding and physically integrating the writing process into the development repository to accelerate the feedback loop between thinking, documenting, and doing.
@@ -707,3 +710,5 @@ This entry is exceptional because it transcends a simple coding log. It document
 ### Next Step Prompts
 - Based on the new 'mental simulation' workflow, draft a short manifesto or set of principles for effective human-AI collaboration in software development.
 - Take the refactored `pip.read()` and `pip.write()` pattern and create a new, simple tutorial article that demonstrates its use, targeted at a user who is new to the Pipulate library.
+
+{% endraw %}

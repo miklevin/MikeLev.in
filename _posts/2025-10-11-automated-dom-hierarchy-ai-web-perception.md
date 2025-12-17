@@ -18,6 +18,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Enhancing AI's Web Perception with DOM Hierarchy
@@ -733,3 +736,5 @@ This entry marks a pivotal advancement in establishing a more holistic web perce
 ### Next Step Prompts
 - Draft the next journal entry focusing on 'Implementing the Accessibility Tree Extraction,' drawing heavily from the `mcp_tools.py` fossil and explaining the importance of the accessibility tree for AI's web interaction.
 - Generate a detailed analysis of how the newly integrated DOM hierarchy (and upcoming accessibility tree) could be leveraged by the AI agent for specific tasks, providing concrete examples of improved decision-making and interaction strategies.
+
+{% endraw %}

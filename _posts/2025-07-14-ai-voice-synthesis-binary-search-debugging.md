@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry offers a profound glimpse into a unique software development philosophy: treating collaboration with AI not as mechanical "prompt engineering," but as an act of continuous storytelling. The author posits that because Large Language Models (LLMs) are essentially "woken up from a stupor" with amnesia in every new session, the developer's primary duty is to build a rich, coherent world for them to inhabit. This is achieved through a methodology the author calls the "yellow brick road"—a linear, narrative-driven development path where each new feature is a step on an adventure.
@@ -1225,3 +1228,5 @@ The debugging session is the heart of the narrative. It showcases a masterful ex
 2.  **Task Suggestion 2:** Brainstorm the Next Chapter of the Adventure
     * **Potential Prompt Snippet for Next AI:** "The author has completed the 'Scarecrow' (brains), 'Tin Man' (heart), and 'Lion' (courage/voice) stages of the 'Yellow Brick Road.' Based on the original story, what is the next logical stage of the journey (e.g., 'The Emerald City,' 'Meeting the Wizard')? Brainstorm 2-3 potential themes for this next stage and suggest a corresponding core technical feature that would align with each theme."
 
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the heart of a sophisticated engineering challenge: creating a robust defense against AI-induced code regressions. After experiencing a frustrating "rollback" where an AI assistant discarded recent, valuable progress, the focus shifts to understanding *why* this happens. The author posits it's due to the AI's lack of "living memory," causing it to revert to older, safer-looking commits in the project's `git` history when faced with complexity.
@@ -940,3 +943,5 @@ What makes this material so valuable for a book is its raw authenticity combined
 2.  **Task Suggestion 2:** Expand the `demo_script_config.json` with a new branch that demonstrates a full CRUD (Create, Read, Update, Delete) cycle on a product feature, as envisioned by the author.
     * **Potential Prompt Snippet for Next AI:** "Based on the existing `demo_script_config.json` structure, create a new branch named `branch_crud_profile`. This branch should contain a sequence of `mcp_tool_call` and `system_reply` steps that demonstrate creating a new user profile, viewing it, updating it, and finally deleting it, with descriptive dialogue for each action."
 
+
+{% endraw %}

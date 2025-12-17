@@ -18,6 +18,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry delves into the Articulate Ape's unique philosophy of tools and workflow, particularly how physical ergonomics and disciplined AI integration are paramount for maintaining a deep flow-state. It explores the 'No-Gooey' approach to digital interfaces, contrasting 'Bouba' (gooey, disruptive) and 'Kiki' (prickly, flow-enhancing) interactions. From the 'whack-a-mole' Pomodoro timer to the `vim` `Esc` key, the author outlines a 'Jiu-Jitsu' methodology for taming both physical and digital environments. This piece is important to know in the Age of AI, revealing a blueprint for craftsmen seeking to optimize their interaction with technology without succumbing to 'architecture astronaut' pitfalls or the 'Bazaar's' pressure to conform. It's a treatise on maintaining individuality and focus amidst ever-evolving tools.
@@ -593,3 +596,5 @@ This entry is a pivotal exposition of the author's entire 'LPvg NoSys' philosoph
 ### Next Step Prompts
 - Generate a detailed outline for a chapter titled "The Jiu-Jitsu of the Keyboard" that expands on the tactile ergonomics, AI integration, and No-Gooey philosophy discussed in this article.
 - Draft a blog post summarizing the "Kung Fu vs. Jiu-Jitsu" analogy in tool selection, specifically targeting a non-technical audience interested in productivity and workflow optimization.
+
+{% endraw %}

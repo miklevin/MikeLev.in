@@ -22,6 +22,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In the continuing saga of building Pipulate, our "forever machine" designed to empower digital sovereignty, we often encounter fascinating challenges that reveal deeper truths about AI collaboration. This entry dives into a recent adventure—a frustrating "zombie demo" that refused to yield to our will. What began as a simple bug in a keyboard shortcut, ultimately became an important proving ground for our methodology of "context painting" and the precision required when working with AI agents to debug and refine complex, self-referential systems. It’s a testament to the fact that even minor details in a system can hold profound lessons about orchestrating intelligence, both human and artificial, into a coherent tapestry of automation and understanding.
@@ -1308,3 +1311,5 @@ This entry serves as a compelling case study in advanced AI-assisted debugging a
 ### Next Step Prompts
 - Develop a markdown template for new Pipulate features that includes sections for 'Scenario JSON' (for `hello_workflow_test.json`-like files), 'Verification Steps,' and 'AI Training Context,' formalizing the '7 Birds with 1 Stone' approach for new development.
 - Create a short video or interactive tutorial demonstrating the fixed `Ctrl+Alt+Shift+S` functionality, showing the instantaneous execution of `hello_workflow_test.json` and contrasting it with the `Ctrl+Alt+D` Oz transition for `introduction.json`, emphasizing the user experience implications of this fix.
+
+{% endraw %}

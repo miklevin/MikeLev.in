@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 **Me**: Six-click-ease-of-surfin-bacon
 
 **Claude**: I apologize, but I do not understand the meaning of "six-click-ease-of-surfin-bacon". This does not seem to be a clear, coherent request that I can respond to. Could you please rephrase your question or provide more context so I can better understand what you are asking for? I'm happy to try and assist, but need a bit more information to work with.
@@ -574,3 +577,5 @@ getting too distracted by chasing the wrong rabbits down the wrong rabbit holes.
 
 ### Final Thoughts
 Okay, that's it for this one. Refocus and recalibrate. It's a new day.
+
+{% endraw %}

@@ -16,6 +16,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry chronicles a detailed, iterative refinement of `prompt_foo.py`, a critical tool within the Pipulate ecosystem. The focus is on enhancing its ability to generate concise, token-efficient AI prompts, particularly in a 'context-only' mode, while providing real-time transparency on token usage for generated codebase overviews. This refinement embodies the "chisel-strike" development philosophy, demonstrating how small, precise changes lead to significant improvements in AI-native development workflows.
@@ -2576,3 +2579,5 @@ This journal entry is a vital demonstration of the core tenets of AI-native deve
 ### Next Step Prompts
 - Refine `PromptBuilder.print_summary` to also display token counts for the user prompt and AI checklist separately, in addition to the existing breakdowns.
 - Explore adding a `--dry-run` or `--estimate` flag to `prompt_foo.py` that would calculate and display all token counts (manifest, auto-context, file contents, prompt, checklist) without actually generating the full prompt or copying to clipboard, allowing users to gauge cost.
+
+{% endraw %}

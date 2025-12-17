@@ -16,6 +16,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### A Tale of Two Worlds (App vs. Notebook)
@@ -685,3 +688,5 @@ This entry is a cornerstone piece. It masterfully bridges the gap between abstra
 ### Next Step Prompts
 - Based on the final solution in the article, generate a Mermaid sequence diagram illustrating the call flow for `pip.set()` in the Notebook context. Show how the `fastlite` object is configured on initialization and how the `upsert` operation successfully creates or updates a record without prior schema knowledge.
 - Draft a standalone blog post titled 'The Two Worlds Problem: Ensuring Consistent Behavior in Server and Standalone Python Scripts' using the core concepts from this journal entry, but targeted at a general Python developer audience who may not be familiar with Pipulate.
+
+{% endraw %}

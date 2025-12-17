@@ -18,6 +18,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry plunges you into the final, treacherous mile of a major software refactoring project. I'm on the cusp of a huge win—extracting a core component of my application—but the finish line is guarded by a swarm of tedious, error-prone edits across dozens of files. My solution? A custom Python script, a 'magic wand' designed to automate the work in seconds. This is the story of wielding that script, celebrating its raw power, and then immediately descending into a debugging rabbit hole to fix the chaos it unintentionally created. It's a real-world look at the power and peril of automation, and the developer perseverance required to see a complex task through to completion.
@@ -1134,3 +1137,5 @@ This entry is a masterclass in authentic technical storytelling. It moves beyond
 ### Next Step Prompts
 - Based on the `runme.py` script and the `SyntaxError` it caused, generate an improved version of the script that attempts to avoid modifying code inside multi-line f-strings or other string literals. Explain the new regex patterns and their limitations.
 - Analyze the dependency conflicts mentioned (`protobuf`, `blinker`). Write a short tutorial on using tools like `pipdeptree` or `nix` to diagnose and resolve such conflicts in a Python project, using the examples from this article.
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry serves as the philosophical cornerstone for Pipulate, a local-first web framework designed for a new era of development. It directly challenges the long-standing "DRY" (Don't Repeat Yourself) principle, advocating instead for a "WET" (Write Everything Twice) approach. The author argues that modern tools, particularly Jupyter Notebooks for exploration and AI for maintenance, have fundamentally changed the trade-offs between abstract, reusable code and explicit, readable code. By leveraging technologies like FastHTML and HTMX to eliminate traditional JavaScript frameworks and templating languages, Pipulate aims to create a simpler, more transparent, and future-proof environment for building applications directly on your own machine. This text explains the "why" behind Pipulate's seemingly unconventional architecture.
@@ -395,3 +398,5 @@ The "in-the-moment" journal style is a feature, not a bug. With light editing to
 2.  **Task Suggestion 2:** Draft a "Principle in Practice" Section.
     * **Potential Prompt Snippet for Next AI:** "Review the provided text and the Pipulate README. Draft a short, practical section titled 'WET in Action: The Hello World Workflow'. Explain how the `step_01` and `step_02` methods in the `HelloFlow` class exemplify the WET philosophy of explicit, readable, and self-contained logic."
 
+
+{% endraw %}

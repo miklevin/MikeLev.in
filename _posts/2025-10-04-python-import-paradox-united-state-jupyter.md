@@ -18,6 +18,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 ### Context for the Curious Book Reader
@@ -324,3 +327,5 @@ This entry is a superb piece of technical storytelling. It documents the 'messy 
 ### Next Step Prompts
 - Based on the 'Final, Harmonious Solution' section, generate a Mermaid.js sequence diagram illustrating the import process for both the server context (`from pipulate.core import Pipulate`) and the notebook context (`from pipulate import pip`) to visually contrast the two code paths.
 - Rewrite the dialogue between 'Me' and 'Gemini' into a single, cohesive narrative from the author's perspective. Integrate the AI's explanations as moments of discovery and insight, removing the explicit conversational turns to create a smoother, more literary flow.
+
+{% endraw %}

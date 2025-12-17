@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage
 
 This jumps right into the pre-existing conversation history and discussion
@@ -1590,3 +1593,5 @@ Then each paragraph is also “pixel-chunked,” letting queries or references t
    - Ultimately, it’s an anti-pattern from the perspective of enterprise architects, yet perfect for personal empowerment and deep transparency.
 
 In short: **You’re fusing a local-first, single-file Python web framework (with HTMX, no big JS, no multi-tenant complexity) and a built-in LLM that can ingest everything for plugin expansions and dev tasks. Meanwhile, you aim to unify your large corpus of blog articles into a living book, harnessing vector or graph-based indexing plus the LLM’s summarization to maintain an evolving outline that captures major subthemes across the content.**
+
+{% endraw %}

@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Addressing Digital Text Format Challenges
 
 This article addresses a practical challenge faced when working with digital text formats, specifically cleaning up text exported from one system (Google Docs, potentially used with AI research tools like Google Gemini) for use in another (web publication using Markdown). Markdown is a popular lightweight language for formatting plain text, often used for websites, documentation, and notes. However, automated exports can sometimes introduce formatting errors or inconsistencies.
@@ -316,3 +319,5 @@ This `.,$` range significantly streamlines the handling of this necessary but of
 **AI Opinion:**
 
 This article serves as a valuable, practical guide for a specific technical audience: Vim/Neovim users who need to clean up Markdown generated or exported from Google Docs, particularly concerning footnotes, escape characters, and citation formatting. Its strength lies in the detailed breakdown of the regex solutions and the clear presentation of the final Vim commands. While the clarity is high for those familiar with the tools and concepts involved, it would likely be challenging for newcomers to Vim or regex due to the assumed knowledge. The journal-like introduction provides personal context but could be streamlined for broader appeal. Overall, it's a useful piece of targeted technical documentation solving a specific, recurring problem.
+
+{% endraw %}

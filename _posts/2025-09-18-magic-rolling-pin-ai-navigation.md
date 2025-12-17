@@ -21,6 +21,9 @@ layout: post
 sort_order: 5
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 In this technical journal entry, I explore a core challenge in the age of AI agents: website navigability. I introduce a concept I'm calling the 'Magic Rolling Pin,' guided by a 'Rule of 7,' to combat the prevalent 'Deathstar' problem where flat, heavily cross-linked navigation structures confuse both humans and bots. The piece details my evolving thoughts on using this principle to restructure information, not just in software repositories but for entire websites, making them logically traversable. I document my conversation with an AI, critically examining the assumptions and potential of this approach, including using Hierarchical Agglomerative Clustering to create stable, SEO-friendly navigational hubs. This is a blueprint for a future where websites are designed for efficient AI interaction.
@@ -428,3 +431,5 @@ This is a high-potential piece that sits at the intersection of information arch
 ### Next Step Prompts
 - Based on the 'Magic Rolling Pin' journal entry, draft a technical outline for a Python script that would perform the Hierarchical Agglomerative Clustering. Specify the necessary libraries (e.g., scikit-learn, spaCy), the key functions (e.g., `fetch_content`, `generate_embeddings`, `create_clusters`, `label_clusters`), and the expected inputs and outputs for each function.
 - Expand on the concept of 'cluster labeling.' Write a detailed section explaining three different programmatic approaches to naming the content hubs, analyzing the pros and cons of each method (e.g., TF-IDF keyword extraction, abstractive summarization with a transformer model, title/heading analysis).
+
+{% endraw %}

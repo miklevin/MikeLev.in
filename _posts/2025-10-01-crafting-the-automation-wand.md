@@ -17,6 +17,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry is a raw, real-time log of a developer's morning spent wrestling a seemingly simple task into submission: automating the process of editing and publishing a journal entry like this one. It begins with a philosophical framing of software development as modern-day magic-crafting and quickly descends into a technical rabbit hole. Follow along to see the authentic, often frustrating, back-and-forth of debugging AI command-line tools, navigating corporate API key hurdles, and untangling the notorious complexities of Python's 'dependency hell' within a NixOS environment. This is a ground-level view of what it truly takes to build a robust tool.
@@ -2374,3 +2377,5 @@ This entry is a masterclass in 'showing, not telling.' Instead of just describin
 ### Next Step Prompts
 - Based on the final `articleizer.py` script, generate a concise tutorial-style blog post titled 'How to Automate Gemini API Calls with Python for Content Workflows,' explaining the key steps of API key management and making a direct API call.
 - Write a short, reflective piece from the author's perspective on the theme 'Why Conversational AI CLIs Are Failing Developers,' using the frustrating experience with the `gemini` command-line tool as the central example.
+
+{% endraw %}

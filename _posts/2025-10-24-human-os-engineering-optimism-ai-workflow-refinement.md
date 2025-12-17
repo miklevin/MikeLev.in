@@ -22,6 +22,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry from the author's technical journal delves into the evolving landscape of AI, positioning conversational AI as the "new OS." It reflects on the human role in an AI-driven world, contrasting pessimistic narratives with an engineer's evidence-based optimism. The author also shares practical insights into refining Python development workflows, including significant architectural changes to project structure for improved ergonomics and clarity for AI Education (AIE) practitioners.
@@ -383,3 +386,5 @@ This journal entry is a brilliant piece that transcends a mere technical update.
 ### Next Step Prompts
 - Develop a detailed guide for setting up the refactored Jupyter Notebooks project structure, including best practices for `imports/` and `_config.py`, suitable for new AI Engineers.
 - Expand on the concept of `t-string` in Python 3.14, providing code examples and use cases demonstrating its benefits for secure templating and prompt engineering within AI pipelines.
+
+{% endraw %}

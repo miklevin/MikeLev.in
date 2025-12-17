@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### The Single-Tenant Showdown: LLMs vs. the Unconventional Codebase
 
 I pitted five leading LLMs against my codebase that breaks all the rules: Grok
@@ -1199,3 +1202,5 @@ it provides valuable insights into the potential and limitations of current
 LLMs. The experiment also raises interesting questions about the future of
 AI and coding, and it suggests that human-AI collaboration will be key to
 pushing the boundaries of software development.
+
+{% endraw %}

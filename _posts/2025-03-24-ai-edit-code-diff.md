@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 AI helped me code and I need to see the ***difference*** between the before and
 after. Thankfully, there's been a program called **diff** around in Unix (and
 thus Linux too) forever. However, it only lets you see the actual difference
@@ -677,3 +680,5 @@ Here are some ideas for titles and headlines:
 * Level Up Your Code Review: See Exactly What Your AI Has Modified
 
 My opinion of the article is that it provides a practical and valuable solution for developers who are increasingly using AI for code generation. The author clearly articulates the problem with traditional diff tools in this context and offers a well-explained, step-by-step method to achieve a more intuitive visual comparison. This technique not only aids in understanding the specific changes made by AI but also simplifies the process of reviewing and publishing these modifications. The inclusion of a real-world example further enhances the article's usefulness and makes the described method immediately applicable.
+
+{% endraw %}

@@ -16,6 +16,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Context for the Curious Book Reader
 
 This journal entry marks a significant turning point in my methodology for collaborating with AI. It's a raw, in-the-moment rejection of the now-dominant 'chat' paradigm for AI interaction, which I argue fosters ambiguity and uncurated context. Instead, I document my deliberate return to the command line, rediscovering the profound power and clarity of the Unix pipe philosophy. The entry details the practical and philosophical reasons for architecting precise, self-contained prompts, effectively turning the AI's inherent 'amnesia' from a frustrating bug into a feature of a resilient, deterministic workflow. It culminates in a formal playbook, born from a real-world debugging session, for guiding agentic AI with surgical precision.
@@ -357,3 +360,5 @@ This entry is a powerful blueprint for a more deliberate and effective way of wo
 ### Next Step Prompts
 - Based on the 'SNEFU to ROFSA' playbook detailed in the text, draft a reusable, generic `prompt_template.md` file. This template should include markdown placeholders (e.g., ``, ``, ``) for all the key sections identified in the playbook, serving as a starting point for any future agentic CLI task.
 - Write a tutorial-style blog post titled 'Your First Agentic AI Workflow on the Command Line.' Use the principles from the journal entry to guide a user through setting up a simple project, writing a `prompt.md` file to instruct an AI (like Gemini CLI) to make a specific code change using `sed`, and verifying the result with `git diff`.
+
+{% endraw %}

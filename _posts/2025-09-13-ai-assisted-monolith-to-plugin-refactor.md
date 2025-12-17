@@ -8,6 +8,9 @@ layout: post
 sort_order: 3
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a critical phase in the architectural evolution of **Pipulate**, a software project designed for deep, ongoing collaboration with local AI agents. The author grapples with a common developer dilemma: the trade-off between large, self-contained code files that enhance personal workflow (`WET` code, or "Write Everything Twice") and modular, "plugin-style" systems that are often considered best practice. This specific session focuses on refactoring the system's **MCP (Machine Communication Protocol) tools**—the individual commands that AI agents use to interact with the application and the outside world.
@@ -1545,3 +1548,5 @@ The human-AI dynamic is particularly compelling. This is not a case of a human a
 2.  **Task Suggestion 2:** Create a Tutorial on the "Git Branch Takeover"
     * **Potential Prompt Snippet for Next AI:** "Using the author's terminal log as a reference, write a concise, step-by-step tutorial titled 'How to Safely Replace `main` with an Experimental Branch.' Explain each command (`git branch -M`, `git push --force`, `git push --delete`, and the `git config --unset-all` fix) and the rationale behind the workflow."
 
+
+{% endraw %}

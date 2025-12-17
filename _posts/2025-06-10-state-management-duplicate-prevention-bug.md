@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry provides a window into the real-world debugging of Pipulate, a local-first application framework designed for creating sophisticated, AI-assisted workflows. At its core, Pipulate prioritizes server-side state management, using a simple key-value database (`DictLikeDB`) to avoid the complexities of typical web applications. The following deep dive chronicles the resolution of a subtle but critical bug that emerged from the interaction of two separate features: a new UI persistence mechanism and the existing system for displaying contextual welcome messages.
@@ -326,3 +329,5 @@ The "raw" format is a significant strength. A polished, after-the-fact write-up 
 2.  **Task Suggestion 2:** Distill the Core Principle
     * **Potential Prompt Snippet for Next AI:** "Review the 'Elegant Trap' case study provided. Formulate this specific debugging story into a general software development principle, suitable for a 'Key Takeaway' box in a tech book. Title the principle 'The Peril of Persistent Session State in Development' and explain how state that outlives a process can violate developer expectations, especially during frequent reboots in a dev environment."
 
+
+{% endraw %}

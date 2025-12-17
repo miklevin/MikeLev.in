@@ -20,6 +20,9 @@ layout: post
 sort_order: 6
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a critical phase in the Pipulate project: the journey to achieve truly undetectable browser automation. Initially a raw exploration of challenges with `selenium-stealth` and `selenium-wire`, it evolves into a comprehensive research report detailing modern bot detection techniques across client-side, network, and behavioral layers. Culminating in a strategic implementation plan, this article advocates for `undetected-chromedriver` as the core stealth engine, highlights the critical limitations of `selenium-wire` for high-stealth scenarios, and outlines crucial operational practices within a Jupyter Notebook environment. It's a foundational blueprint for resilient web scraping.
@@ -923,3 +926,5 @@ This article represents a highly valuable, well-researched, and actionable bluep
 ### Next Step Prompts
 - Generate specific code examples for the 'destructor-constructor' pattern in `secretsauce.py` to manage WebDriver instances safely with `%autoreload`.
 - Provide detailed `undetected-chromedriver` setup code, including authenticated proxy configuration within `scraper_tools.py` as a replacement for `selenium-wire`'s proxy handling for high-stealth mode.
+
+{% endraw %}

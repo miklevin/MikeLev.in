@@ -18,6 +18,9 @@ layout: post
 sort_order: 4
 ---
 
+{% raw %}
+
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry chronicles the practical development of `URLinspector`, a novel tool for SEO auditing in the evolving AI-first web. It highlights the power of sequential workflows, inherited from the `FAQuilizer` project, to simplify complex tasks and build reproducible systems. The narrative also delves into the important role of overcoming "mental blocks" through strategic re-contextualization and the philosophical underpinnings of efficient system design, drawing parallels from the Tuvix persona, Conway's Law, and Gall's Law, all to empower the reader in their own journey of building robust AI-driven tools.
@@ -578,3 +581,5 @@ This journal entry is a fascinating and highly instructive blueprint, encapsulat
 ### Next Step Prompts
 - Draft a technical explanation of how `_get_urls_from_notebook` works within `faq_writer_sauce.py`, detailing its process for extracting URLs and the anticipated modifications needed for `url_inspect_sauce.py`.
 - Generate a mock implementation for `url_inspect_sauce.py`, focusing on the initial setup, a placeholder for the URL inspection logic (e.g., using `BeautifulSoup` to extract basic SEO tags), and ensuring it correctly uses the specified `url-list-input` from `URLinspector.ipynb`.
+
+{% endraw %}

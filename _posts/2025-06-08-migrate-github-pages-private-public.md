@@ -8,6 +8,9 @@ layout: post
 sort_order: 2
 ---
 
+{% raw %}
+
+
 ### Setting the Stage: Context for the Curious Book Reader
 
 This case study documents a real-world workflow for migrating a Jekyll-based website from a private to a public GitHub repository, a common task often prompted by changes in service tiers or a shift in development philosophy. The narrative begins with a practical problem—a broken deployment pipeline for a GitHub Pages site—and quickly evolves into a strategic decision to embrace open-source principles over paid services.
@@ -634,3 +637,5 @@ The human-AI dynamic is particularly noteworthy. The developer doesn't just ask 
 2.  **Task Suggestion 2:** Draft a "Lessons Learned" Section.
     * **Potential Prompt Snippet for Next AI:** "Analyze the provided technical journal entry and synthesize the key technical and philosophical takeaways into a 'Lessons Learned' section for a book. Focus on three main areas: diagnosing deployment failures, safely executing destructive Git commands, and the strategic benefits of open-sourcing personal projects."
 
+
+{% endraw %}

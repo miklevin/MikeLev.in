@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 **Me**: Tell me everything you can about this codebase: [codebase pasted]
 
 **o1**: Below is a comprehensive, in-depth explanation of the provided codebase. We will break it down into conceptual layers and walk through its purpose, structure, modules, classes, and functionalities. This detailed analysis covers:
@@ -1573,3 +1576,5 @@ creative human-like style.
 **Me**: How many lights are there?
 
 **o1**: “There are four lights.”
+
+{% endraw %}

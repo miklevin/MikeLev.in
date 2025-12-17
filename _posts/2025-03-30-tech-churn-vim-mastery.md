@@ -8,6 +8,9 @@ layout: post
 sort_order: 1
 ---
 
+{% raw %}
+
+
 ## The Unshakeable Foundation: Why Terminal Skills and Vi(m) Endure
 
 > Deja vu? Why, yes! This article is an extraction of the prior one where my tangent on the enduring value of terminal skills and vi/vim clearly deserved its own spotlight, separate from the nitty-gritty of macro conversion.
@@ -85,3 +88,5 @@ Okay, here are the requested items:
 This article presents a compelling and strongly argued case for the enduring value of terminal proficiency and vi/vim skills. It effectively taps into the real frustration many technologists feel with the rapid obsolescence of tools and the associated cost of retraining muscle memory ("macro phantom limbs" is a particularly evocative phrase). The author uses historical examples (like Eclipse) and critiques of modern tools (like VSCode's dependencies) effectively to bolster the argument that even dominant platforms aren't immune to "tech churn."
 
 The core arguments—that terminal/vi skills are ubiquitous, adaptable ("graceful degradation"), resource-efficient, and fundamental because "all tech is text"—are well-articulated and persuasive. The slightly curmudgeonly but pragmatic tone resonates as authentic, reflecting a common sentiment among experienced practitioners. While decidedly opinionated, the article successfully elevates the discussion beyond mere preference, framing the choice as a strategic investment in long-term, foundational competence versus chasing ephemeral trends. It's a well-written piece that effectively champions a specific philosophy of tool mastery in the tech world.
+
+{% endraw %}
