@@ -457,11 +457,11 @@ async def handle_chat_message(self, websocket: WebSocket, message: str):
             <script>
                 testAlert("First we'll show this alert...");
                 const contentDiv = document.getElementById('content-container');
-                {% raw %}if (contentDiv) {{
+                if (contentDiv) {{
                     testAlert("Found the content container!");
                 }} else {{
                     testAlert("Could not find content container");
-                }}{% endraw %}
+                }}
             </script>
             """
             await websocket.send_text(test_script)
@@ -610,10 +610,10 @@ async def handle_chat_message(self, websocket: WebSocket, message: str):
             <script>
                 testAlert("Creating {card_type} card in {target_id}...");
                 const targetDiv = document.getElementById('{target_id}');
-                {% raw %}if (!targetDiv) {{
+                if (!targetDiv) {{
                     testAlert("Target container not found!");
                     return;
-                }}{% endraw %}
+                }}
                 
                 // Create different card types based on parameter
                 const card = document.createElement('div');
@@ -621,7 +621,7 @@ async def handle_chat_message(self, websocket: WebSocket, message: str):
                 card.style.margin = '10px';
                 
                 // Different content based on card_type
-                {% raw %}switch('{card_type}') {{
+                switch('{card_type}') {{
                     case 'info':
                         // Info card implementation
                         break;
@@ -630,7 +630,7 @@ async def handle_chat_message(self, websocket: WebSocket, message: str):
                         break;
                     default:
                         // Default card implementation
-                }}{% endraw %}
+                }}
                 
                 targetDiv.appendChild(card);
             </script>

@@ -22,7 +22,7 @@ layout: post
 sort_order: 6
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry chronicles a critical phase in a software development project: the surgical refactoring of browser automation capabilities. For the curious reader, this piece delves into the practicalities of code decoupling, module isolation, and the strategic decision-making involved in transforming a complex, monolithic tool into a focused, maintainable component. Witness the 'bull in a china shop' approach to technical debt reduction and the immediate, tangible benefits of streamlining core functionalities, setting the stage for more robust and predictable system behavior. It's a real-world demonstration of how targeted refactoring, even with initial setbacks, can lead to a significantly improved architectural foundation.
@@ -3100,4 +3100,4 @@ This journal entry is a prime example of real-world technical problem-solving an
 ### Next Step Prompts
 - Draft the next journal entry focusing on modifying the `selenium_automation` function to perform generic scraping, building directly on the 'problem isolated' conclusion.
 - Generate a small code example of the *old* `advanced_automation_tools.py` function's sprawling nature to enhance the 'Context for the Curious Book Reader' section in a future revision.
-{% endraw %}
+

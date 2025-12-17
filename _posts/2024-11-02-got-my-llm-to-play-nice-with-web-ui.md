@@ -2493,9 +2493,9 @@ def create_chat_scripts(
     """
 
     combined_script = f"""
-    {% raw %}document.addEventListener('DOMContentLoaded', (event) => {{
+    document.addEventListener('DOMContentLoaded', (event) => {{
         // Existing code...
-    }});{% endraw %}
+    }});
 
     {test_script}
     """

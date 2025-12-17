@@ -474,7 +474,7 @@ everyone's favorite Swiss Army Knife and the poster-child package of using
 decorators for routing. FastAPI kicked Flask's butt when it was too slow to
 embrace async/await concurrency and mypy strict static typing. But still, even
 all them are... are... well, no better than PHP with their handlebar mustache
-nuncks curly braces {% raw %}`{{ foo }}`{% endraw %} all over the place, an
+nuncks curly braces `{{ foo }}` all over the place, an
 unsatisfying upgrade form PHP's short tags `<?= foo ?>`.
 
 Ultimately, Flask (or something pedantically copying it) became something you

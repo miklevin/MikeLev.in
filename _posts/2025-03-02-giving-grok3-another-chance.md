@@ -255,7 +255,7 @@ In a Flask app using Jinja2, you might have a setup like this:
 - A separate `index.html` template:
   ```html
   <div>
-      {% raw %}<p>{{ message }}</p>
+      <p>{{ message }}</p>
       <button>Click me</button>
   </div>
   ```
@@ -382,7 +382,7 @@ In a Flask app using Jinja2, you might have a setup like this:
 - A separate `index.html` template:
   ```html
   <div>
-      {% raw %}<p>{{ message }}</p>{% endraw %}
+      <p>{{ message }}</p>
       <button>Click me</button>
   </div>
   ```
@@ -1045,7 +1045,7 @@ class BaseFlow:
             if step.done != 'finalized':  # Skip finalize step
                 self.STEP_MESSAGES[step.id] = {
                     "input": f"Step {step.id}: Please enter {step.show}",
-                    {% raw %}"complete": f"{step.show} complete: <{{}}>. Continue to next step."{% endraw %}
+                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
                 }
 
         # Auto-register all routes
@@ -2552,7 +2552,7 @@ class Pipulate:
             next_step = steps[i]
             messages[step.id] = {
                 "input": f"Step {i}: Enter {step.show}",
-                {% raw %}"complete": f"{format_step_name(step.id)} complete. You entered &lt;{{}}&gt;. Continue to {next_step.id}."{% endraw %}
+                "complete": f"{format_step_name(step.id)} complete. You entered &lt;{{}}&gt;. Continue to {next_step.id}."
             }
 
         # Finalize step gets special ID-based state handling
@@ -2691,7 +2691,7 @@ class BaseFlow:
             if step.done != 'finalized':  # Skip finalize step
                 self.STEP_MESSAGES[step.id] = {
                     "input": f"Step {step.id}: Please enter {step.show}",
-                    {% raw %}"complete": f"{step.show} complete: <{{}}>. Continue to next step."{% endraw %}
+                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
                 }
 
         # Auto-register all routes
@@ -3373,7 +3373,7 @@ class LinkGraphFlow:
             (f"{prefix}/jump_to_step",    self.jump_to_step,   ["POST"]),
             (f"{prefix}/unfinalize",      self.unfinalize,     ["POST"]),
             (f"{prefix}/refresh_csvs",    self.refresh_csvs,   ["GET"]),
-            {% raw %}(f"{prefix}/delete/{{org:str}}/{{project:str}}/{{analysis:str}}", self.delete, ["DELETE"]){% endraw %}
+            (f"{prefix}/delete/{{org:str}}/{{project:str}}/{{analysis:str}}", self.delete, ["DELETE"])
         ]
         for path, handler, *methods in routes:
             method_list = methods[0] if methods else ["GET"]

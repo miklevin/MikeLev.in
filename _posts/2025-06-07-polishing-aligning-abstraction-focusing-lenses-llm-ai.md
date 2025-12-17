@@ -1624,7 +1624,7 @@ def get_dynamic_role_css():
 
 ->
 
-{% raw %}def get_dynamic_role_css():
+def get_dynamic_role_css():
     """Generate dynamic role CSS from centralized PIPULATE_CONFIG - single source of truth."""
     try:
         role_colors = PIPULATE_CONFIG.get('ROLE_COLORS', {})
@@ -1709,7 +1709,7 @@ def get_dynamic_role_css():
         
     except Exception as e:
         logger.error(f"Error generating dynamic role CSS: {e}")
-        return ""  # Fallback to static CSS if dynamic generation fails{% endraw %}
+        return ""  # Fallback to static CSS if dynamic generation fails
 ```
 
 Excellent! The three lens polishing refactors are now complete. Let me summarize what we've successfully accomplished:

@@ -268,7 +268,7 @@ Here are conceptual Liquid snippets illustrating how you might use this data:
 
 ```liquid
 
-{% raw %}{%- assign og_title = page.meta.og.title | default: page.title -%}
+{%- assign og_title = page.meta.og.title | default: page.title -%}
 {%- assign og_description = page.meta.og.description | default: page.description -%}
 {%- assign og_image_path = page.featured_image -%}
 
@@ -281,7 +281,7 @@ Here are conceptual Liquid snippets illustrating how you might use this data:
 {% endif %}
 {% if site.title %}
   <meta property="og:site_name" content="{{ site.title | escape }}">
-{% endif %}{% endraw %}
+{% endif %}
 
 ```
 
@@ -289,7 +289,7 @@ Here are conceptual Liquid snippets illustrating how you might use this data:
 
 ```liquid
 
-{% raw %}{%- assign twitter_title = page.meta.twitter.title | default: og_title -%}
+{%- assign twitter_title = page.meta.twitter.title | default: og_title -%}
 {%- assign twitter_description = page.meta.twitter.description | default: og_description -%}
 {%- assign twitter_image_path = page.featured_image -%}
 {%- assign twitter_site_handle = site.twitter_username -%}
@@ -309,7 +309,7 @@ Here are conceptual Liquid snippets illustrating how you might use this data:
   {% if page.meta.twitter.image_alt %}
     <meta name="twitter:image:alt" content="{{ page.meta.twitter.image_alt | escape }}">
   {% endif %}
-{% endif %}{% endraw %}
+{% endif %}
 
 ```
 
@@ -317,7 +317,7 @@ Here are conceptual Liquid snippets illustrating how you might use this data:
 
 ```liquid
 
-{% raw %}<script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting", {% comment %} Or Article {% endcomment %}
@@ -356,7 +356,7 @@ Here are conceptual Liquid snippets illustrating how you might use this data:
     {% endif %}
   }
 }
-</script>{% endraw %}
+</script>
 
 ```
 

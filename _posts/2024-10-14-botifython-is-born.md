@@ -2695,7 +2695,7 @@ Implement the logic to simulate long-running events, interact with the chatbot f
 **Implementation:**
 
 ```python
-{% raw %}
+
 async def chatq(message: str):
     """
     Queue a message for the chat stream.
@@ -2753,7 +2753,7 @@ async def stream_chat(prompt: str, quick: bool = False):
                 )
             await asyncio.sleep(TYPING_DELAY)
     logger.debug("Completed streaming chat response.")
-{% endraw %}
+
 ```
 
 **Explanation:**

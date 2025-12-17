@@ -508,7 +508,7 @@ The prompt template I'm working with:
     ═══════════════════════════════════════════════════════════════════════════════════════════════
     Hello Gemini.
 
-    You are waking up. Your mission is {% raw %}to {{CONCISELY_STATE_THE_HIGH_LEVEL_GOAL}}.{% endraw %}
+    You are waking up. Your mission is to {{CONCISELY_STATE_THE_HIGH_LEVEL_GOAL}}.
 
     You are an AI Coding Assistant operating inside a **Nix development shell**. Your work must be precise, incremental, and non-breaking.
 
@@ -531,15 +531,15 @@ The prompt template I'm working with:
 
     ### Current State and Critical Failure Analysis
 
-{% raw %}    * **Branch:** You are on the git branch: `{{GIT_BRANCH}}`.{% endraw %}
-{% raw %}    * **Last Known State:** {{Describe_the_last_successful_commit_or_the_current_state_of_the_relevant_files.}}{% endraw %}
-{% raw %}    * **Critical Failure Analysis:** {{If_this_is_a_retry,_paste_the_exact_error_message_from_the_previous_failed_run_here.}}{% endraw %}
+    * **Branch:** You are on the git branch: `{{GIT_BRANCH}}`.
+    * **Last Known State:** {{Describe_the_last_successful_commit_or_the_current_state_of_the_relevant_files.}}
+    * **Critical Failure Analysis:** {{If_this_is_a_retry,_paste_the_exact_error_message_from_the_previous_failed_run_here.}}
 
     ### The Implementation Plan
 
-{% raw %}    {{Break_the_mission_into_the_smallest_possible,_individually_committable_steps,_each_with_a_clear_action_and_a_pre-written_commit_message.}}{% endraw %}
-{% raw %}    * **Step 1: {{Descriptive_Title}}**{% endraw %}
-{% raw %}        * **Action:** {{Exact_tool_call_command}}{% endraw %}
+    {{Break_the_mission_into_the_smallest_possible,_individually_committable_steps,_each_with_a_clear_action_and_a_pre-written_commit_message.}}
+    * **Step 1: {{Descriptive_Title}}**
+        * **Action:** {{Exact_tool_call_command}}
         * **Commit Message:** `feat(scope): Short description of the change`
 
     ### Completion Protocol (Definition of Done)
@@ -549,7 +549,7 @@ The prompt template I'm working with:
     When you determine the task is complete, perform the following sign-off procedure:
 
     1.  Announce the successful completion of the entire plan.
-{% raw %}    2.  Run `git log -n {{number_of_steps}}` to display the successful commits as proof.{% endraw %}
+    2.  Run `git log -n {{number_of_steps}}` to display the successful commits as proof.
     3.  Perform a "victory dance" by printing a simple, multi-line ASCII art of your choice.
     4.  Terminate the session.
 
@@ -574,24 +574,24 @@ Here is a streamlined version of your agentic prompt. It's less about micromanag
 
     Hello Gemini.
 
-{% raw %}    Your mission is to **{{CONCISELY_STATE_THE_HIGH_LEVEL_GOAL}}**.{% endraw %}
+    Your mission is to **{{CONCISELY_STATE_THE_HIGH_LEVEL_GOAL}}**.
 
     You are an AI Coding Assistant. Assume you are operating in the correct environment with all necessary tools available.
 
     ### Mission Context
-{% raw %}    * **Primary File(s):** {{List the main files to be modified, e.g., `prompt_foo.py`}}{% endraw %}
-{% raw %}    * **Key Objective:** {{Briefly describe the core change, e.g., "Switch from XML output to Markdown."}}{% endraw %}
+    * **Primary File(s):** {{List the main files to be modified, e.g., `prompt_foo.py`}}
+    * **Key Objective:** {{Briefly describe the core change, e.g., "Switch from XML output to Markdown."}}
 
     ### Implementation Plan
     Follow these steps sequentially to complete the mission.
 
-{% raw %}    * **Step 1: {{Descriptive_Title_for_Step_1}}**{% endraw %}
-{% raw %}        * **Action:** {{Clear, specific instruction on what code to add, remove, or change.}}{% endraw %}
-{% raw %}        * **Reasoning:** {{Briefly explain why this step is necessary.}}{% endraw %}
+    * **Step 1: {{Descriptive_Title_for_Step_1}}**
+        * **Action:** {{Clear, specific instruction on what code to add, remove, or change.}}
+        * **Reasoning:** {{Briefly explain why this step is necessary.}}
 
-{% raw %}    * **Step 2: {{Descriptive_Title_for_Step_2}}**{% endraw %}
-{% raw %}        * **Action:** {{...}}{% endraw %}
-{% raw %}        * **Reasoning:** {{...}}{% endraw %}
+    * **Step 2: {{Descriptive_Title_for_Step_2}}**
+        * **Action:** {{...}}
+        * **Reasoning:** {{...}}
 
     * **Step N: ...**
 
@@ -778,7 +778,7 @@ off. Anyway here's the failure so far:
      │    = None) -> str:                                                                              │
      │        """Wrap content in XML tags with optional attributes."""                                 │
      │        attrs = " ".join(f'{k}="{v}"' for k, v in (attributes or {}).items())                    │
-{% raw %}     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │{% endraw %}
+     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │
      │                                                                                                 │
      │    def create_xml_element(tag_name: str, content: Union[str, List[str]], attributes:            │
      │    Optional[Dict[str, str]] = None) -> str:                                                     │
@@ -970,7 +970,7 @@ off. Anyway here's the failure so far:
      │    = None) -> str:                                                                              │
      │        """Wrap content in XML tags with optional attributes."""                                 │
      │        attrs = " ".join(f'{k}="{v}"' for k, v in (attributes or {}).items())                    │
-{% raw %}     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │{% endraw %}
+     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │
      │                                                                                                 │
      │    def create_xml_element(tag_name: str, content: Union[str, List[str]], attributes:            │
      │    Optional[Dict[str, str]] = None) -> str:                                                     │
@@ -988,7 +988,7 @@ off. Anyway here's the failure so far:
      │    = None) -> str:                                                                              │
      │        """Wrap content in XML tags with optional attributes."""                                 │
      │        attrs = " ".join(f'{k}="{v}"' for k, v in (attributes or {}).items())                    │
-{% raw %}     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │{% endraw %}
+     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │
      │                                                                                                 │
      │    def create_xml_element(tag_name: str, content: Union[str, List[str]], attributes:            │
      │    Optional[Dict[str, str]] = None) -> str:                                                     │
@@ -1020,7 +1020,7 @@ off. Anyway here's the failure so far:
      │    = None) -> str:                                                                              │
      │        """Wrap content in XML tags with optional attributes."""                                 │
      │        attrs = " ".join(f'{k}="{v}"' for k, v in (attributes or {}).items())                    │
-{% raw %}     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │{% endraw %}
+     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │
      │                                                                                                 │
      │    def create_xml_element(tag_name: str, content: Union[str, List[str]], attributes:            │
      │    Optional[Dict[str, str]] = None) -> str:                                                     │
@@ -1038,7 +1038,7 @@ off. Anyway here's the failure so far:
      │    = None) -> str:                                                                              │
      │        """Wrap content in XML tags with optional attributes."""                                 │
      │        attrs = " ".join(f'{k}="{v}"' for k, v in (attributes or {}).items())                    │
-{% raw %}     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │{% endraw %}
+     │        return f"<{tag_name}{{' ' + attrs if attrs else ''}}>{content}</{tag_name}>"             │
      │                                                                                                 │
      │    def create_xml_element(tag_name: str, content: Union[str, List[str]], attributes:            │
      │    Optional[Dict[str, str]] = None) -> str:                                                     │

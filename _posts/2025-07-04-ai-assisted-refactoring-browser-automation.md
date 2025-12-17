@@ -267,13 +267,13 @@ Now I can see the recipe structure - it's actually quite sophisticated! The prof
 - **Detailed step breakdown**: Each step has type, description, action, params, and immediate feedback
 - **Error handling**: Fallback selectors and retry strategies  
 - **Progressive feedback**: Screenshots, DOM snapshots, success/failure indicators
-{% raw %}- **Template variables**: `{{ timestamp }}`, `{{ profile_name }}` etc.{% endraw %}
+- **Template variables**: `{{ timestamp }}`, `{{ profile_name }}` etc.
 
 ## **What I Can See Might Be Broken**
 Looking at the recipe, I suspect the issues are:
 
 1. **Action Mismatch**: Recipe calls `browser_interact_enhanced` but MCP tools might not implement this properly
-{% raw %}2. **Template Processing**: The `{{ timestamp }}` variables need proper substitution{% endraw %}
+2. **Template Processing**: The `{{ timestamp }}` variables need proper substitution
 3. **Progressive Feedback**: The sophisticated feedback system might not be wired up correctly
 4. **State Management**: The `looking_at` directory updates might not be happening
 
@@ -335,7 +335,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from loguru import logger
 
 
-{% raw %}class BabyStepsRecipeExecutor:
+class BabyStepsRecipeExecutor:
     """
     🎯 Ultra-simple recipe executor that focuses on reliability.
     
@@ -632,7 +632,7 @@ from loguru import logger
                 'success': False,
                 'error': f'Failed to load recipe file: {str(e)}',
                 'recipe_path': recipe_path
-            }{% endraw %}
+            }
 
 
 # 🎯 BABY STEPS TEST FUNCTION
@@ -668,7 +668,7 @@ Read file: pipulate/browser_automation/baby_steps_recipe_executor.py
 Perfect! The baby steps executor looks excellent - much cleaner and more reliable than the original. It fixes all the key issues I identified:
 
 ## **✅ What the Baby Steps Executor Fixes:**
-{% raw %}1. **Template Processing**: Properly handles `{{ timestamp }}` variables with fallback defaults{% endraw %}
+1. **Template Processing**: Properly handles `{{ timestamp }}` variables with fallback defaults
 2. **Simple Architecture**: Clear, debuggable step execution 
 3. **Proper Cleanup**: Driver and temp files always cleaned up
 4. **Error Handling**: Simple but effective - stops on first failure
@@ -699,18 +699,18 @@ cd pipulate && .venv/bin/python browser_automation/baby_steps_recipe_executor.py
 
 I notice the template processing has a small bug - it shows:
 ```
-'{{ profile_name }}' -> 'AI_Test_Run{% raw %}_{{ timestamp }}'{% endraw %}
+'{{ profile_name }}' -> 'AI_Test_Run_{{ timestamp }}'
 ```
 
 Instead of fully resolving to something like:
 ```
-{% raw %}'{{ profile_name }}' -> 'AI_Test_Run_20250704_165623'{% endraw %}
+'{{ profile_name }}' -> 'AI_Test_Run_20250704_165623'
 ```
 
 Let me fix this nested template variable issue:
 
 ```python
-{% raw %}    def process_template_variables(self, text: str, template_data: Dict[str, Any]) -> str:
+    def process_template_variables(self, text: str, template_data: Dict[str, Any]) -> str:
         """
         Process template variables in text.
         
@@ -791,7 +791,7 @@ Let me fix this nested template variable issue:
         if self.debug and processed_text != text:
             logger.info(f"🎯 BABY_STEPS: Template processed: '{text}' -> '{processed_text}'")
             
-        return processed_text{% endraw %}
+        return processed_text
 ```
 
 Now let's test the improved template processing:
@@ -814,7 +814,7 @@ The baby steps executor is now **production-ready**! Let's integrate it with the
 Now let me create an MCP tool wrapper for the baby steps executor:
 
 ```python
-{% raw %}async def execute_automation_recipe(params: dict = None) -> dict:
+async def execute_automation_recipe(params: dict = None) -> dict:
 
 ->
 
@@ -1019,7 +1019,7 @@ async def execute_automation_recipe_baby_steps(params: dict = None) -> dict:
         }
 
 
-async def execute_automation_recipe(params: dict = None) -> dict:{% endraw %}
+async def execute_automation_recipe(params: dict = None) -> dict:
 ```
 
 Now let me register the new baby steps MCP tool:

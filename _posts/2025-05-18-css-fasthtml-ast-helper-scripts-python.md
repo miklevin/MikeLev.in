@@ -547,7 +547,7 @@ To which you provided this reply:
         else:
             print("\nNo matching styles found to refactor with the given criteria.")
 
-    {% raw %}def add_css_class_to_file(css_file_path_str, new_class_name, new_class_definition, dry_run=False):
+    def add_css_class_to_file(css_file_path_str, new_class_name, new_class_definition, dry_run=False):
         css_file_path = Path(css_file_path_str)
         css_to_add = f"\n.{new_class_name} {{\n    {new_class_definition}\n}}\n"
         
@@ -576,7 +576,7 @@ To which you provided this reply:
             except Exception as e:
                 print(f"  [ERROR] Could not write to CSS file '{css_file_path}': {e}")
         else:
-            print(f"  (Dry run - CSS file not modified)"){% endraw %}
+            print(f"  (Dry run - CSS file not modified)")
 
 
     if __name__ == "__main__":

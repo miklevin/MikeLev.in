@@ -3620,7 +3620,7 @@ forward.
                     P("Your masterpiece is ready!")
                 )
             },
-            {% raw %}step_pattern=f"{self.prefix}/step_{{step_num:02d}}"{% endraw %}
+            step_pattern=f"{self.prefix}/step_{{step_num:02d}}"
         )
 ````
 
@@ -3787,7 +3787,7 @@ class Poetflow:
                     P("Your masterpiece is ready!")
                 )
             },
-            {% raw %}step_pattern=f"{self.prefix}/step_{{step_num:02d}}"{% endraw %}
+            step_pattern=f"{self.prefix}/step_{{step_num:02d}}"
         )
 
     async def step_01(self, request):

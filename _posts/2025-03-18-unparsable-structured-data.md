@@ -101,7 +101,7 @@ I removed the `articleBody` from the JSON-LD script:
 
 ```javascript
 // Before (Problematic):
-{% raw %}"articleBody": "{{ content | number_of_words }}"{% endraw %}
+"articleBody": "{{ content | number_of_words }}"
 
 // After (Working):
 // Removed "articleBody" entirely
@@ -121,9 +121,9 @@ Remember the distinction between the HTML elements with `itemscope` and the `<sc
 
     ```html
     <article itemscope itemtype="http://schema.org/BlogPosting">
-        {% raw %}<h1 itemprop="headline">{{ page.title }}</h1>{% endraw %}
+        <h1 itemprop="headline">{{ page.title }}</h1>
         <div itemprop="articleBody">
-            {% raw %}{{ content }}{% endraw %}
+            {{ content }}
         </div>
     </article>
     ```
@@ -139,7 +139,7 @@ Remember the distinction between the HTML elements with `itemscope` and the `<sc
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        {% raw %}"headline": "{{ page.title }}",{% endraw %}
+        "headline": "{{ page.title }}",
         // ... other properties ...
     }
     </script>
@@ -175,7 +175,7 @@ Even though I removed `articleBody` from the JSON-LD, it still works in the HTML
     To fix this, you would need to ensure that your templating engine (Jekyll my your case) properly escapes the `content` variable before inserting it into the JSON-LD. Jekyll has filters that can help with this. For example, you might use the `jsonify` filter, or write a custom filter to properly escape the string.
 
     ```javascript
-    {% raw %}"articleBody": "{{ content | jsonify }}"{% endraw %}
+    "articleBody": "{{ content | jsonify }}"
     ```
 
 ...but I tried every friggin variation I could think of. And I don't really
@@ -197,13 +197,13 @@ Article](https://schema.org/Article).
 So, I removed this:
 
 ```html
-  "articleBody": "{% raw %}{{ content | strip_html | xml_escape | normalize_whitespace | strip_newlines | json_escape }}{% endraw %}"
+  "articleBody": "{{ content | strip_html | xml_escape | normalize_whitespace | strip_newlines | json_escape }}"
 ```
 
 ...and I added this:
 
 ```html
-  "abstract": "{% raw %}{{ page.description | default: page.excerpt | strip_html | strip_newlines }}{% endraw %}"
+  "abstract": "{{ page.description | default: page.excerpt | strip_html | strip_newlines }}"
 ```
 
 ---

@@ -1019,7 +1019,7 @@ async def ws(msg: str):
 **Implement `ws_send_message` Function:**
 
 ```python
-{% raw %}
+
 async def ws_send_message(message):
     for u in users.values():
         await u(
@@ -1031,7 +1031,7 @@ async def ws_send_message(message):
                 _=f"this.scrollIntoView({{behavior: 'smooth'}});",
             )
         )
-{% endraw %}
+
 ```
 
 ---

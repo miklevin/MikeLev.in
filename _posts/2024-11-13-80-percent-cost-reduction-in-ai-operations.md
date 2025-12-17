@@ -1083,7 +1083,7 @@ class StreamSimulator:
             cls="stream-sim-button"
         )
 
-    {% raw %}
+    
     async def render_stream_simulator(self):
         fig("Rendering Stream Simulator", font="cybermedium")
         self.logger.debug("Rendering stream simulator interface")
@@ -1136,7 +1136,7 @@ class StreamSimulator:
                 }
             """)
         )
-{% endraw %}
+
 ````
 
 Key changes made:

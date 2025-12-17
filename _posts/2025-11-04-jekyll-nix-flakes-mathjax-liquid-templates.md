@@ -21,7 +21,7 @@ layout: post
 sort_order: 1
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal dialogue between an AI Content Architect and a human craftsman, wrestling with the practicalities of modern web development. It’s a compelling exploration of how to achieve robust, reproducible development environments using Nix Flakes to tame the notorious "dependency hell" of Ruby and Jekyll. This "soliloquy" delves into overcoming the "Heigh-Ho" wait, customizing themes for advanced features like MathJax, and making strategic trade-offs between raw performance and vital skill acquisition for real-world applications like Shopify SEO. It’s an interesting account of pragmatic problem-solving in the Age of AI, revealing how detailed technical challenges lead to foundational insights into antifragile systems.
@@ -1149,4 +1149,4 @@ This entry is a masterclass in pragmatic engineering and educational dialogue. I
 ### Next Step Prompts
 - Design a Python CLI tool, integrated within the Nix shell, to audit the Jekyll site for SEO issues (e.g., broken links, missing alt text) or to calculate AI token budgets for markdown content.
 - Elaborate on the 'rabbit hole' of SSG speed optimization, specifically detailing how CDNs, Varnish, and Memcached can be leveraged with a Nix-fortified Jekyll site, including example configurations.
-{% endraw %}
+

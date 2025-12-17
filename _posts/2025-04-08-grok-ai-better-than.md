@@ -820,7 +820,7 @@ Transform the processed metadata into a single JSON file that `lunr.js` can use:
     layout: null
     ---
     [
-      {% raw %}{% for post in site.posts %}
+      {% for post in site.posts %}
       {
         "title": {{ post.title | jsonify }},
         "url": {{ post.url | prepend: site.baseurl | jsonify }},
@@ -828,7 +828,7 @@ Transform the processed metadata into a single JSON file that `lunr.js` can use:
         "keywords": {{ post.keywords | join: ", " | jsonify }},
         "content": {{ post.content | strip_html | truncatewords: 200 | jsonify }}
       }{% unless forloop.last %},{% endunless %}
-      {% endfor %}{% endraw %}
+      {% endfor %}
     ]
     ```
   - This loops through all posts, extracting the title, URL, AI-generated summary, keywords, and a truncated version of the content (to keep file size manageable).

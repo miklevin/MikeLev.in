@@ -462,10 +462,10 @@ Let's revisit the JavaScript visualization challenge in the context of the `90_r
 **Analysis of `90_roadmap.py` - Why Mermaid Works:**
 
 1.  **Targeted DOM Element:** A `Div` with a unique ID (`unique_id = f"mermaid-{int(time.time() * 1000)}"`) is created to hold the diagram. This provides a stable target for the JavaScript.
-2.  **Inline JavaScript Execution:** A `Script` tag containing an Immediately Invoked Function Expression (IIFE) `(function() {% raw %}{{ ... }}{% endraw %})();` is included *alongside* the target `Div` in the returned HTML fragment.
+2.  **Inline JavaScript Execution:** A `Script` tag containing an Immediately Invoked Function Expression (IIFE) `(function() {{ ... }})();` is included *alongside* the target `Div` in the returned HTML fragment.
 3.  **DOM Ready Check (Implicit):** Although not an explicit `DOMContentLoaded` listener, the script runs *after* the `Div` with the `unique_id` has been added to the DOM by HTMX. The script first attempts `document.getElementById("{unique_id}")` and exits if it doesn't find it (though in practice, it will usually be there when the script runs).
 4.  **Dynamic Library Loading:** The script *dynamically* creates a *new* `<script>` element (`var script = document.createElement('script');`), sets its `src` to the local Mermaid.js file (`/static/mermaid.min.js`), and appends it to the `<head>`. This ensures the library is loaded (or reloaded if necessary) *after* the main page load, specifically when this roadmap component is rendered.
-5.  **Callback Execution:** Crucially, the rendering logic is placed inside the `onload` callback of the dynamically loaded Mermaid script (`script.onload = function() {% raw %}{{ ... }}{% endraw %};`). This guarantees that `mermaid.initialize` and `mermaid.init` are only called *after* the Mermaid library has fully loaded and parsed.
+5.  **Callback Execution:** Crucially, the rendering logic is placed inside the `onload` callback of the dynamically loaded Mermaid script (`script.onload = function() {{ ... }};`). This guarantees that `mermaid.initialize` and `mermaid.init` are only called *after* the Mermaid library has fully loaded and parsed.
 6.  **Targeted Initialization:** Inside the `onload` callback:
     * A *new* `div` with `class='mermaid'` is created (`mermaidWrapper`).
     * The `ROADMAP_DIAGRAM` text content is added to this *new* inner `div`.

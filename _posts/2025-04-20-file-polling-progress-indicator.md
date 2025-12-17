@@ -405,7 +405,7 @@ async def step_04_submit(self, request):
                     Button("Download CSV", type="submit", cls="primary"),
                     hx_post=f"/{app_name}/download_csv",
                     hx_target=f"#{step_id}",
-                    {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                    hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                 )
             ),
             pip.create_step_navigation(step_id, step_index, steps, app_name, job['job_url']),
@@ -502,7 +502,7 @@ async def step_04_submit(self, request):
         hx_trigger="every 2s",
         hx_target=f"#{step_id}",
         hx_swap="outerHTML",
-        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}',{% endraw %}
+        hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}',
         id=step_id,
         *pip.create_step_navigation(step_id, step_index, steps, app_name, job_url)
     )
@@ -908,7 +908,7 @@ async def step_04_submit(self, request):
         hx_trigger="every 2s",
         hx_target="#step_04",
         hx_swap="outerHTML",
-        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+        hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
         id="step_04_poller"
     )
 
@@ -933,7 +933,7 @@ async def check_job_status(self, request):
             hx_trigger="every 2s",
             hx_target="#step_04",
             hx_swap="outerHTML",
-            {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+            hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
             id="step_04_poller"
         )
     elif status == "DONE":
@@ -946,7 +946,7 @@ async def check_job_status(self, request):
                 hx_trigger="load",
                 hx_target="#step_04",
                 hx_swap="outerHTML",
-                {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
             ),
             id="step_04"
         )
@@ -1154,7 +1154,7 @@ async def step_04_submit(self, request):
         hx_trigger="load, every 2s",
         hx_target=f"#{step_id}",
         hx_swap="outerHTML",
-        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+        hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
         id=step_id,
         *pip.create_step_navigation(step_id, step_index, steps, app_name, job_url)
     )
@@ -1198,7 +1198,7 @@ async def download_progress(self, request):
                 hx_trigger="load, every 2s",
                 hx_target=f"#{step_id}",
                 hx_swap="outerHTML",
-                {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+                hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
                 id=step_id,
                 *pip.create_step_navigation(step_id, step_index, steps, app_name, job_url)
             )
@@ -1229,7 +1229,7 @@ async def download_progress(self, request):
                         Button("Download CSV", type="submit", cls="primary"),
                         hx_post=f"/{app_name}/download_csv",
                         hx_target=f"#{step_id}",
-                        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                        hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                     )
                 ),
                 id=step_id,
@@ -1499,7 +1499,7 @@ You're correct - this is backwards from optimal behavior. The long-running expor
        hx_trigger="every 2s",
        hx_target=f"#{step_id}",
        hx_swap="outerHTML",
-       {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+       hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
        id=step_id,
        *pip.create_step_navigation(...)
    )
@@ -1681,7 +1681,7 @@ Let's implement a more comprehensive solution that breaks this chain reaction:
                             Button("Download CSV", type="submit", cls="primary"),
                             hx_post=f"/{app_name}/download_csv",
                             hx_target=f"#{step_id}",
-                            {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                            hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                         )
                     ),
                     # Add class to indicate this is a terminal response
@@ -1713,7 +1713,7 @@ Let's implement a more comprehensive solution that breaks this chain reaction:
                     hx_trigger="every 2s",
                     hx_target=f"#{step_id}",
                     hx_swap="outerHTML",
-                    {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+                    hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
                     id=step_id
                 )
 ```
@@ -1787,7 +1787,7 @@ Now let's apply the same changes to the `check_export_status` function to ensure
                             Button("Download CSV", type="submit", cls="primary"),
                             hx_post=f"/{app_name}/download_csv",
                             hx_target=f"#{step_id}",
-                            {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                            hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                         )
                     ),
                     # Add class to indicate this is a terminal response
@@ -1834,7 +1834,7 @@ Now let's apply the same changes to the `check_export_status` function to ensure
                     hx_trigger="every 2s",
                     hx_target=f"#{step_id}",
                     hx_swap="outerHTML",
-                    {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+                    hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
                     id=step_id
                 )
 ```
@@ -1857,7 +1857,7 @@ Now let's also update the `step_04_submit` function which initializes the pollin
                         hx_trigger="load, every 2s",
                         hx_target=f"#{step_id}",
                         hx_swap="outerHTML",
-                        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                        hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                     ),
                     # No navigation or other divs that would trigger chain reactions
                     cls="polling-status no-chain-reaction",
@@ -1894,7 +1894,7 @@ Now let's also update the auto-polling in the `step_04` function when showing a 
                 hx_trigger="load, every 2s",
                 hx_target=f"#{step.id}",
                 hx_swap="outerHTML",
-                {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+                hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
                 id=step.id
             )
 ```
@@ -1920,7 +1920,7 @@ Let's also update one more case in the processing flow with the same pattern:
                     Button("Download CSV", type="submit", cls="primary"),
                     hx_post=f"/{app_name}/download_csv",
                     hx_target=f"#{step_id}",
-                    {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                    hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                 )
                 return Div(
                     result_card,
@@ -1948,7 +1948,7 @@ Let's also update one more case in the processing flow with the same pattern:
                     hx_trigger="load, every 2s",
                     hx_target=f"#{step_id}",
                     hx_swap="outerHTML",
-                    {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+                    hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
                     id=step_id
                 )
 ```
@@ -2041,7 +2041,7 @@ return Div(
     hx_trigger="every 2s",
     hx_target=f"#{step_id}",
     hx_swap="outerHTML",
-    {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',{% endraw %}
+    hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}',
     id=step_id
 )
 ```

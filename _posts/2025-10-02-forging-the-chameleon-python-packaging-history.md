@@ -553,7 +553,7 @@ for o in _all_: _g[o] = partial(ft_hx, o.lower())
 
 This is the magic wand. It programmatically creates a Python function for each tag (e.g., `Div`, `P`, `Form`). This design choice has profound consequences:
 
-{% raw %}  * **No Context Switching**: Developers stay in Python. You don't have to switch your brain from Python logic to a template's domain-specific language (`{{ variable }}`, `{% for item in items %}`).{% endraw %}
+  * **No Context Switching**: Developers stay in Python. You don't have to switch your brain from Python logic to a template's domain-specific language (`{{ variable }}`, `{% for item in items %}`).
   * **Full Power of Python**: Your "templates" are now just Python code. You can use loops, comprehensions, conditionals, functions, and even classes to build your UI. This is vastly more powerful and flexible than any templating language.
   * **Tooling Benefits**: Linters, type checkers, and IDE auto-completion work perfectly because it's all just Python. You can't easily lint a Jinja2 template for logic errors in the same way.
 

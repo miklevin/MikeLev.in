@@ -447,7 +447,7 @@ Let's start with Part 1. Once you've completed the refactor and committed the ch
 
 > Deep breath... let the refactoring begin!
 
-**Me**:{% raw %} This is the automation work we *already just did:*
+**Me**: This is the automation work we *already just did:*
 
 ```diff
 [mike@nixos:~/repos/pipulate]$ git --no-pager diff
@@ -2508,7 +2508,7 @@ index bf3feae3..9c92a609 100644
          test_results["tests_passed"] += 1
      else:
 
-[mike@nixos:~/repos/pipulate]${% endraw %}
+[mike@nixos:~/repos/pipulate]$
 ```
 
 BAM goes uniquely well with BASH, doesn't it? And what's most impressive of all

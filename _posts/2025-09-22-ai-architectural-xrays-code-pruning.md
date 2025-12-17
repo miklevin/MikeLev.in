@@ -1110,7 +1110,7 @@ def generate_uml_and_dot(target_file="server.py", project_name="pipulate"):
             for match in re.finditer(full_class_pattern, dot_content):
                 class_name, _, attributes_str = match.groups()
                 if class_name in classes:
-                    {% raw %}puml_lines.append(f"class {class_name} {{"){% endraw %}
+                    puml_lines.append(f"class {class_name} {{")
                     for part in attributes_str.split('\\l'):
                         part = part.strip()
                         if part and part != '...':

@@ -23,7 +23,7 @@ The most elegant part? The final solution uses native Jekyll/Liquid capabilities
 - `split` and `join` for array manipulation
 - `downcase` for normalization
 - `uniq` for deduplication
-- Whitespace control with {% raw %}`{%-` and `-%}`{% endraw %}
+- Whitespace control with `{%-` and `-%}`
 
 We don't need complex plugins or external dependencies. Instead, we leveraged existing tools in increasingly sophisticated ways, guided by debug output and iterative testing.
 
@@ -124,7 +124,7 @@ This involves modifying or creating a script (likely adapting the Python GSC scr
 *Example Liquid code to add to `_layouts/post.html` (place it where you want the list to appear, e.g., after the article body or near the metadata):*
 
 ```liquid
-{% raw %}{% comment %} --- Display Top GSC Keywords --- {% endcomment %}
+{% comment %} --- Display Top GSC Keywords --- {% endcomment %}
 {% assign current_page_url = page.url %}
 {% assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] %}
 
@@ -147,14 +147,14 @@ This involves modifying or creating a script (likely adapting the Python GSC scr
     </p>
   </div>
 {% endif %}
-{% comment %} --- End Display Top GSC Keywords --- {% endcomment %}{% endraw %}
+{% comment %} --- End Display Top GSC Keywords --- {% endcomment %}
 ```
 
 **Considerations:**
 
 * **Build Process:** You need to integrate the running of the Python script into your build/deployment process or run it manually and commit the `_data/gsc_top_keywords.json` file.
 * **Data Freshness:** The keywords displayed will only be as fresh as the last time the Python script was run and the `_data` file was updated.
-* **No Data:** The Liquid code includes an `{% raw %}{% if top_keywords_list ... %}{% endraw %}` check to handle cases where a specific page might not have corresponding data in the JSON file (e.g., very new posts or pages with no significant GSC traffic).
+* **No Data:** The Liquid code includes an `{% if top_keywords_list ... %}` check to handle cases where a specific page might not have corresponding data in the JSON file (e.g., very new posts or pages with no significant GSC traffic).
 * **Styling:** Add CSS rules for `.top-gsc-keywords-section` and its elements to match your site's design (the example uses inline styles for simplicity).
 
 This approach directly mirrors the successful pre-processing strategy used for your previous/next navigation, providing performant access to relevant GSC keyword data on each post page without needing complex live lookups.
@@ -612,7 +612,7 @@ Okay, let's integrate the display logic into your `_layouts/post.html` to show t
 Find this section in your `_layouts/post.html` file (it's near the very end):
 
 ```liquid
-{% raw %}{% comment %}
+{% comment %}
   Calculate post number using the flat index position instead of backwards counting
   Reverse the numbering so newest posts (position 0) show as highest number
 {% endcomment %}
@@ -623,13 +623,13 @@ Find this section in your `_layouts/post.html` file (it's near the very end):
   <span>Post #{{ post_number }} of {{ total_posts }} - {{ page.date | date: '%B %-d, %Y' }}</span>
 </div>
 
-{% comment %} <<< INSERT THE NEW CODE BLOCK HERE >>> {% endcomment %}{% endraw %}
+{% comment %} <<< INSERT THE NEW CODE BLOCK HERE >>> {% endcomment %}
 ```
 
 Insert the following Liquid code block exactly where the `<<< INSERT THE NEW CODE BLOCK HERE >>>` comment is placed above:
 
 ```liquid
-{% raw %}{% comment %} --- Display Top GSC Keywords (Comma Separated) --- {% endcomment %}
+{% comment %} --- Display Top GSC Keywords (Comma Separated) --- {% endcomment %}
 {% assign current_page_url = page.url %}
 {% assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] %}
 
@@ -640,17 +640,17 @@ Insert the following Liquid code block exactly where the `<<< INSERT THE NEW COD
     Categorized under: {{ keyword_names | join: ', ' }}
   </div>
 {% endif %}
-{% comment %} --- End Display Top GSC Keywords --- {% endcomment %{% endraw %}}
+{% comment %} --- End Display Top GSC Keywords --- {% endcomment %}
 ```
 
 **Explanation:**
 
-1.  `{% raw %}{% assign current_page_url = page.url %}`: Gets the URL of the current post being rendered{% endraw %}.
-2.  `{% raw %}{% assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] %}`: Looks up the data in your `_data/gsc_top_keywords.json` file using the current page's URL as the key. This retrieves the array of top keyword objects for *this specific page*{% endraw %}.
-3.  `{% raw %}{% if top_keywords_list and top_keywords_list.size > 0 %}`: Checks if any keyword data was actually found for this page before trying to display anything{% endraw %}.
-4.  `{% raw %}{% assign keyword_names = top_keywords_list | map: 'query' %}`: This is the key step for your desired format. It uses the `map` filter to iterate through the `top_keywords_list` array and pull out *only* the value associated with the `query` key from each object, creating a new array containing just the keyword strings{% endraw %}.
+1.  `{% assign current_page_url = page.url %}`: Gets the URL of the current post being rendered.
+2.  `{% assign top_keywords_list = site.data.gsc_top_keywords[current_page_url] %}`: Looks up the data in your `_data/gsc_top_keywords.json` file using the current page's URL as the key. This retrieves the array of top keyword objects for *this specific page*.
+3.  `{% if top_keywords_list and top_keywords_list.size > 0 %}`: Checks if any keyword data was actually found for this page before trying to display anything.
+4.  `{% assign keyword_names = top_keywords_list | map: 'query' %}`: This is the key step for your desired format. It uses the `map` filter to iterate through the `top_keywords_list` array and pull out *only* the value associated with the `query` key from each object, creating a new array containing just the keyword strings.
 5.  `<div class="gsc-categories" ...>`: Creates a container div for the output. I've added a class `gsc-categories` so you can style it later in your CSS if needed, and included some basic inline styles similar to your `post-counter` for initial visibility.
-6.  `{% raw %}Categorized under: {{akeyword_names | join: ', ' }}`: Prints the literal text "Categorized under: " followed by the array of keyword strings (`keyword_names`), joined together into a single string with a comma and space (`, `) as the separator{% endraw %}.
+6.  `Categorized under: {{akeyword_names | join: ', ' }}`: Prints the literal text "Categorized under: " followed by the array of keyword strings (`keyword_names`), joined together into a single string with a comma and space (`, `) as the separator.
 
 Now, when you rebuild your Jekyll site, any post that has corresponding entries in your `gsc_top_keywords.json` file should display the top keywords from GSC in the specified comma-separated format right below the post counter.
 
@@ -661,9 +661,9 @@ Now, when you rebuild your Jekyll site, any post that has corresponding entries 
 1. **URL Normalization**
 
 ```liquid
-{% raw %}{% if current_page_url != '/' and current_page_url != '' %}
+{% if current_page_url != '/' and current_page_url != '' %}
   {% unless current_page_url contains '/' %}{% assign current_page_url = current_page_url | append: '/' %}{% endunless %}
-{% endif %}{% endraw %}
+{% endif %}
 ```
 This code ensures that URLs consistently have trailing slashes to match the format in `gsc_top_keywords.json`. The logic:
 - Checks if we're not dealing with the root URL (`/`) or empty string
@@ -676,10 +676,10 @@ This code ensures that URLs consistently have trailing slashes to match the form
 ```liquid
 <div style="display: none;">
 Debug Info:
-{% raw %}Raw URL: {{ page.url }}
+Raw URL: {{ page.url }}
 Normalized URL: {{ current_page_url }}
 Has Keywords?: {% if top_keywords_list %}Yes ({{ top_keywords_list.size }}){% else %}No{% endif %}
-First Few Keys: {% for key in site.data.gsc_top_keywords limit:5 %}{{ key[0] }}, {% endfor %}{% endraw %}
+First Few Keys: {% for key in site.data.gsc_top_keywords limit:5 %}{{ key[0] }}, {% endfor %}
 </div>
 ```
 
@@ -803,7 +803,7 @@ The key insight I see that you might not have considered: we might want to weigh
 layout: null
 ---
 [
-  {% raw %}{% for post in site.posts %}
+  {% for post in site.posts %}
     {
       "title": {{ post.title | jsonify }},
       "url": {{ post.url | relative_url | jsonify }},
@@ -817,7 +817,7 @@ layout: null
         , "gsc_keywords": {{ gsc_keywords | jsonify }}
       {% endif %}
     }{% unless forloop.last %},{% endunless %}
-  {% endfor %}{% endraw %}
+  {% endfor %}
 ]
 ```
 Don't worry about the linter error - it's just complaining about the Jekyll front matter which is necessary for processing. The JSON output will be valid.
@@ -890,7 +890,7 @@ diff --git a/search.json b/search.json
 index 55886f023..e3bfcdd7e 100644
 --- a/search.json
 +++ b/search.json
-@@ -10,6 +10,11 @@ layout: null{% raw %}
+@@ -10,6 +10,11 @@ layout: null
        "content": {{ post.content | strip_html | truncate: 5000 | jsonify }}
        {% if post.meta_keywords %}, "keywords": {{ post.meta_keywords | jsonify }}{% endif %}
        {% if post.meta_description %}, "description": {{ post.meta_description | jsonify }}{% endif %}
@@ -900,7 +900,7 @@ index 55886f023..e3bfcdd7e 100644
 +        , "gsc_keywords": {{ gsc_keywords | jsonify }}
 +      {% endif %}
      }{% unless forloop.last %},{% endunless %}
-   {% endfor %}{% endraw %}
+   {% endfor %}
  ] 
 \ No newline at end of file
 
@@ -968,7 +968,7 @@ layout: default
 author: Mike Levin
 ---
 
-{% raw %}{% comment %}
+{% comment %}
 First, combine both keyword sources into a single list
 {% endcomment %}
 {% assign all_keywords = page.meta_keywords | split: ", " %}
@@ -985,7 +985,7 @@ First, combine both keyword sources into a single list
 Change this value to switch between absolute and relative URLs:
 - true: absolute URLs with domain (for production)
 - false: relative URLs without domain (for local testing)
-{% endcomment %}{% endraw %}
+{% endcomment %}
 // ... existing code ...
 ```
 This is the simplest possible implementation that will work! Here's what it does:
@@ -1037,7 +1037,7 @@ When faced with the challenge of combining manually curated meta keywords with d
 ## First Attempt: Post Layout Modification
 Our first attempt tried to handle this in `_layouts/post.html`:
 ```liquid
-{% raw %}{% capture head %}
+{% capture head %}
   {% assign all_keywords = page.meta_keywords | split: ", " %}
   {% assign gsc_data = site.data.gsc_top_keywords[page.url] %}
   {% if gsc_data %}
@@ -1045,7 +1045,7 @@ Our first attempt tried to handle this in `_layouts/post.html`:
     {% assign all_keywords = all_keywords | concat: gsc_keywords %}
   {% endif %}
   <meta name="keywords" content="{{ all_keywords | join: ', ' }}">
-{% endcapture %}{% endraw %}
+{% endcapture %}
 ```
 
 This approach failed because:
@@ -1056,13 +1056,13 @@ This approach failed because:
 ## Final Solution: Default Layout Integration
 We moved the logic to `_layouts/default.html` where meta tags naturally belong:
 ```liquid
-{% raw %}{% assign all_keywords = page.meta_keywords | default: page.keywords | split: ", " %}
+{% assign all_keywords = page.meta_keywords | default: page.keywords | split: ", " %}
 {% assign gsc_data = site.data.gsc_top_keywords[page.url] %}
 {% if gsc_data %}
   {% assign gsc_keywords = gsc_data | map: 'query' %}
   {% assign all_keywords = all_keywords | concat: gsc_keywords %}
 {% endif %}
-{% if all_keywords.size > 0 %}<meta name="keywords" content="{{ all_keywords | join: ', ' }}" />{% endif %}{% endraw %}
+{% if all_keywords.size > 0 %}<meta name="keywords" content="{{ all_keywords | join: ', ' }}" />{% endif %}
 ```
 
 This solution works because:
@@ -1100,7 +1100,7 @@ The end result is a clean implementation that combines manual and data-driven ke
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">{% raw %}
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} / {{ site.title }}</title>
     <meta name="description" content="{{ page.meta_description | default: page.description }}" />
@@ -1112,7 +1112,7 @@ The end result is a clean implementation that combines manual and data-driven ke
       {% assign all_keywords = all_keywords | concat: gsc_keywords | uniq %}
     {% endif %}
     {% if all_keywords.size > 0 %}<meta name="keywords" content="{{ all_keywords | join: ', ' }}" />{% endif %}
-    <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />{% endraw %}
+    <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />
 // ... rest of existing code ...
 ```
 That's it! Just added `| uniq` to the concatenation. This will:
@@ -1142,7 +1142,7 @@ Want to verify it works? Try a page where you know there's overlap between the m
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">{% raw %}
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% if page.type == "post" %}{{ post.title }}{% else %}{{ page.title }}{% endif %} / {{ site.title }}</title>
     <meta name="description" content="{{ page.meta_description | default: page.description }}" />
@@ -1154,7 +1154,7 @@ Want to verify it works? Try a page where you know there's overlap between the m
       {% assign all_keywords = all_keywords | concat: gsc_keywords | uniq %}
     {% endif %}
     {% if all_keywords.size > 0 %}<meta name="keywords" content="{{ all_keywords | join: ', ' }}" />{% endif %}
-    <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />{% endraw %}
+    <link rel="shortcut icon" type="image/x-icon" href="https://mikelev.in/favicon.ico" />
 // ... rest of existing code ...
 ```
 Just added `| map: 'downcase'` to both keyword sources. This will:
@@ -1186,18 +1186,18 @@ When you requested a "chisel-strike" solution to combine manually curated meta k
 ### First Attempt: Post Layout
 We initially tried adding the combined keywords in `post.html`:
 ```liquid
-{% raw %}{% capture head %}
+{% capture head %}
   {% assign all_keywords = page.meta_keywords | split: ", " %}
   {% assign gsc_keywords = site.data.gsc_top_keywords[page.url] | map: 'query' %}
   {% assign all_keywords = all_keywords | concat: gsc_keywords %}
-{% endcapture %}{% endraw %}
+{% endcapture %}
 ```
 This failed because the meta tag ended up in the wrong place (after the head section).
 
 ### Second Attempt: Default Layout Integration
 We moved the logic to `default.html` where meta tags belong, but encountered issues with case sensitivity and duplicates. Our first try at case normalization failed:
 ```liquid
-{% raw %}{% assign all_keywords = page.meta_keywords | map: 'downcase' %}{% endraw %}
+{% assign all_keywords = page.meta_keywords | map: 'downcase' %}
 ```
 This produced empty results because we misunderstood how Liquid's `map` filter works with strings.
 
@@ -1208,11 +1208,11 @@ Finally, we arrived at a clean, working implementation that:
 3. Combines and deduplicates the results
 
 ```liquid
-{% raw %}{% assign manual_keywords_lower = "" | split: "" %}
+{% assign manual_keywords_lower = "" | split: "" %}
 {% for kw in manual_keywords %}
   {% assign lower_kw = kw | downcase %}
   {% assign manual_keywords_lower = manual_keywords_lower | push: lower_kw %}
-{% endfor %}{% endraw %}
+{% endfor %}
 ```
 
 ## The Irony

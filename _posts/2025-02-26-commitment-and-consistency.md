@@ -1008,7 +1008,7 @@ class AdvantageSession:
             <div class="spinner"></div>
         </div>
         
-        <script>{% raw %}
+        <script>
         // Simulate data fetch
         setTimeout(() => {{
             const fetchData = async () => {{
@@ -1045,7 +1045,7 @@ class AdvantageSession:
             
             fetchData();
         }}, 1000);
-        </script>{% endraw %}
+        </script>
         """
         return HTMLResponse(html)
     
@@ -1295,7 +1295,7 @@ class AdvantageSession:
                     P(f"Value: {current_value}"),
                     Button("Edit", 
                           hx_post=f"/{self.app_name}/revert",
-                          {% raw %}hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',{% endraw %}
+                          hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',
                           hx_target=f"#{step_id}")
                 ),
                 Div(id=next_step, 
@@ -1317,7 +1317,7 @@ class AdvantageSession:
                           required=True),
                     Button("Continue", type="submit"),
                     hx_post=f"/{self.app_name}/{step_id}_submit",
-                    {% raw %}hx_vals=f'{{"url": "{project_url}"}}',{% endraw %}
+                    hx_vals=f'{{"url": "{project_url}"}}',
                     hx_target=f"#{step_id}"
                 )
             ),
@@ -1356,7 +1356,7 @@ class AdvantageSession:
                     Div(Class="spinner")
                 ),
                 hx_post=f"/{self.app_name}/fetch_data",
-                {% raw %}hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}", "value": "{value}"}}',{% endraw %}
+                hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}", "value": "{value}"}}',
                 hx_trigger="load",
                 hx_target=f"#{step_id}",
                 id=step_id
@@ -1376,7 +1376,7 @@ class AdvantageSession:
                 P(f"Value: {value}"),
                 Button("Edit", 
                       hx_post=f"/{self.app_name}/revert",
-                      {% raw %}hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',{% endraw %}
+                      hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',
                       hx_target=f"#{step_id}")
             ),
             Div(id=next_step, 
@@ -1417,7 +1417,7 @@ class AdvantageSession:
                 P(f"Analysis: {value}"),
                 Button("Edit", 
                       hx_post=f"/{self.app_name}/revert",
-                      {% raw %}hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',{% endraw %}
+                      hx_vals=f'{{"step_id": "{step_id}", "url": "{project_url}"}}',
                       hx_target=f"#{step_id}")
             ),
             Div(id=next_step, 
@@ -1460,7 +1460,7 @@ class AdvantageSession:
                           required=True),
                     Button("Continue", type="submit"),
                     hx_post=f"/{self.app_name}/{step_id}_submit",
-                    {% raw %}hx_vals=f'{{"url": "{project_url}"}}',{% endraw %}
+                    hx_vals=f'{{"url": "{project_url}"}}',
                     hx_target=f"#{step_id}"
                 )
             ),
@@ -1499,7 +1499,7 @@ What's going on here?
 &lt;think&gt;
 I clearly made a serious mistake again. Let me analyze what went wrong:
 
-1. I'm still using curly braces in HTMX handlers {% raw %}(hx_vals=f'{{"step_id": "{step_id}"}}'){% endraw %}
+1. I'm still using curly braces in HTMX handlers (hx_vals=f'{{"step_id": "{step_id}"}}')
 2. This is causing issues with Jekyll publishing
 3. The user has already pointed this out once
 4. I should be looking at the BaseFlow implementation for guidance

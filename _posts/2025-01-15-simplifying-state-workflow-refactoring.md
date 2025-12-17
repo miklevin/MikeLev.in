@@ -445,7 +445,7 @@ class BaseFlow:
             if step.done != 'finalized':  # Skip finalize step
                 self.STEP_MESSAGES[step.id] = {
                     "input": f"Step {step.id}: Please enter {step.show}",
-                    {% raw %}"complete": f"{step.show} complete: <{{}}>. Continue to next step."{% endraw %}
+                    "complete": f"{step.show} complete: <{{}}>. Continue to next step."
                 }
 
         # Auto-register all routes

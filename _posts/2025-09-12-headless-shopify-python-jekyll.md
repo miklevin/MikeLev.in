@@ -611,7 +611,7 @@ title: Our Products
 
 ## Shop Our Products
 
-{% raw %}<div class="product-grid">
+<div class="product-grid">
   {%- for product_edge in site.data.products -%}
     {%- assign product = product_edge.node -%}
     <div class="product-card">
@@ -645,14 +645,14 @@ title: Our Products
     font-weight: bold;
     margin: 0.5rem 0;
   }
-</style>{% endraw %}
+</style>
 ```
 
 ### How It Works
 
-1.  **The Loop:** {% raw %}`{% for product_edge in site.data.products %}`{% endraw %} iterates through the list of products that your Python script fetched.
+1.  **The Loop:** `{% for product_edge in site.data.products %}` iterates through the list of products that your Python script fetched.
 2.  **Accessing Nodes:** The Shopify GraphQL API returns data in a structure called "edges" and "nodes." The `product_edge.node` line is used to access the actual product data within each item of the list. We assign this to a simpler `product` variable for easier use.
-3.  **Displaying Data:** Inside the loop, you can now use standard Liquid dot notation (e.g., {% raw %}`{{ product.title }}`{% endraw %}) to access and display each piece of product information you fetched in your Python script's query.
+3.  **Displaying Data:** Inside the loop, you can now use standard Liquid dot notation (e.g., `{{ product.title }}`) to access and display each piece of product information you fetched in your Python script's query.
 
 With these three parts—the Jekyll config, the Python script, and the Liquid template—you have a complete, end-to-end workflow for a headless Shopify store built entirely on your own terms.
 
@@ -792,7 +792,7 @@ Finally, create a layout file that Jekyll will use to render each of those produ
 ---
 layout: default
 ---
-{% raw %}
+
 <article class="product-page">
   <h1>{{ page.title }}</h1>
   
@@ -821,7 +821,7 @@ layout: default
     border-radius: 8px;
     margin-bottom: 1rem;
   }
-</style>{% endraw %}
+</style>
 
 ```
 
@@ -914,7 +914,7 @@ Now, add a button to your product layout and include a small script to handle th
 layout: default
 ---
 
-{% raw %}<article class="product-page">
+<article class="product-page">
   <h1>{{ page.title }}</h1>
   
   <button 
@@ -961,7 +961,7 @@ layout: default
       });
     });
   });
-</script>{% endraw %}
+</script>
 ```
 
 -----
@@ -1327,7 +1327,7 @@ Now, we'll embed the structured data directly into your product page layout. Sea
 **In `_layouts/product.html`, add this `<script>` block, ideally within the `<head>` section or just before the closing `</body>` tag:**
 
 ```liquid
-{% raw %}<script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Product",
@@ -1351,7 +1351,7 @@ Now, we'll embed the structured data directly into your product page layout. Sea
     }
   }
 }
-</script>{% endraw %}
+</script>
 
 ```
 

@@ -681,7 +681,7 @@ selected_params_js_array = json.dumps(selected_params)
 
 <!--
 # Construct the JavaScript function code with the selected parameters inserted
-{% raw %}js_code = f"""
+js_code = f"""
 function removeQueryParams(url, paramsToRemove) {{
     let urlParts = url.split('?');
     if (urlParts.length >= 2) {{
@@ -717,7 +717,7 @@ function removeUselessLinks() {{
     }});
 }}
 
-removeUselessLinks();{% endraw %}
+removeUselessLinks();
 """
 -->
 
@@ -772,7 +772,7 @@ selected_params_js_array = json.dumps(selected_params)
 <!--
 # Construct the JavaScript function code with the selected parameters inserted.
 js_code = f"""
-{% raw %}
+
 function removeQueryParams(url, paramsToRemove) {{
     let urlParts = url.split('?');
     if (urlParts.length >= 2) {{
@@ -809,7 +809,7 @@ function removeUselessLinks() {{
 }}
 
 removeUselessLinks();
-{% endraw %}
+
 """
 -->
 ```python

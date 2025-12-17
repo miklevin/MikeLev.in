@@ -564,7 +564,7 @@ index 57e497f..d820cc2 100644
 -                if tool_name:
 -                    append_to_conversation(message, 'user') # Log what the user tried to do
 -                    # Pass the command_args to the tool
--                    {% raw %}tool_output = await mcp_orchestrator.execute_mcp_tool(tool_name, f'<params>{{"command": "{command_args}"}}</params>'){% endraw %}
+-                    tool_output = await mcp_orchestrator.execute_mcp_tool(tool_name, f'<params>{{"command": "{command_args}"}}</params>')
 -                    await self.stream(tool_output, role='tool')
 -                    return # IMPORTANT: End the execution here
 -

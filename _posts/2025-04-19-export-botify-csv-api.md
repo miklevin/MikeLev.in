@@ -3078,14 +3078,14 @@ async def step_04(self, request):
         )
         
         # Add a download button if the file is ready but not yet downloaded
-        {% raw %}if download_url and not (local_file and Path(local_file).exists()):
+        if download_url and not (local_file and Path(local_file).exists()):
             download_button = Form(
                 Button("Download CSV", type="submit", cls="secondary outline"),
                 hx_post=f"/{app_name}/download_csv",
                 hx_target=f"#{step_id}",
                 hx_swap="outerHTML",
                 hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
-            ){% endraw %}
+            )
             
             return Div(
                 revert_control,
@@ -3123,7 +3123,7 @@ async def step_04(self, request):
         existing_file = existing_files[0]
         await self.message_queue.add(pip, f"Found existing export: {existing_file.name}", verbatim=True)
         
-        {% raw %}return Div(
+        return Div(
             Card(
                 H4(f"{pip.fmt(step_id)}: {step.show}"),
                 P(f"An export for project '{project}', analysis '{analysis}' at depth {depth} already exists:", 
@@ -3145,7 +3145,7 @@ async def step_04(self, request):
             ),
             Div(id=next_step_id),
             id=step.id
-        ){% endraw %}
+        )
 
     await self.message_queue.add(pip, self.step_messages[step_id]["input"], verbatim=True)
     
@@ -3350,7 +3350,7 @@ async def download_csv(self, request):
         await self.message_queue.add(pip, f"Starting download from {download_url}", verbatim=True)
         
         # Show download progress
-        {% raw %}return Div(
+        return Div(
             Card(
                 H4("Downloading CSV File"),
                 P(f"Downloading export to {local_file_path}", style="margin-bottom: 1rem;"),
@@ -3363,7 +3363,7 @@ async def download_csv(self, request):
             hx_target=f"#{step_id}",
             hx_vals=f'{{"pipeline_id": "{pipeline_id}", "download_url": "{download_url}", "local_file": "{local_file_path}"}}',
             id=step_id
-        ){% endraw %}
+        )
     except Exception as e:
         return P(f"Error preparing download: {str(e)}", style=pip.get_style("error"))
 
@@ -3474,7 +3474,7 @@ async def download_progress(self, request):
         )
     
     except Exception as e:
-        {% raw %}return Div(
+        return Div(
             Card(
                 H4("Download Error"),
                 P(f"Error downloading CSV file: {str(e)}", style=pip.get_style("error")),
@@ -3486,7 +3486,7 @@ async def download_progress(self, request):
                        hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}')
             ),
             id=step_id
-        ){% endraw %}
+        )
 ```
 
 Now let's add the new route registration to the `__init__` method:
@@ -3765,13 +3765,13 @@ Let's update the methods to use the registry for checking existing jobs and prev
             
             # Add a download button if the file is ready but not yet downloaded
             if download_url and not (local_file and Path(local_file).exists()):
-                {% raw %}download_button = Form(
+                download_button = Form(
                     Button("Download CSV", type="submit", cls="secondary outline"),
                     hx_post=f"/{app_name}/download_csv",
                     hx_target=f"#{step_id}",
                     hx_swap="outerHTML",
                     hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
-                ){% endraw %}
+                )
                 
                 return Div(
                     revert_control,
@@ -3850,11 +3850,11 @@ Let's update the methods to use the registry for checking existing jobs and prev
                     P(f"File: {file_path.name}", style="margin-bottom: 1rem;"),
                     P(f"Path: {file_path}", style="margin-bottom: 1rem;"),
                     Div(
-                        {% raw %}Button("Use Existing Download", type="button", cls="primary", 
+                        Button("Use Existing Download", type="button", cls="primary", 
                                hx_post=f"/{app_name}/use_existing_export",
                                hx_target=f"#{step.id}",
                                hx_vals=f'{{"pipeline_id": "{pipeline_id}", "file_path": "{file_path}"}}'
-                        ),{% endraw %}
+                        ),
                         Button("Create New Export", type="button", 
                                hx_get=f"/{app_name}/{step.id}/new",
                                hx_target=f"#{step.id}"
@@ -3883,7 +3883,7 @@ Let's update the methods to use the registry for checking existing jobs and prev
                         Button("Download Ready Export", type="button", cls="primary", 
                                hx_post=f"/{app_name}/download_ready_export",
                                hx_target=f"#{step.id}",
-                               {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_id": "{job_id}", "download_url": "{download_url}"}}'{% endraw %}
+                               hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_id": "{job_id}", "download_url": "{download_url}"}}'
                         ),
                         Button("Create New Export", type="button", 
                                hx_get=f"/{app_name}/{step.id}/new",
@@ -3929,7 +3929,7 @@ Let's update the methods to use the registry for checking existing jobs and prev
                         Button("Check Status", type="button", cls="primary", 
                                hx_post=f"/{app_name}/check_export_status",
                                hx_target=f"#{step.id}",
-                               {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_id": "{job_id}", "job_url": "{job_url}"}}'{% endraw %}
+                               hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_id": "{job_id}", "job_url": "{job_url}"}}'
                         ),
                         Button("Create New Export", type="button", 
                                hx_get=f"/{app_name}/{step.id}/new",
@@ -3956,7 +3956,7 @@ Let's update the methods to use the registry for checking existing jobs and prev
                         Button("Use Existing File", type="button", cls="primary", 
                                hx_post=f"/{app_name}/use_existing_export",
                                hx_target=f"#{step.id}",
-                               {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "file_path": "{existing_file}"}}'{% endraw %}
+                               hx_vals=f'{{"pipeline_id": "{pipeline_id}", "file_path": "{existing_file}"}}'
                         ),
                         Button("Create New Export", type="button", 
                                hx_get=f"/{app_name}/{step.id}/new",
@@ -4412,7 +4412,7 @@ Now, let's update the step_04_submit method to integrate with the registry:
                         Button("Download CSV", type="submit", cls="primary"),
                         hx_post=f"/{app_name}/download_csv",
                         hx_target=f"#{step_id}",
-                        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                        hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                     )
                 ),
                 pip.create_step_navigation(step_id, step_index, steps, app_name, job['job_url']),
@@ -4478,7 +4478,7 @@ Now, let's update the step_04_submit method to integrate with the registry:
                         Button("Check Status", type="submit", cls="secondary"),
                         hx_post=f"/{app_name}/check_export_status",
                         hx_target=f"#{step_id}",
-                        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'{% endraw %}
+                        hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'
                     )
                 ),
                 pip.create_step_navigation(step_id, step_index, steps, app_name, job_url),
@@ -4574,7 +4574,7 @@ Now, let's update the step_04_submit method to integrate with the registry:
                     Button("Download CSV", type="submit", cls="primary"),
                     hx_post=f"/{app_name}/download_csv",
                     hx_target=f"#{step_id}",
-                    {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                    hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                 )
                 return Div(
                     result_card,
@@ -4592,7 +4592,7 @@ Now, let's update the step_04_submit method to integrate with the registry:
                         Button("Check Status", type="submit", cls="secondary"),
                         hx_post=f"/{app_name}/check_export_status",
                         hx_target=f"#{step_id}",
-                        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'{% endraw %}
+                        hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'
                     ),
                     pip.create_step_navigation(step_id, step_index, steps, app_name, job_url),
                     id=step_id
@@ -4716,7 +4716,7 @@ The changes weren't fully applied. Let's try again:
                         Button("Download CSV", type="submit", cls="primary"),
                         hx_post=f"/{app_name}/download_csv",
                         hx_target=f"#{step_id}",
-                        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                        hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                     )
                 ),
                 pip.create_step_navigation(step_id, step_index, steps, app_name, job['job_url']),
@@ -4782,7 +4782,7 @@ The changes weren't fully applied. Let's try again:
                         Button("Check Status", type="submit", cls="secondary"),
                         hx_post=f"/{app_name}/check_export_status",
                         hx_target=f"#{step_id}",
-                        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'{% endraw %}
+                        hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'
                     )
                 ),
                 pip.create_step_navigation(step_id, step_index, steps, app_name, job_url),
@@ -4878,7 +4878,7 @@ The changes weren't fully applied. Let's try again:
                     Button("Download CSV", type="submit", cls="primary"),
                     hx_post=f"/{app_name}/download_csv",
                     hx_target=f"#{step_id}",
-                    {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                    hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                 )
                 return Div(
                     result_card,
@@ -4896,7 +4896,7 @@ The changes weren't fully applied. Let's try again:
                         Button("Check Status", type="submit", cls="secondary"),
                         hx_post=f"/{app_name}/check_export_status",
                         hx_target=f"#{step_id}",
-                        {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'{% endraw %}
+                        hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'
                     ),
                     pip.create_step_navigation(step_id, step_index, steps, app_name, job_url),
                     id=step_id
@@ -4974,7 +4974,7 @@ Now, let's add the check_export_status and download_ready_export methods:
                             Button("Download CSV", type="submit", cls="primary"),
                             hx_post=f"/{app_name}/download_csv",
                             hx_target=f"#{step_id}",
-                            {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'{% endraw %}
+                            hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'
                         )
                     ),
                     pip.create_step_navigation(step_id, step_index, steps, app_name, job_url),
@@ -5009,7 +5009,7 @@ Now, let's add the check_export_status and download_ready_export methods:
                             Button("Check Status Again", type="submit", cls="secondary"),
                             hx_post=f"/{app_name}/check_export_status",
                             hx_target=f"#{step_id}",
-                            {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'{% endraw %}
+                            hx_vals=f'{{"pipeline_id": "{pipeline_id}", "job_url": "{job_url}", "job_id": "{job_id}"}}'
                         )
                     ),
                     pip.create_step_navigation(step_id, step_index, steps, app_name, job_url),
@@ -5096,7 +5096,7 @@ Now, let's add the check_export_status and download_ready_export methods:
                 hx_get=f"/{app_name}/download_progress",
                 hx_trigger="load",
                 hx_target=f"#{step_id}",
-                {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}", "download_url": "{download_url}", "local_file": "{local_file_path}"}}',{% endraw %}
+                hx_vals=f'{{"pipeline_id": "{pipeline_id}", "download_url": "{download_url}", "local_file": "{local_file_path}"}}',
                 id=step_id
             )
             
@@ -5250,7 +5250,7 @@ Let's update the download methods to update the registry:
                     Button("Try Again", type="button", cls="primary",
                            hx_post=f"/{app_name}/download_csv",
                            hx_target=f"#{step_id}",
-                           {% raw %}hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}'){% endraw %}
+                           hx_vals=f'{{"pipeline_id": "{pipeline_id}"}}')
                 ),
                 id=step_id
             )

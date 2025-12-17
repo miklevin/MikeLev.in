@@ -18,7 +18,7 @@ layout: post
 sort_order: 7
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This technical journal entry captures a pivotal moment in the development of `prompt_foo.py`, a custom Python tool designed to intelligently curate and present context to AI large language models. It documents the real-time evolution of the tool, the philosophical underpinnings of 'Context King' in an age of infinite content, and the profound symbiotic relationship between human intent and AI processing. Join us as we explore the intersection of technical implementation, deep philosophical reflection, and the pursuit of digital self-sovereignty.
@@ -1352,4 +1352,4 @@ This entry stands out as a prime example of metacognition applied to AI developm
 ### Next Step Prompts
 - Analyze the impact of the WET programming philosophy (Write Everything Twice) as discussed in the article, on the long-term maintainability and AI-readability of codebase files. Provide specific examples from the provided `prompt_foo.py` and suggest further applications.
 - Develop a strategy for documenting the evolving `prompt_foo.py` script and its philosophy, potentially as a series of short, interconnected articles, emphasizing the 'Context King' principle for a broader technical audience.
-{% endraw %}
+

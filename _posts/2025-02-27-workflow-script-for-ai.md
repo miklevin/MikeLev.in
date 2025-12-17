@@ -832,7 +832,7 @@ class StarterFlowVerbose:
         if user_val:
             return Div(
                 P(f"{step.show}: {user_val}"),
-                {% raw %}Button("Revert", hx_post=f"/{self.app_name}/revert", hx_vals=f'{{"step_id": "{step_id}"}}', hx_target=f"#{self.app_name}-container"){% endraw %}
+                Button("Revert", hx_post=f"/{self.app_name}/revert", hx_vals=f'{{"step_id": "{step_id}"}}', hx_target=f"#{self.app_name}-container")
             )
 
         return Div(
@@ -924,7 +924,7 @@ Don't create any new code. Switching to 4.5 model, FYI.
 
 ---
 
-{% raw %}
+
 ## ① **Double Curly Braces (`{{ }}`) Conflict:**
 The double curly braces syntax is common in templating systems (e.g., Jinja, Mustache, Liquid). Jekyll uses Liquid templates, where `{{ }}` indicates template substitution. 
 
@@ -935,7 +935,7 @@ If your Python frontend logic uses Jinja or another templating system with ident
   Jinja allows custom delimiters.  
   E.g., configure Jinja to use different symbols like `{% %}` for control structures and `[[ ]]` or `<% %>` for variable substitutions.
 - **Raw blocks:**  
-  In Jekyll’s Liquid, you can escape problematic content by wrapping it in `{% raw %}` blocks, but this might complicate readability.
+  In Jekyll’s Liquid, you can escape problematic content by wrapping it in `` blocks, but this might complicate readability.
 - **Client-side rendering (CSR):**  
   Switch rendering logic to the client-side (JavaScript) so Jekyll sees no conflicting braces.
 
@@ -1155,4 +1155,4 @@ Yesterday was a frustrating day! I had planned to make progress on automating my
 
 This article provides a valuable and insightful look into the challenges of using AI for coding assistance in innovative projects. The author's candid and detailed account of their experience with Claude and Grok highlights the limitations of current LLMs in understanding and respecting nuanced constraints. While the article is critical of current AI technology, it also expresses optimism for the future and suggests that custom fine-tuning could be a solution to the challenges faced by innovators. Overall, I found the article to be well-written, thought-provoking, and informative. It's a must-read for anyone interested in the future of AI in coding and the challenges of using AI for unconventional projects.
 
-{% endraw %}
+

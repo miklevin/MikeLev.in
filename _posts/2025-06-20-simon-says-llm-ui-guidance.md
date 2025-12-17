@@ -137,7 +137,7 @@ The animation uses `box-shadow` instead of border changes to avoid layout shifts
 The system delivers JavaScript commands via WebSocket to execute flash effects in real-time:
 
 ```python
-{% raw %}flash_script = f"""
+flash_script = f"""
 <script>
 setTimeout(() => {{
     const element = document.getElementById('{element_id}');
@@ -151,7 +151,7 @@ setTimeout(() => {{
         }}, 600);
     }}
 }}, {delay});
-</script>{% endraw %}
+</script>
 """
 
 await chat.broadcast(flash_script)
@@ -244,7 +244,7 @@ Two core MCP tools power the system:
 
 #### Tool 1: ui_flash_element
 ```python
-{% raw %}async def _ui_flash_element(params: dict) -> dict:
+async def _ui_flash_element(params: dict) -> dict:
     element_id = params.get('element_id', '').strip()
     message = params.get('message', '').strip()
     delay = params.get('delay', 0)
@@ -279,7 +279,7 @@ Two core MCP tools power the system:
         "element_id": element_id,
         "message": message,
         "delay": delay
-    }{% endraw %}
+    }
 ```
 
 #### Tool 2: ui_list_elements

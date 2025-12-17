@@ -126,7 +126,7 @@ The process is indeed idempotent for several reasons:
 
 2. **Meta Tag Generation**: The Liquid template:
 ```liquid
-{% raw %}{%- assign combined_keywords = manual_keywords_lower | concat: gsc_keywords_lower | uniq -%}{% endraw %}
+{%- assign combined_keywords = manual_keywords_lower | concat: gsc_keywords_lower | uniq -%}
 ```
 ensures that no matter how many times Jekyll rebuilds, the same keywords won't be duplicated because:
 - Keywords are normalized to lowercase
@@ -323,9 +323,9 @@ First, let's examine our key data sources and their current integration:
 1. **GSC Top Keywords Integration (Current)**
 Looking at `_layouts/default.html`, we see:
 ```liquid
-{% raw %}{%- assign gsc_data = site.data.gsc_top_keywords[page.url] -%}
+{%- assign gsc_data = site.data.gsc_top_keywords[page.url] -%}
 {%- if gsc_data -%}
-  {%- assign gsc_keywords = gsc_data | map: "query" -%}{% endraw %}
+  {%- assign gsc_keywords = gsc_data | map: "query" -%}
 ```
 
 This shows we're already mapping GSC keywords to URLs and integrating them into the meta tags. The data structure in `gsc_top_keywords.json` shows:

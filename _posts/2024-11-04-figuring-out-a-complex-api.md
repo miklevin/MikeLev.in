@@ -1090,7 +1090,7 @@ class Introduction:
                 """),
                 Button(
                     "Chat with AI Assistant",
-                    onclick=f"fetch('{self.route_prefix}/start-chat', {% raw %}{{method: 'POST'}})",{% endraw %}
+                    onclick=f"fetch('{self.route_prefix}/start-chat', {{method: 'POST'}})",
                     style="margin-top: 10px;"
                 )
             ),
@@ -3591,11 +3591,11 @@ Here's a Jupyter Notebook that incorporates the elements you've described:
 
 # **1. Install necessary libraries:**
 
-{% raw %}
+
 # ```bash
 # pip install requests
 # ```
-{% endraw %}
+
 
 # **2. Store your API key:**
 

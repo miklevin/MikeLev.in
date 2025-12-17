@@ -2418,7 +2418,7 @@ Let's focus on:
     Instead of directly calling `step_0X_process`, these submit handlers will now initiate the size check.
 
     ```python
-    {% raw %}# In BotifyCsvDownloaderWorkflow, e.g., for step_02_submit:
+    # In BotifyCsvDownloaderWorkflow, e.g., for step_02_submit:
     async def step_02_submit(self, request):
         pip, db, steps, app_name = self.pipulate, self.db, self.steps, self.app_name
         step_id = 'step_02'
@@ -2452,7 +2452,7 @@ Let's focus on:
                 }}, 100);
             """),
             id=step_id
-        ){% endraw %}
+        )
     ```
 
 2.  **Create New Size Check Endpoints (e.g., `step_02_size_check`):**

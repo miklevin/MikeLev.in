@@ -1048,7 +1048,7 @@ async def step_01_submit(self, request):
 
 ```python
 # Uses hx-vals instead of URL params
-{% raw %}hx_vals=f"js:{{preserve: {str(preserve).lower()}}}"{% endraw %}
+hx_vals=f"js:{{preserve: {str(preserve).lower()}}}"
 
 # Proper placeholder chain
 Div(

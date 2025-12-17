@@ -273,7 +273,7 @@ Alright Denton Morris, it's time to watch time in reverse. Grab that lever and
 pull.
 
 ```diff
-{% raw %}HEAD is now at e217e64e About to apply patch with full traceback ability
+HEAD is now at e217e64e About to apply patch with full traceback ability
 commit e217e64e1b1cefdd6a9af72380c588f89b374dc8 (HEAD -> main)
 Author: Mike Levin <miklevin@gmail.com>
 Date:   Fri Oct 10 09:59:11 2025 -0400
@@ -6430,7 +6430,7 @@ foo_files.py
 171:# /home/mike/repos/pipulate/tools/advanced_automation_tools.py
 214:# /home/mike/repos/pipulate/tools/advanced_automation_tools.py
 
-[mike@nixos:~/repos/pipulate]${% endraw %}
+[mike@nixos:~/repos/pipulate]$
 ```
 
 Yup. This'll be easy. We can ignore the patch and we don't need the ones in

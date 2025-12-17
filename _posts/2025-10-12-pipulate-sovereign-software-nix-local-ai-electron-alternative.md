@@ -17,7 +17,7 @@ layout: post
 sort_order: 1
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry, drawn from the author's 'Morning Pages' practice, captures a pivotal 'chisel-strike' in the evolution of Pipulate. It delves into the architectural philosophy driving the project—a deliberate move away from the resource-heavy Electron framework and the pervasive 'cash-register in the cloud' mentality. Here, the author articulates a vision for computational sovereignty, where local-first, Nix-powered tools empower individual developers and lay the groundwork for a truly AI-native software stack. The discussion then extends to the critical task of refining the very tools that enable AI collaboration, highlighting the continuous, iterative nature of building durable systems.
@@ -3504,4 +3504,4 @@ This entry is a powerful treatise for a specific approach to software developmen
 ### Next Step Prompts
 - Expand on the concept of 'Computational Sovereignty' as a standalone philosophy, drawing parallels to historical technological shifts and current data privacy concerns. What are its core tenets for the book?
 - Draft a dedicated section or a set of bullet points explaining Nix's role in achieving the 'Universe in a Folder' concept, tailored for a non-Nix-expert audience, using analogies if helpful.
-{% endraw %}
+

@@ -292,7 +292,7 @@ Let's refine and structure that argument, preserving your voice while adding a b
 You're right, the "whopping gap" in the LPvg stack has always been the client-side web. For decades, a Python web developer had to mentally juggle at least three distinct languages and paradigms to build a dynamic application:
 
 1.  **Python:** For all the server-side logic, database interaction, and business rules.
-2.  **A Templating Language (like Jinja2):** A separate, domain-specific language with its own syntax (`{% raw %}{{ variables }}` and `{% logic %}{% endraw %}`) for injecting Python data into HTML.
+2.  **A Templating Language (like Jinja2):** A separate, domain-specific language with its own syntax (`{{ variables }}` and `{% logic %}`) for injecting Python data into HTML.
 3.  **JavaScript:** For any client-side interactivity, from simple form validation to complex, single-page application (SPA) frameworks.
 
 This isn't just about knowing three languages; it's about the constant, draining **context switching** between them. Your tools, linters, and mental models have to shift every time you cross one of those boundaries. This "Three-Language Problem" made Python feel like a guest in its own house, always deferring to JavaScript for the final user-facing experience.
@@ -325,9 +325,9 @@ def get_items():
 
 ```html
 <ul>
-    {% raw %}{% for item in items %}
+    {% for item in items %}
         <li>{{ item }}</li>
-    {% endfor %}{% endraw %}
+    {% endfor %}
 </ul>
 ```
 

@@ -17,7 +17,7 @@ layout: post
 sort_order: 5
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry captures a pivotal debugging session within an AI-powered content generation pipeline. It meticulously details the journey from an initial JSON parsing error to architectural refinements, highlighting the critical interplay between prompt engineering, code idempotency, and the often-underestimated power of SQLite as a robust application file format. Follow along as we refine the human-AI collaborative workflow, ensuring both flexibility for content creators and structural integrity for automated processes.
@@ -752,4 +752,4 @@ This journal entry is an excellent example of iterative development and transpar
 ### Next Step Prompts
 - Develop a new `dom_tools.py` component to extract `seo_fields.md` (YAML front matter + markdown body) to further prime the AI model.
 - Draft a separate companion piece expanding on the 'Human-AI Craftsmanship Loop' as a development philosophy, perhaps with a diagram.
-{% endraw %}
+

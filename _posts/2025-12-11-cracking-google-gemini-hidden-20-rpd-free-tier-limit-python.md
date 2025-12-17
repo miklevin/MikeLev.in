@@ -19,7 +19,7 @@ layout: post
 sort_order: 1
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This journal entry chronicles an important debugging journey, transforming what initially appeared to be a simple rate limit adjustment into a deeper investigation of undocumented API behaviors. It serves as a methodology for developers in the Age of AI, illustrating how empirical testing and robust scripting can expose the true operational constraints of free-tier services. This blueprint details the process of discerning the precise limits, adapting code for resilience, and ultimately gaining a more sovereign understanding of cloud platform dependencies.
@@ -3097,5 +3097,5 @@ This entry is a pivotal example of practical problem-solving in the volatile lan
 ### Next Step Prompts
 - Develop a generalized `api_limit_mapper.py` script that takes an API endpoint and a set of test requests, automatically cycling through models/keys to empirically determine RPM/RPD/TPM limits and outputting a comprehensive report.
 - Expand the `contextualizer.py` to include a dynamic model selector based on available RPD/RPM limits, allowing the script to automatically switch to the most efficient model for a large batch run based on a pre-defined 'limit profile' JSON.
-{% endraw %}
+
 

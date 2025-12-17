@@ -484,7 +484,7 @@ def generate_uml_and_dot(target_file: str, project_name: str) -> Dict:
 
                 parts = label.strip('<>{} ').split('|')
                 class_name = sanitize_line(parts[0])
-{% raw %}                puml_lines.append(f"class {class_name} {{"){% endraw %}
+                puml_lines.append(f"class {class_name} {{")
 
                 if len(parts) > 1:
                     for attr in re.split(r'<br[^>]*>', parts[1]):

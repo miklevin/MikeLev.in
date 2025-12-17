@@ -23,17 +23,17 @@ SortableJS() requires presence of Script(type='module')
 External scripts can be included through the `fast_html()` wrapper, like so:
 
 ```python
-{% raw %}
+
 app, rt = fast_app(
     hdrs=(SortableJS())
 )
-{% endraw %}
+
 ```
 
 ...but this results in:
 
 ```html
-{% raw %}
+
  <!doctype html>
  <html>
    <head>
@@ -59,7 +59,7 @@ proc_htmx('.sortable', Sortable.create);
         }
     })();
 </script>   </head><!-- ... -->
-{% endraw %}
+
 ```
 
 ## JavaScript Import Error Fixed by Module Tag Addition
@@ -67,11 +67,11 @@ proc_htmx('.sortable', Sortable.create);
 ...which if you look close you will see that the JavaScript import is not wrapped in a `<script type="module">` tag resulting in `<head>`-leakage. In experimenting, I find that this will fix it:
 
 ```python
-{% raw %}
+
 app, rt = fast_app(
     hdrs=(SortableJS(), Script(type="module"))
 )
-{% endraw %}
+
 ```
 
 ## SortableJS Script Module Tag Wrapped Correctly Despite Empty Content
@@ -79,7 +79,7 @@ app, rt = fast_app(
 ...because even though it ends up with an empty script module tag, it also wraps the SortableJS one properly:
 
 ```html
-{% raw %}
+
  <!doctype html>
  <html>
    <head>
@@ -105,7 +105,7 @@ proc_htmx('.sortable', Sortable.create);
         }
     })();
 </script>   </head><!-- ... -->
-{% endraw %}
+
 ```
 
 It's a hack.
@@ -113,22 +113,22 @@ It's a hack.
 **Expected behavior**
 
 ```python
-{% raw %}
+
 app, rt = fast_app(
     hdrs=(SortableJS())
 )
-{% endraw %}
+
 ```
 
 ...should result in:
 
 ```html
-{% raw %}
+
 <script type="module">
 import {Sortable} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
 proc_htmx('.sortable', Sortable.create);
 </script>
-{% endraw %}
+
 ```
 
 **Environment Information**  
@@ -156,12 +156,12 @@ When using SortableJS with MiniDataAPI, updating multiple records' sortorder in 
 Create a custom function to handle batch updates:
 
 ```python
-{% raw %}
+
 def batch_update_sortorder(table, id_order_pairs):
     with table.db.transaction():  # Assuming transaction support
         for item_id, new_order in id_order_pairs:
             table.update(id=item_id, sortorder=new_order)
-{% endraw %}
+
 ```
 
 This function:
@@ -177,7 +177,7 @@ To reduce the number of updates:
 2. **Send minimal data**: Only send the IDs and new positions of items that actually changed.
 
 ```javascript
-{% raw %}
+
 sorter.on('sort', function(evt) {
     let changes = [];
     sorter.el.children.forEach((item, index) => {
@@ -190,7 +190,7 @@ sorter.on('sort', function(evt) {
         sendToServer(changes);
     }
 });
-{% endraw %}
+
 ```
 
 ## Server-Side Implementation
@@ -198,13 +198,13 @@ sorter.on('sort', function(evt) {
 On the server, process the changes:
 
 ```python
-{% raw %}
+
 @app.route('/update_order', methods=['POST'])
 def update_order():
     changes = request.json['changes']
     batch_update_sortorder(todos, [(change['id'], change['sortorder']) for change in changes])
     return jsonify(success=True)
-{% endraw %}
+
 ```
 
 ## Optimizations
@@ -212,7 +212,7 @@ def update_order():
 1. **Incremental Updates**: For large lists, update only the range of affected items:
 
 ```python
-{% raw %}
+
 def incremental_update(table, moved_item_id, old_position, new_position):
     with table.db.transaction():
         if new_position < old_position:
@@ -231,20 +231,20 @@ def incremental_update(table, moved_item_id, old_position, new_position):
                 table.update(id=item.id, sortorder=i-1)
         
         table.update(id=moved_item_id, sortorder=new_position)
-{% endraw %}
+
 ```
 
 {:start="2"}
 2. **Periodic Reordering**: Occasionally reorder all items to prevent gaps:
 
 ```python
-{% raw %}
+
 def reorder_all(table):
     items = table(order_by='sortorder')
     with table.db.transaction():
         for i, item in enumerate(items):
             table.update(id=item.id, sortorder=i)
-{% endraw %}
+
 ```
 
 By implementing these strategies, you can efficiently handle SortableJS reordering with MiniDataAPI, minimizing database operations while maintaining data consistency. This approach balances the limitations of MiniDataAPI with the need for efficient updates in a drag-and-drop interface.
@@ -256,7 +256,7 @@ By implementing these strategies, you can efficiently handle SortableJS reorderi
 **Me**: The drag-and-drop event is already occurring. I already have the scriptable tag in place:
 
 ```html
-{% raw %}
+
  <!doctype html>
  <html>
    <head>
@@ -281,7 +281,7 @@ proc_htmx('.sortable', Sortable.create);
             }, reloadInterval);
         }
     })();
-{% endraw %}
+
 ```
 
 ## Client-Side JavaScript Required for Full HTMX Functionality
@@ -293,7 +293,7 @@ Revise your instructions knowing I need the client-side JavaScript to get or pos
 Fast-forward to end of an epic adventure, and I am free from API-constraints when it's just passing stuff through. I can pass stuff through too! 
 
 ```python
-{% raw %}
+
 app, rt, (store, Store), (todos, Todo), (profiles, Profile) = fast_app(
     # ...
     hdrs=(
@@ -302,7 +302,7 @@ app, rt, (store, Store), (todos, Todo), (profiles, Profile) = fast_app(
     ),
     # ...
 )
-{% endraw %}
+
 ```
 
 ## Forcing Module Scripts in HTML Head Element Works
@@ -310,7 +310,7 @@ app, rt, (store, Store), (todos, Todo), (profiles, Profile) = fast_app(
 And so, I'm forcing it to include the ability to use module scripts, or else even the below stuff that I'm spewing in as raw JavaScript would leak out of the head element. This works...
 
 ```python
-{% raw %}
+
 def SortableJSWithUpdate(
     sel='.sortable',
     ghost_class='blue-background-class',
@@ -350,7 +350,7 @@ document.addEventListener('DOMContentLoaded', (event) => {{
 }});
 """
     return Script(src, type='module')
-{% endraw %}
+
 ```
 
 ## Carrying Out Client-Side htmx-Ajax Calls to Server Can Be Challenging
@@ -360,7 +360,7 @@ So, you might say I got that sorted, ahaha! Well, if you think those client-side
 Here's what the update endpoint looks like:
 
 ```python
-{% raw %}
+
 @rt('/update_todo_order', methods=['POST'])
 async def update_todo_order(values: dict):
     try:
@@ -370,7 +370,7 @@ async def update_todo_order(values: dict):
         return items
     except Exception as e:
         return str(e), 500  # Return the error message and a 500 status code
-{% endraw %}
+
 ```
 
 ## Implementing Sortable Todo List Items with MiniDataAPI Specification

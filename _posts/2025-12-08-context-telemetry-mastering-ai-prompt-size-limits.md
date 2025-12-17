@@ -16,7 +16,7 @@ layout: post
 sort_order: 1
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay explores an important, and often overlooked, challenge in effective AI collaboration: the physical constraints of human-AI interfaces. What began as a deep dive into building comprehensive AI context for the Pipulate system quickly evolved into a quest to understand and overcome browser-imposed prompt size limits, leading to the development of precise context telemetry tools for sovereign prompting in the Age of AI. This piece is a thread in the tapestry of evolving methodologies for reliable AI interaction.
@@ -3311,4 +3311,4 @@ This journal entry provides a fascinating window into the iterative process of b
 ### Next Step Prompts
 - Generate a Python script to automate the selection and trimming of context files from `foo_files.py` based on a target byte limit, prioritizing smaller, higher-value files (e.g., specific Python modules over large narrative articles).
 - Develop a strategy and initial code snippets for `prompt_foo.py` to intelligently segment an overly large prompt into multiple, sequentially numbered submissions for an AI, ensuring continuity of context across chunks.
-{% endraw %}
+

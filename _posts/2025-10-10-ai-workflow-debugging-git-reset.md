@@ -125,7 +125,7 @@ group: home
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
 
-{% raw %} $$ \frac{dy}{dx} = 2x $$ {% endraw %}
+ $$ \frac{dy}{dx} = 2x $$ 
 
 [mike@nixos:~/repos/MikeLev.in/_posts]$
 ```

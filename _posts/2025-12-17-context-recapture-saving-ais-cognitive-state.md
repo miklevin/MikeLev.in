@@ -18,7 +18,7 @@ layout: post
 sort_order: 2
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay explores an important step in evolving our `Prompt Fu` methodology, specifically addressing the challenge of AI "amnesia" when interacting with complex codebases. We delve into how the `prompt_foo.py` tool, which assembles rich context for AI, has been enhanced to include a "Context Recapture Protocol." This allows for the serialization and archiving of specific context configurations (`AI_PHOOEY_CHOP` entries) directly from the AI's output back into `foo_files.py`, effectively creating a "save point" for AI's cognitive state. This way of thinking transforms ad-hoc AI interactions into a structured, reproducible, and curatable process, moving us closer to a truly persistent AI coding partner.
@@ -1263,5 +1263,5 @@ This entry represents an important conceptual and practical advancement in build
 ### Next Step Prompts
 - Develop a `foo_files.py` template that includes commented examples of 'Purpose of context:' blocks and demonstrates how to organize different mission-specific context chunks.
 - Explore how the 'Context Recapture' protocol can be extended to include other forms of contextual data, such as database schemas, API definitions, or UI wireframes, potentially serializing these into different archival formats beyond file paths.
-{% endraw %}
+
 

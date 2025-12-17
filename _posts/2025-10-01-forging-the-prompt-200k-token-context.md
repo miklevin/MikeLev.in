@@ -81,7 +81,7 @@ that it generates the same file-order as my homepage index:
 ---
 layout: null
 ---
-{% raw %}<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{ site.url }}/</loc>
@@ -97,7 +97,7 @@ layout: null
       <priority>0.8</priority>
     </url>
   {% endfor %}
-</urlset>{% endraw %}
+</urlset>
 ```
 
 ---
@@ -109,7 +109,7 @@ correct reverse chronological order:
 ---
 layout: null
 ---
-{% raw %}<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>{{ site.url }}/</loc>
@@ -132,7 +132,7 @@ layout: null
     </url>
     {%- endfor -%}
   {%- endfor -%}
-</urlset>{% endraw %}
+</urlset>
 ```
 
 ...and also I got this nifty Python script to show my articles in reverse

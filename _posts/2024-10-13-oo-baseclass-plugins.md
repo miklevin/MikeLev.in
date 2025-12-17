@@ -733,7 +733,7 @@ def SortableJSWithUpdate(
 
 **Updated Code:**
 ```python
-{% raw %}
+
 src = f"""
 import {{Sortable}} from 'https://cdn.jsdelivr.net/npm/sortablejs/+esm';
 
@@ -765,7 +765,7 @@ document.addEventListener('DOMContentLoaded', (event) => {{
         }});
     }}
 }});
-{% endraw %}
+
 """
 ```
 

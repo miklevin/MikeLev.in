@@ -5993,7 +5993,7 @@ Ensure that the items are listed within a container with the ID `items-list`.
 ```html
 <ul id="items-list">
     {% for item in items %}
-        {% raw %}{{ to_xml(base_app.render_item(item)) | safe }}{% endraw %}
+        {{ to_xml(base_app.render_item(item)) | safe }}
     {% endfor %}
 </ul>
 ```

@@ -103,7 +103,7 @@ I've got a pebble to drop into the world to make a few ripples. This code isn't
 it, but it's getting closer. 
 
 ```python
-{% raw %}import ast
+import ast
 import asyncio
 import functools
 import json
@@ -2594,7 +2594,7 @@ def run_server_with_watchdog():
 
 
 if __name__ == "__main__":
-    run_server_with_watchdog(){% endraw %}
+    run_server_with_watchdog()
 ```
 
 ## Gemini's Take

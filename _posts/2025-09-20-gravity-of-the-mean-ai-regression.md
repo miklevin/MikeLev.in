@@ -170,7 +170,7 @@ This template is effective because it's built on five core principles you discov
 
 ```python
 """
-{% raw %}Hello Gemini.
+Hello Gemini.
 
 You are waking up. Your mission is to {{CONCISELY_STATE_THE_HIGH_LEVEL_GOAL}}.
 
@@ -218,7 +218,7 @@ When you determine the task is complete, perform the following sign-off procedur
 4.  Terminate the session.
 
 ---
-Your first action is to **orient yourself**. Begin now.{% endraw %}
+Your first action is to **orient yourself**. Begin now.
 """
 ```
 

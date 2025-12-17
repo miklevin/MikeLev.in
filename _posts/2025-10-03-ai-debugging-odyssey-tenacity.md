@@ -2616,7 +2616,7 @@ And we continue:
 
 And back to Gemini with the real fix:
 
-**Gemini CLI**: {% raw %}
+**Gemini CLI**: 
 
     ✦ The user's diff reveals the problem: the old generate_uml_and_dot function manually converted DOT to PUML syntax before calling plantuml, while the current 
       version incorrectly tries to make plantuml process the DOT file directly. I'll revert generate_uml_and_dot to its previous implementation. I'll also verify pydot 
@@ -2948,7 +2948,7 @@ And back to Gemini with the real fix:
     ╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
     │ >   Type your message or @path/to/file                                                                                                                          │
     ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-    ~/repos/pipulate (pippyfields*)                    no sandbox (see /docs)                      gemini-2.5-pro (88% context left)  | ✖ 1 error (ctrl+o for details){% endraw %}
+    ~/repos/pipulate (pippyfields*)                    no sandbox (see /docs)                      gemini-2.5-pro (88% context left)  | ✖ 1 error (ctrl+o for details)
 
 ---
 

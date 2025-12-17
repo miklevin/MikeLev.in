@@ -19,7 +19,7 @@ layout: post
 sort_order: 1
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This essay documents a pivotal moment in the ongoing development of the 'Forever Actualizer Machine'—a philosophy for building antifragile, sovereign AI workflows. What began as a strategic refactor to integrate Simon Willison's `pip install llm` for universal AI access quickly evolved into a deeper methodological refinement of `prompt_foo.py`, our self-aware context generation tool. This entry captures the journey from a simple technical decision to a profound reinforcement of principles: how engineering for clarity, agency, and accountability ensures that our digital creations, like the resilient 'Grass' in the ancient narrative, not only survive but thrive in the ever-shifting landscape of the Age of AI.
@@ -2969,4 +2969,4 @@ This entry is a cornerstone for the book. It doesn't just describe a technical s
 ### Next Step Prompts
 - Generate the `pipulate/core.py` and `requirements.in` code necessary to integrate Simon Willison's `llm` library, replacing the explicit Ollama and Gemini API biases with a unified interface.
 - Draft the 'AI Hello World' Notebook that progressively reveals Pipulate's capabilities, leveraging the newly integrated universal AI interface and adhering to the 'Tree vs. Grass' metaphor.
-{% endraw %}
+

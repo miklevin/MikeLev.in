@@ -443,7 +443,7 @@ For the search.json file, create it in your root directory:
 ---
 layout: null
 ---
-{% raw %}[
+[
   {% for post in site.posts %}
     {
       "title": {{ post.title | jsonify }},
@@ -454,7 +454,7 @@ layout: null
       {% if post.meta_description %}"description": {{ post.meta_description | jsonify }}{% endif %}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
-]{% endraw %}
+]
 ```
 
 This will create the index for lunr.js to search through, including your new meta fields.
@@ -487,7 +487,7 @@ Let's create the files needed for the search functionality:
 ---
 layout: null
 ---
-{% raw %}[
+[
   {% for post in site.posts %}
     {
       "title": {{ post.title | jsonify }},
@@ -498,7 +498,7 @@ layout: null
       {% if post.meta_description %}"description": {{ post.meta_description | jsonify }}{% endif %}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
-]{% endraw %}
+]
 ```
 
 2. Now, let's create a search.html page:

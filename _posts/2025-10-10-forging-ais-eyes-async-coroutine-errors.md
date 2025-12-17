@@ -197,7 +197,7 @@ With the sentinel in place, save the following as `patch.py`. This is the final 
 
 ```python
 # patch.py
-{% raw %}# patch.py
+# patch.py
 # This patch forges the new `browser_scrape_page` tool and refactors the 
 # Pipulate.scrape method to use it, completing the "eyes" feature.
 
@@ -1190,7 +1190,7 @@ Now that `secretsauce.test_advanced_scrape` is an `async` function, you need to 
     ```python
     await secretsauce.test_advanced_scrape(job)
     ```
-{% endraw %}
+
 -----
 
 That's it. Those two `await` keywords align the entire call stack, ensuring that the coroutine is actually executed and its result (the dictionary we expect) is returned.

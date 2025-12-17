@@ -336,7 +336,7 @@ async def step_05_submit(self, request):
                 "Copy Code", 
                 type="button",
                 _onclick=f"""
-{% raw %}                    (function() {{
+                    (function() {{
                         const textarea = document.getElementById('{textarea_id}');
                         navigator.clipboard.writeText(textarea.value)
                             .then(() => {{
@@ -390,7 +390,7 @@ async def step_05_submit(self, request):
         type="text/javascript"
     )
     
-    return Div(container, init_script){% endraw %}
+    return Div(container, init_script)
 ```
 
 Finally, we implemented a helper method to create and render Prism widgets:
@@ -416,7 +416,7 @@ def create_prism_widget(self, code, widget_id):
                 "Copy Code", 
                 type="button",
                 _onclick=f"""
-  {% raw %}                  (function() {{
+                    (function() {{
                         const textarea = document.getElementById('{textarea_id}');
                         navigator.clipboard.writeText(textarea.value)
                             .then(() => {{
@@ -470,7 +470,7 @@ def create_prism_widget(self, code, widget_id):
         type="text/javascript"
     )
     
-    return Div(container, init_script){% endraw %}
+    return Div(container, init_script)
 ```
 
 ### Key Implementation Features
@@ -817,7 +817,7 @@ def create_prism_widget(self, code, widget_id, language='javascript'):
                 "Copy Code", 
                 type="button",
                 _onclick=f"""
-  {% raw %}                  (function() {{
+                    (function() {{
                         const textarea = document.getElementById('{textarea_id}');
                         navigator.clipboard.writeText(textarea.value)
                             .then(() => {{
@@ -852,7 +852,7 @@ def create_prism_widget(self, code, widget_id, language='javascript'):
         type="text/javascript"
     )
     
-    return Div(container, init_script) {% endraw %}
+    return Div(container, init_script) 
 ```
 
 Key improvements:

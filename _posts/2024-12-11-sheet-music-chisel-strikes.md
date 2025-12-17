@@ -203,7 +203,7 @@ def render_completed_step(self, step_num: str, step_data: dict, prefix: str, lab
     return Card(
         f"{label}: {value} ✓",
         hx_post=f"{prefix}/return_to_step",
-        {% raw %}hx_vals=f'{{"step": "{step_num}"}}',{% endraw %}
+        hx_vals=f'{{"step": "{step_num}"}}',
         hx_target="#pipeline-container",
         hx_swap="outerHTML"
     )

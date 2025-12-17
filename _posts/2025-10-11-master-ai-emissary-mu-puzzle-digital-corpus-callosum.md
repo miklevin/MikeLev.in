@@ -21,7 +21,7 @@ layout: post
 sort_order: 2
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 This entry is a meta-commentary on the ongoing development of automated tooling for technical journaling, specifically exploring the evolving relationship between human intuition and AI's logical capabilities. It delves into the philosophical underpinnings of this collaboration, referencing seminal works like Iain McGilchrist's 'The Master and His Emissary' and Douglas Hofstadter's 'Gödel, Escher, Bach,' while documenting the iterative process of building a 'digital corpus callosum' for efficient human-AI synergy.
@@ -3752,4 +3752,4 @@ This journal entry is exceptionally rich, serving as both a technical update and
 ### Next Step Prompts
 - Refine `scrubber.py` into a robust `pre-commit` hook that automatically checks for and fixes `U+00A0` and similar non-standard characters in all committed Python files, with clear reporting.
 - Expand the `articleizer.py` to accept the JSON output from this prompt, automating the YAML front matter updates, introductory content prepending, and subheading insertions into a new Markdown post.
-{% endraw %}
+

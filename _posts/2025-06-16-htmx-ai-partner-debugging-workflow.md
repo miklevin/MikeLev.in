@@ -871,7 +871,7 @@ This method is the most broken, as it contains the core GSC logic. It needs to b
 
 ```python
 # plugins/130_link_graph2.py
-{% raw %}# --- REPLACE THE ENTIRE step_crawl_basic_submit METHOD ---
+# --- REPLACE THE ENTIRE step_crawl_basic_submit METHOD ---
 
     async def step_crawl_basic_submit(self, request):
         """Process the basic crawl data download submission."""
@@ -894,7 +894,7 @@ This method is the most broken, as it contains the core GSC logic. It needs to b
                 }}, 500);
             """),
             id=step_id
-        ){% endraw %}
+        )
 ```
 
 ### 2. Fix `step_crawl_basic_complete` Method
@@ -1029,7 +1029,7 @@ This method is the most broken, as it contains the core GSC logic. It needs to b
 # plugins/130_link_graph2.py
 # --- REPLACE THE ENTIRE step_crawl_basic_submit METHOD ---
 
-{% raw %}    async def step_crawl_basic_submit(self, request):
+    async def step_crawl_basic_submit(self, request):
         """Process the basic crawl data download submission."""
         pip, db, steps, app_name = (self.pipulate, self.db, self.steps, self.app_name)
         step_id = 'step_crawl_basic'
@@ -1050,7 +1050,7 @@ This method is the most broken, as it contains the core GSC logic. It needs to b
                 }}, 500);
             """),
             id=step_id
-        ){% endraw %}
+        )
 ```
 
 ### 2. Fix `step_crawl_basic_complete` Method
@@ -1255,7 +1255,7 @@ First, the core logic within the `step_crawl_basic` methods needs to be complete
 
 # --- REPLACE THE ENTIRE step_crawl_basic_submit METHOD ---
 
-{% raw %}    async def step_crawl_basic_submit(self, request):
+    async def step_crawl_basic_submit(self, request):
         """Process the basic crawl data download submission."""
         pip, db, steps, app_name = (self.pipulate, self.db, self.steps, self.app_name)
         step_id = 'step_crawl_basic'
@@ -1276,7 +1276,7 @@ First, the core logic within the `step_crawl_basic` methods needs to be complete
                 }}, 500);
             """),
             id=step_id
-        ){% endraw %}
+        )
 
 # --- REPLACE THE ENTIRE step_crawl_basic_complete METHOD ---
 

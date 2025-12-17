@@ -17,7 +17,7 @@ layout: post
 sort_order: 1
 ---
 
-{% raw %}
+
 ## Setting the Stage: Context for the Curious Book Reader
 
 Welcome, curious book reader, to another exploration of the 'Prompt Fu' methodology—a philosophy for precisely controlling the context fed to large language models. In this entry, we tackle a critical challenge: ensuring AI models don't get 'lost in the middle' of vast context windows. We'll uncover how the seemingly simple act of concatenating files can become a sophisticated indexing system, leveraging 'Absolute Path Certainty' and a hyper-detailed 'Manifest (Table of Contents)' to transform fuzzy understanding into deterministic insight. This isn't just about feeding more data; it's about structuring that data so the AI can navigate it with unprecedented accuracy, much like providing a detailed, byte-level map to a vast digital library.
@@ -1385,4 +1385,4 @@ This entry represents a significant evolution in managing large AI context windo
 ### Next Step Prompts
 - Develop a utility within Prompt Fu to auto-generate foo_files.py by analyzing git-tracked files and project dependencies, simplifying context curation.
 - Investigate integrating advanced semantic search capabilities directly into the Manifest (Table of Contents), allowing LLMs to query the context more intelligently than simple token matching.
-{% endraw %}
+

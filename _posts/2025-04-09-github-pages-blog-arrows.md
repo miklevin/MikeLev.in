@@ -203,7 +203,7 @@ layout: default
 author: Mike Levin
 ---
 
-{% raw %} <nav class="post-navigation top-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
+ <nav class="post-navigation top-nav" itemscope itemtype="https://schema.org/BreadcrumbList">
   {% if page.previous %}
     <div class="previous-post" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <span class="nav-label">Previous Post</span>
@@ -384,7 +384,7 @@ author: Mike Levin
 <div class="post-counter" style="text-align: center; margin: 20px 0; font-style: italic;">
   <span>Post {{ post_position }} of {{ total_posts_today }} for {{ page.date | date: '%B %-d, %Y' }}</span>
 </div>
-{% endif %} {% endraw %}
+{% endif %} 
 ```
 
 That all results on what many of you are now experiencing on this site. This is
@@ -395,7 +395,7 @@ article with `sort_order: 5` in the above example, given these are the most
 recent posts and there's nothing newer.
 
 ```liquid
-{% raw %} <div class="next-post">
+ <div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
     <span class="nav-label">Begin the Journey</span>
@@ -403,7 +403,7 @@ recent posts and there's nothing newer.
       <span>{{ first_post.title }}</span>
     </a>
   </div>
-</div> {% endraw %}
+</div> 
 ```
 
 **Me**: Please fix.
@@ -422,14 +422,14 @@ Read file: MikeLev.in/index.md
 I see the issue. Currently, your homepage has two instances of a navigation component that links to the first post (chronologically oldest post), but you want it to link to the latest post instead. The current code uses:
 
 ```liquid
-{% raw %}{% assign first_post = sorted_posts | last %}{% endraw %}
+{% assign first_post = sorted_posts | last %}
 ```
 
 Which is getting the last element of the sorted posts array (your first/oldest post). Let me edit the file to fix both instances:
 
 ```markdown
 // ... existing code ...
-{% raw %}{% assign sorted_posts = site.posts | sort: 'date' %}
+{% assign sorted_posts = site.posts | sort: 'date' %}
 {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.date | date: '%Y-%m-%d'" | reverse %}
 {% assign first_post = sorted_posts | last %}
 {% assign latest_day = grouped_posts | first %}
@@ -443,12 +443,12 @@ Which is getting the last element of the sorted posts array (your first/oldest p
     </a>
     <span class="nav-label">Begin the Journey</span>
   </div>
-</div>{% endraw %}
+</div>
 // ... existing code ...
 
 ---
 
-{% raw %}<div class="next-post">
+<div class="next-post">
   <div class="previous-post placeholder"></div>
   <div class="next-post">
     <span class="nav-label">Begin the Journey</span>
@@ -456,7 +456,7 @@ Which is getting the last element of the sorted posts array (your first/oldest p
       <span>{{ latest_post.title }}</span>
     </a>
   </div>
-</div>{% endraw %}
+</div>
 // ... existing code ...
 ```
 
@@ -541,7 +541,7 @@ Our custom navigation works like this:
 The key changes we made to `_layouts/post.html`:
 
 ```liquid
-{% raw %}{% comment %}
+{% comment %}
 Create a flat index of all posts in the correct sort order (same as in list.md)
 {% endcomment %}
 {% assign sorted_posts = site.posts | sort: 'date' %}
@@ -581,7 +581,7 @@ But flip the direction - "previous" is newer (lower index), "next" is older (hig
 {% if current_position > 0 %}
   {% assign next_position = current_position | minus: 1 %}
   {% assign custom_next = flat_index[next_position] %}
-{% endif %}{% endraw %}
+{% endif %}
 ```
 
 ### Technical Analysis: Why This Works

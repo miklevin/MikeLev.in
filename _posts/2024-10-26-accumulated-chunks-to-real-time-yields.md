@@ -981,14 +981,14 @@ reg_re_param("static", "ico|gif|jpg|jpeg|webm|css|js|woff|png|svg|mp4|webp|ttf|o
 @patch
 def static_route_exts(self:FastHTML, prefix='/', static_path='.', exts='static'):
     "Add a static route at URL path `prefix` with files from `static_path` and `exts` defined by `reg_re_param()`"
-    @self.route(f"{prefix}{% raw %}{{fname:path}}.{{ext:{exts}}}"){% endraw %}
+    @self.route(f"{prefix}{{fname:path}}.{{ext:{exts}}}")
     async def get(fname:str, ext:str): return FileResponse(f'{static_path}/{fname}.{ext}')
 
 # %% ../nbs/api/00_core.ipynb
 @patch
 def static_route(self:FastHTML, ext='', prefix='/', static_path='.'):
     "Add a static route at URL path `prefix` with files from `static_path` and single `ext` (including the '.')"
-    @self.route(f"{prefix}{% raw %}{{fname:path}}{% endraw %}{ext}")
+    @self.route(f"{prefix}{{fname:path}}{ext}")
     async def get(fname:str): return FileResponse(f'{static_path}/{fname}{ext}')
 
 # %% ../nbs/api/00_core.ipynb
@@ -2068,7 +2068,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                         id='msg-list',
                         cls='fade-in',
                         style=message_style,
-                        _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                     )
                 )
             
@@ -2080,7 +2080,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                         id='stream-content',
                         cls='fade-in',
                         style=message_style,
-                        _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                     )
                 )
             
@@ -2233,7 +2233,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                         id='msg-list',
                         cls='fade-in',
                         style=message_style,
-                        _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                     )
                 )
                 await u(
@@ -2242,7 +2242,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                         id='stream-content',
                         cls='fade-in',
                         style=message_style,
-                        _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                     )
                 )
             
@@ -2282,7 +2282,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                     id='msg-list',
                     cls='fade-in',
                     style=message_style,
-                    _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                    _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                 )
             )
 
@@ -2366,7 +2366,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                         id='msg-list',
                         cls='fade-in',
                         style=message_style,
-                        _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                     )
                 )
                 await u(
@@ -2375,7 +2375,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                         id='stream-content',
                         cls='fade-in',
                         style=message_style,
-                        _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                     )
                 )
             
@@ -2415,7 +2415,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                     id='msg-list',
                     cls='fade-in',
                     style=message_style,
-                    _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                    _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                 )
             )
 
@@ -2597,7 +2597,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                             id='stream-content',
                             cls='fade-in',
                             style=message_style,
-                            _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                            _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                         )
                     )
 
@@ -2609,7 +2609,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                 #             id='msg-list',
                 #             cls='fade-in',
                 #             style=message_style,
-                #             _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                #             _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                 #         )
                 #     )
 
@@ -2630,7 +2630,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                         id='msg-list',
                         cls='fade-in',
                         style=message_style,
-                        _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                        _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                     )
                 )
         else:
@@ -2646,7 +2646,7 @@ async def stream_chat(response, quick: bool = False, use_streaming: bool = False
                             id='msg-list',
                             cls='fade-in',
                             style=message_style,
-                            _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+                            _=f"this.scrollIntoView({{behavior: 'smooth'}});",
                         )
                     )
                 await asyncio.sleep(TYPING_DELAY)
@@ -2723,7 +2723,7 @@ for u in users.values():
             id='msg-list',
             cls='fade-in',
             style=message_style,
-            _=f"this.scrollIntoView({% raw %}{{behavior: 'smooth'}}{% endraw %});",
+            _=f"this.scrollIntoView({{behavior: 'smooth'}});",
         )
     )
 ```

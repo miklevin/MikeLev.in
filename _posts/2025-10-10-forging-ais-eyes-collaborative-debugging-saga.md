@@ -1080,7 +1080,7 @@ index f8fccf51..63d23d19 100644
 [mike@nixos:~/repos/pipulate]$
 ```
 
-And here's the output:{% raw %}
+And here's the output:
 
     --- 🧪 Starting Advanced Scrape Test Flight ---
       -> Target: https://www.client.com/shop/products/gender/product
@@ -2356,7 +2356,7 @@ Date:   Thu Oct 9 17:45:42 2025 -0400
 
     Creating a pip.scrape() wrapper
 
-[mike@nixos:~/repos/pipulate]${% endraw %}
+[mike@nixos:~/repos/pipulate]$
 ```
 
 ---
