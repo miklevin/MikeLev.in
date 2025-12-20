@@ -283,7 +283,7 @@ cache for the Web. It's not like database storage of everything is going away.
 It's just that the details of the indexing process change. Small-world-theory
 crawls can get data cached somewhere where the next small-world-theory crawl
 that takes a visitor through those well-trodden paths will come up faster
-because Akamai, CloudFlare or whatever. Maybe something else. Who knows? But
+because Akamai, Cloudflare or whatever. Maybe something else. Who knows? But
 it's just another take on crawl-and-index; sort of on-demand. They both have to
 be freshened. But if everyone has access to that same fast cache the playing
 field is leveled, Google's moat evaporates, and competitive differentiation

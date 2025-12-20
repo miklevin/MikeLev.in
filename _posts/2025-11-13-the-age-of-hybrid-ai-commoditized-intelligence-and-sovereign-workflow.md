@@ -766,7 +766,7 @@ satisfy the intent of the human or other user making the request of the
 Caching also comes into play here because while *crawl-and-index* attacks on
 Google's competitive moat may not make sense, not having to perform the exact
 same crawl the next time a *close enough* user inquiry happens saves money and
-thus technology like memcached and what CDN providers like Akamai and CloudFlare
+thus technology like memcached and what CDN providers like Akamai and Cloudflare
 do will explode. It's cheaper and easier to cache than to crawl-and-index.
 
 But the caches — or the proxies or whatever language you want to slap on it

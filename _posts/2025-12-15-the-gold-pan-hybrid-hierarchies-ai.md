@@ -96,7 +96,7 @@ features like ecommerce and stuff.
 
 The joke is that even for ecommerce, except for the most dynamic features that
 *really* need to be customized per-user, caches like those provided by CDNs
-(content distribution networks) like Akamai and CloudFlare turn dynamic websites
+(content distribution networks) like Akamai and Cloudflare turn dynamic websites
 (those written like programs) into static websites (plain HTML files) anyway! If
 it's not a CDN at the network's edge then it's proxies like Varnish at the
 network layer or even caches at the webserver application layer itself. Caching

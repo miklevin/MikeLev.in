@@ -338,7 +338,7 @@ app which literally does this by:
    employer-pokes here. Botify has its act together.
 3. Downloading the Client's *Log file data* — that elusive datapoint that's been
    taken away from most SEOs since the rise of CDNs (content distribution
-   networks like Akamai and CloudFlare) and the demise of WebPosition Gold. This
+   networks like Akamai and Cloudflare) and the demise of WebPosition Gold. This
    stuff is like yesterday to me and I still feel the loss of that
    super-important datapoint — *which Botify gives back!!!*
 

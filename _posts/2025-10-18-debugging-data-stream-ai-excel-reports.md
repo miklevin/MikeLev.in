@@ -155,7 +155,7 @@ still going all over the place. How does caching based on optimized hashing save
 so much money and thus drives up their use as a centerpiece of tech?
 
 Well, there's local caching in the app or browser. There's edge-of-network
-caching of static resources by CDNs like Akamai and CloudFlare. There's caching
+caching of static resources by CDNs like Akamai and Cloudflare. There's caching
 on the servers with Varnish and Memcached. And now with AI there's fancy new
 caching so already answered questions don't have to incur that expensive
 inference cost each time it's (closely) re-prompted.
