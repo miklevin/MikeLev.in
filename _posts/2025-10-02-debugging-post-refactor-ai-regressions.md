@@ -183,7 +183,7 @@ index a393eb09..d1ef58bc 100644
 ```
 
 ...so it's really a matter of replacing all instances of `self.db` with
-`self.pipulate.db` which in the `rg -l foo | xargs sed -i 'r/foo/bar/g' pattern
+`self.pipulate.db` which in the `rg -l foo | xargs sed -i 'r/foo/bar/g'` pattern
 it should be expressed as:
 
 ```bash
